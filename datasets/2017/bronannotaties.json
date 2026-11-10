@@ -1,0 +1,190 @@
+[
+  {
+    "id": "2017:bronannotatie:7.1.2",
+    "lijst": "2017",
+    "onderdeel_id": "2017:7.1.2",
+    "code": "7.1.2",
+    "veld": "procestermijn",
+    "bronvarianten": [
+      {
+        "bron_id": "2017-officieel",
+        "waarde": null,
+        "betekenis": "Lege PDF-cel, niet gelijkgesteld aan Nihil."
+      },
+      {
+        "bron_id": "2017-officiele-xls",
+        "waarde": "Nihil",
+        "betekenis": "Gepubliceerde Excel-variant."
+      }
+    ],
+    "bevinding": "PDF-procestermijn is leeg; XLS vermeldt Nihil. Niet automatisch ingevuld.",
+    "verwerking": "Procestermijn Nihil uit de officiële Excel, bevestigd door generiek resultaat 7.1; oorspronkelijke lege PDF-cel bewaard.",
+    "status_verwerking": "afgehandeld_door_bronvergelijking",
+    "belemmert_oplevering_dataset": false,
+    "bedoelde_broncorrectie": "niet_zelfstandig_vastgesteld",
+    "controleopdracht_gebruiker": "Afgehandeld. Geen verzoek meer om de lege PDF-cel als onopgelost inhoudelijk probleem te controleren.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        499.441,
+        1160,
+        544.274
+      ]
+    },
+    "aanvullende_bronnen": [
+      {
+        "bron_id": "2017-officieel",
+        "pdf_pagina": 32,
+        "bbox": [
+          73,
+          365.557,
+          785,
+          392.317
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2017:bronannotatie:7.1.3",
+    "lijst": "2017",
+    "onderdeel_id": "2017:7.1.3",
+    "code": "7.1.3",
+    "veld": "procestermijn",
+    "bronvarianten": [
+      {
+        "bron_id": "2017-officieel",
+        "waarde": null,
+        "betekenis": "Lege PDF-cel, niet gelijkgesteld aan Nihil."
+      },
+      {
+        "bron_id": "2017-officiele-xls",
+        "waarde": "Nihil",
+        "betekenis": "Gepubliceerde Excel-variant."
+      }
+    ],
+    "bevinding": "PDF-procestermijn is leeg; XLS vermeldt Nihil. Niet automatisch ingevuld.",
+    "verwerking": "Procestermijn Nihil uit de officiële Excel, bevestigd door generiek resultaat 7.1; oorspronkelijke lege PDF-cel bewaard.",
+    "status_verwerking": "afgehandeld_door_bronvergelijking",
+    "belemmert_oplevering_dataset": false,
+    "bedoelde_broncorrectie": "niet_zelfstandig_vastgesteld",
+    "controleopdracht_gebruiker": "Afgehandeld. Geen verzoek meer om de lege PDF-cel als onopgelost inhoudelijk probleem te controleren.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        544.274,
+        1160,
+        589.109
+      ]
+    },
+    "aanvullende_bronnen": [
+      {
+        "bron_id": "2017-officieel",
+        "pdf_pagina": 32,
+        "bbox": [
+          73,
+          392.317,
+          785,
+          419.107
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2017:bronannotatie:7.1.5",
+    "lijst": "2017",
+    "onderdeel_id": "2017:7.1.5",
+    "code": "7.1.5",
+    "veld": "procestermijn",
+    "bronvarianten": [
+      {
+        "bron_id": "2017-officieel",
+        "waarde": null,
+        "betekenis": "Lege PDF-cel, niet gelijkgesteld aan Nihil."
+      },
+      {
+        "bron_id": "2017-officiele-xls",
+        "waarde": "Nihil",
+        "betekenis": "Gepubliceerde Excel-variant."
+      }
+    ],
+    "bevinding": "PDF-procestermijn is leeg; XLS vermeldt Nihil. Niet automatisch ingevuld.",
+    "verwerking": "Procestermijn Nihil uit de officiële Excel, bevestigd door generiek resultaat 7.1; oorspronkelijke lege PDF-cel bewaard.",
+    "status_verwerking": "afgehandeld_door_bronvergelijking",
+    "belemmert_oplevering_dataset": false,
+    "bedoelde_broncorrectie": "niet_zelfstandig_vastgesteld",
+    "controleopdracht_gebruiker": "Afgehandeld. Geen verzoek meer om de lege PDF-cel als onopgelost inhoudelijk probleem te controleren.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        615.944,
+        1160,
+        660.778
+      ]
+    },
+    "aanvullende_bronnen": [
+      {
+        "bron_id": "2017-officieel",
+        "pdf_pagina": 32,
+        "bbox": [
+          73,
+          440.347,
+          785,
+          466.987
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2017:bronannotatie:7.1.6",
+    "lijst": "2017",
+    "onderdeel_id": "2017:7.1.6",
+    "code": "7.1.6",
+    "veld": "procestermijn",
+    "bronvarianten": [
+      {
+        "bron_id": "2017-officieel",
+        "waarde": null,
+        "betekenis": "Lege PDF-cel, niet gelijkgesteld aan Nihil."
+      },
+      {
+        "bron_id": "2017-officiele-xls",
+        "waarde": "Nihil",
+        "betekenis": "Gepubliceerde Excel-variant."
+      }
+    ],
+    "bevinding": "PDF-procestermijn is leeg; XLS vermeldt Nihil. Niet automatisch ingevuld.",
+    "verwerking": "Procestermijn Nihil uit de officiële Excel, bevestigd door generiek resultaat 7.1; oorspronkelijke lege PDF-cel bewaard.",
+    "status_verwerking": "afgehandeld_door_bronvergelijking",
+    "belemmert_oplevering_dataset": false,
+    "bedoelde_broncorrectie": "niet_zelfstandig_vastgesteld",
+    "controleopdracht_gebruiker": "Afgehandeld. Geen verzoek meer om de lege PDF-cel als onopgelost inhoudelijk probleem te controleren.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        660.778,
+        1160,
+        705.613
+      ]
+    },
+    "aanvullende_bronnen": [
+      {
+        "bron_id": "2017-officieel",
+        "pdf_pagina": 32,
+        "bbox": [
+          73,
+          466.987,
+          785,
+          493.743
+        ]
+      }
+    ]
+  }
+]

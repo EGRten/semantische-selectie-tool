@@ -1,0 +1,26 @@
+[
+  {
+    "term_a": "omgevingsvergunning",
+    "term_b": "bouwvergunning",
+    "reden": "Geen exacte equivalentie; omgevingsvergunning kan verschillende activiteiten omvatten.",
+    "status": "niet_als_exacte_equivalentie_overgenomen"
+  },
+  {
+    "term_a": "WOZ",
+    "term_b": "WOZ-bezwaar",
+    "reden": "WOZ is geen afkorting van WOZ-bezwaar.",
+    "status": "niet_als_exacte_equivalentie_overgenomen"
+  },
+  {
+    "term_a": "metadata",
+    "term_b": "Gegevens over gegevens",
+    "reden": "Zoekrelatie kan nuttig zijn; historische_benaming is zonder betekenisgeschiedenis geen bewezen relatietype.",
+    "status": "niet_als_exacte_equivalentie_overgenomen"
+  },
+  {
+    "term_a": "vergunning verleend",
+    "term_b": "11.1.1",
+    "reden": "Onderzoeksvoorbeeld veralgemeniseert een specifiek resultaat; geen koppeling op basis van dit voorbeeld.",
+    "status": "niet_als_exacte_equivalentie_overgenomen"
+  }
+]

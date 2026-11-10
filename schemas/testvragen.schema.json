@@ -1,0 +1,104 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "alternatieve_relevante_categorieen": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "alternatieven_uitputtend": {
+        "type": "boolean"
+      },
+      "beoordelingsstatus": {
+        "type": "string"
+      },
+      "bron": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "integer"
+              ]
+            }
+          },
+          "bron_id": {
+            "type": "string"
+          },
+          "eindbbox": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "eindpagina": {
+            "type": "integer"
+          },
+          "pdf_pagina": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "bbox",
+          "bron_id",
+          "pdf_pagina"
+        ],
+        "additionalProperties": false
+      },
+      "controleerbaar_bronfragment": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string",
+        "pattern": "^(1996-2012|2017|2020):"
+      },
+      "onzekerheden": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "toepasselijkheid_vastgesteld": {
+        "const": false
+      },
+      "type_zoekvraag": {
+        "type": "string"
+      },
+      "verwachte_relevante_categorieen": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "zoekintentie": {
+        "type": "string"
+      },
+      "zoekvraag": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "alternatieve_relevante_categorieen",
+      "alternatieven_uitputtend",
+      "beoordelingsstatus",
+      "bron",
+      "controleerbaar_bronfragment",
+      "id",
+      "onzekerheden",
+      "toepasselijkheid_vastgesteld",
+      "type_zoekvraag",
+      "verwachte_relevante_categorieen",
+      "zoekintentie",
+      "zoekvraag"
+    ],
+    "additionalProperties": false
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "testvragen — datasetformaat 0.2",
+  "minItems": 40
+}

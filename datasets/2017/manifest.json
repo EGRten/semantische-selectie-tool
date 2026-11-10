@@ -1,0 +1,135 @@
+{
+  "selectielijst_id": "2017",
+  "officiele_titel": "Selectielijst voor archiefbescheiden van gemeentelijke en intergemeentelijke organen opgemaakt of ontvangen vanaf 1 januari 2017",
+  "vaststellingsgegevens": {
+    "datum": "2017-06-23",
+    "publicatie": "Staatscourant 2017, 38013",
+    "kenmerk": "NA/2017/1217430"
+  },
+  "datasetversie": "1.0.0-eindpakket",
+  "generatiedatum": "2026-11-10",
+  "bronnenregister": [
+    {
+      "id": "2017-officieel",
+      "bestand": "../../bronnen/2017-officieel.bron.json",
+      "url": "https://www.nationaalarchief.nl/sites/default/files/field-file/selectielijsten/selectielijst_gemeenten_en_intergemeentelijke_organen_vastgesteld_stcrt_2017_38013.pdf",
+      "sha256": "9a99c298c47702693bf4dfc4aedff6ddca41c9a7f5cb90e8dbe7e8f57af52cbe",
+      "status": "Nationaal_Archief_download_2026-11-10",
+      "oorspronkelijk_bestand": "../../bronnen/2017.pdf",
+      "oorspronkelijke_sha256": "1c067c6591dfb9dbd9ca664ae5df8f33ae5d902feac62cb9e23f697cd485820a",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
+    },
+    {
+      "id": "2017-opgemaakt",
+      "bestand": "../../bronnen/2017-opgemaakt.bron.json",
+      "sha256": "cb0c5a4ff25af5e6d1817c3193b3774be519018dc5c5b2c719dbe4b1f0bc1188",
+      "status": "aangeleverd_opgemaakt_document; selectievelden_vergeleken_met_officiele_bron",
+      "oorspronkelijk_bestand": "../../bronnen/Selectielijst 2017.pdf",
+      "oorspronkelijke_sha256": "7398d4e499079ea6b988572fc6a80af33ff9e47cb6ae2f69ecc5a264741b7689",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
+    },
+    {
+      "id": "2017-rapport",
+      "bestand": "../../bronnen/2017-rapport.bron.json",
+      "sha256": "d5551e69d820c8534647ecd0d20d96142396f32a7d4e89745a76c39415af45d1",
+      "status": "Deep_Research_alleen_kandidaatbron",
+      "oorspronkelijk_bestand": "../../bronnen/rapport-2017.md",
+      "oorspronkelijke_sha256": "e062b163b75997c31b747767fdfca10651f2d1c3b023aa714f85eb57813d17f3",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
+    },
+    {
+      "id": "2017-officiele-xls",
+      "bestand": "../../bronnen/2017-officiele-xls.bron.json",
+      "url": "https://www.nationaalarchief.nl/sites/default/files/field-file/selectielijsten/selectielijst_gemeenten_opsomming_excel_versie_vastgesteld.xls",
+      "sha256": "efb1578d1331857cb3bc5ed3c60c7d3ef368ab767681761fdd46de10551544e8",
+      "status": "officiele_Excel; bronverschillen_zijn_niet_stilzwijgend_overschreven",
+      "oorspronkelijk_bestand": "../../bronnen/2017-xls.xls",
+      "oorspronkelijke_sha256": "9f4c0c18bd5c45a7859404cb636eebd537306b77a990d091d000783deff062de",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
+    }
+  ],
+  "aantallen": {
+    "structuuronderdelen": 334,
+    "rubrieken": 0,
+    "procestypen": 29,
+    "selectievoorschriften_of_resultaatregels": 305,
+    "actieve_regels": 305,
+    "vervallen_regels": 0,
+    "zoektermrelaties": 1342,
+    "officiele_termrelaties": 1191,
+    "brononderbouwde_alternatieve_termrelaties": 2,
+    "taalkundige_variantrelaties": 20,
+    "ai_voorgestelde_termrelaties": 129,
+    "relaties": 1647,
+    "testvragen": 54,
+    "records_met_open_bronvraag": 0,
+    "nog_niet_gevalideerde_zoekvoorstellen": 121,
+    "lege_aanvangsmomentvelden": 92,
+    "bronannotaties": 4,
+    "afgehandelde_bronvragen": 4
+  },
+  "validatiestatus": {
+    "technische_validatie": "geslaagd",
+    "bronverificatie": "alle_selectieregels_geautomatiseerd_en_gerichte_afwijkingenbeoordeling",
+    "integrale_menselijke_tweede_lezing": false,
+    "volledigheidscontrole": "onafhankelijke_proceskolom_inventaris_en_305_officiele_XLS_codes",
+    "open_bronvragen": 0,
+    "toepasselijkheidsbeslissingen_gevalideerd": false,
+    "semantische_volledigheid": "geen_onbegrensde_volledigheidsclaim; beschikbare_rapporttekst_verwerkt",
+    "status": "oplevering_afgerond_met_bronannotaties",
+    "aanvullende_controle": {
+      "records": 305,
+      "nieuwe_extractieafwijkingen": 0,
+      "methode": "zie_documentatie_aanvullende_broncontrole"
+    },
+    "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+    "verplichte_tweede_beoordelaar": false,
+    "afgehandelde_bronvragen": 4
+  },
+  "officiele_gegevens_volledigheid": "305_resultaatcodes_gedekt_met_vastgelegde_bronverschillen",
+  "beperkingen": [
+    "Geen automatische juridische of archivistische toepasselijkheidsbeslissing.",
+    "Aanvangsmomenten en voorwaarden blijven waar nodig in officiële tekst en algemene bepalingen staan; niet alle velden zijn afzonderlijk geïnterpreteerd.",
+    "AI-voorstellen blijven als voorstel herkenbaar; niet-gevalideerde voorstellen standaard uitsluiten.",
+    "Integrale tweede inhoudelijke beoordeling door een andere beoordelaar niet uitgevoerd."
+  ],
+  "sha256": {
+    "bepalingen.json": "b845acb1c6f4905d1b7f45f9e7034ff2cf294cfe0ff4286a1be36946cfe45df5",
+    "bronannotaties.json": "14e8fcbbd3a440e0f54d1865fb9ad3ee582cfcbe8e5509864c15885a6f21f967",
+    "codeinventaris.json": "ee9741467b72c3e9f8cb6e79b55c1be10d1c31be44cffdd73e927ed78176b45f",
+    "kandidaten-ongekoppeld.json": "59dc6d4ae8417becc5dc940b68e9ddf8a6028dba964977c31712f89c7dc3ca38",
+    "relaties.csv": "6fa31fed1b5d1d82c2d906c49ab74ca146d0b4572bc44660b80c56cc3fa73835",
+    "relaties.json": "6ce0a200c064cd7c976d31a8a26a47fec21cbc85c159e59d00319685fb2faac8",
+    "selectiegegevens.csv": "3c202ed7524f8076bad2fac0bee2c3ef7bcfcc5556600b06ab65927156275821",
+    "selectiegegevens.json": "eb6abfbcf289f25b2565b9767b7146304f34112657ab3a0ea47cec0b0ecc7d09",
+    "structuur.csv": "ad17e054bf912153e4bed3b3126d8a2f7d5b10e8004b5073177f7df3b6920ef9",
+    "structuur.json": "9cb6038704d169ac6a9e554ec8334308747cffe2d0c2b3bc7d318e6e46147647",
+    "testvragen.csv": "051d2a7bfd6cc740c0ceac226e52010196a76112ca93a6ea1fcce76cc2b00ad0",
+    "testvragen.json": "b5301f05ddc2807ab915283b78a60102c5cdd47881a71890c247e7079888c1af",
+    "validatie.json": "8e71bbf7c691f26ff7d44a573c2c4a6c771fe5bce847044f756ad714e0042779",
+    "wijzigingen.json": "c768d79ff21ec18052cacb01c4883af92f3fc1217e4e27e40feebc10433e286e",
+    "zoeklexicon.csv": "69491c306ab27ab606eb6014636f8dc6f73f85b2d3c3db0ac5868eba8d46e71c",
+    "zoeklexicon.json": "c2bfb0fe2b3c686971e76836b48792e2cfc3d2259eb4a27a55f24a3508968699"
+  },
+  "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+  "controleoverdracht": {
+    "werkboek": "../../controle/Controlewerkboek.xlsx",
+    "instructie": "../../controle/Controle-instructie.md",
+    "menselijke_oordelen_vooraf_ingevuld": false,
+    "formele_vrijgave_vereist_voor_oplevering": false,
+    "status": "afgerond",
+    "bevestigde_bronoordelen": 0
+  },
+  "publicatievoorbereiding": {
+    "versie": "1.0.0-publicatie.1",
+    "inhoudelijke_datasetversie": "1.0.0-eindpakket",
+    "privacy": "rolgebaseerde_pseudonimisering_controlemetadata",
+    "officiele_gegevens_gewijzigd": false,
+    "externe_bronbytes_niet_meegeleverd": true,
+    "volledige_bronopbouw_vergt_externe_inputs": true
+  }
+}

@@ -1,0 +1,268 @@
+[
+  {
+    "id": "2020:bronannotatie:19.1.19",
+    "lijst": "2020",
+    "onderdeel_id": "2020:19.1.19",
+    "code": "19.1.19",
+    "veld": "resultaattype",
+    "bronvarianten": [
+      {
+        "bron_id": "2020-officieel",
+        "waarde": "Archiefvernie- tiging",
+        "betekenis": "Letterlijk gepubliceerd resultaatlabel, ook al is de omschrijving inhoudelijk anders."
+      }
+    ],
+    "bevinding": "De officiële resultaatkolom luidt Archiefvernietiging, terwijl de omschrijving een ander onderwerp noemt. Letterlijk behouden, niet stilzwijgend vervangen door Verwerkt.",
+    "verwerking": "Archiefvernietiging is als gepubliceerd label behouden. Geen vervanging door Verwerkt.",
+    "status_verwerking": "bronweergave_bevestigd_door_gebruiker",
+    "belemmert_oplevering_dataset": false,
+    "bedoelde_broncorrectie": "niet_zelfstandig_vastgesteld",
+    "controleopdracht_gebruiker": "Afgerond: bronweergave door gebruiker bevestigd.",
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        247.589,
+        1160,
+        292.424
+      ]
+    },
+    "aanvullende_bronnen": [],
+    "menselijke_bevestiging": {
+      "beoordelaar": "inhoudelijke_beoordelaar",
+      "datum": "2026-11-10",
+      "oordeel": "Bronafwijking correct vastgelegd",
+      "scope": "Bevestiging van de weergave van de officiële bron; geen officiële rectificatie en geen integrale beoordeling van overige recordvelden.",
+      "herkomst": "vastgelegde_menselijke_broncontrole"
+    }
+  },
+  {
+    "id": "2020:bronannotatie:19.1.20",
+    "lijst": "2020",
+    "onderdeel_id": "2020:19.1.20",
+    "code": "19.1.20",
+    "veld": "resultaattype",
+    "bronvarianten": [
+      {
+        "bron_id": "2020-officieel",
+        "waarde": "Archiefvernie- tiging",
+        "betekenis": "Letterlijk gepubliceerd resultaatlabel, ook al is de omschrijving inhoudelijk anders."
+      }
+    ],
+    "bevinding": "De officiële resultaatkolom luidt Archiefvernietiging, terwijl de omschrijving een ander onderwerp noemt. Letterlijk behouden, niet stilzwijgend vervangen door Verwerkt.",
+    "verwerking": "Archiefvernietiging is als gepubliceerd label behouden. Geen vervanging door Verwerkt.",
+    "status_verwerking": "bronweergave_bevestigd_door_gebruiker",
+    "belemmert_oplevering_dataset": false,
+    "bedoelde_broncorrectie": "niet_zelfstandig_vastgesteld",
+    "controleopdracht_gebruiker": "Afgerond: bronweergave door gebruiker bevestigd.",
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        292.424,
+        1160,
+        319.259
+      ]
+    },
+    "aanvullende_bronnen": [],
+    "menselijke_bevestiging": {
+      "beoordelaar": "inhoudelijke_beoordelaar",
+      "datum": "2026-11-10",
+      "oordeel": "Bronafwijking correct vastgelegd",
+      "scope": "Bevestiging van de weergave van de officiële bron; geen officiële rectificatie en geen integrale beoordeling van overige recordvelden.",
+      "herkomst": "vastgelegde_menselijke_broncontrole"
+    }
+  },
+  {
+    "id": "2020:bronannotatie:19.1.21",
+    "lijst": "2020",
+    "onderdeel_id": "2020:19.1.21",
+    "code": "19.1.21",
+    "veld": "resultaattype",
+    "bronvarianten": [
+      {
+        "bron_id": "2020-officieel",
+        "waarde": "Archiefvernie- tiging",
+        "betekenis": "Letterlijk gepubliceerd resultaatlabel, ook al is de omschrijving inhoudelijk anders."
+      }
+    ],
+    "bevinding": "De officiële resultaatkolom luidt Archiefvernietiging, terwijl de omschrijving een ander onderwerp noemt. Letterlijk behouden, niet stilzwijgend vervangen door Verwerkt.",
+    "verwerking": "Archiefvernietiging is als gepubliceerd label behouden. Geen vervanging door Verwerkt.",
+    "status_verwerking": "bronweergave_bevestigd_door_gebruiker",
+    "belemmert_oplevering_dataset": false,
+    "bedoelde_broncorrectie": "niet_zelfstandig_vastgesteld",
+    "controleopdracht_gebruiker": "Afgerond: bronweergave door gebruiker bevestigd.",
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        319.259,
+        1160,
+        346.094
+      ]
+    },
+    "aanvullende_bronnen": [],
+    "menselijke_bevestiging": {
+      "beoordelaar": "inhoudelijke_beoordelaar",
+      "datum": "2026-11-10",
+      "oordeel": "Bronafwijking correct vastgelegd",
+      "scope": "Bevestiging van de weergave van de officiële bron; geen officiële rectificatie en geen integrale beoordeling van overige recordvelden.",
+      "herkomst": "vastgelegde_menselijke_broncontrole"
+    }
+  },
+  {
+    "id": "2020:bronannotatie:19.1.22",
+    "lijst": "2020",
+    "onderdeel_id": "2020:19.1.22",
+    "code": "19.1.22",
+    "veld": "resultaattype",
+    "bronvarianten": [
+      {
+        "bron_id": "2020-officieel",
+        "waarde": "Archiefvernie- tiging",
+        "betekenis": "Letterlijk gepubliceerd resultaatlabel, ook al is de omschrijving inhoudelijk anders."
+      }
+    ],
+    "bevinding": "De officiële resultaatkolom luidt Archiefvernietiging, terwijl de omschrijving een ander onderwerp noemt. Letterlijk behouden, niet stilzwijgend vervangen door Verwerkt.",
+    "verwerking": "Archiefvernietiging is als gepubliceerd label behouden. Geen vervanging door Verwerkt.",
+    "status_verwerking": "bronweergave_bevestigd_door_gebruiker",
+    "belemmert_oplevering_dataset": false,
+    "bedoelde_broncorrectie": "niet_zelfstandig_vastgesteld",
+    "controleopdracht_gebruiker": "Afgerond: bronweergave door gebruiker bevestigd.",
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        346.094,
+        1160,
+        372.929
+      ]
+    },
+    "aanvullende_bronnen": [],
+    "menselijke_bevestiging": {
+      "beoordelaar": "inhoudelijke_beoordelaar",
+      "datum": "2026-11-10",
+      "oordeel": "Bronafwijking correct vastgelegd",
+      "scope": "Bevestiging van de weergave van de officiële bron; geen officiële rectificatie en geen integrale beoordeling van overige recordvelden.",
+      "herkomst": "vastgelegde_menselijke_broncontrole"
+    }
+  },
+  {
+    "id": "2020:bronannotatie:19.1.23",
+    "lijst": "2020",
+    "onderdeel_id": "2020:19.1.23",
+    "code": "19.1.23",
+    "veld": "resultaattype",
+    "bronvarianten": [
+      {
+        "bron_id": "2020-officieel",
+        "waarde": "Archiefvernie- tiging",
+        "betekenis": "Letterlijk gepubliceerd resultaatlabel, ook al is de omschrijving inhoudelijk anders."
+      }
+    ],
+    "bevinding": "De officiële resultaatkolom luidt Archiefvernietiging, terwijl de omschrijving een ander onderwerp noemt. Letterlijk behouden, niet stilzwijgend vervangen door Verwerkt.",
+    "verwerking": "Archiefvernietiging is als gepubliceerd label behouden. Geen vervanging door Verwerkt.",
+    "status_verwerking": "bronweergave_bevestigd_door_gebruiker",
+    "belemmert_oplevering_dataset": false,
+    "bedoelde_broncorrectie": "niet_zelfstandig_vastgesteld",
+    "controleopdracht_gebruiker": "Afgerond: bronweergave door gebruiker bevestigd.",
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        372.929,
+        1160,
+        399.76
+      ]
+    },
+    "aanvullende_bronnen": [],
+    "menselijke_bevestiging": {
+      "beoordelaar": "inhoudelijke_beoordelaar",
+      "datum": "2026-11-10",
+      "oordeel": "Bronafwijking correct vastgelegd",
+      "scope": "Bevestiging van de weergave van de officiële bron; geen officiële rectificatie en geen integrale beoordeling van overige recordvelden.",
+      "herkomst": "vastgelegde_menselijke_broncontrole"
+    }
+  },
+  {
+    "id": "2020:bronannotatie:19.1.24",
+    "lijst": "2020",
+    "onderdeel_id": "2020:19.1.24",
+    "code": "19.1.24",
+    "veld": "resultaattype",
+    "bronvarianten": [
+      {
+        "bron_id": "2020-officieel",
+        "waarde": "Archiefvernie- tiging",
+        "betekenis": "Letterlijk gepubliceerd resultaatlabel, ook al is de omschrijving inhoudelijk anders."
+      }
+    ],
+    "bevinding": "De officiële resultaatkolom luidt Archiefvernietiging, terwijl de omschrijving een ander onderwerp noemt. Letterlijk behouden, niet stilzwijgend vervangen door Verwerkt.",
+    "verwerking": "Archiefvernietiging is als gepubliceerd label behouden. Geen vervanging door Verwerkt.",
+    "status_verwerking": "bronweergave_bevestigd_door_gebruiker",
+    "belemmert_oplevering_dataset": false,
+    "bedoelde_broncorrectie": "niet_zelfstandig_vastgesteld",
+    "controleopdracht_gebruiker": "Afgerond: bronweergave door gebruiker bevestigd.",
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        399.76,
+        1160,
+        432.595
+      ]
+    },
+    "aanvullende_bronnen": [],
+    "menselijke_bevestiging": {
+      "beoordelaar": "inhoudelijke_beoordelaar",
+      "datum": "2026-11-10",
+      "oordeel": "Bronafwijking correct vastgelegd",
+      "scope": "Bevestiging van de weergave van de officiële bron; geen officiële rectificatie en geen integrale beoordeling van overige recordvelden.",
+      "herkomst": "vastgelegde_menselijke_broncontrole"
+    }
+  },
+  {
+    "id": "2020:bronannotatie:22.1.3",
+    "lijst": "2020",
+    "onderdeel_id": "2020:22.1.3",
+    "code": "22.1.3",
+    "veld": "toelichting",
+    "bronvarianten": [
+      {
+        "bron_id": "2020-officieel",
+        "waarde": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende ge-\nfrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar",
+        "betekenis": "Zichtbaar afgebroken bronpassage."
+      }
+    ],
+    "bevinding": "De toelichting eindigt in de officiële PDF midden in een opsomming bij \"geldige of onbruikbaar\". Niet aangevuld vanuit 2017.",
+    "verwerking": "Alle zichtbare tekst is behouden; de ontbrekende opsomming is niet aangevuld.",
+    "status_verwerking": "bronweergave_bevestigd_door_gebruiker",
+    "belemmert_oplevering_dataset": false,
+    "bedoelde_broncorrectie": "niet_zelfstandig_vastgesteld",
+    "controleopdracht_gebruiker": "Afgerond: bronweergave door gebruiker bevestigd.",
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        202.754,
+        1160,
+        235.589
+      ]
+    },
+    "aanvullende_bronnen": [],
+    "menselijke_bevestiging": {
+      "beoordelaar": "inhoudelijke_beoordelaar",
+      "datum": "2026-11-10",
+      "oordeel": "Bronafwijking correct vastgelegd",
+      "scope": "Bevestiging van de weergave van de officiële bron; geen officiële rectificatie en geen integrale beoordeling van overige recordvelden.",
+      "herkomst": "vastgelegde_menselijke_broncontrole"
+    }
+  }
+]

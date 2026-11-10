@@ -1,0 +1,203 @@
+{
+  "methode": "Canonieke inhoudelijke JSON-vergelijking; bij selectiegegevens alleen verificatie uitgesloten en afzonderlijk gecontroleerd op privacywijzigingen. Alle overige officiële velden ongewijzigd.",
+  "inhoudelijke_hashes": {
+    "1996-2012": {
+      "bepalingen": "1fc12d2c8618b75087cd0689e95cde1855b74401a2578a97daf7527c46326249",
+      "codeinventaris": "7d535623064385046c1dc9f94558a772ea08b796f600823ea7f3489f777540b3",
+      "kandidaten-ongekoppeld": "fd1bcb4e75101b0d26d1a064094b6bbd1cb3a1374229b7f8d689b78c129183b2",
+      "relaties": "da944654abccae2faf7aff13706e5a8628d2642114836942f77bd67473822d3a",
+      "rubriekcontext": "ce99bdb17867b8a62e1b2312367ed3a9253c9f27ebf199e25afdb45e0a2bb435",
+      "selectiegegevens": "59d05e0e2a68959e6999d750eb14c5dea74baf5cecd310e0766e5a1b0ed0bf70",
+      "structuur": "1efbe58b96b89149a554ee7e2f47fe2a4ecda5bf1610ad92013ae6c01b861495",
+      "testvragen": "a8754594a86956f41f776e57f0b5b7b551f40a88237cecff71323e72b7ecdb13",
+      "zoeklexicon": "82e23a8b88988e8e406f5a46f348e539f9d53ff23100ef5df1a14eb06c3118ce"
+    },
+    "2017": {
+      "bepalingen": "cbed21c5889cdfbcb98d674efb0173b238b35bc93852a8e50578533d5786eaea",
+      "codeinventaris": "59816ebfb84c04391b0ffbba625650c9153a5196cdd8a59377d5b8e8f3f4e237",
+      "kandidaten-ongekoppeld": "26404e0cc2efe409af16b94b6d7600125d61f0a6ada11c3030fa84b3f45791c5",
+      "relaties": "d7b9f765ff5fe5e32c918ada2a4c7b215ac1cefe8f5938d14af546636ff1bcef",
+      "selectiegegevens": "21e915f4c50ceb4b351efb1e7430ae964051082afa782cb3d6b364f6109db8b4",
+      "structuur": "6f06a5fbe9e291ffe64807565522202b96dec75442449b5a7e7ae4d86ccab1e8",
+      "testvragen": "a97b202e5d9fa879b1749672ea399533ab83333eaafdb9fd55b739d54e0cc1d9",
+      "wijzigingen": "d958bb4ed74d67d68a9268d9cea978f76b272dac54e569c7335f8ac7b19786a0",
+      "zoeklexicon": "1d6412b8a9101fedb3c028af5ab0346322f3ef1a0c5cc5eb5188d7dfbccebd65"
+    },
+    "2020": {
+      "bepalingen": "851aa23a11dc5f826ce913d67dfccead697e27f96065129829119e58f576545b",
+      "codeinventaris": "fc70cd624a438e1a49a514cbdc607763bb96a1985e203981727a188c9a2bf117",
+      "kandidaten-ongekoppeld": "ae60c461e538996f61f7763d0b8d9a3135fa17fb1b012182249240880bc1ca44",
+      "relaties": "16be4170fecca8b1b690a6d1de1943d1531701467e6080a6c297a884e49ef354",
+      "selectiegegevens": "c12112d1a312ae349058fd01d03320b5fe7237bbd15beb3616d1f1405cd827cd",
+      "structuur": "fcac14ea16d62da9c32e5610d3bcc41ccd2795364785216b8c1316624cb8b153",
+      "testvragen": "120435b0fa0f7cb2355163103917092fb56999b9a1df525cbad71e616aab3d2b",
+      "wijzigingen": "f5be44e1cea5055dc3b270c048c5b2ce332112350fcfc678ffcae13527bc69a0",
+      "zoeklexicon": "532758d7b8761efeb4afb843c64faf5a950422e843f8ac07272966890705ba7d"
+    }
+  },
+  "vergelijkingen": [
+    {
+      "lijst": "1996-2012",
+      "bestand": "bepalingen.json",
+      "inhoudelijk_identiek": true,
+      "records": 120
+    },
+    {
+      "lijst": "1996-2012",
+      "bestand": "codeinventaris.json",
+      "inhoudelijk_identiek": true,
+      "records": null
+    },
+    {
+      "lijst": "1996-2012",
+      "bestand": "kandidaten-ongekoppeld.json",
+      "inhoudelijk_identiek": true,
+      "records": 56
+    },
+    {
+      "lijst": "1996-2012",
+      "bestand": "relaties.json",
+      "inhoudelijk_identiek": true,
+      "records": 1111
+    },
+    {
+      "lijst": "1996-2012",
+      "bestand": "rubriekcontext.json",
+      "inhoudelijk_identiek": true,
+      "records": 90
+    },
+    {
+      "lijst": "1996-2012",
+      "bestand": "selectiegegevens.json",
+      "inhoudelijk_identiek": true,
+      "records": 494
+    },
+    {
+      "lijst": "1996-2012",
+      "bestand": "structuur.json",
+      "inhoudelijk_identiek": true,
+      "records": 108
+    },
+    {
+      "lijst": "1996-2012",
+      "bestand": "testvragen.json",
+      "inhoudelijk_identiek": true,
+      "records": 55
+    },
+    {
+      "lijst": "1996-2012",
+      "bestand": "zoeklexicon.json",
+      "inhoudelijk_identiek": true,
+      "records": 1005
+    },
+    {
+      "lijst": "2017",
+      "bestand": "bepalingen.json",
+      "inhoudelijk_identiek": true,
+      "records": 155
+    },
+    {
+      "lijst": "2017",
+      "bestand": "codeinventaris.json",
+      "inhoudelijk_identiek": true,
+      "records": 305
+    },
+    {
+      "lijst": "2017",
+      "bestand": "kandidaten-ongekoppeld.json",
+      "inhoudelijk_identiek": true,
+      "records": 118
+    },
+    {
+      "lijst": "2017",
+      "bestand": "relaties.json",
+      "inhoudelijk_identiek": true,
+      "records": 1647
+    },
+    {
+      "lijst": "2017",
+      "bestand": "selectiegegevens.json",
+      "inhoudelijk_identiek": true,
+      "records": 305
+    },
+    {
+      "lijst": "2017",
+      "bestand": "structuur.json",
+      "inhoudelijk_identiek": true,
+      "records": 334
+    },
+    {
+      "lijst": "2017",
+      "bestand": "testvragen.json",
+      "inhoudelijk_identiek": true,
+      "records": 54
+    },
+    {
+      "lijst": "2017",
+      "bestand": "wijzigingen.json",
+      "inhoudelijk_identiek": true,
+      "records": 16
+    },
+    {
+      "lijst": "2017",
+      "bestand": "zoeklexicon.json",
+      "inhoudelijk_identiek": true,
+      "records": 1342
+    },
+    {
+      "lijst": "2020",
+      "bestand": "bepalingen.json",
+      "inhoudelijk_identiek": true,
+      "records": 113
+    },
+    {
+      "lijst": "2020",
+      "bestand": "codeinventaris.json",
+      "inhoudelijk_identiek": true,
+      "records": 346
+    },
+    {
+      "lijst": "2020",
+      "bestand": "kandidaten-ongekoppeld.json",
+      "inhoudelijk_identiek": true,
+      "records": 166
+    },
+    {
+      "lijst": "2020",
+      "bestand": "relaties.json",
+      "inhoudelijk_identiek": true,
+      "records": 2092
+    },
+    {
+      "lijst": "2020",
+      "bestand": "selectiegegevens.json",
+      "inhoudelijk_identiek": true,
+      "records": 346
+    },
+    {
+      "lijst": "2020",
+      "bestand": "structuur.json",
+      "inhoudelijk_identiek": true,
+      "records": 375
+    },
+    {
+      "lijst": "2020",
+      "bestand": "testvragen.json",
+      "inhoudelijk_identiek": true,
+      "records": 55
+    },
+    {
+      "lijst": "2020",
+      "bestand": "wijzigingen.json",
+      "inhoudelijk_identiek": true,
+      "records": 26
+    },
+    {
+      "lijst": "2020",
+      "bestand": "zoeklexicon.json",
+      "inhoudelijk_identiek": true,
+      "records": 1746
+    }
+  ],
+  "bronannotaties": "Conclusies, codes, status, bronvarianten en verwerking gelijk; alleen menselijke actor- en provenancevelden gepseudonimiseerd."
+}

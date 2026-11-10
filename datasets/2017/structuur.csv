@@ -1,0 +1,531 @@
+﻿benaming,bron,code,id,parent_id,toelichting,type,volgorde
+Instellen en inrichten organisatie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 57.424, 1160, 102.259]}",1,2017:1,,"Dit procestype betreft het instellen van een nieuw orga
+nisatieonderdeel of een nieuw orgaan waar het orgaan in
+deelneemt. Dit procestype betreft eveneens het inrichten
+van het eigen orgaan. Dit kan kleinschalig plaatsvinden bij
+voorbeeld het wijzigen van de uitvoering van een wettelijke
+taak of grootschalig wanneer er een organisatiewijziging
+wordt doorgevoerd.",procestype,1
+Ingericht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 57.424, 1160, 102.259]}",1.1,2017:1.1,2017:1,Invoering nieuwe werkwijze,generiek_resultaat,2
+Inrichten of wijzigen met een organisatie brede impact,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 102.259, 1160, 147.094]}",1.1.1,2017:1.1.1,2017:1.1,Organisatiewijziging,specifiek_resultaat,3
+Gemeentewapen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 147.094, 1160, 191.928]}",1.1.2,2017:1.1.2,2017:1.1,,specifiek_resultaat,4
+Wijziging inrichting BRP systeem,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 191.928, 1160, 236.763]}",1.1.3,2017:1.1.3,2017:1.1,,specifiek_resultaat,5
+Ingesteld,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 236.763, 1160, 281.598]}",1.2,2017:1.2,2017:1,"Onafhankelijke adviescommissie, nieuw gemeentelijk or
+gaan, gemeenschappelijke regeling, commissie, platform of
+eerste deelname hieraan",generiek_resultaat,6
+Opgeheven,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 281.598, 1160, 326.433]}",1.3,2017:1.3,2017:1,"Onafhankelijke adviescommissie, nieuw gemeentelijk or
+gaan, gemeenschappelijke regeling, commissie, platform of
+beëindiging deelname hieraan",generiek_resultaat,7
+Niet doorge gaan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 326.433, 1160, 371.268]}",1.4,2017:1.4,2017:1,,generiek_resultaat,8
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 371.268, 1160, 416.101]}",1.5,2017:1.5,2017:1,,generiek_resultaat,9
+Beleid en regelgeving opstellen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 416.101, 1160, 478.936]}",2,2017:2,,"Wanneer een beleidsstuk betrekking heeft op een bepaalde
+afgebakende periode vormt het een beleidsplan en valt het
+onder het procestype ‘Plan opstellen’. In een beleidsregel
+geeft een orgaan aan hoe een bepaalde bevoegdheid zal
+worden uitgevoerd. Bij het nemen van veel voorkomende
+beslissingen hoeft het orgaan niet telkens haar beleid of
+haar uitvoering van hogere wet- en regelgeving uit te
+leggen, maar kan zij verwijzen naar de bekendgemaakte
+beleidsregel. Deze vorm van regelgeving valt wel onder
+dit procestype.",procestype,10
+Vastgesteld,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 416.101, 1160, 478.936]}",2.1,2017:2.1,2017:2,"Dit gaat om processen op het gebied van bedrijfsvoering o.a.
+functiewaardering, instemmingsverzoek ondernemingsraad",generiek_resultaat,11
+Beleid met een externe werking,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 478.936, 1160, 541.771]}",2.1.1,2017:2.1.1,2017:2.1,Dit gaat om beleid m.b.t. taakuitvoering,specifiek_resultaat,12
+Niet doorge gaan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 541.771, 1160, 604.606]}",2.2,2017:2.2,2017:2,,generiek_resultaat,13
+Ingetrokken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 604.606, 1160, 667.439]}",2.3,2017:2.3,2017:2,Dit gaat om processen op het gebied van bedrijfsvoering,generiek_resultaat,14
+Beleid met een externe werking,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 667.439, 1160, 730.274]}",2.3.1,2017:2.3.1,2017:2.3,Dit gaat om beleid m.b.t. taakuitvoering,specifiek_resultaat,15
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 27, ""bbox"": [29, 730.274, 1160, 805]}",2.4,2017:2.4,2017:2,,generiek_resultaat,16
+Plannen opstellen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 57.424, 1160, 84.259]}",3,2017:3,,"Dit procestype heeft betrekking op het concreet invul
+len van algemene kaders die in beleidsstukken worden
+geschetst voor een afgebakende periode. Het orgaan stelt
+hiervoor een plan op",procestype,17
+Vastgesteld,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 57.424, 1160, 84.259]}",3.1,2017:3.1,2017:3,"Dit gaat om processen op het gebied van bedrijfsvoering: b.v.
+persoonlijk ontwikkelingsplan, plan Wet Poortwachter, glad
+heidsbestrijdingsplan, plan van aanpak re-integratie",generiek_resultaat,18
+Beleidsplan met externe werking,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 84.259, 1160, 111.094]}",3.1.1,2017:3.1.1,2017:3.1,"Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouwpro
+gramma, (strategie)visies, exploitatieplan, gemeentelijke
+rioleringsplan",specifiek_resultaat,19
+Beheerplan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 111.094, 1160, 137.928]}",3.1.2,2017:3.1.2,2017:3.1,"Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegen
+beheerplan",specifiek_resultaat,20
+Rampen(bestrijdings) plan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 137.928, 1160, 164.763]}",3.1.3,2017:3.1.3,2017:3.1,,specifiek_resultaat,21
+Plan van aanpak jeugd hulp cliënt,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 164.763, 1160, 203.598]}",3.1.4,2017:3.1.4,2017:3.1,"of zoveel langer als redelijkerwijs uit de zorg van een goed
+jeugdhulpverlener voortvloeit.
+Vernietigen binnen drie maanden na ontvangst van een
+strekkend verzoek van de betrokkene, mits geen aanmer
+kelijk belang van een derde of wetgeving zich daartegen
+verzet.",specifiek_resultaat,22
+Plan van aanpak WMO cliënt,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 203.598, 1160, 242.433]}",3.1.5,2017:3.1.5,2017:3.1,"of zoveel langer als redelijkerwijs in verband met een
+zorgvuldige uitvoering van hun taken op grond van deze
+wet noodzakelijk is",specifiek_resultaat,23
+"(meerjaren)Begroting, perspectief-, voorjaars- en najaarsnota","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 242.433, 1160, 269.268]}",3.1.6,2017:3.1.6,2017:3.1,,specifiek_resultaat,24
+Onderzoeksprogramma,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 269.268, 1160, 296.101]}",3.1.7,2017:3.1.7,2017:3.1,,specifiek_resultaat,25
+Structuurvisie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 296.101, 1160, 322.936]}",3.1.8,2017:3.1.8,2017:3.1,,specifiek_resultaat,26
+Ruilverkaveling,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 322.936, 1160, 349.771]}",3.1.9,2017:3.1.9,2017:3.1,,specifiek_resultaat,27
+Niet vastge steld,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 349.771, 1160, 376.606]}",3.2,2017:3.2,2017:3,,generiek_resultaat,28
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 376.606, 1160, 403.441]}",3.3,2017:3.3,2017:3,,generiek_resultaat,29
+Evaluatie uitvoeren,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 403.441, 1160, 424.276]}",4,2017:4,,"Dit evalueren kan zowel betrekking hebben op de evaluatie
+van beleid, als op de uitvoering van beleid en het functione
+ren van het eigen orgaan.",procestype,30
+Uitgevoerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 403.441, 1160, 424.276]}",4.1,2017:4.1,2017:4,"Interne audit, steekproefsgewijze interne controle, controle
+op de BRP",generiek_resultaat,31
+Evaluatie van beleid met externe werking,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 424.276, 1160, 451.109]}",4.1.1,2017:4.1.1,2017:4.1,,specifiek_resultaat,32
+Enquête door gemeen teraad,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 451.109, 1160, 477.944]}",4.1.2,2017:4.1.2,2017:4.1,,specifiek_resultaat,33
+Interne controle zonder financiële consequenties,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 477.944, 1160, 498.779]}",4.1.3,2017:4.1.3,2017:4.1,,specifiek_resultaat,34
+Onderzoek n.a.v. mel ding klokkenluider,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 498.779, 1160, 525.614]}",4.1.4,2017:4.1.4,2017:4.1,,specifiek_resultaat,35
+Onderzoeksrapport Rekenkamer,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 525.614, 1160, 552.449]}",4.1.5,2017:4.1.5,2017:4.1,,specifiek_resultaat,36
+Beoordeling arbeids omstandigheden en personeel,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 552.449, 1160, 573.284]}",4.1.6,2017:4.1.6,2017:4.1,"Risico-inventarisatie & -evaluatie (RI&E), functionerings- en
+beoordelingsgesprek, preventief medisch onderzoek",specifiek_resultaat,37
+"Vorderingen en eind(examen)resultaten primair, voortgezet of beroepsonderwijs","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 573.284, 1160, 600.117]}",4.1.7,2017:4.1.7,2017:4.1,"De bewaartermijn loopt vanaf de geboortedatum van de
+leerling",specifiek_resultaat,38
+Jaarrekening en financi eel jaarverslag,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 600.117, 1160, 626.952]}",4.1.8,2017:4.1.8,2017:4.1,,specifiek_resultaat,39
+Jaarverslag,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 626.952, 1160, 653.787]}",4.1.9,2017:4.1.9,2017:4.1,"Denk hierbij aan de jaarverslagen van verschillende onafhan
+kelijke adviescommissies en de jaarverslagen die op grond
+van wet- en regelgeving dienen te worden opgesteld, zoals
+het burgerjaarverslag en het jaarverslag leerplicht.",specifiek_resultaat,40
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 653.787, 1160, 674.622]}",4.2,2017:4.2,2017:4,,generiek_resultaat,41
+Producten en diensten leveren,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 674.622, 1160, 713.457]}",5,2017:5,,"Voor het verstrekken van een product of dienst hoeft de
+aanvrager niet aan een bepaalde situatie te voldoen, want
+in dat geval is het procestype ‘Voorzieningen verstrekken’
+van toepassing. Het product of de dienst houdt niet het
+doen of laten van het orgaan in, want in dat geval valt het
+onder het procestype ‘Verzoeken behandelen’.",procestype,42
+Geleverd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 674.622, 1160, 713.457]}",5.1,2017:5.1,2017:5,"Stadspas, reclamesticker, bewegwijzering, kiezerspas, certifi
+caat van (vrijstelling tot) sanitaire controle van een schip",generiek_resultaat,43
+Product of dienst met financiële consequenties,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 713.457, 1160, 752.29]}",5.1.1,2017:5.1.1,2017:5.1,"Afvalinzameling, afvalcontainer, rioolaansluiting, ambu
+lancevervoer",specifiek_resultaat,44
+Gegevens uit de BRP,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 28, ""bbox"": [29, 752.29, 1160, 805]}",5.1.2,2017:5.1.2,2017:5.1,"Het behandelen een verzoek op grond van het inzagerecht
+valt hier ook onder.",specifiek_resultaat,45
+Bescheiden afkomstig van de Nederlandse burgerlijke stand,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 57.424, 1160, 96.259]}",5.1.3,2017:5.1.3,2017:5.1,"Verzoeken van bewoners om eigen gegevens, uittreksels",specifiek_resultaat,46
+"Reisdocument, identi teitsbewijs","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 96.259, 1160, 147.093]}",5.1.4,2017:5.1.4,2017:5.1,,specifiek_resultaat,47
+Reisdocument of identi teitsbewijs geldig voor 5 jaar of korter,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 147.093, 1160, 197.928]}",5.1.5,2017:5.1.5,2017:5.1,,specifiek_resultaat,48
+Rijbewijs,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 197.928, 1160, 236.763]}",5.1.6,2017:5.1.6,2017:5.1,,specifiek_resultaat,49
+Vaccinatie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 236.763, 1160, 275.598]}",5.1.7,2017:5.1.7,2017:5.1,"of zoveel langer als redelijkerwijs in verband met een
+zorgvuldige uitvoering van hun taken op grond van deze
+wet noodzakelijk is.",specifiek_resultaat,50
+BCG-vaccinatie te gen tbc,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 275.598, 1160, 314.432]}",5.1.8,2017:5.1.8,2017:5.1,"Bewaartermijn loopt vanaf de geboortedatum van de
+gevaccineerde",specifiek_resultaat,51
+Ingetrokken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 314.432, 1160, 353.267]}",5.2,2017:5.2,2017:5,,generiek_resultaat,52
+Reisdocument,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 353.267, 1160, 404.102]}",5.2.1,2017:5.2.1,2017:5.2,,specifiek_resultaat,53
+Niet geleverd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 404.102, 1160, 442.937]}",5.3,2017:5.3,2017:5,,generiek_resultaat,54
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 442.937, 1160, 481.772]}",5.4,2017:5.4,2017:5,,generiek_resultaat,55
+Verzoeken behandelen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 481.772, 1160, 520.607]}",6,2017:6,,"Wanneer een aanvrager een aanvraag voor een bepaalde
+voorziening indient, is het procestype ‘Voorzieningen ver
+strekken’ van toepassing. Wanneer het om een product of
+dienst gaat dat niet een doen of juist laten van het orgaan
+inhoudt, is het procestype ‘Producten en diensten leveren’
+van toepassing.",procestype,56
+Ingewilligd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 481.772, 1160, 520.607]}",6.1,2017:6.1,2017:6,Melding overlast,generiek_resultaat,57
+Verzoek met financiële consequenties,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 520.607, 1160, 559.44]}",6.1.1,2017:6.1.1,2017:6.1,"Personeelsvoorziening, kwijtschelding gemeentelijk belas
+ting, betalingsregeling, nadeelcompensatie",specifiek_resultaat,58
+Intern verzoek om faciliteiten,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 559.44, 1160, 598.275]}",6.1.2,2017:6.1.2,2017:6.1,"Automatiseringsverzoek, interne verzoek om gebruik",specifiek_resultaat,59
+Informatieverzoek,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 598.275, 1160, 637.11]}",6.1.3,2017:6.1.3,2017:6.1,"WOB-verzoek, algemeen informatieverzoek, verzoek tot
+invullen enquete, verzoek op grond van de Wet hergebruik
+overheidsinformatie",specifiek_resultaat,60
+Adhesiebetuiging en/ of motie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 637.11, 1160, 675.945]}",6.1.4,2017:6.1.4,2017:6.1,,specifiek_resultaat,61
+Onderscheiding,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 675.945, 1160, 714.778]}",6.1.5,2017:6.1.5,2017:6.1,Koninklijke of gemeentelijke onderscheiding,specifiek_resultaat,62
+Predicaat Koninklijk / predicaat Hofleverancier,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 714.778, 1160, 753.613]}",6.1.6,2017:6.1.6,2017:6.1,,specifiek_resultaat,63
+Geheimhouding per soonsgegevens BRP,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 29, ""bbox"": [29, 753.613, 1160, 805]}",6.1.7,2017:6.1.7,2017:6.1,,specifiek_resultaat,64
+Handhavingsverzoek,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 57.424, 1160, 96.259]}",6.1.8,2017:6.1.8,2017:6.1,,specifiek_resultaat,65
+Initiatief van burgers,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 96.259, 1160, 135.094]}",6.1.9,2017:6.1.9,2017:6.1,,specifiek_resultaat,66
+Initiatief van de onder nemingsraad,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 135.094, 1160, 173.928]}",6.1.10,2017:6.1.10,2017:6.1,,specifiek_resultaat,67
+Principeverzoek be stemmingsplan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 173.928, 1160, 212.763]}",6.1.11,2017:6.1.11,2017:6.1,,specifiek_resultaat,68
+Verzoek tot stichten openbare school,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 212.763, 1160, 251.598]}",6.1.12,2017:6.1.12,2017:6.1,,specifiek_resultaat,69
+Afgewezen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 251.598, 1160, 290.433]}",6.2,2017:6.2,2017:6,,generiek_resultaat,70
+Principeverzoek be stemmingsplan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 290.433, 1160, 329.268]}",6.2.1,2017:6.2.1,2017:6.2,,specifiek_resultaat,71
+Initiatief van de onder nemingsraad,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 329.268, 1160, 368.101]}",6.2.2,2017:6.2.2,2017:6.2,,specifiek_resultaat,72
+Initiatief van burgers,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 368.101, 1160, 406.936]}",6.2.3,2017:6.2.3,2017:6.2,,specifiek_resultaat,73
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 406.936, 1160, 445.771]}",6.3,2017:6.3,2017:6,,generiek_resultaat,74
+Aangiften behandelen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 445.771, 1160, 472.606]}",7,2017:7,,"Niet alleen de aangiften van inwoners zijn onder dit pro
+cestype geschaard, maar ook de kennisgevingen over een
+bepaald feit waar ketenpartners toe verplicht zijn en die het
+orgaan in de BRP dient te verwerken.",procestype,75
+Verwerkt,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 445.771, 1160, 472.606]}",7.1,2017:7.1,2017:7,,generiek_resultaat,76
+Verklaring onder eed of belofte,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 472.606, 1160, 499.441]}",7.1.1,2017:7.1.1,2017:7.1,,specifiek_resultaat,77
+Eerste inschrijving BRP of geboorteaangifte,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 499.441, 1160, 544.274]}",7.1.2,2017:7.1.2,2017:7.1,"Bescheiden betreffende het opnemen en wijzigen van overlij
+densgegevens, voor zover het bescheiden betreft die niet uit
+een Nederlands register kunnen worden gereproduceerd.",specifiek_resultaat,78
+"Gegevens met betrek king tot naam, geboorte, geslacht en afstamming","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 544.274, 1160, 589.109]}",7.1.3,2017:7.1.3,2017:7.1,"Bescheiden betreffende het opnemen en wijzigen van overlij
+densgegevens, voor zover het bescheiden betreft die niet uit
+een Nederlands register kunnen worden gereproduceerd.",specifiek_resultaat,79
+Naamgebruik in BRP,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 589.109, 1160, 615.944]}",7.1.4,2017:7.1.4,2017:7.1,,specifiek_resultaat,80
+"Huwelijk of geregis treerd partnerschap, echtscheiding of ontbinding","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 615.944, 1160, 660.778]}",7.1.5,2017:7.1.5,2017:7.1,"Bescheiden betreffende het opnemen en wijzigen van overlij
+densgegevens, voor zover het bescheiden betreft die niet uit
+een Nederlands register kunnen worden gereproduceerd.",specifiek_resultaat,81
+Overlijdensmelding,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 660.778, 1160, 705.613]}",7.1.6,2017:7.1.6,2017:7.1,"Bescheiden betreffende het opnemen en wijzigen van overlij
+densgegevens, voor zover het bescheiden betreft die niet uit
+een Nederlands register kunnen worden gereproduceerd.",specifiek_resultaat,82
+"(her)Vestiging, adres wijziging (niet zijnde emigratie)","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 705.613, 1160, 732.448]}",7.1.7,2017:7.1.7,2017:7.1,,specifiek_resultaat,83
+Emigratie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 732.448, 1160, 759.283]}",7.1.8,2017:7.1.8,2017:7.1,,specifiek_resultaat,84
+Opschorting persoons lijst BRP,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 759.283, 1160, 786.117]}",7.1.9,2017:7.1.9,2017:7.1,,specifiek_resultaat,85
+Beslissing om gegeven niet of ambtshalve op te nemen in BRP,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 30, ""bbox"": [29, 786.117, 1160, 805]}",7.1.10,2017:7.1.10,2017:7.1,,specifiek_resultaat,86
+Bezit buitenlands reis document,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 57.424, 1160, 84.259]}",7.1.11,2017:7.1.11,2017:7.1,,specifiek_resultaat,87
+"Vermissing reisdo cument, wijziging gegevens reisdocument zover niet in reisdocu mentenadministratie opgenomen","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 84.259, 1160, 123.093]}",7.1.12,2017:7.1.12,2017:7.1,,specifiek_resultaat,88
+Gegevens over het gezag over een min derjarige,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 123.093, 1160, 149.928]}",7.1.13,2017:7.1.13,2017:7.1,o.a. kennisgevingen uit het curateleregister of gezagsregister,specifiek_resultaat,89
+Probas-melding,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 149.928, 1160, 176.763]}",7.1.14,2017:7.1.14,2017:7.1,Melding betreffende de ‘protocollaire basisadministratie’,specifiek_resultaat,90
+Beoordeling brondocu menten BRP,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 176.763, 1160, 203.598]}",7.1.15,2017:7.1.15,2017:7.1,,specifiek_resultaat,91
+Briefadres omzet ting BRP,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 203.598, 1160, 230.433]}",7.1.16,2017:7.1.16,2017:7.1,,specifiek_resultaat,92
+Wijzing van Nederlands kiesrecht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 230.433, 1160, 257.267]}",7.1.17,2017:7.1.17,2017:7.1,,specifiek_resultaat,93
+Wijzing van Europees kiesrecht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 257.267, 1160, 284.102]}",7.1.18,2017:7.1.18,2017:7.1,,specifiek_resultaat,94
+"Bezit, verkrijging, verlening en verlies van (bijzonder) Nederlander schap of een niet-Neder landse nationaliteit","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 284.102, 1160, 316.937]}",7.1.19,2017:7.1.19,2017:7.1,,specifiek_resultaat,95
+Gegevens over personen bij wie een reisdocument moet worden geweigerd of ingehouden,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 316.937, 1160, 367.77]}",7.1.20,2017:7.1.20,2017:7.1,,specifiek_resultaat,96
+Bescheiden tbv opma ken akte uit de Burger lijke Stand,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 367.77, 1160, 394.605]}",7.1.21,2017:7.1.21,2017:7.1,"Het betreft wel te reproduceren archiefbescheiden. Akten
+worden via het register blijvend bewaard.’",specifiek_resultaat,97
+Geweigerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 394.605, 1160, 421.44]}",7.2,2017:7.2,2017:7,,generiek_resultaat,98
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 421.44, 1160, 448.275]}",7.3,2017:7.3,2017:7,,generiek_resultaat,99
+Voorzieningen verstrekken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 448.275, 1160, 487.11]}",8,2017:8,,"Indien de aanvrager zich niet in een bepaalde situatie hoeft
+te bevinden en wanneer het orgaan wordt verzocht om iets
+te doen of te laten, is het procestype ‘Verzoek behandelen’
+van toepassing. Indien beiden niet van toepassing zijn,
+is het procestype ‘Producten en diensten leveren’ van
+toepassing.",procestype,100
+Verstrekt,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 448.275, 1160, 487.11]}",8.1,2017:8.1,2017:8,"Uitkering of inkomensvoorziening, inburgeringstraject, duur
+zaamheidslening, krediethypotheek.",generiek_resultaat,101
+WMO voorziening,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 487.11, 1160, 531.944]}",8.1.1,2017:8.1.1,2017:8.1,"of zoveel langer als redelijkerwijs in verband met een
+zorgvuldige uitvoering van hun taken op grond van deze
+wet noodzakelijk is. Vernietigen binnen drie maanden na
+ontvangst van een strekkend verzoek van de betrokkene,
+mits geen aanmerkelijk belang van een derde of wetgeving
+zich daartegen verzet.",specifiek_resultaat,102
+Individuele jeugdhulp voorziening,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 531.944, 1160, 570.779]}",8.1.2,2017:8.1.2,2017:8.1,"of zoveel langer als redelijkerwijs uit de zorg van een goed
+jeugdhulpverlener voortvloeit. Vernietigen binnen drie
+maanden na ontvangst van een strekkend verzoek van de
+betrokkene, mits geen aanmerkelijk belang van een derde of
+wetgeving zich daartegen verzet.",specifiek_resultaat,103
+Vergoeding inrichting school,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 570.779, 1160, 609.614]}",8.1.3,2017:8.1.3,2017:8.1,,specifiek_resultaat,104
+Vergoeding huisvesting school,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 609.614, 1160, 648.449]}",8.1.4,2017:8.1.4,2017:8.1,,specifiek_resultaat,105
+Overige financiële voor ziening school,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 648.449, 1160, 687.282]}",8.1.5,2017:8.1.5,2017:8.1,,specifiek_resultaat,106
+Starterslening,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 687.282, 1160, 726.117]}",8.1.6,2017:8.1.6,2017:8.1,,specifiek_resultaat,107
+Subsidie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 726.117, 1160, 764.952]}",8.1.7,2017:8.1.7,2017:8.1,,specifiek_resultaat,108
+Subsidie zonder verant woordingsplicht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 31, ""bbox"": [29, 764.952, 1160, 805]}",8.1.8,2017:8.1.8,2017:8.1,,specifiek_resultaat,109
+Schuldhulptraject,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 57.424, 1160, 96.259]}",8.1.9,2017:8.1.9,2017:8.1,,specifiek_resultaat,110
+Huisvesting van status houder,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 96.259, 1160, 135.094]}",8.1.10,2017:8.1.10,2017:8.1,,specifiek_resultaat,111
+Geneeskundige be handeling,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 135.094, 1160, 173.928]}",8.1.11,2017:8.1.11,2017:8.1,"of zoveel langer als redelijkerwijs in verband met een
+zorgvuldige uitvoering van hun taken op grond van deze
+wet noodzakelijk is.",specifiek_resultaat,112
+Jeugdgezondheidszorg,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 173.928, 1160, 212.763]}",8.1.12,2017:8.1.12,2017:8.1,"of zoveel langer als redelijkerwijs in verband met een
+zorgvuldige uitvoering van hun taken op grond van deze
+wet noodzakelijk is.",specifiek_resultaat,113
+Gezondheidszorg bij calamiteiten,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 212.763, 1160, 251.598]}",8.1.13,2017:8.1.13,2017:8.1,"of zoveel langer als redelijkerwijs in verband met een
+zorgvuldige uitvoering van hun taken op grond van deze
+wet noodzakelijk is.",specifiek_resultaat,114
+Gehandicaptenpar keerkaart,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 251.598, 1160, 290.433]}",8.1.14,2017:8.1.14,2017:8.1,,specifiek_resultaat,115
+Primair of voortgezet onderwijs,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 290.433, 1160, 329.267]}",8.1.15,2017:8.1.15,2017:8.1,"Het gaat hierbij om een voorziening voor het volgen van pri
+mair of voortgezet onderwijs door een jongere en de in het
+kader hiervan door een school gevoerde administratie.",specifiek_resultaat,116
+Geweigerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 329.267, 1160, 368.102]}",8.2,2017:8.2,2017:8,,generiek_resultaat,117
+Beëindigd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 368.102, 1160, 406.937]}",8.3,2017:8.3,2017:8,,generiek_resultaat,118
+WMO voorziening,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 406.937, 1160, 445.772]}",8.3.1,2017:8.3.1,2017:8.3,"of zoveel langer als redelijkerwijs in verband met een
+zorgvuldige uitvoering van hun taken op grond van deze
+wet noodzakelijk is",specifiek_resultaat,119
+Individuele jeugdhulp voorziening,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 445.772, 1160, 484.605]}",8.3.2,2017:8.3.2,2017:8.3,"of zoveel langer als redelijkerwijs uit de zorg van een goed
+jeugdhulpverlener voortvloeit",specifiek_resultaat,120
+Primair of voortgezet onderwijs,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 484.605, 1160, 523.44]}",8.3.3,2017:8.3.3,2017:8.3,"Het gaat hierbij om een voorziening voor het volgen van pri
+mair of voortgezet onderwijs door een jongere en de in het
+kader hiervan door een school gevoerde administratie.",specifiek_resultaat,121
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 523.44, 1160, 562.275]}",8.4,2017:8.4,2017:8,,generiek_resultaat,122
+Status toekennen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 562.275, 1160, 595.11]}",9,2017:9,,"Het orgaan kan een gebied een status toekennen, om de
+bestemming of het gebruik van dit gebied te wijzigen. Door
+een persoon (een externe of een personeelslid) in een speci
+ale functie te benoemen of door hem te mandateren, wordt
+hem een speciale bevoegdheden toegekend.",procestype,123
+Toegekend,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 562.275, 1160, 595.11]}",9.1,2017:9.1,2017:9,"Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulp
+verlening, vertrouwenspersoon, Buitengewoon ambtenaar
+van de burgerlijke stand, gemeentelijke vertegenwoordiger",generiek_resultaat,124
+Tijdelijke status,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 595.11, 1160, 627.945]}",9.1.1,2017:9.1.1,2017:9.1,"Tijdelijke verkeersmaatregel, eenmalige Babs",specifiek_resultaat,125
+Status vermeld in BAG of WKPB,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 627.945, 1160, 702.778]}",9.1.2,2017:9.1.2,2017:9.1,"Woonplaats, openbare ruimte aanduiding, nummeraandui
+ding, standplaats, ligplaats, monument",specifiek_resultaat,126
+Bestemmingsplan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 702.778, 1160, 735.613]}",9.1.3,2017:9.1.3,2017:9.1,,specifiek_resultaat,127
+Delegatie en man datering,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 735.613, 1160, 768.448]}",9.1.4,2017:9.1.4,2017:9.1,,specifiek_resultaat,128
+Herwaardering WOZ,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 32, ""bbox"": [29, 768.448, 1160, 805]}",9.1.5,2017:9.1.5,2017:9.1,,specifiek_resultaat,129
+Afspraken omtrent binnengemeentelijke verstrekking van BRP- gegevens,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 57.424, 1160, 90.259]}",9.1.6,2017:9.1.6,2017:9.1,,specifiek_resultaat,130
+Indeling stemdistricten/ kieskringen en stem bureaus,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 90.259, 1160, 123.094]}",9.1.7,2017:9.1.7,2017:9.1,,specifiek_resultaat,131
+Permanente trouw locatie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 123.094, 1160, 155.928]}",9.1.8,2017:9.1.8,2017:9.1,,specifiek_resultaat,132
+"Gemeentegrens, wijken en woongebieden","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 155.928, 1160, 188.763]}",9.1.9,2017:9.1.9,2017:9.1,,specifiek_resultaat,133
+Beheersverordening Wro en buitentoepassings verklaring daarvan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 188.763, 1160, 221.598]}",9.1.10,2017:9.1.10,2017:9.1,,specifiek_resultaat,134
+Aanwijzing ambtenaar voor afnemen verklaring onder eed of belofte i.h.k.v. de BRP,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 221.598, 1160, 254.433]}",9.1.11,2017:9.1.11,2017:9.1,,specifiek_resultaat,135
+Instelling markt,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 254.433, 1160, 287.268]}",9.1.12,2017:9.1.12,2017:9.1,,specifiek_resultaat,136
+Niet toege kend,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 287.268, 1160, 320.101]}",9.2,2017:9.2,2017:9,,generiek_resultaat,137
+Beëindigd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 320.101, 1160, 352.936]}",9.3,2017:9.3,2017:9,,generiek_resultaat,138
+Status vermeld in BAG of WKPB,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 352.936, 1160, 427.771]}",9.3.1,2017:9.3.1,2017:9.3,"Woonplaats, openbare ruimte aanduiding, nummeraandui
+ding, standplaats, ligplaats",specifiek_resultaat,139
+Beëindigen stortplaats,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 427.771, 1160, 460.606]}",9.3.2,2017:9.3.2,2017:9.3,,specifiek_resultaat,140
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 460.606, 1160, 493.441]}",9.4,2017:9.4,2017:9,,generiek_resultaat,141
+Heffen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 493.441, 1160, 526.274]}",10,2017:10,,,procestype,142
+Opgelegd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 493.441, 1160, 526.274]}",10.1,2017:10.1,2017:10,Het heffen van belastingen en erfpacht,generiek_resultaat,143
+Niet opgelegd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 526.274, 1160, 547.109]}",10.2,2017:10.2,2017:10,,generiek_resultaat,144
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 547.109, 1160, 567.944]}",10.3,2017:10.3,2017:10,,generiek_resultaat,145
+Toestemming verlenen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 567.944, 1160, 594.779]}",11,2017:11,,,procestype,146
+Verleend,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 567.944, 1160, 594.779]}",11.1,2017:11.1,2017:11,"Lozing afvalwater, drank en horeca, grafbedekking, graf
+uitgifte, doorlopende collectevergunning, rioolaansluiting,
+gedoogbeschikking, omgevingsvergunning alarminstallatie,
+uitrit, aanleg kabels en leidingen",generiek_resultaat,147
+Toestemming voor een kortdurende activiteit of gebeurtenis,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 594.779, 1160, 621.614]}",11.1.1,2017:11.1.1,2017:11.1,"Evenementenmelding, verlof tot begraven of opgraven,
+vakantietoestemming uitkeringsgerechtigde",specifiek_resultaat,148
+Toestemming voor een afgebakende periode,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 621.614, 1160, 648.449]}",11.1.2,2017:11.1.2,2017:11.1,"Eenmalige collectevergunning, ontheffing verbod storten
+afval, ontheffing verkeersbesluit/- maatregel, stookonthef
+fing, extra verlof leerplicht",specifiek_resultaat,149
+"Melding activiteiten besluit Milieubeheer of 8.40 Wet Milieubeheer, sloopmelding","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 648.449, 1160, 675.282]}",11.1.3,2017:11.1.3,2017:11.1,,specifiek_resultaat,150
+Melding bouwstof fenbesluit,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 675.282, 1160, 702.117]}",11.1.4,2017:11.1.4,2017:11.1,,specifiek_resultaat,151
+Toestemming met bron documenten BAG,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 702.117, 1160, 770.952]}",11.1.5,2017:11.1.5,2017:11.1,"Woningsplitsing, woonruimteontttrekking",specifiek_resultaat,152
+"Omgevingsvergunning voor activiteit milieu, bouw, sloop, monument, handelsreclame en strijdig gebruik en/ of aanleg","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 33, ""bbox"": [29, 770.952, 1160, 805]}",11.1.6,2017:11.1.6,2017:11.1,,specifiek_resultaat,153
+"Toestemming voor peu terspeelzaal, kinderop vang en gastouders","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 57.424, 1160, 84.259]}",11.1.7,2017:11.1.7,2017:11.1,,specifiek_resultaat,154
+Ontheffing leerplicht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 84.259, 1160, 129.094]}",11.1.8,2017:11.1.8,2017:11.1,"De leerplicht geldt tot en met 16 jaar. Daar is de termijn op
+basis van het Vrijstellingsbesluit (2 jaar) bij opgeteld. De be
+waartermijn loopt vanaf de geboortedatum van de leerling.",specifiek_resultaat,155
+Ontheffing kwalifica tieplicht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 129.094, 1160, 173.928]}",11.1.9,2017:11.1.9,2017:11.1,"Kwalificatieplicht geldt tussen de leeftijden van 16 en 18
+jaar. De bewaartermijn loopt vanaf de geboortedatum van
+de leerling.",specifiek_resultaat,156
+Ontheffing verhoging grenswaarde geluids hinder,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 173.928, 1160, 200.763]}",11.1.10,2017:11.1.10,2017:11.1,,specifiek_resultaat,157
+"Bodemonderzoek, ar cheologisch onderzoek of milieueffectrappor tage van de gemeente of van een derde","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 200.763, 1160, 239.598]}",11.1.11,2017:11.1.11,2017:11.1,"Het gaat om een bodemonderzoek, archeologisch onderzoek,
+of milieueffectrapportage die wordt ontvangen ter beoorde
+ling (dus niet als onderdeel van een andere werkproces). Een
+bodemonderzoek, archeologisch onderzoek, of milieueffect
+rapportage die hoort bij bijvoorbeeld het opstellen van een
+bestemmingsplan, valt onder dat werkproces.",specifiek_resultaat,158
+Omgevingsvergunning kappen met herplant plicht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 239.598, 1160, 266.433]}",11.1.12,2017:11.1.12,2017:11.1,"Het moment waarop de bewaartermijn gaat lopen is afhan
+kelijk van de herplantplicht. De herplantplicht kan worden
+opgelegd voor een termijn variërend tussen 1 en 6 jaar.",specifiek_resultaat,159
+Financiële stukken van externe organen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 266.433, 1160, 299.266]}",11.1.13,2017:11.1.13,2017:11.1,,specifiek_resultaat,160
+Toelating leerling tot school,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 299.266, 1160, 326.101]}",11.1.14,2017:11.1.14,2017:11.1,,specifiek_resultaat,161
+Vergunning leeg standswet,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 326.101, 1160, 352.936]}",11.1.15,2017:11.1.15,2017:11.1,,specifiek_resultaat,162
+Sanering tanks,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 352.936, 1160, 379.771]}",11.1.16,2017:11.1.16,2017:11.1,,specifiek_resultaat,163
+Geweigerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 379.771, 1160, 406.606]}",11.2,2017:11.2,2017:11,,generiek_resultaat,164
+Vergunning met brondo cumenten BAG,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 406.606, 1160, 475.439]}",11.2.1,2017:11.2.1,2017:11.2,,specifiek_resultaat,165
+Ingetrokken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 475.439, 1160, 502.274]}",11.3,2017:11.3,2017:11,,generiek_resultaat,166
+Vergunning met brondo cumenten BAG,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 502.274, 1160, 571.109]}",11.3.1,2017:11.3.1,2017:11.3,,specifiek_resultaat,167
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 571.109, 1160, 597.944]}",11.4,2017:11.4,2017:11,,generiek_resultaat,168
+Toezien en handhaven,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 597.944, 1160, 630.778]}",12,2017:12,,"Het kan hierbij gaan om landelijke wet- en regelgeving,
+door het orgaan vastgestelde regelgeving en om vastge
+legde afspraken.",procestype,169
+Toezicht uitge voerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 597.944, 1160, 630.778]}",12.1,2017:12.1,2017:12,"Controle omgevingsvergunning, gezondheidspreventie, be
+strijding besmettelijke ziekten, controle schuldhulpverlening,
+controle gezondheidstoestand schip/vliegtuig",generiek_resultaat,170
+Hercontrole uitkering sociaal domein,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 630.778, 1160, 663.613]}",12.1.1,2017:12.1.1,2017:12.1,"Rechtmatigheid, terugvorderingonderzoek",specifiek_resultaat,171
+Hercontrole cliënt Wmo en/of jeugdhulp,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 663.613, 1160, 714.448]}",12.1.2,2017:12.1.2,2017:12.1,"of zoveel langer als redelijkerwijs in verband met een
+zorgvuldige uitvoering van hun taken op grond van deze
+wet noodzakelijk is",specifiek_resultaat,172
+Leerplicht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 714.448, 1160, 759.283]}",12.1.3,2017:12.1.3,2017:12.1,"De bewaartermijn loopt vanaf de geboortedatum van de
+leerling.",specifiek_resultaat,173
+Kwalificatieplicht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 34, ""bbox"": [29, 759.283, 1160, 805]}",12.1.4,2017:12.1.4,2017:12.1,Dit termijn geldt na einde van het toezicht,specifiek_resultaat,174
+Financieel en contractu eel toezicht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 57.424, 1160, 90.259]}",12.1.5,2017:12.1.5,2017:12.1,,specifiek_resultaat,175
+Onderzoek i.h.k.v. de BRP,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 90.259, 1160, 123.093]}",12.1.6,2017:12.1.6,2017:12.1,"Adresonderzoek, reconstructie gezag minderjarige",specifiek_resultaat,176
+Integriteitsonderzoek,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 123.093, 1160, 155.928]}",12.1.7,2017:12.1.7,2017:12.1,,specifiek_resultaat,177
+"Gegevens over toe gangscontrole, bezoe kersregistratie","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 155.928, 1160, 188.763]}",12.1.8,2017:12.1.8,2017:12.1,,specifiek_resultaat,178
+Videocameratoezicht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 188.763, 1160, 221.598]}",12.1.9,2017:12.1.9,2017:12.1,,specifiek_resultaat,179
+Controle realisatie om gevingsvergunning met brondocumenten BAG,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 221.598, 1160, 290.432]}",12.1.10,2017:12.1.10,2017:12.1,,specifiek_resultaat,180
+Handhaving uitgevoerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 290.432, 1160, 323.267]}",12.2,2017:12.2,2017:12,"Handhaving omgevingsvergunning, apv-vergunning, sanctie
+personeelslid, maatregel gericht op opname ter isolatie in
+een ziekenhuis, medisch onderzoek en quarantaine vanwege
+infectieziekte, sanctie participatiewet",generiek_resultaat,181
+Doorlopende verplich ting tot (niet) handelen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 323.267, 1160, 356.102]}",12.2.1,2017:12.2.1,2017:12.2,"Gebiedsverbod, groepsverbod, opknappen van een bouw
+werk,",specifiek_resultaat,182
+Bodemsanering,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 356.102, 1160, 388.935]}",12.2.2,2017:12.2.2,2017:12.2,,specifiek_resultaat,183
+Tijdelijk huisverbod,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 388.935, 1160, 421.77]}",12.2.3,2017:12.2.3,2017:12.2,,specifiek_resultaat,184
+Gedwongen opname in psychiatrisch ziekenhuis,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 421.77, 1160, 466.605]}",12.2.4,2017:12.2.4,2017:12.2,,specifiek_resultaat,185
+Bestuurlijke boete,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 466.605, 1160, 499.44]}",12.2.5,2017:12.2.5,2017:12.2,,specifiek_resultaat,186
+Sanctie cliënt Wmo en/ of jeugdhulp,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 499.44, 1160, 550.274]}",12.2.6,2017:12.2.6,2017:12.2,"of zoveel langer als redelijkerwijs in verband met een
+zorgvuldige uitvoering van hun taken op grond van deze
+wet noodzakelijk is",specifiek_resultaat,187
+"Verwijderde auto, fiets of vervoersmiddel","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 550.274, 1160, 583.109]}",12.2.7,2017:12.2.7,2017:12.2,,specifiek_resultaat,188
+"Maatregelen in het kader van de publieke gezondheid gericht op gebouwen, goederen en vervoermiddelen","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 583.109, 1160, 615.944]}",12.2.8,2017:12.2.8,2017:12.2,,specifiek_resultaat,189
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 615.944, 1160, 648.779]}",12.3,2017:12.3,2017:12,,generiek_resultaat,190
+Geschillen behandelen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 648.779, 1160, 675.613]}",13,2017:13,,"Indien een derde of een personeelslid het niet eens is
+met het al of niet handelen van het orgaan, kan hij om
+compensatie verzoeken of een bezwaar aantekenen of een
+beroep indienen.",procestype,191
+Afgehandeld,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 648.779, 1160, 675.613]}",13.1,2017:13.1,2017:13,"Bezwaarschrift, beroep, voorlopige voorziening, klacht",generiek_resultaat,192
+Geschil met financiële consequenties,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 675.613, 1160, 708.448]}",13.1.1,2017:13.1.1,2017:13.1,Schade en aansprakelijkheid,specifiek_resultaat,193
+Klacht afgehandeld via ombudsman,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 708.448, 1160, 735.283]}",13.1.2,2017:13.1.2,2017:13.1,,specifiek_resultaat,194
+Geschil met invloed op een te bewaren zaak,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 735.283, 1160, 762.118]}",13.1.3,2017:13.1.3,2017:13.1,"Klacht, bezwaar, beroep",specifiek_resultaat,195
+Niet ontvankelijk geschil,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 35, ""bbox"": [29, 762.118, 1160, 805]}",13.1.4,2017:13.1.4,2017:13.1,,specifiek_resultaat,196
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 57.424, 1160, 84.259]}",13.2,2017:13.2,2017:13,,generiek_resultaat,197
+Openbare ruimte inrichten,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 84.259, 1160, 105.094]}",14,2017:14,,,procestype,198
+Uitgevoerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 84.259, 1160, 105.094]}",14.1,2017:14.1,2017:14,"Bluswatervoorziening, speeltuin, straatverlichting,-meubilair",generiek_resultaat,199
+Civieltechnisch werk,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 105.094, 1160, 125.929]}",14.1.1,2017:14.1.1,2017:14.1,Aanleg riolering,specifiek_resultaat,200
+(vaar)Weg,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 125.929, 1160, 146.762]}",14.1.2,2017:14.1.2,2017:14.1,,specifiek_resultaat,201
+Gedenkteken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 146.762, 1160, 167.597]}",14.1.3,2017:14.1.3,2017:14.1,,specifiek_resultaat,202
+Bouw- en woonrijp maken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 167.597, 1160, 188.432]}",14.1.4,2017:14.1.4,2017:14.1,,specifiek_resultaat,203
+Gebouw en/of accom modatie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 188.432, 1160, 209.267]}",14.1.5,2017:14.1.5,2017:14.1,,specifiek_resultaat,204
+Kunstobject in de open bare ruimte,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 209.267, 1160, 230.102]}",14.1.6,2017:14.1.6,2017:14.1,,specifiek_resultaat,205
+Aanwijzing- en/of waar schuwingsteken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 230.102, 1160, 250.937]}",14.1.7,2017:14.1.7,2017:14.1,,specifiek_resultaat,206
+Niet uitge voerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 250.937, 1160, 271.772]}",14.2,2017:14.2,2017:14,,generiek_resultaat,207
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 271.772, 1160, 292.605]}",14.3,2017:14.3,2017:14,,generiek_resultaat,208
+Onderhouden en repareren,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 292.605, 1160, 313.44]}",15,2017:15,,,procestype,209
+Uitgevoerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 292.605, 1160, 313.44]}",15.1,2017:15.1,2017:15,"Jaarlijks onderhoud, reparatie, grafruiming, automatiserings
+programma, BRP foutmelding, melding openbare ruimte",generiek_resultaat,210
+Onderhoud met gevolgen voor het verdere beheer van het procesobject,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 313.44, 1160, 340.275]}",15.1.1,2017:15.1.1,2017:15.1,"Het uitgevoerde onderhoud en bijvoorbeeld de hierbij ge
+bruikte materialen kan relevant zijn voor het verdere beheer
+van het object.",specifiek_resultaat,211
+Monument,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 340.275, 1160, 361.11]}",15.1.2,2017:15.1.2,2017:15.1,,specifiek_resultaat,212
+Baggerslib verwerking en opslag,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 361.11, 1160, 381.945]}",15.1.3,2017:15.1.3,2017:15.1,,specifiek_resultaat,213
+Onderhoud van de BRP,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 381.945, 1160, 408.78]}",15.1.4,2017:15.1.4,2017:15.1,"Systeemherstel, persoonslijst afvoeren",specifiek_resultaat,214
+Niet uitge voerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 408.78, 1160, 429.613]}",15.2,2017:15.2,2017:15,,generiek_resultaat,215
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 429.613, 1160, 450.448]}",15.3,2017:15.3,2017:15,,generiek_resultaat,216
+Overeenkomsten aangaan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 450.448, 1160, 471.283]}",16,2017:16,,"Door overeenkomsten te sluiten kan het orgaan zorgen voor
+de uitvoering van haar taken, het voorzien in haar behoef
+ten en voor het zekerstellen van haar positie.",procestype,217
+Aangegaan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 450.448, 1160, 471.283]}",16.1,2017:16.1,2017:16,"Garantstelling, inkoopovereenkomst, huur, pacht, ingebruik
+geving, verkoop roerend goed, lening",generiek_resultaat,218
+Inkoopovereenkomst zonder contract of garantiebepalingen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 471.283, 1160, 504.118]}",16.1.1,2017:16.1.1,2017:16.1,Inkoop van materialen,specifiek_resultaat,219
+Samenwerkingsovereen komst ten behoeve van de taakuitoefening van het orgaan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 504.118, 1160, 530.953]}",16.1.2,2017:16.1.2,2017:16.1,,specifiek_resultaat,220
+Stedenband of jumelage,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 530.953, 1160, 557.786]}",16.1.3,2017:16.1.3,2017:16.1,,specifiek_resultaat,221
+"Overdracht van onroe rend goed, schenkings overeenkomst","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 557.786, 1160, 578.621]}",16.1.4,2017:16.1.4,2017:16.1,"Koop, verkoop, ruiling, onteigening, verjaring",specifiek_resultaat,222
+Verzekering,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 578.621, 1160, 611.456]}",16.1.5,2017:16.1.5,2017:16.1,,specifiek_resultaat,223
+Niet doorge gaan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 611.456, 1160, 638.291]}",16.2,2017:16.2,2017:16,,generiek_resultaat,224
+Inkoopovereenkomst zonder contract of garantiebepalingen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 638.291, 1160, 659.126]}",16.2.1,2017:16.2.1,2017:16.2,,specifiek_resultaat,225
+Aanbesteding vallend onder Europees recht,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 659.126, 1160, 691.959]}",16.2.2,2017:16.2.2,2017:16.2,,specifiek_resultaat,226
+Beëindigd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 691.959, 1160, 712.794]}",16.3,2017:16.3,2017:16,,generiek_resultaat,227
+Samenwerkingsovereen komst ten behoeve van de taakuitoefening van het orgaan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 712.794, 1160, 739.629]}",16.3.1,2017:16.3.1,2017:16.3,,specifiek_resultaat,228
+Stedenband of jumelage,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 739.629, 1160, 766.464]}",16.3.2,2017:16.3.2,2017:16.3,,specifiek_resultaat,229
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 36, ""bbox"": [29, 766.464, 1160, 805]}",16.4,2017:16.4,2017:16,,generiek_resultaat,230
+Personen aanstellen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 57.424, 1160, 84.259]}",17,2017:17,,"Het kan hierbij zowel om het aanstellen van een eigen
+personeelslid gaan, als om het benoemen van een persoon
+in een onafhankelijke commissie of het bestuur van het
+orgaan.",procestype,231
+Aangesteld,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 57.424, 1160, 84.259]}",17.1,2017:17.1,2017:17,Personeel,generiek_resultaat,232
+"Bestuurder, raadslid of burgerraadslid","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 84.259, 1160, 111.094]}",17.1.1,2017:17.1.1,2017:17.1,,specifiek_resultaat,233
+Lid onafhankelijke commissie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 111.094, 1160, 137.929]}",17.1.2,2017:17.1.2,2017:17.1,,specifiek_resultaat,234
+Niet aange steld,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 137.929, 1160, 164.763]}",17.2,2017:17.2,2017:17,,generiek_resultaat,235
+Afgewezen (open) sol licitatie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 164.763, 1160, 197.598]}",17.2.1,2017:17.2.1,2017:17.2,,specifiek_resultaat,236
+Afgewezen (open) solli citatie met toestemming tot bewaren,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 197.598, 1160, 230.433]}",17.2.2,2017:17.2.2,2017:17.2,,specifiek_resultaat,237
+Gewijzigd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 230.433, 1160, 257.268]}",17.3,2017:17.3,2017:17,"Functiewijziging, wijziging betrekking, functieschaal, loon
+toeslag, detachering",generiek_resultaat,238
+Bestuurder of raadslid,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 257.268, 1160, 284.103]}",17.3.1,2017:17.3.1,2017:17.3,,specifiek_resultaat,239
+Niet gewijzigd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 284.103, 1160, 310.938]}",17.4,2017:17.4,2017:17,,generiek_resultaat,240
+Beëindigd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 310.938, 1160, 337.771]}",17.5,2017:17.5,2017:17,Dienstverband personeelslid,generiek_resultaat,241
+Bestuurder of raadslid,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 337.771, 1160, 364.606]}",17.5.1,2017:17.5.1,2017:17.5,,specifiek_resultaat,242
+Lid van een onafhanke lijke commissie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 364.606, 1160, 391.44]}",17.5.2,2017:17.5.2,2017:17.5,,specifiek_resultaat,243
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 391.44, 1160, 418.275]}",17.6,2017:17.6,2017:17,,generiek_resultaat,244
+Betalen en innen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 418.275, 1160, 451.11]}",18,2017:18,,,procestype,245
+Betaald,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 418.275, 1160, 451.11]}",18.1,2017:18.1,2017:18,Facturen en de betaling van belasting door het orgaan,generiek_resultaat,246
+Factuur omtrent onroe rend goed,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 451.11, 1160, 483.945]}",18.1.1,2017:18.1.1,2017:18.1,,specifiek_resultaat,247
+Niet betaald,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 483.945, 1160, 516.778]}",18.2,2017:18.2,2017:18,,generiek_resultaat,248
+Geïnd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 516.778, 1160, 549.613]}",18.3,2017:18.3,2017:18,"Facturen, de inning van belasting door organisatie en
+invordering",generiek_resultaat,249
+Factuur omtrent onroe rend goed,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 549.613, 1160, 582.448]}",18.3.1,2017:18.3.1,2017:18.3,,specifiek_resultaat,250
+Niet geïnd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 582.448, 1160, 615.283]}",18.4,2017:18.4,2017:18,Oninbaar verklaring,generiek_resultaat,251
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 615.283, 1160, 630.118]}",18.5,2017:18.5,2017:18,,generiek_resultaat,252
+Secretariaat voeren en gegevens administreren / verwerken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 630.118, 1160, 656.953]}",19,2017:19,,"Dit procestype geldt eveneens voor de verslaglegging van
+overleg op verschillende niveaus. Zie voor een overzicht van
+blijvend te bewaren registers waarvoor het orgaan verant
+woordelijk is bijlage 4.",procestype,253
+Verwerkt,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 630.118, 1160, 656.953]}",19.1,2017:19.1,2017:19,"Gegevens verwerken, watervergunning/-melding, beslag
+legging, (overige) hulpadministraties zonder financiele
+consequenties",generiek_resultaat,254
+Gegevens met financiële consequenties,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 656.953, 1160, 689.786]}",19.1.1,2017:19.1.1,2017:19.1,"Financiële administratie incl. uitkeringsgerechtigden, (ove
+rige) hulpadministraties met  financiele consequenties",specifiek_resultaat,255
+Agenda bestuurder,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 689.786, 1160, 722.621]}",19.1.2,2017:19.1.2,2017:19.1,"Agenda portefeuillehouder Vastgoed kan aanleiding geven
+tot langere bewaring (9 jaar) o.b.v. Wet op de omzetbelas
+ting 1968 art. 34a",specifiek_resultaat,256
+Uitkeringen van de Rijksoverheid,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 722.621, 1160, 749.456]}",19.1.3,2017:19.1.3,2017:19.1,Gemeentefonds,specifiek_resultaat,257
+Gegevens verwerkt in registers en basisadmi nistraties zoals benoemd in bijlage 4,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 749.456, 1160, 776.291]}",19.1.4,2017:19.1.4,2017:19.1,,specifiek_resultaat,258
+Registratie van politieke partij,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 37, ""bbox"": [29, 776.291, 1160, 805]}",19.1.5,2017:19.1.5,2017:19.1,,specifiek_resultaat,259
+"Agenda, verslag en be sluitenlijst van bestuur lijke besluitvorming","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 57.424, 1160, 84.259]}",19.1.6,2017:19.1.6,2017:19.1,"Raad, B&W,  besluitvormend bestuurlijk overleg waarvan het
+orgaan het secretariaat voert",specifiek_resultaat,260
+"Agenda, verslag en be sluiten van onafhanke lijke adviescommissie of Georganiseerd overleg","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 84.259, 1160, 111.094]}",19.1.7,2017:19.1.7,2017:19.1,,specifiek_resultaat,261
+"Agenda, verslag en besluitenlijst van ambte lijke besluitvorming","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 111.094, 1160, 137.928]}",19.1.8,2017:19.1.8,2017:19.1,,specifiek_resultaat,262
+"Agenda, verslag van intern ambtelijk overleg","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 137.928, 1160, 164.763]}",19.1.9,2017:19.1.9,2017:19.1,Overleg zonder beleidsmatige besluitvorming,specifiek_resultaat,263
+"Agenda, verslag van bestuurlijk overleg met derden","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 164.763, 1160, 191.598]}",19.1.10,2017:19.1.10,2017:19.1,,specifiek_resultaat,264
+"Agenda, verslag van ambtelijk overleg met derden","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 191.598, 1160, 218.433]}",19.1.11,2017:19.1.11,2017:19.1,,specifiek_resultaat,265
+"Agenda, verslag van overleg met derden ge organiseerd door derde","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 218.433, 1160, 245.266]}",19.1.12,2017:19.1.12,2017:19.1,,specifiek_resultaat,266
+Gegevens over perso neelslid dat in aanraking komt met gevaarlijke stoffen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 245.266, 1160, 278.101]}",19.1.13,2017:19.1.13,2017:19.1,,specifiek_resultaat,267
+"Vervanging, migratie, conversie, vervreem ding, overbrenging of metadatering van archieven","{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 278.101, 1160, 322.936]}",19.1.14,2017:19.1.14,2017:19.1,Dit geldt alleen voor te bewaren gegevens,specifiek_resultaat,268
+Protocolleringsgegevens verstrekkingen BRP,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 322.936, 1160, 361.771]}",19.1.15,2017:19.1.15,2017:19.1,,specifiek_resultaat,269
+Melding infectieziekte,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 361.771, 1160, 394.605]}",19.1.16,2017:19.1.16,2017:19.1,,specifiek_resultaat,270
+Ondersteuningsverkla ring kandidatenlijst,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 394.605, 1160, 421.44]}",19.1.17,2017:19.1.17,2017:19.1,Direct na de verkiezingen,specifiek_resultaat,271
+Archiefvernie tiging,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 421.44, 1160, 448.275]}",19.1.18,2017:19.1.18,2017:19.1,,specifiek_resultaat,272
+Niet verwerkt,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 448.275, 1160, 475.11]}",19.2,2017:19.2,2017:19,,generiek_resultaat,273
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 475.11, 1160, 501.945]}",19.3,2017:19.3,2017:19,,generiek_resultaat,274
+Informeren,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 501.945, 1160, 522.778]}",20,2017:20,,,procestype,275
+Uitgevoerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 501.945, 1160, 522.778]}",20.1,2017:20.1,2017:20,"Ter inzage legging voor derde, representatie, aanmelding
+bij verzekering",generiek_resultaat,276
+Publicatie met historisch belang,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 522.778, 1160, 543.613]}",20.1.1,2017:20.1.1,2017:20.1,Gemeentegids,specifiek_resultaat,277
+onlinecontent ten behoeve van externe communicatie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 543.613, 1160, 564.448]}",20.1.2,2017:20.1.2,2017:20.1,Website,specifiek_resultaat,278
+Dienstverleningsaanbod,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 564.448, 1160, 585.283]}",20.1.3,2017:20.1.3,2017:20.1,,specifiek_resultaat,279
+Gegevens over woning statistiek,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 585.283, 1160, 606.118]}",20.1.4,2017:20.1.4,2017:20.1,,specifiek_resultaat,280
+Intern rapport,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 606.118, 1160, 626.953]}",20.1.5,2017:20.1.5,2017:20.1,Periodieke interne rapportage,specifiek_resultaat,281
+Sociaal maatschap pelijk of economisch onderzoek,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 626.953, 1160, 647.786]}",20.1.6,2017:20.1.6,2017:20.1,,specifiek_resultaat,282
+Proactief beschikbaarge stelde (open) datasets,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 647.786, 1160, 668.621]}",20.1.7,2017:20.1.7,2017:20.1,,specifiek_resultaat,283
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 668.621, 1160, 689.456]}",20.2,2017:20.2,2017:20,,generiek_resultaat,284
+Adviseren,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 689.456, 1160, 704.291]}",21,2017:21,,,procestype,285
+Verstrekt,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 689.456, 1160, 704.291]}",21.1,2017:21.1,2017:21,,generiek_resultaat,286
+Brandveiligheid- en brandpreventieadvies,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 704.291, 1160, 731.126]}",21.1.1,2017:21.1.1,2017:21.1,"o.a. adviezen voor evenementenvergunningen en vervoer
+gevaarlijke stoffen",specifiek_resultaat,287
+Vooroverleg omgevings vergunning,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 731.126, 1160, 745.961]}",21.1.2,2017:21.1.2,2017:21.1,,specifiek_resultaat,288
+Sociaal-medisch advies,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 745.961, 1160, 778.796]}",21.1.3,2017:21.1.3,2017:21.1,"of zoveel langer als redelijkerwijs in verband met een
+zorgvuldige uitvoering van hun taken op grond van deze
+wet noodzakelijk is.",specifiek_resultaat,289
+Niet verstrekt,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 38, ""bbox"": [29, 778.796, 1160, 805]}",21.2,2017:21.2,2017:21,,generiek_resultaat,290
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 57.424, 1160, 72.259]}",21.3,2017:21.3,2017:21,,generiek_resultaat,291
+Gebeurtenis organiseren,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 72.259, 1160, 87.094]}",22,2017:22,,"Het orgaan organiseert evenementen of gebeurtenissen
+vanuit haar wettelijke taak of ter promotie",procestype,292
+Afgehandeld,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 72.259, 1160, 87.094]}",22.1,2017:22.1,2017:22,"Brandweeroefening en -wedstrijd, vrijwilliger van het jaar,
+interne opleiding, activiteit jumelage/stedenverband",generiek_resultaat,293
+Plaatselijke plechtigheid en/of herdenking,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 87.094, 1160, 113.929]}",22.1.1,2017:22.1.1,2017:22.1,,specifiek_resultaat,294
+Verkiezing,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 113.929, 1160, 176.763]}",22.1.2,2017:22.1.2,2017:22.1,"vernietigen na 3 maanden: de verzegelde pakketten van
+de stembureaus met de te laat ontvangen en onvoldoende
+gefrankeerde retourenveloppen, niet op correcte wijze
+verzonden stembiljetten en briefstembewijzen, geldige
+of onbruikbaar gemaakte stempassen, kiezerspassen en
+volmachtbewijzen, geldige, ongeldig verklaarde, onbruikbaar
+gemaakte en niet gebruikte stembiljetten en de stembiljetten
+met een blanco stem, de processen-verbaal van de stembu
+reaus en de besluiten tot nieuwe opneming van stembiljet
+ten van het centraal stembureau",specifiek_resultaat,295
+Referendum,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 176.763, 1160, 209.598]}",22.1.3,2017:22.1.3,2017:22.1,"vernietigen na 3 maanden: de verzegelde pakketten van
+de stembureaus met de te laat ontvangen en onvoldoende
+gefrankeerde retourenveloppen, niet op correcte wijze
+verzonden stembiljetten en briefstembewijzen, geldige of
+onbruikbaar",specifiek_resultaat,296
+Bezoek van hoogwaar digheidsbekleder,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 209.598, 1160, 236.433]}",22.1.5,2017:22.1.5,2017:22.1,"Commissaris van de Koning(in), staatshoofd, minister",specifiek_resultaat,297
+Bevolkingsonderzoek,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 236.433, 1160, 263.268]}",22.1.6,2017:22.1.6,2017:22.1,,specifiek_resultaat,298
+Opleiding omtrent rampenbestrijding of veiligheid,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 263.268, 1160, 284.103]}",22.1.7,2017:22.1.7,2017:22.1,,specifiek_resultaat,299
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 284.103, 1160, 298.938]}",22.2,2017:22.2,2017:22,,generiek_resultaat,300
+Voorziening aanvragen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 298.938, 1160, 319.771]}",23,2017:23,,,procestype,301
+Toegekend,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 298.938, 1160, 319.771]}",23.1,2017:23.1,2017:23,"BTW compensatiefonds, arbeidsplaatsvoorziening",generiek_resultaat,302
+Europese subsidie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 319.771, 1160, 352.606]}",23.1.1,2017:23.1.1,2017:23.1,"Elke Europese subsidieregeling loopt 3 jaar door na afloop
+van de periode, waarvoor de subsidie kan worden aange
+vraagd. Daarna geldt de reguliere termijn van 7 jaar.",specifiek_resultaat,303
+Subsidie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 352.606, 1160, 385.441]}",23.1.2,2017:23.1.2,2017:23.1,,specifiek_resultaat,304
+Niet toege kend,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 385.441, 1160, 406.276]}",23.2,2017:23.2,2017:23,,generiek_resultaat,305
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 406.276, 1160, 427.111]}",23.3,2017:23.3,2017:23,,generiek_resultaat,306
+Toestemming vragen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 427.111, 1160, 447.946]}",24,2017:24,,,procestype,307
+Verkregen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 427.111, 1160, 447.946]}",24.1,2017:24.1,2017:24,"Omgevingsvergunning, ontheffing, gedoogbeschikking",generiek_resultaat,308
+Toestemming voor een kortdurende activiteit of gebeurtenis,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 447.946, 1160, 468.778]}",24.1.1,2017:24.1.1,2017:24.1,APV-vergunning,specifiek_resultaat,309
+Archiefvernietiging,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 468.778, 1160, 489.613]}",24.1.2,2017:24.1.2,2017:24.1,,specifiek_resultaat,310
+Geweigerd,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 489.613, 1160, 510.448]}",24.2,2017:24.2,2017:24,,generiek_resultaat,311
+Proces afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 510.448, 1160, 531.283]}",24.3,2017:24.3,2017:24,,generiek_resultaat,312
+Toezicht en handhaving ondergaan,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 531.283, 1160, 552.118]}",25,2017:25,,,procestype,313
+Afgehandeld,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 531.283, 1160, 552.118]}",25.1,2017:25.1,2017:25,"Sisa-verantwoording, toezicht en handhaving uitgevoerd
+door derden, toezicht gemeentearchivaris archief- en
+informatiebeheer",generiek_resultaat,314
+Opgelegde sanctie,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 552.118, 1160, 578.953]}",25.1.1,2017:25.1.1,2017:25.1,,specifiek_resultaat,315
+Controle op de be groting,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 578.953, 1160, 605.786]}",25.1.2,2017:25.1.2,2017:25.1,Provinciaal toezicht,specifiek_resultaat,316
+Toezicht op scholen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 605.786, 1160, 626.621]}",25.1.3,2017:25.1.3,2017:25.1,,specifiek_resultaat,317
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 626.621, 1160, 647.456]}",25.2,2017:25.2,2017:25,,generiek_resultaat,318
+Betwisten,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 647.456, 1160, 674.291]}",26,2017:26,,"Indien een orgaan het niet eens is met het al of niet
+handelen van een derde, kan het orgaan om compensatie
+vragen of bezwaar en/of beroep indienen bij de daartoe
+aangewezen organisaties.",procestype,319
+Afgehandeld,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 647.456, 1160, 674.291]}",26.1,2017:26.1,2017:26,"Bezwaar en beroep ingediend door het orgaan, aansprake
+lijkstelling richting een derde",generiek_resultaat,320
+Geschil met financiële consequenties,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 674.291, 1160, 707.126]}",26.1.1,2017:26.1.1,2017:26.1,Schade en aansprakelijkheid,specifiek_resultaat,321
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 707.126, 1160, 733.961]}",26.2,2017:26.2,2017:26,,generiek_resultaat,322
+Status aanvragen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 733.961, 1160, 754.794]}",27,2017:27,,"Het orgaan kan een andere organisatie verzoeken om aan
+een persoon, een object of een bepaald gebied een status
+toe te kennen.",procestype,323
+Verkregen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 733.961, 1160, 754.794]}",27.1,2017:27.1,2017:27,,generiek_resultaat,324
+Status rijksmoment,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 754.794, 1160, 775.629]}",27.1.1,2017:27.1.1,2017:27.1,,specifiek_resultaat,325
+Niet verkregen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 39, ""bbox"": [29, 775.629, 1160, 805]}",27.2,2017:27.2,2017:27,,generiek_resultaat,326
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 40, ""bbox"": [29, 57.424, 1160, 78.259]}",27.3,2017:27.3,2017:27,,generiek_resultaat,327
+Product of dienst aanvragen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 40, ""bbox"": [29, 78.259, 1160, 99.094]}",28,2017:28,,"Het orgaan kan bij een andere organisatie vragen om een
+product of dienst zonder dat daar een overeenkomst voor
+hoeft worden gesloten.",procestype,328
+Verkregen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 40, ""bbox"": [29, 78.259, 1160, 99.094]}",28.1,2017:28.1,2017:28,,generiek_resultaat,329
+Niet verkregen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 40, ""bbox"": [29, 99.094, 1160, 119.929]}",28.2,2017:28.2,2017:28,,generiek_resultaat,330
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 40, ""bbox"": [29, 119.929, 1160, 140.762]}",28.3,2017:28.3,2017:28,,generiek_resultaat,331
+Aangifte doen,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 40, ""bbox"": [29, 140.762, 1160, 161.597]}",29,2017:29,,,procestype,332
+Afgehandeld,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 40, ""bbox"": [29, 140.762, 1160, 161.597]}",29.1,2017:29.1,2017:29,"Terugmelding fout in basisregistratie beheerd door
+ander overheidsorgaan, aangifte bij politie en instanties,
+datalekken",generiek_resultaat,333
+Afgebroken,"{""bron_id"": ""2017-opgemaakt"", ""pdf_pagina"": 40, ""bbox"": [29, 161.597, 1160, 805]}",29.2,2017:29.2,2017:29,,generiek_resultaat,334

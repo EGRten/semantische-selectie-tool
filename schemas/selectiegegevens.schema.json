@@ -1,0 +1,701 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "aanvangsmoment": {
+        "type": "object",
+        "properties": {
+          "bron": {
+            "type": "object",
+            "properties": {
+              "bbox": {
+                "type": "null"
+              },
+              "bron_id": {
+                "type": "string"
+              },
+              "pdf_pagina": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "bbox",
+              "bron_id",
+              "pdf_pagina"
+            ],
+            "additionalProperties": false
+          },
+          "officiele_tekst": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "officiele_tekst",
+          "status"
+        ],
+        "additionalProperties": false
+      },
+      "aanvullende_bronnen": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "bbox": {
+              "type": [
+                "array",
+                "null"
+              ]
+            },
+            "bron_id": {
+              "type": "string"
+            },
+            "eindbbox": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "eindpagina": {
+              "type": "integer"
+            },
+            "functie": {
+              "type": "string"
+            },
+            "kolommen": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "pdf_pagina": {
+              "type": "integer"
+            },
+            "rij": {
+              "type": "integer"
+            },
+            "werkblad": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "bron_id"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "algemene_bepalingen": {
+        "type": "string"
+      },
+      "bewaartermijn": {
+        "type": "object",
+        "properties": {
+          "officiele_tekst": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "status": {
+            "type": "string"
+          },
+          "technisch": {
+            "type": [
+              "null",
+              "object"
+            ]
+          }
+        },
+        "required": [
+          "officiele_tekst",
+          "status",
+          "technisch"
+        ],
+        "additionalProperties": false
+      },
+      "bron": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "array",
+            "items": {
+              "type": [
+                "number",
+                "integer"
+              ]
+            }
+          },
+          "bron_id": {
+            "type": "string"
+          },
+          "eindbbox": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "eindpagina": {
+            "type": "integer"
+          },
+          "pdf_pagina": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "bbox",
+          "bron_id",
+          "pdf_pagina"
+        ],
+        "additionalProperties": false
+      },
+      "broncontext": {
+        "type": "string"
+      },
+      "code": {
+        "type": "string"
+      },
+      "generiek_specifiek": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "herkomst_waardering": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "id": {
+        "type": "string"
+      },
+      "officiele_benaming": {
+        "type": "string"
+      },
+      "officiele_bronrij": {
+        "type": "object",
+        "properties": {
+          "beschrijving_segmenten": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "bbox": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "pagina": {
+                  "type": "integer"
+                },
+                "tekst": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "bbox",
+                "pagina",
+                "tekst"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "bewaartermijn": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "generiek_specifiek": {
+            "type": "string"
+          },
+          "herkomst": {
+            "type": "string"
+          },
+          "omschrijving": {
+            "type": "string"
+          },
+          "procesnaam": {
+            "type": "string"
+          },
+          "procesobject": {
+            "type": "string"
+          },
+          "procesomschrijving": {
+            "type": "string"
+          },
+          "procestermijn": {
+            "type": "string"
+          },
+          "procestoelichting": {
+            "type": "string"
+          },
+          "procestype": {
+            "type": "string"
+          },
+          "resultaat": {
+            "type": "string"
+          },
+          "taakvelden": {
+            "type": "string"
+          },
+          "termijn_segmenten": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "bbox": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                },
+                "pagina": {
+                  "type": "integer"
+                },
+                "tekst": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "bbox",
+                "pagina",
+                "tekst"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "toelichting": {
+            "type": "string"
+          },
+          "waardering": {
+            "type": "string"
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      },
+      "officiele_omschrijving": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "procesobject": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "procesomschrijving": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "procestermijn": {
+        "type": "object",
+        "properties": {
+          "bron": {
+            "type": "object",
+            "properties": {
+              "bron_id": {
+                "type": "string"
+              },
+              "kolom": {
+                "type": "string"
+              },
+              "rij": {
+                "type": "integer"
+              },
+              "werkblad": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "bron_id",
+              "kolom",
+              "rij",
+              "werkblad"
+            ],
+            "additionalProperties": false
+          },
+          "generiek_resultaat_id": {
+            "type": "string"
+          },
+          "legendacategorie": {
+            "type": "string"
+          },
+          "officiele_tekst": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "onderbouwing": {
+            "type": "string"
+          },
+          "oorspronkelijke_pdf_cel": {
+            "type": "null"
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "officiele_tekst",
+          "status"
+        ],
+        "additionalProperties": false
+      },
+      "resultaattype": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "status": {
+        "type": "string"
+      },
+      "structuur_id": {
+        "type": "string"
+      },
+      "taakvelden_brontekst": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "toelichting": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "toepassingsvoorwaarden": {
+        "type": "object",
+        "properties": {
+          "bronvelden": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "bronvelden",
+          "status"
+        ],
+        "additionalProperties": false
+      },
+      "uitzonderingen_en_verwijzingen": {
+        "type": "object",
+        "properties": {
+          "algemene_bepalingen": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "officiele_tekst": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "algemene_bepalingen",
+          "officiele_tekst",
+          "status"
+        ],
+        "additionalProperties": false
+      },
+      "verificatie": {
+        "type": "object",
+        "properties": {
+          "bevindingen": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "bronannotaties": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "aanvullende_bronnen": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "bbox": {
+                        "type": "array",
+                        "items": {
+                          "type": [
+                            "integer",
+                            "number"
+                          ]
+                        }
+                      },
+                      "bron_id": {
+                        "type": "string"
+                      },
+                      "pdf_pagina": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "bbox",
+                      "bron_id",
+                      "pdf_pagina"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "bedoelde_broncorrectie": {
+                  "type": "string"
+                },
+                "belemmert_oplevering_dataset": {
+                  "type": "boolean"
+                },
+                "bevinding": {
+                  "type": "string"
+                },
+                "bron": {
+                  "type": "object",
+                  "properties": {
+                    "bbox": {
+                      "type": "array",
+                      "items": {
+                        "type": [
+                          "integer",
+                          "number"
+                        ]
+                      }
+                    },
+                    "bron_id": {
+                      "type": "string"
+                    },
+                    "pdf_pagina": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "bbox",
+                    "bron_id",
+                    "pdf_pagina"
+                  ],
+                  "additionalProperties": false
+                },
+                "bronvarianten": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "betekenis": {
+                        "type": "string"
+                      },
+                      "bron_id": {
+                        "type": "string"
+                      },
+                      "waarde": {
+                        "type": [
+                          "null",
+                          "string"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "betekenis",
+                      "bron_id",
+                      "waarde"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "code": {
+                  "type": "string"
+                },
+                "controleopdracht_gebruiker": {
+                  "type": "string"
+                },
+                "id": {
+                  "type": "string"
+                },
+                "lijst": {
+                  "type": "string"
+                },
+                "menselijke_bevestiging": {
+                  "type": "object",
+                  "properties": {
+                    "beoordelaar": {
+                      "type": "string"
+                    },
+                    "datum": {
+                      "type": "string"
+                    },
+                    "herkomst": {
+                      "type": "string"
+                    },
+                    "oordeel": {
+                      "type": "string"
+                    },
+                    "scope": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "beoordelaar",
+                    "datum",
+                    "herkomst",
+                    "oordeel",
+                    "scope"
+                  ],
+                  "additionalProperties": false
+                },
+                "onderdeel_id": {
+                  "type": "string"
+                },
+                "status_verwerking": {
+                  "type": "string"
+                },
+                "veld": {
+                  "type": "string"
+                },
+                "verwerking": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "aanvullende_bronnen",
+                "bedoelde_broncorrectie",
+                "belemmert_oplevering_dataset",
+                "bevinding",
+                "bron",
+                "bronvarianten",
+                "code",
+                "controleopdracht_gebruiker",
+                "id",
+                "lijst",
+                "onderdeel_id",
+                "status_verwerking",
+                "veld",
+                "verwerking"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "menselijke_bevestiging": {
+            "type": "object",
+            "properties": {
+              "beoordelaar": {
+                "type": "string"
+              },
+              "datum": {
+                "type": "string"
+              },
+              "herkomst": {
+                "type": "string"
+              },
+              "oordeel": {
+                "type": "string"
+              },
+              "scope": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "beoordelaar",
+              "datum",
+              "herkomst",
+              "oordeel",
+              "scope"
+            ],
+            "additionalProperties": false
+          },
+          "methode": {
+            "type": "string"
+          },
+          "oplevering": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "bevindingen",
+          "methode",
+          "status"
+        ],
+        "additionalProperties": false
+      },
+      "waardering": {
+        "type": "object",
+        "properties": {
+          "afleiding": {
+            "type": "string"
+          },
+          "officiele_tekst": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "type": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "officiele_tekst",
+          "type"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "required": [
+      "aanvangsmoment",
+      "aanvullende_bronnen",
+      "algemene_bepalingen",
+      "bewaartermijn",
+      "bron",
+      "code",
+      "generiek_specifiek",
+      "herkomst_waardering",
+      "id",
+      "officiele_benaming",
+      "officiele_bronrij",
+      "officiele_omschrijving",
+      "procesobject",
+      "procesomschrijving",
+      "procestermijn",
+      "resultaattype",
+      "status",
+      "structuur_id",
+      "taakvelden_brontekst",
+      "toelichting",
+      "toepassingsvoorwaarden",
+      "uitzonderingen_en_verwijzingen",
+      "verificatie",
+      "waardering"
+    ],
+    "additionalProperties": false
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "selectiegegevens — eindpakket 1.0.0"
+}

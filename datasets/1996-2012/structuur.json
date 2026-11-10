@@ -1,0 +1,2256 @@
+[
+  {
+    "id": "1996-2012:2",
+    "code": "2",
+    "benaming": "Archiefbescheiden die op grond van alle taken gevormd kunnen worden",
+    "type": "hoofdstuk",
+    "parent_id": null,
+    "volgorde": 1,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 18,
+      "bbox": null
+    }
+  },
+  {
+    "id": "1996-2012:3",
+    "code": "3",
+    "benaming": "Archiefbescheiden die op grond van één taak gevormd kunnen worden",
+    "type": "hoofdstuk",
+    "parent_id": null,
+    "volgorde": 2,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 29,
+      "bbox": null
+    }
+  },
+  {
+    "id": "1996-2012:2.1",
+    "code": "2.1",
+    "benaming": "Aanwijzing van gemeentelijke vertegenwoordigers in commissies e.d.",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 3,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 18,
+      "bbox": [
+        113.19249725341797,
+        241.63088989257812,
+        187.0718536376953,
+        251.38262939453125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.2",
+    "code": "2.2",
+    "benaming": "Verslaglegging",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 4,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 18,
+      "bbox": [
+        113.19249725341797,
+        393.8987121582031,
+        184.6459503173828,
+        403.65045166015625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.3",
+    "code": "2.3",
+    "benaming": "Intermediair optreden",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 5,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 19,
+      "bbox": [
+        113.19239807128906,
+        173.22909545898438,
+        209.67526245117188,
+        182.9808349609375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.4",
+    "code": "2.4",
+    "benaming": "Regelgeving door derden",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 6,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 19,
+      "bbox": [
+        113.19249725341797,
+        363.8738708496094,
+        223.6937713623047,
+        373.6256103515625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.5",
+    "code": "2.5",
+    "benaming": "Bekendmakingen",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 7,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 19,
+      "bbox": [
+        113.19249725341797,
+        487.3583679199219,
+        193.2943115234375,
+        497.110107421875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.6",
+    "code": "2.6",
+    "benaming": "Publiciteit en voorlichting",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 8,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 19,
+      "bbox": [
+        113.19239807128906,
+        661.9750366210938,
+        226.7227783203125,
+        671.726806640625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.7",
+    "code": "2.7",
+    "benaming": "Verlening van vergunningen, machtigingen, verklaringen van geen bezwaar e.d.",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 9,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 20,
+      "bbox": [
+        113.19249725341797,
+        447.0622863769531,
+        210.8649139404297,
+        456.81402587890625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.8",
+    "code": "2.8",
+    "benaming": "Statistisch onderzoek",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 10,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 21,
+      "bbox": [
+        113.19249725341797,
+        407.4432678222656,
+        208.0055389404297,
+        417.19500732421875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.9",
+    "code": "2.9",
+    "benaming": "Toezicht, controle, rapportering, aanschrijving, lastgeving en behandeling",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 11,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 21,
+      "bbox": [
+        113.19249725341797,
+        530.9279174804688,
+        201.29974365234375,
+        540.6796875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.10",
+    "code": "2.10",
+    "benaming": "Hulpadministraties",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 12,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 22,
+      "bbox": [
+        113.19249725341797,
+        416.1346740722656,
+        204.28488159179688,
+        425.88641357421875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.11",
+    "code": "2.11",
+    "benaming": "Gegevens over gegevens",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 13,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 22,
+      "bbox": [
+        113.19249725341797,
+        650.3490600585938,
+        399.2410583496094,
+        660.100830078125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.12",
+    "code": "2.12",
+    "benaming": "Beheer, beveiliging en programmatuur",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 14,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 23,
+      "bbox": [
+        113.19239807128906,
+        424.48736572265625,
+        217.87075805664062,
+        434.2391052246094
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.13",
+    "code": "2.13",
+    "benaming": "Intrekking en niet doorgaan van zaken van eenvoudige aard",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 15,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 23,
+      "bbox": [
+        113.19249725341797,
+        536.79736328125,
+        199.3220977783203,
+        546.5491333007812
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.14",
+    "code": "2.14",
+    "benaming": "Geleide- en rappelbrieven, ontvangstbevestigingen, toezending van afschriften en drukwerken",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 16,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 23,
+      "bbox": [
+        113.19249725341797,
+        716.1547241210938,
+        175.23953247070312,
+        725.906494140625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.15",
+    "code": "2.15",
+    "benaming": "Offertes, inschrijvingen",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 17,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 24,
+      "bbox": [
+        114.8855972290039,
+        234.97128295898438,
+        224.17405700683594,
+        244.7230224609375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.16",
+    "code": "2.16",
+    "benaming": "Jaarlijkse verantwoording door buitengemeentelijke instellingen",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 18,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 24,
+      "bbox": [
+        114.885498046875,
+        472.9104919433594,
+        232.435546875,
+        482.6622314453125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.17",
+    "code": "2.17",
+    "benaming": "Regeling privaatrechtelijke rechtsverhoudingen",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 19,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 25,
+      "bbox": [
+        113.19249725341797,
+        208.44589233398438,
+        165.2671356201172,
+        218.1976318359375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.18",
+    "code": "2.18",
+    "benaming": "Beleid en Regelgeving",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 20,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 25,
+      "bbox": [
+        113.19249725341797,
+        308.3396911621094,
+        218.6881866455078,
+        318.0914306640625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.19",
+    "code": "2.19",
+    "benaming": "Voorbereiding",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 21,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 25,
+      "bbox": [
+        113.19249725341797,
+        607.3438110351562,
+        186.80685424804688,
+        617.0955810546875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.20",
+    "code": "2.20",
+    "benaming": "Subsidies",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 22,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        113.19249725341797,
+        186.20956420898438,
+        169.88607788085938,
+        195.9613037109375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.21",
+    "code": "2.21",
+    "benaming": "Garantieverlening",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 23,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        113.19249725341797,
+        528.1060180664062,
+        200.34799194335938,
+        537.8577880859375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.22",
+    "code": "2.22",
+    "benaming": "Verzekeringen",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 24,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        113.19249725341797,
+        550.9066772460938,
+        187.27639770507812,
+        560.658447265625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.23",
+    "code": "2.23",
+    "benaming": "Principebeslissingen; precedenten",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 25,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        114.8855972290039,
+        219.39456176757812,
+        214.45880126953125,
+        229.14630126953125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.24",
+    "code": "2.24",
+    "benaming": "Klachten, zienswijzen, inspraak, referenda",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 26,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        113.19249725341797,
+        264.7700500488281,
+        218.34326171875,
+        274.52178955078125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:2.25",
+    "code": "2.25",
+    "benaming": "Bezwaar- en beroepschriften",
+    "type": "rubriek",
+    "parent_id": "1996-2012:2",
+    "volgorde": 27,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 28,
+      "bbox": [
+        113.19249725341797,
+        148.50955200195312,
+        178.91439819335938,
+        158.26129150390625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.1",
+    "code": "3.1",
+    "benaming": "Financieel beheer",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 28,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        113.19249725341797,
+        112.13520812988281,
+        205.74427795410156,
+        121.88695526123047
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.1.1",
+    "code": "3.1.1",
+    "benaming": "Bepaling algemeen financieel beleid",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.1",
+    "volgorde": 29,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        114.8855972290039,
+        295.35906982421875,
+        204.48062133789062,
+        305.1108093261719
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.1.2",
+    "code": "3.1.2",
+    "benaming": "Financiële administratie en boekhouding",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.1",
+    "volgorde": 30,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        113.19249725341797,
+        486.0038757324219,
+        221.81166076660156,
+        495.755615234375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.1.3",
+    "code": "3.1.3",
+    "benaming": "Verificatie",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.1",
+    "volgorde": 31,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 30,
+      "bbox": [
+        113.19249725341797,
+        123.79000091552734,
+        166.99647521972656,
+        133.541748046875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.1.4",
+    "code": "3.1.4",
+    "benaming": "Heffing van belastingen",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.1",
+    "volgorde": 32,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 30,
+      "bbox": [
+        113.19249725341797,
+        180.22726440429688,
+        218.63160705566406,
+        189.97900390625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.1.5",
+    "code": "3.1.5",
+    "benaming": "Door de gemeente verschuldigde belastingen en boetes",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.1",
+    "volgorde": 33,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 30,
+      "bbox": [
+        113.19249725341797,
+        446.72369384765625,
+        196.53863525390625,
+        456.4754333496094
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.1.6",
+    "code": "3.1.6",
+    "benaming": "Opnemen/verstrekken van geldleningen, voorschotten of kredieten",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.1",
+    "volgorde": 34,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 30,
+      "bbox": [
+        113.19249725341797,
+        666.03857421875,
+        230.4453887939453,
+        675.7903442382812
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.1.7",
+    "code": "3.1.7",
+    "benaming": "Verstrekken/ontvangen van uitkeringen, vergoedingen en bijdragen ",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.1",
+    "volgorde": 35,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 31,
+      "bbox": [
+        113.19249725341797,
+        201.44760131835938,
+        215.9330291748047,
+        211.1993408203125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.2",
+    "code": "3.2",
+    "benaming": "Personeel beheer",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 36,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 32,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        200.6177520751953,
+        120.98400115966797
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.2.1",
+    "code": "3.2.1",
+    "benaming": "Individuele personeelsleden, vrijwilligers en stagiaires",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.2",
+    "volgorde": 37,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 32,
+      "bbox": [
+        113.19249725341797,
+        262.9642028808594,
+        169.5421142578125,
+        272.7159423828125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.2.2",
+    "code": "3.2.2",
+    "benaming": "Openstellen en behandelen van vacatures",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.2",
+    "volgorde": 38,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        203.81796264648438,
+        230.0451202392578,
+        213.5697021484375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.2.3",
+    "code": "3.2.3",
+    "benaming": "Bepalen van personeelsbezetting en -formatie; rechtspositieregeling",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.2",
+    "volgorde": 39,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        249.08059692382812,
+        173.5220184326172,
+        258.83233642578125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.2.4",
+    "code": "3.2.4",
+    "benaming": "Salarisadministratie",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.2",
+    "volgorde": 40,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        339.0414733886719,
+        202.5263671875,
+        348.793212890625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.2.5",
+    "code": "3.2.5",
+    "benaming": "Arbo-gegevens",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.2",
+    "volgorde": 41,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        361.8420715332031,
+        184.7073516845703,
+        371.59381103515625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.2.6",
+    "code": "3.2.6",
+    "benaming": "Ondernemingsraden en georganiseerd overleg",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.2",
+    "volgorde": 42,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        429.3409729003906,
+        215.77513122558594,
+        439.09271240234375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.3",
+    "code": "3.3",
+    "benaming": "Beheer van eigendommen en werken",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 43,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 34,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        282.452880859375,
+        120.98400115966797
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.3.1",
+    "code": "3.3.1",
+    "benaming": "Verkrijging en verlies",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.3",
+    "volgorde": 44,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 34,
+      "bbox": [
+        113.19249725341797,
+        265.1087951660156,
+        215.8180389404297,
+        274.86053466796875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.3.2",
+    "code": "3.3.2",
+    "benaming": "Stichting, aanleg, verbetering, restauratie, wijziging, regeling van de bestemming van en bijkomende voorzieningen aan gebouwen, werken, terreinen, installaties, apparatuur en machines",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.3",
+    "volgorde": 45,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 34,
+      "bbox": [
+        113.19249725341797,
+        403.2669677734375,
+        195.73878479003906,
+        413.0187072753906
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.3.3",
+    "code": "3.3.3",
+    "benaming": "Kostprijsberekening en exploitatieopzet",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.3",
+    "volgorde": 46,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        113.19249725341797,
+        297.05218505859375,
+        218.3948974609375,
+        306.8039245605469
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.3.4",
+    "code": "3.3.4",
+    "benaming": "Gebruik: zakelijke, persoonlijke en andere rechten als erfpacht, opstal, huur en pacht, erfdienstbaarheid, verhuur en verpachting, in gebruik geven en nemen, jacht- en visrecht ed.",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.3",
+    "volgorde": 47,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        113.19249725341797,
+        331.1402893066406,
+        202.64227294921875,
+        340.89202880859375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.3.5",
+    "code": "3.3.5",
+    "benaming": "Onderhoud, schoonhouden, water- en energievoorziening",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.3",
+    "volgorde": 48,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        113.19249725341797,
+        568.2893676757812,
+        171.60760498046875,
+        578.0411376953125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.3.6",
+    "code": "3.3.6",
+    "benaming": "Bewaking, bescherming en bedrijfshulpverlening",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.3",
+    "volgorde": 49,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        113.19249725341797,
+        613.4390258789062,
+        221.99085998535156,
+        623.1907958984375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.4",
+    "code": "3.4",
+    "benaming": "Beheer van benodigdheden en hulpmiddelen",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 50,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        314.530029296875,
+        120.98400115966797
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.4.1",
+    "code": "3.4.1",
+    "benaming": "Aanschaf, leasen,huur, verhuur en ingebruikgeving",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.4",
+    "volgorde": 51,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        113.19249725341797,
+        254.95010375976562,
+        213.924072265625,
+        264.70184326171875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.4.2",
+    "code": "3.4.2",
+    "benaming": "Onderhoud",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.4",
+    "volgorde": 52,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        114.8855972290039,
+        485.4395751953125,
+        170.81735229492188,
+        495.1913146972656
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.4.3",
+    "code": "3.4.3",
+    "benaming": "Verkoop",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.4",
+    "volgorde": 53,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        113.19249725341797,
+        535.104248046875,
+        159.431396484375,
+        544.8560180664062
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.5",
+    "code": "3.5",
+    "benaming": "Bestuur en organisatie",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 54,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 37,
+      "bbox": [
+        113.19249725341797,
+        123.08406066894531,
+        221.25637817382812,
+        132.8358154296875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.5.1",
+    "code": "3.5.1",
+    "benaming": "Organisatorisch handelen",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.5",
+    "volgorde": 55,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 37,
+      "bbox": [
+        114.8855972290039,
+        275.831787109375,
+        226.11671447753906,
+        285.5835266113281
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.5.2",
+    "code": "3.5.2",
+    "benaming": "Gemeentelijk grondgebied",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.5",
+    "volgorde": 56,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 37,
+      "bbox": [
+        114.8855972290039,
+        343.3306884765625,
+        179.4140625,
+        353.0824279785156
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.5.3",
+    "code": "3.5.3",
+    "benaming": "Verkiezingen c.a.",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.5",
+    "volgorde": 57,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        114.8855972290039,
+        534.0883178710938,
+        197.0061798095703,
+        543.840087890625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.5.4",
+    "code": "3.5.4",
+    "benaming": "Bestuur",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.5",
+    "volgorde": 58,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        114.8855972290039,
+        279.5566711425781,
+        157.2722930908203,
+        289.30841064453125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.5.5",
+    "code": "3.5.5",
+    "benaming": "Burgemeester",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.5",
+    "volgorde": 59,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        114.8855972290039,
+        353.82806396484375,
+        182.8044891357422,
+        363.5798034667969
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.5.6",
+    "code": "3.5.6",
+    "benaming": "Wethouders",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.5",
+    "volgorde": 60,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        114.8855972290039,
+        398.977783203125,
+        175.6671142578125,
+        408.7295227050781
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.5.7",
+    "code": "3.5.7",
+    "benaming": "(Re)presentatie",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.5",
+    "volgorde": 61,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        114.8855972290039,
+        424.1487731933594,
+        188.10537719726562,
+        433.9005126953125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.6",
+    "code": "3.6",
+    "benaming": "Ruimtelijke ordening en volkshuisvesting",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 62,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 41,
+      "bbox": [
+        113.19249725341797,
+        121.39100646972656,
+        301.83270263671875,
+        131.14276123046875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.6.1",
+    "code": "3.6.1",
+    "benaming": "Planologie",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.6",
+    "volgorde": 63,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 41,
+      "bbox": [
+        113.19249725341797,
+        328.8827819824219,
+        166.96913146972656,
+        338.634521484375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.6.2",
+    "code": "3.6.2",
+    "benaming": "Bouw, aanleg en gebruik",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.6",
+    "volgorde": 64,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 42,
+      "bbox": [
+        113.19249725341797,
+        694.0314331054688,
+        224.39718627929688,
+        703.783203125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.7",
+    "code": "3.7",
+    "benaming": "Burgerlijke stand en Bevolking/GBA.",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 65,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 47,
+      "bbox": [
+        113.19249725341797,
+        121.39100646972656,
+        285.7594909667969,
+        131.14276123046875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.7.1",
+    "code": "3.7.1",
+    "benaming": "Burgerlijke stand",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.7",
+    "volgorde": 66,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 47,
+      "bbox": [
+        114.8855972290039,
+        350.216064453125,
+        197.12301635742188,
+        359.9678039550781
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.7.2",
+    "code": "3.7.2",
+    "benaming": "Gemeentelijke basisadministratie persoonsgegevens",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.7",
+    "volgorde": 67,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 47,
+      "bbox": [
+        113.19249725341797,
+        619.082763671875,
+        184.8242645263672,
+        628.8345336914062
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.7.3",
+    "code": "3.7.3",
+    "benaming": "Nationaliteit",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.7",
+    "volgorde": 68,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 50,
+      "bbox": [
+        113.19249725341797,
+        234.97128295898438,
+        176.8187713623047,
+        244.7230224609375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.7.4",
+    "code": "3.7.4",
+    "benaming": "Individuele personen",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.7",
+    "volgorde": 69,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 51,
+      "bbox": [
+        113.19249725341797,
+        509.1431579589844,
+        210.00770568847656,
+        518.8948974609375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.7.5",
+    "code": "3.7.5",
+    "benaming": "Reisdocumenten (Paspoortwet- en regelgeving)",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.7",
+    "volgorde": 70,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 52,
+      "bbox": [
+        113.19249725341797,
+        111.37386322021484,
+        192.8218231201172,
+        121.1256103515625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.7.6",
+    "code": "3.7.6",
+    "benaming": "Rijbewijzen",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.7",
+    "volgorde": 71,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 52,
+      "bbox": [
+        113.19249725341797,
+        257.3204650878906,
+        175.2385711669922,
+        267.07220458984375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.8",
+    "code": "3.8",
+    "benaming": "Gezondheidszorg",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 72,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 53,
+      "bbox": [
+        113.19249725341797,
+        112.13520812988281,
+        201.9758758544922,
+        121.88695526123047
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.8.1",
+    "code": "3.8.1",
+    "benaming": "Gezondheidszorg – collectief",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.8",
+    "volgorde": 73,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 53,
+      "bbox": [
+        113.19249725341797,
+        261.8353576660156,
+        203.3905487060547,
+        271.58709716796875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.8.2",
+    "code": "3.8.2",
+    "benaming": "Gezondheidszorg – individueel",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.8",
+    "volgorde": 74,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 53,
+      "bbox": [
+        113.19249725341797,
+        418.9565734863281,
+        203.3905487060547,
+        428.70831298828125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.8.3",
+    "code": "3.8.3",
+    "benaming": "(Besmettelijke) ziekten",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.8",
+    "volgorde": 75,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 54,
+      "bbox": [
+        113.19249725341797,
+        503.95098876953125,
+        218.6228790283203,
+        513.7027587890625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.8.4",
+    "code": "3.8.4",
+    "benaming": "Ambulancevervoer",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.8",
+    "volgorde": 76,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 54,
+      "bbox": [
+        113.19249725341797,
+        654.186767578125,
+        202.62863159179688,
+        663.9385375976562
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.8.5",
+    "code": "3.8.5",
+    "benaming": "Lijkbezorging",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.8",
+    "volgorde": 77,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 55,
+      "bbox": [
+        113.19249725341797,
+        184.06497192382812,
+        183.02772521972656,
+        193.81671142578125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.9",
+    "code": "3.9",
+    "benaming": "Milieu",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 78,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 56,
+      "bbox": [
+        129.10780334472656,
+        122.06825256347656,
+        173.9856414794922,
+        131.82000732421875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.9.1",
+    "code": "3.9.1",
+    "benaming": "Milieu",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.9",
+    "volgorde": 79,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 56,
+      "bbox": [
+        113.19249725341797,
+        256.8688659667969,
+        154.18502807617188,
+        266.62060546875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.9.2",
+    "code": "3.9.2",
+    "benaming": "Verontreiniging milieu",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.9",
+    "volgorde": 80,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 57,
+      "bbox": [
+        113.19249725341797,
+        404.16998291015625,
+        217.5541229248047,
+        413.9217224121094
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.9.3",
+    "code": "3.9.3",
+    "benaming": "Vuilverwerking",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.9",
+    "volgorde": 81,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 58,
+      "bbox": [
+        113.19249725341797,
+        220.52340698242188,
+        189.65354919433594,
+        230.275146484375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.9.4",
+    "code": "3.9.4",
+    "benaming": "Riolering",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.9",
+    "volgorde": 82,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 58,
+      "bbox": [
+        113.19249725341797,
+        584.6560668945312,
+        164.86769104003906,
+        594.4078369140625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.9.5",
+    "code": "3.9.5",
+    "benaming": "Geluid",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.9",
+    "volgorde": 83,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 59,
+      "bbox": [
+        113.19249725341797,
+        256.3045959472656,
+        154.7267303466797,
+        266.05633544921875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.10",
+    "code": "3.10",
+    "benaming": "Openbare orde en veiligheid",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 84,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 60,
+      "bbox": [
+        113.19249725341797,
+        123.64845275878906,
+        252.79580688476562,
+        133.40020751953125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.10.1",
+    "code": "3.10.1",
+    "benaming": "Openbare Orde",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.10",
+    "volgorde": 85,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 60,
+      "bbox": [
+        113.19249725341797,
+        296.6006774902344,
+        190.2137451171875,
+        306.3524169921875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.10.2",
+    "code": "3.10.2",
+    "benaming": "Rampenbestrijding",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.10",
+    "volgorde": 86,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 60,
+      "bbox": [
+        113.19249725341797,
+        419.9723815917969,
+        202.24281311035156,
+        429.72412109375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.10.3",
+    "code": "3.10.3",
+    "benaming": "Brandweer",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.10",
+    "volgorde": 87,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 61,
+      "bbox": [
+        113.19249725341797,
+        235.19705200195312,
+        170.76681518554688,
+        244.94879150390625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.11",
+    "code": "3.11",
+    "benaming": "Verkeer en vervoer",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 88,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 63,
+      "bbox": [
+        113.19249725341797,
+        123.64845275878906,
+        217.89120483398438,
+        133.40020751953125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.11.1",
+    "code": "3.11.1",
+    "benaming": "Verkeer",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.11",
+    "volgorde": 89,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 63,
+      "bbox": [
+        113.19249725341797,
+        251.78958129882812,
+        159.40701293945312,
+        261.54132080078125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.11.2",
+    "code": "3.11.2",
+    "benaming": "Vervoer",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.11",
+    "volgorde": 90,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 64,
+      "bbox": [
+        113.19249725341797,
+        418.73077392578125,
+        159.93800354003906,
+        428.4825134277344
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.12",
+    "code": "3.12",
+    "benaming": "Economie",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 91,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 65,
+      "bbox": [
+        113.19249725341797,
+        123.76130676269531,
+        173.63011169433594,
+        133.5130615234375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.12.1",
+    "code": "3.12.1",
+    "benaming": "Economische aangelegenheden",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.12",
+    "volgorde": 92,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 65,
+      "bbox": [
+        113.19249725341797,
+        226.05429077148438,
+        180.403076171875,
+        235.8060302734375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.13",
+    "code": "3.13",
+    "benaming": "Arbeid",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 93,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 66,
+      "bbox": [
+        113.19249725341797,
+        135.9518585205078,
+        161.72865295410156,
+        145.70361328125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.13.1",
+    "code": "3.13.1",
+    "benaming": "Arbeidsaangelegenheden",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.13",
+    "volgorde": 94,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 66,
+      "bbox": [
+        113.19249725341797,
+        271.9940490722656,
+        225.8304443359375,
+        281.74578857421875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.14",
+    "code": "3.14",
+    "benaming": "Welzijn en sociale zorg",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 95,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 67,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        230.30035400390625,
+        120.98400115966797
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.14.1",
+    "code": "3.14.1",
+    "benaming": "Bijstandsverlening",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.14",
+    "volgorde": 96,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 67,
+      "bbox": [
+        113.19249725341797,
+        316.5794677734375,
+        200.99972534179688,
+        326.3312072753906
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.14.2",
+    "code": "3.14.2",
+    "benaming": "Welzijnszorg",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.14",
+    "volgorde": 97,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 68,
+      "bbox": [
+        114.8855972290039,
+        135.64175415039062,
+        181.54571533203125,
+        145.39349365234375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.14.3",
+    "code": "3.14.3",
+    "benaming": "Zorg voor bepaalde groepen",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.14",
+    "volgorde": 98,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 68,
+      "bbox": [
+        113.19249725341797,
+        192.07894897460938,
+        204.241943359375,
+        201.8306884765625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.15",
+    "code": "3.15",
+    "benaming": "Onderwijs",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 99,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 70,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        176.46128845214844,
+        120.98400115966797
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.15.1",
+    "code": "3.15.1",
+    "benaming": "Organisatie",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.15",
+    "volgorde": 100,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 70,
+      "bbox": [
+        113.19249725341797,
+        258.3362731933594,
+        172.84385681152344,
+        268.0880126953125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.15.2",
+    "code": "3.15.2",
+    "benaming": "Financiering",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.15",
+    "volgorde": 101,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 70,
+      "bbox": [
+        113.19249725341797,
+        560.8396606445312,
+        174.2721405029297,
+        570.5914306640625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.15.3",
+    "code": "3.15.3",
+    "benaming": "Individuele leerlingen",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.15",
+    "volgorde": 102,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 71,
+      "bbox": [
+        113.19249725341797,
+        300.4384765625,
+        213.60556030273438,
+        310.1902160644531
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.15.4",
+    "code": "3.15.4",
+    "benaming": "Onderwijsresultaten",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.15",
+    "volgorde": 103,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 71,
+      "bbox": [
+        113.19249725341797,
+        367.8244934082031,
+        206.4029083251953,
+        377.57623291015625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.15.5",
+    "code": "3.15.5",
+    "benaming": "Leerplicht",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.15",
+    "volgorde": 104,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 71,
+      "bbox": [
+        113.19249725341797,
+        531.9437866210938,
+        168.17822265625,
+        541.695556640625
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.15.6",
+    "code": "3.15.6",
+    "benaming": "Begeleiding en toezicht",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.15",
+    "volgorde": 105,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 71,
+      "bbox": [
+        113.19249725341797,
+        576.9806518554688,
+        217.06117248535156,
+        586.732421875
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.16",
+    "code": "3.16",
+    "benaming": "Cultuur, recreatie en sport",
+    "type": "taakveld",
+    "parent_id": "1996-2012:3",
+    "volgorde": 106,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 72,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        246.36752319335938,
+        120.98400115966797
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.16.1",
+    "code": "3.16.1",
+    "benaming": "Cultuur (bevordering)",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.16",
+    "volgorde": 107,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 72,
+      "bbox": [
+        113.19249725341797,
+        228.08596801757812,
+        210.86976623535156,
+        237.83770751953125
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  },
+  {
+    "id": "1996-2012:3.16.2",
+    "code": "3.16.2",
+    "benaming": "Sport en recreatie",
+    "type": "rubriek",
+    "parent_id": "1996-2012:3.16",
+    "volgorde": 108,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 73,
+      "bbox": [
+        113.19249725341797,
+        324.3677673339844,
+        195.49136352539062,
+        334.1195068359375
+      ]
+    },
+    "codeopbouw": "officiele_hoofdstuk_en_rubrieknummering",
+    "verificatie": "kop_in_officiele_pdf_gelokaliseerd"
+  }
+]

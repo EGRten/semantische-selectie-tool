@@ -1,0 +1,14 @@
+{
+  "resultaat": "geslaagd",
+  "gecorrigeerde_codes": [
+    "7.1.2",
+    "7.1.3",
+    "7.1.5",
+    "7.1.6"
+  ],
+  "waarde": "Nihil",
+  "bron": "officiele_XLS_en_generiek_resultaat_7.1",
+  "oorspronkelijke_pdf_cellen_behouden": true,
+  "resterende_bronvragen": 7,
+  "schema_en_hashcontroles": "geslaagd"
+}

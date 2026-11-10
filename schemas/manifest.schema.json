@@ -1,0 +1,384 @@
+{
+  "type": "object",
+  "properties": {
+    "aantallen": {
+      "type": "object",
+      "properties": {
+        "actieve_regels": {
+          "type": "integer"
+        },
+        "afgehandelde_bronvragen": {
+          "type": "integer"
+        },
+        "ai_voorgestelde_termrelaties": {
+          "type": "integer"
+        },
+        "bronannotaties": {
+          "type": "integer"
+        },
+        "broncontroles_bevestigd_door_gebruiker": {
+          "type": "integer"
+        },
+        "brononderbouwde_alternatieve_termrelaties": {
+          "type": "integer"
+        },
+        "lege_aanvangsmomentvelden": {
+          "type": "integer"
+        },
+        "nog_niet_gevalideerde_zoekvoorstellen": {
+          "type": "integer"
+        },
+        "officiele_termrelaties": {
+          "type": "integer"
+        },
+        "procestypen": {
+          "type": "integer"
+        },
+        "records_met_open_bronvraag": {
+          "type": "integer"
+        },
+        "relaties": {
+          "type": "integer"
+        },
+        "rubrieken": {
+          "type": "integer"
+        },
+        "selectievoorschriften_of_resultaatregels": {
+          "type": "integer"
+        },
+        "structuuronderdelen": {
+          "type": "integer"
+        },
+        "taalkundige_variantrelaties": {
+          "type": "integer"
+        },
+        "testvragen": {
+          "type": "integer"
+        },
+        "vervallen_regels": {
+          "type": "integer"
+        },
+        "zoektermrelaties": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "actieve_regels",
+        "ai_voorgestelde_termrelaties",
+        "bronannotaties",
+        "brononderbouwde_alternatieve_termrelaties",
+        "lege_aanvangsmomentvelden",
+        "nog_niet_gevalideerde_zoekvoorstellen",
+        "officiele_termrelaties",
+        "procestypen",
+        "records_met_open_bronvraag",
+        "relaties",
+        "rubrieken",
+        "selectievoorschriften_of_resultaatregels",
+        "structuuronderdelen",
+        "taalkundige_variantrelaties",
+        "testvragen",
+        "vervallen_regels",
+        "zoektermrelaties"
+      ],
+      "additionalProperties": false
+    },
+    "beperkingen": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "bronnenregister": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "bestand": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "oorspronkelijk_bestand": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "oorspronkelijke_sha256": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "bestand_type": {
+            "const": "bronbeschrijving_geen_brondocument"
+          },
+          "inhoud_extern": {
+            "const": true
+          }
+        },
+        "required": [
+          "bestand",
+          "id",
+          "sha256",
+          "status"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "controleoverdracht": {
+      "type": "object",
+      "properties": {
+        "bevestigde_bronoordelen": {
+          "type": "integer"
+        },
+        "formele_vrijgave_vereist_voor_oplevering": {
+          "type": "boolean"
+        },
+        "instructie": {
+          "type": "string"
+        },
+        "menselijke_oordelen_vooraf_ingevuld": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string"
+        },
+        "werkboek": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "bevestigde_bronoordelen",
+        "formele_vrijgave_vereist_voor_oplevering",
+        "instructie",
+        "menselijke_oordelen_vooraf_ingevuld",
+        "status",
+        "werkboek"
+      ],
+      "additionalProperties": false
+    },
+    "datasetversie": {
+      "type": "string"
+    },
+    "generatiedatum": {
+      "type": "string"
+    },
+    "officiele_gegevens_volledigheid": {
+      "type": "string"
+    },
+    "officiele_titel": {
+      "type": "string"
+    },
+    "opleverstatus": {
+      "type": "string"
+    },
+    "selectielijst_id": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "object",
+      "properties": {
+        "bepalingen.json": {
+          "type": "string"
+        },
+        "bronannotaties.json": {
+          "type": "string"
+        },
+        "codeinventaris.json": {
+          "type": "string"
+        },
+        "kandidaten-ongekoppeld.json": {
+          "type": "string"
+        },
+        "relaties.csv": {
+          "type": "string"
+        },
+        "relaties.json": {
+          "type": "string"
+        },
+        "rubriekcontext.json": {
+          "type": "string"
+        },
+        "selectiegegevens.csv": {
+          "type": "string"
+        },
+        "selectiegegevens.json": {
+          "type": "string"
+        },
+        "structuur.csv": {
+          "type": "string"
+        },
+        "structuur.json": {
+          "type": "string"
+        },
+        "testvragen.csv": {
+          "type": "string"
+        },
+        "testvragen.json": {
+          "type": "string"
+        },
+        "validatie.json": {
+          "type": "string"
+        },
+        "wijzigingen.json": {
+          "type": "string"
+        },
+        "zoeklexicon.csv": {
+          "type": "string"
+        },
+        "zoeklexicon.json": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "bepalingen.json",
+        "bronannotaties.json",
+        "codeinventaris.json",
+        "kandidaten-ongekoppeld.json",
+        "relaties.csv",
+        "relaties.json",
+        "selectiegegevens.csv",
+        "selectiegegevens.json",
+        "structuur.csv",
+        "structuur.json",
+        "testvragen.csv",
+        "testvragen.json",
+        "validatie.json",
+        "zoeklexicon.csv",
+        "zoeklexicon.json"
+      ],
+      "additionalProperties": false
+    },
+    "validatiestatus": {
+      "type": "object",
+      "properties": {
+        "aanvullende_controle": {
+          "type": "object",
+          "properties": {
+            "methode": {
+              "type": "string"
+            },
+            "nieuwe_extractieafwijkingen": {
+              "type": "integer"
+            },
+            "records": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "methode",
+            "nieuwe_extractieafwijkingen",
+            "records"
+          ],
+          "additionalProperties": false
+        },
+        "afgehandelde_bronvragen": {
+          "type": "integer"
+        },
+        "bronbeperkingen_behouden": {
+          "type": "integer"
+        },
+        "broncontroles_bevestigd_door_gebruiker": {
+          "type": "integer"
+        },
+        "bronverificatie": {
+          "type": "string"
+        },
+        "integrale_menselijke_tweede_lezing": {
+          "type": "boolean"
+        },
+        "open_bronvragen": {
+          "type": "integer"
+        },
+        "opleverstatus": {
+          "type": "string"
+        },
+        "semantische_volledigheid": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "technische_validatie": {
+          "type": "string"
+        },
+        "toepasselijkheidsbeslissingen_gevalideerd": {
+          "type": "boolean"
+        },
+        "verplichte_tweede_beoordelaar": {
+          "type": "boolean"
+        },
+        "volledigheidscontrole": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "aanvullende_controle",
+        "bronverificatie",
+        "integrale_menselijke_tweede_lezing",
+        "open_bronvragen",
+        "opleverstatus",
+        "semantische_volledigheid",
+        "status",
+        "technische_validatie",
+        "toepasselijkheidsbeslissingen_gevalideerd",
+        "verplichte_tweede_beoordelaar",
+        "volledigheidscontrole"
+      ],
+      "additionalProperties": false
+    },
+    "vaststellingsgegevens": {
+      "type": "object",
+      "properties": {
+        "datum": {
+          "type": "string"
+        },
+        "kenmerk": {
+          "type": "string"
+        },
+        "publicatie": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "datum",
+        "kenmerk",
+        "publicatie"
+      ],
+      "additionalProperties": false
+    },
+    "publicatievoorbereiding": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "aantallen",
+    "beperkingen",
+    "bronnenregister",
+    "controleoverdracht",
+    "datasetversie",
+    "generatiedatum",
+    "officiele_gegevens_volledigheid",
+    "officiele_titel",
+    "opleverstatus",
+    "selectielijst_id",
+    "sha256",
+    "validatiestatus",
+    "vaststellingsgegevens"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "manifest — eindpakket 1.0.0"
+}

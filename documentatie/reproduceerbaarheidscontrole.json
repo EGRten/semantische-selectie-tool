@@ -1,0 +1,178 @@
+{
+  "offline_reproductie": "geslaagd",
+  "gecontroleerde_bestanden": 43,
+  "controles": [
+    {
+      "bestand": "datasets/1996-2012/bepalingen.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/1996-2012/bronannotaties.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/1996-2012/codeinventaris.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/1996-2012/kandidaten-ongekoppeld.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/1996-2012/manifest.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/1996-2012/relaties.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/1996-2012/rubriekcontext.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/1996-2012/selectiegegevens.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/1996-2012/structuur.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/1996-2012/testvragen.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/1996-2012/validatie.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/1996-2012/zoeklexicon.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/bepalingen.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/bronannotaties.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/codeinventaris.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/kandidaten-ongekoppeld.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/manifest.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/relaties.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/selectiegegevens.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/structuur.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/testvragen.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/validatie.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/wijzigingen.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2017/zoeklexicon.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/bepalingen.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/bronannotaties.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/codeinventaris.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/kandidaten-ongekoppeld.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/manifest.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/relaties.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/selectiegegevens.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/structuur.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/testvragen.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/validatie.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/wijzigingen.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "datasets/2020/zoeklexicon.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "schemas/bronannotaties.schema.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "schemas/manifest.schema.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "schemas/relaties.schema.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "schemas/selectiegegevens.schema.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "schemas/structuur.schema.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "schemas/testvragen.schema.json",
+      "gelijk": true
+    },
+    {
+      "bestand": "schemas/zoeklexicon.schema.json",
+      "gelijk": true
+    }
+  ]
+}

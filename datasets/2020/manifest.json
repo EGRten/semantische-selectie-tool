@@ -1,0 +1,125 @@
+{
+  "selectielijst_id": "2020",
+  "officiele_titel": "Selectielijst gemeenten en intergemeentelijke organen 2020",
+  "vaststellingsgegevens": {
+    "datum": "2020-02-18",
+    "publicatie": "Staatscourant 2020, 11143",
+    "kenmerk": "NA/2020/21446242"
+  },
+  "datasetversie": "1.0.0-eindpakket",
+  "generatiedatum": "2026-11-10",
+  "bronnenregister": [
+    {
+      "id": "2020-officieel",
+      "bestand": "../../bronnen/2020-officieel.bron.json",
+      "url": "https://www.nationaalarchief.nl/sites/default/files/field-file/Selectielijst_20200214.pdf",
+      "sha256": "179366d022754f51fa34496ca88d7258776ece19e64fc05bdd8da26fe30e7a51",
+      "status": "Nationaal_Archief_download_2026-11-10",
+      "oorspronkelijk_bestand": "../../bronnen/2020.pdf",
+      "oorspronkelijke_sha256": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
+    },
+    {
+      "id": "2020-opgemaakt",
+      "bestand": "../../bronnen/2020-opgemaakt.bron.json",
+      "sha256": "e2473b2856deeaa04e42f826737a09595423a53e0eb7c1f9755ed3d455a62ae7",
+      "status": "aangeleverd_opgemaakt_document; selectievelden_vergeleken_met_officiele_bron",
+      "oorspronkelijk_bestand": "../../bronnen/Selectielijst 2020.pdf",
+      "oorspronkelijke_sha256": "c72c5ab1ab32fcb54466a9c3fad186eefbbf0c250f9fdada2c446e3c220b24bf",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
+    },
+    {
+      "id": "2020-rapport",
+      "bestand": "../../bronnen/2020-rapport.bron.json",
+      "sha256": "562f6f38d9d041911dba5c5c1d63e53925db1c83df501af418ec2109a6bbd186",
+      "status": "Deep_Research_alleen_kandidaatbron",
+      "oorspronkelijk_bestand": "../../bronnen/rapport-2020.md",
+      "oorspronkelijke_sha256": "a17506685146a152525d260bc39183ec77a76bd52747ea81ec698258f76658c6",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
+    }
+  ],
+  "aantallen": {
+    "structuuronderdelen": 375,
+    "rubrieken": 0,
+    "procestypen": 29,
+    "selectievoorschriften_of_resultaatregels": 346,
+    "actieve_regels": 344,
+    "vervallen_regels": 2,
+    "zoektermrelaties": 1746,
+    "officiele_termrelaties": 1358,
+    "brononderbouwde_alternatieve_termrelaties": 0,
+    "taalkundige_variantrelaties": 227,
+    "ai_voorgestelde_termrelaties": 161,
+    "relaties": 2092,
+    "testvragen": 55,
+    "records_met_open_bronvraag": 0,
+    "nog_niet_gevalideerde_zoekvoorstellen": 153,
+    "lege_aanvangsmomentvelden": 105,
+    "bronannotaties": 7,
+    "broncontroles_bevestigd_door_gebruiker": 7
+  },
+  "validatiestatus": {
+    "technische_validatie": "geslaagd",
+    "bronverificatie": "alle_selectieregels_geautomatiseerd_en_gerichte_afwijkingenbeoordeling",
+    "integrale_menselijke_tweede_lezing": false,
+    "volledigheidscontrole": "onafhankelijke_proceskolom_inventaris_346_tabelregels",
+    "open_bronvragen": 0,
+    "toepasselijkheidsbeslissingen_gevalideerd": false,
+    "semantische_volledigheid": "geen_onbegrensde_volledigheidsclaim; beschikbare_rapporttekst_verwerkt",
+    "status": "oplevering_afgerond_met_bronannotaties",
+    "aanvullende_controle": {
+      "records": 346,
+      "nieuwe_extractieafwijkingen": 0,
+      "methode": "zie_documentatie_aanvullende_broncontrole"
+    },
+    "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+    "verplichte_tweede_beoordelaar": false,
+    "broncontroles_bevestigd_door_gebruiker": 7,
+    "bronbeperkingen_behouden": 7
+  },
+  "officiele_gegevens_volledigheid": "346_tabelregels_gedekt_inclusief_2_vervallen_en_brongebreken",
+  "beperkingen": [
+    "Geen automatische juridische of archivistische toepasselijkheidsbeslissing.",
+    "Aanvangsmomenten en voorwaarden blijven waar nodig in officiële tekst en algemene bepalingen staan; niet alle velden zijn afzonderlijk geïnterpreteerd.",
+    "AI-voorstellen blijven als voorstel herkenbaar; niet-gevalideerde voorstellen standaard uitsluiten.",
+    "Integrale tweede inhoudelijke beoordeling door een andere beoordelaar niet uitgevoerd."
+  ],
+  "sha256": {
+    "bepalingen.json": "81ba7e7e6e9d50910390a2744e13fbda721c4573587669bae212c7088c0d688a",
+    "bronannotaties.json": "65219144b6996f9ff95ed3879d330b1ea97a8a805b3525e8714c540532fe38fe",
+    "codeinventaris.json": "1bbe02e316c83ad5f20a2730aee60e66e0b35b0f7555798cb9ff753c8d88b751",
+    "kandidaten-ongekoppeld.json": "09a4dd39d3a27c1abaa2f63ca86fa3d6676e4d19b18e6ced561b19a96201e363",
+    "relaties.csv": "36eca0a268e42f93081f914e2c2449d703b9647d180c636e5a4dcc0b1a0cc61e",
+    "relaties.json": "a010443ab7788a91b21ffaaa3b927947a53d380dd4bb1cb5c9f80190f61bc58b",
+    "selectiegegevens.csv": "d57bc8e3048a04618b73e2a5ba147074cc7b47bc9cef19913259aec794621fd9",
+    "selectiegegevens.json": "8c11e125108faf1094cd068e5c91736864d5edce6726428eed470da53d4fd723",
+    "structuur.csv": "6115c34cd7bc1ec6375fcbb672330a79a506aad2385f2cb9f785593ade5f8d1d",
+    "structuur.json": "3707ae9dfea5d821bdd9cc48cfabfac03602dd95fd66f9952acccf8d552bdf43",
+    "testvragen.csv": "d78bbeb458581b7183a05a55123ed68bc7bea7b22c645906392fbcc02c2208cf",
+    "testvragen.json": "dab8e7da5edeb498b9788518f300fc2302ddb6a97730bc3f7f0e6a694ea3b053",
+    "validatie.json": "33c18a956738703e1298cdbcccc85b4b3c6976ae90f22c99ca81135c50f3747e",
+    "wijzigingen.json": "a817f97558f05354d5c11ee2eddea089164ab4ca7f8c2c4d622b71aeacad81c1",
+    "zoeklexicon.csv": "d23d9c70a08060bf8552ebc3b0afacadb710d37d738b06b4617609e5f1d136b6",
+    "zoeklexicon.json": "2cfd642214e8748ac28106caee5f858a3d55061242a18709e1379abf830d406a"
+  },
+  "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+  "controleoverdracht": {
+    "werkboek": "../../controle/Controlewerkboek.xlsx",
+    "instructie": "../../controle/Controle-instructie.md",
+    "menselijke_oordelen_vooraf_ingevuld": false,
+    "formele_vrijgave_vereist_voor_oplevering": false,
+    "status": "afgerond",
+    "bevestigde_bronoordelen": 7
+  },
+  "publicatievoorbereiding": {
+    "versie": "1.0.0-publicatie.1",
+    "inhoudelijke_datasetversie": "1.0.0-eindpakket",
+    "privacy": "rolgebaseerde_pseudonimisering_controlemetadata",
+    "officiele_gegevens_gewijzigd": false,
+    "externe_bronbytes_niet_meegeleverd": true,
+    "volledige_bronopbouw_vergt_externe_inputs": true
+  }
+}

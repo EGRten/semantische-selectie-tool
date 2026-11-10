@@ -1,0 +1,116 @@
+[
+  {
+    "id": "1996-2012-officieel",
+    "bestand": "../../bronnen/1996-2012-officieel.bron.json",
+    "url": "https://www.nationaalarchief.nl/sites/default/files/field-file/selectielijsten/bsd_gemeentelijke_en_intergemeentelijke_organen_stcnrt_2012_11906_addendum_pdfa_versie.pdf",
+    "sha256": "dffb0750b310e69401e0e11019a00d73df7a33b49d2f420437d32b2a305d4538",
+    "status": "Nationaal_Archief_download_2026-11-10",
+    "oorspronkelijk_bestand": "../../bronnen/1996.pdf",
+    "oorspronkelijke_sha256": "4e19bd25d108881ba8f72d5744e3179bf2dee5354e6d4101acc6c07f40a0de22",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  },
+  {
+    "id": "1996-2012-opgemaakt",
+    "bestand": "../../bronnen/1996-2012-opgemaakt.bron.json",
+    "sha256": "ad0f384b8f13d41aaed722a61b5acf838a399b9938ed9f17954e034f2b6841f1",
+    "status": "aangeleverd_opgemaakt_document; selectievelden_vergeleken_met_officiele_bron",
+    "oorspronkelijk_bestand": "../../bronnen/Selectielijst 1996.pdf",
+    "oorspronkelijke_sha256": "f8c265d61dfdb9fd97bc42fc83a1852287bbe8552979eae8e9090edd92ff1c2a",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  },
+  {
+    "id": "1996-2012-rapport",
+    "bestand": "../../bronnen/1996-2012-rapport.bron.json",
+    "sha256": "728fc9a119c2c87b33dc0a583d6e48da6dbe40ca0c7dcbda49abc74f78801e1e",
+    "status": "Deep_Research_alleen_kandidaatbron",
+    "oorspronkelijk_bestand": "../../bronnen/rapport-1996.md",
+    "oorspronkelijke_sha256": "f721ffe56e3d4fed33eaf6073939fc47e0602374b1ad0801298024f4ceb591ad",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  },
+  {
+    "id": "concordans-aangeleverd",
+    "bestand": "../../bronnen/concordans-aangeleverd.bron.json",
+    "sha256": "7e3d3e623e690a0e7f7fdcaef0ada8c015da7ec8087a06de273d16dbe8135174",
+    "status": "ondersteunende_aangeleverde_concordans; geen_normbron",
+    "oorspronkelijk_bestand": "../../bronnen/Concordans Selectielijst 1996-2020(1).xlsx",
+    "oorspronkelijke_sha256": "7dfda792ce61c1a6fa28c5c116155a429560153178c6c58987eabbbe6cdf708c",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  },
+  {
+    "id": "2017-officieel",
+    "bestand": "../../bronnen/2017-officieel.bron.json",
+    "url": "https://www.nationaalarchief.nl/sites/default/files/field-file/selectielijsten/selectielijst_gemeenten_en_intergemeentelijke_organen_vastgesteld_stcrt_2017_38013.pdf",
+    "sha256": "9a99c298c47702693bf4dfc4aedff6ddca41c9a7f5cb90e8dbe7e8f57af52cbe",
+    "status": "Nationaal_Archief_download_2026-11-10",
+    "oorspronkelijk_bestand": "../../bronnen/2017.pdf",
+    "oorspronkelijke_sha256": "1c067c6591dfb9dbd9ca664ae5df8f33ae5d902feac62cb9e23f697cd485820a",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  },
+  {
+    "id": "2017-opgemaakt",
+    "bestand": "../../bronnen/2017-opgemaakt.bron.json",
+    "sha256": "cb0c5a4ff25af5e6d1817c3193b3774be519018dc5c5b2c719dbe4b1f0bc1188",
+    "status": "aangeleverd_opgemaakt_document; selectievelden_vergeleken_met_officiele_bron",
+    "oorspronkelijk_bestand": "../../bronnen/Selectielijst 2017.pdf",
+    "oorspronkelijke_sha256": "7398d4e499079ea6b988572fc6a80af33ff9e47cb6ae2f69ecc5a264741b7689",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  },
+  {
+    "id": "2017-rapport",
+    "bestand": "../../bronnen/2017-rapport.bron.json",
+    "sha256": "d5551e69d820c8534647ecd0d20d96142396f32a7d4e89745a76c39415af45d1",
+    "status": "Deep_Research_alleen_kandidaatbron",
+    "oorspronkelijk_bestand": "../../bronnen/rapport-2017.md",
+    "oorspronkelijke_sha256": "e062b163b75997c31b747767fdfca10651f2d1c3b023aa714f85eb57813d17f3",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  },
+  {
+    "id": "2017-officiele-xls",
+    "bestand": "../../bronnen/2017-officiele-xls.bron.json",
+    "url": "https://www.nationaalarchief.nl/sites/default/files/field-file/selectielijsten/selectielijst_gemeenten_opsomming_excel_versie_vastgesteld.xls",
+    "sha256": "efb1578d1331857cb3bc5ed3c60c7d3ef368ab767681761fdd46de10551544e8",
+    "status": "officiele_Excel; bronverschillen_zijn_niet_stilzwijgend_overschreven",
+    "oorspronkelijk_bestand": "../../bronnen/2017-xls.xls",
+    "oorspronkelijke_sha256": "9f4c0c18bd5c45a7859404cb636eebd537306b77a990d091d000783deff062de",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  },
+  {
+    "id": "2020-officieel",
+    "bestand": "../../bronnen/2020-officieel.bron.json",
+    "url": "https://www.nationaalarchief.nl/sites/default/files/field-file/Selectielijst_20200214.pdf",
+    "sha256": "179366d022754f51fa34496ca88d7258776ece19e64fc05bdd8da26fe30e7a51",
+    "status": "Nationaal_Archief_download_2026-11-10",
+    "oorspronkelijk_bestand": "../../bronnen/2020.pdf",
+    "oorspronkelijke_sha256": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  },
+  {
+    "id": "2020-opgemaakt",
+    "bestand": "../../bronnen/2020-opgemaakt.bron.json",
+    "sha256": "e2473b2856deeaa04e42f826737a09595423a53e0eb7c1f9755ed3d455a62ae7",
+    "status": "aangeleverd_opgemaakt_document; selectievelden_vergeleken_met_officiele_bron",
+    "oorspronkelijk_bestand": "../../bronnen/Selectielijst 2020.pdf",
+    "oorspronkelijke_sha256": "c72c5ab1ab32fcb54466a9c3fad186eefbbf0c250f9fdada2c446e3c220b24bf",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  },
+  {
+    "id": "2020-rapport",
+    "bestand": "../../bronnen/2020-rapport.bron.json",
+    "sha256": "562f6f38d9d041911dba5c5c1d63e53925db1c83df501af418ec2109a6bbd186",
+    "status": "Deep_Research_alleen_kandidaatbron",
+    "oorspronkelijk_bestand": "../../bronnen/rapport-2020.md",
+    "oorspronkelijke_sha256": "a17506685146a152525d260bc39183ec77a76bd52747ea81ec698258f76658c6",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "bron_id": "2017-officiele-xls",
+  "oorspronkelijke_bestandsnaam": "2017-xls.xls",
+  "oorspronkelijke_sha256": "9f4c0c18bd5c45a7859404cb636eebd537306b77a990d091d000783deff062de",
+  "url": "https://www.nationaalarchief.nl/sites/default/files/field-file/selectielijsten/selectielijst_gemeenten_opsomming_excel_versie_vastgesteld.xls",
+  "bronstatus": "officiele_Excel; bronverschillen_zijn_niet_stilzwijgend_overschreven",
+  "inhoud_meegeleverd": false,
+  "classificatie": "ondersteunend_extern_bestand",
+  "reden_niet_meegeleverd": "Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden.",
+  "rechtenbeoordeling": "Geen onbeperkte herpublicatierechten vastgesteld voor deze zelfstandige bronpublicatie.",
+  "controle_datum": "2026-11-10"
+}
