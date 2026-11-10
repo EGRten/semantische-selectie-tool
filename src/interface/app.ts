@@ -3,7 +3,7 @@ import type { Dataset, SelectielijstId } from '../gegevenslaag/index.js';
 import { element, knop, lijstnamen } from './dom.js';
 import { maakBoom } from './boom.js';
 import { toonDetails } from './details.js';
-import { maakZoekpaneel } from './zoeken.js';
+import { maakZoekmodi } from './zoekmodi.js';
 
 export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ datasetsUrl: new URL('./datasets/', document.baseURI) })) {
   const aside = element('aside',undefined,'zijbalk'); aside.setAttribute('aria-label','Selectielijst en navigatie');
@@ -19,7 +19,7 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
   tools.append(element('h2','Structuur'),alles);
   const navigatie = element('nav',undefined,'boomgebied');navigatie.setAttribute('aria-label','Boomstructuur');
   navigatie.append(element('p','De structuur verschijnt na het kiezen van een selectielijst.','hulptekst'));
-  const zoekpaneel = maakZoekpaneel((id) => selecteer(id));
+  const zoekpaneel = maakZoekmodi((id) => selecteer(id), (id) => laag.laadZoekverrijking(id));
   aside.append(label,keuze,status,fout,retry,zoekpaneel.element,tools,navigatie);
   const detail = element('section',undefined,'details');detail.id='details';detail.tabIndex=-1;detail.setAttribute('aria-label','Geselecteerd onderdeel');
   function legeDetails(tekst='Kies een onderdeel in de boomstructuur om de officiële gegevens te bekijken.') {

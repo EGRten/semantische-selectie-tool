@@ -267,3 +267,55 @@ export type Datasetmanifest = {
   };
   readonly "publicatievoorbereiding"?: { readonly [key: string]: JsonValue };
 };
+
+export type Zoekterm = {
+  readonly "beoordelingsstatus": string;
+  readonly "betrouwbaarheid": string;
+  readonly "bron": {
+    readonly "bbox"?: null | ReadonlyArray<JsonValue>;
+    readonly "bron_id": string;
+    readonly "eindbbox"?: ReadonlyArray<number>;
+    readonly "eindpagina"?: number;
+    readonly "fragment"?: string;
+    readonly "pdf_pagina"?: number;
+    readonly "tekenpositie"?: number;
+  };
+  readonly "genormaliseerde_zoekterm": string;
+  readonly "herkomsttype": string;
+  readonly "id": string;
+  readonly "juridische_gelijkwaardigheid": boolean;
+  readonly "onderbouwing": string;
+  readonly "onderdeel_id": string;
+  readonly "relatietype": string;
+  readonly "risico_op_verwarring": string;
+  readonly "zoekterm": string;
+};
+
+export type Betekenisrelatie = {
+  readonly "bron": {
+    readonly "bbox"?: null | ReadonlyArray<JsonValue>;
+    readonly "bron_id": string;
+    readonly "eindbbox"?: ReadonlyArray<number>;
+    readonly "eindpagina"?: number;
+    readonly "fragment"?: string;
+    readonly "pdf_pagina"?: number;
+    readonly "tekenpositie"?: number;
+  };
+  readonly "herkomsttype": string;
+  readonly "id": string;
+  readonly "juridische_gelijkwaardigheid": false;
+  readonly "naar": string;
+  readonly "naar_type": string;
+  readonly "onderbouwing": string;
+  readonly "richting": string;
+  readonly "status": string;
+  readonly "type": string;
+  readonly "van": string;
+  readonly "van_type": string;
+};
+
+export interface Zoekverrijking {
+  readonly selectielijst: SelectielijstId;
+  readonly zoeklexicon: readonly Zoekterm[];
+  readonly relaties: readonly Betekenisrelatie[];
+}

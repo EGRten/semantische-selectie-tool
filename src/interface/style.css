@@ -458,19 +458,19 @@ footer a {
   border-top: 1px solid var(--lijn);
   padding-top: 20px;
 }
-.zoekpaneel fieldset {
+:is(.zoekpaneel,.begripspaneel) fieldset {
   border: 0;
   padding: 0;
   margin: 0;
   min-width: 0;
 }
-.zoekpaneel fieldset > label:first-child {
+:is(.zoekpaneel,.begripspaneel) fieldset > label:first-child {
   display: block;
   font-size: 17px;
   font-weight: 650;
   margin-bottom: 8px;
 }
-.zoekpaneel input[type=search] {
+:is(.zoekpaneel,.begripspaneel) input[type=search] {
   width: 100%;
   min-height: 42px;
   font: inherit;
@@ -577,3 +577,17 @@ mark {
     max-height: 300px;
   }
 }
+
+.zoekmodi { margin-top:22px; border-top:1px solid var(--lijn); padding-top:18px; }
+.zoektabs { display:flex; gap:3px; border-bottom:1px solid var(--lijn); margin-bottom:17px; }
+.zoektabs button { flex:1; padding:9px 4px; font-size:13px; line-height:1.4; border-bottom:3px solid transparent; }
+.zoektabs button[aria-selected=true] { border-color:var(--accent); color:var(--accent); font-weight:700; }
+.zoekmodi .zoekpaneel { margin-top:0; padding-top:0; border:0; }
+.begripsstatus { font-size:13px; color:var(--muted); margin-top:12px; }
+.zoekuitleg { margin-top:10px; font-size:12px; overflow-wrap:anywhere; }
+.zoekuitleg summary { cursor:pointer; color:var(--accent); padding:4px 0; }
+.zoekuitleg summary:focus-visible { outline:3px solid #176cad; }
+.zoekuitleg>div { border-left:2px solid var(--lijn); margin-top:10px; padding-left:10px; }
+.zoekuitleg p { margin-top:7px; }
+.zoekuitleg blockquote { margin:8px 0; }
+.ai-aanduiding { color:#7d4515; font-size:13px; margin-top:8px; }

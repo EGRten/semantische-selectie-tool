@@ -1,6 +1,6 @@
-import { manifest as manifestvalidatie, structuur as structuurvalidatie, selectiegegevens as selectievalidatie } from '#dataset-validatie';
+import { manifest as manifestvalidatie, structuur as structuurvalidatie, selectiegegevens as selectievalidatie, zoeklexicon as lexiconvalidatie, relaties as relatievalidatie } from '#dataset-validatie';
 import type { Validatie } from './validatie.js';
-import type { Datasetmanifest, Selectiegegeven, SelectielijstId, Structuuronderdeel } from './typen.js';
+import type { Datasetmanifest, Selectiegegeven, SelectielijstId, Structuuronderdeel, Zoekverrijking } from './typen.js';
 export type * from './typen.js';
 
 export const SELECTIELIJSTEN = Object.freeze(['1996-2012', '2017', '2020'] as const);
@@ -170,6 +170,7 @@ export function maakGegevenslaag(options: { datasetsUrl: URL; ophalen?: Ophalen 
   const ophalen = options.ophalen ?? ((url: URL) => globalThis.fetch(url));
   const manifesten = new Map<SelectielijstId, Promise<Datasetmanifest>>();
   const datasets = new Map<SelectielijstId, Promise<Dataset>>();
+  const verrijkingen = new Map<SelectielijstId, Promise<Zoekverrijking>>();
   async function lees(id: SelectielijstId, bestand: string): Promise<unknown> {
     const url = new URL(`${id}/${bestand}.json`, basis);
     let response: Awaited<ReturnType<Ophalen>>;
@@ -209,5 +210,42 @@ export function maakGegevenslaag(options: { datasetsUrl: URL; ophalen?: Ophalen 
     void taak.catch(() => { if (datasets.get(id) === taak) datasets.delete(id); });
     return taak;
   }
-  return Object.freeze({ laadDataset, laadManifest });
+  function laadZoekverrijking(id: SelectielijstId): Promise<Zoekverrijking> {
+    lijstId(id);
+    const bestaand = verrijkingen.get(id);
+    if (bestaand) return bestaand;
+    const taak = (async () => {
+      const [dataset, lexiconJson, relatiesJson] = await Promise.all([
+        laadDataset(id), lees(id, 'zoeklexicon'), lees(id, 'relaties'),
+      ]);
+      const zoeklexicon = valideer(lexiconvalidatie, lexiconJson, `${id}/zoeklexicon.json`);
+      const relaties = valideer(relatievalidatie, relatiesJson, `${id}/relaties.json`);
+      const termen = indexeer(zoeklexicon, id);
+      indexeer(relaties, id);
+      const onderdeel = (ref: string) => {
+        verwijzing(ref, id);
+        if (!dataset.structuuronderdeel(ref) && !dataset.selectiegegeven(ref)) {
+          throw new Gegevensfout('ONGELDIGE_VERWIJZING', `Zoekonderdeel ontbreekt: ${ref}`);
+        }
+      };
+      for (const term of zoeklexicon) onderdeel(term.onderdeel_id);
+      for (const relatie of relaties) {
+        verwijzing(relatie.van, id);
+        if (relatie.van_type === 'zoekterm') {
+          if (!termen.has(relatie.van)) throw new Gegevensfout('ONGELDIGE_VERWIJZING', `Zoekterm ontbreekt: ${relatie.van}`);
+        } else if (relatie.van_type === 'onderdeel') onderdeel(relatie.van);
+        else throw new Gegevensfout('ONGELDIGE_VERWIJZING', 'Onbekend vertrekpunttype van zoekrelatie');
+        if (relatie.naar_type !== 'onderdeel') throw new Gegevensfout('ONGELDIGE_VERWIJZING', 'Onbekend doeltype van zoekrelatie');
+        onderdeel(relatie.naar);
+      }
+      if (zoeklexicon.length !== dataset.manifest.aantallen.zoektermrelaties || relaties.length !== dataset.manifest.aantallen.relaties) {
+        throw new Gegevensfout('MANIFESTFOUT', `Aantallen zoekverrijking voor ${id} wijken af`);
+      }
+      return bevries({ selectielijst: id, zoeklexicon, relaties });
+    })();
+    verrijkingen.set(id, taak);
+    void taak.catch(() => { if (verrijkingen.get(id) === taak) verrijkingen.delete(id); });
+    return taak;
+  }
+  return Object.freeze({ laadDataset, laadManifest, laadZoekverrijking });
 }
