@@ -1,0 +1,9 @@
+# Privacyafweging voor de openbare distributie
+
+De persoonsnaam van de beoordelaar is overal in de behouden werkhistorie, scripts, metadata, JSON, CSV en het controlewerkboek vervangen door inhoudelijke_beoordelaar. Letterlijke gespreksteksten zijn zakelijke controlebeschrijvingen geworden. De controledatum en selectiecodes blijven behouden. Dit is pseudonimisering: heridentificatie via externe context of repository-eigenaarschap kan niet worden uitgesloten.
+
+De formele officiële teksten kunnen namen van publieke functionarissen, commissieleden, auteurs in ambtelijke rol en organisaties bevatten. Deze zijn niet stilzwijgend uit de ongewijzigde algemene bepalingen/bronpassages verwijderd. Zij staan daarin als openbare bronattributie en procedurele context, niet als persoonlijke werkhistorie van deze opdracht. Het behoud is afgewogen tegen bronintegriteit en de expliciete opdracht de officiële tekst ongewijzigd te bewaren. Voor de feitelijke AVG-grondslag en belangenafweging bij publieke hosting blijft de publicerende beheerder verantwoordelijk; een algemene auteursrechtelijke uitzondering is geen AVG-grondslag.
+
+Niet-noodzakelijke auteursaccounts, e-mailmetadata, interne documentbeheeridentificaties en projectlocaties van externe PDF-/Office-bestanden worden door uitsluiting van die bestanden niet heruitgegeven. De controlewerkmap heeft neutrale documenteigenschappen; opmerkingen zijn verwijderd en hyperlinks wijzen naar openbare bronvindplaatsen of bronbeschrijvingen.
+
+Er is geen bijzondere persoonsinformatie over burgers of echte casusdossiers vastgesteld. Er zijn geen credentials of privésleutels aangetroffen met de beschreven technische patrooncontrole. Dat is geen bewijs dat iedere onbekende geheime waarde of iedere indirect identificeerbare formulering automatisch herkenbaar is.

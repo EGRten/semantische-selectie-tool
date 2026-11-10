@@ -1,0 +1,6348 @@
+[
+  {
+    "id": "2017:1",
+    "code": "1",
+    "benaming": "Instellen en inrichten organisatie",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 1,
+    "toelichting": "Dit procestype betreft het instellen van een nieuw orga\nnisatieonderdeel of een nieuw orgaan waar het orgaan in\ndeelneemt. Dit procestype betreft eveneens het inrichten\nvan het eigen orgaan. Dit kan kleinschalig plaatsvinden bij\nvoorbeeld het wijzigen van de uitvoering van een wettelijke\ntaak of grootschalig wanneer er een organisatiewijziging\nwordt doorgevoerd.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        102.259
+      ]
+    }
+  },
+  {
+    "id": "2017:1.1",
+    "code": "1.1",
+    "benaming": "Ingericht",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:1",
+    "volgorde": 2,
+    "toelichting": "Invoering nieuwe werkwijze",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        102.259
+      ]
+    }
+  },
+  {
+    "id": "2017:1.1.1",
+    "code": "1.1.1",
+    "benaming": "Inrichten of wijzigen met een organisatie brede impact",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:1.1",
+    "volgorde": 3,
+    "toelichting": "Organisatiewijziging",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        102.259,
+        1160,
+        147.094
+      ]
+    }
+  },
+  {
+    "id": "2017:1.1.2",
+    "code": "1.1.2",
+    "benaming": "Gemeentewapen",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:1.1",
+    "volgorde": 4,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        147.094,
+        1160,
+        191.928
+      ]
+    }
+  },
+  {
+    "id": "2017:1.1.3",
+    "code": "1.1.3",
+    "benaming": "Wijziging inrichting BRP systeem",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:1.1",
+    "volgorde": 5,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        191.928,
+        1160,
+        236.763
+      ]
+    }
+  },
+  {
+    "id": "2017:1.2",
+    "code": "1.2",
+    "benaming": "Ingesteld",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:1",
+    "volgorde": 6,
+    "toelichting": "Onafhankelijke adviescommissie, nieuw gemeentelijk or\ngaan, gemeenschappelijke regeling, commissie, platform of\neerste deelname hieraan",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        236.763,
+        1160,
+        281.598
+      ]
+    }
+  },
+  {
+    "id": "2017:1.3",
+    "code": "1.3",
+    "benaming": "Opgeheven",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:1",
+    "volgorde": 7,
+    "toelichting": "Onafhankelijke adviescommissie, nieuw gemeentelijk or\ngaan, gemeenschappelijke regeling, commissie, platform of\nbeëindiging deelname hieraan",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        281.598,
+        1160,
+        326.433
+      ]
+    }
+  },
+  {
+    "id": "2017:1.4",
+    "code": "1.4",
+    "benaming": "Niet doorge gaan",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:1",
+    "volgorde": 8,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        326.433,
+        1160,
+        371.268
+      ]
+    }
+  },
+  {
+    "id": "2017:1.5",
+    "code": "1.5",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:1",
+    "volgorde": 9,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        371.268,
+        1160,
+        416.101
+      ]
+    }
+  },
+  {
+    "id": "2017:2",
+    "code": "2",
+    "benaming": "Beleid en regelgeving opstellen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 10,
+    "toelichting": "Wanneer een beleidsstuk betrekking heeft op een bepaalde\nafgebakende periode vormt het een beleidsplan en valt het\nonder het procestype ‘Plan opstellen’. In een beleidsregel\ngeeft een orgaan aan hoe een bepaalde bevoegdheid zal\nworden uitgevoerd. Bij het nemen van veel voorkomende\nbeslissingen hoeft het orgaan niet telkens haar beleid of\nhaar uitvoering van hogere wet- en regelgeving uit te\nleggen, maar kan zij verwijzen naar de bekendgemaakte\nbeleidsregel. Deze vorm van regelgeving valt wel onder\ndit procestype.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        416.101,
+        1160,
+        478.936
+      ]
+    }
+  },
+  {
+    "id": "2017:2.1",
+    "code": "2.1",
+    "benaming": "Vastgesteld",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:2",
+    "volgorde": 11,
+    "toelichting": "Dit gaat om processen op het gebied van bedrijfsvoering o.a.\nfunctiewaardering, instemmingsverzoek ondernemingsraad",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        416.101,
+        1160,
+        478.936
+      ]
+    }
+  },
+  {
+    "id": "2017:2.1.1",
+    "code": "2.1.1",
+    "benaming": "Beleid met een externe werking",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:2.1",
+    "volgorde": 12,
+    "toelichting": "Dit gaat om beleid m.b.t. taakuitvoering",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        478.936,
+        1160,
+        541.771
+      ]
+    }
+  },
+  {
+    "id": "2017:2.2",
+    "code": "2.2",
+    "benaming": "Niet doorge gaan",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:2",
+    "volgorde": 13,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        541.771,
+        1160,
+        604.606
+      ]
+    }
+  },
+  {
+    "id": "2017:2.3",
+    "code": "2.3",
+    "benaming": "Ingetrokken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:2",
+    "volgorde": 14,
+    "toelichting": "Dit gaat om processen op het gebied van bedrijfsvoering",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        604.606,
+        1160,
+        667.439
+      ]
+    }
+  },
+  {
+    "id": "2017:2.3.1",
+    "code": "2.3.1",
+    "benaming": "Beleid met een externe werking",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:2.3",
+    "volgorde": 15,
+    "toelichting": "Dit gaat om beleid m.b.t. taakuitvoering",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        667.439,
+        1160,
+        730.274
+      ]
+    }
+  },
+  {
+    "id": "2017:2.4",
+    "code": "2.4",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:2",
+    "volgorde": 16,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        730.274,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:3",
+    "code": "3",
+    "benaming": "Plannen opstellen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 17,
+    "toelichting": "Dit procestype heeft betrekking op het concreet invul\nlen van algemene kaders die in beleidsstukken worden\ngeschetst voor een afgebakende periode. Het orgaan stelt\nhiervoor een plan op",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        84.259
+      ]
+    }
+  },
+  {
+    "id": "2017:3.1",
+    "code": "3.1",
+    "benaming": "Vastgesteld",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:3",
+    "volgorde": 18,
+    "toelichting": "Dit gaat om processen op het gebied van bedrijfsvoering: b.v.\npersoonlijk ontwikkelingsplan, plan Wet Poortwachter, glad\nheidsbestrijdingsplan, plan van aanpak re-integratie",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        84.259
+      ]
+    }
+  },
+  {
+    "id": "2017:3.1.1",
+    "code": "3.1.1",
+    "benaming": "Beleidsplan met externe werking",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:3.1",
+    "volgorde": 19,
+    "toelichting": "Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouwpro\ngramma, (strategie)visies, exploitatieplan, gemeentelijke\nrioleringsplan",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        84.259,
+        1160,
+        111.094
+      ]
+    }
+  },
+  {
+    "id": "2017:3.1.2",
+    "code": "3.1.2",
+    "benaming": "Beheerplan",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:3.1",
+    "volgorde": 20,
+    "toelichting": "Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegen\nbeheerplan",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        111.094,
+        1160,
+        137.928
+      ]
+    }
+  },
+  {
+    "id": "2017:3.1.3",
+    "code": "3.1.3",
+    "benaming": "Rampen(bestrijdings) plan",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:3.1",
+    "volgorde": 21,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        137.928,
+        1160,
+        164.763
+      ]
+    }
+  },
+  {
+    "id": "2017:3.1.4",
+    "code": "3.1.4",
+    "benaming": "Plan van aanpak jeugd hulp cliënt",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:3.1",
+    "volgorde": 22,
+    "toelichting": "of zoveel langer als redelijkerwijs uit de zorg van een goed\njeugdhulpverlener voortvloeit.\nVernietigen binnen drie maanden na ontvangst van een\nstrekkend verzoek van de betrokkene, mits geen aanmer\nkelijk belang van een derde of wetgeving zich daartegen\nverzet.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        164.763,
+        1160,
+        203.598
+      ]
+    }
+  },
+  {
+    "id": "2017:3.1.5",
+    "code": "3.1.5",
+    "benaming": "Plan van aanpak WMO cliënt",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:3.1",
+    "volgorde": 23,
+    "toelichting": "of zoveel langer als redelijkerwijs in verband met een\nzorgvuldige uitvoering van hun taken op grond van deze\nwet noodzakelijk is",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        203.598,
+        1160,
+        242.433
+      ]
+    }
+  },
+  {
+    "id": "2017:3.1.6",
+    "code": "3.1.6",
+    "benaming": "(meerjaren)Begroting, perspectief-, voorjaars- en najaarsnota",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:3.1",
+    "volgorde": 24,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        242.433,
+        1160,
+        269.268
+      ]
+    }
+  },
+  {
+    "id": "2017:3.1.7",
+    "code": "3.1.7",
+    "benaming": "Onderzoeksprogramma",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:3.1",
+    "volgorde": 25,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        269.268,
+        1160,
+        296.101
+      ]
+    }
+  },
+  {
+    "id": "2017:3.1.8",
+    "code": "3.1.8",
+    "benaming": "Structuurvisie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:3.1",
+    "volgorde": 26,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        296.101,
+        1160,
+        322.936
+      ]
+    }
+  },
+  {
+    "id": "2017:3.1.9",
+    "code": "3.1.9",
+    "benaming": "Ruilverkaveling",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:3.1",
+    "volgorde": 27,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        322.936,
+        1160,
+        349.771
+      ]
+    }
+  },
+  {
+    "id": "2017:3.2",
+    "code": "3.2",
+    "benaming": "Niet vastge steld",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:3",
+    "volgorde": 28,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        349.771,
+        1160,
+        376.606
+      ]
+    }
+  },
+  {
+    "id": "2017:3.3",
+    "code": "3.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:3",
+    "volgorde": 29,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        376.606,
+        1160,
+        403.441
+      ]
+    }
+  },
+  {
+    "id": "2017:4",
+    "code": "4",
+    "benaming": "Evaluatie uitvoeren",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 30,
+    "toelichting": "Dit evalueren kan zowel betrekking hebben op de evaluatie\nvan beleid, als op de uitvoering van beleid en het functione\nren van het eigen orgaan.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        403.441,
+        1160,
+        424.276
+      ]
+    }
+  },
+  {
+    "id": "2017:4.1",
+    "code": "4.1",
+    "benaming": "Uitgevoerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:4",
+    "volgorde": 31,
+    "toelichting": "Interne audit, steekproefsgewijze interne controle, controle\nop de BRP",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        403.441,
+        1160,
+        424.276
+      ]
+    }
+  },
+  {
+    "id": "2017:4.1.1",
+    "code": "4.1.1",
+    "benaming": "Evaluatie van beleid met externe werking",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:4.1",
+    "volgorde": 32,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        424.276,
+        1160,
+        451.109
+      ]
+    }
+  },
+  {
+    "id": "2017:4.1.2",
+    "code": "4.1.2",
+    "benaming": "Enquête door gemeen teraad",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:4.1",
+    "volgorde": 33,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        451.109,
+        1160,
+        477.944
+      ]
+    }
+  },
+  {
+    "id": "2017:4.1.3",
+    "code": "4.1.3",
+    "benaming": "Interne controle zonder financiële consequenties",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:4.1",
+    "volgorde": 34,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        477.944,
+        1160,
+        498.779
+      ]
+    }
+  },
+  {
+    "id": "2017:4.1.4",
+    "code": "4.1.4",
+    "benaming": "Onderzoek n.a.v. mel ding klokkenluider",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:4.1",
+    "volgorde": 35,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        498.779,
+        1160,
+        525.614
+      ]
+    }
+  },
+  {
+    "id": "2017:4.1.5",
+    "code": "4.1.5",
+    "benaming": "Onderzoeksrapport Rekenkamer",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:4.1",
+    "volgorde": 36,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        525.614,
+        1160,
+        552.449
+      ]
+    }
+  },
+  {
+    "id": "2017:4.1.6",
+    "code": "4.1.6",
+    "benaming": "Beoordeling arbeids omstandigheden en personeel",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:4.1",
+    "volgorde": 37,
+    "toelichting": "Risico-inventarisatie & -evaluatie (RI&E), functionerings- en\nbeoordelingsgesprek, preventief medisch onderzoek",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        552.449,
+        1160,
+        573.284
+      ]
+    }
+  },
+  {
+    "id": "2017:4.1.7",
+    "code": "4.1.7",
+    "benaming": "Vorderingen en eind(examen)resultaten primair, voortgezet of beroepsonderwijs",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:4.1",
+    "volgorde": 38,
+    "toelichting": "De bewaartermijn loopt vanaf de geboortedatum van de\nleerling",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        573.284,
+        1160,
+        600.117
+      ]
+    }
+  },
+  {
+    "id": "2017:4.1.8",
+    "code": "4.1.8",
+    "benaming": "Jaarrekening en financi eel jaarverslag",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:4.1",
+    "volgorde": 39,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        600.117,
+        1160,
+        626.952
+      ]
+    }
+  },
+  {
+    "id": "2017:4.1.9",
+    "code": "4.1.9",
+    "benaming": "Jaarverslag",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:4.1",
+    "volgorde": 40,
+    "toelichting": "Denk hierbij aan de jaarverslagen van verschillende onafhan\nkelijke adviescommissies en de jaarverslagen die op grond\nvan wet- en regelgeving dienen te worden opgesteld, zoals\nhet burgerjaarverslag en het jaarverslag leerplicht.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        626.952,
+        1160,
+        653.787
+      ]
+    }
+  },
+  {
+    "id": "2017:4.2",
+    "code": "4.2",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:4",
+    "volgorde": 41,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        653.787,
+        1160,
+        674.622
+      ]
+    }
+  },
+  {
+    "id": "2017:5",
+    "code": "5",
+    "benaming": "Producten en diensten leveren",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 42,
+    "toelichting": "Voor het verstrekken van een product of dienst hoeft de\naanvrager niet aan een bepaalde situatie te voldoen, want\nin dat geval is het procestype ‘Voorzieningen verstrekken’\nvan toepassing. Het product of de dienst houdt niet het\ndoen of laten van het orgaan in, want in dat geval valt het\nonder het procestype ‘Verzoeken behandelen’.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        674.622,
+        1160,
+        713.457
+      ]
+    }
+  },
+  {
+    "id": "2017:5.1",
+    "code": "5.1",
+    "benaming": "Geleverd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:5",
+    "volgorde": 43,
+    "toelichting": "Stadspas, reclamesticker, bewegwijzering, kiezerspas, certifi\ncaat van (vrijstelling tot) sanitaire controle van een schip",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        674.622,
+        1160,
+        713.457
+      ]
+    }
+  },
+  {
+    "id": "2017:5.1.1",
+    "code": "5.1.1",
+    "benaming": "Product of dienst met financiële consequenties",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:5.1",
+    "volgorde": 44,
+    "toelichting": "Afvalinzameling, afvalcontainer, rioolaansluiting, ambu\nlancevervoer",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        713.457,
+        1160,
+        752.29
+      ]
+    }
+  },
+  {
+    "id": "2017:5.1.2",
+    "code": "5.1.2",
+    "benaming": "Gegevens uit de BRP",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:5.1",
+    "volgorde": 45,
+    "toelichting": "Het behandelen een verzoek op grond van het inzagerecht\nvalt hier ook onder.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        752.29,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:5.1.3",
+    "code": "5.1.3",
+    "benaming": "Bescheiden afkomstig van de Nederlandse burgerlijke stand",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:5.1",
+    "volgorde": 46,
+    "toelichting": "Verzoeken van bewoners om eigen gegevens, uittreksels",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        96.259
+      ]
+    }
+  },
+  {
+    "id": "2017:5.1.4",
+    "code": "5.1.4",
+    "benaming": "Reisdocument, identi teitsbewijs",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:5.1",
+    "volgorde": 47,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        96.259,
+        1160,
+        147.093
+      ]
+    }
+  },
+  {
+    "id": "2017:5.1.5",
+    "code": "5.1.5",
+    "benaming": "Reisdocument of identi teitsbewijs geldig voor 5 jaar of korter",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:5.1",
+    "volgorde": 48,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        147.093,
+        1160,
+        197.928
+      ]
+    }
+  },
+  {
+    "id": "2017:5.1.6",
+    "code": "5.1.6",
+    "benaming": "Rijbewijs",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:5.1",
+    "volgorde": 49,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        197.928,
+        1160,
+        236.763
+      ]
+    }
+  },
+  {
+    "id": "2017:5.1.7",
+    "code": "5.1.7",
+    "benaming": "Vaccinatie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:5.1",
+    "volgorde": 50,
+    "toelichting": "of zoveel langer als redelijkerwijs in verband met een\nzorgvuldige uitvoering van hun taken op grond van deze\nwet noodzakelijk is.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        236.763,
+        1160,
+        275.598
+      ]
+    }
+  },
+  {
+    "id": "2017:5.1.8",
+    "code": "5.1.8",
+    "benaming": "BCG-vaccinatie te gen tbc",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:5.1",
+    "volgorde": 51,
+    "toelichting": "Bewaartermijn loopt vanaf de geboortedatum van de\ngevaccineerde",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        275.598,
+        1160,
+        314.432
+      ]
+    }
+  },
+  {
+    "id": "2017:5.2",
+    "code": "5.2",
+    "benaming": "Ingetrokken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:5",
+    "volgorde": 52,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        314.432,
+        1160,
+        353.267
+      ]
+    }
+  },
+  {
+    "id": "2017:5.2.1",
+    "code": "5.2.1",
+    "benaming": "Reisdocument",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:5.2",
+    "volgorde": 53,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        353.267,
+        1160,
+        404.102
+      ]
+    }
+  },
+  {
+    "id": "2017:5.3",
+    "code": "5.3",
+    "benaming": "Niet geleverd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:5",
+    "volgorde": 54,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        404.102,
+        1160,
+        442.937
+      ]
+    }
+  },
+  {
+    "id": "2017:5.4",
+    "code": "5.4",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:5",
+    "volgorde": 55,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        442.937,
+        1160,
+        481.772
+      ]
+    }
+  },
+  {
+    "id": "2017:6",
+    "code": "6",
+    "benaming": "Verzoeken behandelen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 56,
+    "toelichting": "Wanneer een aanvrager een aanvraag voor een bepaalde\nvoorziening indient, is het procestype ‘Voorzieningen ver\nstrekken’ van toepassing. Wanneer het om een product of\ndienst gaat dat niet een doen of juist laten van het orgaan\ninhoudt, is het procestype ‘Producten en diensten leveren’\nvan toepassing.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        481.772,
+        1160,
+        520.607
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1",
+    "code": "6.1",
+    "benaming": "Ingewilligd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:6",
+    "volgorde": 57,
+    "toelichting": "Melding overlast",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        481.772,
+        1160,
+        520.607
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.1",
+    "code": "6.1.1",
+    "benaming": "Verzoek met financiële consequenties",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 58,
+    "toelichting": "Personeelsvoorziening, kwijtschelding gemeentelijk belas\nting, betalingsregeling, nadeelcompensatie",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        520.607,
+        1160,
+        559.44
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.2",
+    "code": "6.1.2",
+    "benaming": "Intern verzoek om faciliteiten",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 59,
+    "toelichting": "Automatiseringsverzoek, interne verzoek om gebruik",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        559.44,
+        1160,
+        598.275
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.3",
+    "code": "6.1.3",
+    "benaming": "Informatieverzoek",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 60,
+    "toelichting": "WOB-verzoek, algemeen informatieverzoek, verzoek tot\ninvullen enquete, verzoek op grond van de Wet hergebruik\noverheidsinformatie",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        598.275,
+        1160,
+        637.11
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.4",
+    "code": "6.1.4",
+    "benaming": "Adhesiebetuiging en/ of motie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 61,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        637.11,
+        1160,
+        675.945
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.5",
+    "code": "6.1.5",
+    "benaming": "Onderscheiding",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 62,
+    "toelichting": "Koninklijke of gemeentelijke onderscheiding",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        675.945,
+        1160,
+        714.778
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.6",
+    "code": "6.1.6",
+    "benaming": "Predicaat Koninklijk / predicaat Hofleverancier",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 63,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        714.778,
+        1160,
+        753.613
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.7",
+    "code": "6.1.7",
+    "benaming": "Geheimhouding per soonsgegevens BRP",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 64,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        753.613,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.8",
+    "code": "6.1.8",
+    "benaming": "Handhavingsverzoek",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 65,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        96.259
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.9",
+    "code": "6.1.9",
+    "benaming": "Initiatief van burgers",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 66,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        96.259,
+        1160,
+        135.094
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.10",
+    "code": "6.1.10",
+    "benaming": "Initiatief van de onder nemingsraad",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 67,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        135.094,
+        1160,
+        173.928
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.11",
+    "code": "6.1.11",
+    "benaming": "Principeverzoek be stemmingsplan",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 68,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        173.928,
+        1160,
+        212.763
+      ]
+    }
+  },
+  {
+    "id": "2017:6.1.12",
+    "code": "6.1.12",
+    "benaming": "Verzoek tot stichten openbare school",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.1",
+    "volgorde": 69,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        212.763,
+        1160,
+        251.598
+      ]
+    }
+  },
+  {
+    "id": "2017:6.2",
+    "code": "6.2",
+    "benaming": "Afgewezen",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:6",
+    "volgorde": 70,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        251.598,
+        1160,
+        290.433
+      ]
+    }
+  },
+  {
+    "id": "2017:6.2.1",
+    "code": "6.2.1",
+    "benaming": "Principeverzoek be stemmingsplan",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.2",
+    "volgorde": 71,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        290.433,
+        1160,
+        329.268
+      ]
+    }
+  },
+  {
+    "id": "2017:6.2.2",
+    "code": "6.2.2",
+    "benaming": "Initiatief van de onder nemingsraad",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.2",
+    "volgorde": 72,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        329.268,
+        1160,
+        368.101
+      ]
+    }
+  },
+  {
+    "id": "2017:6.2.3",
+    "code": "6.2.3",
+    "benaming": "Initiatief van burgers",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:6.2",
+    "volgorde": 73,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        368.101,
+        1160,
+        406.936
+      ]
+    }
+  },
+  {
+    "id": "2017:6.3",
+    "code": "6.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:6",
+    "volgorde": 74,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        406.936,
+        1160,
+        445.771
+      ]
+    }
+  },
+  {
+    "id": "2017:7",
+    "code": "7",
+    "benaming": "Aangiften behandelen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 75,
+    "toelichting": "Niet alleen de aangiften van inwoners zijn onder dit pro\ncestype geschaard, maar ook de kennisgevingen over een\nbepaald feit waar ketenpartners toe verplicht zijn en die het\norgaan in de BRP dient te verwerken.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        445.771,
+        1160,
+        472.606
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1",
+    "code": "7.1",
+    "benaming": "Verwerkt",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:7",
+    "volgorde": 76,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        445.771,
+        1160,
+        472.606
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.1",
+    "code": "7.1.1",
+    "benaming": "Verklaring onder eed of belofte",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 77,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        472.606,
+        1160,
+        499.441
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.2",
+    "code": "7.1.2",
+    "benaming": "Eerste inschrijving BRP of geboorteaangifte",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 78,
+    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van overlij\ndensgegevens, voor zover het bescheiden betreft die niet uit\neen Nederlands register kunnen worden gereproduceerd.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        499.441,
+        1160,
+        544.274
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.3",
+    "code": "7.1.3",
+    "benaming": "Gegevens met betrek king tot naam, geboorte, geslacht en afstamming",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 79,
+    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van overlij\ndensgegevens, voor zover het bescheiden betreft die niet uit\neen Nederlands register kunnen worden gereproduceerd.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        544.274,
+        1160,
+        589.109
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.4",
+    "code": "7.1.4",
+    "benaming": "Naamgebruik in BRP",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 80,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        589.109,
+        1160,
+        615.944
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.5",
+    "code": "7.1.5",
+    "benaming": "Huwelijk of geregis treerd partnerschap, echtscheiding of ontbinding",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 81,
+    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van overlij\ndensgegevens, voor zover het bescheiden betreft die niet uit\neen Nederlands register kunnen worden gereproduceerd.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        615.944,
+        1160,
+        660.778
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.6",
+    "code": "7.1.6",
+    "benaming": "Overlijdensmelding",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 82,
+    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van overlij\ndensgegevens, voor zover het bescheiden betreft die niet uit\neen Nederlands register kunnen worden gereproduceerd.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        660.778,
+        1160,
+        705.613
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.7",
+    "code": "7.1.7",
+    "benaming": "(her)Vestiging, adres wijziging (niet zijnde emigratie)",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 83,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        705.613,
+        1160,
+        732.448
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.8",
+    "code": "7.1.8",
+    "benaming": "Emigratie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 84,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        732.448,
+        1160,
+        759.283
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.9",
+    "code": "7.1.9",
+    "benaming": "Opschorting persoons lijst BRP",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 85,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        759.283,
+        1160,
+        786.117
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.10",
+    "code": "7.1.10",
+    "benaming": "Beslissing om gegeven niet of ambtshalve op te nemen in BRP",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 86,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        786.117,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.11",
+    "code": "7.1.11",
+    "benaming": "Bezit buitenlands reis document",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 87,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        84.259
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.12",
+    "code": "7.1.12",
+    "benaming": "Vermissing reisdo cument, wijziging gegevens reisdocument zover niet in reisdocu mentenadministratie opgenomen",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 88,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        84.259,
+        1160,
+        123.093
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.13",
+    "code": "7.1.13",
+    "benaming": "Gegevens over het gezag over een min derjarige",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 89,
+    "toelichting": "o.a. kennisgevingen uit het curateleregister of gezagsregister",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        123.093,
+        1160,
+        149.928
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.14",
+    "code": "7.1.14",
+    "benaming": "Probas-melding",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 90,
+    "toelichting": "Melding betreffende de ‘protocollaire basisadministratie’",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        149.928,
+        1160,
+        176.763
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.15",
+    "code": "7.1.15",
+    "benaming": "Beoordeling brondocu menten BRP",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 91,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        176.763,
+        1160,
+        203.598
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.16",
+    "code": "7.1.16",
+    "benaming": "Briefadres omzet ting BRP",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 92,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        203.598,
+        1160,
+        230.433
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.17",
+    "code": "7.1.17",
+    "benaming": "Wijzing van Nederlands kiesrecht",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 93,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        230.433,
+        1160,
+        257.267
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.18",
+    "code": "7.1.18",
+    "benaming": "Wijzing van Europees kiesrecht",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 94,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        257.267,
+        1160,
+        284.102
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.19",
+    "code": "7.1.19",
+    "benaming": "Bezit, verkrijging, verlening en verlies van (bijzonder) Nederlander schap of een niet-Neder landse nationaliteit",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 95,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        284.102,
+        1160,
+        316.937
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.20",
+    "code": "7.1.20",
+    "benaming": "Gegevens over personen bij wie een reisdocument moet worden geweigerd of ingehouden",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 96,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        316.937,
+        1160,
+        367.77
+      ]
+    }
+  },
+  {
+    "id": "2017:7.1.21",
+    "code": "7.1.21",
+    "benaming": "Bescheiden tbv opma ken akte uit de Burger lijke Stand",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:7.1",
+    "volgorde": 97,
+    "toelichting": "Het betreft wel te reproduceren archiefbescheiden. Akten\nworden via het register blijvend bewaard.’",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        367.77,
+        1160,
+        394.605
+      ]
+    }
+  },
+  {
+    "id": "2017:7.2",
+    "code": "7.2",
+    "benaming": "Geweigerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:7",
+    "volgorde": 98,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        394.605,
+        1160,
+        421.44
+      ]
+    }
+  },
+  {
+    "id": "2017:7.3",
+    "code": "7.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:7",
+    "volgorde": 99,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        421.44,
+        1160,
+        448.275
+      ]
+    }
+  },
+  {
+    "id": "2017:8",
+    "code": "8",
+    "benaming": "Voorzieningen verstrekken",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 100,
+    "toelichting": "Indien de aanvrager zich niet in een bepaalde situatie hoeft\nte bevinden en wanneer het orgaan wordt verzocht om iets\nte doen of te laten, is het procestype ‘Verzoek behandelen’\nvan toepassing. Indien beiden niet van toepassing zijn,\nis het procestype ‘Producten en diensten leveren’ van\ntoepassing.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        448.275,
+        1160,
+        487.11
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1",
+    "code": "8.1",
+    "benaming": "Verstrekt",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:8",
+    "volgorde": 101,
+    "toelichting": "Uitkering of inkomensvoorziening, inburgeringstraject, duur\nzaamheidslening, krediethypotheek.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        448.275,
+        1160,
+        487.11
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.1",
+    "code": "8.1.1",
+    "benaming": "WMO voorziening",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 102,
+    "toelichting": "of zoveel langer als redelijkerwijs in verband met een\nzorgvuldige uitvoering van hun taken op grond van deze\nwet noodzakelijk is. Vernietigen binnen drie maanden na\nontvangst van een strekkend verzoek van de betrokkene,\nmits geen aanmerkelijk belang van een derde of wetgeving\nzich daartegen verzet.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        487.11,
+        1160,
+        531.944
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.2",
+    "code": "8.1.2",
+    "benaming": "Individuele jeugdhulp voorziening",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 103,
+    "toelichting": "of zoveel langer als redelijkerwijs uit de zorg van een goed\njeugdhulpverlener voortvloeit. Vernietigen binnen drie\nmaanden na ontvangst van een strekkend verzoek van de\nbetrokkene, mits geen aanmerkelijk belang van een derde of\nwetgeving zich daartegen verzet.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        531.944,
+        1160,
+        570.779
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.3",
+    "code": "8.1.3",
+    "benaming": "Vergoeding inrichting school",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 104,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        570.779,
+        1160,
+        609.614
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.4",
+    "code": "8.1.4",
+    "benaming": "Vergoeding huisvesting school",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 105,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        609.614,
+        1160,
+        648.449
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.5",
+    "code": "8.1.5",
+    "benaming": "Overige financiële voor ziening school",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 106,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        648.449,
+        1160,
+        687.282
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.6",
+    "code": "8.1.6",
+    "benaming": "Starterslening",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 107,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        687.282,
+        1160,
+        726.117
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.7",
+    "code": "8.1.7",
+    "benaming": "Subsidie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 108,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        726.117,
+        1160,
+        764.952
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.8",
+    "code": "8.1.8",
+    "benaming": "Subsidie zonder verant woordingsplicht",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 109,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        764.952,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.9",
+    "code": "8.1.9",
+    "benaming": "Schuldhulptraject",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 110,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        96.259
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.10",
+    "code": "8.1.10",
+    "benaming": "Huisvesting van status houder",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 111,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        96.259,
+        1160,
+        135.094
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.11",
+    "code": "8.1.11",
+    "benaming": "Geneeskundige be handeling",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 112,
+    "toelichting": "of zoveel langer als redelijkerwijs in verband met een\nzorgvuldige uitvoering van hun taken op grond van deze\nwet noodzakelijk is.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        135.094,
+        1160,
+        173.928
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.12",
+    "code": "8.1.12",
+    "benaming": "Jeugdgezondheidszorg",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 113,
+    "toelichting": "of zoveel langer als redelijkerwijs in verband met een\nzorgvuldige uitvoering van hun taken op grond van deze\nwet noodzakelijk is.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        173.928,
+        1160,
+        212.763
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.13",
+    "code": "8.1.13",
+    "benaming": "Gezondheidszorg bij calamiteiten",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 114,
+    "toelichting": "of zoveel langer als redelijkerwijs in verband met een\nzorgvuldige uitvoering van hun taken op grond van deze\nwet noodzakelijk is.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        212.763,
+        1160,
+        251.598
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.14",
+    "code": "8.1.14",
+    "benaming": "Gehandicaptenpar keerkaart",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 115,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        251.598,
+        1160,
+        290.433
+      ]
+    }
+  },
+  {
+    "id": "2017:8.1.15",
+    "code": "8.1.15",
+    "benaming": "Primair of voortgezet onderwijs",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.1",
+    "volgorde": 116,
+    "toelichting": "Het gaat hierbij om een voorziening voor het volgen van pri\nmair of voortgezet onderwijs door een jongere en de in het\nkader hiervan door een school gevoerde administratie.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        290.433,
+        1160,
+        329.267
+      ]
+    }
+  },
+  {
+    "id": "2017:8.2",
+    "code": "8.2",
+    "benaming": "Geweigerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:8",
+    "volgorde": 117,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        329.267,
+        1160,
+        368.102
+      ]
+    }
+  },
+  {
+    "id": "2017:8.3",
+    "code": "8.3",
+    "benaming": "Beëindigd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:8",
+    "volgorde": 118,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        368.102,
+        1160,
+        406.937
+      ]
+    }
+  },
+  {
+    "id": "2017:8.3.1",
+    "code": "8.3.1",
+    "benaming": "WMO voorziening",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.3",
+    "volgorde": 119,
+    "toelichting": "of zoveel langer als redelijkerwijs in verband met een\nzorgvuldige uitvoering van hun taken op grond van deze\nwet noodzakelijk is",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        406.937,
+        1160,
+        445.772
+      ]
+    }
+  },
+  {
+    "id": "2017:8.3.2",
+    "code": "8.3.2",
+    "benaming": "Individuele jeugdhulp voorziening",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.3",
+    "volgorde": 120,
+    "toelichting": "of zoveel langer als redelijkerwijs uit de zorg van een goed\njeugdhulpverlener voortvloeit",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        445.772,
+        1160,
+        484.605
+      ]
+    }
+  },
+  {
+    "id": "2017:8.3.3",
+    "code": "8.3.3",
+    "benaming": "Primair of voortgezet onderwijs",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:8.3",
+    "volgorde": 121,
+    "toelichting": "Het gaat hierbij om een voorziening voor het volgen van pri\nmair of voortgezet onderwijs door een jongere en de in het\nkader hiervan door een school gevoerde administratie.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        484.605,
+        1160,
+        523.44
+      ]
+    }
+  },
+  {
+    "id": "2017:8.4",
+    "code": "8.4",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:8",
+    "volgorde": 122,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        523.44,
+        1160,
+        562.275
+      ]
+    }
+  },
+  {
+    "id": "2017:9",
+    "code": "9",
+    "benaming": "Status toekennen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 123,
+    "toelichting": "Het orgaan kan een gebied een status toekennen, om de\nbestemming of het gebruik van dit gebied te wijzigen. Door\neen persoon (een externe of een personeelslid) in een speci\nale functie te benoemen of door hem te mandateren, wordt\nhem een speciale bevoegdheden toegekend.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        562.275,
+        1160,
+        595.11
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1",
+    "code": "9.1",
+    "benaming": "Toegekend",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:9",
+    "volgorde": 124,
+    "toelichting": "Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulp\nverlening, vertrouwenspersoon, Buitengewoon ambtenaar\nvan de burgerlijke stand, gemeentelijke vertegenwoordiger",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        562.275,
+        1160,
+        595.11
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.1",
+    "code": "9.1.1",
+    "benaming": "Tijdelijke status",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 125,
+    "toelichting": "Tijdelijke verkeersmaatregel, eenmalige Babs",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        595.11,
+        1160,
+        627.945
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.2",
+    "code": "9.1.2",
+    "benaming": "Status vermeld in BAG of WKPB",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 126,
+    "toelichting": "Woonplaats, openbare ruimte aanduiding, nummeraandui\nding, standplaats, ligplaats, monument",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        627.945,
+        1160,
+        702.778
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.3",
+    "code": "9.1.3",
+    "benaming": "Bestemmingsplan",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 127,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        702.778,
+        1160,
+        735.613
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.4",
+    "code": "9.1.4",
+    "benaming": "Delegatie en man datering",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 128,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        735.613,
+        1160,
+        768.448
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.5",
+    "code": "9.1.5",
+    "benaming": "Herwaardering WOZ",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 129,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        768.448,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.6",
+    "code": "9.1.6",
+    "benaming": "Afspraken omtrent binnengemeentelijke verstrekking van BRP- gegevens",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 130,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        90.259
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.7",
+    "code": "9.1.7",
+    "benaming": "Indeling stemdistricten/ kieskringen en stem bureaus",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 131,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        90.259,
+        1160,
+        123.094
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.8",
+    "code": "9.1.8",
+    "benaming": "Permanente trouw locatie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 132,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        123.094,
+        1160,
+        155.928
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.9",
+    "code": "9.1.9",
+    "benaming": "Gemeentegrens, wijken en woongebieden",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 133,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        155.928,
+        1160,
+        188.763
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.10",
+    "code": "9.1.10",
+    "benaming": "Beheersverordening Wro en buitentoepassings verklaring daarvan",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 134,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        188.763,
+        1160,
+        221.598
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.11",
+    "code": "9.1.11",
+    "benaming": "Aanwijzing ambtenaar voor afnemen verklaring onder eed of belofte i.h.k.v. de BRP",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 135,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        221.598,
+        1160,
+        254.433
+      ]
+    }
+  },
+  {
+    "id": "2017:9.1.12",
+    "code": "9.1.12",
+    "benaming": "Instelling markt",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.1",
+    "volgorde": 136,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        254.433,
+        1160,
+        287.268
+      ]
+    }
+  },
+  {
+    "id": "2017:9.2",
+    "code": "9.2",
+    "benaming": "Niet toege kend",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:9",
+    "volgorde": 137,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        287.268,
+        1160,
+        320.101
+      ]
+    }
+  },
+  {
+    "id": "2017:9.3",
+    "code": "9.3",
+    "benaming": "Beëindigd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:9",
+    "volgorde": 138,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        320.101,
+        1160,
+        352.936
+      ]
+    }
+  },
+  {
+    "id": "2017:9.3.1",
+    "code": "9.3.1",
+    "benaming": "Status vermeld in BAG of WKPB",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.3",
+    "volgorde": 139,
+    "toelichting": "Woonplaats, openbare ruimte aanduiding, nummeraandui\nding, standplaats, ligplaats",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        352.936,
+        1160,
+        427.771
+      ]
+    }
+  },
+  {
+    "id": "2017:9.3.2",
+    "code": "9.3.2",
+    "benaming": "Beëindigen stortplaats",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:9.3",
+    "volgorde": 140,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        427.771,
+        1160,
+        460.606
+      ]
+    }
+  },
+  {
+    "id": "2017:9.4",
+    "code": "9.4",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:9",
+    "volgorde": 141,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        460.606,
+        1160,
+        493.441
+      ]
+    }
+  },
+  {
+    "id": "2017:10",
+    "code": "10",
+    "benaming": "Heffen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 142,
+    "toelichting": "",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        493.441,
+        1160,
+        526.274
+      ]
+    }
+  },
+  {
+    "id": "2017:10.1",
+    "code": "10.1",
+    "benaming": "Opgelegd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:10",
+    "volgorde": 143,
+    "toelichting": "Het heffen van belastingen en erfpacht",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        493.441,
+        1160,
+        526.274
+      ]
+    }
+  },
+  {
+    "id": "2017:10.2",
+    "code": "10.2",
+    "benaming": "Niet opgelegd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:10",
+    "volgorde": 144,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        526.274,
+        1160,
+        547.109
+      ]
+    }
+  },
+  {
+    "id": "2017:10.3",
+    "code": "10.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:10",
+    "volgorde": 145,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        547.109,
+        1160,
+        567.944
+      ]
+    }
+  },
+  {
+    "id": "2017:11",
+    "code": "11",
+    "benaming": "Toestemming verlenen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 146,
+    "toelichting": "",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        567.944,
+        1160,
+        594.779
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1",
+    "code": "11.1",
+    "benaming": "Verleend",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:11",
+    "volgorde": 147,
+    "toelichting": "Lozing afvalwater, drank en horeca, grafbedekking, graf\nuitgifte, doorlopende collectevergunning, rioolaansluiting,\ngedoogbeschikking, omgevingsvergunning alarminstallatie,\nuitrit, aanleg kabels en leidingen",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        567.944,
+        1160,
+        594.779
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.1",
+    "code": "11.1.1",
+    "benaming": "Toestemming voor een kortdurende activiteit of gebeurtenis",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 148,
+    "toelichting": "Evenementenmelding, verlof tot begraven of opgraven,\nvakantietoestemming uitkeringsgerechtigde",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        594.779,
+        1160,
+        621.614
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.2",
+    "code": "11.1.2",
+    "benaming": "Toestemming voor een afgebakende periode",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 149,
+    "toelichting": "Eenmalige collectevergunning, ontheffing verbod storten\nafval, ontheffing verkeersbesluit/- maatregel, stookonthef\nfing, extra verlof leerplicht",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        621.614,
+        1160,
+        648.449
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.3",
+    "code": "11.1.3",
+    "benaming": "Melding activiteiten besluit Milieubeheer of 8.40 Wet Milieubeheer, sloopmelding",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 150,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        648.449,
+        1160,
+        675.282
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.4",
+    "code": "11.1.4",
+    "benaming": "Melding bouwstof fenbesluit",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 151,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        675.282,
+        1160,
+        702.117
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.5",
+    "code": "11.1.5",
+    "benaming": "Toestemming met bron documenten BAG",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 152,
+    "toelichting": "Woningsplitsing, woonruimteontttrekking",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        702.117,
+        1160,
+        770.952
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.6",
+    "code": "11.1.6",
+    "benaming": "Omgevingsvergunning voor activiteit milieu, bouw, sloop, monument, handelsreclame en strijdig gebruik en/ of aanleg",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 153,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        770.952,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.7",
+    "code": "11.1.7",
+    "benaming": "Toestemming voor peu terspeelzaal, kinderop vang en gastouders",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 154,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        84.259
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.8",
+    "code": "11.1.8",
+    "benaming": "Ontheffing leerplicht",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 155,
+    "toelichting": "De leerplicht geldt tot en met 16 jaar. Daar is de termijn op\nbasis van het Vrijstellingsbesluit (2 jaar) bij opgeteld. De be\nwaartermijn loopt vanaf de geboortedatum van de leerling.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        84.259,
+        1160,
+        129.094
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.9",
+    "code": "11.1.9",
+    "benaming": "Ontheffing kwalifica tieplicht",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 156,
+    "toelichting": "Kwalificatieplicht geldt tussen de leeftijden van 16 en 18\njaar. De bewaartermijn loopt vanaf de geboortedatum van\nde leerling.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        129.094,
+        1160,
+        173.928
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.10",
+    "code": "11.1.10",
+    "benaming": "Ontheffing verhoging grenswaarde geluids hinder",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 157,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        173.928,
+        1160,
+        200.763
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.11",
+    "code": "11.1.11",
+    "benaming": "Bodemonderzoek, ar cheologisch onderzoek of milieueffectrappor tage van de gemeente of van een derde",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 158,
+    "toelichting": "Het gaat om een bodemonderzoek, archeologisch onderzoek,\nof milieueffectrapportage die wordt ontvangen ter beoorde\nling (dus niet als onderdeel van een andere werkproces). Een\nbodemonderzoek, archeologisch onderzoek, of milieueffect\nrapportage die hoort bij bijvoorbeeld het opstellen van een\nbestemmingsplan, valt onder dat werkproces.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        200.763,
+        1160,
+        239.598
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.12",
+    "code": "11.1.12",
+    "benaming": "Omgevingsvergunning kappen met herplant plicht",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 159,
+    "toelichting": "Het moment waarop de bewaartermijn gaat lopen is afhan\nkelijk van de herplantplicht. De herplantplicht kan worden\nopgelegd voor een termijn variërend tussen 1 en 6 jaar.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        239.598,
+        1160,
+        266.433
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.13",
+    "code": "11.1.13",
+    "benaming": "Financiële stukken van externe organen",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 160,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        266.433,
+        1160,
+        299.266
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.14",
+    "code": "11.1.14",
+    "benaming": "Toelating leerling tot school",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 161,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        299.266,
+        1160,
+        326.101
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.15",
+    "code": "11.1.15",
+    "benaming": "Vergunning leeg standswet",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 162,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        326.101,
+        1160,
+        352.936
+      ]
+    }
+  },
+  {
+    "id": "2017:11.1.16",
+    "code": "11.1.16",
+    "benaming": "Sanering tanks",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.1",
+    "volgorde": 163,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        352.936,
+        1160,
+        379.771
+      ]
+    }
+  },
+  {
+    "id": "2017:11.2",
+    "code": "11.2",
+    "benaming": "Geweigerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:11",
+    "volgorde": 164,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        379.771,
+        1160,
+        406.606
+      ]
+    }
+  },
+  {
+    "id": "2017:11.2.1",
+    "code": "11.2.1",
+    "benaming": "Vergunning met brondo cumenten BAG",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.2",
+    "volgorde": 165,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        406.606,
+        1160,
+        475.439
+      ]
+    }
+  },
+  {
+    "id": "2017:11.3",
+    "code": "11.3",
+    "benaming": "Ingetrokken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:11",
+    "volgorde": 166,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        475.439,
+        1160,
+        502.274
+      ]
+    }
+  },
+  {
+    "id": "2017:11.3.1",
+    "code": "11.3.1",
+    "benaming": "Vergunning met brondo cumenten BAG",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:11.3",
+    "volgorde": 167,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        502.274,
+        1160,
+        571.109
+      ]
+    }
+  },
+  {
+    "id": "2017:11.4",
+    "code": "11.4",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:11",
+    "volgorde": 168,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        571.109,
+        1160,
+        597.944
+      ]
+    }
+  },
+  {
+    "id": "2017:12",
+    "code": "12",
+    "benaming": "Toezien en handhaven",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 169,
+    "toelichting": "Het kan hierbij gaan om landelijke wet- en regelgeving,\ndoor het orgaan vastgestelde regelgeving en om vastge\nlegde afspraken.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        597.944,
+        1160,
+        630.778
+      ]
+    }
+  },
+  {
+    "id": "2017:12.1",
+    "code": "12.1",
+    "benaming": "Toezicht uitge voerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:12",
+    "volgorde": 170,
+    "toelichting": "Controle omgevingsvergunning, gezondheidspreventie, be\nstrijding besmettelijke ziekten, controle schuldhulpverlening,\ncontrole gezondheidstoestand schip/vliegtuig",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        597.944,
+        1160,
+        630.778
+      ]
+    }
+  },
+  {
+    "id": "2017:12.1.1",
+    "code": "12.1.1",
+    "benaming": "Hercontrole uitkering sociaal domein",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.1",
+    "volgorde": 171,
+    "toelichting": "Rechtmatigheid, terugvorderingonderzoek",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        630.778,
+        1160,
+        663.613
+      ]
+    }
+  },
+  {
+    "id": "2017:12.1.2",
+    "code": "12.1.2",
+    "benaming": "Hercontrole cliënt Wmo en/of jeugdhulp",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.1",
+    "volgorde": 172,
+    "toelichting": "of zoveel langer als redelijkerwijs in verband met een\nzorgvuldige uitvoering van hun taken op grond van deze\nwet noodzakelijk is",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        663.613,
+        1160,
+        714.448
+      ]
+    }
+  },
+  {
+    "id": "2017:12.1.3",
+    "code": "12.1.3",
+    "benaming": "Leerplicht",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.1",
+    "volgorde": 173,
+    "toelichting": "De bewaartermijn loopt vanaf de geboortedatum van de\nleerling.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        714.448,
+        1160,
+        759.283
+      ]
+    }
+  },
+  {
+    "id": "2017:12.1.4",
+    "code": "12.1.4",
+    "benaming": "Kwalificatieplicht",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.1",
+    "volgorde": 174,
+    "toelichting": "Dit termijn geldt na einde van het toezicht",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        759.283,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:12.1.5",
+    "code": "12.1.5",
+    "benaming": "Financieel en contractu eel toezicht",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.1",
+    "volgorde": 175,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        90.259
+      ]
+    }
+  },
+  {
+    "id": "2017:12.1.6",
+    "code": "12.1.6",
+    "benaming": "Onderzoek i.h.k.v. de BRP",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.1",
+    "volgorde": 176,
+    "toelichting": "Adresonderzoek, reconstructie gezag minderjarige",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        90.259,
+        1160,
+        123.093
+      ]
+    }
+  },
+  {
+    "id": "2017:12.1.7",
+    "code": "12.1.7",
+    "benaming": "Integriteitsonderzoek",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.1",
+    "volgorde": 177,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        123.093,
+        1160,
+        155.928
+      ]
+    }
+  },
+  {
+    "id": "2017:12.1.8",
+    "code": "12.1.8",
+    "benaming": "Gegevens over toe gangscontrole, bezoe kersregistratie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.1",
+    "volgorde": 178,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        155.928,
+        1160,
+        188.763
+      ]
+    }
+  },
+  {
+    "id": "2017:12.1.9",
+    "code": "12.1.9",
+    "benaming": "Videocameratoezicht",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.1",
+    "volgorde": 179,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        188.763,
+        1160,
+        221.598
+      ]
+    }
+  },
+  {
+    "id": "2017:12.1.10",
+    "code": "12.1.10",
+    "benaming": "Controle realisatie om gevingsvergunning met brondocumenten BAG",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.1",
+    "volgorde": 180,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        221.598,
+        1160,
+        290.432
+      ]
+    }
+  },
+  {
+    "id": "2017:12.2",
+    "code": "12.2",
+    "benaming": "Handhaving uitgevoerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:12",
+    "volgorde": 181,
+    "toelichting": "Handhaving omgevingsvergunning, apv-vergunning, sanctie\npersoneelslid, maatregel gericht op opname ter isolatie in\neen ziekenhuis, medisch onderzoek en quarantaine vanwege\ninfectieziekte, sanctie participatiewet",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        290.432,
+        1160,
+        323.267
+      ]
+    }
+  },
+  {
+    "id": "2017:12.2.1",
+    "code": "12.2.1",
+    "benaming": "Doorlopende verplich ting tot (niet) handelen",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.2",
+    "volgorde": 182,
+    "toelichting": "Gebiedsverbod, groepsverbod, opknappen van een bouw\nwerk,",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        323.267,
+        1160,
+        356.102
+      ]
+    }
+  },
+  {
+    "id": "2017:12.2.2",
+    "code": "12.2.2",
+    "benaming": "Bodemsanering",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.2",
+    "volgorde": 183,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        356.102,
+        1160,
+        388.935
+      ]
+    }
+  },
+  {
+    "id": "2017:12.2.3",
+    "code": "12.2.3",
+    "benaming": "Tijdelijk huisverbod",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.2",
+    "volgorde": 184,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        388.935,
+        1160,
+        421.77
+      ]
+    }
+  },
+  {
+    "id": "2017:12.2.4",
+    "code": "12.2.4",
+    "benaming": "Gedwongen opname in psychiatrisch ziekenhuis",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.2",
+    "volgorde": 185,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        421.77,
+        1160,
+        466.605
+      ]
+    }
+  },
+  {
+    "id": "2017:12.2.5",
+    "code": "12.2.5",
+    "benaming": "Bestuurlijke boete",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.2",
+    "volgorde": 186,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        466.605,
+        1160,
+        499.44
+      ]
+    }
+  },
+  {
+    "id": "2017:12.2.6",
+    "code": "12.2.6",
+    "benaming": "Sanctie cliënt Wmo en/ of jeugdhulp",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.2",
+    "volgorde": 187,
+    "toelichting": "of zoveel langer als redelijkerwijs in verband met een\nzorgvuldige uitvoering van hun taken op grond van deze\nwet noodzakelijk is",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        499.44,
+        1160,
+        550.274
+      ]
+    }
+  },
+  {
+    "id": "2017:12.2.7",
+    "code": "12.2.7",
+    "benaming": "Verwijderde auto, fiets of vervoersmiddel",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.2",
+    "volgorde": 188,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        550.274,
+        1160,
+        583.109
+      ]
+    }
+  },
+  {
+    "id": "2017:12.2.8",
+    "code": "12.2.8",
+    "benaming": "Maatregelen in het kader van de publieke gezondheid gericht op gebouwen, goederen en vervoermiddelen",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:12.2",
+    "volgorde": 189,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        583.109,
+        1160,
+        615.944
+      ]
+    }
+  },
+  {
+    "id": "2017:12.3",
+    "code": "12.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:12",
+    "volgorde": 190,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        615.944,
+        1160,
+        648.779
+      ]
+    }
+  },
+  {
+    "id": "2017:13",
+    "code": "13",
+    "benaming": "Geschillen behandelen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 191,
+    "toelichting": "Indien een derde of een personeelslid het niet eens is\nmet het al of niet handelen van het orgaan, kan hij om\ncompensatie verzoeken of een bezwaar aantekenen of een\nberoep indienen.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        648.779,
+        1160,
+        675.613
+      ]
+    }
+  },
+  {
+    "id": "2017:13.1",
+    "code": "13.1",
+    "benaming": "Afgehandeld",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:13",
+    "volgorde": 192,
+    "toelichting": "Bezwaarschrift, beroep, voorlopige voorziening, klacht",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        648.779,
+        1160,
+        675.613
+      ]
+    }
+  },
+  {
+    "id": "2017:13.1.1",
+    "code": "13.1.1",
+    "benaming": "Geschil met financiële consequenties",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:13.1",
+    "volgorde": 193,
+    "toelichting": "Schade en aansprakelijkheid",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        675.613,
+        1160,
+        708.448
+      ]
+    }
+  },
+  {
+    "id": "2017:13.1.2",
+    "code": "13.1.2",
+    "benaming": "Klacht afgehandeld via ombudsman",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:13.1",
+    "volgorde": 194,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        708.448,
+        1160,
+        735.283
+      ]
+    }
+  },
+  {
+    "id": "2017:13.1.3",
+    "code": "13.1.3",
+    "benaming": "Geschil met invloed op een te bewaren zaak",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:13.1",
+    "volgorde": 195,
+    "toelichting": "Klacht, bezwaar, beroep",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        735.283,
+        1160,
+        762.118
+      ]
+    }
+  },
+  {
+    "id": "2017:13.1.4",
+    "code": "13.1.4",
+    "benaming": "Niet ontvankelijk geschil",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:13.1",
+    "volgorde": 196,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        762.118,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:13.2",
+    "code": "13.2",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:13",
+    "volgorde": 197,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        84.259
+      ]
+    }
+  },
+  {
+    "id": "2017:14",
+    "code": "14",
+    "benaming": "Openbare ruimte inrichten",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 198,
+    "toelichting": "",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        84.259,
+        1160,
+        105.094
+      ]
+    }
+  },
+  {
+    "id": "2017:14.1",
+    "code": "14.1",
+    "benaming": "Uitgevoerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:14",
+    "volgorde": 199,
+    "toelichting": "Bluswatervoorziening, speeltuin, straatverlichting,-meubilair",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        84.259,
+        1160,
+        105.094
+      ]
+    }
+  },
+  {
+    "id": "2017:14.1.1",
+    "code": "14.1.1",
+    "benaming": "Civieltechnisch werk",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:14.1",
+    "volgorde": 200,
+    "toelichting": "Aanleg riolering",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        105.094,
+        1160,
+        125.929
+      ]
+    }
+  },
+  {
+    "id": "2017:14.1.2",
+    "code": "14.1.2",
+    "benaming": "(vaar)Weg",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:14.1",
+    "volgorde": 201,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        125.929,
+        1160,
+        146.762
+      ]
+    }
+  },
+  {
+    "id": "2017:14.1.3",
+    "code": "14.1.3",
+    "benaming": "Gedenkteken",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:14.1",
+    "volgorde": 202,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        146.762,
+        1160,
+        167.597
+      ]
+    }
+  },
+  {
+    "id": "2017:14.1.4",
+    "code": "14.1.4",
+    "benaming": "Bouw- en woonrijp maken",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:14.1",
+    "volgorde": 203,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        167.597,
+        1160,
+        188.432
+      ]
+    }
+  },
+  {
+    "id": "2017:14.1.5",
+    "code": "14.1.5",
+    "benaming": "Gebouw en/of accom modatie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:14.1",
+    "volgorde": 204,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        188.432,
+        1160,
+        209.267
+      ]
+    }
+  },
+  {
+    "id": "2017:14.1.6",
+    "code": "14.1.6",
+    "benaming": "Kunstobject in de open bare ruimte",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:14.1",
+    "volgorde": 205,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        209.267,
+        1160,
+        230.102
+      ]
+    }
+  },
+  {
+    "id": "2017:14.1.7",
+    "code": "14.1.7",
+    "benaming": "Aanwijzing- en/of waar schuwingsteken",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:14.1",
+    "volgorde": 206,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        230.102,
+        1160,
+        250.937
+      ]
+    }
+  },
+  {
+    "id": "2017:14.2",
+    "code": "14.2",
+    "benaming": "Niet uitge voerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:14",
+    "volgorde": 207,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        250.937,
+        1160,
+        271.772
+      ]
+    }
+  },
+  {
+    "id": "2017:14.3",
+    "code": "14.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:14",
+    "volgorde": 208,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        271.772,
+        1160,
+        292.605
+      ]
+    }
+  },
+  {
+    "id": "2017:15",
+    "code": "15",
+    "benaming": "Onderhouden en repareren",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 209,
+    "toelichting": "",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        292.605,
+        1160,
+        313.44
+      ]
+    }
+  },
+  {
+    "id": "2017:15.1",
+    "code": "15.1",
+    "benaming": "Uitgevoerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:15",
+    "volgorde": 210,
+    "toelichting": "Jaarlijks onderhoud, reparatie, grafruiming, automatiserings\nprogramma, BRP foutmelding, melding openbare ruimte",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        292.605,
+        1160,
+        313.44
+      ]
+    }
+  },
+  {
+    "id": "2017:15.1.1",
+    "code": "15.1.1",
+    "benaming": "Onderhoud met gevolgen voor het verdere beheer van het procesobject",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:15.1",
+    "volgorde": 211,
+    "toelichting": "Het uitgevoerde onderhoud en bijvoorbeeld de hierbij ge\nbruikte materialen kan relevant zijn voor het verdere beheer\nvan het object.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        313.44,
+        1160,
+        340.275
+      ]
+    }
+  },
+  {
+    "id": "2017:15.1.2",
+    "code": "15.1.2",
+    "benaming": "Monument",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:15.1",
+    "volgorde": 212,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        340.275,
+        1160,
+        361.11
+      ]
+    }
+  },
+  {
+    "id": "2017:15.1.3",
+    "code": "15.1.3",
+    "benaming": "Baggerslib verwerking en opslag",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:15.1",
+    "volgorde": 213,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        361.11,
+        1160,
+        381.945
+      ]
+    }
+  },
+  {
+    "id": "2017:15.1.4",
+    "code": "15.1.4",
+    "benaming": "Onderhoud van de BRP",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:15.1",
+    "volgorde": 214,
+    "toelichting": "Systeemherstel, persoonslijst afvoeren",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        381.945,
+        1160,
+        408.78
+      ]
+    }
+  },
+  {
+    "id": "2017:15.2",
+    "code": "15.2",
+    "benaming": "Niet uitge voerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:15",
+    "volgorde": 215,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        408.78,
+        1160,
+        429.613
+      ]
+    }
+  },
+  {
+    "id": "2017:15.3",
+    "code": "15.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:15",
+    "volgorde": 216,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        429.613,
+        1160,
+        450.448
+      ]
+    }
+  },
+  {
+    "id": "2017:16",
+    "code": "16",
+    "benaming": "Overeenkomsten aangaan",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 217,
+    "toelichting": "Door overeenkomsten te sluiten kan het orgaan zorgen voor\nde uitvoering van haar taken, het voorzien in haar behoef\nten en voor het zekerstellen van haar positie.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        450.448,
+        1160,
+        471.283
+      ]
+    }
+  },
+  {
+    "id": "2017:16.1",
+    "code": "16.1",
+    "benaming": "Aangegaan",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:16",
+    "volgorde": 218,
+    "toelichting": "Garantstelling, inkoopovereenkomst, huur, pacht, ingebruik\ngeving, verkoop roerend goed, lening",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        450.448,
+        1160,
+        471.283
+      ]
+    }
+  },
+  {
+    "id": "2017:16.1.1",
+    "code": "16.1.1",
+    "benaming": "Inkoopovereenkomst zonder contract of garantiebepalingen",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:16.1",
+    "volgorde": 219,
+    "toelichting": "Inkoop van materialen",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        471.283,
+        1160,
+        504.118
+      ]
+    }
+  },
+  {
+    "id": "2017:16.1.2",
+    "code": "16.1.2",
+    "benaming": "Samenwerkingsovereen komst ten behoeve van de taakuitoefening van het orgaan",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:16.1",
+    "volgorde": 220,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        504.118,
+        1160,
+        530.953
+      ]
+    }
+  },
+  {
+    "id": "2017:16.1.3",
+    "code": "16.1.3",
+    "benaming": "Stedenband of jumelage",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:16.1",
+    "volgorde": 221,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        530.953,
+        1160,
+        557.786
+      ]
+    }
+  },
+  {
+    "id": "2017:16.1.4",
+    "code": "16.1.4",
+    "benaming": "Overdracht van onroe rend goed, schenkings overeenkomst",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:16.1",
+    "volgorde": 222,
+    "toelichting": "Koop, verkoop, ruiling, onteigening, verjaring",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        557.786,
+        1160,
+        578.621
+      ]
+    }
+  },
+  {
+    "id": "2017:16.1.5",
+    "code": "16.1.5",
+    "benaming": "Verzekering",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:16.1",
+    "volgorde": 223,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        578.621,
+        1160,
+        611.456
+      ]
+    }
+  },
+  {
+    "id": "2017:16.2",
+    "code": "16.2",
+    "benaming": "Niet doorge gaan",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:16",
+    "volgorde": 224,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        611.456,
+        1160,
+        638.291
+      ]
+    }
+  },
+  {
+    "id": "2017:16.2.1",
+    "code": "16.2.1",
+    "benaming": "Inkoopovereenkomst zonder contract of garantiebepalingen",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:16.2",
+    "volgorde": 225,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        638.291,
+        1160,
+        659.126
+      ]
+    }
+  },
+  {
+    "id": "2017:16.2.2",
+    "code": "16.2.2",
+    "benaming": "Aanbesteding vallend onder Europees recht",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:16.2",
+    "volgorde": 226,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        659.126,
+        1160,
+        691.959
+      ]
+    }
+  },
+  {
+    "id": "2017:16.3",
+    "code": "16.3",
+    "benaming": "Beëindigd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:16",
+    "volgorde": 227,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        691.959,
+        1160,
+        712.794
+      ]
+    }
+  },
+  {
+    "id": "2017:16.3.1",
+    "code": "16.3.1",
+    "benaming": "Samenwerkingsovereen komst ten behoeve van de taakuitoefening van het orgaan",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:16.3",
+    "volgorde": 228,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        712.794,
+        1160,
+        739.629
+      ]
+    }
+  },
+  {
+    "id": "2017:16.3.2",
+    "code": "16.3.2",
+    "benaming": "Stedenband of jumelage",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:16.3",
+    "volgorde": 229,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        739.629,
+        1160,
+        766.464
+      ]
+    }
+  },
+  {
+    "id": "2017:16.4",
+    "code": "16.4",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:16",
+    "volgorde": 230,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        766.464,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:17",
+    "code": "17",
+    "benaming": "Personen aanstellen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 231,
+    "toelichting": "Het kan hierbij zowel om het aanstellen van een eigen\npersoneelslid gaan, als om het benoemen van een persoon\nin een onafhankelijke commissie of het bestuur van het\norgaan.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        84.259
+      ]
+    }
+  },
+  {
+    "id": "2017:17.1",
+    "code": "17.1",
+    "benaming": "Aangesteld",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:17",
+    "volgorde": 232,
+    "toelichting": "Personeel",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        84.259
+      ]
+    }
+  },
+  {
+    "id": "2017:17.1.1",
+    "code": "17.1.1",
+    "benaming": "Bestuurder, raadslid of burgerraadslid",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:17.1",
+    "volgorde": 233,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        84.259,
+        1160,
+        111.094
+      ]
+    }
+  },
+  {
+    "id": "2017:17.1.2",
+    "code": "17.1.2",
+    "benaming": "Lid onafhankelijke commissie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:17.1",
+    "volgorde": 234,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        111.094,
+        1160,
+        137.929
+      ]
+    }
+  },
+  {
+    "id": "2017:17.2",
+    "code": "17.2",
+    "benaming": "Niet aange steld",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:17",
+    "volgorde": 235,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        137.929,
+        1160,
+        164.763
+      ]
+    }
+  },
+  {
+    "id": "2017:17.2.1",
+    "code": "17.2.1",
+    "benaming": "Afgewezen (open) sol licitatie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:17.2",
+    "volgorde": 236,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        164.763,
+        1160,
+        197.598
+      ]
+    }
+  },
+  {
+    "id": "2017:17.2.2",
+    "code": "17.2.2",
+    "benaming": "Afgewezen (open) solli citatie met toestemming tot bewaren",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:17.2",
+    "volgorde": 237,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        197.598,
+        1160,
+        230.433
+      ]
+    }
+  },
+  {
+    "id": "2017:17.3",
+    "code": "17.3",
+    "benaming": "Gewijzigd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:17",
+    "volgorde": 238,
+    "toelichting": "Functiewijziging, wijziging betrekking, functieschaal, loon\ntoeslag, detachering",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        230.433,
+        1160,
+        257.268
+      ]
+    }
+  },
+  {
+    "id": "2017:17.3.1",
+    "code": "17.3.1",
+    "benaming": "Bestuurder of raadslid",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:17.3",
+    "volgorde": 239,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        257.268,
+        1160,
+        284.103
+      ]
+    }
+  },
+  {
+    "id": "2017:17.4",
+    "code": "17.4",
+    "benaming": "Niet gewijzigd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:17",
+    "volgorde": 240,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        284.103,
+        1160,
+        310.938
+      ]
+    }
+  },
+  {
+    "id": "2017:17.5",
+    "code": "17.5",
+    "benaming": "Beëindigd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:17",
+    "volgorde": 241,
+    "toelichting": "Dienstverband personeelslid",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        310.938,
+        1160,
+        337.771
+      ]
+    }
+  },
+  {
+    "id": "2017:17.5.1",
+    "code": "17.5.1",
+    "benaming": "Bestuurder of raadslid",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:17.5",
+    "volgorde": 242,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        337.771,
+        1160,
+        364.606
+      ]
+    }
+  },
+  {
+    "id": "2017:17.5.2",
+    "code": "17.5.2",
+    "benaming": "Lid van een onafhanke lijke commissie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:17.5",
+    "volgorde": 243,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        364.606,
+        1160,
+        391.44
+      ]
+    }
+  },
+  {
+    "id": "2017:17.6",
+    "code": "17.6",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:17",
+    "volgorde": 244,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        391.44,
+        1160,
+        418.275
+      ]
+    }
+  },
+  {
+    "id": "2017:18",
+    "code": "18",
+    "benaming": "Betalen en innen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 245,
+    "toelichting": "",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        418.275,
+        1160,
+        451.11
+      ]
+    }
+  },
+  {
+    "id": "2017:18.1",
+    "code": "18.1",
+    "benaming": "Betaald",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:18",
+    "volgorde": 246,
+    "toelichting": "Facturen en de betaling van belasting door het orgaan",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        418.275,
+        1160,
+        451.11
+      ]
+    }
+  },
+  {
+    "id": "2017:18.1.1",
+    "code": "18.1.1",
+    "benaming": "Factuur omtrent onroe rend goed",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:18.1",
+    "volgorde": 247,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        451.11,
+        1160,
+        483.945
+      ]
+    }
+  },
+  {
+    "id": "2017:18.2",
+    "code": "18.2",
+    "benaming": "Niet betaald",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:18",
+    "volgorde": 248,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        483.945,
+        1160,
+        516.778
+      ]
+    }
+  },
+  {
+    "id": "2017:18.3",
+    "code": "18.3",
+    "benaming": "Geïnd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:18",
+    "volgorde": 249,
+    "toelichting": "Facturen, de inning van belasting door organisatie en\ninvordering",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        516.778,
+        1160,
+        549.613
+      ]
+    }
+  },
+  {
+    "id": "2017:18.3.1",
+    "code": "18.3.1",
+    "benaming": "Factuur omtrent onroe rend goed",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:18.3",
+    "volgorde": 250,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        549.613,
+        1160,
+        582.448
+      ]
+    }
+  },
+  {
+    "id": "2017:18.4",
+    "code": "18.4",
+    "benaming": "Niet geïnd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:18",
+    "volgorde": 251,
+    "toelichting": "Oninbaar verklaring",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        582.448,
+        1160,
+        615.283
+      ]
+    }
+  },
+  {
+    "id": "2017:18.5",
+    "code": "18.5",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:18",
+    "volgorde": 252,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        615.283,
+        1160,
+        630.118
+      ]
+    }
+  },
+  {
+    "id": "2017:19",
+    "code": "19",
+    "benaming": "Secretariaat voeren en gegevens administreren / verwerken",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 253,
+    "toelichting": "Dit procestype geldt eveneens voor de verslaglegging van\noverleg op verschillende niveaus. Zie voor een overzicht van\nblijvend te bewaren registers waarvoor het orgaan verant\nwoordelijk is bijlage 4.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        630.118,
+        1160,
+        656.953
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1",
+    "code": "19.1",
+    "benaming": "Verwerkt",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:19",
+    "volgorde": 254,
+    "toelichting": "Gegevens verwerken, watervergunning/-melding, beslag\nlegging, (overige) hulpadministraties zonder financiele\nconsequenties",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        630.118,
+        1160,
+        656.953
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.1",
+    "code": "19.1.1",
+    "benaming": "Gegevens met financiële consequenties",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 255,
+    "toelichting": "Financiële administratie incl. uitkeringsgerechtigden, (ove\nrige) hulpadministraties met  financiele consequenties",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        656.953,
+        1160,
+        689.786
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.2",
+    "code": "19.1.2",
+    "benaming": "Agenda bestuurder",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 256,
+    "toelichting": "Agenda portefeuillehouder Vastgoed kan aanleiding geven\ntot langere bewaring (9 jaar) o.b.v. Wet op de omzetbelas\nting 1968 art. 34a",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        689.786,
+        1160,
+        722.621
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.3",
+    "code": "19.1.3",
+    "benaming": "Uitkeringen van de Rijksoverheid",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 257,
+    "toelichting": "Gemeentefonds",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        722.621,
+        1160,
+        749.456
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.4",
+    "code": "19.1.4",
+    "benaming": "Gegevens verwerkt in registers en basisadmi nistraties zoals benoemd in bijlage 4",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 258,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        749.456,
+        1160,
+        776.291
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.5",
+    "code": "19.1.5",
+    "benaming": "Registratie van politieke partij",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 259,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        776.291,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.6",
+    "code": "19.1.6",
+    "benaming": "Agenda, verslag en be sluitenlijst van bestuur lijke besluitvorming",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 260,
+    "toelichting": "Raad, B&W,  besluitvormend bestuurlijk overleg waarvan het\norgaan het secretariaat voert",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        84.259
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.7",
+    "code": "19.1.7",
+    "benaming": "Agenda, verslag en be sluiten van onafhanke lijke adviescommissie of Georganiseerd overleg",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 261,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        84.259,
+        1160,
+        111.094
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.8",
+    "code": "19.1.8",
+    "benaming": "Agenda, verslag en besluitenlijst van ambte lijke besluitvorming",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 262,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        111.094,
+        1160,
+        137.928
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.9",
+    "code": "19.1.9",
+    "benaming": "Agenda, verslag van intern ambtelijk overleg",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 263,
+    "toelichting": "Overleg zonder beleidsmatige besluitvorming",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        137.928,
+        1160,
+        164.763
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.10",
+    "code": "19.1.10",
+    "benaming": "Agenda, verslag van bestuurlijk overleg met derden",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 264,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        164.763,
+        1160,
+        191.598
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.11",
+    "code": "19.1.11",
+    "benaming": "Agenda, verslag van ambtelijk overleg met derden",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 265,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        191.598,
+        1160,
+        218.433
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.12",
+    "code": "19.1.12",
+    "benaming": "Agenda, verslag van overleg met derden ge organiseerd door derde",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 266,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        218.433,
+        1160,
+        245.266
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.13",
+    "code": "19.1.13",
+    "benaming": "Gegevens over perso neelslid dat in aanraking komt met gevaarlijke stoffen",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 267,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        245.266,
+        1160,
+        278.101
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.14",
+    "code": "19.1.14",
+    "benaming": "Vervanging, migratie, conversie, vervreem ding, overbrenging of metadatering van archieven",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 268,
+    "toelichting": "Dit geldt alleen voor te bewaren gegevens",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        278.101,
+        1160,
+        322.936
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.15",
+    "code": "19.1.15",
+    "benaming": "Protocolleringsgegevens verstrekkingen BRP",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 269,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        322.936,
+        1160,
+        361.771
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.16",
+    "code": "19.1.16",
+    "benaming": "Melding infectieziekte",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 270,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        361.771,
+        1160,
+        394.605
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.17",
+    "code": "19.1.17",
+    "benaming": "Ondersteuningsverkla ring kandidatenlijst",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 271,
+    "toelichting": "Direct na de verkiezingen",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        394.605,
+        1160,
+        421.44
+      ]
+    }
+  },
+  {
+    "id": "2017:19.1.18",
+    "code": "19.1.18",
+    "benaming": "Archiefvernie tiging",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:19.1",
+    "volgorde": 272,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        421.44,
+        1160,
+        448.275
+      ]
+    }
+  },
+  {
+    "id": "2017:19.2",
+    "code": "19.2",
+    "benaming": "Niet verwerkt",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:19",
+    "volgorde": 273,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        448.275,
+        1160,
+        475.11
+      ]
+    }
+  },
+  {
+    "id": "2017:19.3",
+    "code": "19.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:19",
+    "volgorde": 274,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        475.11,
+        1160,
+        501.945
+      ]
+    }
+  },
+  {
+    "id": "2017:20",
+    "code": "20",
+    "benaming": "Informeren",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 275,
+    "toelichting": "",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        501.945,
+        1160,
+        522.778
+      ]
+    }
+  },
+  {
+    "id": "2017:20.1",
+    "code": "20.1",
+    "benaming": "Uitgevoerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:20",
+    "volgorde": 276,
+    "toelichting": "Ter inzage legging voor derde, representatie, aanmelding\nbij verzekering",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        501.945,
+        1160,
+        522.778
+      ]
+    }
+  },
+  {
+    "id": "2017:20.1.1",
+    "code": "20.1.1",
+    "benaming": "Publicatie met historisch belang",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:20.1",
+    "volgorde": 277,
+    "toelichting": "Gemeentegids",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        522.778,
+        1160,
+        543.613
+      ]
+    }
+  },
+  {
+    "id": "2017:20.1.2",
+    "code": "20.1.2",
+    "benaming": "onlinecontent ten behoeve van externe communicatie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:20.1",
+    "volgorde": 278,
+    "toelichting": "Website",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        543.613,
+        1160,
+        564.448
+      ]
+    }
+  },
+  {
+    "id": "2017:20.1.3",
+    "code": "20.1.3",
+    "benaming": "Dienstverleningsaanbod",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:20.1",
+    "volgorde": 279,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        564.448,
+        1160,
+        585.283
+      ]
+    }
+  },
+  {
+    "id": "2017:20.1.4",
+    "code": "20.1.4",
+    "benaming": "Gegevens over woning statistiek",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:20.1",
+    "volgorde": 280,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        585.283,
+        1160,
+        606.118
+      ]
+    }
+  },
+  {
+    "id": "2017:20.1.5",
+    "code": "20.1.5",
+    "benaming": "Intern rapport",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:20.1",
+    "volgorde": 281,
+    "toelichting": "Periodieke interne rapportage",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        606.118,
+        1160,
+        626.953
+      ]
+    }
+  },
+  {
+    "id": "2017:20.1.6",
+    "code": "20.1.6",
+    "benaming": "Sociaal maatschap pelijk of economisch onderzoek",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:20.1",
+    "volgorde": 282,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        626.953,
+        1160,
+        647.786
+      ]
+    }
+  },
+  {
+    "id": "2017:20.1.7",
+    "code": "20.1.7",
+    "benaming": "Proactief beschikbaarge stelde (open) datasets",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:20.1",
+    "volgorde": 283,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        647.786,
+        1160,
+        668.621
+      ]
+    }
+  },
+  {
+    "id": "2017:20.2",
+    "code": "20.2",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:20",
+    "volgorde": 284,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        668.621,
+        1160,
+        689.456
+      ]
+    }
+  },
+  {
+    "id": "2017:21",
+    "code": "21",
+    "benaming": "Adviseren",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 285,
+    "toelichting": "",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        689.456,
+        1160,
+        704.291
+      ]
+    }
+  },
+  {
+    "id": "2017:21.1",
+    "code": "21.1",
+    "benaming": "Verstrekt",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:21",
+    "volgorde": 286,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        689.456,
+        1160,
+        704.291
+      ]
+    }
+  },
+  {
+    "id": "2017:21.1.1",
+    "code": "21.1.1",
+    "benaming": "Brandveiligheid- en brandpreventieadvies",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:21.1",
+    "volgorde": 287,
+    "toelichting": "o.a. adviezen voor evenementenvergunningen en vervoer\ngevaarlijke stoffen",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        704.291,
+        1160,
+        731.126
+      ]
+    }
+  },
+  {
+    "id": "2017:21.1.2",
+    "code": "21.1.2",
+    "benaming": "Vooroverleg omgevings vergunning",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:21.1",
+    "volgorde": 288,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        731.126,
+        1160,
+        745.961
+      ]
+    }
+  },
+  {
+    "id": "2017:21.1.3",
+    "code": "21.1.3",
+    "benaming": "Sociaal-medisch advies",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:21.1",
+    "volgorde": 289,
+    "toelichting": "of zoveel langer als redelijkerwijs in verband met een\nzorgvuldige uitvoering van hun taken op grond van deze\nwet noodzakelijk is.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        745.961,
+        1160,
+        778.796
+      ]
+    }
+  },
+  {
+    "id": "2017:21.2",
+    "code": "21.2",
+    "benaming": "Niet verstrekt",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:21",
+    "volgorde": 290,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        778.796,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:21.3",
+    "code": "21.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:21",
+    "volgorde": 291,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        72.259
+      ]
+    }
+  },
+  {
+    "id": "2017:22",
+    "code": "22",
+    "benaming": "Gebeurtenis organiseren",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 292,
+    "toelichting": "Het orgaan organiseert evenementen of gebeurtenissen\nvanuit haar wettelijke taak of ter promotie",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        72.259,
+        1160,
+        87.094
+      ]
+    }
+  },
+  {
+    "id": "2017:22.1",
+    "code": "22.1",
+    "benaming": "Afgehandeld",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:22",
+    "volgorde": 293,
+    "toelichting": "Brandweeroefening en -wedstrijd, vrijwilliger van het jaar,\ninterne opleiding, activiteit jumelage/stedenverband",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        72.259,
+        1160,
+        87.094
+      ]
+    }
+  },
+  {
+    "id": "2017:22.1.1",
+    "code": "22.1.1",
+    "benaming": "Plaatselijke plechtigheid en/of herdenking",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:22.1",
+    "volgorde": 294,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        87.094,
+        1160,
+        113.929
+      ]
+    }
+  },
+  {
+    "id": "2017:22.1.2",
+    "code": "22.1.2",
+    "benaming": "Verkiezing",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:22.1",
+    "volgorde": 295,
+    "toelichting": "vernietigen na 3 maanden: de verzegelde pakketten van\nde stembureaus met de te laat ontvangen en onvoldoende\ngefrankeerde retourenveloppen, niet op correcte wijze\nverzonden stembiljetten en briefstembewijzen, geldige\nof onbruikbaar gemaakte stempassen, kiezerspassen en\nvolmachtbewijzen, geldige, ongeldig verklaarde, onbruikbaar\ngemaakte en niet gebruikte stembiljetten en de stembiljetten\nmet een blanco stem, de processen-verbaal van de stembu\nreaus en de besluiten tot nieuwe opneming van stembiljet\nten van het centraal stembureau",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        113.929,
+        1160,
+        176.763
+      ]
+    }
+  },
+  {
+    "id": "2017:22.1.3",
+    "code": "22.1.3",
+    "benaming": "Referendum",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:22.1",
+    "volgorde": 296,
+    "toelichting": "vernietigen na 3 maanden: de verzegelde pakketten van\nde stembureaus met de te laat ontvangen en onvoldoende\ngefrankeerde retourenveloppen, niet op correcte wijze\nverzonden stembiljetten en briefstembewijzen, geldige of\nonbruikbaar",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        176.763,
+        1160,
+        209.598
+      ]
+    }
+  },
+  {
+    "id": "2017:22.1.5",
+    "code": "22.1.5",
+    "benaming": "Bezoek van hoogwaar digheidsbekleder",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:22.1",
+    "volgorde": 297,
+    "toelichting": "Commissaris van de Koning(in), staatshoofd, minister",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        209.598,
+        1160,
+        236.433
+      ]
+    }
+  },
+  {
+    "id": "2017:22.1.6",
+    "code": "22.1.6",
+    "benaming": "Bevolkingsonderzoek",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:22.1",
+    "volgorde": 298,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        236.433,
+        1160,
+        263.268
+      ]
+    }
+  },
+  {
+    "id": "2017:22.1.7",
+    "code": "22.1.7",
+    "benaming": "Opleiding omtrent rampenbestrijding of veiligheid",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:22.1",
+    "volgorde": 299,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        263.268,
+        1160,
+        284.103
+      ]
+    }
+  },
+  {
+    "id": "2017:22.2",
+    "code": "22.2",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:22",
+    "volgorde": 300,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        284.103,
+        1160,
+        298.938
+      ]
+    }
+  },
+  {
+    "id": "2017:23",
+    "code": "23",
+    "benaming": "Voorziening aanvragen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 301,
+    "toelichting": "",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        298.938,
+        1160,
+        319.771
+      ]
+    }
+  },
+  {
+    "id": "2017:23.1",
+    "code": "23.1",
+    "benaming": "Toegekend",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:23",
+    "volgorde": 302,
+    "toelichting": "BTW compensatiefonds, arbeidsplaatsvoorziening",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        298.938,
+        1160,
+        319.771
+      ]
+    }
+  },
+  {
+    "id": "2017:23.1.1",
+    "code": "23.1.1",
+    "benaming": "Europese subsidie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:23.1",
+    "volgorde": 303,
+    "toelichting": "Elke Europese subsidieregeling loopt 3 jaar door na afloop\nvan de periode, waarvoor de subsidie kan worden aange\nvraagd. Daarna geldt de reguliere termijn van 7 jaar.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        319.771,
+        1160,
+        352.606
+      ]
+    }
+  },
+  {
+    "id": "2017:23.1.2",
+    "code": "23.1.2",
+    "benaming": "Subsidie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:23.1",
+    "volgorde": 304,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        352.606,
+        1160,
+        385.441
+      ]
+    }
+  },
+  {
+    "id": "2017:23.2",
+    "code": "23.2",
+    "benaming": "Niet toege kend",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:23",
+    "volgorde": 305,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        385.441,
+        1160,
+        406.276
+      ]
+    }
+  },
+  {
+    "id": "2017:23.3",
+    "code": "23.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:23",
+    "volgorde": 306,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        406.276,
+        1160,
+        427.111
+      ]
+    }
+  },
+  {
+    "id": "2017:24",
+    "code": "24",
+    "benaming": "Toestemming vragen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 307,
+    "toelichting": "",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        427.111,
+        1160,
+        447.946
+      ]
+    }
+  },
+  {
+    "id": "2017:24.1",
+    "code": "24.1",
+    "benaming": "Verkregen",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:24",
+    "volgorde": 308,
+    "toelichting": "Omgevingsvergunning, ontheffing, gedoogbeschikking",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        427.111,
+        1160,
+        447.946
+      ]
+    }
+  },
+  {
+    "id": "2017:24.1.1",
+    "code": "24.1.1",
+    "benaming": "Toestemming voor een kortdurende activiteit of gebeurtenis",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:24.1",
+    "volgorde": 309,
+    "toelichting": "APV-vergunning",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        447.946,
+        1160,
+        468.778
+      ]
+    }
+  },
+  {
+    "id": "2017:24.1.2",
+    "code": "24.1.2",
+    "benaming": "Archiefvernietiging",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:24.1",
+    "volgorde": 310,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        468.778,
+        1160,
+        489.613
+      ]
+    }
+  },
+  {
+    "id": "2017:24.2",
+    "code": "24.2",
+    "benaming": "Geweigerd",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:24",
+    "volgorde": 311,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        489.613,
+        1160,
+        510.448
+      ]
+    }
+  },
+  {
+    "id": "2017:24.3",
+    "code": "24.3",
+    "benaming": "Proces afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:24",
+    "volgorde": 312,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        510.448,
+        1160,
+        531.283
+      ]
+    }
+  },
+  {
+    "id": "2017:25",
+    "code": "25",
+    "benaming": "Toezicht en handhaving ondergaan",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 313,
+    "toelichting": "",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        531.283,
+        1160,
+        552.118
+      ]
+    }
+  },
+  {
+    "id": "2017:25.1",
+    "code": "25.1",
+    "benaming": "Afgehandeld",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:25",
+    "volgorde": 314,
+    "toelichting": "Sisa-verantwoording, toezicht en handhaving uitgevoerd\ndoor derden, toezicht gemeentearchivaris archief- en\ninformatiebeheer",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        531.283,
+        1160,
+        552.118
+      ]
+    }
+  },
+  {
+    "id": "2017:25.1.1",
+    "code": "25.1.1",
+    "benaming": "Opgelegde sanctie",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:25.1",
+    "volgorde": 315,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        552.118,
+        1160,
+        578.953
+      ]
+    }
+  },
+  {
+    "id": "2017:25.1.2",
+    "code": "25.1.2",
+    "benaming": "Controle op de be groting",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:25.1",
+    "volgorde": 316,
+    "toelichting": "Provinciaal toezicht",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        578.953,
+        1160,
+        605.786
+      ]
+    }
+  },
+  {
+    "id": "2017:25.1.3",
+    "code": "25.1.3",
+    "benaming": "Toezicht op scholen",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:25.1",
+    "volgorde": 317,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        605.786,
+        1160,
+        626.621
+      ]
+    }
+  },
+  {
+    "id": "2017:25.2",
+    "code": "25.2",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:25",
+    "volgorde": 318,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        626.621,
+        1160,
+        647.456
+      ]
+    }
+  },
+  {
+    "id": "2017:26",
+    "code": "26",
+    "benaming": "Betwisten",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 319,
+    "toelichting": "Indien een orgaan het niet eens is met het al of niet\nhandelen van een derde, kan het orgaan om compensatie\nvragen of bezwaar en/of beroep indienen bij de daartoe\naangewezen organisaties.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        647.456,
+        1160,
+        674.291
+      ]
+    }
+  },
+  {
+    "id": "2017:26.1",
+    "code": "26.1",
+    "benaming": "Afgehandeld",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:26",
+    "volgorde": 320,
+    "toelichting": "Bezwaar en beroep ingediend door het orgaan, aansprake\nlijkstelling richting een derde",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        647.456,
+        1160,
+        674.291
+      ]
+    }
+  },
+  {
+    "id": "2017:26.1.1",
+    "code": "26.1.1",
+    "benaming": "Geschil met financiële consequenties",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:26.1",
+    "volgorde": 321,
+    "toelichting": "Schade en aansprakelijkheid",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        674.291,
+        1160,
+        707.126
+      ]
+    }
+  },
+  {
+    "id": "2017:26.2",
+    "code": "26.2",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:26",
+    "volgorde": 322,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        707.126,
+        1160,
+        733.961
+      ]
+    }
+  },
+  {
+    "id": "2017:27",
+    "code": "27",
+    "benaming": "Status aanvragen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 323,
+    "toelichting": "Het orgaan kan een andere organisatie verzoeken om aan\neen persoon, een object of een bepaald gebied een status\ntoe te kennen.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        733.961,
+        1160,
+        754.794
+      ]
+    }
+  },
+  {
+    "id": "2017:27.1",
+    "code": "27.1",
+    "benaming": "Verkregen",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:27",
+    "volgorde": 324,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        733.961,
+        1160,
+        754.794
+      ]
+    }
+  },
+  {
+    "id": "2017:27.1.1",
+    "code": "27.1.1",
+    "benaming": "Status rijksmoment",
+    "type": "specifiek_resultaat",
+    "parent_id": "2017:27.1",
+    "volgorde": 325,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        754.794,
+        1160,
+        775.629
+      ]
+    }
+  },
+  {
+    "id": "2017:27.2",
+    "code": "27.2",
+    "benaming": "Niet verkregen",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:27",
+    "volgorde": 326,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        775.629,
+        1160,
+        805
+      ]
+    }
+  },
+  {
+    "id": "2017:27.3",
+    "code": "27.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:27",
+    "volgorde": 327,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 40,
+      "bbox": [
+        29,
+        57.424,
+        1160,
+        78.259
+      ]
+    }
+  },
+  {
+    "id": "2017:28",
+    "code": "28",
+    "benaming": "Product of dienst aanvragen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 328,
+    "toelichting": "Het orgaan kan bij een andere organisatie vragen om een\nproduct of dienst zonder dat daar een overeenkomst voor\nhoeft worden gesloten.",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 40,
+      "bbox": [
+        29,
+        78.259,
+        1160,
+        99.094
+      ]
+    }
+  },
+  {
+    "id": "2017:28.1",
+    "code": "28.1",
+    "benaming": "Verkregen",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:28",
+    "volgorde": 329,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 40,
+      "bbox": [
+        29,
+        78.259,
+        1160,
+        99.094
+      ]
+    }
+  },
+  {
+    "id": "2017:28.2",
+    "code": "28.2",
+    "benaming": "Niet verkregen",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:28",
+    "volgorde": 330,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 40,
+      "bbox": [
+        29,
+        99.094,
+        1160,
+        119.929
+      ]
+    }
+  },
+  {
+    "id": "2017:28.3",
+    "code": "28.3",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:28",
+    "volgorde": 331,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 40,
+      "bbox": [
+        29,
+        119.929,
+        1160,
+        140.762
+      ]
+    }
+  },
+  {
+    "id": "2017:29",
+    "code": "29",
+    "benaming": "Aangifte doen",
+    "type": "procestype",
+    "parent_id": null,
+    "volgorde": 332,
+    "toelichting": "",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 40,
+      "bbox": [
+        29,
+        140.762,
+        1160,
+        161.597
+      ]
+    }
+  },
+  {
+    "id": "2017:29.1",
+    "code": "29.1",
+    "benaming": "Afgehandeld",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:29",
+    "volgorde": 333,
+    "toelichting": "Terugmelding fout in basisregistratie beheerd door\nander overheidsorgaan, aangifte bij politie en instanties,\ndatalekken",
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 40,
+      "bbox": [
+        29,
+        140.762,
+        1160,
+        161.597
+      ]
+    }
+  },
+  {
+    "id": "2017:29.2",
+    "code": "29.2",
+    "benaming": "Afgebroken",
+    "type": "generiek_resultaat",
+    "parent_id": "2017:29",
+    "volgorde": 334,
+    "toelichting": null,
+    "bron": {
+      "bron_id": "2017-opgemaakt",
+      "pdf_pagina": 40,
+      "bbox": [
+        29,
+        161.597,
+        1160,
+        805
+      ]
+    }
+  }
+]

@@ -1,0 +1,3 @@
+# Reproduceerbaarheid — publieke distributie
+
+Publieke validatie en herhaalbare CSV-export werken zonder netwerk of externe bestanden via scripts/valideer_publicatie.py en scripts/reproduce.py. Volledige herextractie uit PDF/XLS/onderzoeksrapporten is niet zelfstandig reproduceerbaar uit de publieke ZIP, omdat die externe bestanden niet worden heruitgegeven. Bronhashes en de oorspronkelijke logica zijn behouden; scripts/bronopbouw_prive.py biedt een vooraf gecontroleerde private bronopbouw met apart verkregen inputs. Deze beperking is een expliciet gevolg van rechtenminimalisatie, geen inhoudelijke datasetwijziging.

@@ -1,0 +1,1804 @@
+[
+  {
+    "code": "2.1",
+    "name": "Aanwijzing van gemeentelijke vertegenwoordigers in commissies e.d.",
+    "row": 4,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 18,
+      "bbox": [
+        113.19249725341797,
+        241.63088989257812,
+        187.0718536376953,
+        251.38262939453125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Aanwijzing van "
+  },
+  {
+    "code": "2.2",
+    "name": "Verslaglegging",
+    "row": 8,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 18,
+      "bbox": [
+        113.19249725341797,
+        393.8987121582031,
+        184.6459503173828,
+        403.65045166015625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Verslaglegging "
+  },
+  {
+    "code": "2.3",
+    "name": "Intermediair optreden",
+    "row": 19,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 19,
+      "bbox": [
+        113.19239807128906,
+        173.22909545898438,
+        209.67526245117188,
+        182.9808349609375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3. Intermediair optreden "
+  },
+  {
+    "code": "2.4",
+    "name": "Regelgeving door derden",
+    "row": 24,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 19,
+      "bbox": [
+        113.19249725341797,
+        363.8738708496094,
+        223.6937713623047,
+        373.6256103515625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "4. Regelgeving door derden "
+  },
+  {
+    "code": "2.5",
+    "name": "Bekendmakingen",
+    "row": 28,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 19,
+      "bbox": [
+        113.19249725341797,
+        487.3583679199219,
+        193.2943115234375,
+        497.110107421875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "5. Bekendmakingen "
+  },
+  {
+    "code": "2.6",
+    "name": "Publiciteit en voorlichting",
+    "row": 30,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 19,
+      "bbox": [
+        113.19239807128906,
+        661.9750366210938,
+        226.7227783203125,
+        671.726806640625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "6. Publiciteit en voorlichting "
+  },
+  {
+    "code": "2.7",
+    "name": "Verlening van vergunningen, machtigingen, verklaringen van geen bezwaar e.d.",
+    "row": 38,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 20,
+      "bbox": [
+        113.19249725341797,
+        447.0622863769531,
+        210.8649139404297,
+        456.81402587890625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "7. Verlening van vergun-"
+  },
+  {
+    "code": "2.8",
+    "name": "Statistisch onderzoek",
+    "row": 50,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 21,
+      "bbox": [
+        113.19249725341797,
+        407.4432678222656,
+        208.0055389404297,
+        417.19500732421875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "8. Statistisch onderzoek "
+  },
+  {
+    "code": "2.9",
+    "name": "Toezicht, controle, rapportering, aanschrijving, lastgeving en behandeling",
+    "row": 56,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 21,
+      "bbox": [
+        113.19249725341797,
+        530.9279174804688,
+        201.29974365234375,
+        540.6796875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "9. Toezicht, controle, "
+  },
+  {
+    "code": "2.10",
+    "name": "Hulpadministraties",
+    "row": 79,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 22,
+      "bbox": [
+        113.19249725341797,
+        416.1346740722656,
+        204.28488159179688,
+        425.88641357421875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "10. Hulpadministraties "
+  },
+  {
+    "code": "2.11",
+    "name": "Gegevens over gegevens",
+    "row": 84,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 22,
+      "bbox": [
+        113.19249725341797,
+        650.3490600585938,
+        399.2410583496094,
+        660.100830078125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "11.  Gegevens over gegevens Archieftoegangen, zoals een documentair "
+  },
+  {
+    "code": "2.12",
+    "name": "Beheer, beveiliging en programmatuur",
+    "row": 87,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 23,
+      "bbox": [
+        113.19239807128906,
+        424.48736572265625,
+        217.87075805664062,
+        434.2391052246094
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "12. Beheer, beveiliging en "
+  },
+  {
+    "code": "2.13",
+    "name": "Intrekking en niet doorgaan van zaken van eenvoudige aard",
+    "row": 92,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 23,
+      "bbox": [
+        113.19249725341797,
+        536.79736328125,
+        199.3220977783203,
+        546.5491333007812
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "13. Intrekking en niet "
+  },
+  {
+    "code": "2.14",
+    "name": "Geleide- en rappelbrieven, ontvangstbevestigingen, toezending van afschriften en drukwerken",
+    "row": 94,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 23,
+      "bbox": [
+        113.19249725341797,
+        716.1547241210938,
+        175.23953247070312,
+        725.906494140625
+      ]
+    },
+    "score": 0.202,
+    "primaire_kopregel": "14. Geleide- en "
+  },
+  {
+    "code": "2.15",
+    "name": "Offertes, inschrijvingen",
+    "row": 96,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 24,
+      "bbox": [
+        114.8855972290039,
+        234.97128295898438,
+        224.17405700683594,
+        244.7230224609375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "15. Offertes, inschrijvingen "
+  },
+  {
+    "code": "2.16",
+    "name": "Jaarlijkse verantwoording door buitengemeentelijke instellingen",
+    "row": 103,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 24,
+      "bbox": [
+        114.885498046875,
+        472.9104919433594,
+        232.435546875,
+        482.6622314453125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "16. Jaarlijkse verantwoording "
+  },
+  {
+    "code": "2.17",
+    "name": "Regeling privaatrechtelijke rechtsverhoudingen",
+    "row": 106,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 25,
+      "bbox": [
+        113.19249725341797,
+        208.44589233398438,
+        165.2671356201172,
+        218.1976318359375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "17. Regeling "
+  },
+  {
+    "code": "2.18",
+    "name": "Beleid en Regelgeving",
+    "row": 107,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 25,
+      "bbox": [
+        113.19249725341797,
+        308.3396911621094,
+        218.6881866455078,
+        318.0914306640625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "18. Beleid en Regelgeving "
+  },
+  {
+    "code": "2.19",
+    "name": "Voorbereiding",
+    "row": 111,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 25,
+      "bbox": [
+        113.19249725341797,
+        607.3438110351562,
+        186.80685424804688,
+        617.0955810546875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "19. Voorbereiding "
+  },
+  {
+    "code": "2.20",
+    "name": "Subsidies",
+    "row": 114,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        113.19249725341797,
+        186.20956420898438,
+        169.88607788085938,
+        195.9613037109375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "20. Subsidies  "
+  },
+  {
+    "code": "2.21",
+    "name": "Garantieverlening",
+    "row": 122,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        113.19249725341797,
+        528.1060180664062,
+        200.34799194335938,
+        537.8577880859375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "21. Garantieverlening "
+  },
+  {
+    "code": "2.22",
+    "name": "Verzekeringen",
+    "row": 123,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        113.19249725341797,
+        550.9066772460938,
+        187.27639770507812,
+        560.658447265625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "22. Verzekeringen "
+  },
+  {
+    "code": "2.23",
+    "name": "Principebeslissingen; precedenten",
+    "row": 132,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        114.8855972290039,
+        219.39456176757812,
+        214.45880126953125,
+        229.14630126953125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "23. Principebeslissingen; "
+  },
+  {
+    "code": "2.24",
+    "name": "Klachten, zienswijzen, inspraak, referenda",
+    "row": 133,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        113.19249725341797,
+        264.7700500488281,
+        218.34326171875,
+        274.52178955078125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "24. Klachten, zienswijzen, "
+  },
+  {
+    "code": "2.25",
+    "name": "Bezwaar- en beroepschriften",
+    "row": 146,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 28,
+      "bbox": [
+        113.19249725341797,
+        148.50955200195312,
+        178.91439819335938,
+        158.26129150390625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "25. Bezwaar- en "
+  },
+  {
+    "code": "3.1",
+    "name": "Financieel beheer",
+    "row": 153,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        113.19249725341797,
+        112.13520812988281,
+        205.74427795410156,
+        121.88695526123047
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.1 Financieel beheer  "
+  },
+  {
+    "code": "3.1.1",
+    "name": "Bepaling algemeen financieel beleid",
+    "row": 154,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        114.8855972290039,
+        295.35906982421875,
+        204.48062133789062,
+        305.1108093261719
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Bepaling algemeen "
+  },
+  {
+    "code": "3.1.2",
+    "name": "Financiële administratie en boekhouding",
+    "row": 162,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        113.19249725341797,
+        486.0038757324219,
+        221.81166076660156,
+        495.755615234375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Financiële administratie "
+  },
+  {
+    "code": "3.1.3",
+    "name": "Verificatie",
+    "row": 170,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 30,
+      "bbox": [
+        113.19249725341797,
+        123.79000091552734,
+        166.99647521972656,
+        133.541748046875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3. Verificatie "
+  },
+  {
+    "code": "3.1.4",
+    "name": "Heffing van belastingen",
+    "row": 172,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 30,
+      "bbox": [
+        113.19249725341797,
+        180.22726440429688,
+        218.63160705566406,
+        189.97900390625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "4. Heffing van belastingen "
+  },
+  {
+    "code": "3.1.5",
+    "name": "Door de gemeente verschuldigde belastingen en boetes",
+    "row": 181,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 30,
+      "bbox": [
+        113.19249725341797,
+        446.72369384765625,
+        196.53863525390625,
+        456.4754333496094
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "5. Door de gemeente "
+  },
+  {
+    "code": "3.1.6",
+    "name": "Opnemen/verstrekken van geldleningen, voorschotten of kredieten",
+    "row": 186,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 30,
+      "bbox": [
+        113.19249725341797,
+        666.03857421875,
+        230.4453887939453,
+        675.7903442382812
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "6. Opnemen/verstrekken van "
+  },
+  {
+    "code": "3.1.7",
+    "name": "Verstrekken/ontvangen van uitkeringen, vergoedingen en bijdragen ",
+    "row": 191,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 31,
+      "bbox": [
+        113.19249725341797,
+        201.44760131835938,
+        215.9330291748047,
+        211.1993408203125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "7. Verstrekken/ontvangen "
+  },
+  {
+    "code": "3.2",
+    "name": "Personeel beheer",
+    "row": 194,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 32,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        200.6177520751953,
+        120.98400115966797
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.2 Personeel beheer "
+  },
+  {
+    "code": "3.2.1",
+    "name": "Individuele personeelsleden, vrijwilligers en stagiaires",
+    "row": 195,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 32,
+      "bbox": [
+        113.19249725341797,
+        262.9642028808594,
+        169.5421142578125,
+        272.7159423828125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Individuele "
+  },
+  {
+    "code": "3.2.2",
+    "name": "Openstellen en behandelen van vacatures",
+    "row": 213,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        203.81796264648438,
+        230.0451202392578,
+        213.5697021484375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Openstellen en behandelen "
+  },
+  {
+    "code": "3.2.3",
+    "name": "Bepalen van personeelsbezetting en -formatie; rechtspositieregeling",
+    "row": 215,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        249.08059692382812,
+        173.5220184326172,
+        258.83233642578125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3. Bepalen van "
+  },
+  {
+    "code": "3.2.4",
+    "name": "Salarisadministratie",
+    "row": 218,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        339.0414733886719,
+        202.5263671875,
+        348.793212890625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "4. Salarisadministratie "
+  },
+  {
+    "code": "3.2.5",
+    "name": "Arbo-gegevens",
+    "row": 219,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        361.8420715332031,
+        184.7073516845703,
+        371.59381103515625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "5. Arbo-gegevens "
+  },
+  {
+    "code": "3.2.6",
+    "name": "Ondernemingsraden en georganiseerd overleg",
+    "row": 221,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        429.3409729003906,
+        215.77513122558594,
+        439.09271240234375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "6. Ondernemingsraden en "
+  },
+  {
+    "code": "3.3",
+    "name": "Beheer van eigendommen en werken",
+    "row": 227,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 34,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        282.452880859375,
+        120.98400115966797
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.3 Beheer van eigendommen en werken "
+  },
+  {
+    "code": "3.3.1",
+    "name": "Verkrijging en verlies",
+    "row": 228,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 34,
+      "bbox": [
+        113.19249725341797,
+        265.1087951660156,
+        215.8180389404297,
+        274.86053466796875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Verkrijging en verlies  "
+  },
+  {
+    "code": "3.3.2",
+    "name": "Stichting, aanleg, verbetering, restauratie, wijziging, regeling van de bestemming van en bijkomende voorzieningen aan gebouwen, werken, terreinen, installaties, apparatuur en machines",
+    "row": 230,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 34,
+      "bbox": [
+        113.19249725341797,
+        403.2669677734375,
+        195.73878479003906,
+        413.0187072753906
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Stichting, aanleg, "
+  },
+  {
+    "code": "3.3.3",
+    "name": "Kostprijsberekening en exploitatieopzet",
+    "row": 241,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        113.19249725341797,
+        297.05218505859375,
+        218.3948974609375,
+        306.8039245605469
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.  Kostprijsberekening en "
+  },
+  {
+    "code": "3.3.4",
+    "name": "Gebruik: zakelijke, persoonlijke en andere rechten als erfpacht, opstal, huur en pacht, erfdienstbaarheid, verhuur en verpachting, in gebruik geven en nemen, jacht- en visrecht ed.",
+    "row": 242,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        113.19249725341797,
+        331.1402893066406,
+        202.64227294921875,
+        340.89202880859375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "4. Gebruik: zakelijke, "
+  },
+  {
+    "code": "3.3.5",
+    "name": "Onderhoud, schoonhouden, water- en energievoorziening",
+    "row": 247,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        113.19249725341797,
+        568.2893676757812,
+        171.60760498046875,
+        578.0411376953125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "5. Onderhoud, "
+  },
+  {
+    "code": "3.3.6",
+    "name": "Bewaking, bescherming en bedrijfshulpverlening",
+    "row": 251,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        113.19249725341797,
+        613.4390258789062,
+        221.99085998535156,
+        623.1907958984375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "6. Bewaking, bescherming "
+  },
+  {
+    "code": "3.4",
+    "name": "Beheer van benodigdheden en hulpmiddelen",
+    "row": 253,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        314.530029296875,
+        120.98400115966797
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.4 Beheer van benodigdheden en hulpmiddelen "
+  },
+  {
+    "code": "3.4.1",
+    "name": "Aanschaf, leasen,huur, verhuur en ingebruikgeving",
+    "row": 254,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        113.19249725341797,
+        254.95010375976562,
+        213.924072265625,
+        264.70184326171875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Aanschaf, leasen,huur, "
+  },
+  {
+    "code": "3.4.2",
+    "name": "Onderhoud",
+    "row": 258,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        114.8855972290039,
+        485.4395751953125,
+        170.81735229492188,
+        495.1913146972656
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Onderhoud "
+  },
+  {
+    "code": "3.4.3",
+    "name": "Verkoop",
+    "row": 262,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        113.19249725341797,
+        535.104248046875,
+        159.431396484375,
+        544.8560180664062
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3. Verkoop "
+  },
+  {
+    "code": "3.5",
+    "name": "Bestuur en organisatie",
+    "row": 263,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 37,
+      "bbox": [
+        113.19249725341797,
+        123.08406066894531,
+        221.25637817382812,
+        132.8358154296875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.5 Bestuur en organisatie"
+  },
+  {
+    "code": "3.5.1",
+    "name": "Organisatorisch handelen",
+    "row": 264,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 37,
+      "bbox": [
+        114.8855972290039,
+        275.831787109375,
+        226.11671447753906,
+        285.5835266113281
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Organisatorisch handelen "
+  },
+  {
+    "code": "3.5.2",
+    "name": "Gemeentelijk grondgebied",
+    "row": 266,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 37,
+      "bbox": [
+        114.8855972290039,
+        343.3306884765625,
+        179.4140625,
+        353.0824279785156
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Gemeentelijk "
+  },
+  {
+    "code": "3.5.3",
+    "name": "Verkiezingen c.a.",
+    "row": 279,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        114.8855972290039,
+        534.0883178710938,
+        197.0061798095703,
+        543.840087890625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3. Verkiezingen c.a. "
+  },
+  {
+    "code": "3.5.4",
+    "name": "Bestuur",
+    "row": 289,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        114.8855972290039,
+        279.5566711425781,
+        157.2722930908203,
+        289.30841064453125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "4. Bestuur "
+  },
+  {
+    "code": "3.5.5",
+    "name": "Burgemeester",
+    "row": 294,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        114.8855972290039,
+        353.82806396484375,
+        182.8044891357422,
+        363.5798034667969
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "5. Burgemeester "
+  },
+  {
+    "code": "3.5.6",
+    "name": "Wethouders",
+    "row": 298,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        114.8855972290039,
+        398.977783203125,
+        175.6671142578125,
+        408.7295227050781
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "6. Wethouders "
+  },
+  {
+    "code": "3.5.7",
+    "name": "(Re)presentatie",
+    "row": 301,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        114.8855972290039,
+        424.1487731933594,
+        188.10537719726562,
+        433.9005126953125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "7. (Re)presentatie "
+  },
+  {
+    "code": "3.6",
+    "name": "Ruimtelijke ordening en volkshuisvesting",
+    "row": 315,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 41,
+      "bbox": [
+        113.19249725341797,
+        121.39100646972656,
+        301.83270263671875,
+        131.14276123046875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.6 Ruimtelijke ordening en volkshuisvesting "
+  },
+  {
+    "code": "3.6.1",
+    "name": "Planologie",
+    "row": 316,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 41,
+      "bbox": [
+        113.19249725341797,
+        328.8827819824219,
+        166.96913146972656,
+        338.634521484375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Planologie "
+  },
+  {
+    "code": "3.6.2",
+    "name": "Bouw, aanleg en gebruik",
+    "row": 346,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 42,
+      "bbox": [
+        113.19249725341797,
+        694.0314331054688,
+        224.39718627929688,
+        703.783203125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Bouw, aanleg en gebruik "
+  },
+  {
+    "code": "3.7",
+    "name": "Burgerlijke stand en Bevolking/GBA.",
+    "row": 396,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 47,
+      "bbox": [
+        113.19249725341797,
+        121.39100646972656,
+        285.7594909667969,
+        131.14276123046875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.7 Burgerlijke stand en Bevolking/GBA. "
+  },
+  {
+    "code": "3.7.1",
+    "name": "Burgerlijke stand",
+    "row": 397,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 47,
+      "bbox": [
+        114.8855972290039,
+        350.216064453125,
+        197.12301635742188,
+        359.9678039550781
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Burgerlijke stand "
+  },
+  {
+    "code": "3.7.2",
+    "name": "Gemeentelijke basisadministratie persoonsgegevens",
+    "row": 401,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 47,
+      "bbox": [
+        113.19249725341797,
+        619.082763671875,
+        184.8242645263672,
+        628.8345336914062
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Gemeentelijke "
+  },
+  {
+    "code": "3.7.3",
+    "name": "Nationaliteit",
+    "row": 432,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 50,
+      "bbox": [
+        113.19249725341797,
+        234.97128295898438,
+        176.8187713623047,
+        244.7230224609375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3. Nationaliteit "
+  },
+  {
+    "code": "3.7.4",
+    "name": "Individuele personen",
+    "row": 435,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 51,
+      "bbox": [
+        113.19249725341797,
+        509.1431579589844,
+        210.00770568847656,
+        518.8948974609375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "4. Individuele personen "
+  },
+  {
+    "code": "3.7.5",
+    "name": "Reisdocumenten (Paspoortwet- en regelgeving)",
+    "row": 436,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 52,
+      "bbox": [
+        113.19249725341797,
+        111.37386322021484,
+        192.8218231201172,
+        121.1256103515625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "5. Reisdocumenten "
+  },
+  {
+    "code": "3.7.6",
+    "name": "Rijbewijzen",
+    "row": 440,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 52,
+      "bbox": [
+        113.19249725341797,
+        257.3204650878906,
+        175.2385711669922,
+        267.07220458984375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "6. Rijbewijzen "
+  },
+  {
+    "code": "3.8",
+    "name": "Gezondheidszorg",
+    "row": 444,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 53,
+      "bbox": [
+        113.19249725341797,
+        112.13520812988281,
+        201.9758758544922,
+        121.88695526123047
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.8 Gezondheidszorg "
+  },
+  {
+    "code": "3.8.1",
+    "name": "Gezondheidszorg – collectief",
+    "row": 445,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 53,
+      "bbox": [
+        113.19249725341797,
+        261.8353576660156,
+        203.3905487060547,
+        271.58709716796875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Gezondheidszorg – "
+  },
+  {
+    "code": "3.8.2",
+    "name": "Gezondheidszorg – individueel",
+    "row": 452,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 53,
+      "bbox": [
+        113.19249725341797,
+        418.9565734863281,
+        203.3905487060547,
+        428.70831298828125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Gezondheidszorg – "
+  },
+  {
+    "code": "3.8.3",
+    "name": "(Besmettelijke) ziekten",
+    "row": 461,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 54,
+      "bbox": [
+        113.19249725341797,
+        503.95098876953125,
+        218.6228790283203,
+        513.7027587890625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3. (Besmettelijke) ziekten "
+  },
+  {
+    "code": "3.8.4",
+    "name": "Ambulancevervoer",
+    "row": 464,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 54,
+      "bbox": [
+        113.19249725341797,
+        654.186767578125,
+        202.62863159179688,
+        663.9385375976562
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "4. Ambulancevervoer "
+  },
+  {
+    "code": "3.8.5",
+    "name": "Lijkbezorging",
+    "row": 466,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 55,
+      "bbox": [
+        113.19249725341797,
+        184.06497192382812,
+        183.02772521972656,
+        193.81671142578125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "5. Lijkbezorging "
+  },
+  {
+    "code": "3.9",
+    "name": "Milieu",
+    "row": 475,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 56,
+      "bbox": [
+        129.10780334472656,
+        122.06825256347656,
+        173.9856414794922,
+        131.82000732421875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.9 Milieu "
+  },
+  {
+    "code": "3.9.1",
+    "name": "Milieu",
+    "row": 476,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 56,
+      "bbox": [
+        113.19249725341797,
+        256.8688659667969,
+        154.18502807617188,
+        266.62060546875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Milieu "
+  },
+  {
+    "code": "3.9.2",
+    "name": "Verontreiniging milieu",
+    "row": 493,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 57,
+      "bbox": [
+        113.19249725341797,
+        404.16998291015625,
+        217.5541229248047,
+        413.9217224121094
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Verontreiniging milieu "
+  },
+  {
+    "code": "3.9.3",
+    "name": "Vuilverwerking",
+    "row": 502,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 58,
+      "bbox": [
+        113.19249725341797,
+        220.52340698242188,
+        189.65354919433594,
+        230.275146484375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3. Vuilverwerking "
+  },
+  {
+    "code": "3.9.4",
+    "name": "Riolering",
+    "row": 507,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 58,
+      "bbox": [
+        113.19249725341797,
+        584.6560668945312,
+        164.86769104003906,
+        594.4078369140625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "4. Riolering "
+  },
+  {
+    "code": "3.9.5",
+    "name": "Geluid",
+    "row": 514,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 59,
+      "bbox": [
+        113.19249725341797,
+        256.3045959472656,
+        154.7267303466797,
+        266.05633544921875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "5. Geluid "
+  },
+  {
+    "code": "3.10",
+    "name": "Openbare orde en veiligheid",
+    "row": 518,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 60,
+      "bbox": [
+        113.19249725341797,
+        123.64845275878906,
+        252.79580688476562,
+        133.40020751953125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.10 Openbare orde en veiligheid "
+  },
+  {
+    "code": "3.10.1",
+    "name": "Openbare Orde",
+    "row": 519,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 60,
+      "bbox": [
+        113.19249725341797,
+        296.6006774902344,
+        190.2137451171875,
+        306.3524169921875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Openbare Orde  "
+  },
+  {
+    "code": "3.10.2",
+    "name": "Rampenbestrijding",
+    "row": 523,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 60,
+      "bbox": [
+        113.19249725341797,
+        419.9723815917969,
+        202.24281311035156,
+        429.72412109375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Rampenbestrijding "
+  },
+  {
+    "code": "3.10.3",
+    "name": "Brandweer",
+    "row": 531,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 61,
+      "bbox": [
+        113.19249725341797,
+        235.19705200195312,
+        170.76681518554688,
+        244.94879150390625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3. Brandweer "
+  },
+  {
+    "code": "3.11",
+    "name": "Verkeer en vervoer",
+    "row": 539,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 63,
+      "bbox": [
+        113.19249725341797,
+        123.64845275878906,
+        217.89120483398438,
+        133.40020751953125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.11  Verkeer en vervoer "
+  },
+  {
+    "code": "3.11.1",
+    "name": "Verkeer",
+    "row": 540,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 63,
+      "bbox": [
+        113.19249725341797,
+        251.78958129882812,
+        159.40701293945312,
+        261.54132080078125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Verkeer "
+  },
+  {
+    "code": "3.11.2",
+    "name": "Vervoer",
+    "row": 560,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 64,
+      "bbox": [
+        113.19249725341797,
+        418.73077392578125,
+        159.93800354003906,
+        428.4825134277344
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Vervoer "
+  },
+  {
+    "code": "3.12",
+    "name": "Economie",
+    "row": 563,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 65,
+      "bbox": [
+        113.19249725341797,
+        123.76130676269531,
+        173.63011169433594,
+        133.5130615234375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.12 Economie"
+  },
+  {
+    "code": "3.12.1",
+    "name": "Economische aangelegenheden",
+    "row": 564,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 65,
+      "bbox": [
+        113.19249725341797,
+        226.05429077148438,
+        180.403076171875,
+        235.8060302734375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Economische "
+  },
+  {
+    "code": "3.13",
+    "name": "Arbeid",
+    "row": 574,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 66,
+      "bbox": [
+        113.19249725341797,
+        135.9518585205078,
+        161.72865295410156,
+        145.70361328125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.13 Arbeid"
+  },
+  {
+    "code": "3.13.1",
+    "name": "Arbeidsaangelegenheden",
+    "row": 575,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 66,
+      "bbox": [
+        113.19249725341797,
+        271.9940490722656,
+        225.8304443359375,
+        281.74578857421875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Arbeidsaangelegenheden "
+  },
+  {
+    "code": "3.14",
+    "name": "Welzijn en sociale zorg",
+    "row": 585,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 67,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        230.30035400390625,
+        120.98400115966797
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.14 Welzijn en sociale zorg "
+  },
+  {
+    "code": "3.14.1",
+    "name": "Bijstandsverlening",
+    "row": 586,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 67,
+      "bbox": [
+        113.19249725341797,
+        316.5794677734375,
+        200.99972534179688,
+        326.3312072753906
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Bijstandsverlening "
+  },
+  {
+    "code": "3.14.2",
+    "name": "Welzijnszorg",
+    "row": 591,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 68,
+      "bbox": [
+        114.8855972290039,
+        135.64175415039062,
+        181.54571533203125,
+        145.39349365234375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Welzijnszorg "
+  },
+  {
+    "code": "3.14.3",
+    "name": "Zorg voor bepaalde groepen",
+    "row": 593,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 68,
+      "bbox": [
+        113.19249725341797,
+        192.07894897460938,
+        204.241943359375,
+        201.8306884765625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3. Zorg voor bepaalde "
+  },
+  {
+    "code": "3.15",
+    "name": "Onderwijs",
+    "row": 626,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 70,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        176.46128845214844,
+        120.98400115966797
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.15 Onderwijs"
+  },
+  {
+    "code": "3.15.1",
+    "name": "Organisatie",
+    "row": 627,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 70,
+      "bbox": [
+        113.19249725341797,
+        258.3362731933594,
+        172.84385681152344,
+        268.0880126953125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Organisatie "
+  },
+  {
+    "code": "3.15.2",
+    "name": "Financiering",
+    "row": 644,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 70,
+      "bbox": [
+        113.19249725341797,
+        560.8396606445312,
+        174.2721405029297,
+        570.5914306640625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Financiering "
+  },
+  {
+    "code": "3.15.3",
+    "name": "Individuele leerlingen",
+    "row": 651,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 71,
+      "bbox": [
+        113.19249725341797,
+        300.4384765625,
+        213.60556030273438,
+        310.1902160644531
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3. Individuele leerlingen "
+  },
+  {
+    "code": "3.15.4",
+    "name": "Onderwijsresultaten",
+    "row": 653,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 71,
+      "bbox": [
+        113.19249725341797,
+        367.8244934082031,
+        206.4029083251953,
+        377.57623291015625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "4. Onderwijsresultaten "
+  },
+  {
+    "code": "3.15.5",
+    "name": "Leerplicht",
+    "row": 658,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 71,
+      "bbox": [
+        113.19249725341797,
+        531.9437866210938,
+        168.17822265625,
+        541.695556640625
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "5. Leerplicht "
+  },
+  {
+    "code": "3.15.6",
+    "name": "Begeleiding en toezicht",
+    "row": 664,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 71,
+      "bbox": [
+        113.19249725341797,
+        576.9806518554688,
+        217.06117248535156,
+        586.732421875
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "6. Begeleiding en toezicht "
+  },
+  {
+    "code": "3.16",
+    "name": "Cultuur, recreatie en sport",
+    "row": 667,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 72,
+      "bbox": [
+        113.19249725341797,
+        111.23225402832031,
+        246.36752319335938,
+        120.98400115966797
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "3.16 Cultuur, recreatie en sport "
+  },
+  {
+    "code": "3.16.1",
+    "name": "Cultuur (bevordering)",
+    "row": 668,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 72,
+      "bbox": [
+        113.19249725341797,
+        228.08596801757812,
+        210.86976623535156,
+        237.83770751953125
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "1. Cultuur (bevordering) "
+  },
+  {
+    "code": "3.16.2",
+    "name": "Sport en recreatie",
+    "row": 699,
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 73,
+      "bbox": [
+        113.19249725341797,
+        324.3677673339844,
+        195.49136352539062,
+        334.1195068359375
+      ]
+    },
+    "score": 1.0,
+    "primaire_kopregel": "2. Sport en recreatie "
+  }
+]

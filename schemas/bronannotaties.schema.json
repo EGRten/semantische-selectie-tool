@@ -1,0 +1,169 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "aanvullende_bronnen": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "bbox": {
+              "type": "array",
+              "items": {
+                "type": [
+                  "integer",
+                  "number"
+                ]
+              }
+            },
+            "bron_id": {
+              "type": "string"
+            },
+            "pdf_pagina": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "bbox",
+            "bron_id",
+            "pdf_pagina"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "bedoelde_broncorrectie": {
+        "type": "string"
+      },
+      "belemmert_oplevering_dataset": {
+        "type": "boolean"
+      },
+      "bevinding": {
+        "type": "string"
+      },
+      "bron": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": "array",
+            "items": {
+              "type": [
+                "integer",
+                "number"
+              ]
+            }
+          },
+          "bron_id": {
+            "type": "string"
+          },
+          "pdf_pagina": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "bbox",
+          "bron_id",
+          "pdf_pagina"
+        ],
+        "additionalProperties": false
+      },
+      "bronvarianten": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "betekenis": {
+              "type": "string"
+            },
+            "bron_id": {
+              "type": "string"
+            },
+            "waarde": {
+              "type": [
+                "null",
+                "string"
+              ]
+            }
+          },
+          "required": [
+            "betekenis",
+            "bron_id",
+            "waarde"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "code": {
+        "type": "string"
+      },
+      "controleopdracht_gebruiker": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string"
+      },
+      "lijst": {
+        "type": "string"
+      },
+      "menselijke_bevestiging": {
+        "type": "object",
+        "properties": {
+          "beoordelaar": {
+            "type": "string"
+          },
+          "datum": {
+            "type": "string"
+          },
+          "herkomst": {
+            "type": "string"
+          },
+          "oordeel": {
+            "type": "string"
+          },
+          "scope": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "beoordelaar",
+          "datum",
+          "herkomst",
+          "oordeel",
+          "scope"
+        ],
+        "additionalProperties": false
+      },
+      "onderdeel_id": {
+        "type": "string"
+      },
+      "status_verwerking": {
+        "type": "string"
+      },
+      "veld": {
+        "type": "string"
+      },
+      "verwerking": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "aanvullende_bronnen",
+      "bedoelde_broncorrectie",
+      "belemmert_oplevering_dataset",
+      "bevinding",
+      "bron",
+      "bronvarianten",
+      "code",
+      "controleopdracht_gebruiker",
+      "id",
+      "lijst",
+      "onderdeel_id",
+      "status_verwerking",
+      "veld",
+      "verwerking"
+    ],
+    "additionalProperties": false
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "bronannotaties — eindpakket 1.0.0"
+}

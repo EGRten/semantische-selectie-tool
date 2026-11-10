@@ -1,0 +1,78 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "benaming": {
+        "type": "string"
+      },
+      "bron": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": [
+              "null",
+              "array"
+            ]
+          },
+          "bron_id": {
+            "type": "string"
+          },
+          "pdf_pagina": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "bbox",
+          "bron_id",
+          "pdf_pagina"
+        ],
+        "additionalProperties": false
+      },
+      "code": {
+        "type": "string"
+      },
+      "codeopbouw": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string",
+        "pattern": "^(1996-2012|2017|2020):"
+      },
+      "parent_id": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "toelichting": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "type": {
+        "type": "string"
+      },
+      "verificatie": {
+        "type": "string"
+      },
+      "volgorde": {
+        "type": "integer"
+      }
+    },
+    "required": [
+      "benaming",
+      "bron",
+      "code",
+      "id",
+      "parent_id",
+      "toelichting",
+      "type",
+      "volgorde"
+    ],
+    "additionalProperties": false
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "structuur — datasetformaat 0.2"
+}

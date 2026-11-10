@@ -1,0 +1,132 @@
+{
+  "selectielijst_id": "1996-2012",
+  "officiele_titel": "Selectielijst voor archiefbescheiden van gemeentelijke en intergemeentelijke organen opgemaakt of ontvangen vanaf 1 januari 1996 — Actualisatie",
+  "vaststellingsgegevens": {
+    "datum": "2012-06-21",
+    "publicatie": "Staatscourant 2012, 11906",
+    "kenmerk": "NA/12/3900"
+  },
+  "datasetversie": "1.0.0-eindpakket",
+  "generatiedatum": "2026-11-10",
+  "bronnenregister": [
+    {
+      "id": "1996-2012-officieel",
+      "bestand": "../../bronnen/1996-2012-officieel.bron.json",
+      "url": "https://www.nationaalarchief.nl/sites/default/files/field-file/selectielijsten/bsd_gemeentelijke_en_intergemeentelijke_organen_stcnrt_2012_11906_addendum_pdfa_versie.pdf",
+      "sha256": "dffb0750b310e69401e0e11019a00d73df7a33b49d2f420437d32b2a305d4538",
+      "status": "Nationaal_Archief_download_2026-11-10",
+      "oorspronkelijk_bestand": "../../bronnen/1996.pdf",
+      "oorspronkelijke_sha256": "4e19bd25d108881ba8f72d5744e3179bf2dee5354e6d4101acc6c07f40a0de22",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
+    },
+    {
+      "id": "1996-2012-opgemaakt",
+      "bestand": "../../bronnen/1996-2012-opgemaakt.bron.json",
+      "sha256": "ad0f384b8f13d41aaed722a61b5acf838a399b9938ed9f17954e034f2b6841f1",
+      "status": "aangeleverd_opgemaakt_document; selectievelden_vergeleken_met_officiele_bron",
+      "oorspronkelijk_bestand": "../../bronnen/Selectielijst 1996.pdf",
+      "oorspronkelijke_sha256": "f8c265d61dfdb9fd97bc42fc83a1852287bbe8552979eae8e9090edd92ff1c2a",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
+    },
+    {
+      "id": "1996-2012-rapport",
+      "bestand": "../../bronnen/1996-2012-rapport.bron.json",
+      "sha256": "728fc9a119c2c87b33dc0a583d6e48da6dbe40ca0c7dcbda49abc74f78801e1e",
+      "status": "Deep_Research_alleen_kandidaatbron",
+      "oorspronkelijk_bestand": "../../bronnen/rapport-1996.md",
+      "oorspronkelijke_sha256": "f721ffe56e3d4fed33eaf6073939fc47e0602374b1ad0801298024f4ceb591ad",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
+    },
+    {
+      "id": "concordans-aangeleverd",
+      "bestand": "../../bronnen/concordans-aangeleverd.bron.json",
+      "sha256": "7e3d3e623e690a0e7f7fdcaef0ada8c015da7ec8087a06de273d16dbe8135174",
+      "status": "ondersteunende_aangeleverde_concordans; geen_normbron",
+      "oorspronkelijk_bestand": "../../bronnen/Concordans Selectielijst 1996-2020(1).xlsx",
+      "oorspronkelijke_sha256": "7dfda792ce61c1a6fa28c5c116155a429560153178c6c58987eabbbe6cdf708c",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
+    }
+  ],
+  "aantallen": {
+    "structuuronderdelen": 108,
+    "rubrieken": 90,
+    "procestypen": 0,
+    "selectievoorschriften_of_resultaatregels": 494,
+    "actieve_regels": 494,
+    "vervallen_regels": 0,
+    "zoektermrelaties": 1005,
+    "officiele_termrelaties": 641,
+    "brononderbouwde_alternatieve_termrelaties": 13,
+    "taalkundige_variantrelaties": 194,
+    "ai_voorgestelde_termrelaties": 157,
+    "relaties": 1111,
+    "testvragen": 55,
+    "records_met_open_bronvraag": 0,
+    "nog_niet_gevalideerde_zoekvoorstellen": 148,
+    "lege_aanvangsmomentvelden": 380,
+    "bronannotaties": 0
+  },
+  "validatiestatus": {
+    "technische_validatie": "geslaagd",
+    "bronverificatie": "alle_selectieregels_geautomatiseerd_en_gerichte_afwijkingenbeoordeling",
+    "integrale_menselijke_tweede_lezing": false,
+    "volledigheidscontrole": "volledige_termijnkolom_en_koppeninventaris",
+    "open_bronvragen": 0,
+    "toepasselijkheidsbeslissingen_gevalideerd": false,
+    "semantische_volledigheid": "geen_onbegrensde_volledigheidsclaim; beschikbare_rapporttekst_verwerkt",
+    "status": "oplevering_afgerond_met_bronannotaties",
+    "aanvullende_controle": {
+      "records": 494,
+      "nieuwe_extractieafwijkingen": 0,
+      "methode": "zie_documentatie_aanvullende_broncontrole"
+    },
+    "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+    "verplichte_tweede_beoordelaar": false
+  },
+  "officiele_gegevens_volledigheid": "hoofdstukken_2_en_3_technisch_gedekt_met_gedeelde_cellen_en_context",
+  "beperkingen": [
+    "Geen automatische juridische of archivistische toepasselijkheidsbeslissing.",
+    "Aanvangsmomenten en voorwaarden blijven waar nodig in officiële tekst en algemene bepalingen staan; niet alle velden zijn afzonderlijk geïnterpreteerd.",
+    "AI-voorstellen blijven als voorstel herkenbaar; niet-gevalideerde voorstellen standaard uitsluiten.",
+    "Integrale tweede inhoudelijke beoordeling door een andere beoordelaar niet uitgevoerd."
+  ],
+  "sha256": {
+    "bepalingen.json": "722dd40bade3b94fe8f02b2712bff2b9129214f618457c619ba70d272f0650c1",
+    "bronannotaties.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "codeinventaris.json": "bee4e3c8726e0efacb4ee503964694697a3cb5335b21b824187895361a3f846d",
+    "kandidaten-ongekoppeld.json": "5916a4985576c9446e56a039c08865787653957d7bc0861873c558d710d30838",
+    "relaties.csv": "3fcf189a7c7b56555aa184dd7d2338584b91a5c7d18a1739a14c51680b9e9306",
+    "relaties.json": "416f7e03281a4bd993a805a55aa852f6d9d70fa881435f824df94a8461abf328",
+    "rubriekcontext.json": "e3ab01120a95bce5762ade039a7793a4e0d59b5717e1f058c312624a07f66d27",
+    "selectiegegevens.csv": "2a7e9eedcd8ccda7a1c35c03e7187d92b3fa1280855fec4ed29757dc8cba7d7b",
+    "selectiegegevens.json": "18bae451fcacdab7c28099c547c41c730022670346877a541dd30cb4f7c3ff61",
+    "structuur.csv": "f7aaf05b2c6ce94e110fc7c7587ce3fe5076caf451d926de308b51eae45eb3da",
+    "structuur.json": "eee83556bcc5e567f020833c6f498b29bbf19be64be4a6489b3c1aaf95c8b1f6",
+    "testvragen.csv": "587d7dc46ff17ad2a5ea23cbd0c39ea12ae6ad38755b992880e3d45969d8d4db",
+    "testvragen.json": "96aaf44a9bec1d1602cf139767d6750307cab88a557533eeab604eb40b8b4537",
+    "validatie.json": "bbbbc83530db592637cee93fb243e0ff7ceb45879cc6be2d1f8a7a57d1aa07ca",
+    "zoeklexicon.csv": "2a27683ea7daf389923a4c0c8a5780f936d44263a10c363de3c7f3758e5119c0",
+    "zoeklexicon.json": "89b54258a45a67d0d82b2bea1738d75b9f90c7f97d4dcdc5837b4ba490a3eaed"
+  },
+  "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+  "controleoverdracht": {
+    "werkboek": "../../controle/Controlewerkboek.xlsx",
+    "instructie": "../../controle/Controle-instructie.md",
+    "menselijke_oordelen_vooraf_ingevuld": false,
+    "formele_vrijgave_vereist_voor_oplevering": false,
+    "status": "afgerond",
+    "bevestigde_bronoordelen": 0
+  },
+  "publicatievoorbereiding": {
+    "versie": "1.0.0-publicatie.1",
+    "inhoudelijke_datasetversie": "1.0.0-eindpakket",
+    "privacy": "rolgebaseerde_pseudonimisering_controlemetadata",
+    "officiele_gegevens_gewijzigd": false,
+    "externe_bronbytes_niet_meegeleverd": true,
+    "volledige_bronopbouw_vergt_externe_inputs": true
+  }
+}

@@ -1,0 +1,6877 @@
+{
+  "methode": "Extra woordextractie voor categorie/duur en opnieuw lezen van gelokaliseerde 1996-bronsegmenten; geen onafhankelijke menselijke tweede lezing.",
+  "aantal_records": 1145,
+  "controles": [
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.2::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.2::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.2::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.2::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.3::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.3::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.4::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.4::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.4::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.5::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.5::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.6::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.6::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.6::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.6::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.6::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.7::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.7::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.7::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.7::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.7::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.7::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.8::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.8::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.9::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.9::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.9::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.9::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.9::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.9::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.9::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.9::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.9::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.9::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.10::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.10::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.11::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.11::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.11::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.12::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.12::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.13::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.13::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.14::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.14::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.15::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.15::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.15::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.15::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.15::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.16::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.16::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.17::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.18::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.18::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.19::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.19::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.20::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.20::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.20::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.20::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.21::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.22::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.22::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.22::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.22::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.22::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.22::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.23::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.24::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.24::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.24::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.24::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.24::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.24::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.25::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.25::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:2.25::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.1::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.1::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.2::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.3::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.4::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.4::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.4::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.4::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.4::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.4::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.4::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.5::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.5::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.5::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.6::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.6::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.6::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.6::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.6::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.7::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.1.7::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.1::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.1::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.1::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.1::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.3::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.3::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.4::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.5::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.5::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.2.6::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.2::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.2::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.2::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.2::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.4::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.4::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.4::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.4::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.5::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.5::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.6::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.3.6::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.4.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.4.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.4.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.4.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.4.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.4.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::011",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.2::012",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.3::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.3::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.3::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.3::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.3::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.3::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.3::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.4::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.4::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.4::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.5::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.5::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.5::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.6::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.6::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::011",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.5.7::012",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::011",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::012",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::013",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::014",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::015",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::016",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::017",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::018",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::019",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::020",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::021",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.1::022",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::011",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::012",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::013",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::014",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::015",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::016",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::017",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::018",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::019",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::020",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::021",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::022",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::023",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::024",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::025",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::026",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::027",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::028",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::029",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::030",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::031",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::032",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::033",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::034",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::035",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.6.2::036",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::011",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::012",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::013",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::014",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::015",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::016",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::017",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::018",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::019",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::020",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::021",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::022",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::023",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::024",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::025",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.2::026",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.3::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.4::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.5::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.5::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.5::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.6::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.7.6::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.1::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.1::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.2::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.2::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.2::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.2::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.2::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.2::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.2::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.3::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.4::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.4::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.5::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.5::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.5::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.5::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.5::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.5::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.5::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.8.5::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::011",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::012",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::013",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::014",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.1::015",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.2::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.2::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.2::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.2::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.2::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.2::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.2::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.3::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.3::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.3::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.4::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.4::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.4::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.4::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.4::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.5::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.5::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.5::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.9.5::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.2::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.2::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.2::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.2::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.2::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.3::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.3::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.3::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.3::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.3::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.3::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.10.3::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::011",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::012",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::013",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::014",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::015",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::016",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::017",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::018",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.1::019",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.11.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.12.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.12.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.12.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.12.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.12.1::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.12.1::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.12.1::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.12.1::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.13.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.13.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.13.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.13.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.13.1::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.13.1::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.13.1::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.13.1::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.13.1::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.13.1::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::011",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::012",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::013",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::014",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::015",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::016",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::017",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::018",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::019",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::020",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::021",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.14.3::022",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::011",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.1::012",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.2::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.2::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.2::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.2::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.3::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.3::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.4::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.4::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.4::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.4::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.4::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.5::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.5::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.6::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.6::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.15.6::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::005",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::006",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::007",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::008",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::009",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::010",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::011",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::012",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::013",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::014",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::015",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::016",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::017",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::018",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::019",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::020",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.1::021",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.2::001",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.2::002",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.2::003",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "1996-2012",
+      "id": "1996-2012:3.16.2::004",
+      "controle": "bronsegmenten_opnieuw_gelezen",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:1.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:1.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:1.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:2.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:2.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:2.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:2.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:2.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:3.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:4.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:4.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:4.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:4.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:4.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:4.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:4.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:4.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:4.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:4.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:4.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:5.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.2.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.2.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:6.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.14",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.15",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.16",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.17",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.18",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.19",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.20",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.1.21",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:7.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.14",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.1.15",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.3.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.3.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:8.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.3.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:9.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:10.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:10.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:10.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.14",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.15",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.1.16",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:11.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.2.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.2.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.2.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.2.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.2.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.2.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.2.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:12.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:13.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:13.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:13.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:13.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:13.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:13.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:14.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:14.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:14.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:14.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:14.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:14.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:14.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:14.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:14.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:14.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:15.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:15.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:15.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:15.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:15.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:15.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:15.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.2.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.3.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:16.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.2.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.5.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.5.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:17.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:18.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:18.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:18.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:18.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:18.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:18.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:18.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.14",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.15",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.16",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.17",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.1.18",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:19.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:20.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:20.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:20.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:20.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:20.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:20.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:20.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:20.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:20.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:21.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:21.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:21.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:21.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:21.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:21.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:22.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:22.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:22.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:22.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:22.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:22.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:22.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:22.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:23.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:23.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:23.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:23.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:23.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:24.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:24.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:24.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:24.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:24.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:25.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:25.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:25.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:25.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:25.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:26.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:26.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:26.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:27.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:27.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:27.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:27.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:28.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:28.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:28.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:29.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2017",
+      "id": "2017:29.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:1.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:1.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:1.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:2.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:2.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:2.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:2.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:2.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:2.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:3.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.14",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.1.15",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:4.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.2.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:5.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.1.14",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.2.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.2.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.2.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:6.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.14",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.15",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.16",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.17",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.18",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.19",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.20",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.21",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.22",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.23",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.1.24",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:7.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.14",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.1.15",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.3.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.3.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.3.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.3.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:8.4.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.3.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.3.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.3.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.3.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.3.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:9.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:10.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:10.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:10.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.14",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.15",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.16",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.1.17",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.3.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:11.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.2.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.2.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.2.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.2.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.2.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.2.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.2.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.2.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:12.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:13.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:13.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:13.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:13.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:13.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:13.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:13.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:14.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:14.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:14.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:14.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:14.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:14.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:14.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:14.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:14.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:14.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:15.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:15.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:15.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:15.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:15.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:15.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:15.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.2.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.3.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:16.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.2.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.5.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.5.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:17.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:18.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:18.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:18.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:18.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:18.3.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:18.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:18.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.8",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.9",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.10",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.11",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.12",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.13",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.14",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.15",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.16",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.17",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.18",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.19",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.20",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.21",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.22",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.23",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.1.24",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.2.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:19.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:20.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:20.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:20.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:20.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:20.1.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:20.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:20.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:20.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:20.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:21.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:21.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:21.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:21.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:21.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:21.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:22.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:22.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:22.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:22.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:22.1.5",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:22.1.6",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:22.1.7",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:22.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:23.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:23.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:23.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:23.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:23.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:24.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:24.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:24.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:24.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:24.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:24.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:24.4",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:24.4.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:25.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:25.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:25.1.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:25.1.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:25.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:26.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:26.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:26.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:27.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:27.1.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:27.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:27.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:28.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:28.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:28.3",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:29.1",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    },
+    {
+      "lijst": "2020",
+      "id": "2020:29.2",
+      "controle": "waardering_en_enkelvoudige_termijn_via_woordextractie",
+      "resultaat": "geslaagd"
+    }
+  ],
+  "afwijkingen": []
+}

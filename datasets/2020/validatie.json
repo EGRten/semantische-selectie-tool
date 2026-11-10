@@ -1,0 +1,19 @@
+{
+  "technische_validatie": "geslaagd",
+  "bronverificatie": "alle_selectieregels_geautomatiseerd_en_gerichte_afwijkingenbeoordeling",
+  "integrale_menselijke_tweede_lezing": false,
+  "volledigheidscontrole": "onafhankelijke_proceskolom_inventaris_346_tabelregels",
+  "open_bronvragen": 0,
+  "toepasselijkheidsbeslissingen_gevalideerd": false,
+  "semantische_volledigheid": "geen_onbegrensde_volledigheidsclaim; beschikbare_rapporttekst_verwerkt",
+  "status": "oplevering_afgerond_met_bronannotaties",
+  "aanvullende_controle": {
+    "records": 346,
+    "nieuwe_extractieafwijkingen": 0,
+    "methode": "zie_documentatie_aanvullende_broncontrole"
+  },
+  "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+  "verplichte_tweede_beoordelaar": false,
+  "broncontroles_bevestigd_door_gebruiker": 7,
+  "bronbeperkingen_behouden": 7
+}

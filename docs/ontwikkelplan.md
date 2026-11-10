@@ -28,3 +28,7 @@ Officiële brongegevens en AI-gegenereerde zoekverrijking worden afzonderlijk be
 Voor zoekrelaties worden de beschikbare herkomst, status en eventuele onzekerheden behouden. Officiële terminologie, brononderbouwde alternatieve benamingen en AI-voorstellen blijven te onderscheiden. AI-relaties maken geen deel uit van de officieel vastgestelde selectielijsten en zijn niet zonder meer inhoudelijk gevalideerd. Onbevestigde voorstellen staan standaard uit.
 
 Semantische verwantschap ondersteunt alleen de vindbaarheid. Een zoekresultaat of concordansrelatie bewijst niet dat een selectievoorschrift van toepassing is en vormt geen zelfstandig juridisch of archivistisch selectiebesluit. Technische validatie bevestigt evenmin de inhoudelijke juistheid; inhoudelijke broncontrole blijft een afzonderlijke activiteit.
+
+## Afgeronde datasetimport — 10 november 2026
+
+Fase 1 is afgerond. Voor fase 2 is het publicatievoorbereide pakket geïnventariseerd en zijn de meegeleverde rechten- en privacybeoordelingen en resterende voorbehouden gelezen en behouden. Fase 3 is afgerond: de drie datasets zijn gescheiden opgenomen, de publieke technische validatie is geslaagd en vijftien CSV-exporten zijn byte-identiek gereproduceerd. De gerichte bronintegriteitscontrole bevestigt behoud van de geregistreerde afwijkingen; er is geen nieuwe inhoudelijke bronbeoordeling uitgevoerd. Zie [dataset-importcontrole.md](dataset-importcontrole.md) voor inventaris, aantallen, controles en beperkingen. Fasen 4 tot en met 10 zijn hiermee niet uitgevoerd.

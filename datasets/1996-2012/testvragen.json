@@ -1,0 +1,1613 @@
+[
+  {
+    "id": "1996-2012:test:001",
+    "zoekvraag": "Waar bewaar ik de notulen van de gemeenteraad?",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 18,
+      "bbox": [
+        113.19249725341797,
+        393.8987121582031,
+        184.6459503173828,
+        403.65045166015625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Verslaglegging",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:002",
+    "zoekvraag": "Hoe lang bewaren we presentielijsten van vergaderingen?",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 18,
+      "bbox": [
+        113.19249725341797,
+        393.8987121582031,
+        184.6459503173828,
+        403.65045166015625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Verslaglegging",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:003",
+    "zoekvraag": "Wat doe ik met een gemeentegids?",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.6"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 19,
+      "bbox": [
+        113.19239807128906,
+        661.9750366210938,
+        226.7227783203125,
+        671.726806640625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Publiciteit en voorlichting",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:004",
+    "zoekvraag": "Moet de oude gemeentelijke website worden bewaard?",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.6"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 19,
+      "bbox": [
+        113.19239807128906,
+        661.9750366210938,
+        226.7227783203125,
+        671.726806640625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Publiciteit en voorlichting",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:005",
+    "zoekvraag": "Hoe lang bewaar je een ingetrokken vergunningaanvraag?",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.7"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 20,
+      "bbox": [
+        113.19249725341797,
+        447.0622863769531,
+        210.8649139404297,
+        456.81402587890625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Verlening van vergunningen, machtigingen, verklaringen van geen bezwaar e.d.",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:006",
+    "zoekvraag": "Waar vallen niet-ontvankelijke aanvragen onder?",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.7"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 20,
+      "bbox": [
+        113.19249725341797,
+        447.0622863769531,
+        210.8649139404297,
+        456.81402587890625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Verlening van vergunningen, machtigingen, verklaringen van geen bezwaar e.d.",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:007",
+    "zoekvraag": "Archiefinspectierapport: bewaren of vernietigen?",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.9"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 21,
+      "bbox": [
+        113.19249725341797,
+        530.9279174804688,
+        201.29974365234375,
+        540.6796875
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Toezicht, controle, rapportering, aanschrijving, lastgeving en behandeling",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:008",
+    "zoekvraag": "Bestuurlijke boete dossier",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.9"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 21,
+      "bbox": [
+        113.19249725341797,
+        530.9279174804688,
+        201.29974365234375,
+        540.6796875
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Toezicht, controle, rapportering, aanschrijving, lastgeving en behandeling",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:009",
+    "zoekvraag": "Documentair structuurplan / DSP",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.11"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 22,
+      "bbox": [
+        113.19249725341797,
+        650.3490600585938,
+        399.2410583496094,
+        660.100830078125
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Gegevens over gegevens",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:010",
+    "zoekvraag": "Metadata van te bewaren dossiers",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.11"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 22,
+      "bbox": [
+        113.19249725341797,
+        650.3490600585938,
+        399.2410583496094,
+        660.100830078125
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Gegevens over gegevens",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:011",
+    "zoekvraag": "Convenant met buurgemeenten",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.18"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 25,
+      "bbox": [
+        113.19249725341797,
+        308.3396911621094,
+        218.6881866455078,
+        318.0914306640625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Beleid en Regelgeving",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:012",
+    "zoekvraag": "Beleidsnotitie vastgesteld door college",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.18"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 25,
+      "bbox": [
+        113.19249725341797,
+        308.3396911621094,
+        218.6881866455078,
+        318.0914306640625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Beleid en Regelgeving",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:013",
+    "zoekvraag": "Subsidiedossier jaarlijkse subsidie",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.20"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        113.19249725341797,
+        186.20956420898438,
+        169.88607788085938,
+        195.9613037109375
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Subsidies",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:014",
+    "zoekvraag": "Ontvangen ESF subsidie",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.20"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        113.19249725341797,
+        186.20956420898438,
+        169.88607788085938,
+        195.9613037109375
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Subsidies",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:015",
+    "zoekvraag": "Bezwaarschrift tegen besluit",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.25"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 28,
+      "bbox": [
+        113.19249725341797,
+        148.50955200195312,
+        178.91439819335938,
+        158.26129150390625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Bezwaar- en beroepschriften",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:016",
+    "zoekvraag": "Jaarverslag bezwaarschriftencommissie",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.25"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 28,
+      "bbox": [
+        113.19249725341797,
+        148.50955200195312,
+        178.91439819335938,
+        158.26129150390625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Bezwaar- en beroepschriften",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:017",
+    "zoekvraag": "Voorbereiding gemeentebegroting",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.1.1"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        114.8855972290039,
+        295.35906982421875,
+        204.48062133789062,
+        305.1108093261719
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Bepaling algemeen financieel beleid",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:018",
+    "zoekvraag": "SISA-tabellen jaarrekening",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.1.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        113.19249725341797,
+        486.0038757324219,
+        221.81166076660156,
+        495.755615234375
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Financiële administratie en boekhouding",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:019",
+    "zoekvraag": "Controlerapport jaarrekening",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.1.3"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 30,
+      "bbox": [
+        113.19249725341797,
+        123.79000091552734,
+        166.99647521972656,
+        133.541748046875
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Verificatie",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:020",
+    "zoekvraag": "WOZ / belastingaangifte",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.1.4"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 30,
+      "bbox": [
+        113.19249725341797,
+        180.22726440429688,
+        218.63160705566406,
+        189.97900390625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Heffing van belastingen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:021",
+    "zoekvraag": "Personeelsdossier medewerker",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.2.1"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 32,
+      "bbox": [
+        113.19249725341797,
+        262.9642028808594,
+        169.5421142578125,
+        272.7159423828125
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Individuele personeelsleden, vrijwilligers en stagiaires",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:022",
+    "zoekvraag": "Sollicitatiebrief niet aangenomen kandidaat",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.2.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        203.81796264648438,
+        230.0451202392578,
+        213.5697021484375
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Openstellen en behandelen van vacatures",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:023",
+    "zoekvraag": "Functiewaardering",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.2.3"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        249.08059692382812,
+        173.5220184326172,
+        258.83233642578125
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Bepalen van personeelsbezetting en -formatie; rechtspositieregeling",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:024",
+    "zoekvraag": "Loonadministratie / salarisadministratie",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.2.4"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        339.0414733886719,
+        202.5263671875,
+        348.793212890625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Salarisadministratie",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:025",
+    "zoekvraag": "RI&E arbobeleid",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.2.5"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        113.19249725341797,
+        361.8420715332031,
+        184.7073516845703,
+        371.59381103515625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Arbo-gegevens",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:026",
+    "zoekvraag": "Aankoop van gemeentelijke grond",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.3.1"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 34,
+      "bbox": [
+        113.19249725341797,
+        265.1087951660156,
+        215.8180389404297,
+        274.86053466796875
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Verkrijging en verlies",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:027",
+    "zoekvraag": "Notulen bouwvergadering monument",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.3.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 34,
+      "bbox": [
+        113.19249725341797,
+        403.2669677734375,
+        195.73878479003906,
+        413.0187072753906
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Stichting, aanleg, verbetering, restauratie, wijziging, regeling van de bestemming van en bijkomende voorzieningen aan gebouwen, werken, terreinen, installaties, apparatuur en machines",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:028",
+    "zoekvraag": "Erfpachtakte / zakelijk recht",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.3.4"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        113.19249725341797,
+        331.1402893066406,
+        202.64227294921875,
+        340.89202880859375
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Gebruik: zakelijke, persoonlijke en andere rechten als erfpacht, opstal, huur en pacht, erfdienstbaarheid, verhuur en verpachting, in gebruik geven en nemen, jacht- en visrecht ed.",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:029",
+    "zoekvraag": "Bruikleen kunstwerk aan museum",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.3.4"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        113.19249725341797,
+        331.1402893066406,
+        202.64227294921875,
+        340.89202880859375
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Gebruik: zakelijke, persoonlijke en andere rechten als erfpacht, opstal, huur en pacht, erfdienstbaarheid, verhuur en verpachting, in gebruik geven en nemen, jacht- en visrecht ed.",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:030",
+    "zoekvraag": "BAG brondocument straatnaam",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.5.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 37,
+      "bbox": [
+        114.8855972290039,
+        343.3306884765625,
+        179.4140625,
+        353.0824279785156
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Gemeentelijk grondgebied",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:031",
+    "zoekvraag": "Processen-verbaal verkiezingen N10",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.5.3"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        114.8855972290039,
+        534.0883178710938,
+        197.0061798095703,
+        543.840087890625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Verkiezingen c.a.",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:032",
+    "zoekvraag": "Mandaatbesluit bestuurder aan ambtenaar",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.5.4"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        114.8855972290039,
+        279.5566711425781,
+        157.2722930908203,
+        289.30841064453125
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Bestuur",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:033",
+    "zoekvraag": "Bestemmingsplan met zienswijzen",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.6.1"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 41,
+      "bbox": [
+        113.19249725341797,
+        328.8827819824219,
+        166.96913146972656,
+        338.634521484375
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Planologie",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:034",
+    "zoekvraag": "Bouwvergunning woning",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.6.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 42,
+      "bbox": [
+        113.19249725341797,
+        694.0314331054688,
+        224.39718627929688,
+        703.783203125
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Bouw, aanleg en gebruik",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:035",
+    "zoekvraag": "Sloopmelding",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.6.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 42,
+      "bbox": [
+        113.19249725341797,
+        694.0314331054688,
+        224.39718627929688,
+        703.783203125
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Bouw, aanleg en gebruik",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:036",
+    "zoekvraag": "Akten burgerlijke stand",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.7.1"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 47,
+      "bbox": [
+        114.8855972290039,
+        350.216064453125,
+        197.12301635742188,
+        359.9678039550781
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Burgerlijke stand",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:037",
+    "zoekvraag": "GBA persoonslijst / persoonsregister",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.7.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 47,
+      "bbox": [
+        113.19249725341797,
+        619.082763671875,
+        184.8242645263672,
+        628.8345336914062
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Gemeentelijke basisadministratie persoonsgegevens",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:038",
+    "zoekvraag": "Naturalisatie / Nederlanderschap",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.7.3"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 50,
+      "bbox": [
+        113.19249725341797,
+        234.97128295898438,
+        176.8187713623047,
+        244.7230224609375
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Nationaliteit",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:039",
+    "zoekvraag": "Paspoortaanvraag",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.7.5"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 52,
+      "bbox": [
+        113.19249725341797,
+        111.37386322021484,
+        192.8218231201172,
+        121.1256103515625
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Reisdocumenten (Paspoortwet- en regelgeving)",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:040",
+    "zoekvraag": "Rijbewijsaanvraag",
+    "zoekintentie": "Relevante rubriek vinden; onderzoeksverwachting gecontroleerd op bestaande code",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.7.6"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Rubriek bevat verschillende waarderingen. Onderzoeksverwachting is een zoekrichting; vraag kan nadere context vereisen."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 52,
+      "bbox": [
+        113.19249725341797,
+        257.3204650878906,
+        175.2385711669922,
+        267.07220458984375
+      ]
+    },
+    "type_zoekvraag": "onderzoeksscenario",
+    "controleerbaar_bronfragment": "Rijbewijzen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:041",
+    "zoekvraag": "Waar vind ik stukken over het verstrekken van een subsidie?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.20",
+      "1996-2012:3.6.2",
+      "1996-2012:3.13.1"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        235.43539428710938,
+        197.38406372070312,
+        401.5480041503906,
+        207.13580322265625
+      ],
+      "eindpagina": 26,
+      "eindbbox": [
+        235.43539428710938,
+        197.38406372070312,
+        401.5480041503906,
+        207.13580322265625
+      ]
+    },
+    "type_zoekvraag": "gewone_taal",
+    "controleerbaar_bronfragment": "- principebesluiten tot subsidieverlening",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:042",
+    "zoekvraag": "Waar zoek ik een dossier over jeugdhulp?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.14.3"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 68,
+      "bbox": [
+        241.53070068359375,
+        314.9988708496094,
+        415.09130859375,
+        324.7506103515625
+      ],
+      "eindpagina": 68,
+      "eindbbox": [
+        241.53070068359375,
+        314.9988708496094,
+        415.09130859375,
+        324.7506103515625
+      ]
+    },
+    "type_zoekvraag": "domeinterm",
+    "controleerbaar_bronfragment": "Grootstedelijke plannen jeugdhulpverlening",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:043",
+    "zoekvraag": "Waar zoek ik documenten over een geboorteaangifte?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.7.1",
+      "1996-2012:3.7.2",
+      "1996-2012:3.8.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 47,
+      "bbox": [
+        243.22450256347656,
+        383.7392272949219,
+        401.63671875,
+        393.490966796875
+      ],
+      "eindpagina": 47,
+      "eindbbox": [
+        243.22450256347656,
+        428.5500183105469,
+        292.6141357421875,
+        438.3017578125
+      ]
+    },
+    "type_zoekvraag": "gewone_taal",
+    "controleerbaar_bronfragment": "Registers (waarin opgenomen akten van geboorte, huwelijk, geregistreerd partnerschap, ontbinding huwelijk of partnerschap, overlijden, adoptie, naamkeuze)",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:044",
+    "zoekvraag": "Waar zoek ik het verwerken van overlijdensgegevens?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.7.1",
+      "1996-2012:3.7.2",
+      "1996-2012:3.8.5"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 47,
+      "bbox": [
+        243.22450256347656,
+        383.7392272949219,
+        401.63671875,
+        393.490966796875
+      ],
+      "eindpagina": 47,
+      "eindbbox": [
+        243.22450256347656,
+        428.5500183105469,
+        292.6141357421875,
+        438.3017578125
+      ]
+    },
+    "type_zoekvraag": "gewone_taal",
+    "controleerbaar_bronfragment": "Registers (waarin opgenomen akten van geboorte, huwelijk, geregistreerd partnerschap, ontbinding huwelijk of partnerschap, overlijden, adoptie, naamkeuze)",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:045",
+    "zoekvraag": "Waar vind ik stukken over een verkiezing?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.2.6",
+      "1996-2012:3.5.3"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        239.04806518554688,
+        429.3411560058594,
+        419.182861328125,
+        439.0928955078125
+      ],
+      "eindpagina": 33,
+      "eindbbox": [
+        239.04806518554688,
+        440.5155334472656,
+        288.34027099609375,
+        450.26727294921875
+      ]
+    },
+    "type_zoekvraag": "samengestelde_waardering",
+    "controleerbaar_bronfragment": "Jaarverslag, samenstelling, verkiezingsuitslag en besluiten",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:046",
+    "zoekvraag": "Waar vind ik stukken over een bestemmingsplan?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.6.1",
+      "1996-2012:3.9.1",
+      "1996-2012:3.9.5"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 41,
+      "bbox": [
+        178.88540649414062,
+        474.3773498535156,
+        335.0896911621094,
+        484.12908935546875
+      ],
+      "eindpagina": 41,
+      "eindbbox": [
+        178.88540649414062,
+        474.3773498535156,
+        335.0896911621094,
+        484.12908935546875
+      ]
+    },
+    "type_zoekvraag": "historische_terminologie",
+    "controleerbaar_bronfragment": "Vrijstellingsbesluiten bestemmingsplan",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:047",
+    "zoekvraag": "Waar zoek ik een bodemonderzoek?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.6.2",
+      "1996-2012:3.9.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 43,
+      "bbox": [
+        241.53070068359375,
+        256.8688659667969,
+        325.6873779296875,
+        266.62060546875
+      ],
+      "eindpagina": 43,
+      "eindbbox": [
+        241.53070068359375,
+        256.8688659667969,
+        325.6873779296875,
+        266.62060546875
+      ]
+    },
+    "type_zoekvraag": "documentsoort",
+    "controleerbaar_bronfragment": "- bodemonderzoeken",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:048",
+    "zoekvraag": "Waar zoek ik stukken van een sollicitatieprocedure?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.2.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        239.04708862304688,
+        203.81796264648438,
+        393.7464599609375,
+        213.5697021484375
+      ],
+      "eindpagina": 33,
+      "eindbbox": [
+        239.04708862304688,
+        226.16769409179688,
+        271.7117614746094,
+        235.91943359375
+      ]
+    },
+    "type_zoekvraag": "gewone_taal",
+    "controleerbaar_bronfragment": "Niet-benoemde sollicitanten en de naar aanleiding van sollicitaties opgemaakte stukken",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:049",
+    "zoekvraag": "Waar zoek ik stukken over personeel?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.2.1",
+      "1996-2012:3.2.3",
+      "1996-2012:3.15.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 32,
+      "bbox": [
+        233.51724243164062,
+        408.3450622558594,
+        395.54840087890625,
+        418.0968017578125
+      ],
+      "eindpagina": 32,
+      "eindbbox": [
+        233.51724243164062,
+        441.86920166015625,
+        357.40972900390625,
+        451.6209411621094
+      ]
+    },
+    "type_zoekvraag": "brede_zoekvraag",
+    "controleerbaar_bronfragment": "Dossiers van personeel dat heeft gewerkt of in aanraking is geweest met voor de gezondheid schadelijke stoffen alsmede de informatie over deze stoffen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:050",
+    "zoekvraag": "Waar zoek ik gegevens over een reisdocument?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.7.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 49,
+      "bbox": [
+        241.53070068359375,
+        469.2966003417969,
+        403.54852294921875,
+        479.04833984375
+      ],
+      "eindpagina": 49,
+      "eindbbox": [
+        241.53070068359375,
+        491.6453857421875,
+        422.2016906738281,
+        501.3971252441406
+      ]
+    },
+    "type_zoekvraag": "meerduidige_zoekvraag",
+    "controleerbaar_bronfragment": "Bescheiden betreffende het bezit van een buitenlands reisdocument, voor zover het de vermelding van dit gegeven in de GBA betreft",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:051",
+    "zoekvraag": "Waar zoek ik stukken waarin Wmo staat?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.14.3"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 68,
+      "bbox": [
+        241.53070068359375,
+        393.3340759277344,
+        380.867919921875,
+        403.0858154296875
+      ],
+      "eindpagina": 68,
+      "eindbbox": [
+        241.53070068359375,
+        393.3340759277344,
+        380.867919921875,
+        403.0858154296875
+      ]
+    },
+    "type_zoekvraag": "afkorting",
+    "controleerbaar_bronfragment": "Overgangsprotocollen Awbz-Wmo",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:052",
+    "zoekvraag": "Waar vind ik stukken over een monument?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.7",
+      "1996-2012:3.3.2",
+      "1996-2012:3.8.5"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "1996-2012:3.16.1"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 20,
+      "bbox": [
+        235.43539428710938,
+        547.903076171875,
+        422.72064208984375,
+        557.65478515625
+      ],
+      "eindpagina": 20,
+      "eindbbox": [
+        235.43539428710938,
+        637.4124755859375,
+        285.9736328125,
+        647.1641845703125
+      ]
+    },
+    "type_zoekvraag": "meerduidige_zoekvraag",
+    "controleerbaar_bronfragment": "Met uitzondering van bouw-, sloop-, aanleg-, milieu- en monumentenvergunningen en vergunningen als bedoeld in artikel 30 en 33 Huisvestingswet; dit betreft vergunningen voor: - onttrekking woonruimte aan de bestemming tot bewoning - samenvoeging met andere woonruimte - omzetting van zelfstandige in onzelfstandige woonruimte",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:053",
+    "zoekvraag": "Waar zoek ik een rioleringsplan?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:3.9.4"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 58,
+      "bbox": [
+        241.5567626953125,
+        584.6560668945312,
+        371.19439697265625,
+        594.4078369140625
+      ],
+      "eindpagina": 58,
+      "eindbbox": [
+        241.5567626953125,
+        584.6560668945312,
+        371.19439697265625,
+        594.4078369140625
+      ]
+    },
+    "type_zoekvraag": "documentsoort",
+    "controleerbaar_bronfragment": "Gemeentelijke rioleringsplannen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:054",
+    "zoekvraag": "Waar zoek ik een bezwaarschrift?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.7",
+      "1996-2012:2.25",
+      "1996-2012:3.1.4"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "1996-2012:3.1.5",
+      "1996-2012:3.8.5"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 20,
+      "bbox": [
+        235.43539428710938,
+        502.9347839355469,
+        408.1289978027344,
+        512.6865234375
+      ],
+      "eindpagina": 20,
+      "eindbbox": [
+        235.43539428710938,
+        525.2835083007812,
+        435.67779541015625,
+        535.0352783203125
+      ]
+    },
+    "type_zoekvraag": "documentsoort",
+    "controleerbaar_bronfragment": "Vergunningen, machtigingen, ontheffingen, verklaringen van geen bezwaar en andere daarmede in functie overeenstemmende bescheiden",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "1996-2012:test:055",
+    "zoekvraag": "Waar zoek ik een contract of overeenkomst?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "1996-2012:2.17"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "1996-2012-officieel",
+      "pdf_pagina": 25,
+      "bbox": [
+        235.54855346679688,
+        208.44589233398438,
+        368.2853698730469,
+        218.1976318359375
+      ],
+      "eindpagina": 25,
+      "eindbbox": [
+        235.54855346679688,
+        208.44589233398438,
+        368.2853698730469,
+        218.1976318359375
+      ]
+    },
+    "type_zoekvraag": "praktijkformulering",
+    "controleerbaar_bronfragment": "Overeenkomsten, contracten, e.d.",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  }
+]

@@ -1,0 +1,2472 @@
+[
+  {
+    "concordansrij": 4,
+    "rubriek": "2.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 5,
+    "rubriek": "2.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 7,
+    "rubriek": "2.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 8,
+    "rubriek": "2.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 9,
+    "rubriek": "2.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 15,
+    "rubriek": "2.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 16,
+    "rubriek": "2.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 17,
+    "rubriek": "2.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 18,
+    "rubriek": "2.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 19,
+    "rubriek": "2.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 20,
+    "rubriek": "2.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 21,
+    "rubriek": "2.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 25,
+    "rubriek": "2.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 26,
+    "rubriek": "2.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 27,
+    "rubriek": "2.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 28,
+    "rubriek": "2.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 29,
+    "rubriek": "2.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 30,
+    "rubriek": "2.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 32,
+    "rubriek": "2.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 34,
+    "rubriek": "2.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 36,
+    "rubriek": "2.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 37,
+    "rubriek": "2.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 39,
+    "rubriek": "2.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 40,
+    "rubriek": "2.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 42,
+    "rubriek": "2.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 43,
+    "rubriek": "2.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 48,
+    "rubriek": "2.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 49,
+    "rubriek": "2.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 50,
+    "rubriek": "2.8",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 53,
+    "rubriek": "2.8",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 56,
+    "rubriek": "2.9",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 66,
+    "rubriek": "2.9",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 67,
+    "rubriek": "2.9",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 69,
+    "rubriek": "2.9",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 70,
+    "rubriek": "2.9",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 71,
+    "rubriek": "2.9",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 74,
+    "rubriek": "2.9",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 76,
+    "rubriek": "2.9",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 77,
+    "rubriek": "2.9",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 78,
+    "rubriek": "2.9",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 80,
+    "rubriek": "2.10",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 82,
+    "rubriek": "2.10",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 84,
+    "rubriek": "2.11",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 85,
+    "rubriek": "2.11",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 86,
+    "rubriek": "2.11",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 88,
+    "rubriek": "2.12",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 91,
+    "rubriek": "2.12",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 92,
+    "rubriek": "2.13",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 93,
+    "rubriek": "2.13",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 94,
+    "rubriek": "2.14",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 95,
+    "rubriek": "2.14",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 96,
+    "rubriek": "2.15",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 98,
+    "rubriek": "2.15",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 99,
+    "rubriek": "2.15",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 101,
+    "rubriek": "2.15",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 102,
+    "rubriek": "2.15",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 104,
+    "rubriek": "2.16",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 105,
+    "rubriek": "2.16",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 106,
+    "rubriek": "2.17",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 107,
+    "rubriek": "2.18",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 109,
+    "rubriek": "2.18",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 112,
+    "rubriek": "2.19",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 113,
+    "rubriek": "2.19",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 115,
+    "rubriek": "2.20",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 116,
+    "rubriek": "2.20",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 118,
+    "rubriek": "2.20",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 120,
+    "rubriek": "2.20",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 122,
+    "rubriek": "2.21",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 123,
+    "rubriek": "2.22",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 124,
+    "rubriek": "2.22",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 125,
+    "rubriek": "2.22",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 126,
+    "rubriek": "2.22",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 127,
+    "rubriek": "2.22",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 131,
+    "rubriek": "2.22",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 132,
+    "rubriek": "2.23",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 134,
+    "rubriek": "2.24",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 135,
+    "rubriek": "2.24",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 136,
+    "rubriek": "2.24",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 138,
+    "rubriek": "2.24",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 144,
+    "rubriek": "2.24",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 145,
+    "rubriek": "2.24",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 147,
+    "rubriek": "2.25",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 149,
+    "rubriek": "2.25",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 150,
+    "rubriek": "2.25",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 154,
+    "rubriek": "3.1.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 155,
+    "rubriek": "3.1.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 156,
+    "rubriek": "3.1.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 158,
+    "rubriek": "3.1.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 159,
+    "rubriek": "3.1.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 160,
+    "rubriek": "3.1.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 162,
+    "rubriek": "3.1.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 167,
+    "rubriek": "3.1.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 169,
+    "rubriek": "3.1.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 170,
+    "rubriek": "3.1.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 171,
+    "rubriek": "3.1.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 172,
+    "rubriek": "3.1.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 173,
+    "rubriek": "3.1.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 174,
+    "rubriek": "3.1.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 175,
+    "rubriek": "3.1.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 176,
+    "rubriek": "3.1.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 177,
+    "rubriek": "3.1.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 180,
+    "rubriek": "3.1.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 181,
+    "rubriek": "3.1.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 184,
+    "rubriek": "3.1.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 185,
+    "rubriek": "3.1.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 186,
+    "rubriek": "3.1.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 187,
+    "rubriek": "3.1.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 188,
+    "rubriek": "3.1.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 189,
+    "rubriek": "3.1.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 190,
+    "rubriek": "3.1.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 191,
+    "rubriek": "3.1.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 193,
+    "rubriek": "3.1.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 196,
+    "rubriek": "3.2.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 197,
+    "rubriek": "3.2.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 198,
+    "rubriek": "3.2.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 208,
+    "rubriek": "3.2.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 209,
+    "rubriek": "3.2.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 210,
+    "rubriek": "3.2.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 211,
+    "rubriek": "3.2.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 212,
+    "rubriek": "3.2.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 213,
+    "rubriek": "3.2.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 215,
+    "rubriek": "3.2.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 216,
+    "rubriek": "3.2.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 217,
+    "rubriek": "3.2.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 218,
+    "rubriek": "3.2.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 219,
+    "rubriek": "3.2.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 220,
+    "rubriek": "3.2.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 221,
+    "rubriek": "3.2.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 228,
+    "rubriek": "3.3.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 229,
+    "rubriek": "3.3.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 231,
+    "rubriek": "3.3.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 236,
+    "rubriek": "3.3.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 237,
+    "rubriek": "3.3.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 238,
+    "rubriek": "3.3.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 239,
+    "rubriek": "3.3.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 240,
+    "rubriek": "3.3.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 241,
+    "rubriek": "3.3.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 242,
+    "rubriek": "3.3.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 243,
+    "rubriek": "3.3.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 245,
+    "rubriek": "3.3.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 246,
+    "rubriek": "3.3.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 247,
+    "rubriek": "3.3.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 248,
+    "rubriek": "3.3.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 251,
+    "rubriek": "3.3.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 252,
+    "rubriek": "3.3.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 254,
+    "rubriek": "3.4.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 255,
+    "rubriek": "3.4.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 257,
+    "rubriek": "3.4.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 258,
+    "rubriek": "3.4.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 259,
+    "rubriek": "3.4.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 262,
+    "rubriek": "3.4.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 264,
+    "rubriek": "3.5.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 265,
+    "rubriek": "3.5.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 266,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 267,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 269,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 270,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 271,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 272,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 273,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 274,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 275,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 276,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 277,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 278,
+    "rubriek": "3.5.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 279,
+    "rubriek": "3.5.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 280,
+    "rubriek": "3.5.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 281,
+    "rubriek": "3.5.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 283,
+    "rubriek": "3.5.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 284,
+    "rubriek": "3.5.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 285,
+    "rubriek": "3.5.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 286,
+    "rubriek": "3.5.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 287,
+    "rubriek": "3.5.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 290,
+    "rubriek": "3.5.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 291,
+    "rubriek": "3.5.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 292,
+    "rubriek": "3.5.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 294,
+    "rubriek": "3.5.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 296,
+    "rubriek": "3.5.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 297,
+    "rubriek": "3.5.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 298,
+    "rubriek": "3.5.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 300,
+    "rubriek": "3.5.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 301,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 302,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 303,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 304,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 305,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 306,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 307,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 308,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 309,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 310,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 312,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 314,
+    "rubriek": "3.5.7",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 317,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 318,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 319,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 322,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 323,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 325,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 326,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 328,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 331,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 332,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 333,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 334,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 335,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 336,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 337,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 338,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 339,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 340,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 341,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 342,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 343,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 344,
+    "rubriek": "3.6.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 347,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 348,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 349,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 350,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 352,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 353,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 354,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 355,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 356,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 358,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 360,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 361,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 364,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 366,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 367,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 371,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 372,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 373,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 374,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 375,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 376,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 377,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 378,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 380,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 381,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 382,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 384,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 385,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 386,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 387,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 388,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 389,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 390,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 391,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 392,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 395,
+    "rubriek": "3.6.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 397,
+    "rubriek": "3.7.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 398,
+    "rubriek": "3.7.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 399,
+    "rubriek": "3.7.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 400,
+    "rubriek": "3.7.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 401,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 402,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 403,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 404,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 405,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 407,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 408,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 409,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 410,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 411,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 412,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 413,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 414,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 415,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 416,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 417,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 418,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 419,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 420,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 421,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 422,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 426,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 427,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 429,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 430,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 431,
+    "rubriek": "3.7.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 432,
+    "rubriek": "3.7.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 433,
+    "rubriek": "3.7.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 435,
+    "rubriek": "3.7.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 436,
+    "rubriek": "3.7.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 438,
+    "rubriek": "3.7.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 439,
+    "rubriek": "3.7.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 440,
+    "rubriek": "3.7.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 443,
+    "rubriek": "3.7.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 445,
+    "rubriek": "3.8.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 446,
+    "rubriek": "3.8.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 447,
+    "rubriek": "3.8.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 448,
+    "rubriek": "3.8.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 449,
+    "rubriek": "3.8.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 451,
+    "rubriek": "3.8.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 452,
+    "rubriek": "3.8.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 453,
+    "rubriek": "3.8.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 454,
+    "rubriek": "3.8.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 455,
+    "rubriek": "3.8.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 456,
+    "rubriek": "3.8.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 457,
+    "rubriek": "3.8.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 458,
+    "rubriek": "3.8.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 459,
+    "rubriek": "3.8.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 460,
+    "rubriek": "3.8.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 462,
+    "rubriek": "3.8.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 463,
+    "rubriek": "3.8.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 464,
+    "rubriek": "3.8.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 465,
+    "rubriek": "3.8.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 466,
+    "rubriek": "3.8.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 467,
+    "rubriek": "3.8.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 468,
+    "rubriek": "3.8.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 469,
+    "rubriek": "3.8.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 470,
+    "rubriek": "3.8.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 471,
+    "rubriek": "3.8.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 473,
+    "rubriek": "3.8.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 474,
+    "rubriek": "3.8.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 476,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 477,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 479,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 480,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 481,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 482,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 484,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 485,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 486,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 487,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 488,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 489,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 490,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 491,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 492,
+    "rubriek": "3.9.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 493,
+    "rubriek": "3.9.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 494,
+    "rubriek": "3.9.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 495,
+    "rubriek": "3.9.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 496,
+    "rubriek": "3.9.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 497,
+    "rubriek": "3.9.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 498,
+    "rubriek": "3.9.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 499,
+    "rubriek": "3.9.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 500,
+    "rubriek": "3.9.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 501,
+    "rubriek": "3.9.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 502,
+    "rubriek": "3.9.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 504,
+    "rubriek": "3.9.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 505,
+    "rubriek": "3.9.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 506,
+    "rubriek": "3.9.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 507,
+    "rubriek": "3.9.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 509,
+    "rubriek": "3.9.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 510,
+    "rubriek": "3.9.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 512,
+    "rubriek": "3.9.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 513,
+    "rubriek": "3.9.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 514,
+    "rubriek": "3.9.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 515,
+    "rubriek": "3.9.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 516,
+    "rubriek": "3.9.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 517,
+    "rubriek": "3.9.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 519,
+    "rubriek": "3.10.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 520,
+    "rubriek": "3.10.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 521,
+    "rubriek": "3.10.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 522,
+    "rubriek": "3.10.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 523,
+    "rubriek": "3.10.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 524,
+    "rubriek": "3.10.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 525,
+    "rubriek": "3.10.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 526,
+    "rubriek": "3.10.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 527,
+    "rubriek": "3.10.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 529,
+    "rubriek": "3.10.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 530,
+    "rubriek": "3.10.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 531,
+    "rubriek": "3.10.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 532,
+    "rubriek": "3.10.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 533,
+    "rubriek": "3.10.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 534,
+    "rubriek": "3.10.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 535,
+    "rubriek": "3.10.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 536,
+    "rubriek": "3.10.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 537,
+    "rubriek": "3.10.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 538,
+    "rubriek": "3.10.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 540,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 541,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 542,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 543,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 544,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 545,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 546,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 547,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 548,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 549,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 551,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 552,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 553,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 554,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 555,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 556,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 557,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 558,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 559,
+    "rubriek": "3.11.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 560,
+    "rubriek": "3.11.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 561,
+    "rubriek": "3.11.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 564,
+    "rubriek": "3.12.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 565,
+    "rubriek": "3.12.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 566,
+    "rubriek": "3.12.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 567,
+    "rubriek": "3.12.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 569,
+    "rubriek": "3.12.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 570,
+    "rubriek": "3.12.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 571,
+    "rubriek": "3.12.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 573,
+    "rubriek": "3.12.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 575,
+    "rubriek": "3.13.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 576,
+    "rubriek": "3.13.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 577,
+    "rubriek": "3.13.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 578,
+    "rubriek": "3.13.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 579,
+    "rubriek": "3.13.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 580,
+    "rubriek": "3.13.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 581,
+    "rubriek": "3.13.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 582,
+    "rubriek": "3.13.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 583,
+    "rubriek": "3.13.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 584,
+    "rubriek": "3.13.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 586,
+    "rubriek": "3.14.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 587,
+    "rubriek": "3.14.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 588,
+    "rubriek": "3.14.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 590,
+    "rubriek": "3.14.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 591,
+    "rubriek": "3.14.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 592,
+    "rubriek": "3.14.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 593,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 594,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 595,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 596,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 597,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 598,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 599,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 600,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 603,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 605,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 606,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 608,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 610,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 613,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 614,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 616,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 619,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 621,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 622,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 623,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 624,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 625,
+    "rubriek": "3.14.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 627,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 628,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 629,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 631,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 633,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 636,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 637,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 639,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 640,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 641,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 642,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 643,
+    "rubriek": "3.15.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 644,
+    "rubriek": "3.15.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 646,
+    "rubriek": "3.15.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 647,
+    "rubriek": "3.15.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 648,
+    "rubriek": "3.15.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 649,
+    "rubriek": "3.15.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 650,
+    "rubriek": "3.15.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 651,
+    "rubriek": "3.15.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 652,
+    "rubriek": "3.15.3",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 653,
+    "rubriek": "3.15.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 654,
+    "rubriek": "3.15.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 655,
+    "rubriek": "3.15.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 656,
+    "rubriek": "3.15.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 657,
+    "rubriek": "3.15.4",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 658,
+    "rubriek": "3.15.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 659,
+    "rubriek": "3.15.5",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 664,
+    "rubriek": "3.15.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 665,
+    "rubriek": "3.15.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 666,
+    "rubriek": "3.15.6",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 668,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 669,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 671,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 672,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 674,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 676,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 677,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 678,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 681,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 682,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 684,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 685,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 686,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 687,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 689,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 691,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 692,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 693,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 695,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 697,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 698,
+    "rubriek": "3.16.1",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 699,
+    "rubriek": "3.16.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 700,
+    "rubriek": "3.16.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 702,
+    "rubriek": "3.16.2",
+    "binnen_primaire_rubriek": true
+  },
+  {
+    "concordansrij": 704,
+    "rubriek": "3.16.2",
+    "binnen_primaire_rubriek": true
+  }
+]

@@ -1,0 +1,95 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "bron": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": [
+              "null",
+              "array"
+            ]
+          },
+          "bron_id": {
+            "type": "string"
+          },
+          "eindbbox": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "eindpagina": {
+            "type": "integer"
+          },
+          "fragment": {
+            "type": "string"
+          },
+          "pdf_pagina": {
+            "type": "integer"
+          },
+          "tekenpositie": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "bron_id"
+        ],
+        "additionalProperties": false
+      },
+      "herkomsttype": {
+        "type": "string"
+      },
+      "id": {
+        "type": "string",
+        "pattern": "^(1996-2012|2017|2020):"
+      },
+      "juridische_gelijkwaardigheid": {
+        "const": false
+      },
+      "naar": {
+        "type": "string"
+      },
+      "naar_type": {
+        "type": "string"
+      },
+      "onderbouwing": {
+        "type": "string"
+      },
+      "richting": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "type": {
+        "type": "string"
+      },
+      "van": {
+        "type": "string"
+      },
+      "van_type": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "bron",
+      "herkomsttype",
+      "id",
+      "juridische_gelijkwaardigheid",
+      "naar",
+      "naar_type",
+      "onderbouwing",
+      "richting",
+      "status",
+      "type",
+      "van",
+      "van_type"
+    ],
+    "additionalProperties": false
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "relaties — datasetformaat 0.2"
+}

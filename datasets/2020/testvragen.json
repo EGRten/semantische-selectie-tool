@@ -1,0 +1,1621 @@
+[
+  {
+    "id": "2020:test:001",
+    "zoekvraag": "De gemeente stelt een nieuw organisatieonderdeel in. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:1"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        29,
+        56.579,
+        1160,
+        95.414
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Instellen en inrichten organisatie",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:002",
+    "zoekvraag": "Waar vind ik het opstellen van een gemeentelijke verordening?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        29,
+        409.259,
+        1160,
+        466.094
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Beleid en regelgeving opstellen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:003",
+    "zoekvraag": "Waar valt het opstellen van een beleidsplan onder?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:3"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        56.579,
+        1160,
+        83.414
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Plannen opstellen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:004",
+    "zoekvraag": "Waar zoek ik een evaluatie van uitgevoerd gemeentelijk beleid?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:4"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        429.434,
+        1160,
+        450.269
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Evaluatie uitvoeren",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:005",
+    "zoekvraag": "De gemeente levert een product aan een inwoner. Welk procestype past als zoekrichting?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:5"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        77.414,
+        1160,
+        116.249
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Producten en dien- sten leveren",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:006",
+    "zoekvraag": "Een inwoner vraagt de gemeente iets te doen of te laten. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:6"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        645.1,
+        1160,
+        683.935
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Verzoeken behan- delen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:007",
+    "zoekvraag": "Een inwoner doet een wettelijk verplichte aangifte bij de gemeente. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:7"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        776.77,
+        1160,
+        805
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Aangiften behandelen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:008",
+    "zoekvraag": "Waar vind ik het verstrekken van een financiële voorziening?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:8"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        110.249,
+        1160,
+        143.084
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Voorzieningen ver- strekken",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:009",
+    "zoekvraag": "Waar zoek ik het toekennen van een juridische status?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:9"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        220.754,
+        1160,
+        253.589
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Status toekennen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:010",
+    "zoekvraag": "Waar vind ik het opleggen van een gemeentelijke heffing?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:10"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        316.424,
+        1160,
+        349.259
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Heffen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:011",
+    "zoekvraag": "Een inwoner vraagt toestemming voor een activiteit. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:11"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        390.929,
+        1160,
+        417.764
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Toestemming verlenen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:012",
+    "zoekvraag": "De gemeente controleert of voorschriften worden nageleefd. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:12"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        378.929,
+        1160,
+        411.764
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Toezien en hand- haven",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:013",
+    "zoekvraag": "Waar zoek ik het behandelen van een geschil met een inwoner?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:13"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        501.43,
+        1160,
+        528.265
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Geschillen behan- delen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:014",
+    "zoekvraag": "Waar vind ik het inrichten van de openbare ruimte?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:14"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        695.275,
+        1160,
+        716.11
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Openbare ruimte inrichten",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:015",
+    "zoekvraag": "Waar zoek ik het onderhouden of repareren van een gemeentelijk object?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:15"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        160.754,
+        1160,
+        181.589
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Onderhouden en repareren",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:016",
+    "zoekvraag": "Waar vind ik het aangaan van een overeenkomst door de gemeente?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:16"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        312.599,
+        1160,
+        333.434
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Overeenkomsten aangaan",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:017",
+    "zoekvraag": "Waar zoek ik het aanstellen van een medewerker?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:17"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        649.448,
+        1160,
+        670.283
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Personen aanstellen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:018",
+    "zoekvraag": "Waar vind ik het betalen van een factuur of innen van een vordering?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:18"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        232.424,
+        1160,
+        265.259
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Betalen en innen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:019",
+    "zoekvraag": "Waar zoek ik het administratief verwerken van gegevens zonder inhoudelijke toets?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:19"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 37,
+      "bbox": [
+        29,
+        444.269,
+        1160,
+        471.104
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Secretariaat voeren en gegevens adminis- treren / verwerken",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:020",
+    "zoekvraag": "De gemeente verstrekt informatie. Welk procestype is een zoekrichting?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:20"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        513.1,
+        1160,
+        533.935
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Informeren",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:021",
+    "zoekvraag": "Waar zoek ik een door de gemeente uitgebracht advies?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:21"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        700.615,
+        1160,
+        715.45
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Adviseren",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:022",
+    "zoekvraag": "De gemeente organiseert een gebeurtenis. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:22"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        98.249,
+        1160,
+        113.084
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Gebeurtenis orga- niseren",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:023",
+    "zoekvraag": "De gemeente vraagt zelf een voorziening aan. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:23"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        324.929,
+        1160,
+        345.764
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Voorziening aan- vragen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:024",
+    "zoekvraag": "De gemeente vraagt zelf toestemming aan een andere instantie. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:24"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        453.104,
+        1160,
+        467.933
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Toestemming vragen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:025",
+    "zoekvraag": "Een toezichthouder controleert de gemeente. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:25"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        601.778,
+        1160,
+        622.613
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Toezicht en handha- ving ondergaan",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:026",
+    "zoekvraag": "De gemeente betwist een besluit van een ander bestuursorgaan. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:26"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        717.953,
+        1160,
+        744.788
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Betwisten",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:027",
+    "zoekvraag": "De gemeente vraagt zelf een status aan. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:27"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 40,
+      "bbox": [
+        29,
+        56.579,
+        1160,
+        77.414
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Status aanvragen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:028",
+    "zoekvraag": "De gemeente vraagt zelf een product of dienst aan. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:28"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 40,
+      "bbox": [
+        29,
+        139.919,
+        1160,
+        160.754
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Product of dienst aanvragen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:029",
+    "zoekvraag": "De gemeente doet zelf aangifte. Waar zoek ik?",
+    "zoekintentie": "Procestype vinden bij beschreven handeling",
+    "verwachte_relevante_categorieen": [
+      "2020:29"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 40,
+      "bbox": [
+        29,
+        202.424,
+        1160,
+        223.259
+      ]
+    },
+    "type_zoekvraag": "rol_en_procesonderscheid",
+    "controleerbaar_bronfragment": "Aangifte doen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:030",
+    "zoekvraag": "Waar vind ik stukken over het verstrekken van een subsidie?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:8.1.7",
+      "2020:8.1.8",
+      "2020:23.1.1"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:23.1.2"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 31,
+      "bbox": [
+        29,
+        352.094,
+        1160,
+        384.929
+      ]
+    },
+    "type_zoekvraag": "gewone_taal",
+    "controleerbaar_bronfragment": "Subsidie",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:031",
+    "zoekvraag": "Waar zoek ik een dossier over jeugdhulp?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:3.1.4",
+      "2020:3.3.1",
+      "2020:8.1.2"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:8.3.2",
+      "2020:12.1.12",
+      "2020:12.2.9"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        163.919,
+        1160,
+        202.754
+      ]
+    },
+    "type_zoekvraag": "domeinterm",
+    "controleerbaar_bronfragment": "Plan van aanpak jeugd- hulp cliënt",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:032",
+    "zoekvraag": "Waar zoek ik stukken met de afkorting BRP?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:1.1.3",
+      "2020:4.1",
+      "2020:5.1.2"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:6.1.7",
+      "2020:7.1.2",
+      "2020:7.1.4",
+      "2020:7.1.9",
+      "2020:7.1.10",
+      "2020:7.1.15",
+      "2020:7.1.16",
+      "2020:9.1.6",
+      "2020:9.1.11",
+      "2020:12.1.6",
+      "2020:15.1",
+      "2020:15.1.4",
+      "2020:19.1.15"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 26,
+      "bbox": [
+        29,
+        185.084,
+        1160,
+        229.919
+      ]
+    },
+    "type_zoekvraag": "afkorting",
+    "controleerbaar_bronfragment": "Wijziging inrichting BRP systeem",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:033",
+    "zoekvraag": "Waar zoek ik documenten over een geboorteaangifte?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:4.1.7",
+      "2020:5.1.8",
+      "2020:7.1.2"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:7.1.3",
+      "2020:11.1.8",
+      "2020:11.1.9",
+      "2020:12.1.3"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        599.274,
+        1160,
+        626.109
+      ]
+    },
+    "type_zoekvraag": "gewone_taal",
+    "controleerbaar_bronfragment": "Vorderingen en eind(examen)resultaten primair, voortgezet of beroepsonderwijs",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:034",
+    "zoekvraag": "Waar zoek ik het verwerken van overlijdensgegevens?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:4.1.10",
+      "2020:7.1.6"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        679.779,
+        1160,
+        700.614
+      ]
+    },
+    "type_zoekvraag": "gewone_taal",
+    "controleerbaar_bronfragment": "Lijkschouw",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:035",
+    "zoekvraag": "Waar vind ik stukken over een verkiezing?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:6.1.14",
+      "2020:19.1.17",
+      "2020:22.1.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        474.929,
+        1160,
+        513.76
+      ]
+    },
+    "type_zoekvraag": "samengestelde_waardering",
+    "controleerbaar_bronfragment": "Toekenning kiesrecht Europese verkiezingen",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:036",
+    "zoekvraag": "Waar zoek ik stukken over een referendum?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:22.1.3"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        202.754,
+        1160,
+        235.589
+      ]
+    },
+    "type_zoekvraag": "brononzekerheid",
+    "controleerbaar_bronfragment": "Referendum",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:037",
+    "zoekvraag": "Waar vind ik stukken over een bestemmingsplan?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:6.1.11",
+      "2020:6.2.1",
+      "2020:9.1.3"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:11.1.11"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        328.424,
+        1160,
+        367.259
+      ]
+    },
+    "type_zoekvraag": "historische_terminologie",
+    "controleerbaar_bronfragment": "Principeverzoek bestem- mingsplan",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:038",
+    "zoekvraag": "Waar zoek ik een bodemonderzoek?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:11.1.11"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 33,
+      "bbox": [
+        29,
+        722.109,
+        1160,
+        760.944
+      ]
+    },
+    "type_zoekvraag": "documentsoort",
+    "controleerbaar_bronfragment": "Bodemonderzoek, archeologisch onderzoek of milieueffectrapportage van de gemeente of van een derde",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:039",
+    "zoekvraag": "Waar zoek ik toestemming voor sanering van tanks?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:11.1.16"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 34,
+      "bbox": [
+        29,
+        104.249,
+        1160,
+        125.084
+      ]
+    },
+    "type_zoekvraag": "specifiek_resultaat",
+    "controleerbaar_bronfragment": "Sanering tanks",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:040",
+    "zoekvraag": "Waar vind ik de verantwoording van archiefvernietiging?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:19.1.18",
+      "2020:24.1.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 38,
+      "bbox": [
+        29,
+        220.754,
+        1160,
+        247.589
+      ]
+    },
+    "type_zoekvraag": "specifiek_resultaat",
+    "controleerbaar_bronfragment": "Archiefvernietiging",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:041",
+    "zoekvraag": "Waar zoek ik stukken van een sollicitatieprocedure?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:17.2.1",
+      "2020:17.2.2"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        750.788,
+        1160,
+        771.623
+      ]
+    },
+    "type_zoekvraag": "gewone_taal",
+    "controleerbaar_bronfragment": "Afgewezen (open) sollicitatie",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:042",
+    "zoekvraag": "Waar zoek ik stukken over personeel?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:4.1.6",
+      "2020:4.1.14",
+      "2020:4.1.15"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:6.1.1",
+      "2020:9.1",
+      "2020:12.2",
+      "2020:17.1",
+      "2020:17.5"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        578.439,
+        1160,
+        599.274
+      ]
+    },
+    "type_zoekvraag": "brede_zoekvraag",
+    "controleerbaar_bronfragment": "Beoordeling arbeidsom- standigheden personeel",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:043",
+    "zoekvraag": "Waar vind ik stukken over leerplicht?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:4.1.9",
+      "2020:11.1.2",
+      "2020:11.1.8"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:12.1.3"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        652.944,
+        1160,
+        679.779
+      ]
+    },
+    "type_zoekvraag": "domeinterm",
+    "controleerbaar_bronfragment": "Jaarverslag",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:044",
+    "zoekvraag": "Waar vind ik een automatische incasso?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:24.1.3",
+      "2020:24.4.1"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 39,
+      "bbox": [
+        29,
+        503.603,
+        1160,
+        524.438
+      ]
+    },
+    "type_zoekvraag": "specifiek_resultaat",
+    "controleerbaar_bronfragment": "Verkregen Automatische incasso",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:045",
+    "zoekvraag": "Waar zoek ik gegevens over een reisdocument?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:5.1.4",
+      "2020:5.1.5",
+      "2020:5.2.1"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:7.1.11",
+      "2020:7.1.12",
+      "2020:19.1.19"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        232.754,
+        1160,
+        283.589
+      ]
+    },
+    "type_zoekvraag": "meerduidige_zoekvraag",
+    "controleerbaar_bronfragment": "Reisdocument, identi- teitsbewijs",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:046",
+    "zoekvraag": "Waar zoek ik stukken waarin Wmo staat?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:3.1.1",
+      "2020:3.1.5",
+      "2020:3.3.1"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:8.1.1",
+      "2020:8.3.1",
+      "2020:12.1.2",
+      "2020:12.2.6"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        83.414,
+        1160,
+        110.249
+      ]
+    },
+    "type_zoekvraag": "afkorting",
+    "controleerbaar_bronfragment": "Beleidsplan met externe werking",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:047",
+    "zoekvraag": "Waar vind ik stukken over een monument?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:9.1.2",
+      "2020:11.1.6",
+      "2020:15.1.2"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:27.1.1"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 32,
+      "bbox": [
+        29,
+        286.424,
+        1160,
+        349.259
+      ]
+    },
+    "type_zoekvraag": "meerduidige_zoekvraag",
+    "controleerbaar_bronfragment": "Status vermeld in BAG",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:048",
+    "zoekvraag": "Waar zoek ik een rioleringsplan?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:3.1.1",
+      "2020:3.1.2",
+      "2020:14.1.1"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        83.414,
+        1160,
+        110.249
+      ]
+    },
+    "type_zoekvraag": "documentsoort",
+    "controleerbaar_bronfragment": "Beleidsplan met externe werking",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:049",
+    "zoekvraag": "Waar vind ik stukken over gemeentelijke belastingen?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:6.1.1",
+      "2020:10.1",
+      "2020:18.1"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:18.3",
+      "2020:19.1.2"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        683.935,
+        1160,
+        722.77
+      ]
+    },
+    "type_zoekvraag": "domeinterm",
+    "controleerbaar_bronfragment": "Verzoek met financiële consequenties",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:050",
+    "zoekvraag": "Waar zoek ik een bezwaarschrift?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:13.1",
+      "2020:13.1.3",
+      "2020:26.1"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 35,
+      "bbox": [
+        29,
+        501.43,
+        1160,
+        528.265
+      ]
+    },
+    "type_zoekvraag": "documentsoort",
+    "controleerbaar_bronfragment": "Afgehandeld",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:051",
+    "zoekvraag": "Waar zoek ik een contract of overeenkomst?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:16.1",
+      "2020:16.1.1",
+      "2020:16.1.2"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:16.1.4",
+      "2020:16.2.1",
+      "2020:16.3.1"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 36,
+      "bbox": [
+        29,
+        312.599,
+        1160,
+        333.434
+      ]
+    },
+    "type_zoekvraag": "praktijkformulering",
+    "controleerbaar_bronfragment": "Aangegaan",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:052",
+    "zoekvraag": "Waar vind ik stukken over een register?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:7.1.2",
+      "2020:7.1.3",
+      "2020:7.1.5"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:7.1.6",
+      "2020:7.1.13",
+      "2020:7.1.21",
+      "2020:19.1.4"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 30,
+      "bbox": [
+        29,
+        83.414,
+        1160,
+        128.249
+      ]
+    },
+    "type_zoekvraag": "meerduidige_zoekvraag",
+    "controleerbaar_bronfragment": "Eerste inschrijving BRP of geboorteaangifte",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:053",
+    "zoekvraag": "Waar zoek ik stukken over gegevensverwerking?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:5.1.2",
+      "2020:5.1.3",
+      "2020:6.1.7"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:6.1.13",
+      "2020:7.1.2",
+      "2020:7.1.3",
+      "2020:7.1.5",
+      "2020:7.1.6",
+      "2020:7.1.12",
+      "2020:7.1.13",
+      "2020:9.1.6",
+      "2020:12.1.8",
+      "2020:19.1",
+      "2020:19.1.1",
+      "2020:19.1.4",
+      "2020:19.1.14",
+      "2020:19.1.15",
+      "2020:19.1.19",
+      "2020:19.1.20",
+      "2020:19.1.21",
+      "2020:19.1.24",
+      "2020:20.1.4"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 28,
+      "bbox": [
+        29,
+        155.084,
+        1160,
+        193.919
+      ]
+    },
+    "type_zoekvraag": "brede_zoekvraag",
+    "controleerbaar_bronfragment": "Gegevens uit de BRP",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:054",
+    "zoekvraag": "Waar vind ik stukken over woningen?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:3.1.1",
+      "2020:11.1.5",
+      "2020:20.1.4"
+    ],
+    "alternatieve_relevante_categorieen": [],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 27,
+      "bbox": [
+        29,
+        83.414,
+        1160,
+        110.249
+      ]
+    },
+    "type_zoekvraag": "brede_zoekvraag",
+    "controleerbaar_bronfragment": "Beleidsplan met externe werking",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  },
+  {
+    "id": "2020:test:055",
+    "zoekvraag": "Waar zoek ik stukken over een vergunning?",
+    "zoekintentie": "Mogelijk relevante categorieën vinden bij een onderwerp of documentsoort",
+    "verwachte_relevante_categorieen": [
+      "2020:6.1.13",
+      "2020:11.1",
+      "2020:11.1.2"
+    ],
+    "alternatieve_relevante_categorieen": [
+      "2020:11.1.6",
+      "2020:11.1.12",
+      "2020:11.1.15",
+      "2020:11.3.2",
+      "2020:12.1",
+      "2020:12.1.10",
+      "2020:12.1.11",
+      "2020:12.2",
+      "2020:19.1",
+      "2020:21.1.1",
+      "2020:21.1.2",
+      "2020:24.1",
+      "2020:24.1.1"
+    ],
+    "onzekerheden": [
+      "Procescontext en resultaat moeten afzonderlijk worden vastgesteld; deze verwachting bewijst geen toepasselijkheid."
+    ],
+    "bron": {
+      "bron_id": "2020-officieel",
+      "pdf_pagina": 29,
+      "bbox": [
+        29,
+        406.094,
+        1160,
+        474.929
+      ]
+    },
+    "type_zoekvraag": "meerduidige_zoekvraag",
+    "controleerbaar_bronfragment": "Woonverklaring",
+    "toepasselijkheid_vastgesteld": false,
+    "alternatieven_uitputtend": false,
+    "beoordelingsstatus": "brongetoetste_vindbaarheidsverwachting"
+  }
+]

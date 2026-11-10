@@ -1,0 +1,346 @@
+{
+  "totaal_spans": 573,
+  "gekoppeld_aan_voorschrift": 547,
+  "niet_selectierelevante_spans": [
+    {
+      "pagina": 18,
+      "bbox": [
+        444.539794921875,
+        216.46017456054688,
+        507.5025329589844,
+        226.2119140625
+      ],
+      "tekst": "Bewaartermijn/",
+      "start": 0,
+      "end": 13,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 18,
+      "bbox": [
+        444.36737060546875,
+        228.76315307617188,
+        494.09600830078125,
+        238.515625
+      ],
+      "tekst": "B=bewaren",
+      "start": 13,
+      "end": 21,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 20,
+      "bbox": [
+        476.4199523925781,
+        301.178955078125,
+        479.5491943359375,
+        309.1365661621094
+      ],
+      "tekst": "\u0007",
+      "start": 187,
+      "end": 187,
+      "verklaring": "niet_unicodeerbare_toelichtingsglyphs"
+    },
+    {
+      "pagina": 20,
+      "bbox": [
+        479.4673767089844,
+        301.178955078125,
+        502.81268310546875,
+        309.1365661621094
+      ],
+      "tekst": "\u0010\u00030\u0005\u0003\u0003",
+      "start": 187,
+      "end": 188,
+      "verklaring": "defecte_fontcodering_toelichting_buiten_selectiecel"
+    },
+    {
+      "pagina": 29,
+      "bbox": [
+        435.307861328125,
+        283.73333740234375,
+        540.7364501953125,
+        293.4850769042969
+      ],
+      "tekst": "Bewaartermijn/B=bewaren",
+      "start": 1002,
+      "end": 1023,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 30,
+      "bbox": [
+        440.3023986816406,
+        632.5555419921875,
+        443.4581604003906,
+        637.8606567382812
+      ],
+      "tekst": "\u0005",
+      "start": 1204,
+      "end": 1204,
+      "verklaring": "niet_unicodeerbare_toelichtingsglyphs"
+    },
+    {
+      "pagina": 30,
+      "bbox": [
+        443.3500061035156,
+        634.0455322265625,
+        501.9237060546875,
+        642.0031127929688
+      ],
+      "tekst": "\u0003\u0007\u0017\u0014\u0003\b\n\u0005\u0003;\u001b\u0013\u0010\u0003",
+      "start": 1204,
+      "end": 1204,
+      "verklaring": "niet_unicodeerbare_toelichtingsglyphs"
+    },
+    {
+      "pagina": 32,
+      "bbox": [
+        405.2814636230469,
+        249.98342895507812,
+        510.7110595703125,
+        259.73516845703125
+      ],
+      "tekst": "Bewaartermijn/B=bewaren",
+      "start": 1303,
+      "end": 1324,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 34,
+      "bbox": [
+        405.2435302734375,
+        253.48251342773438,
+        510.65460205078125,
+        263.2342529296875
+      ],
+      "tekst": "Bewaartermijn/B=bewaren",
+      "start": 1489,
+      "end": 1510,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 36,
+      "bbox": [
+        405.39154052734375,
+        242.19534301757812,
+        510.7713928222656,
+        251.94708251953125
+      ],
+      "tekst": "Bewaartermijn/B=bewaren",
+      "start": 1702,
+      "end": 1723,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 37,
+      "bbox": [
+        412.44219970703125,
+        250.66073608398438,
+        481.90826416015625,
+        260.4124755859375
+      ],
+      "tekst": "Bewaartermijn/B",
+      "start": 1775,
+      "end": 1789,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 37,
+      "bbox": [
+        412.4224853515625,
+        262.9642028808594,
+        450.70269775390625,
+        272.7159423828125
+      ],
+      "tekst": "=bewaren",
+      "start": 1789,
+      "end": 1796,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 41,
+      "bbox": [
+        467.2058410644531,
+        291.6340637207031,
+        536.6962280273438,
+        301.38580322265625
+      ],
+      "tekst": "Bewaartermijn/B",
+      "start": 2086,
+      "end": 2100,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 41,
+      "bbox": [
+        467.1678771972656,
+        302.8084411621094,
+        507.981201171875,
+        312.5601806640625
+      ],
+      "tekst": "=bewaren",
+      "start": 2100,
+      "end": 2107,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 47,
+      "bbox": [
+        431.357421875,
+        327.41546630859375,
+        500.8505859375,
+        337.1672058105469
+      ],
+      "tekst": "Bewaartermijn/B",
+      "start": 2363,
+      "end": 2377,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 47,
+      "bbox": [
+        431.2724914550781,
+        338.5899658203125,
+        469.55462646484375,
+        348.3417053222656
+      ],
+      "tekst": "=bewaren",
+      "start": 2377,
+      "end": 2384,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 53,
+      "bbox": [
+        429.8258056640625,
+        250.20950317382812,
+        537.494140625,
+        259.96124267578125
+      ],
+      "tekst": "Bewaartermijn/B =bewaren",
+      "start": 2690,
+      "end": 2711,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 56,
+      "bbox": [
+        429.65142822265625,
+        245.24276733398438,
+        537.3819580078125,
+        254.9945068359375
+      ],
+      "tekst": "Bewaartermijn/B =bewaren",
+      "start": 2989,
+      "end": 3010,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 60,
+      "bbox": [
+        429.8258056640625,
+        284.861572265625,
+        537.494140625,
+        294.6133117675781
+      ],
+      "tekst": "Bewaartermijn/B =bewaren",
+      "start": 3195,
+      "end": 3216,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 63,
+      "bbox": [
+        429.65142822265625,
+        240.16372680664062,
+        537.3819580078125,
+        249.91546630859375
+      ],
+      "tekst": "Bewaartermijn/B =bewaren",
+      "start": 3338,
+      "end": 3359,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 65,
+      "bbox": [
+        429.8258056640625,
+        214.42831420898438,
+        537.494140625,
+        224.1800537109375
+      ],
+      "tekst": "Bewaartermijn/B =bewaren",
+      "start": 3505,
+      "end": 3526,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 66,
+      "bbox": [
+        429.8258056640625,
+        260.2550964355469,
+        537.494140625,
+        270.0068359375
+      ],
+      "tekst": "Bewaartermijn/B =bewaren",
+      "start": 3539,
+      "end": 3560,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 67,
+      "bbox": [
+        429.65142822265625,
+        304.9535217285156,
+        537.3819580078125,
+        314.70526123046875
+      ],
+      "tekst": "Bewaartermijn/B =bewaren",
+      "start": 3651,
+      "end": 3672,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 70,
+      "bbox": [
+        406.7993469238281,
+        235.53598022460938,
+        476.2819519042969,
+        245.2877197265625
+      ],
+      "tekst": "Bewaartermijn/B",
+      "start": 3966,
+      "end": 3980,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 70,
+      "bbox": [
+        406.7786865234375,
+        246.82308959960938,
+        445.05902099609375,
+        256.5748291015625
+      ],
+      "tekst": "=bewaren",
+      "start": 3980,
+      "end": 3987,
+      "verklaring": "kolomkop"
+    },
+    {
+      "pagina": 72,
+      "bbox": [
+        403.97747802734375,
+        215.44375610351562,
+        511.864013671875,
+        225.19549560546875
+      ],
+      "tekst": "Bewaartermijn/B =bewaren",
+      "start": 4164,
+      "end": 4185,
+      "verklaring": "kolomkop"
+    }
+  ],
+  "herkende_waarde_starts": 486,
+  "ongekoppelde_waarde_starts": []
+}

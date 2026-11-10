@@ -47,3 +47,8 @@ htmlcov/
 ._*
 Thumbs.db
 Desktop.ini
+
+# Private bronbestanden en ongecontroleerde heropbouw (datasetpakket)
+.bronopbouw-prive/
+.private-inputs/
+.reproduce/

@@ -1,0 +1,101 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "beoordelingsstatus": {
+        "type": "string"
+      },
+      "betrouwbaarheid": {
+        "type": "string"
+      },
+      "bron": {
+        "type": "object",
+        "properties": {
+          "bbox": {
+            "type": [
+              "null",
+              "array"
+            ]
+          },
+          "bron_id": {
+            "type": "string"
+          },
+          "eindbbox": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            }
+          },
+          "eindpagina": {
+            "type": "integer"
+          },
+          "fragment": {
+            "type": "string"
+          },
+          "pdf_pagina": {
+            "type": "integer"
+          },
+          "tekenpositie": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "bron_id"
+        ],
+        "additionalProperties": false
+      },
+      "genormaliseerde_zoekterm": {
+        "type": "string"
+      },
+      "herkomsttype": {
+        "type": "string",
+        "enum": [
+          "officieel",
+          "brononderbouwd_alternatief",
+          "taalkundige_variant",
+          "ai_voorgesteld"
+        ]
+      },
+      "id": {
+        "type": "string",
+        "pattern": "^(1996-2012|2017|2020):"
+      },
+      "juridische_gelijkwaardigheid": {
+        "type": "boolean"
+      },
+      "onderbouwing": {
+        "type": "string"
+      },
+      "onderdeel_id": {
+        "type": "string"
+      },
+      "relatietype": {
+        "type": "string"
+      },
+      "risico_op_verwarring": {
+        "type": "string"
+      },
+      "zoekterm": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "beoordelingsstatus",
+      "betrouwbaarheid",
+      "bron",
+      "genormaliseerde_zoekterm",
+      "herkomsttype",
+      "id",
+      "juridische_gelijkwaardigheid",
+      "onderbouwing",
+      "onderdeel_id",
+      "relatietype",
+      "risico_op_verwarring",
+      "zoekterm"
+    ],
+    "additionalProperties": false
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "zoeklexicon — datasetformaat 0.2"
+}

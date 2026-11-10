@@ -1,0 +1,264 @@
+# Publicatiecontrole gemeentelijke selectielijsten
+
+Beoordelingsdatum: 10 november 2026. Dit is een gecontroleerde publicatiedistributie met de hieronder beschreven voorbehouden; geen onvoorwaardelijke juridische vrijgave.
+
+## Invoer en werkwijze
+
+De daadwerkelijk aangeleverde invoer heet `gemeentelijke-selectielijsten-eindpakket(2).zip`, hoewel de opdracht `(1)` noemt. Er zijn 136 bestanden onderzocht. Het ZIP-bestand en alle uitgepakte oorspronkelijke bestanden zijn ongewijzigd gebleven. Invoer-SHA256: `58881345d1770a8c6b097389a11885f83def81edb57c1d48b443b77845145564`.
+
+Alle oorspronkelijke bestandshashes staan afzonderlijk in `documentatie/oorspronkelijke-bestandshashes.csv`. De bijlage hieronder bevat dezelfde controleketen. De bewerking is op een afzonderlijke kopie uitgevoerd. Er zijn geen GitHub-handelingen, commits, uploads naar GitHub of applicatiebouw uitgevoerd.
+
+## Onderzochte persoonsgegevens en metadata
+
+In 15 bestanden kwamen in totaal 85 vindplaatsen van de persoonlijke voornaam van de inhoudelijke beoordelaar voor, waaronder 21 celwaarden in het eigen controlewerkboek. De exacte naam wordt hier bewust niet opnieuw gepubliceerd. De naam is in alle behouden workflowbestanden vervangen door `inhoudelijke_beoordelaar`. Dit is een neutrale rolverwijzing, geen vastgestelde functie, bevoegdheid of extra beoordeling.
+
+Letterlijke persoonlijke conversatiefragmenten zijn zakelijke broncontrolebeschrijvingen geworden. De relevante datum en selectiecodes zijn behouden. Ook verspreide voorkomens in scripts, JSON, CSV, documentatie en de werkmap zijn gecontroleerd. Herleidbaarheid via datum, codes en externe context blijft mogelijk: dit betreft pseudonimisering, geen gegarandeerde volledige anonimiteit.
+
+De uitgesloten bronbestanden bevatten daarnaast auteursnamen, een auteursaccount, een persoonlijk zakelijk e-mailadres, namen van makers/laatste bewerkers, een WRITEACCESS-naam en interne SharePoint-projectidentificaties/documentmetadata. Deze eigenschappen worden niet overgenomen in bronbeschrijvingen of rapport. Het eigen werkboek heeft neutrale documenteigenschappen gekregen en geen persoonlijke auteursvelden. De oorspronkelijke brondocumenten zijn niet herschreven maar buiten de distributie gehouden.
+
+Alle tekstbestanden en Office-celinhoud zijn onderzocht. Bij zeven PDF's zijn alle pagina's op tekst onderzocht en Info/XMP-eigenschappen, bijlagen en annotaties geïnventariseerd: geen ingebedde bijlagen of annotaties aangetroffen. Er zijn 73 beeldvoorkomens in de PDF's; niet ieder ingebed beeld is afzonderlijk visueel vrijgegeven. Alle zeven PDF's zijn daarom integraal uitgesloten. Bij elf losse PNG-uitsneden zijn metadata en OCR gecontroleerd: alleen dpi-metadata, geen EXIF of gevonden beoordelaarsnaam. Ook deze beelden zijn uitgesloten wegens niet vastgestelde zelfstandige beeldrechten.
+
+Beide XLSX-bestanden zijn op documenteigenschappen, alle cellen, hyperlinks, opmerkingen, verborgen bladen/rijen/kolommen, externe koppelingen en gedefinieerde namen onderzocht. Geen verborgen onderdelen of opmerkingen aangetroffen. Voor het XLS-bestand zijn alle cellen en OLE-eigenschappen onderzocht; het bestand is uitgesloten. Het publieke controlewerkboek bevat 1.177 aangepaste cellen/hyperlinks samen, grotendeels bronlinkaanpassingen; dit zijn geen 1.177 persoonsgegevens.
+
+Publieke persoonsnamen die reeds onderdeel zijn van officiële algemene bepalingen of openbare vaststellingscontext zijn inhoudelijk ongewijzigd behouden, overeenkomstig de opdracht. Die zijn geen privécontrolehistorie. De publicerende verantwoordelijke moet de noodzakelijkheid van dit openbare persoonsgegevensgebruik blijven beoordelen; auteursrechtelijke besluitstatus is geen zelfstandige AVG-grondslag. Zie `documentatie/privacy-publicatie.md`.
+
+Bekende private workflow-identificaties zijn na bewerking opnieuw gezocht in alle publieke tekst en de XML-inhoud van de eigen werkmap: geen resterende treffers. Patrooncontrole op API-sleutels, GitHub-tokens, AWS-sleutels, Slack-tokens, Bearer-tokens en private sleutels gaf geen kandidaten. Zulke controles vormen geen absolute garantie tegen onbekende geheimen of heridentificatie.
+
+## Behouden broncontroles
+
+- 2017: 7.1.2, 7.1.3, 7.1.5 en 7.1.6 behouden hun onderbouwde procestermijn Nihil, met het onderscheid tussen de oorspronkelijke lege PDF-cel en aanvullende brononderbouwing.
+- 2020: 19.1.19 tot en met 19.1.24 behouden het gepubliceerde label Archiefvernietiging en de vastgelegde menselijke bevestiging van die weergave.
+- 2020: 22.1.3 behoudt de afgebroken toelichting tot en met ‘geldige of onbruikbaar’; geen vervolg verzonnen.
+
+Een gecontroleerde bronweergave, een menselijke bevestiging en een formele bronrectificatie blijven verschillende gegevens. De menselijke bevestigingen zijn geen rectificaties door de bronhouder. De zeven vastgelegde bevestigingen zijn niet uitgebreid tot een nieuwe inhoudelijke vrijgave.
+
+## Hergebruikbeoordeling
+
+De officiële selectiegegevens en formeel vastgestelde toelichting zijn behouden op grond van hun status als besluittekst: artikel 11 Auteurswet, in samenhang met artikel 1 van de drie vaststellingsbesluiten. De overgenomen tekst is substantieel; dit is geen beroep op korte citaten of alleen openbare toegankelijkheid. Dit is een gemotiveerde juridische kwalificatie en geen rechterlijke vaststelling voor elk zelfstandig begeleidend tekstonderdeel.
+
+Primaire verwijzingen:
+
+- Auteurswet: https://wetten.overheid.nl/BWBR0001886/ (artikel 11; artikel 15b is geen onbeperkte alternatieve licentie).
+- Vaststelling 1996/2012: https://zoek.officielebekendmakingen.nl/stcrt-2012-11906.html
+- Vaststelling 2017: https://zoek.officielebekendmakingen.nl/stcrt-2017-38013.html
+- Vaststelling 2020: https://zoek.officielebekendmakingen.nl/stcrt-2020-11143.html
+- Databankenwet: https://wetten.overheid.nl/BWBR0010591/ ; officiële publicatie https://zoek.officielebekendmakingen.nl/stb-1999-303.html (artikel 8 betreft onder voorwaarden overheidsdatabanken, niet automatisch een zelfstandige VNG-concordans).
+- Officiële vindplaatsen: https://www.nationaalarchief.nl/archiveren/kennisbank/vastgestelde-selectielijsten
+- VNG-voorwaarden: https://vng.nl/proclaimer (voorwaardelijk hergebruik, onder meer bronvermelding, beperking commercieel gebruik en afzonderlijke beeldvoorwaarden; geen algemene CC0/MIT-toestemming).
+- AI-output: https://openai.com/policies/eu-terms-of-use/ (toedeling tussen gebruiker en OpenAI heft eventuele rechten van derden niet op).
+
+| Categorie | Afweging en distributie |
+|---|---|
+| Eigen code, structuur en documentatie | Behouden; gegenereerd binnen de opdracht. Geen nieuwe algemene repositorylicentie namens de eigenaar verleend. |
+| Formeel vastgestelde selectiegegevens/toelichting | Behouden op de hiervoor genoemde besluitstatus; officiële inhoud niet gewijzigd. |
+| Zeven volledige officiële/vormgegeven PDF's | Uitgesloten: geen bestandsbrede onbeperkte toestemming voor zelfstandige opmaak, beelden en begeleidend materiaal vastgesteld. Dit ontkent de herbruikbaarheid van de besluittekst niet. |
+| Externe XLS 2017 | Uitgesloten als zelfstandige werkmap; onderbouwde officiële selectiegegevens blijven behouden. |
+| VNG/VHIC-concordans XLSX en volledige JSON-spiegel | Uitgesloten: zelfstandige kruisrelaties/celspiegel, geen aangetoonde passende licentie/databankrechtelijke grondslag. Dit is geen verwijdering van eigen primair geverifieerde selectiegegevens. |
+| Handleiding SelectTool | Uitgesloten: geen specifieke herpublicatiegrondslag voor het gehele werk vastgesteld. |
+| Drie volledige AI-onderzoeksrapporten | Uitgesloten: eventuele daarin overgenomen derdenpassages niet integraal rechtenvrij vastgesteld. Eigen zoekverrijking, onderbouwing en AI-status behouden. |
+| Elf screenshots/bronuitsneden | Uitgesloten: geen afzonderlijke beeldgrondslag vastgesteld; bronlocaties blijven beschikbaar. |
+
+Per extern bronbestand staat de oorspronkelijke naam, hash, bekende vindplaats en rechtenafweging in `bronnen/*.bron.json`. Bij onbekende exacte openbare vindplaats is geen downloadadres verzonnen. Zie ook `HERGEBRUIK.md`. Openbare toegankelijkheid is nergens op zichzelf als toestemming gebruikt.
+
+## Uitsluitingen
+
+In totaal zijn 28 oorspronkelijke bestanden uitgesloten: twaalf zelfstandige bronbestanden, elf afbeeldingen, één volledige concordansspiegel en vier achterhaalde historische overdrachtsdocumenten. Actuele controlehistorie en verantwoording blijven beschikbaar. Het wijzigingenregister noemt elk bestand afzonderlijk.
+
+
+| Bestand | Reden |
+|---|---|
+| `bronnen/1996.pdf` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `bronnen/2017-xls.xls` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `bronnen/2017.pdf` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `bronnen/2020.pdf` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `bronnen/Concordans Selectielijst 1996-2020(1).xlsx` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `bronnen/Handleiding SelectTool.pdf` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `bronnen/Selectielijst 1996.pdf` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `bronnen/Selectielijst 2017.pdf` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `bronnen/Selectielijst 2020.pdf` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `bronnen/rapport-1996.md` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `bronnen/rapport-2017.md` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `bronnen/rapport-2020.md` | Volledige externe publicatie/werkmap niet heruitgegeven: geen onvoorwaardelijke bestandsbrede herpublicatiegrondslag vastgesteld; metadata/beeld/rechten derden kunnen afwijken. Bronverwijzing en originele hash behouden. |
+| `concordans/concordans.json` | Volledige omzetting van de niet-zelfstandig-vastgestelde externe concordans inclusief oorspronkelijke cellen en kruisrelaties. Herpublicatierechten/databankrechten hiervoor niet vastgesteld; officiële zelfstandig geverifieerde selectiegegevens blijven behouden. |
+| `controle/bronbeelden/2017-7.1.2.png` | Uitsnede uit externe vormgegeven publicatie; geen afzonderlijke beeldtoestemming vastgesteld. Verwijzing naar officiële PDF blijft beschikbaar. |
+| `controle/bronbeelden/2017-7.1.3.png` | Uitsnede uit externe vormgegeven publicatie; geen afzonderlijke beeldtoestemming vastgesteld. Verwijzing naar officiële PDF blijft beschikbaar. |
+| `controle/bronbeelden/2017-7.1.5.png` | Uitsnede uit externe vormgegeven publicatie; geen afzonderlijke beeldtoestemming vastgesteld. Verwijzing naar officiële PDF blijft beschikbaar. |
+| `controle/bronbeelden/2017-7.1.6.png` | Uitsnede uit externe vormgegeven publicatie; geen afzonderlijke beeldtoestemming vastgesteld. Verwijzing naar officiële PDF blijft beschikbaar. |
+| `controle/bronbeelden/2020-19.1.19.png` | Uitsnede uit externe vormgegeven publicatie; geen afzonderlijke beeldtoestemming vastgesteld. Verwijzing naar officiële PDF blijft beschikbaar. |
+| `controle/bronbeelden/2020-19.1.20.png` | Uitsnede uit externe vormgegeven publicatie; geen afzonderlijke beeldtoestemming vastgesteld. Verwijzing naar officiële PDF blijft beschikbaar. |
+| `controle/bronbeelden/2020-19.1.21.png` | Uitsnede uit externe vormgegeven publicatie; geen afzonderlijke beeldtoestemming vastgesteld. Verwijzing naar officiële PDF blijft beschikbaar. |
+| `controle/bronbeelden/2020-19.1.22.png` | Uitsnede uit externe vormgegeven publicatie; geen afzonderlijke beeldtoestemming vastgesteld. Verwijzing naar officiële PDF blijft beschikbaar. |
+| `controle/bronbeelden/2020-19.1.23.png` | Uitsnede uit externe vormgegeven publicatie; geen afzonderlijke beeldtoestemming vastgesteld. Verwijzing naar officiële PDF blijft beschikbaar. |
+| `controle/bronbeelden/2020-19.1.24.png` | Uitsnede uit externe vormgegeven publicatie; geen afzonderlijke beeldtoestemming vastgesteld. Verwijzing naar officiële PDF blijft beschikbaar. |
+| `controle/bronbeelden/2020-22.1.3.png` | Uitsnede uit externe vormgegeven publicatie; geen afzonderlijke beeldtoestemming vastgesteld. Verwijzing naar officiële PDF blijft beschikbaar. |
+| `documentatie/historie/voor-eindoplevering-bronvragen-aan-bronhouder.md` | Achterhaalde overdrachtsteksten; noodzakelijke technische en inhoudelijke controles blijven in de actuele auditbestanden beschikbaar. |
+| `documentatie/historie/voor-eindoplevering-controleoverdracht.md` | Achterhaalde overdrachtsteksten; noodzakelijke technische en inhoudelijke controles blijven in de actuele auditbestanden beschikbaar. |
+| `documentatie/historie/voor-eindoplevering-openstaande-beoordelingen.md` | Achterhaalde overdrachtsteksten; noodzakelijke technische en inhoudelijke controles blijven in de actuele auditbestanden beschikbaar. |
+| `documentatie/historie/voor-eindoplevering-validatierapport.md` | Achterhaalde overdrachtsteksten; noodzakelijke technische en inhoudelijke controles blijven in de actuele auditbestanden beschikbaar. |
+
+## Gegevensintegriteit en technische wijzigingen
+
+| Selectielijst | Structuur | Selectiegegevens | Zoektermkoppelingen | Relaties | Testvragen | Bronannotaties |
+|---|---:|---:|---:|---:|---:|---:|
+| 1996/2012 | 108 | 494 | 1.005 | 1.111 | 55 | 0 |
+| 2017 | 334 | 305 | 1.342 | 1.647 | 54 | 4 |
+| 2020 | 375 | 346 | 1.746 | 2.092 | 55 | 7 |
+
+Alle aantallen zijn gelijk aan de invoer: 1.145 zelfstandige selectiegegevensregels, 4.093 zoektermkoppelingen, 164 testvragen en elf bronannotaties. Er zijn geen codes, technische IDs, officiële titels, termijnen, waarderingen, algemene bepalingen, uitzonderingen of bronconclusies veranderd. De twee vervallen resultaten van 2020 blijven behouden. AI-ondersteunde relaties en onbeoordeelde voorstellen blijven herkenbaar en worden niet officieel verklaard.
+
+27 JSON-collecties zijn canoniek inhoudelijk vergeleken met de invoer. Bij selectiegegevens zijn de verificatiemetadata afzonderlijk beoordeeld: precies 28 verschillen onder menselijke bevestiging/beoordelaar/herkomst in 2020, uitsluitend pseudonimisering en conversatieherkomst. Alle overige velden zijn gelijk. De elf bronannotaties behouden hun inhoudelijke conclusies. Details staan in `documentatie/metadatawijzigingen.json` en `documentatie/inhoudelijke-integriteit.json`.
+
+De bronnenregisters verwijzen nu naar meegeleverde bronbeschrijvingen; oorspronkelijke bron-IDs en hashes zijn afzonderlijk behouden. Actuele bestandshashes in manifesten en controleversie zijn opnieuw berekend. Alleen het manifestschema is uitgebreid voor publicatiemetadata. Alle vijftien CSV-exporten zijn opnieuw gegenereerd en vergeleken met de JSON. Workbook-hyperlinks zijn naar publieke bronvindplaatsen of bestaande bronbeschrijvingen omgezet; 1.254 hyperlinks gecontroleerd zonder ontbrekende lokale doelen.
+
+De dertien oorspronkelijke opbouwscripts zijn gepseudonimiseerd onder `scripts/bronopbouw/` behouden. De publieke validator en CSV-export werken zonder externe bronbestanden of netwerk. De afzonderlijke privé-opbouwwrapper controleert bronhashes en maakt alleen een nieuwe werkmap. Volledige bronreconstructie vereist de twaalf afzonderlijk en rechtmatig verkregen bronbestanden; uitgesloten materiaal wordt niet heimelijk gedownload. Deze volledige opbouw is met de oorspronkelijke bronnen getest en geslaagd. De privé-uitvoer daarvan is niet gepubliceerd en moet vóór eventuele publicatie opnieuw worden opgeschoond.
+
+## Validatie en grenzen
+
+Geslaagd: alle JSON syntactisch geldig; 21 schema-validaties (zeven bestandstypen voor drie lijsten); unieke en geldige IDs; geldige hiërarchie en verwijzingen; scheiding selectielijsten; actuele manifesthashes; vergelijking van alle officiële velden en aantallen; behoud bronannotaties; vijftien CSV-exporten bytegelijk reproduceerbaar; Python-syntaxis en publieke uitvoerpaden; controle van bronbeschrijvingen en workbook-links. De nieuwe ZIP is getest, opnieuw uitgepakt en onafhankelijk vanuit die uitgepakte publieke distributie gevalideerd. Het originele ZIP en alle 136 oorspronkelijke bestanden zijn opnieuw op ongewijzigde hashes gecontroleerd.
+
+Technische validatie is geen nieuwe inhoudelijke of archivistische bronvrijgave. Deze opdracht bevestigt het behoud van de eerder vastgelegde inhoud en broncontroles, niet de juridische toepasbaarheid op individuele dossiers. De publicatietest verhelpt geen eventuele reeds bestaande inhoudelijke beperking van het eindpakket.
+
+Resterende aandachtspunten: pseudonimisering verhindert heridentificatie niet volledig; openbare namen in officiële tekst blijven staan; zelfstandig niet-normatief begeleidend materiaal kan een afzonderlijke rechtenkwalificatie vragen. Voor eigen bijdragen is nog geen algemene hergebruiklicentie gekozen. Daarom wordt geen onvoorwaardelijke publicatiegeschiktheid of juridische vrijwaring verklaard. De onduidelijke zelfstandige werken zijn daadwerkelijk uitgesloten. Herintroductie vraagt een nieuwe rechtenbeoordeling. De statische datasetbestanden blijven geschikt voor browsergebruik; er is geen backend of externe bron-download nodig om ze te laden.
+
+## Bijlage: oorspronkelijke bestandshashes
+
+SHA256 van alle 136 oorspronkelijke bestanden (niet de nieuwe distributiehashes):
+
+| Oorspronkelijk pad | SHA256 |
+|---|---|
+| `README.md` | `0e6a58200de79ba4831714519b13110c41ce45a238129b87e24c01f5ae2244f1` |
+| `bronnen/1996.pdf` | `4e19bd25d108881ba8f72d5744e3179bf2dee5354e6d4101acc6c07f40a0de22` |
+| `bronnen/2017-xls.xls` | `9f4c0c18bd5c45a7859404cb636eebd537306b77a990d091d000783deff062de` |
+| `bronnen/2017.pdf` | `1c067c6591dfb9dbd9ca664ae5df8f33ae5d902feac62cb9e23f697cd485820a` |
+| `bronnen/2020.pdf` | `0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c` |
+| `bronnen/Concordans Selectielijst 1996-2020(1).xlsx` | `7dfda792ce61c1a6fa28c5c116155a429560153178c6c58987eabbbe6cdf708c` |
+| `bronnen/Handleiding SelectTool.pdf` | `9a92dec5030ac15dc94db70a9072666c6a3b0deb1970e5769b217b6d9ddd3363` |
+| `bronnen/Selectielijst 1996.pdf` | `f8c265d61dfdb9fd97bc42fc83a1852287bbe8552979eae8e9090edd92ff1c2a` |
+| `bronnen/Selectielijst 2017.pdf` | `7398d4e499079ea6b988572fc6a80af33ff9e47cb6ae2f69ecc5a264741b7689` |
+| `bronnen/Selectielijst 2020.pdf` | `c72c5ab1ab32fcb54466a9c3fad186eefbbf0c250f9fdada2c446e3c220b24bf` |
+| `bronnen/rapport-1996.md` | `f721ffe56e3d4fed33eaf6073939fc47e0602374b1ad0801298024f4ceb591ad` |
+| `bronnen/rapport-2017.md` | `e062b163b75997c31b747767fdfca10651f2d1c3b023aa714f85eb57813d17f3` |
+| `bronnen/rapport-2020.md` | `a17506685146a152525d260bc39183ec77a76bd52747ea81ec698258f76658c6` |
+| `bronnen/urls.json` | `be2a6c9e8afa42f0c2c200ef890ccd5ea5ac8c7d42d1890bcf5f07b56625c12d` |
+| `concordans/concordans.json` | `b01cff07c7bfeeb6f562d467373615f5a18cfc7ab9777f11fcd5cb1ed7de73dd` |
+| `controle/Controle-instructie.md` | `a3eaf5547badf05b0bdaa7ddfe389ec853fc0cf1faa5637e78392a6ec4778b11` |
+| `controle/Controlewerkboek.xlsx` | `1b2982aa3958bc754477700b9f015180d32aef563b776e8f3eaeeaafb6fa70ae` |
+| `controle/bevestigingen-gebruiker.json` | `cf7ef7ad9c45ff7e0856fe1b8177516359dfd64b9e1d77781a649a09fdb51d04` |
+| `controle/bronbeelden/2017-7.1.2.png` | `f180add427b0112f54e3b0a67720ca5d30713a02ba2272e96976d47efb13b464` |
+| `controle/bronbeelden/2017-7.1.3.png` | `901d4758eaaebf7f7e3e85c21d9dbb557d9402423e9e0905216c90e1ac0c02d7` |
+| `controle/bronbeelden/2017-7.1.5.png` | `7a1fc572af0efa13bc48b3b0d97b01ad1ce0bc5a83f3af517f4381838990f3be` |
+| `controle/bronbeelden/2017-7.1.6.png` | `fcd80c93581a692aae71c11e565286cc825777bbeaeeca7716997b4a70b18267` |
+| `controle/bronbeelden/2020-19.1.19.png` | `811cca50c665995b2b7fb8d8410218c73d4389f0193106cbd2f44ca1b4427b9a` |
+| `controle/bronbeelden/2020-19.1.20.png` | `56317154ba5c68ec5eeaf7d7df6bda262fe7b267c58b1f1c1f6379f46462fe56` |
+| `controle/bronbeelden/2020-19.1.21.png` | `91437478363dee11cf83fc3c9b4067843878a32d9439c2f827db6063b50126b0` |
+| `controle/bronbeelden/2020-19.1.22.png` | `31c2f5b4dd2d6eee72fc64602930ef56e3fc415a8b098e92865bcace4277fa02` |
+| `controle/bronbeelden/2020-19.1.23.png` | `3fdf536ead000f6a1f048b30329823a5f897016e0f27108bd6db3828203c7587` |
+| `controle/bronbeelden/2020-19.1.24.png` | `1909b4d8bfda76229d898664883f941f518076470dfb7f6dbedb5edf93c34794` |
+| `controle/bronbeelden/2020-22.1.3.png` | `cbd7166af53de3efd0572fb584f6b64e5a8351e0f7b8beee299f46950b6b52c1` |
+| `controle/controleversie.json` | `a2ca0ca1f307397c00e74236c7cc8bf87e48f91b0b1b5ee1027587e7289b06e8` |
+| `datasets/1996-2012/bepalingen.json` | `722dd40bade3b94fe8f02b2712bff2b9129214f618457c619ba70d272f0650c1` |
+| `datasets/1996-2012/bronannotaties.json` | `37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570` |
+| `datasets/1996-2012/codeinventaris.json` | `bee4e3c8726e0efacb4ee503964694697a3cb5335b21b824187895361a3f846d` |
+| `datasets/1996-2012/kandidaten-ongekoppeld.json` | `5916a4985576c9446e56a039c08865787653957d7bc0861873c558d710d30838` |
+| `datasets/1996-2012/manifest.json` | `be46b67cf415ecc630d0354d5ad6376db2f5e0e471d5cdaf25da6767fd8045f9` |
+| `datasets/1996-2012/relaties.csv` | `3fcf189a7c7b56555aa184dd7d2338584b91a5c7d18a1739a14c51680b9e9306` |
+| `datasets/1996-2012/relaties.json` | `416f7e03281a4bd993a805a55aa852f6d9d70fa881435f824df94a8461abf328` |
+| `datasets/1996-2012/rubriekcontext.json` | `e3ab01120a95bce5762ade039a7793a4e0d59b5717e1f058c312624a07f66d27` |
+| `datasets/1996-2012/selectiegegevens.csv` | `2a7e9eedcd8ccda7a1c35c03e7187d92b3fa1280855fec4ed29757dc8cba7d7b` |
+| `datasets/1996-2012/selectiegegevens.json` | `18bae451fcacdab7c28099c547c41c730022670346877a541dd30cb4f7c3ff61` |
+| `datasets/1996-2012/structuur.csv` | `f7aaf05b2c6ce94e110fc7c7587ce3fe5076caf451d926de308b51eae45eb3da` |
+| `datasets/1996-2012/structuur.json` | `eee83556bcc5e567f020833c6f498b29bbf19be64be4a6489b3c1aaf95c8b1f6` |
+| `datasets/1996-2012/testvragen.csv` | `587d7dc46ff17ad2a5ea23cbd0c39ea12ae6ad38755b992880e3d45969d8d4db` |
+| `datasets/1996-2012/testvragen.json` | `96aaf44a9bec1d1602cf139767d6750307cab88a557533eeab604eb40b8b4537` |
+| `datasets/1996-2012/validatie.json` | `bbbbc83530db592637cee93fb243e0ff7ceb45879cc6be2d1f8a7a57d1aa07ca` |
+| `datasets/1996-2012/zoeklexicon.csv` | `2a27683ea7daf389923a4c0c8a5780f936d44263a10c363de3c7f3758e5119c0` |
+| `datasets/1996-2012/zoeklexicon.json` | `89b54258a45a67d0d82b2bea1738d75b9f90c7f97d4dcdc5837b4ba490a3eaed` |
+| `datasets/2017/bepalingen.json` | `b845acb1c6f4905d1b7f45f9e7034ff2cf294cfe0ff4286a1be36946cfe45df5` |
+| `datasets/2017/bronannotaties.json` | `14e8fcbbd3a440e0f54d1865fb9ad3ee582cfcbe8e5509864c15885a6f21f967` |
+| `datasets/2017/codeinventaris.json` | `ee9741467b72c3e9f8cb6e79b55c1be10d1c31be44cffdd73e927ed78176b45f` |
+| `datasets/2017/kandidaten-ongekoppeld.json` | `59dc6d4ae8417becc5dc940b68e9ddf8a6028dba964977c31712f89c7dc3ca38` |
+| `datasets/2017/manifest.json` | `a1002d5cece837239059abc6f9efa7b7db4f4d569edbe1cea11a4c2eda6d1f9d` |
+| `datasets/2017/relaties.csv` | `6fa31fed1b5d1d82c2d906c49ab74ca146d0b4572bc44660b80c56cc3fa73835` |
+| `datasets/2017/relaties.json` | `6ce0a200c064cd7c976d31a8a26a47fec21cbc85c159e59d00319685fb2faac8` |
+| `datasets/2017/selectiegegevens.csv` | `3c202ed7524f8076bad2fac0bee2c3ef7bcfcc5556600b06ab65927156275821` |
+| `datasets/2017/selectiegegevens.json` | `eb6abfbcf289f25b2565b9767b7146304f34112657ab3a0ea47cec0b0ecc7d09` |
+| `datasets/2017/structuur.csv` | `ad17e054bf912153e4bed3b3126d8a2f7d5b10e8004b5073177f7df3b6920ef9` |
+| `datasets/2017/structuur.json` | `9cb6038704d169ac6a9e554ec8334308747cffe2d0c2b3bc7d318e6e46147647` |
+| `datasets/2017/testvragen.csv` | `051d2a7bfd6cc740c0ceac226e52010196a76112ca93a6ea1fcce76cc2b00ad0` |
+| `datasets/2017/testvragen.json` | `b5301f05ddc2807ab915283b78a60102c5cdd47881a71890c247e7079888c1af` |
+| `datasets/2017/validatie.json` | `8e71bbf7c691f26ff7d44a573c2c4a6c771fe5bce847044f756ad714e0042779` |
+| `datasets/2017/wijzigingen.json` | `c768d79ff21ec18052cacb01c4883af92f3fc1217e4e27e40feebc10433e286e` |
+| `datasets/2017/zoeklexicon.csv` | `69491c306ab27ab606eb6014636f8dc6f73f85b2d3c3db0ac5868eba8d46e71c` |
+| `datasets/2017/zoeklexicon.json` | `c2bfb0fe2b3c686971e76836b48792e2cfc3d2259eb4a27a55f24a3508968699` |
+| `datasets/2020/bepalingen.json` | `81ba7e7e6e9d50910390a2744e13fbda721c4573587669bae212c7088c0d688a` |
+| `datasets/2020/bronannotaties.json` | `d5d76897e56c8a0e23c7d9174bb66b849ec18d100c87b3ba7793f86be1010de6` |
+| `datasets/2020/codeinventaris.json` | `1bbe02e316c83ad5f20a2730aee60e66e0b35b0f7555798cb9ff753c8d88b751` |
+| `datasets/2020/kandidaten-ongekoppeld.json` | `09a4dd39d3a27c1abaa2f63ca86fa3d6676e4d19b18e6ced561b19a96201e363` |
+| `datasets/2020/manifest.json` | `bba44e506e5c4b02a5e7262ee0e58b1276d704065ef66d051be7267073165f6b` |
+| `datasets/2020/relaties.csv` | `36eca0a268e42f93081f914e2c2449d703b9647d180c636e5a4dcc0b1a0cc61e` |
+| `datasets/2020/relaties.json` | `a010443ab7788a91b21ffaaa3b927947a53d380dd4bb1cb5c9f80190f61bc58b` |
+| `datasets/2020/selectiegegevens.csv` | `fa85dde7a40918ccfba1a63533df81eb5c673ea7d9f06feb9c8bd2ae144873ed` |
+| `datasets/2020/selectiegegevens.json` | `22770648546af647c5070a82c2f893de77ef5f8fb42b56e0281495f9abab149c` |
+| `datasets/2020/structuur.csv` | `6115c34cd7bc1ec6375fcbb672330a79a506aad2385f2cb9f785593ade5f8d1d` |
+| `datasets/2020/structuur.json` | `3707ae9dfea5d821bdd9cc48cfabfac03602dd95fd66f9952acccf8d552bdf43` |
+| `datasets/2020/testvragen.csv` | `d78bbeb458581b7183a05a55123ed68bc7bea7b22c645906392fbcc02c2208cf` |
+| `datasets/2020/testvragen.json` | `dab8e7da5edeb498b9788518f300fc2302ddb6a97730bc3f7f0e6a694ea3b053` |
+| `datasets/2020/validatie.json` | `33c18a956738703e1298cdbcccc85b4b3c6976ae90f22c99ca81135c50f3747e` |
+| `datasets/2020/wijzigingen.json` | `a817f97558f05354d5c11ee2eddea089164ab4ca7f8c2c4d622b71aeacad81c1` |
+| `datasets/2020/zoeklexicon.csv` | `d23d9c70a08060bf8552ebc3b0afacadb710d37d738b06b4617609e5f1d136b6` |
+| `datasets/2020/zoeklexicon.json` | `2cfd642214e8748ac28106caee5f858a3d55061242a18709e1379abf830d406a` |
+| `documentatie/aanvullende-broncontrole.json` | `28731d98d751e8e420a3d55de06fc919b726a7ad9b790747f28af6a26959ebfe` |
+| `documentatie/afgeronde-broncontroles.json` | `77dd98e4a006ed6825d7400ba1e2fef793d5c708f0f534bbf096719f908f92ba` |
+| `documentatie/afgewezen-onderzoeksrelaties.json` | `afbd7762b79d2db2830b2aacf4ea2c81ba53b91e7f142f27270779e46c950444` |
+| `documentatie/bronannotaties.json` | `0e4665184f8ff8e1f6df6206aea3ee5018011421de9e0fa5523b90f24244a9d0` |
+| `documentatie/broncontrole-1996.json` | `ded3b7d6c3164b4fb2db42ffa8a62c2f84804def517dccac66874f60cd4fc9a6` |
+| `documentatie/bronnenregister.json` | `9308fd208f32c4ae16f9cdcace87f533295e889c414de8f1a4efc909744ce469` |
+| `documentatie/bronnenregister.md` | `c93df5f17cb6ee9cfc3f45a51f8ba6b9b609639bee0f63f407bc9e4427ce1367` |
+| `documentatie/bronverschillen-2017.json` | `412056549d2a8437c2797b32ed3f6e494d5ae720b5385c03bba83bc20ffe0ffb` |
+| `documentatie/bronvragen-aan-bronhouder.md` | `52abce62b31978152023a5c2501488650f28dabb487f21e1f8503c0ce2ebf2d4` |
+| `documentatie/concordans-afwijkingen.json` | `c9de06b12c03c5373fcc7012931d3bcc98f954c4a586263b59c7f2ac21e99da9` |
+| `documentatie/controleoverdracht.md` | `3b3f0f1436e332b8e4fb7499096d284492d30c248893f581ffaecdabb19886df` |
+| `documentatie/correctie-procestermijn-2017.json` | `ff1b6b98cc311c5f794605d6edf7d025522e533669a7b1e16c4401e4f00f0bd7` |
+| `documentatie/correctie-procestermijn-2017.md` | `1b9aca6ff3c2a900026e144aa2a1e17d23e504382d02087d383a7deb4ca3878a` |
+| `documentatie/dekking-1996.json` | `bee4e3c8726e0efacb4ee503964694697a3cb5335b21b824187895361a3f846d` |
+| `documentatie/eindcontrole.json` | `31f51e31e7e2d7de49dac31ce739b3d11d0bb09c91d4596fa2e2fe504d755204` |
+| `documentatie/eindrapport.md` | `79cf56b7d2f4a8ce7408a20e236b3753c9623fcdb10c338cb337ee4c89d17fc7` |
+| `documentatie/gegevensspecificatie.md` | `aa7bbc8f8183e06a8dc236c6bd5e9ab9a13a52e441eefed6cd32f619c3ef8b63` |
+| `documentatie/historie/voor-eindoplevering-bronvragen-aan-bronhouder.md` | `d44f7eba5eb634fe87365c6b478e56e31d3299c32fc50af9d3ac19a476e9f021` |
+| `documentatie/historie/voor-eindoplevering-controleoverdracht.md` | `4bc7bacc802c5c19a12d6dada167435502fc1b685b56b6dc2b38da068fab570b` |
+| `documentatie/historie/voor-eindoplevering-openstaande-beoordelingen.md` | `3b4f8dc94338082aec8d4e9b24bb110f0c6968db2587d43de6addcf85d5bd500` |
+| `documentatie/historie/voor-eindoplevering-validatierapport.md` | `e7dc4fe61973d31f48690979f8216c7047f1ce3ad910822e1c78ac67a052fb57` |
+| `documentatie/implementatieadvies.md` | `205822fdd3832a83e39cd9da398198e42ebd4c9f8d07551875af1856a5ccdd54` |
+| `documentatie/kopcontrole-1996.json` | `02f0a103ce0f3d3cb2630d7aaa923197a00122765d4f1284280bbdb9e8b95823` |
+| `documentatie/openstaande-beoordelingen.json` | `37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570` |
+| `documentatie/openstaande-beoordelingen.md` | `a2812e5cd43be75c37c6f63a2af5561c7112b03b31d452b5ec0e04d6aa803b77` |
+| `documentatie/reproduceerbaarheid.md` | `43fabca7a03d8bbc669b80de28be94c5b2cb87859230a83d814d6334a06dfc0c` |
+| `documentatie/reproduceerbaarheidscontrole.json` | `c374cc933086a721f7f4e8a3d1c6e488eb0b36bb374713a63d5ec3a6ea4e022c` |
+| `documentatie/rubriektoewijzingscontrole-1996.json` | `70af3aa56a2e5984176a01d19bff8672a16cff291359e32601066910dd0a5b29` |
+| `documentatie/validatie-correctie-0.3.1.json` | `846bdec4769f5148923948f4b0688fac16dc222e1d290d2b0b080473ab9e21a1` |
+| `documentatie/validatierapport.md` | `79cf56b7d2f4a8ce7408a20e236b3753c9623fcdb10c338cb337ee4c89d17fc7` |
+| `documentatie/validatieresultaten.json` | `07488783f1854de839f80f85baed0d5e49622049e72f87c8f33ccc7c28d3c00d` |
+| `documentatie/volledige-termijnkolomcontrole-1996.json` | `48f3b7b33219511ca4470076b93495b3c6325783b8c2a6edc307eb8f4954f527` |
+| `documentatie/wijzigingscontext-2017.json` | `c768d79ff21ec18052cacb01c4883af92f3fc1217e4e27e40feebc10433e286e` |
+| `documentatie/zoekverrijking-beoordelingen.json` | `17b26d91e804ff965d5b97484ad9e1bf1b0f541e4c26f0b6d34ae978bb7bc408` |
+| `requirements.txt` | `8aafd03e5ccb8a6438aed2d29a065e9eee3abfdf921b106758fdc03fdb6ca07a` |
+| `schemas/bronannotaties.schema.json` | `31a131f47940eb3854b8bb5e0b953bc8b009bca61497cc87536caabb3954f5b3` |
+| `schemas/manifest.schema.json` | `5523a28b33eba25bda2fd0267bcca885fc780ec32bffc31b6a8f726b215966d0` |
+| `schemas/relaties.schema.json` | `36d733aba9735b49113ca687a2f7a5b44a898c6af9b4c4d10c9fc350d42eed8e` |
+| `schemas/selectiegegevens.schema.json` | `56c489e54ebd31697c392e56c14d6fa0f6e1d8b55454ad2e015bbe4ffce7e83c` |
+| `schemas/structuur.schema.json` | `bba466071de19ebb43c3c9d6fc0d51267bd23482e54bf9a7259d4e8eb4ae5db7` |
+| `schemas/testvragen.schema.json` | `9aa12e3d42c00656d968f2cba43ac8500bda85c2aaa3fe0701ccd45a0eb7291e` |
+| `schemas/zoeklexicon.schema.json` | `2f6522548d6bb3a61395919918fad81da6099a841ea6f7e972a6e0cdeb2bc4e8` |
+| `scripts/analyse_concordance.py` | `4590212a315a6c9e58edf88ad918af81d10ee9d30289f3f645979e939a451f71` |
+| `scripts/build_revision.py` | `2b0d3e122f6f288b4c380c57c00d9bb0a8ae035a2c6765ebdb1b3df32605a18b` |
+| `scripts/correct_procestermijn.py` | `217361334f4579c63a8a005a1ebab6c8f09b59c601408c0e7070b7be639c321d` |
+| `scripts/coverage1996.py` | `aed15c8596b69144db832a34bea1e68b9a717d37ae61bb23947649e5402fcb45` |
+| `scripts/document_revision.py` | `0e3b1738744d1c423d0706faed33479332e8315be080c8f5e9b7435d6ef175cc` |
+| `scripts/enrich_revision.py` | `e34d6a3a847bbae586feac3249eb6135377eab3fc1705158750ad1bdbeb621f8` |
+| `scripts/extract_tables.py` | `82c8f186004ecab3dd16c8d07c5bf0336b8da3655a8fa50bdbd15d2c3d2fa417` |
+| `scripts/final_delivery.py` | `49608b705ac57b4e7012fe8e8565b69506ad278f89afb1c48bf2def32ac03a7f` |
+| `scripts/headers1996.py` | `6a7d448f44d7655dcee3a48eb0f6ebe289c48e224f503aa6a462f68e39b5dd23` |
+| `scripts/reproduce.py` | `a71bdb93553258618d836dd6f963e801a410d0c99865d7cd6c4cdf6448eb1bbc` |
+| `scripts/review_handoff.py` | `2fd331d94daaee4a0829a9d1ce763053cf06bc4ef2577f6a51f2f8516830f51f` |
+| `scripts/validate_revision.py` | `05a2ac47c9aa6f744c8ac188f4cc03c05dfca93ba749ce3020f9ffbae116e7b6` |
+| `scripts/verify1996.py` | `c7c435aabc305426d08756b83ae5876a27e28b73b4bdcfa9c2a0d105094bd52b` |
