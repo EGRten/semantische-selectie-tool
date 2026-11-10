@@ -11,7 +11,8 @@
     "test:browser": "playwright test",
     "dev": "npm run build && node scripts/serve.mjs",
     "preview": "node scripts/serve.mjs",
-    "nulmeting": "node scripts/nulmeting-trefwoordzoeken.mjs"
+    "nulmeting": "node scripts/nulmeting-trefwoordzoeken.mjs",
+    "vergelijk:zoekkwaliteit": "node scripts/vergelijk-zoekkwaliteit.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.65.0",

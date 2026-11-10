@@ -6,7 +6,7 @@ import standaloneCode from 'ajv/dist/standalone/index.js';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const ajv = new Ajv2020({ strict: false, allErrors: true, code: { source: true, esm: true } });
-const schemas = { manifest: 'manifest', structuur: 'structuur', selectiegegevens: 'selectiegegevens' };
+const schemas = { manifest: 'manifest', structuur: 'structuur', selectiegegevens: 'selectiegegevens', zoeklexicon: 'zoeklexicon', relaties: 'relaties' };
 for (const naam of Object.keys(schemas)) {
   ajv.addSchema(JSON.parse(await readFile(new URL(`../schemas/${naam}.schema.json`, import.meta.url), 'utf8')), naam);
 }
