@@ -14,7 +14,7 @@ async function resultaat(page,lijst,proces,generiek,specifiek) {
 }
 test.beforeEach(async({page})=>{ await page.goto('./'); });
 
-test('initialisatie: Nederlands, lege toestand, geen datasetverzoeken of zoekveld',async({page})=>{
+test('initialisatie: Nederlands, lege toestand, geen datasetverzoeken en uitgeschakeld zoekveld',async({page})=>{
   const requests=[];page.on('request',r=>{if(r.url().includes('/datasets/'))requests.push(r.url());});
   await page.reload();
   await expect(page).toHaveTitle('Semantische Selectie Tool');
@@ -23,7 +23,7 @@ test('initialisatie: Nederlands, lege toestand, geen datasetverzoeken of zoekvel
   await expect(page.getByRole('combobox')).toHaveValue('');
   await expect(page.getByRole('button',{name:'Alles inklappen'})).toBeDisabled();
   expect(requests).toEqual([]);
-  await expect(page.getByRole('searchbox')).toHaveCount(0);
+  await expect(page.getByRole('searchbox')).toBeDisabled();
 });
 for(const [lijst,aantal] of [['1996-2012',2],['2017',29],['2020',29]]) {
   test(`${lijst}: uitsluitend gekozen lijst en officiële hoofdvolgorde`,async({page})=>{
@@ -121,7 +121,8 @@ test('bronannotaties, afgebroken tekst en afwijkende bronlabels zichtbaar',async
 test('toetsenbord: tabstop, pijlen, enter, spatie, home/end en zichtbare focus',async({page})=>{
   await kies(page,'2020');
   await page.getByRole('combobox').focus();await page.keyboard.press('Tab');
-  await expect(page.getByRole('button',{name:'Alles inklappen'})).toBeFocused();
+  await expect(page.getByRole('searchbox')).toBeFocused();
+  await page.getByRole('button',{name:'Alles inklappen'}).focus();
   await page.keyboard.press('Tab');await expect(item(page,'2020:1')).toBeFocused();
   await page.keyboard.press('ArrowRight');await expect(item(page,'2020:1')).toHaveAttribute('aria-expanded','true');
   await page.keyboard.press('ArrowRight');await expect(item(page,'2020:1.1')).toBeFocused();

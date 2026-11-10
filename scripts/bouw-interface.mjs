@@ -1,5 +1,6 @@
 import { build } from 'esbuild';
 import { cp, mkdir, rm } from 'node:fs/promises';
+await build({ entryPoints: ['src/zoeken/index.ts'], outfile: 'dist/zoeken/index.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 // De bronbestanden worden ongewijzigd in de statische publicatiemap gekopieerd.
 await rm('dist/site', { recursive: true, force: true });
 await mkdir('dist/site/interface', { recursive: true });

@@ -10,7 +10,8 @@
     "test:unit": "node --disallow-code-generation-from-strings --test tests/*.test.mjs",
     "test:browser": "playwright test",
     "dev": "npm run build && node scripts/serve.mjs",
-    "preview": "node scripts/serve.mjs"
+    "preview": "node scripts/serve.mjs",
+    "nulmeting": "node scripts/nulmeting-trefwoordzoeken.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.65.0",
