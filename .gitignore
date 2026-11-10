@@ -52,3 +52,6 @@ Desktop.ini
 .bronopbouw-prive/
 .private-inputs/
 .reproduce/
+
+# JavaScript-ontwikkelomgeving
+node_modules/
