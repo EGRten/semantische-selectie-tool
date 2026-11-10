@@ -1,0 +1,21 @@
+{
+  "name": "semantische-selectie-tool",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --declaration --emitDeclarationOnly --outDir dist && node scripts/bouw-gegevenslaag.mjs",
+    "test": "npm run build && node --disallow-code-generation-from-strings --test tests/*.test.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "typescript": "5.9.3",
+    "ajv": "8.20.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/gegevenslaag/index.d.ts",
+      "import": "./dist/gegevenslaag/index.js"
+    }
+  }
+}
