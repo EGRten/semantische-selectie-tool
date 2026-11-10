@@ -267,4 +267,3 @@ export type Datasetmanifest = {
   };
   readonly "publicatievoorbereiding"?: { readonly [key: string]: JsonValue };
 };
-
