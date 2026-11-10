@@ -55,3 +55,7 @@ Desktop.ini
 
 # JavaScript-ontwikkelomgeving
 node_modules/
+
+# Lokale browser-testresultaten
+playwright-report/
+test-results/

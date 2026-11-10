@@ -4,13 +4,19 @@
   "type": "module",
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "build": "tsc --declaration --emitDeclarationOnly --outDir dist && node scripts/bouw-gegevenslaag.mjs",
-    "test": "npm run build && node --disallow-code-generation-from-strings --test tests/*.test.mjs"
+    "build": "npm run build:gegevenslaag && node scripts/bouw-interface.mjs",
+    "test": "npm run build && npm run test:unit && npm run test:browser",
+    "build:gegevenslaag": "tsc --declaration --emitDeclarationOnly --outDir dist && node scripts/bouw-gegevenslaag.mjs",
+    "test:unit": "node --disallow-code-generation-from-strings --test tests/*.test.mjs",
+    "test:browser": "playwright test",
+    "dev": "npm run build && node scripts/serve.mjs",
+    "preview": "node scripts/serve.mjs"
   },
   "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "ajv": "8.20.0",
     "esbuild": "0.28.2",
-    "typescript": "5.9.3",
-    "ajv": "8.20.0"
+    "typescript": "5.9.3"
   },
   "exports": {
     ".": {
