@@ -2,7 +2,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { parseArgs } from 'node:util';
 import { maakGegevenslaag } from '../dist/gegevenslaag/index.js';
-import { maakZoekindex, zoekwoorden } from '../dist/zoeken/index.js';
+import { maakZoekindex, zoekwoorden } from '../dist/zoeken/oorspronkelijk.js';
 const { values } = parseArgs({ options: { output: { type: 'string' } } });
 const root = new URL('../datasets/',import.meta.url);
 const laag = maakGegevenslaag({ datasetsUrl:root, ophalen:async url=>new Response(await readFile(url,'utf8')) });

@@ -1,6 +1,10 @@
 import type { Dataset, SelectielijstId } from '../gegevenslaag/index.js';
+import { analyseerVraag, woordstam, pastPolariteit, BREDE_TERMEN, NEGATIES } from './vraag.js';
 import { normaliseer, zoekwoorden } from './normalisatie.js';
-export { normaliseer, zoekwoorden, markeerbereiken } from './normalisatie.js';
+export { normaliseer, zoekwoorden } from './normalisatie.js';
+export { analyseerVraag, pastPolariteit, BREDE_TERMEN } from './vraag.js';
+import { markeerbereiken as bronMarkering } from './normalisatie.js';
+export function markeerbereiken(tekst: string, vraag: string) { return bronMarkering(tekst, analyseerVraag(vraag).woorden.join(' ')); }
 
 export type Rang = 1 | 2 | 3 | 4 | 5;
 export const RANGREDENEN: Readonly<Record<Rang, string>> = Object.freeze({
@@ -25,7 +29,7 @@ export interface Zoekresultaat {
 }
 interface Document {
   id: string; code: string; benaming: string; type: string; context: string; vervallen: boolean;
-  velden: readonly GeindexeerdVeld[]; volgorde: number;
+  velden: readonly GeindexeerdVeld[]; volgorde: number; contextNormaal: string; labels: readonly string[];
 }
 function codewaarde(tekst: string): string { return tekst.normalize('NFKC').trim().replace(/\s*\.\s*/gu, '.'); }
 function woordtelling(velden: readonly GeindexeerdVeld[], woorden: readonly string[]): number {
@@ -72,7 +76,7 @@ export function maakZoekindex(dataset: Dataset) {
     if (!pad) throw new Error(`Zoekpad ontbreekt: ${id}`);
     const context = pad.slice(0, -1).map(s => `${s.gegevens.code} ${s.soort === 'structuur' ? s.gegevens.benaming : s.gegevens.officiele_benaming}`).join(' / ');
     documenten.push({ id, code: regel?.code ?? node!.code, benaming, type: node?.type ?? 'voorschrift',
-      context, vervallen: regel?.status === 'vervallen', volgorde: documenten.length,
+      context, contextNormaal: normaliseer(context), labels: [benaming, regel?.resultaattype ?? ''], vervallen: regel?.status === 'vervallen', volgorde: documenten.length,
       velden: velden.map(v => ({ ...v, normaal: normaliseer(v.tekst), woorden: new Set(zoekwoorden(v.tekst)) })),
     });
   }
@@ -82,17 +86,50 @@ export function maakZoekindex(dataset: Dataset) {
     for (const regel of dataset.selectiegegevensBij(id)) if (!dataset.structuuronderdeel(regel.id)) toevoegen(regel.id);
   }
   for (const root of dataset.hoofdonderdelen()) bezoek(root.id);
+  const vocabulaire = new Set(documenten.flatMap(d => d.velden.flatMap(v => [...v.woorden])));
+  const splitsingen = new Map<string, readonly [string,string][]>();
+  function splits(woord: string): readonly [string,string][] {
+    const oud = splitsingen.get(woord); if (oud) return oud;
+    const opties: [string,string][] = [];
+    if (woord.length >= 10) for (let i=4;i<=woord.length-4;i++) {
+      const a=woord.slice(0,i),b=woord.slice(i);
+      if(vocabulaire.has(a)&&vocabulaire.has(b))opties.push([a,b]);
+    }
+    splitsingen.set(woord,opties);return opties;
+  }
+  const tekstvormen = new Map<string,{stammen:Set<string>;aaneen:Set<string>;tokens:string[]}>();
+  for(const tekst of documenten.flatMap(d=>[d.contextNormaal,...d.velden.map(v=>v.normaal)]))if(!tekstvormen.has(tekst)){
+    const tokens=tekst.split(' ');tekstvormen.set(tekst,{tokens,stammen:new Set(tokens.map(woordstam)),
+      aaneen:new Set(tokens.flatMap((_,i)=>[tokens.slice(i,i+2).join(''),tokens.slice(i,i+3).join('')]))});
+  }
+  function match(woord: string, tekst: string): boolean {
+    if(tekst.includes(woord))return true;
+    const vormen=tekstvormen.get(tekst)!,tokens=vormen.tokens,stam=woordstam(woord);
+    if(stam.length>=4&&vormen.stammen.has(stam))return true;
+    // Alleen tekstueel aangrenzende bronstukken verbinden; geen betekenisrelatie.
+    if(woord.length>=8&&vormen.aaneen.has(woord))return true;
+    return splits(woord).some(([a,b])=>tokens.some(t=>t.includes(a))&&tokens.some(t=>t.includes(b)));
+  }
   return Object.freeze({
     selectielijst: dataset.id,
     zoek(vraag: string, opties: { vervallenMeenemen?: boolean } = {}): readonly Zoekresultaat[] {
-      const query = normaliseer(vraag); const woorden = zoekwoorden(vraag);
+      const analyse = analyseerVraag(vraag); const query = analyse.normaal; const woorden = analyse.woorden;
       if (!query) return [];
+      if(!woorden.length||woorden.every(w=>NEGATIES.has(w)))return [];
       const code = codewaarde(vraag); const codevraag = /^\d+(?:\.\d+)*$/u.test(code);
       const gevonden: { resultaat: Zoekresultaat; naamwoorden: number; omschrijvingswoorden: number; volgorde: number }[] = [];
       for (const doc of documenten) {
         if (doc.vervallen && !opties.vervallenMeenemen) continue;
         const exactCode = code === codewaarde(doc.code);
-        if (codevraag ? !exactCode && !doc.code.startsWith(`${code}.`) : !woorden.every(w => doc.velden.some(v => v.normaal.includes(w)))) continue;
+        const exactNaamBron = doc.velden.some(v=>v.rol==='naam'&&v.normaal===query);
+        const eigen = (w: string) => doc.velden.some(v=>match(w,v.normaal));
+        const contextAnker = woorden.some(w=>!BREDE_TERMEN.has(w)&&!NEGATIES.has(w)&&eigen(w));
+        const contextMatch = (w: string) => contextAnker&&match(w,doc.contextNormaal);
+        const breedAlleen = woorden.every(w=>BREDE_TERMEN.has(w));
+        if (codevraag ? !exactCode && !doc.code.startsWith(`${code}.`) :
+          !exactNaamBron && !woorden.every(w=>eigen(w)||contextMatch(w))) continue;
+        if(!codevraag&&!pastPolariteit(vraag,doc.labels,doc.velden.map(v=>v.tekst)))continue;
+        if(!codevraag&&breedAlleen&&!doc.velden.some(v=>(v.rol==='naam'||v.rol==='omschrijving')&&woorden.every(w=>[...v.woorden].some(t=>t===w||woordstam(t)===woordstam(w)||t.endsWith(w)))))continue;
         const namen = doc.velden.filter(v => v.rol === 'naam');
         const primair = doc.velden.filter(v => v.rol === 'naam' || v.rol === 'omschrijving');
         const toelichtingen = doc.velden.filter(v => v.rol === 'toelichting');
@@ -102,12 +139,13 @@ export function maakZoekindex(dataset: Dataset) {
         const rang: Rang = exactCode ? 1 : exactNaam ? 2 : codevraag ? 5 :
           woordtelling(primair, woorden) === woorden.length ? 3 :
           woordtelling(doc.velden, woorden) === woorden.length && woordtelling(toelichtingen, woorden) > 0 ? 4 : 5;
-        const matches = doc.velden.filter(v => woorden.some(w => v.normaal.includes(w)));
+        const matches = doc.velden.filter(v => woorden.some(w => match(w,v.normaal)));
+        const viaContext = !woorden.every(eigen);
         const snippet = matches.find(v => v.rol !== 'naam') ?? matches[0];
         gevonden.push({ naamwoorden, omschrijvingswoorden, volgorde: doc.volgorde, resultaat: Object.freeze({
           id: doc.id, selectielijst: dataset.id, code: doc.code, benaming: doc.benaming, type: doc.type,
           context: doc.context, vervallen: doc.vervallen, rang, reden: RANGREDENEN[rang],
-          overeenkomstvelden: Object.freeze(matches.map(v => v.label)),
+          overeenkomstvelden: Object.freeze([...matches.map(v => v.label), ...(viaContext?['Bovenliggende benaming (naast eigen tekst)']:[])]),
           fragment: snippet ? Object.freeze({ veld: snippet.label, tekst: snippet.tekst }) : undefined,
         }) });
       }

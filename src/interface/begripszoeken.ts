@@ -76,7 +76,7 @@ export function maakBegripspaneel(selecteer: (id: string) => void, laden: (id: S
           blok.append(element('p',`Bron: ${t.bron.bron_id}${t.bron.pdf_pagina!==undefined?`, pagina ${t.bron.pdf_pagina}`:''}.`));
           if(t.bron.fragment)blok.append(element('blockquote',t.bron.fragment,'brontekst'));
           blok.append(element('p',`Risico op verwarring: ${t.risico_op_verwarring}.`));
-          if(t.herkomsttype==='ai_voorgesteld'&&!v.onbevestigd)blok.append(element('p','De zoekrichting is inhoudelijk beoordeeld; dit is geen officieel synoniem of formeel selectieoordeel.'));
+          if(t.herkomsttype==='ai_voorgesteld'&&!v.onbevestigd)blok.append(element('p','Deze status beschrijft een vastgelegde plausibiliteitsbeoordeling; onafhankelijke menselijke goedkeuring is niet aangetoond. Dit is geen officieel synoniem of formeel selectieoordeel.'));
         }
         uitleg.append(blok);
       }
