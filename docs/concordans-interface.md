@@ -1,5 +1,49 @@
 # Concordansinterface en historische vergelijking
 
+## Actuele verwerking van beoordelingsbesluiten — 11 november 2026
+
+De projecteigenaar heeft tien besluiten voor acht probleemgroepen aangeleverd. Codex heeft deze technisch verwerkt; dit is geen onafhankelijke inhoudelijke validatie door Codex en geen validatie van alle 612 interpretaties. De vastleggingsdatum is 11 november 2026. De oorspronkelijke gespreksdatum is onbekend en blijft leeg. Beoordelaarsrol: **Projecteigenaar — inhoudelijke beoordeling**.
+
+De oorspronkelijke onderzoeksvoorstellen, kandidaten en technische A/B/C-registratie blijven intact. Het register onderscheidt de oorspronkelijke `gevallen` (onderzoeksvoorstellen), de nieuwe `beoordelingsbesluiten` en hun afzonderlijke `technische_verwerking`. De oude lege beoordelaarsvelden horen bij het oorspronkelijke onderzoeksdossier; de actuele besluiten staan uitsluitend in de nieuwe laag. `relatie_inhoudelijk_goedgekeurd` is bij alle tien besluiten `false`: een bevestigde onzekerheid of technische recordidentiteit is geen goedkeuring van juridische of inhoudelijke gelijkwaardigheid.
+
+| Bronrij | Vastgelegd besluit | Technisch gevolg |
+| --- | --- | --- |
+| 50, 51, 52 | Behoud koppeling met `1996-2012:2.8::001`; tekstverschil blijft zichtbaar | Drie bestaande koppelingen behouden; één gedeeld tekstueel vraagstuk |
+| 6 | Onvoldoende onderbouwd; beide historische kandidaten behouden | Geen definitieve historische koppeling |
+| 21 | Afzonderlijke technische verwijzing van `19.1.` naar `2020:19.1` | De bestaande relatie-ID en bron `1996-2012:2.3::003` blijven behouden |
+| 89 | Onvoldoende onderbouwd; beide historische kandidaten behouden | Geen definitieve historische koppeling |
+| 90 | Meerdere historische relaties mogelijk; beide kandidaten en termijnverschil zichtbaar | Geen definitieve historische koppeling; concordans 10 jaar versus officiële 5 jaar blijft zichtbaar |
+| 293 | Meerdere historische relaties mogelijk; alle drie kandidaten behouden | Geen definitieve historische koppeling |
+| 434 | Onvoldoende onderbouwd; beide historische kandidaten behouden | Geen definitieve historische koppeling |
+| 442 | Meerdere historische relaties mogelijk; beide kandidaten behouden | Geen definitieve historische koppeling |
+
+| Dekking op werkelijke bron | Vóór | Na |
+| --- | ---: | ---: |
+| Historische relatie-interpretaties | 612 | 612 |
+| Volledig technisch gekoppeld | 605 | 606 |
+| Onopgelost | 7 | 6 |
+| Unieke gekoppelde recordparen | 604 | 605 |
+
+De zes resterende open interpretaties zijn rijen **6, 89, 90, 293, 434 en 442**. Zij blijven in het overzicht raadpleegbaar met hun kandidaten, onderbouwing en bevestigde onzekerheid. Er is geen kandidaat geactiveerd. Rij 716 blijft een afzonderlijke nieuwe-2020-verwijzing naar `2020:19.2.1`, zonder historische relatie.
+
+### Actuele besluitpresentatie
+
+De rijadapter biedt naast `beoordelingVoor` voor de oorspronkelijke onderzoeksregistratie nu `besluitVoor(bronrijOfInterpretatieId)` aan. Elke betrokken rij bevat haar afzonderlijke `beoordelingsbesluit`. De browserbuild neemt alleen de compacte besluitlaag uit het register op; het volledige onderzoeksregister wordt niet naar de site gekopieerd of tijdens gebruik opgehaald.
+
+De interface toont “Beoordelingsbesluit vastgelegd”, herkomst projecteigenaar, technische verwerking Codex, vastleggingsdatum en resterende onzekerheid. Technische koppeling, eigenaarbesluit en historisch onderzoek worden apart benoemd. Negatieve of meervoudige besluiten melden expliciet dat geen definitieve historische koppeling is vastgesteld.
+
+Rij 21 toont de oorspronkelijke `19.1.`, het gekoppelde officiële `19.1 — Verwerkt` en de melding dat de oorspronkelijke bedoeling niet onafhankelijk bewezen is. Vergelijken en navigeren gebruiken het officiële record in beide indexrichtingen. De vergelijkingskolommen blijven uitsluitend officiële datasetwaarden bevatten. Het overzicht toont zes open relaties en afzonderlijk beide technische correcties 21 en 716. De besluiten verwijderen de zes open relaties niet uit dit overzicht. Bij 50–52 blijft het tekstverschil direct zichtbaar; de officiële omschrijving is leidend.
+
+### Validatie van de besluitverwerking
+
+Op 11 november 2026 zijn **135 moduletests en 68 Chromium-browsertests geslaagd, zonder overgeslagen tests**. Uitgevoerd: `CONCORDANS_BRON_JSON=/tmp/concordans-12/concordans.json CHROMIUM_PATH=/usr/bin/chromium npm test`, `npm run typecheck`, `python scripts/valideer_publicatie.py` en de bestaande Excel/JSON-broncontrole. Productiebuild, bronidentiteit, alle 7.876 oorspronkelijke en 7.876 uitgevouwen cellen en het byte-identiek herhaalde koppelrapport zijn geslaagd. De echte bron blijft lokaal; een andere lokale bestandslocatie kan via dezelfde omgevingsvariabele worden gebruikt.
+
+Nieuwe regressies controleren alle tien besluiten/acht groepen, behoud van het volledige oorspronkelijke onderzoeksregister via een vaste SHA-256, 612/606/6, behoud van de oorspronkelijke 605 recordparen, broncellen, kandidaten, 50–52 en 716, gewijzigde bron-/doelcontext, ongeautoriseerde correctie-ID’s en uitsluitend de compacte besluitprojectie in de productie-uitvoer. De browser controleert rij 21 in beide richtingen, officiële vergelijking, zes open relaties, ontbrekend bestand en bestaande zoek-, boom- en detailfunctionaliteit. Desktop en mobiel zijn aanvullend visueel gecontroleerd onder `/controle/`, zonder JavaScript-fouten of horizontale overloop.
+
+Bewust gewijzigde oude testverwachtingen: rij 21 is nu gekoppeld op expliciet besluit; rapport- en overzichtstellingen veranderen daarom van 605/7 naar 606/6. De interface verwacht de vastgelegde besluitstatus en de build mag de compacte besluitlaag projecteren. De oorspronkelijke onderzoeksvoorstellen, B-kandidaten, officiële bronverwachtingen, zoekverwachtingen en volledige 605-parenvingerafdruk zijn behouden. Dit zijn geen aanpassingen om fouten te verhullen.
+
+## Historische uitgangsrapportage (behouden)
+
 ## Functie en afbakening
 
 Vanaf uitgangscommit `c2b4d99` (samengevoegde PR #11) bevat het bestaande detailpaneel een inklapbaar onderdeel **Vergelijk met andere selectielijsten**. De oorspronkelijke boom, zoekmodi en officiële details blijven de ingang. Er is geen nieuwe applicatiearchitectuur, backend, database, zoekalgoritme of beoordelingssysteem.

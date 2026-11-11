@@ -1,5 +1,49 @@
 # Concordansafwijkingen — gerichte controle 10A
 
+## Actuele verwerking van beoordelingsbesluiten — 11 november 2026
+
+De projecteigenaar heeft tien besluiten voor acht probleemgroepen aangeleverd. Codex heeft deze technisch verwerkt; dit is geen onafhankelijke inhoudelijke validatie door Codex en geen validatie van alle 612 interpretaties. De vastleggingsdatum is 11 november 2026. De oorspronkelijke gespreksdatum is onbekend en blijft leeg. Beoordelaarsrol: **Projecteigenaar — inhoudelijke beoordeling**.
+
+De oorspronkelijke onderzoeksvoorstellen, kandidaten en technische A/B/C-registratie blijven intact. Het register onderscheidt de oorspronkelijke `gevallen` (onderzoeksvoorstellen), de nieuwe `beoordelingsbesluiten` en hun afzonderlijke `technische_verwerking`. De oude lege beoordelaarsvelden horen bij het oorspronkelijke onderzoeksdossier; de actuele besluiten staan uitsluitend in de nieuwe laag. `relatie_inhoudelijk_goedgekeurd` is bij alle tien besluiten `false`: een bevestigde onzekerheid of technische recordidentiteit is geen goedkeuring van juridische of inhoudelijke gelijkwaardigheid.
+
+| Bronrij | Vastgelegd besluit | Technisch gevolg |
+| --- | --- | --- |
+| 50, 51, 52 | Behoud koppeling met `1996-2012:2.8::001`; tekstverschil blijft zichtbaar | Drie bestaande koppelingen behouden; één gedeeld tekstueel vraagstuk |
+| 6 | Onvoldoende onderbouwd; beide historische kandidaten behouden | Geen definitieve historische koppeling |
+| 21 | Afzonderlijke technische verwijzing van `19.1.` naar `2020:19.1` | De bestaande relatie-ID en bron `1996-2012:2.3::003` blijven behouden |
+| 89 | Onvoldoende onderbouwd; beide historische kandidaten behouden | Geen definitieve historische koppeling |
+| 90 | Meerdere historische relaties mogelijk; beide kandidaten en termijnverschil zichtbaar | Geen definitieve historische koppeling; concordans 10 jaar versus officiële 5 jaar blijft zichtbaar |
+| 293 | Meerdere historische relaties mogelijk; alle drie kandidaten behouden | Geen definitieve historische koppeling |
+| 434 | Onvoldoende onderbouwd; beide historische kandidaten behouden | Geen definitieve historische koppeling |
+| 442 | Meerdere historische relaties mogelijk; beide kandidaten behouden | Geen definitieve historische koppeling |
+
+| Dekking op werkelijke bron | Vóór | Na |
+| --- | ---: | ---: |
+| Historische relatie-interpretaties | 612 | 612 |
+| Volledig technisch gekoppeld | 605 | 606 |
+| Onopgelost | 7 | 6 |
+| Unieke gekoppelde recordparen | 604 | 605 |
+
+De zes resterende open interpretaties zijn rijen **6, 89, 90, 293, 434 en 442**. Zij blijven in het overzicht raadpleegbaar met hun kandidaten, onderbouwing en bevestigde onzekerheid. Er is geen kandidaat geactiveerd. Rij 716 blijft een afzonderlijke nieuwe-2020-verwijzing naar `2020:19.2.1`, zonder historische relatie.
+
+### Afzonderlijke technische interpretatie rij 21
+
+De originele code `19.1.` wordt nergens vervangen. Een expliciete doelkoppeling met status `technisch_gecorrigeerd_op_besluit` en `besluit_id` verwijst naar `2020:19.1`. De relatie blijft `concordans:rij:21:1996-2020:1`. Dit is de door de projecteigenaar gekozen interpretatie, geen onafhankelijk bewezen rectificatie van de oorspronkelijke auteur. De oude B-onderzoeksregistratie blijft historisch bewaard.
+
+Vóór toepassing controleert de adapter de oorspronkelijke elf cellen én de uitgevouwen historische/procescontext, de historische bronkoppeling, resultaatnaam Verwerkt en termijn Vernietigen na 5 jaar. Het officiële generieke doelrecord moet daadwerkelijk `19.1`, Verwerkt, waardering Vernietigen en bewaartermijn 5 jaar bevatten. Gewijzigde of tegenstrijdige context blokkeert de verwerking met een bestandsfout; er is geen algemene correctieregel voor codes met een slotpunt.
+
+De oorspronkelijke 605 gekoppelde relatie-ID/recordparen behouden dezelfde SHA-256-vingerafdruk `9ad6e66acaf581f538320b0f2b11763ac8fef09534ea42ab56939b0c076fd9a2`. Alleen rij 21 is toegevoegd aan de volledig gekoppelde verzameling. Bronwaarden en officiële datasets blijven ongewijzigd.
+
+### Validatie van de besluitverwerking
+
+Op 11 november 2026 zijn **135 moduletests en 68 Chromium-browsertests geslaagd, zonder overgeslagen tests**. Uitgevoerd: `CONCORDANS_BRON_JSON=/tmp/concordans-12/concordans.json CHROMIUM_PATH=/usr/bin/chromium npm test`, `npm run typecheck`, `python scripts/valideer_publicatie.py` en de bestaande Excel/JSON-broncontrole. Productiebuild, bronidentiteit, alle 7.876 oorspronkelijke en 7.876 uitgevouwen cellen en het byte-identiek herhaalde koppelrapport zijn geslaagd. De echte bron blijft lokaal; een andere lokale bestandslocatie kan via dezelfde omgevingsvariabele worden gebruikt.
+
+Nieuwe regressies controleren alle tien besluiten/acht groepen, behoud van het volledige oorspronkelijke onderzoeksregister via een vaste SHA-256, 612/606/6, behoud van de oorspronkelijke 605 recordparen, broncellen, kandidaten, 50–52 en 716, gewijzigde bron-/doelcontext, ongeautoriseerde correctie-ID’s en uitsluitend de compacte besluitprojectie in de productie-uitvoer. De browser controleert rij 21 in beide richtingen, officiële vergelijking, zes open relaties, ontbrekend bestand en bestaande zoek-, boom- en detailfunctionaliteit. Desktop en mobiel zijn aanvullend visueel gecontroleerd onder `/controle/`, zonder JavaScript-fouten of horizontale overloop.
+
+Bewust gewijzigde oude testverwachtingen: rij 21 is nu gekoppeld op expliciet besluit; rapport- en overzichtstellingen veranderen daarom van 605/7 naar 606/6. De interface verwacht de vastgelegde besluitstatus en de build mag de compacte besluitlaag projecteren. De oorspronkelijke onderzoeksvoorstellen, B-kandidaten, officiële bronverwachtingen, zoekverwachtingen en volledige 605-parenvingerafdruk zijn behouden. Dit zijn geen aanpassingen om fouten te verhullen.
+
+## Historische uitgangsrapportage (behouden)
+
 ## Uitgangspunt en broncontrole
 
 Uitgangscommit `16a83a9` bevat de samengevoegde PR #10. Onderzocht zijn precies de zeven onopgeloste relatie-interpretaties, zeven historische tekstafwijkingen en afzonderlijk rij 716: vijftien gevallen. Geen fictieve gegevens zijn gebruikt voor deze conclusies.

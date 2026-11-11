@@ -1,3 +1,4 @@
+import { besluitBij } from './besluiten.js';
 import { beoordelingBij } from './afwijkingen.js';
 import { Concordansfout, indexeerConcordans } from './index.js';
 import type { Concordansbestand, TechnischeKoppeling, OorspronkelijkeRelatie } from './index.js';
@@ -82,17 +83,25 @@ export async function indexeerBronconcordans(json:unknown,gegevenslaag:{laadData
       if(identiek.length!==1||identiek[0]?.id!==correct?.id||!beoordeling||!geenOud||c[6]!=='Niet verwerkt'||c[7]!=='Scans kentekens'||correct?.officiele_omschrijving!==c[7]||correct.resultaattype!==c[6]||doelkoppelingen.length!==1||doelkoppelingen[0]!.record_id!==null)fout('Bron- of doelcontext bij technische correctie 716 gewijzigd; herbeoordeling vereist');
       doelkoppelingen[0]={code:doel.codes[0]!,status:'technisch_gecorrigeerd',record_id:correct.id};
     }
+    const beoordelingsbesluit=besluitBij(r.bron.rij)??null;
+    if(r.bron.rij===21 && beoordelingsbesluit){
+      const doelrecord=nieuw.selectiegegeven('2020:19.1');const historie=oud.selectiegegeven('1996-2012:2.3::003');
+      const oorspronkelijkeRij=[null,'c.',historie?.officiele_omschrijving,'3 jaar','Secretariaat voeren en gegevens administreren / verwerken ','19.1.','Verwerkt',null,'Vernietigen na 5 jaar',null,null];
+      if(JSON.stringify(r.originele_cellen)!==JSON.stringify(oorspronkelijkeRij)||r.id!=='concordans:rij:21'||r.bron.werkblad!=='Blad1'||!beoordeling||c[0]!=='3. Intermediair optreden'||c[1]!=='c.'||c[2]!==historie?.officiele_omschrijving||c[3]!=='3 jaar'||c[4]!=='Secretariaat voeren en gegevens administreren / verwerken '||c[5]!=='19.1.'||c[6]!=='Verwerkt'||c[7]!==null||c[8]!=='Vernietigen na 5 jaar'||geenOud||oudIds.length!==1||oudIds[0]!==historie?.id||doelrecord?.code!=='19.1'||doelrecord.resultaattype!=='Verwerkt'||doelrecord.officiele_benaming!=='Verwerkt'||doelrecord.generiek_specifiek!=='Generiek'||doelrecord.waardering.officiele_tekst!=='Vernietigen'||doelrecord.bewaartermijn.officiele_tekst!=='5 jaar'||doelkoppelingen.length!==1||doelkoppelingen[0]!.record_id!==null)fout('Bron- of doelcontext bij besluitcorrectie 21 gewijzigd; herbeoordeling vereist');
+      doelkoppelingen[0]={code:doel.codes[0]!,status:'technisch_gecorrigeerd_op_besluit',record_id:doelrecord.id};
+    }
     const interpretaties:string[]=[];
     if(!geenOud)for(const code of doel.codes){
       const id=`${r.id}:1996-2020:${interpretaties.length+1}`;interpretaties.push(id);
       relaties.push({id,bron:{selectielijst:'1996-2012',code:null,omschrijving:c[2]||null},doel:{selectielijst:'2020',code,omschrijving:c[7]||c[6]||null},
         toelichting:doel.tekst,herkomst_id:'concordans-aangeleverd',bronlocatie:`${r.bron.werkblad}, rij ${r.bron.rij}, A:I`,relatietype:null,
         verificatiestatus:'technische_rijinterpretatie_geen_inhoudelijk_oordeel',onzekerheden:bronOnzekerheden});
+      if(r.bron.rij===21&&beoordelingsbesluit)koppelingen.push({relatie_id:id,zijde:'doel',soort:'selectiegegeven',record_id:'2020:19.1',status:'technisch_gecorrigeerd_op_besluit',besluit_id:beoordelingsbesluit.besluit_id,onderbouwing:beoordelingsbesluit.motivering});
       if(oudIds.length===1)koppelingen.push({relatie_id:id,zijde:'bron',soort:'selectiegegeven',record_id:oudIds[0]!,status:'technisch_gecontroleerd',onderbouwing:directIds.length?'Rechtstreekse werkbladrijreferentie uit bestaande dataset.':'Exacte identiteit van uitgevouwen cellen A:D met een door de dataset aangewezen bronrij; geen semantische tekstmatching.'});
     }
     return {bronrij_id:r.id,werkblad:r.bron.werkblad,rij:r.bron.rij,
       bron1996:{status:geenOud?'expliciet_geen_historische_regel':oudIds.length===1?(directIds.length?'dataset_bronrij':'identieke_uitgevouwen_cellen'):oudIds.length>1?'meerdere_kandidaten':'niet_gekoppeld',record_ids:oudIds,vergelijking},
-      beoordeling,
+      beoordeling,beoordelingsbesluit,
       doel2020:{...doel,koppelingen:doelkoppelingen},
       context2017:{status:!j?(c[10]?'waardering_zonder_omschrijving_te_beoordelen':'geen_aantekening'):afwezig2017(j)?'expliciet_afwezig_in_2017':'beschrijving_geen_code_te_beoordelen',kandidaat_ids:kandidaten2017,omschrijving:j,waardering:c[10]??null},
       interpretatie_ids:interpretaties};
@@ -101,7 +110,8 @@ export async function indexeerBronconcordans(json:unknown,gegevenslaag:{laadData
     hergebruik:'Werkelijke aangeleverde bron; publieke distributie niet vrijgegeven door deze technische verwerking.',verificatiestatus:'bronidentiteit_en_compleetheid_afzonderlijk_controleren'}],relaties,koppelingen,beoordelingen:[]};
   const concordans=await indexeerConcordans(bestand,gegevenslaag);
   const rijbeoordelingen=new Map(rijen.flatMap(r=>[r.bronrij_id,...r.interpretatie_ids].map(id=>[id,r.beoordeling] as const)));
-  return bevries(Object.freeze({bronrijen,rijen:Object.freeze(rijen),concordans,beoordelingVoor:(id:string)=>rijbeoordelingen.get(id)??null}));
+  const rijbesluiten=new Map(rijen.flatMap(r=>[r.bronrij_id,...r.interpretatie_ids].map(id=>[id,r.beoordelingsbesluit] as const)));
+  return bevries(Object.freeze({besluitVoor:(id:string)=>rijbesluiten.get(id)??null,bronrijen,rijen:Object.freeze(rijen),concordans,beoordelingVoor:(id:string)=>rijbeoordelingen.get(id)??null}));
 }
 /** Op aanvraag; invoer is de oorspronkelijke rij-JSON, niet het genormaliseerde contract. */
 export function laadBronconcordans(options:{bestandUrl:URL;gegevenslaag:{laadDataset:(id:SelectielijstId)=>Promise<Dataset>};ophalen?:Ophalen}){
