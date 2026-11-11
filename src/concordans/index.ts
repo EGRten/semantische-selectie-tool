@@ -1,6 +1,6 @@
 import type { Dataset, SelectielijstId, Ophalen } from '../gegevenslaag/index.js';
 
-export type Verwijzing = { readonly selectielijst: SelectielijstId; readonly code: string; readonly omschrijving: string | null };
+export type Verwijzing = { readonly selectielijst: SelectielijstId; readonly code: string | null; readonly omschrijving: string | null };
 export type OorspronkelijkeRelatie = {
   readonly id: string; readonly bron: Verwijzing; readonly doel: Verwijzing;
   readonly toelichting: string | null; readonly herkomst_id: string; readonly bronlocatie: string | null;
@@ -61,7 +61,7 @@ export function valideerConcordans(json:unknown): Concordansbestand {
     if(relaties.has(r.id))throw new Concordansfout('DUBBELE_ID',`Dubbele relatie: ${r.id}`);
     if(!bronnen.has(r.herkomst_id))ongeldig('Ontbrekende concordansherkomst');
     if(!Array.isArray(r.onzekerheden))ongeldig('Onzekerheden moeten een lijst zijn');r.onzekerheden.forEach(tekst);
-    for(const zijde of ['bron','doel']){const v=r[zijde];object(v);velden(v,['selectielijst','code','omschrijving']);lijst(v.selectielijst);tekst(v.code);optioneel(v.omschrijving);}
+    for(const zijde of ['bron','doel']){const v=r[zijde];object(v);velden(v,['selectielijst','code','omschrijving']);lijst(v.selectielijst);optioneel(v.code);optioneel(v.omschrijving);}
     if((r.bron as Objectwaarde).selectielijst===(r.doel as Objectwaarde).selectielijst)ongeldig('Concordans verwacht verschillende selectielijsten');
     relaties.set(r.id,r);
   }
@@ -86,7 +86,7 @@ function koppel(dataset:Dataset, v:Verwijzing, expliciet:TechnischeKoppeling|und
   if(expliciet){
     const r=expliciet.soort==='structuur'?dataset.structuuronderdeel(expliciet.record_id):dataset.selectiegegeven(expliciet.record_id);
     if(!r)return resultaat('ontbreekt',null,[],'Expliciet gekoppeld record ontbreekt.');
-    if(expliciet.status==='te_beoordelen'||r.code!==v.code)return resultaat('onzeker',null,[r.id],'Koppeling vereist beoordeling; geen automatische toekenning bij afwijkende broncode.');
+    if(expliciet.status==='te_beoordelen'||(v.code!==null && r.code!==v.code))return resultaat('onzeker',null,[r.id],'Koppeling vereist beoordeling; geen automatische toekenning bij afwijkende broncode.');
     return resultaat(expliciet.soort==='structuur'?'structuurniveau':'exact',ref(r.id,expliciet.soort),[],'Expliciete technische koppeling; geen inhoudelijk oordeel.');
   }
   const regels=dataset.selectiegegevens.filter(r=>r.code===v.code), nodes=dataset.structuur.filter(n=>n.code===v.code);
@@ -148,3 +148,6 @@ export function maakConcordanslaag(options:{bestandUrl:URL;gegevenslaag:{laadDat
   }
   return Object.freeze({laad});
 }
+
+export { valideerBronrijen, indexeerBronconcordans, laadBronconcordans } from './bronbestand.js';
+export type { Bronrij } from './bronbestand.js';

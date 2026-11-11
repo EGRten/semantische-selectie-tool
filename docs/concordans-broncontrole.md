@@ -1,61 +1,112 @@
-# Concordans: broninventarisatie en publicatiegrens
+# Concordans: controle van de werkelijke bron
 
-## Aangetroffen materiaal
+## Correctie van de voorlopige rapportage
 
-Uitgangsversie `9eae8bb` bevat de samengevoegde detailweergave uit PR #8. README, projectinstructies, ontwikkelplan, gegevenslaag, detaildocumentatie en de structuur-/selectieschema's zijn vooraf geraadpleegd.
+De aanvankelijke publicatie-ZIP bevatte geen concordans. Die constatering was voorlopig, geen volledige concordansintegratie. De nieuw aangeleverde bijlage `gemeentelijke-selectielijsten-eindpakket(2).zip` bevat wél de oorspronkelijke Excel en de eerder vervaardigde rij-JSON. Deze correctie is uitgevoerd vanaf `62f8269` (samengevoegde PR #9). Fictieve relaties zijn uitsluitend geïsoleerde technische tests; onderstaande bevindingen komen uit de werkelijke bron.
 
-De taakbijlage `gemeentelijke-selectielijsten-publicatiepakket(1).zip` is volledig op ZIP-integriteit gecontroleerd: geen beschadigde entry. SHA-256: `ebdb6a390cd1974d9a345bda196a7495aaece901c9bee6931e292ff40f816238`. De bestandenlijst bevat **niet** `concordans/concordans.json` en **niet** `bronnen/Concordans Selectielijst 1996-2020(1).xlsx`. Ook lokaal zijn deze twee bestanden niet aangetroffen. De wel aanwezige `controle/Controlewerkboek.xlsx` is een controleoverdracht, niet de oorspronkelijke concordans; daarmee is geen concordans gereconstrueerd.
+Alle ZIP-entries zijn op integriteit gecontroleerd: geen fout. Alleen de twee concordansbestanden en het reeds bekende concordans-afwijkingenregister zijn lokaal uitgelezen. Geen andere oorspronkelijke pakketbestanden zijn opnieuw geïmporteerd. De openbare officiële datasets, bestaande bronregistraties en lexicons zijn ongewijzigd.
 
-Gelezen uit de bijlage: README, HERGEBRUIK.md, concordans/README.md en documentatie/concordans-afwijkingen.json. De pakketdocumenten worden als broninformatie behandeld, niet als aanvullende uitvoeringsopdracht. De reeds aanwezige bronregistratie `bronnen/concordans-aangeleverd.bron.json` verklaart dat de originele werkmap en volledige JSON-spiegel bewust niet zijn heruitgegeven. De oorspronkelijke SHA-256 van de werkmap is `7dfda792ce61c1a6fa28c5c116155a429560153178c6c58987eabbbe6cdf708c`; zonder bronbytes is deze hash nu niet opnieuw gecontroleerd.
-
-## Feitelijke dekking
-
-| Onderzoekspunt | Vastgesteld resultaat |
+| Controle | Resultaat |
 | --- | --- |
-| Vergeleken versies | Niet vastgesteld. De bestandsnaam noemt 1996–2020; dit bewijst geen dekking van 2017 of actualisatie 2012. |
-| Bron-/doelrichting | Niet vastgesteld; geen tabelinhoud beschikbaar. |
-| Officiële codes en omschrijvingen in de concordans | Niet volledig inventariseerbaar. De bestaande datasetcodes zijn geen bewijs van concordansdekking. |
-| Eén-op-één, één-op-veel, veel-op-één | Technisch ondersteund en fictief getest; feitelijke aantallen onbekend. |
-| Bronlocaties en verklaringen per echte relatie | Niet inspecteerbaar zonder JSON/Excel. |
-| Exact gekoppelde echte verwijzingen | Niet vastgesteld, **geen nul-dekkingsclaim**. |
-| Onzekere of ontbrekende echte verwijzingen | Niet vastgesteld; onderstaande geregistreerde afwijking is geen volledige inventaris. |
-| Volledigheid/lacunes | Onbekend; geen volledige vergelijking tussen alle drie lijsten aangenomen. |
+| Excel SHA-256 | `7dfda792ce61c1a6fa28c5c116155a429560153178c6c58987eabbbe6cdf708c` — exact gelijk aan de opgegeven bronregistratie |
+| Rij-JSON SHA-256 | `b01cff07c7bfeeb6f562d467373615f5a18cfc7ab9777f11fcd5cb1ed7de73dd` |
+| Werkblad | Eén: Blad1 |
+| Inhoud | 716 niet-lege gegevensrijen, Excelrijen 3–718; twee koprijen en een lege slotrij |
+| Kolommen | A:K, elf kolommen |
+| Samengevoegde bereiken | 550 |
+| Oorspronkelijke cellen | Alle 7.876 waarden gelijk tussen Excel en JSON, inclusief lege waarden |
+| Uitgevouwen cellen | Alle 7.876 waarden gelijk na het volgen van uitsluitend de echte samengevoegde Excelbereiken |
+| Volledigheid | JSON is een volledige spiegel van de niet-lege gegevensrijen van deze werkmap; geen claim van volledige historische dekking |
 
-Het al gepubliceerde afwijkingenregister noemt rij 716 met bronwaarde `19.21.1` en een voorstel `19.2.1`. Dit is uitsluitend een eerder geregistreerde bevinding, hier niet opnieuw geverifieerd. De module corrigeert deze code niet en leidt er geen historische relatie uit af. De bronwaarde blijft bij eventuele latere invoer ongewijzigd; een afwijkende code vraagt expliciete beoordeling.
+De controle gebruikt `scripts/controleer-concordansbron.py` met uitsluitend Python-standaardbibliotheken. Een afwijkende Excel-hash, ontbrekende rij of gewijzigde cel laat deze controle falen. Er zijn geen broncellen gerepareerd. De machineleesbare code-inventaris in de JSON is behouden, maar vormt geen zelfstandig bewijs dat ieder genoemd nummer een resultaatcode is.
 
-## Herkomst en functioneel hergebruik
+## Feitelijke versies en bronrichting
 
-De Semantische Selectie Tool is een onafhankelijk, publiek toegankelijk, niet-commercieel initiatief zonder winstoogmerk dat informatieprofessionals kosteloos ondersteunt. Functioneel hergebruik is het technische ontwerpuitgangspunt. Dit projectkarakter wordt niet gelijkgesteld aan bewezen toestemming voor publicatie van een volledige externe tabel.
+A:D beschrijven de selectielijst vanaf 1996; de technische aansluiting wordt getoetst aan de bestaande dataset 1996/2012. E:I beschrijven de selectielijst 2020. J:K zijn aantekeningen over 2017: omschrijving en waardering, **geen expliciete 2017-codes**. De koppen bewijzen geen afzonderlijke volledige vergelijking 2017↔2020 of 1996↔2017.
 
-De bronregistratie verwijst voor context naar [VHIC: selectielijsten 2017 en 2020](https://www.vhic.nl/faq/selectielijsten-2017-en-2020/). VHIC wordt genoemd als organisatie van deze broncontext; de aanwezige metadata bewijst niet wie deze exacte werkmap oorspronkelijk publiceerde of welke partij alle rechten bezit. De context-URL is geen aangetoonde directe downloadlink en is in deze opdracht niet extern geverifieerd.
+De technische bronrichting is de linkerkant (1996) naar de expliciet genoemde 2020-resultaten. Inkomend opzoeken is een indexweergave van dezelfde relatie, geen door de bron vastgestelde omgekeerde opvolgingsrelatie. Er is geen juridische gelijkwaardigheid, vervanging of automatische toepasselijkheid afgeleid.
 
-De meegeleverde HERGEBRUIK.md noemt voorwaarden uit de VNG-proclaimer, waaronder naamsvermelding en beperkingen op commercieel gebruik, maar stelt geen bestandsbrede vrijgave voor deze zelfstandige concordans vast. Er is geen nieuwe toestemming, licentie of juridische gelijkwaardigheid aangetoond. Bestaande bron- en rechtenmetadata blijven behouden.
+## Aansluiting op bestaande datasets
 
-**Niet publiek toegevoegd:** ZIP, oorspronkelijke Excel, echte concordans-JSON, volledige afgeleide tabel of uit het controlewerkboek gereconstrueerde relaties. De code en documentatie kunnen afzonderlijk worden beoordeeld. Alleen expliciet fictieve technische testverbindingen zijn toegevoegd in de testcode; ze worden niet naar de statische site gekopieerd.
+De 494 bestaande selectievoorschriften van 1996/2012 bevatten ieder een unieke aanvullende bronverwijzing naar een rij van deze concordans. Alle 494 aangewezen rijen bestaan. Voor 133 verdere rijen zijn de werkelijk uitgevouwen cellen A:D exact identiek aan zo'n aangewezen rij. Daardoor is hun historische technische record traceerbaar, zonder ongedocumenteerd doorvullen van lege cellen of afleiden van technische suffixen uit subletters.
 
-## Concrete vervolgactie voor echte gegevens
-
-1. Verkrijg de oorspronkelijke JSON en/of werkmap rechtmatig en bewaar ze buiten Git, bijvoorbeeld in de reeds uitgesloten `.private-inputs/`. Controleer de bronhash en leg werkblad, rij, kolommen, oorspronkelijke publicerende organisatie en eventuele rechthebbenden vast.
-2. Inventariseer de feitelijke versies, richtingen, codes, meerduidigheden en lacunes. Gebruik bij voorkeur JSON; controleer volledigheid en oorspronkelijke formulering tegen Excel. Het nieuwe invoercontract is geen veronderstelde beschrijving van de ontbrekende oude JSON: een eventuele omzetting moet expliciet worden gecontroleerd.
-3. Leg een toepasselijke publicatiegrondslag of concrete toestemming vast, inclusief eventuele naamsvermelding, versie, beperkingen en bereik voor de afgeleide gegevens. Laat de beheerder deze afbakening vaststellen; niet-commercieel gebruik alleen geldt niet als bewijs van toestemming.
-4. Maak daarna pas een afzonderlijk beoordeelbare toevoeging van het statische gegevensbestand. Behoud bronrelatie, technische koppeling en latere inhoudelijke beoordeling apart. Laat onopgeloste verwijzingen zichtbaar, zonder codeherstel of verspreiding over rubriekvoorschriften.
-5. Voer de validatie en koppelrapportage op die echte invoer uit. Publiceer de werkmap niet automatisch mee. De huidige module heeft geen automatische invoer- of publicatieroute voor private bestanden.
-
-Er is in deze opdracht geen verzoek om toestemming verstuurd en niets naar GitHub Pages gepubliceerd.
-
-## Technische koppelrapportage op fictieve data
-
-De zes bronrelaties in `tests/concordans.test.mjs` zijn **verzonnen verbindingen tussen bestaande datasetcodes**. Ze zijn uitsluitend een technische fixture, geen historisch materiaal en geen inhoudelijke relevantieoordelen.
-
-| Resultaat basisfixture | Aantal |
+| Historische aansluiting per bronrij | Aantal |
 | --- | ---: |
-| Fictieve relaties | 6 |
-| Aan beide kanten technisch oplosbaar | 5 |
-| Met ontbrekend doel | 1 |
-| Exacte eindpuntkoppelingen | 8 |
-| Eindpunten uitsluitend op structuurniveau | 3 |
-| Ontbrekende eindpunten | 1 |
-| Relaties met expliciete brononzekerheid | 6 |
-| Inhoudelijk goedgekeurde relaties | 0 |
+| Rechtstreekse bestaande dataset-rijreferentie | 494 |
+| Exact identieke uitgevouwen A:D-cellen | 133 |
+| Niet gekoppeld, waaronder koppen/context | 76 |
+| Expliciet ‘Nieuw in Selectielijst 2020’, geen historische regel | 13 |
+| Totaal | 716 |
 
-Afzonderlijke tests controleren een expliciete, nog te beoordelen koppeling; een afwijkende broncode; een ontbrekend technisch ID; meerdere kandidaten; dubbele koppelingen en een verwijzing naar de verkeerde lijst. Er worden geen aantallen uit deze fixture aan echte concordansdekking toegeschreven. Zie het [gegevensmodel](concordans-gegevensmodel.md) voor de API en de resterende beperkingen.
+Van de 627 technisch herkende historische rijen hebben 620 een letterlijk identieke omschrijving, vijf een afwijkende omschrijving en twee een lege concordansomschrijving. Deze zeven rijen zijn afzonderlijk gemarkeerd; de technische rij-identiteit betekent geen inhoudelijke gelijkwaardigheid. Alle 627 termijncellen komen letterlijk overeen met de gekoppelde dataset. De officiële teksten worden nooit aan de concordans aangepast.
+
+| Verwijzingsvorm in de 2020-kolommen | Rijen |
+| --- | ---: |
+| Expliciete code of slashgescheiden codes in F | 578 |
+| Expliciet tekstbereik ‘t/m’ | 6 |
+| Algemene bepaling/paragraaf, geen resultaatcode | 21 |
+| Onvolledige code zonder reparatie | 1 |
+| Overige tekstuele verwijzing, te beoordelen | 43 |
+| Geen resultaatcode | 67 |
+
+De zes uitgeschreven bereiken worden begrensd over dezelfde codeprefix uitgewerkt; voorwaarden en tekst blijven ongewijzigd. ‘Bewaren onder paragraaf 1.3’ wordt niet gekoppeld aan resultaat 2020:1.3 (‘Opgeheven’). De algemene bepalingen bevatten immers een paragraaf 1.3 over beginselen voor bewaring en vernietiging. Ook een voorbeeld zoals ‘zoals 5.1’ krijgt geen bindende resultaatkoppeling. Deze beperkingen voorkomen aantoonbare nummerverwarring; de bron-JSON zelf is niet gewijzigd.
+
+## Resultaten op werkelijke relaties
+
+| Technisch resultaat | Aantal |
+| --- | ---: |
+| Relatie-interpretaties 1996→2020 | 612 |
+| Aan beide kanten gekoppeld | 605 |
+| Minstens één eindpunt onopgelost | 7 |
+| Historisch eindpunt gekoppeld / ontbreekt | 606 / 6 |
+| 2020-eindpunt gekoppeld / ontbreekt binnen interpretaties | 611 / 1 |
+| Unieke gekoppelde technische recordparen | 604 |
+| Historische records met één / meerdere doelen | 353 / 83 |
+| Doelrecords met één / meerdere historische bronnen | 106 / 109 |
+| Interpretaties met onopgelost eindpunt of expliciete brononzekerheid | 13 |
+
+605 gekoppelde broninterpretaties omvatten 604 unieke paren: een herhaald paar blijft als twee afzonderlijke bronrijverklaringen behouden. 436 historische records en 215 2020-records hebben minstens één volledig gekoppelde relatie. Dit is technische dekking, geen maat voor inhoudelijke juistheid of volledigheid. Een rij met uitsluitend een algemene voorwaarde wordt niet tot een fictieve recordrelatie gemaakt.
+
+De zeven onopgeloste interpretaties zijn exact:
+
+| Bronrij-ID | Probleem | Letterlijk genoemd doel |
+| --- | --- | --- |
+| concordans:rij:6 | Geen expliciete of samengevoegde historische voorschriftcontext | 9.1.1 |
+| concordans:rij:21 | Onvolledige doelcode; geen reparatie naar 19.1 | 19.1. |
+| concordans:rij:89 | Historisch voorschrift niet uniek vastgesteld | 11.1 |
+| concordans:rij:90 | Historisch voorschrift niet uniek vastgesteld | 3.1 |
+| concordans:rij:293 | Historisch voorschrift niet uniek vastgesteld | 9.3.3 |
+| concordans:rij:434 | Historisch voorschrift niet uniek vastgesteld | 7.1.23 |
+| concordans:rij:442 | Historisch voorschrift niet uniek vastgesteld | 7.1.24 |
+
+Daarnaast bevat rij 716 de ongeldige doelcode `19.21.1`. Deze rij staat onder ‘Nieuw in Selectielijst 2020’: er is daarom geen historische relatie aangemaakt. De afzonderlijke rijrapportage houdt het ontbrekende doel wel vast. Het bestaande afwijkingenregister noemt een voorstel `19.2.1`; dit wordt niet automatisch toegepast. Over alle 625 uitgewerkte doelverwijzingen, inclusief de nieuwe 2020-rijen zonder historisch voorschrift, zijn 623 codes technisch gekoppeld en twee niet (rijen 21 en 716).
+
+## 2017: context, geen verzonnen codemapping
+
+673 rijen hebben geen J/K-aantekening, 27 benoemen expliciet afwezigheid in 2017, dertien hebben een beschrijvende aantekening zonder code en drie alleen een waardering. Bij zes van de dertien beschrijvingen bestaat een unieke letterlijke tekstmatch met een 2017-record. Deze blijven **kandidaten voor inhoudelijke beoordeling**, geen vastgestelde 2017-concordansrelaties. Er is niet via gelijkgenummerde 2020-codes uitgebreid. Het volledige bronmateriaal en alle opmerkingen blijven in de runtime-bronrijen beschikbaar.
+
+## Exact rapport en reproduceerbaarheid
+
+De volledige technische rapportage per bronrij én per relatie staat lokaal in `/tmp/concordans-controle/koppelingen.json`. Zij vermeldt alle bronrij-ID's, gekoppelde technische IDs, kandidaat-IDs, statussen, oorspronkelijke doelteksten, onzekerheden en de volledige lijst onopgeloste interpretaties. `/tmp/concordans-controle/broncontrole.json` legt de Excel-/JSON-identiteit en celcontrole vast; `samenvatting.json` bevat de tellingen. De volledige afgeleide koppelingen blijven buiten de publieke commit.
+
+```sh
+npm run build
+python scripts/controleer-concordansbron.py \
+  --excel '/pad/Concordans Selectielijst 1996-2020(1).xlsx' \
+  --json /pad/concordans.json --output /tmp/concordans-controle/broncontrole.json
+node scripts/onderzoek-concordans.mjs \
+  --bron /pad/concordans.json --output /tmp/concordans-controle
+CONCORDANS_BRON_JSON=/pad/concordans.json CHROMIUM_PATH=/usr/bin/chromium npm test
+```
+
+De scripts weigeren rapportuitvoer naar publieke projectpaden; `.private-inputs/` is de bestaande uitgesloten lokale uitzondering. Ze pakken geen ZIP uit en importeren geen andere pakketbestanden. Voor reproduceerbaarheid zijn de twee rechtmatig verkregen bronbestanden vereist. Zonder lokale bron slaat alleen de herkenbaar gemarkeerde werkelijke-brontest over; fictieve tests gelden dan niet als vervangende dekking. In deze uitvoering is de werkelijke-brontest daadwerkelijk uitgevoerd en geslaagd.
+
+## Herkomst en publieke distributie
+
+Het initiatief is onafhankelijk, publiek toegankelijk, niet-commercieel en zonder winstoogmerk. Functioneel hergebruik blijft het ontwerpuitgangspunt. De nieuwe bronaanlevering en hashmatch bewijzen bestandsidentiteit, **geen nieuwe herpublicatietoestemming**. De aangeleverde werkmap bevat geen aangetoonde bestandsbrede licentie; de eerder gepubliceerde rechtenafbakening blijft gelden.
+
+De bestaande broncontext verwijst naar [VHIC](https://www.vhic.nl/faq/selectielijsten-2017-en-2020/). Dit is geen bewezen directe downloadlocatie of bewijs dat VHIC alle rechten op deze exacte werkmap bezit. De precieze oorspronkelijke publicerende organisatie/rechthebbenden blijven in de bronmetadata onzeker; zij worden niet ingevuld op basis van software-eigenschappen of aannames.
+
+Excel, oorspronkelijke concordans-JSON, volledige technische koppeltabel en overige bestanden uit het eindpakket zijn niet in Git opgenomen. De browsermodule kan de **werkelijke** oorspronkelijke rij-JSON zelfstandig laden zodra deze onder een vastgestelde distributiegrondslag als statisch bestand beschikbaar wordt gesteld. Nog nodig voor publieke data-opname: leg de toepasselijke voorwaarden/grondslag en naamsvermelding voor dit bestand en de afgeleide tabel concreet vast en voeg die data daarna afzonderlijk ter beoordeling toe. Geen bronpublicatie of GitHub Pages geactiveerd.
+
+De technische verwerking op de echte bron is nu uitgevoerd. Publieke data-distributie, een concordansinterface en inhoudelijke oplossing van de resterende verwijzingen zijn niet afgerond.
