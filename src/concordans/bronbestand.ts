@@ -1,3 +1,4 @@
+import { beoordelingBij } from './afwijkingen.js';
 import { Concordansfout, indexeerConcordans } from './index.js';
 import type { Concordansbestand, TechnischeKoppeling, OorspronkelijkeRelatie } from './index.js';
 import type { Dataset, SelectielijstId, Ophalen } from '../gegevenslaag/index.js';
@@ -72,6 +73,15 @@ export async function indexeerBronconcordans(json:unknown,gegevenslaag:{laadData
     const doel=doelverwijzingen(r),j=c[9]??null;
     const kandidaten2017=j&&!afwezig2017(j)?(ds2017?.selectiegegevens.filter(d=>d.officiele_benaming===j||d.officiele_omschrijving===j).map(d=>d.id)??[]):[];
     // J/K bevatten geen codes. Zelfs een unieke tekstmatch wordt geen vastgestelde 2017-relatie.
+    const registratie=beoordelingBij(r.bron.rij);
+    const beoordeling=registratie?.oorspronkelijke_doelwaarde===c[5]?registratie:null;
+    const doelkoppelingen=doel.codes.map(code=>{const regel=nieuw.selectiegegevens.find(d=>d.code===code),node=nieuw.structuur.find(d=>d.code===code);return {code,status:regel?'exact':node?'structuurniveau':'ontbreekt',record_id:regel?.id??node?.id??null};});
+    if(r.bron.rij===716 && registratie){
+      const correct=nieuw.selectiegegeven('2020:19.2.1');
+      const identiek=nieuw.selectiegegevens.filter(d=>d.officiele_omschrijving===c[7]&&d.resultaattype===c[6]);
+      if(identiek.length!==1||identiek[0]?.id!==correct?.id||!beoordeling||!geenOud||c[6]!=='Niet verwerkt'||c[7]!=='Scans kentekens'||correct?.officiele_omschrijving!==c[7]||correct.resultaattype!==c[6]||doelkoppelingen.length!==1||doelkoppelingen[0]!.record_id!==null)fout('Bron- of doelcontext bij technische correctie 716 gewijzigd; herbeoordeling vereist');
+      doelkoppelingen[0]={code:doel.codes[0]!,status:'technisch_gecorrigeerd',record_id:correct.id};
+    }
     const interpretaties:string[]=[];
     if(!geenOud)for(const code of doel.codes){
       const id=`${r.id}:1996-2020:${interpretaties.length+1}`;interpretaties.push(id);
@@ -82,14 +92,16 @@ export async function indexeerBronconcordans(json:unknown,gegevenslaag:{laadData
     }
     return {bronrij_id:r.id,werkblad:r.bron.werkblad,rij:r.bron.rij,
       bron1996:{status:geenOud?'expliciet_geen_historische_regel':oudIds.length===1?(directIds.length?'dataset_bronrij':'identieke_uitgevouwen_cellen'):oudIds.length>1?'meerdere_kandidaten':'niet_gekoppeld',record_ids:oudIds,vergelijking},
-      doel2020:{...doel,koppelingen:doel.codes.map(code=>{const regel=nieuw.selectiegegevens.find(d=>d.code===code),node=nieuw.structuur.find(d=>d.code===code);return {code,status:regel?'exact':node?'structuurniveau':'ontbreekt',record_id:regel?.id??node?.id??null};})},
+      beoordeling,
+      doel2020:{...doel,koppelingen:doelkoppelingen},
       context2017:{status:!j?(c[10]?'waardering_zonder_omschrijving_te_beoordelen':'geen_aantekening'):afwezig2017(j)?'expliciet_afwezig_in_2017':'beschrijving_geen_code_te_beoordelen',kandidaat_ids:kandidaten2017,omschrijving:j,waardering:c[10]??null},
       interpretatie_ids:interpretaties};
   });
   const bestand:Concordansbestand={versie:1,bronnen:[{id:'concordans-aangeleverd',titel:'Concordans Selectielijst 1996-2020(1).xlsx',organisatie:null,url:null,
     hergebruik:'Werkelijke aangeleverde bron; publieke distributie niet vrijgegeven door deze technische verwerking.',verificatiestatus:'bronidentiteit_en_compleetheid_afzonderlijk_controleren'}],relaties,koppelingen,beoordelingen:[]};
   const concordans=await indexeerConcordans(bestand,gegevenslaag);
-  return bevries(Object.freeze({bronrijen,rijen:Object.freeze(rijen),concordans}));
+  const rijbeoordelingen=new Map(rijen.flatMap(r=>[r.bronrij_id,...r.interpretatie_ids].map(id=>[id,r.beoordeling] as const)));
+  return bevries(Object.freeze({bronrijen,rijen:Object.freeze(rijen),concordans,beoordelingVoor:(id:string)=>rijbeoordelingen.get(id)??null}));
 }
 /** Op aanvraag; invoer is de oorspronkelijke rij-JSON, niet het genormaliseerde contract. */
 export function laadBronconcordans(options:{bestandUrl:URL;gegevenslaag:{laadDataset:(id:SelectielijstId)=>Promise<Dataset>};ophalen?:Ophalen}){

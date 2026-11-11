@@ -17,7 +17,7 @@ const rs=controle.concordans.relaties;
 const opgelost=rs.filter(r=>r.bron.record&&r.doel.record);
 const bronNaarDoel=new Map(),doelNaarBron=new Map();
 for(const r of opgelost){const b=r.bron.record.id,d=r.doel.record.id;if(!bronNaarDoel.has(b))bronNaarDoel.set(b,new Set());bronNaarDoel.get(b).add(d);if(!doelNaarBron.has(d))doelNaarBron.set(d,new Set());doelNaarBron.get(d).add(b);}
-const samenvatting={bronrijen:controle.bronrijen.length,bron1996:tel(controle.rijen.map(r=>r.bron1996.status)),doelverwijzingen:tel(controle.rijen.map(r=>r.doel2020.status)),
+const samenvatting={beoordelingen_10a:tel(controle.rijen.filter(r=>r.beoordeling).map(r=>r.beoordeling.categorie)),bronrijen:controle.bronrijen.length,bron1996:tel(controle.rijen.map(r=>r.bron1996.status)),doelverwijzingen:tel(controle.rijen.map(r=>r.doel2020.status)),
  doel_eindpunten:tel(controle.rijen.flatMap(r=>r.doel2020.koppelingen.map(k=>k.status))),context2017:tel(controle.rijen.map(r=>r.context2017.status)),
  bron1996_tekstvergelijking:tel(controle.rijen.filter(r=>r.bron1996.vergelijking).map(r=>r.bron1996.vergelijking.omschrijving)),
  rijen_met_2017_tekstmatch:controle.rijen.filter(r=>r.context2017.kandidaat_ids.length).length,
@@ -27,7 +27,12 @@ const samenvatting={bronrijen:controle.bronrijen.length,bron1996:tel(controle.ri
  unieke_gekoppelde_paren:[...bronNaarDoel.values()].reduce((a,s)=>a+s.size,0),
  bronrecords_een_doel:[...bronNaarDoel.values()].filter(s=>s.size===1).length,bronrecords_meerdere_doelen:[...bronNaarDoel.values()].filter(s=>s.size>1).length,
  doelrecords_een_bron:[...doelNaarBron.values()].filter(s=>s.size===1).length,doelrecords_meerdere_bronnen:[...doelNaarBron.values()].filter(s=>s.size>1).length};
-const rapport={bron_json_sha256:sha,definitie:'Technische koppelingen uit werkelijke bron; geen inhoudelijke gelijkwaardigheid of toestemming tot herpublicatie.',samenvatting,
+const afwijkingen=await Promise.all(controle.rijen.filter(r=>r.beoordeling).map(async r=>({
+ bronrij_id:r.bronrij_id,beoordeling:r.beoordeling,
+ oorspronkelijke_bronrij:controle.bronrijen.find(b=>b.id===r.bronrij_id),
+ kandidaten:await Promise.all(r.beoordeling.kandidaten.map(async id=>{const ds=await laag.laadDataset(id.split(':')[0]);return {id,selectiegegeven:ds.selectiegegeven(id)??null,structuuronderdeel:ds.structuuronderdeel(id)??null};})),
+})));
+const rapport={afwijkingen_10a:afwijkingen,bron_json_sha256:sha,definitie:'Technische koppelingen uit werkelijke bron; geen inhoudelijke gelijkwaardigheid of toestemming tot herpublicatie.',samenvatting,
  rijen:controle.rijen,relaties:rs,onopgelost:controle.concordans.onopgelost().map(r=>r.oorspronkelijk.id)};
 await mkdir(output,{recursive:true});await writeFile(join(output,'koppelingen.json'),JSON.stringify(rapport,null,2)+'\n');
 await writeFile(join(output,'samenvatting.json'),JSON.stringify(samenvatting,null,2)+'\n');
