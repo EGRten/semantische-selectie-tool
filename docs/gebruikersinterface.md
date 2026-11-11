@@ -1,5 +1,12 @@
 # Browserinterface en boomstructuren
 
+## Concordansviewer — 11 november 2026
+
+**Concordans raadplegen** ontsluit technisch alle 716 oorspronkelijke rijen en elf kolommen met zoeken, bladeren, rijpermalinks en koppelingen naar de bestaande voorschriften. Bronvelden, mergecontext, technische correcties en eigenaarbesluiten blijven gescheiden. De bestaande vergelijkingssectie linkt terug naar de bronviewer. Zie [concordans-viewer.md](concordans-viewer.md) voor bediening, testen en lokaal gebruik.
+
+De specifieke werkmap heeft nog geen voldoende aangetoonde hergebruikgrondslag voor integrale openbare JSON-distributie. Daarom blijven de oorspronkelijke data buiten de publieke build. Zonder data toont de viewer een eerlijke beschikbaarheidsmelding en werken selectielijsten/zoeken door. De [hergebruikafweging](concordans-hergebruik.md) beschrijft concrete bronnen, onzekerheden en de vereiste vervolgstap. Er is geen productiepublicatie geactiveerd.
+
+
 De eerste browserinterface maakt de drie gemeentelijke selectielijsten afzonderlijk raadpleegbaar. De applicatie heeft geen zoekfunctie, backend, database, accounts, selectieadvies of ChatGPT Sites-integratie.
 
 ## Frontendopzet

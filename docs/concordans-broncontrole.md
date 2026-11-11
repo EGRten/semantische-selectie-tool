@@ -1,5 +1,12 @@
 # Concordans: controle van de werkelijke bron
 
+## Concordansviewer — 11 november 2026
+
+**Concordans raadplegen** ontsluit technisch alle 716 oorspronkelijke rijen en elf kolommen met zoeken, bladeren, rijpermalinks en koppelingen naar de bestaande voorschriften. Bronvelden, mergecontext, technische correcties en eigenaarbesluiten blijven gescheiden. De bestaande vergelijkingssectie linkt terug naar de bronviewer. Zie [concordans-viewer.md](concordans-viewer.md) voor bediening, testen en lokaal gebruik.
+
+De specifieke werkmap heeft nog geen voldoende aangetoonde hergebruikgrondslag voor integrale openbare JSON-distributie. Daarom blijven de oorspronkelijke data buiten de publieke build. Zonder data toont de viewer een eerlijke beschikbaarheidsmelding en werken selectielijsten/zoeken door. De [hergebruikafweging](concordans-hergebruik.md) beschrijft concrete bronnen, onzekerheden en de vereiste vervolgstap. Er is geen productiepublicatie geactiveerd.
+
+
 ## Actuele verwerking van beoordelingsbesluiten — 11 november 2026
 
 De projecteigenaar heeft tien besluiten voor acht probleemgroepen aangeleverd. Codex heeft deze technisch verwerkt; dit is geen onafhankelijke inhoudelijke validatie door Codex en geen validatie van alle 612 interpretaties. De vastleggingsdatum is 11 november 2026. De oorspronkelijke gespreksdatum is onbekend en blijft leeg. Beoordelaarsrol: **Projecteigenaar — inhoudelijke beoordeling**.
@@ -158,3 +165,7 @@ De bestaande broncontext verwijst naar [VHIC](https://www.vhic.nl/faq/selectieli
 Excel, oorspronkelijke concordans-JSON, volledige technische koppeltabel en overige bestanden uit het eindpakket zijn niet in Git opgenomen. De browsermodule kan de **werkelijke** oorspronkelijke rij-JSON zelfstandig laden zodra deze onder een vastgestelde distributiegrondslag als statisch bestand beschikbaar wordt gesteld. Nog nodig voor publieke data-opname: leg de toepasselijke voorwaarden/grondslag en naamsvermelding voor dit bestand en de afgeleide tabel concreet vast en voeg die data daarna afzonderlijk ter beoordeling toe. Geen bronpublicatie of GitHub Pages geactiveerd.
 
 De technische verwerking op de echte bron is nu uitgevoerd. Publieke data-distributie, een concordansinterface en inhoudelijke oplossing van de resterende verwijzingen zijn niet afgerond.
+
+## Eindcontrole bronviewer opdracht 14
+
+Op 11 november 2026 is dezelfde bronidentiteit opnieuw bevestigd. De bestaande controle vergelijkt alle 7.876 oorspronkelijke en 7.876 uitgevouwen cellen met Excel, inclusief de 550 werkelijke samengevoegde bereiken: geslaagd. 139 moduletests en 76 Chromium-browsertests met de echte lokale bron, nul overgeslagen, productiebuild, typecheck en publieke datasetvalidatie zijn geslaagd. Alle 716 rijen zijn in de bladerinterface bereikt. Het register, oorspronkelijke cellen en bestaande koppelingen blijven intact. Zie [viewercontrole](concordans-viewer.md#uitgevoerde-eindcontrole--11-november-2026). De publieke build bevat uitsluitend de viewer en bronvermelding, geen brondata; de hergebruikgrondslag is onvoldoende vastgesteld.
