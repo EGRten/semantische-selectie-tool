@@ -653,10 +653,10 @@ mark {
 .viewer-bron summary { cursor:pointer; color:var(--accent); }
 .viewer-bron dt,.viewer-cellen dt { font-weight:650; margin-top:16px; }
 .viewer-bron dd,.viewer-cellen dd { margin:6px 0 12px; }
-.viewer-bediening,.viewer-bladeren { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin:20px 0; }
+.viewer-bediening { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin:20px 0; }
 .viewer-bediening input { padding:9px; max-width:100%; min-width:0; border:1px solid var(--lijn); }
-.viewer-bediening button,.viewer-bladeren button { border:1px solid var(--accent); color:var(--accent); padding:8px 12px; }
-.viewer-bediening button:disabled,.viewer-bladeren button:disabled { color:var(--muted); opacity:.6; }
+.viewer-bediening button { border:1px solid var(--accent); color:var(--accent); padding:8px 12px; }
+.viewer-bediening button:disabled { color:var(--muted); opacity:.6; }
 .viewer-tabelgebied { overflow:auto; max-height:530px; border:1px solid var(--lijn); }
 .viewer-tabel { border-collapse:collapse; font-size:13px; width:max-content; table-layout:fixed; }
 .viewer-tabel caption { text-align:left; padding:10px; }
@@ -678,3 +678,10 @@ mark {
  .viewer-bediening label { flex-basis:100%; }
  .viewer-bediening input[type=search] { width:100%; }
 }
+
+/* Doorlopende bronviewer: vaste kolomkoppen en bronrijnummers. */
+.viewer-tabelgebied { position:relative; }
+.viewer-tabel thead th { z-index:2; }
+.viewer-tabel tbody th { position:sticky; left:0; z-index:1; background:white; }
+.viewer-tabel thead th:first-child { left:0; z-index:3; }
+.viewer-tabel tr[aria-current=true] > th { background:#e5f2ed; }

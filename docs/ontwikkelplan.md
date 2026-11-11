@@ -122,3 +122,12 @@ De statische alleen-lezen viewer voor de oorspronkelijke concordans is gerealise
 De specifieke werkmap is op identiteit/volledigheid en hergebruikdocumentatie onderzocht. Een voldoende onderbouwde grondslag voor integrale publieke weergave en JSON-distributie is niet vastgesteld. Daarom is uitsluitend de viewer met publieke bronvermelding gebouwd; de brondata blijven buiten Git en productie-uitvoer. Integrale publieke beschikbaarheid is niet afgerond en GitHub Pages is niet geactiveerd. Zie [viewer](concordans-viewer.md) en [hergebruikafweging](concordans-hergebruik.md).
 
 Eindcontrole opdracht 14: 139 moduletests en 76 Chromium-browsertests met de echte lokale bron, nul overgeslagen, productiebuild, typecheck, publieke validatie en volledige Excel/JSON-celcontrole geslaagd. Alle 716 rijen zijn via de bladerinterface gecontroleerd. Desktop/mobiel en een gewone productiebuild zonder bronalias zijn daadwerkelijk geraadpleegd. Publieke data-opname blijft niet afgerond wegens de gedocumenteerde hergebruikblokkade.
+
+
+## Doorlopende concordansviewer en Excel — opdracht 15
+
+De paginering is verwijderd. Alle 716 rijen worden als één doorlopende tabel getoond met vaste koppen, vaste bronrijnummers, automatische rijscroll en herkenbare selectie. Zoeken en detail-/voorschriftlinks blijven behouden. Een browserexport maakt op aanvraag `Concordans 1996-2020.xlsx` met de twee voorgeschreven werkbladen, ongewijzigde A–K, aanvullende mergecontext L–V en bronrij W. Een actief filter beperkt de download niet. De lichte MIT-schrijver wordt apart geladen; er is geen tweede bronbestand of Excel-dataset.
+
+De celinhoud is op concrete persoonsgegevens gecontroleerd: geen aangetroffen; geen rijen of kolommen verwijderd. Oorspronkelijke makermetadata worden niet geëxporteerd. De juridische distributieblokkade blijft bestaan en GitHub Pages is niet geactiveerd. Zie de bijgewerkte viewer-, interface- en hergebruikdocumentatie. Publieke gegevensopname is niet als afgerond geregistreerd.
+
+Validatie opdracht 15: volledige broncontrole en publieke datasetvalidatie, productiebuild en typecheck; regressieset van 142 moduletests en 77 Chromium-browsertests met echte bron. Onafhankelijke XLSX-teruglezing controleert alle broncellen/context en de daadwerkelijke browserdownload. Desktop/mobiel zijn visueel beoordeeld; lokale responstijden zijn vastgelegd in de viewerdocumentatie. Bestaande koppeldekking 612/606/6 en alle tien besluiten blijven behouden. Geen openbare data-opname of Pages-activering.

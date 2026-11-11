@@ -26,5 +26,8 @@
       "types": "./dist/gegevenslaag/index.d.ts",
       "import": "./dist/gegevenslaag/index.js"
     }
+  },
+  "dependencies": {
+    "write-excel-file": "4.1.1"
   }
 }

@@ -25,3 +25,6 @@ export function concordanscel(r:Bronrij,i:number){
 }
 export const concordansRijHash=(rij:number)=>`#concordans=${rij}`;
 export const selectieHash=(id:string)=>`#selectie=${encodeURIComponent(id)}`;
+
+export const CONCORDANS_EXCEL_NAAM='Concordans 1996-2020.xlsx';
+export const CONCORDANS_EXCEL_KNOP='Download Concordans 1996-2020 (.xlsx)';
