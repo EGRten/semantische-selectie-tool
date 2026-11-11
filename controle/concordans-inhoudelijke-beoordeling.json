@@ -1,0 +1,1364 @@
+{
+  "versie": 1,
+  "aard": "AI-onderzoeksvoorstellen voor menselijke inhoudelijke beoordeling; geen productieconcordans",
+  "onafhankelijk_gevalideerd": false,
+  "gevallen": [
+    {
+      "bronrij_id": "concordans:rij:6",
+      "probleemgroep": "concordans:rij:6",
+      "onderzoeksvraag": "Welke historische aanwijzing correspondeert met de tijdelijke status?",
+      "betrokken_selectievoorschriften": [
+        "1996-2012:2.1::001",
+        "1996-2012:2.1::002",
+        "2020:9.1.1"
+      ],
+      "onderzochte_kandidaten": [
+        {
+          "record_id": "1996-2012:2.1::001",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "1996-2012:2.1::002",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "2020:9.1.1",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        }
+      ],
+      "oorspronkelijke_bronwaarden": {
+        "originele_cellen": [
+          null,
+          null,
+          null,
+          null,
+          "Status toekennen",
+          "9.1.1",
+          "Toegekend",
+          "Tijdelijke status",
+          "Vernietigen 1 jaar na einde status",
+          null,
+          null
+        ],
+        "samengevoegde_cellen_uitgevouwen": [
+          "1. Aanwijzing van gemeentelijke vertegenwoordigers in commissies e.d.",
+          null,
+          null,
+          null,
+          "Status toekennen",
+          "9.1.1",
+          "Toegekend",
+          "Tijdelijke status",
+          "Vernietigen 1 jaar na einde status",
+          null,
+          null
+        ]
+      },
+      "bronverwijzingen": [
+        {
+          "bron_id": "concordans-aangeleverd",
+          "werkblad": "Blad1",
+          "rij": 6,
+          "functie": "Oorspronkelijke cellen en echte mergecontext"
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 8,
+          "paragraaf": "1.4",
+          "citaat": "Archiefbescheiden die in deze lijst afzonderlijk en in meer algemene zin worden genoemd kunnen in de gemeentelijke praktijk ook deel uitmaken van een meer specifieke categorie.",
+          "functie": "Specifieke categorie met langere termijn en context van bevoegdheden/samenhang; zie primaire pagina."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 10,
+          "paragraaf": "1.2, Ordening volgens procestypen",
+          "citaat": "Een procestype wordt beschreven vanuit het oogpunt van de zorgdrager.",
+          "functie": "Perspectief, generieke/specificieke resultaten en specifieke-resultatenvoorrang."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 25,
+          "paragraaf": "Procestermijn",
+          "citaat": "A Nihil = Er is geen aparte procestermijn, de bewaartermijn start direct.",
+          "functie": "Legendas A–E; geen datumrekenmodel."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 18,
+          "record_id": "1996-2012:2.1::001",
+          "citaat": "Voorzitters en leden van bestuurlijke commissies, comités e.d. alsmede aanwijzing van gemeentelijke vertegenwoordigers in externe bestuurlijke organen",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 18,
+          "record_id": "1996-2012:2.1::002",
+          "citaat": "Lidmaatschappen van niet-bestuurlijke commissies, stembureaus, werkgroepen e.d.",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 32,
+          "record_id": "2020:9.1.1",
+          "citaat": "Tijdelijke status",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        }
+      ],
+      "criteria": {
+        "A_bronduidelijkheid": "De bron maakt de actorrol niet expliciet; A4:A7 is alleen rubriekcontext en B:D zijn niet samengevoegd. Officiële voorbeelden geven geen uitsluitende identificatie.",
+        "B_procesmatige_overeenkomst": "Beide historische voorschriften gaan over benoeming of aanwijzing; resultaat 9.1.1 kan een tijdgebonden status betreffen.",
+        "C_informatieobjecten": "Een verwijzing naar niet-bestuurlijke lidmaatschappen is voorstelbaar, maar ook een tijdelijke bestuurlijke aanwijzing is niet door de tekst uitgesloten. De duur van een benoeming bewijst de aard van de rol niet.",
+        "D_toepassingsbereik": "De historische lijst onderscheidt bestuurlijke vertegenwoordiging (B) en niet-bestuurlijke lidmaatschappen (vernietiging na benoemingstermijn). De 2020-toelichting noemt tijdelijke verkeersmaatregel en eenmalige Babs, niet alle commissielidmaatschappen. De officiële rubriek noemt bovendien een eigen zevenjarige bewaring door een rechtspersoon; dat is geen algemene vervanging van de gemeentelijke termijnen.",
+        "E_waardering_en_termijn": "Zie de letterlijke recordtabel: verschil in duur of aanvang is geen bewijs van gelijkwaardigheid of automatische juridische wijziging.",
+        "F_alternatieve_kandidaten": "1996-2012:2.1::001, 1996-2012:2.1::002, 2020:9.1.1",
+        "G_brononderbouwing": "Primaire PDF-pagina’s en concrete citaten staan in bronverwijzingen; ontbrekende proceduregegevens worden niet ingevuld."
+      },
+      "overeenkomsten": "Beide historische voorschriften gaan over benoeming of aanwijzing; resultaat 9.1.1 kan een tijdgebonden status betreffen.",
+      "verschillen": "De historische lijst onderscheidt bestuurlijke vertegenwoordiging (B) en niet-bestuurlijke lidmaatschappen (vernietiging na benoemingstermijn). De 2020-toelichting noemt tijdelijke verkeersmaatregel en eenmalige Babs, niet alle commissielidmaatschappen. De officiële rubriek noemt bovendien een eigen zevenjarige bewaring door een rechtspersoon; dat is geen algemene vervanging van de gemeentelijke termijnen.",
+      "mogelijke_interpretaties": "Een verwijzing naar niet-bestuurlijke lidmaatschappen is voorstelbaar, maar ook een tijdelijke bestuurlijke aanwijzing is niet door de tekst uitgesloten. De duur van een benoeming bewijst de aard van de rol niet.",
+      "risicos": "Een algemene tijdelijke-statuskoppeling kan blijvend te bewaren bestuurlijke vertegenwoordiging ten onrechte als vernietigbaar voorstellen.",
+      "voorgestelde_conclusie": {
+        "code": 3,
+        "label": "Onvoldoende onderbouwde relatie",
+        "status": "voorstel_voor_inhoudelijke_beoordeling"
+      },
+      "onderbouwing": "De bron maakt de actorrol niet expliciet; A4:A7 is alleen rubriekcontext en B:D zijn niet samengevoegd. Officiële voorbeelden geven geen uitsluitende identificatie.",
+      "onzekerheden": [
+        "Beperkt: procesverwantschap is aannemelijk, de specifieke historische identiteit niet.",
+        "Geen onafhankelijk menselijk archivistisch oordeel vastgesteld."
+      ],
+      "aanbevolen_vervolghandeling": "Vergelijk een werkelijk benoemingsbesluit en de actorrol. Alleen na bevestiging één afzonderlijke koppeling toevoegen; anders brononzekerheid blijven tonen.",
+      "beoordelingsstatus": "te_beoordelen",
+      "beoordelaar": null,
+      "beoordelingsdatum": null,
+      "definitief_oordeel": null
+    },
+    {
+      "bronrij_id": "concordans:rij:21",
+      "probleemgroep": "concordans:rij:21",
+      "onderzoeksvraag": "Is 19.1. een generiek resultaat of een afgebroken specifiek nummer?",
+      "betrokken_selectievoorschriften": [
+        "1996-2012:2.3::003",
+        "2020:19.1",
+        "2020:19.1.11",
+        "2020:19.1.12"
+      ],
+      "onderzochte_kandidaten": [
+        {
+          "record_id": "1996-2012:2.3::003",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "2020:19.1",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "2020:19.1.11",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "2020:19.1.12",
+          "rol": "aanvullende_context_geen_recordwissel"
+        }
+      ],
+      "oorspronkelijke_bronwaarden": {
+        "originele_cellen": [
+          null,
+          "c.",
+          "Bescheiden betreffende/voortvloeiende uit deelneming in, respectievelijk advisering aan besturen, commissies en andere organen waarvan het secretariaat en het archief elders worden beheerd",
+          "3 jaar",
+          "Secretariaat voeren en gegevens administreren / verwerken ",
+          "19.1.",
+          "Verwerkt",
+          null,
+          "Vernietigen na 5 jaar",
+          null,
+          null
+        ],
+        "samengevoegde_cellen_uitgevouwen": [
+          "3. Intermediair optreden",
+          "c.",
+          "Bescheiden betreffende/voortvloeiende uit deelneming in, respectievelijk advisering aan besturen, commissies en andere organen waarvan het secretariaat en het archief elders worden beheerd",
+          "3 jaar",
+          "Secretariaat voeren en gegevens administreren / verwerken ",
+          "19.1.",
+          "Verwerkt",
+          null,
+          "Vernietigen na 5 jaar",
+          null,
+          null
+        ]
+      },
+      "bronverwijzingen": [
+        {
+          "bron_id": "concordans-aangeleverd",
+          "werkblad": "Blad1",
+          "rij": 21,
+          "functie": "Oorspronkelijke cellen en echte mergecontext"
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 8,
+          "paragraaf": "1.4",
+          "citaat": "Archiefbescheiden die in deze lijst afzonderlijk en in meer algemene zin worden genoemd kunnen in de gemeentelijke praktijk ook deel uitmaken van een meer specifieke categorie.",
+          "functie": "Specifieke categorie met langere termijn en context van bevoegdheden/samenhang; zie primaire pagina."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 10,
+          "paragraaf": "1.2, Ordening volgens procestypen",
+          "citaat": "Een procestype wordt beschreven vanuit het oogpunt van de zorgdrager.",
+          "functie": "Perspectief, generieke/specificieke resultaten en specifieke-resultatenvoorrang."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 25,
+          "paragraaf": "Procestermijn",
+          "citaat": "A Nihil = Er is geen aparte procestermijn, de bewaartermijn start direct.",
+          "functie": "Legendas A–E; geen datumrekenmodel."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 19,
+          "record_id": "1996-2012:2.3::003",
+          "citaat": "Bescheiden betreffende/voortvloeiende uit deelneming in, respectievelijk advisering aan besturen, commissies en andere organen waarvan het secretariaat en het archief elders worden beheerd",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 37,
+          "record_id": "2020:19.1",
+          "citaat": "Verwerkt",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 37,
+          "record_id": "2020:19.1.11",
+          "citaat": "Agenda, verslag van\nambtelijk overleg met\nderden",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 37,
+          "record_id": "2020:19.1.12",
+          "citaat": "Agenda, verslag van\noverleg met derden geor-\nganiseerd door derde",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        }
+      ],
+      "criteria": {
+        "A_bronduidelijkheid": "De voorrangsregel voor specifieke resultaten op PDF p.10 bepaalt de selectie bij bekende objecten, maar herstelt geen onvolledige concordanscel. F21 blijft letterlijk 19.1.; C21:C23 deelt alleen de historische omschrijving.",
+        "B_procesmatige_overeenkomst": "Historische deelnemings-/adviesbescheiden kunnen administratief verwerkte gegevens zijn. Generiek 19.1 en specifiek overleg met derden bieden procescontext.",
+        "C_informatieobjecten": "Generiek 19.1 is een sterke kandidaat door lege specifieke omschrijving en vijfjaarstekst. De nadere informatieobjecten kunnen echter specifiek overleg betreffen; 19.1.12 is relevante aanvullende context, geen correctie van de doelcode.",
+        "D_toepassingsbereik": "Bij 2.3 wordt het secretariaat/archief elders beheerd. 19.1.11 betreft ambtelijk overleg met derden; 19.1.12 juist overleg georganiseerd door een derde en heeft 1 jaar in plaats van 5 jaar. Generiek 19.1 heeft Nihil als procestermijn en 5 jaar; historisch is het 3 jaar zonder afzonderlijk vastgelegd aanvangsmoment.",
+        "E_waardering_en_termijn": "Zie de letterlijke recordtabel: verschil in duur of aanvang is geen bewijs van gelijkwaardigheid of automatische juridische wijziging.",
+        "F_alternatieve_kandidaten": "1996-2012:2.3::003, 2020:19.1, 2020:19.1.11, 2020:19.1.12",
+        "G_brononderbouwing": "Primaire PDF-pagina’s en concrete citaten staan in bronverwijzingen; ontbrekende proceduregegevens worden niet ingevuld."
+      },
+      "overeenkomsten": "Historische deelnemings-/adviesbescheiden kunnen administratief verwerkte gegevens zijn. Generiek 19.1 en specifiek overleg met derden bieden procescontext.",
+      "verschillen": "Bij 2.3 wordt het secretariaat/archief elders beheerd. 19.1.11 betreft ambtelijk overleg met derden; 19.1.12 juist overleg georganiseerd door een derde en heeft 1 jaar in plaats van 5 jaar. Generiek 19.1 heeft Nihil als procestermijn en 5 jaar; historisch is het 3 jaar zonder afzonderlijk vastgelegd aanvangsmoment.",
+      "mogelijke_interpretaties": "Generiek 19.1 is een sterke kandidaat door lege specifieke omschrijving en vijfjaarstekst. De nadere informatieobjecten kunnen echter specifiek overleg betreffen; 19.1.12 is relevante aanvullende context, geen correctie van de doelcode.",
+      "risicos": "Een ontbrekend cijfer stilzwijgend herstellen kan de specifieke-resultatenvoorrang negeren of bescheiden van een derde met eigen gemeentelijke procesdossiers verwarren.",
+      "voorgestelde_conclusie": {
+        "code": 3,
+        "label": "Onvoldoende onderbouwde relatie",
+        "status": "voorstel_voor_inhoudelijke_beoordeling"
+      },
+      "onderbouwing": "De voorrangsregel voor specifieke resultaten op PDF p.10 bepaalt de selectie bij bekende objecten, maar herstelt geen onvolledige concordanscel. F21 blijft letterlijk 19.1.; C21:C23 deelt alleen de historische omschrijving.",
+      "onzekerheden": [
+        "Beperkt: generiek 19.1 is plausibel maar niet uniek bewezen.",
+        "Geen onafhankelijk menselijk archivistisch oordeel vastgesteld."
+      ],
+      "aanbevolen_vervolghandeling": "Verifieer de bedoelde resultaatcode bij een bronbeheerder of met een concrete dossierinventaris. Behoud de historische technische ID; activeer nu geen nieuw doel.",
+      "beoordelingsstatus": "te_beoordelen",
+      "beoordelaar": null,
+      "beoordelingsdatum": null,
+      "definitief_oordeel": null
+    },
+    {
+      "bronrij_id": "concordans:rij:89",
+      "probleemgroep": "concordans:rij:89",
+      "onderzoeksvraag": "Betreft beveiliging als gebruikstoestemming hetzelfde proces en welk historisch voorschrift?",
+      "betrokken_selectievoorschriften": [
+        "1996-2012:2.12::001",
+        "1996-2012:2.12::002",
+        "2020:11.1"
+      ],
+      "onderzochte_kandidaten": [
+        {
+          "record_id": "1996-2012:2.12::001",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "1996-2012:2.12::002",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "2020:11.1",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        }
+      ],
+      "oorspronkelijke_bronwaarden": {
+        "originele_cellen": [
+          null,
+          null,
+          "Beveiliging (als toestemming gebruik)",
+          null,
+          "Toestemming verlenen",
+          "11.1",
+          "Verleend",
+          null,
+          "1 jaar na einde toestemming",
+          null,
+          null
+        ],
+        "samengevoegde_cellen_uitgevouwen": [
+          "12. Beheer, beveiliging en programmatuur",
+          null,
+          "Beveiliging (als toestemming gebruik)",
+          null,
+          "Toestemming verlenen",
+          "11.1",
+          "Verleend",
+          null,
+          "1 jaar na einde toestemming",
+          null,
+          null
+        ]
+      },
+      "bronverwijzingen": [
+        {
+          "bron_id": "concordans-aangeleverd",
+          "werkblad": "Blad1",
+          "rij": 89,
+          "functie": "Oorspronkelijke cellen en echte mergecontext"
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 8,
+          "paragraaf": "1.4",
+          "citaat": "Archiefbescheiden die in deze lijst afzonderlijk en in meer algemene zin worden genoemd kunnen in de gemeentelijke praktijk ook deel uitmaken van een meer specifieke categorie.",
+          "functie": "Specifieke categorie met langere termijn en context van bevoegdheden/samenhang; zie primaire pagina."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 10,
+          "paragraaf": "1.2, Ordening volgens procestypen",
+          "citaat": "Een procestype wordt beschreven vanuit het oogpunt van de zorgdrager.",
+          "functie": "Perspectief, generieke/specificieke resultaten en specifieke-resultatenvoorrang."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 25,
+          "paragraaf": "Procestermijn",
+          "citaat": "A Nihil = Er is geen aparte procestermijn, de bewaartermijn start direct.",
+          "functie": "Legendas A–E; geen datumrekenmodel."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 23,
+          "record_id": "1996-2012:2.12::001",
+          "citaat": " - betrekking hebbend op archiefbescheiden, die voor bewaring in aanmerking komen",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 23,
+          "record_id": "1996-2012:2.12::002",
+          "citaat": " - overige gevallen",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 33,
+          "record_id": "2020:11.1",
+          "citaat": "Verleend",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        }
+      ],
+      "criteria": {
+        "A_bronduidelijkheid": "Het perspectief van de zorgdrager op PDF p.10 en de expliciete derde in procestype 11 beperken de analogie. A87:A91 identificeert de rubriek, niet de betrokken soort archief.",
+        "B_procesmatige_overeenkomst": "Toegangsrechten kunnen samenhangen met het beheer en de beveiliging van geautomatiseerde administraties.",
+        "C_informatieobjecten": "Het kan om externe gebruikstoestemming gaan, of om een intern beveiligings-/autorisatieobject. Beide historische waarderingsvarianten blijven afhankelijk van het beschermde archief en de onmisbaarheid.",
+        "D_toepassingsbereik": "Rubriek 2.12 vereist bescheiden die onmisbaar zijn voor raadpleging en onderscheidt blijvend te bewaren archief van overige gevallen. Procestype 11 behandelt een aanvraag/melding/verzoek van een derde om toestemming; interne autorisatie is daarmee niet vanzelf hetzelfde. 11.1: 1 jaar na bestaans-/geldigheidsduur, tegenover historisch B of 1 jaar na bedrijfsvoeringsbelang.",
+        "E_waardering_en_termijn": "Zie de letterlijke recordtabel: verschil in duur of aanvang is geen bewijs van gelijkwaardigheid of automatische juridische wijziging.",
+        "F_alternatieve_kandidaten": "1996-2012:2.12::001, 1996-2012:2.12::002, 2020:11.1",
+        "G_brononderbouwing": "Primaire PDF-pagina’s en concrete citaten staan in bronverwijzingen; ontbrekende proceduregegevens worden niet ingevuld."
+      },
+      "overeenkomsten": "Toegangsrechten kunnen samenhangen met het beheer en de beveiliging van geautomatiseerde administraties.",
+      "verschillen": "Rubriek 2.12 vereist bescheiden die onmisbaar zijn voor raadpleging en onderscheidt blijvend te bewaren archief van overige gevallen. Procestype 11 behandelt een aanvraag/melding/verzoek van een derde om toestemming; interne autorisatie is daarmee niet vanzelf hetzelfde. 11.1: 1 jaar na bestaans-/geldigheidsduur, tegenover historisch B of 1 jaar na bedrijfsvoeringsbelang.",
+      "mogelijke_interpretaties": "Het kan om externe gebruikstoestemming gaan, of om een intern beveiligings-/autorisatieobject. Beide historische waarderingsvarianten blijven afhankelijk van het beschermde archief en de onmisbaarheid.",
+      "risicos": "Een intern rechtenbestand als extern toestemmingsdossier behandelen kan zowel verkeerde dossiervorming als een onjuiste termijnsuggestie opleveren.",
+      "voorgestelde_conclusie": {
+        "code": 3,
+        "label": "Onvoldoende onderbouwde relatie",
+        "status": "voorstel_voor_inhoudelijke_beoordeling"
+      },
+      "onderbouwing": "Het perspectief van de zorgdrager op PDF p.10 en de expliciete derde in procestype 11 beperken de analogie. A87:A91 identificeert de rubriek, niet de betrokken soort archief.",
+      "onzekerheden": [
+        "Beperkt: zowel de procesrol als het historische toepassingsbereik ontbreken.",
+        "Geen onafhankelijk menselijk archivistisch oordeel vastgesteld."
+      ],
+      "aanbevolen_vervolghandeling": "Vraag vaststelling van actor, gebruiker, informatieobject, onmisbaarheid voor raadpleging en waardering van het beschermde archief. Behoud onzekerheid; voeg nu geen binding toe.",
+      "beoordelingsstatus": "te_beoordelen",
+      "beoordelaar": null,
+      "beoordelingsdatum": null,
+      "definitief_oordeel": null
+    },
+    {
+      "bronrij_id": "concordans:rij:90",
+      "probleemgroep": "concordans:rij:90",
+      "onderzoeksvraag": "Kan een beveiligingsplan onder meerdere historische waarderingen vallen?",
+      "betrokken_selectievoorschriften": [
+        "1996-2012:2.12::001",
+        "1996-2012:2.12::002",
+        "2020:3.1",
+        "2020:3.1.2"
+      ],
+      "onderzochte_kandidaten": [
+        {
+          "record_id": "1996-2012:2.12::001",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "1996-2012:2.12::002",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "2020:3.1",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "2020:3.1.2",
+          "rol": "aanvullende_context_geen_recordwissel"
+        }
+      ],
+      "oorspronkelijke_bronwaarden": {
+        "originele_cellen": [
+          null,
+          null,
+          "Beveiliging (als plan)",
+          null,
+          "Plannen opstellen",
+          "3.1",
+          "Vastgesteld",
+          null,
+          "10 jaar na einde duur",
+          null,
+          null
+        ],
+        "samengevoegde_cellen_uitgevouwen": [
+          "12. Beheer, beveiliging en programmatuur",
+          null,
+          "Beveiliging (als plan)",
+          null,
+          "Plannen opstellen",
+          "3.1",
+          "Vastgesteld",
+          null,
+          "10 jaar na einde duur",
+          null,
+          null
+        ]
+      },
+      "bronverwijzingen": [
+        {
+          "bron_id": "concordans-aangeleverd",
+          "werkblad": "Blad1",
+          "rij": 90,
+          "functie": "Oorspronkelijke cellen en echte mergecontext"
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 8,
+          "paragraaf": "1.4",
+          "citaat": "Archiefbescheiden die in deze lijst afzonderlijk en in meer algemene zin worden genoemd kunnen in de gemeentelijke praktijk ook deel uitmaken van een meer specifieke categorie.",
+          "functie": "Specifieke categorie met langere termijn en context van bevoegdheden/samenhang; zie primaire pagina."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 10,
+          "paragraaf": "1.2, Ordening volgens procestypen",
+          "citaat": "Een procestype wordt beschreven vanuit het oogpunt van de zorgdrager.",
+          "functie": "Perspectief, generieke/specificieke resultaten en specifieke-resultatenvoorrang."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 25,
+          "paragraaf": "Procestermijn",
+          "citaat": "A Nihil = Er is geen aparte procestermijn, de bewaartermijn start direct.",
+          "functie": "Legendas A–E; geen datumrekenmodel."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 23,
+          "record_id": "1996-2012:2.12::001",
+          "citaat": " - betrekking hebbend op archiefbescheiden, die voor bewaring in aanmerking komen",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 23,
+          "record_id": "1996-2012:2.12::002",
+          "citaat": " - overige gevallen",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 27,
+          "record_id": "2020:3.1",
+          "citaat": "Vastgesteld",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 27,
+          "record_id": "2020:3.1.2",
+          "citaat": "Beheerplan",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        }
+      ],
+      "criteria": {
+        "A_bronduidelijkheid": "De primaire PDF p.23 bevestigt het historische onderscheid; PDF p.27 onderscheidt generiek 3.1 en Beheerplan 3.1.2. Gelijke tienjaarstekst alleen bewijst geen type-identiteit. B:D van rij 90 zijn niet samengevoegd.",
+        "B_procesmatige_overeenkomst": "Een plan voor beveiliging of beheer kan een bedrijfsvoeringsplan zijn; de historische rubriek omvat beheer/beveiliging van geautomatiseerde administraties voor zover onmisbaar voor raadpleging.",
+        "C_informatieobjecten": "Afhankelijk van archiefwaarde en onmisbaarheid kunnen beide oude voorschriften inhoudelijk relevant zijn. 3.1.2 is een nieuwe onderzoekskandidaat voor de termijntegenstrijdigheid, geen bewezen vervanging van de expliciete 3.1-verwijzing.",
+        "D_toepassingsbereik": "De historische waardering volgt het soort beschermd archief (B of 1 jaar na bedrijfsvoeringsbelang), niet alleen het woord plan. Bron F90 noemt 3.1 met 10 jaar na einde duur; officieel generiek 3.1 heeft 5 jaar, terwijl specifiek 3.1.2 Beheerplan 10 jaar heeft. De officiële voorbeelden bij 3.1.2 betreffen onderhoud; niet ieder beveiligingsplan is daarmee een beheerplan.",
+        "E_waardering_en_termijn": "Zie de letterlijke recordtabel: verschil in duur of aanvang is geen bewijs van gelijkwaardigheid of automatische juridische wijziging.",
+        "F_alternatieve_kandidaten": "1996-2012:2.12::001, 1996-2012:2.12::002, 2020:3.1, 2020:3.1.2",
+        "G_brononderbouwing": "Primaire PDF-pagina’s en concrete citaten staan in bronverwijzingen; ontbrekende proceduregegevens worden niet ingevuld."
+      },
+      "overeenkomsten": "Een plan voor beveiliging of beheer kan een bedrijfsvoeringsplan zijn; de historische rubriek omvat beheer/beveiliging van geautomatiseerde administraties voor zover onmisbaar voor raadpleging.",
+      "verschillen": "De historische waardering volgt het soort beschermd archief (B of 1 jaar na bedrijfsvoeringsbelang), niet alleen het woord plan. Bron F90 noemt 3.1 met 10 jaar na einde duur; officieel generiek 3.1 heeft 5 jaar, terwijl specifiek 3.1.2 Beheerplan 10 jaar heeft. De officiële voorbeelden bij 3.1.2 betreffen onderhoud; niet ieder beveiligingsplan is daarmee een beheerplan.",
+      "mogelijke_interpretaties": "Afhankelijk van archiefwaarde en onmisbaarheid kunnen beide oude voorschriften inhoudelijk relevant zijn. 3.1.2 is een nieuwe onderzoekskandidaat voor de termijntegenstrijdigheid, geen bewezen vervanging van de expliciete 3.1-verwijzing.",
+      "risicos": "Alle plannen onder één vernietigingstermijn brengen kan de historische blijvende bewaring en de voorrang van specifieke moderne resultaten verhullen.",
+      "voorgestelde_conclusie": {
+        "code": 2,
+        "label": "Meerdere inhoudelijk verdedigbare relaties",
+        "status": "voorstel_voor_inhoudelijke_beoordeling"
+      },
+      "onderbouwing": "De primaire PDF p.23 bevestigt het historische onderscheid; PDF p.27 onderscheidt generiek 3.1 en Beheerplan 3.1.2. Gelijke tienjaarstekst alleen bewijst geen type-identiteit. B:D van rij 90 zijn niet samengevoegd.",
+      "onzekerheden": [
+        "Matig voor meerdere conditionele vergelijkingsrichtingen, beperkt voor een concreet plan.",
+        "Geen onafhankelijk menselijk archivistisch oordeel vastgesteld."
+      ],
+      "aanbevolen_vervolghandeling": "Laat vaststellen welk plan en welk beschermd archief zijn bedoeld. Na bevestiging eventueel meerdere conditionele historische relaties registreren; generiek/specifiek doel afzonderlijk beoordelen.",
+      "beoordelingsstatus": "te_beoordelen",
+      "beoordelaar": null,
+      "beoordelingsdatum": null,
+      "definitief_oordeel": null
+    },
+    {
+      "bronrij_id": "concordans:rij:293",
+      "probleemgroep": "concordans:rij:293",
+      "onderzoeksvraag": "Welke delegatie-/mandaatcategorie kan een beëindigde status betreffen?",
+      "betrokken_selectievoorschriften": [
+        "1996-2012:3.5.4::001",
+        "1996-2012:3.5.4::002",
+        "1996-2012:3.5.4::003",
+        "2020:9.3.3"
+      ],
+      "onderzochte_kandidaten": [
+        {
+          "record_id": "1996-2012:3.5.4::001",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "1996-2012:3.5.4::002",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "1996-2012:3.5.4::003",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "2020:9.3.3",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        }
+      ],
+      "oorspronkelijke_bronwaarden": {
+        "originele_cellen": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "9.3.3",
+          "Beëindigd",
+          "Delegatie en mandatering ",
+          "Bewaren",
+          null,
+          null
+        ],
+        "samengevoegde_cellen_uitgevouwen": [
+          "4. Bestuur",
+          null,
+          null,
+          null,
+          "Status toekennen",
+          "9.3.3",
+          "Beëindigd",
+          "Delegatie en mandatering ",
+          "Bewaren",
+          null,
+          null
+        ]
+      },
+      "bronverwijzingen": [
+        {
+          "bron_id": "concordans-aangeleverd",
+          "werkblad": "Blad1",
+          "rij": 293,
+          "functie": "Oorspronkelijke cellen en echte mergecontext"
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 8,
+          "paragraaf": "1.4",
+          "citaat": "Archiefbescheiden die in deze lijst afzonderlijk en in meer algemene zin worden genoemd kunnen in de gemeentelijke praktijk ook deel uitmaken van een meer specifieke categorie.",
+          "functie": "Specifieke categorie met langere termijn en context van bevoegdheden/samenhang; zie primaire pagina."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 10,
+          "paragraaf": "1.2, Ordening volgens procestypen",
+          "citaat": "Een procestype wordt beschreven vanuit het oogpunt van de zorgdrager.",
+          "functie": "Perspectief, generieke/specificieke resultaten en specifieke-resultatenvoorrang."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 25,
+          "paragraaf": "Procestermijn",
+          "citaat": "A Nihil = Er is geen aparte procestermijn, de bewaartermijn start direct.",
+          "functie": "Legendas A–E; geen datumrekenmodel."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 39,
+          "record_id": "1996-2012:3.5.4::001",
+          "citaat": " - tussen bestuurders onderling",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 39,
+          "record_id": "1996-2012:3.5.4::002",
+          "citaat": " - van bestuurders naar ambtenaren",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 39,
+          "record_id": "1996-2012:3.5.4::003",
+          "citaat": " - tussen ambtenaren",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 33,
+          "record_id": "2020:9.3.3",
+          "citaat": "Delegatie en mandatering",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        }
+      ],
+      "criteria": {
+        "A_bronduidelijkheid": "PDF p.39 toont alle drie categorieën onder hetzelfde kopje. A289:A293 en E290:E293 geven gedeelde context; de lege B:D-cellen bepalen geen actor.",
+        "B_procesmatige_overeenkomst": "De historische rubriek noemt delegatie, mandatering en attributie; 9.3.3 noemt delegatie en mandatering bij beëindigde status.",
+        "C_informatieobjecten": "Alle drie actorrelaties kunnen bij delegatie/mandatering relevant zijn. Voor attributie is geen zelfstandige dekking bewezen. De brede moderne categorie geeft geen reden alleen de nabijgelegen ambtenarencategorie te kiezen.",
+        "D_toepassingsbereik": "Historisch worden actorrelaties onderscheiden: bestuurders onderling B, bestuurders naar ambtenaren 30 jaar na vervallen besluit, ambtenaren onderling 20 jaar na vervallen besluit. 2020:9.3.3 is Bewaren en heeft geen afzonderlijk ingevulde procestermijn/aanvang. Attributie staat niet letterlijk in de specifieke moderne omschrijving.",
+        "E_waardering_en_termijn": "Zie de letterlijke recordtabel: verschil in duur of aanvang is geen bewijs van gelijkwaardigheid of automatische juridische wijziging.",
+        "F_alternatieve_kandidaten": "1996-2012:3.5.4::001, 1996-2012:3.5.4::002, 1996-2012:3.5.4::003, 2020:9.3.3",
+        "G_brononderbouwing": "Primaire PDF-pagina’s en concrete citaten staan in bronverwijzingen; ontbrekende proceduregegevens worden niet ingevuld."
+      },
+      "overeenkomsten": "De historische rubriek noemt delegatie, mandatering en attributie; 9.3.3 noemt delegatie en mandatering bij beëindigde status.",
+      "verschillen": "Historisch worden actorrelaties onderscheiden: bestuurders onderling B, bestuurders naar ambtenaren 30 jaar na vervallen besluit, ambtenaren onderling 20 jaar na vervallen besluit. 2020:9.3.3 is Bewaren en heeft geen afzonderlijk ingevulde procestermijn/aanvang. Attributie staat niet letterlijk in de specifieke moderne omschrijving.",
+      "mogelijke_interpretaties": "Alle drie actorrelaties kunnen bij delegatie/mandatering relevant zijn. Voor attributie is geen zelfstandige dekking bewezen. De brede moderne categorie geeft geen reden alleen de nabijgelegen ambtenarencategorie te kiezen.",
+      "risicos": "Een keuze voor alleen de laatste rij verliest andere actorrelaties. Een moderne B-waardering met terugwerkende kracht toepassen zou historische termijnen overschrijven.",
+      "voorgestelde_conclusie": {
+        "code": 2,
+        "label": "Meerdere inhoudelijk verdedigbare relaties",
+        "status": "voorstel_voor_inhoudelijke_beoordeling"
+      },
+      "onderbouwing": "PDF p.39 toont alle drie categorieën onder hetzelfde kopje. A289:A293 en E290:E293 geven gedeelde context; de lege B:D-cellen bepalen geen actor.",
+      "onzekerheden": [
+        "Matig voor meerdere inhoudelijk relevante relaties; onvoldoende voor een unieke actor of voor attributie.",
+        "Geen onafhankelijk menselijk archivistisch oordeel vastgesteld."
+      ],
+      "aanbevolen_vervolghandeling": "Na bevestiging van proces/object eventueel meerdere expliciete relaties met actorvoorwaarden registreren. Behoud oorspronkelijke termijnen en onderscheid attributie; nu geen activering.",
+      "beoordelingsstatus": "te_beoordelen",
+      "beoordelaar": null,
+      "beoordelingsdatum": null,
+      "definitief_oordeel": null
+    },
+    {
+      "bronrij_id": "concordans:rij:434",
+      "probleemgroep": "concordans:rij:434",
+      "onderzoeksvraag": "Is optie inhoudelijk aan nationaliteitsonderzoek of naturalisatie te verbinden?",
+      "betrokken_selectievoorschriften": [
+        "1996-2012:3.7.3::001",
+        "1996-2012:3.7.3::002",
+        "2020:7.1.23"
+      ],
+      "onderzochte_kandidaten": [
+        {
+          "record_id": "1996-2012:3.7.3::001",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "1996-2012:3.7.3::002",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "2020:7.1.23",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        }
+      ],
+      "oorspronkelijke_bronwaarden": {
+        "originele_cellen": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          "7.1.23",
+          "Verwerkt",
+          "Optieverklaring Nederlanderschap",
+          "Vernietigen na 12 jaar",
+          "nieuw in 2020",
+          null
+        ],
+        "samengevoegde_cellen_uitgevouwen": [
+          "3. Nationaliteit",
+          null,
+          null,
+          null,
+          "Aangiften behandelen",
+          "7.1.23",
+          "Verwerkt",
+          "Optieverklaring Nederlanderschap",
+          "Vernietigen na 12 jaar",
+          "nieuw in 2020",
+          null
+        ]
+      },
+      "bronverwijzingen": [
+        {
+          "bron_id": "concordans-aangeleverd",
+          "werkblad": "Blad1",
+          "rij": 434,
+          "functie": "Oorspronkelijke cellen en echte mergecontext"
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 8,
+          "paragraaf": "1.4",
+          "citaat": "Archiefbescheiden die in deze lijst afzonderlijk en in meer algemene zin worden genoemd kunnen in de gemeentelijke praktijk ook deel uitmaken van een meer specifieke categorie.",
+          "functie": "Specifieke categorie met langere termijn en context van bevoegdheden/samenhang; zie primaire pagina."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 10,
+          "paragraaf": "1.2, Ordening volgens procestypen",
+          "citaat": "Een procestype wordt beschreven vanuit het oogpunt van de zorgdrager.",
+          "functie": "Perspectief, generieke/specificieke resultaten en specifieke-resultatenvoorrang."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 25,
+          "paragraaf": "Procestermijn",
+          "citaat": "A Nihil = Er is geen aparte procestermijn, de bewaartermijn start direct.",
+          "functie": "Legendas A–E; geen datumrekenmodel."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 50,
+          "record_id": "1996-2012:3.7.3::001",
+          "citaat": "Onderzoek naar de nationaliteit",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 50,
+          "record_id": "1996-2012:3.7.3::002",
+          "citaat": "Naturalisatieprocedure: bescheiden betreffende verkrijging en verlies van het Nederlanderschap",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 30,
+          "record_id": "2020:7.1.23",
+          "citaat": "Optieverklaring Nederlan-\nderschap",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        }
+      ],
+      "criteria": {
+        "A_bronduidelijkheid": "PDF p.50 onderscheidt twee historische handelingen; PDF p.30 noemt uitsluitend Optieverklaring Nederlanderschap. E433:E434 verbindt procescontext, niet de lege B:D. De meegeleverde publicaties bevatten geen uitgewerkt oud optieproces waarmee kandidaten definitief zijn af te grenzen.",
+        "B_procesmatige_overeenkomst": "Alle genoemde voorschriften raken de nationaliteit of verkrijging/verlies van Nederlanderschap.",
+        "C_informatieobjecten": "Een optieverklaring kan stukken van onderzoek bevatten, maar daarmee is het volledige optieproces niet gelijk aan naturalisatie. Mogelijk is slechts een gedeeltelijke historische documentrelatie verdedigbaar.",
+        "D_toepassingsbereik": "Historisch staan Onderzoek naar de nationaliteit en Naturalisatieprocedure apart, beide 12 jaar na bekendmaking. Het moderne resultaat noemt specifiek optieverklaring en een aangifte; Nihil plus 12 jaar levert niet hetzelfde expliciet genoemde aanvangsmoment op. De selectielijsten leveren geen juridische gelijkstelling van optie en naturalisatie.",
+        "E_waardering_en_termijn": "Zie de letterlijke recordtabel: verschil in duur of aanvang is geen bewijs van gelijkwaardigheid of automatische juridische wijziging.",
+        "F_alternatieve_kandidaten": "1996-2012:3.7.3::001, 1996-2012:3.7.3::002, 2020:7.1.23",
+        "G_brononderbouwing": "Primaire PDF-pagina’s en concrete citaten staan in bronverwijzingen; ontbrekende proceduregegevens worden niet ingevuld."
+      },
+      "overeenkomsten": "Alle genoemde voorschriften raken de nationaliteit of verkrijging/verlies van Nederlanderschap.",
+      "verschillen": "Historisch staan Onderzoek naar de nationaliteit en Naturalisatieprocedure apart, beide 12 jaar na bekendmaking. Het moderne resultaat noemt specifiek optieverklaring en een aangifte; Nihil plus 12 jaar levert niet hetzelfde expliciet genoemde aanvangsmoment op. De selectielijsten leveren geen juridische gelijkstelling van optie en naturalisatie.",
+      "mogelijke_interpretaties": "Een optieverklaring kan stukken van onderzoek bevatten, maar daarmee is het volledige optieproces niet gelijk aan naturalisatie. Mogelijk is slechts een gedeeltelijke historische documentrelatie verdedigbaar.",
+      "risicos": "Gelijke twaalfjaarstermijnen kunnen een ten onrechte gelijkgestelde procedure en een fout startmoment suggereren.",
+      "voorgestelde_conclusie": {
+        "code": 3,
+        "label": "Onvoldoende onderbouwde relatie",
+        "status": "voorstel_voor_inhoudelijke_beoordeling"
+      },
+      "onderbouwing": "PDF p.50 onderscheidt twee historische handelingen; PDF p.30 noemt uitsluitend Optieverklaring Nederlanderschap. E433:E434 verbindt procescontext, niet de lege B:D. De meegeleverde publicaties bevatten geen uitgewerkt oud optieproces waarmee kandidaten definitief zijn af te grenzen.",
+      "onzekerheden": [
+        "Beperkt: thematische verwantschap staat vast, procedurele identiteit ontbreekt.",
+        "Geen onafhankelijk menselijk archivistisch oordeel vastgesteld."
+      ],
+      "aanbevolen_vervolghandeling": "Laat een informatieprofessional de toenmalige nationaliteitsprocedure en concrete informatieobjecten toetsen, zo nodig met aanvullende historische wettelijke/procedurebronnen. Geen één-op-éénrelatie activeren.",
+      "beoordelingsstatus": "te_beoordelen",
+      "beoordelaar": null,
+      "beoordelingsdatum": null,
+      "definitief_oordeel": null
+    },
+    {
+      "bronrij_id": "concordans:rij:442",
+      "probleemgroep": "concordans:rij:442",
+      "onderzoeksvraag": "Welke historische rijbewijsdossiers kunnen een fraudemelding omvatten?",
+      "betrokken_selectievoorschriften": [
+        "1996-2012:3.7.6::001",
+        "1996-2012:3.7.6::002",
+        "2020:7.1.24"
+      ],
+      "onderzochte_kandidaten": [
+        {
+          "record_id": "1996-2012:3.7.6::001",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "1996-2012:3.7.6::002",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "2020:7.1.24",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        }
+      ],
+      "oorspronkelijke_bronwaarden": {
+        "originele_cellen": [
+          null,
+          null,
+          null,
+          null,
+          "Aangiften behandelen",
+          "7.1.24",
+          "Verwerkt",
+          "Fraude melding rijbewijs",
+          "Vernietigen na 1 jaar na verallen geldigheid rijbewijs",
+          null,
+          null
+        ],
+        "samengevoegde_cellen_uitgevouwen": [
+          "6. Rijbewijzen",
+          null,
+          null,
+          null,
+          "Aangiften behandelen",
+          "7.1.24",
+          "Verwerkt",
+          "Fraude melding rijbewijs",
+          "Vernietigen na 1 jaar na verallen geldigheid rijbewijs",
+          null,
+          null
+        ]
+      },
+      "bronverwijzingen": [
+        {
+          "bron_id": "concordans-aangeleverd",
+          "werkblad": "Blad1",
+          "rij": 442,
+          "functie": "Oorspronkelijke cellen en echte mergecontext"
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 8,
+          "paragraaf": "1.4",
+          "citaat": "Archiefbescheiden die in deze lijst afzonderlijk en in meer algemene zin worden genoemd kunnen in de gemeentelijke praktijk ook deel uitmaken van een meer specifieke categorie.",
+          "functie": "Specifieke categorie met langere termijn en context van bevoegdheden/samenhang; zie primaire pagina."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 10,
+          "paragraaf": "1.2, Ordening volgens procestypen",
+          "citaat": "Een procestype wordt beschreven vanuit het oogpunt van de zorgdrager.",
+          "functie": "Perspectief, generieke/specificieke resultaten en specifieke-resultatenvoorrang."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 25,
+          "paragraaf": "Procestermijn",
+          "citaat": "A Nihil = Er is geen aparte procestermijn, de bewaartermijn start direct.",
+          "functie": "Legendas A–E; geen datumrekenmodel."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 52,
+          "record_id": "1996-2012:3.7.6::001",
+          "citaat": "Aanvraag en afgifte (inclusief vernieuwing)",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 52,
+          "record_id": "1996-2012:3.7.6::002",
+          "citaat": "Ongeldig verklaring door burgemeester en inneming",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 30,
+          "record_id": "2020:7.1.24",
+          "citaat": "Fraude melding rijbewijs",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        }
+      ],
+      "criteria": {
+        "A_bronduidelijkheid": "PDF p.52 noemt beide historische handelingen; PDF p.30 specificeert de geldigheidsduur als anker. A440:A443 geeft alleen rubriekcontext; B:D blijven leeg.",
+        "B_procesmatige_overeenkomst": "Een fraudemelding kan samenhangen met aanvraag/afgifte of met ongeldigverklaring en inneming van een rijbewijs.",
+        "C_informatieobjecten": "Voorwaardelijk zijn beide historische procesrichtingen verdedigbaar. Een melding die geen ongeldigverklaring oplevert hoeft niet onder die laatste categorie te vallen; een daadwerkelijke afgiftezaak omvat meer dan de melding.",
+        "D_toepassingsbereik": "Historisch aanvraag/afgifte 11 jaar en ongeldigverklaring 1 jaar; de afzonderlijke aanvang is niet vastgelegd. Het moderne aangifteresultaat is 1 jaar met samengevoegde procestermijn en toelichting Na verloop originele geldigheidsduur rijbewijs. Het informatieobject melding is niet vanzelf het gehele rijbewijsdossier.",
+        "E_waardering_en_termijn": "Zie de letterlijke recordtabel: verschil in duur of aanvang is geen bewijs van gelijkwaardigheid of automatische juridische wijziging.",
+        "F_alternatieve_kandidaten": "1996-2012:3.7.6::001, 1996-2012:3.7.6::002, 2020:7.1.24",
+        "G_brononderbouwing": "Primaire PDF-pagina’s en concrete citaten staan in bronverwijzingen; ontbrekende proceduregegevens worden niet ingevuld."
+      },
+      "overeenkomsten": "Een fraudemelding kan samenhangen met aanvraag/afgifte of met ongeldigverklaring en inneming van een rijbewijs.",
+      "verschillen": "Historisch aanvraag/afgifte 11 jaar en ongeldigverklaring 1 jaar; de afzonderlijke aanvang is niet vastgelegd. Het moderne aangifteresultaat is 1 jaar met samengevoegde procestermijn en toelichting Na verloop originele geldigheidsduur rijbewijs. Het informatieobject melding is niet vanzelf het gehele rijbewijsdossier.",
+      "mogelijke_interpretaties": "Voorwaardelijk zijn beide historische procesrichtingen verdedigbaar. Een melding die geen ongeldigverklaring oplevert hoeft niet onder die laatste categorie te vallen; een daadwerkelijke afgiftezaak omvat meer dan de melding.",
+      "risicos": "De overeenkomstige éénjaarstermijn gebruiken als identiteitsbewijs kan afgiftegegevens te kort bewaren of het verschil tussen melding en besluit wissen.",
+      "voorgestelde_conclusie": {
+        "code": 2,
+        "label": "Meerdere inhoudelijk verdedigbare relaties",
+        "status": "voorstel_voor_inhoudelijke_beoordeling"
+      },
+      "onderbouwing": "PDF p.52 noemt beide historische handelingen; PDF p.30 specificeert de geldigheidsduur als anker. A440:A443 geeft alleen rubriekcontext; B:D blijven leeg.",
+      "onzekerheden": [
+        "Matig voor twee mogelijke procesrichtingen, beperkt voor een bepaalde melding.",
+        "Geen onafhankelijk menselijk archivistisch oordeel vastgesteld."
+      ],
+      "aanbevolen_vervolghandeling": "Beschrijf eerst de dossiergrens, uitkomst van de melding en originele geldigheidsduur. Registreer na bevestiging zo nodig meerdere conditionele documentrelaties; behoud de brononzekerheid tot die tijd.",
+      "beoordelingsstatus": "te_beoordelen",
+      "beoordelaar": null,
+      "beoordelingsdatum": null,
+      "definitief_oordeel": null
+    },
+    {
+      "bronrij_id": "concordans:rij:50",
+      "probleemgroep": "statistische_scope_2.8",
+      "onderzoeksvraag": "Wat betekent de weglating en aan bij deze afzonderlijke doelverwijzing?",
+      "betrokken_selectievoorschriften": [
+        "1996-2012:2.8::001",
+        "1996-2012:2.8::002",
+        "2020:20.1"
+      ],
+      "onderzochte_kandidaten": [
+        {
+          "record_id": "1996-2012:2.8::001",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "1996-2012:2.8::002",
+          "rol": "aanvullende_context_geen_recordwissel"
+        },
+        {
+          "record_id": "2020:20.1",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        }
+      ],
+      "oorspronkelijke_bronwaarden": {
+        "originele_cellen": [
+          "8. Statistisch onderzoek",
+          "a.",
+          "Door de gemeente verstrekte statistische opgaven voor zover zij niet van belang zijn",
+          "3 jaar",
+          "Informeren",
+          "20.1",
+          "Uitgevoerd",
+          null,
+          "Vernietigen na 1 jaar",
+          null,
+          null
+        ],
+        "samengevoegde_cellen_uitgevouwen": [
+          "8. Statistisch onderzoek",
+          "a.",
+          "Door de gemeente verstrekte statistische opgaven voor zover zij niet van belang zijn",
+          "3 jaar",
+          "Informeren",
+          "20.1",
+          "Uitgevoerd",
+          null,
+          "Vernietigen na 1 jaar",
+          null,
+          null
+        ]
+      },
+      "bronverwijzingen": [
+        {
+          "bron_id": "concordans-aangeleverd",
+          "werkblad": "Blad1",
+          "rij": 50,
+          "functie": "Oorspronkelijke cellen en echte mergecontext"
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 8,
+          "paragraaf": "1.4",
+          "citaat": "Archiefbescheiden die in deze lijst afzonderlijk en in meer algemene zin worden genoemd kunnen in de gemeentelijke praktijk ook deel uitmaken van een meer specifieke categorie.",
+          "functie": "Specifieke categorie met langere termijn en context van bevoegdheden/samenhang; zie primaire pagina."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 9,
+          "paragraaf": "1.4",
+          "citaat": "bescheiden die een samenvatting zijn van gegevens, zoals jaarverslagen, overzichten en statistieken",
+          "functie": "Algemene uitzondering; geen automatische selectieconclusie."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 10,
+          "paragraaf": "1.2, Ordening volgens procestypen",
+          "citaat": "Een procestype wordt beschreven vanuit het oogpunt van de zorgdrager.",
+          "functie": "Perspectief, generieke/specificieke resultaten en specifieke-resultatenvoorrang."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 25,
+          "paragraaf": "Procestermijn",
+          "citaat": "A Nihil = Er is geen aparte procestermijn, de bewaartermijn start direct.",
+          "functie": "Legendas A–E; geen datumrekenmodel."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 21,
+          "record_id": "1996-2012:2.8::001",
+          "citaat": "Door en aan de gemeente verstrekte statistische opgaven voor zover zij niet van belang zijn",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 21,
+          "record_id": "1996-2012:2.8::002",
+          "citaat": "Wel van betekenis en niet of nauwelijks te reconstrueren statistische opgaven. Voorbeelden hiervan zijn gemeentelijke sociaaleconomische en geografische onderzoeken en opgaven, zoals de loop en de leeftijdsopbouw van de bevolking, de woningvoorraad en het bodemgebruik",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 38,
+          "record_id": "2020:20.1",
+          "citaat": "Uitgevoerd",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        }
+      ],
+      "criteria": {
+        "A_bronduidelijkheid": "PDF p.21 bevestigt letterlijk door en aan en de naburige B-categorie; PDF p.9 noemt samenvattende gegevens zoals statistieken bij uitzonderingen. C50:C52 is één echte merge: drie doelverwijzingen, één gedeeld tekstprobleem.",
+        "B_procesmatige_overeenkomst": "De technische rij-identiteit wijst op hetzelfde historische statistiekvoorschrift; doel en bron raken statistische informatie.",
+        "C_informatieobjecten": "Informeren gaat over door het orgaan samengestelde en verspreide informatie; dat ondersteunt een mogelijke uitgaande deelverzameling, maar bewijst de bedoeling van de inkorting niet. Redactionele verkorting en een bewuste deelverzameling zijn beide hypotheses; geen auteursverklaring of wijzigingsmotivering is aangetroffen.",
+        "D_toepassingsbereik": "De concordans noemt alleen door de gemeente verstrekte opgaven; de officiële tekst noemt door en aan. Uitgaande en inkomende informatiestromen zijn taalkundig niet dezelfde verzameling. Historisch niet van belang: 3 jaar; wel van betekenis/niet of nauwelijks te reconstrueren: B. Het moderne doel heeft Nihil en 1 jaar.",
+        "E_waardering_en_termijn": "Zie de letterlijke recordtabel: verschil in duur of aanvang is geen bewijs van gelijkwaardigheid of automatische juridische wijziging.",
+        "F_alternatieve_kandidaten": "1996-2012:2.8::001, 1996-2012:2.8::002, 2020:20.1",
+        "G_brononderbouwing": "Primaire PDF-pagina’s en concrete citaten staan in bronverwijzingen; ontbrekende proceduregegevens worden niet ingevuld."
+      },
+      "overeenkomsten": "De technische rij-identiteit wijst op hetzelfde historische statistiekvoorschrift; doel en bron raken statistische informatie.",
+      "verschillen": "De concordans noemt alleen door de gemeente verstrekte opgaven; de officiële tekst noemt door en aan. Uitgaande en inkomende informatiestromen zijn taalkundig niet dezelfde verzameling. Historisch niet van belang: 3 jaar; wel van betekenis/niet of nauwelijks te reconstrueren: B. Het moderne doel heeft Nihil en 1 jaar.",
+      "mogelijke_interpretaties": "Informeren gaat over door het orgaan samengestelde en verspreide informatie; dat ondersteunt een mogelijke uitgaande deelverzameling, maar bewijst de bedoeling van de inkorting niet. Redactionele verkorting en een bewuste deelverzameling zijn beide hypotheses; geen auteursverklaring of wijzigingsmotivering is aangetroffen.",
+      "risicos": "De verkorte tekst als volledig historisch toepassingsbereik tonen kan ontvangen opgaven onzichtbaar maken; alle statistiek vernietigbaar noemen kan de B-categorie en uitzonderingscriteria negeren.",
+      "voorgestelde_conclusie": {
+        "code": 5,
+        "label": "Bronafwijking zonder gevolgen voor de technische koppeling",
+        "status": "voorstel_voor_inhoudelijke_beoordeling"
+      },
+      "onderbouwing": "PDF p.21 bevestigt letterlijk door en aan en de naburige B-categorie; PDF p.9 noemt samenvattende gegevens zoals statistieken bij uitzonderingen. C50:C52 is één echte merge: drie doelverwijzingen, één gedeeld tekstprobleem.",
+      "onzekerheden": [
+        "Hoog voor de tekstuele afwijking en technische identiteit; beperkt voor de bedoeling van de concordansauteur.",
+        "Geen onafhankelijk menselijk archivistisch oordeel vastgesteld."
+      ],
+      "aanbevolen_vervolghandeling": "Bestaande technische koppeling aan 2.8::001 behouden. Na inhoudelijke bevestiging een toelichting op de beperkte concordansformulering en de objectafbakening tonen; 2.8::002 is alleen aanvullende beoordelingscontext, geen voorgestelde recordwissel.",
+      "beoordelingsstatus": "te_beoordelen",
+      "beoordelaar": null,
+      "beoordelingsdatum": null,
+      "definitief_oordeel": null
+    },
+    {
+      "bronrij_id": "concordans:rij:51",
+      "probleemgroep": "statistische_scope_2.8",
+      "onderzoeksvraag": "Wat betekent de weglating en aan bij deze afzonderlijke doelverwijzing?",
+      "betrokken_selectievoorschriften": [
+        "1996-2012:2.8::001",
+        "1996-2012:2.8::002",
+        "2020:19.2"
+      ],
+      "onderzochte_kandidaten": [
+        {
+          "record_id": "1996-2012:2.8::001",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "1996-2012:2.8::002",
+          "rol": "aanvullende_context_geen_recordwissel"
+        },
+        {
+          "record_id": "2020:19.2",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        }
+      ],
+      "oorspronkelijke_bronwaarden": {
+        "originele_cellen": [
+          null,
+          null,
+          null,
+          null,
+          "Secretariaat voeren en gegevens administreren / verwerken ",
+          "19.2",
+          "Niet verwerkt",
+          null,
+          "Vernietigen na 1 jaar",
+          null,
+          null
+        ],
+        "samengevoegde_cellen_uitgevouwen": [
+          "8. Statistisch onderzoek",
+          "a.",
+          "Door de gemeente verstrekte statistische opgaven voor zover zij niet van belang zijn",
+          "3 jaar",
+          "Secretariaat voeren en gegevens administreren / verwerken ",
+          "19.2",
+          "Niet verwerkt",
+          null,
+          "Vernietigen na 1 jaar",
+          null,
+          null
+        ]
+      },
+      "bronverwijzingen": [
+        {
+          "bron_id": "concordans-aangeleverd",
+          "werkblad": "Blad1",
+          "rij": 51,
+          "functie": "Oorspronkelijke cellen en echte mergecontext"
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 8,
+          "paragraaf": "1.4",
+          "citaat": "Archiefbescheiden die in deze lijst afzonderlijk en in meer algemene zin worden genoemd kunnen in de gemeentelijke praktijk ook deel uitmaken van een meer specifieke categorie.",
+          "functie": "Specifieke categorie met langere termijn en context van bevoegdheden/samenhang; zie primaire pagina."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 9,
+          "paragraaf": "1.4",
+          "citaat": "bescheiden die een samenvatting zijn van gegevens, zoals jaarverslagen, overzichten en statistieken",
+          "functie": "Algemene uitzondering; geen automatische selectieconclusie."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 10,
+          "paragraaf": "1.2, Ordening volgens procestypen",
+          "citaat": "Een procestype wordt beschreven vanuit het oogpunt van de zorgdrager.",
+          "functie": "Perspectief, generieke/specificieke resultaten en specifieke-resultatenvoorrang."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 25,
+          "paragraaf": "Procestermijn",
+          "citaat": "A Nihil = Er is geen aparte procestermijn, de bewaartermijn start direct.",
+          "functie": "Legendas A–E; geen datumrekenmodel."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 21,
+          "record_id": "1996-2012:2.8::001",
+          "citaat": "Door en aan de gemeente verstrekte statistische opgaven voor zover zij niet van belang zijn",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 21,
+          "record_id": "1996-2012:2.8::002",
+          "citaat": "Wel van betekenis en niet of nauwelijks te reconstrueren statistische opgaven. Voorbeelden hiervan zijn gemeentelijke sociaaleconomische en geografische onderzoeken en opgaven, zoals de loop en de leeftijdsopbouw van de bevolking, de woningvoorraad en het bodemgebruik",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 38,
+          "record_id": "2020:19.2",
+          "citaat": "Niet verwerkt",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        }
+      ],
+      "criteria": {
+        "A_bronduidelijkheid": "PDF p.21 bevestigt letterlijk door en aan en de naburige B-categorie; PDF p.9 noemt samenvattende gegevens zoals statistieken bij uitzonderingen. C50:C52 is één echte merge: drie doelverwijzingen, één gedeeld tekstprobleem.",
+        "B_procesmatige_overeenkomst": "De technische rij-identiteit wijst op hetzelfde historische statistiekvoorschrift; doel en bron raken statistische informatie.",
+        "C_informatieobjecten": "Niet verwerkt is een procesuitkomst, geen synoniem voor ontvangen of voor niet van belang. De brede officiële historische tekst omvat ook ontvangen opgaven; dossierfase en verwerking moeten worden vastgesteld. Redactionele verkorting en een bewuste deelverzameling zijn beide hypotheses; geen auteursverklaring of wijzigingsmotivering is aangetroffen.",
+        "D_toepassingsbereik": "De concordans noemt alleen door de gemeente verstrekte opgaven; de officiële tekst noemt door en aan. Uitgaande en inkomende informatiestromen zijn taalkundig niet dezelfde verzameling. Historisch niet van belang: 3 jaar; wel van betekenis/niet of nauwelijks te reconstrueren: B. Het moderne doel Niet verwerkt heeft Nihil en 1 jaar.",
+        "E_waardering_en_termijn": "Zie de letterlijke recordtabel: verschil in duur of aanvang is geen bewijs van gelijkwaardigheid of automatische juridische wijziging.",
+        "F_alternatieve_kandidaten": "1996-2012:2.8::001, 1996-2012:2.8::002, 2020:19.2",
+        "G_brononderbouwing": "Primaire PDF-pagina’s en concrete citaten staan in bronverwijzingen; ontbrekende proceduregegevens worden niet ingevuld."
+      },
+      "overeenkomsten": "De technische rij-identiteit wijst op hetzelfde historische statistiekvoorschrift; doel en bron raken statistische informatie.",
+      "verschillen": "De concordans noemt alleen door de gemeente verstrekte opgaven; de officiële tekst noemt door en aan. Uitgaande en inkomende informatiestromen zijn taalkundig niet dezelfde verzameling. Historisch niet van belang: 3 jaar; wel van betekenis/niet of nauwelijks te reconstrueren: B. Het moderne doel Niet verwerkt heeft Nihil en 1 jaar.",
+      "mogelijke_interpretaties": "Niet verwerkt is een procesuitkomst, geen synoniem voor ontvangen of voor niet van belang. De brede officiële historische tekst omvat ook ontvangen opgaven; dossierfase en verwerking moeten worden vastgesteld. Redactionele verkorting en een bewuste deelverzameling zijn beide hypotheses; geen auteursverklaring of wijzigingsmotivering is aangetroffen.",
+      "risicos": "De verkorte tekst als volledig historisch toepassingsbereik tonen kan ontvangen opgaven onzichtbaar maken; alle statistiek vernietigbaar noemen kan de B-categorie en uitzonderingscriteria negeren.",
+      "voorgestelde_conclusie": {
+        "code": 5,
+        "label": "Bronafwijking zonder gevolgen voor de technische koppeling",
+        "status": "voorstel_voor_inhoudelijke_beoordeling"
+      },
+      "onderbouwing": "PDF p.21 bevestigt letterlijk door en aan en de naburige B-categorie; PDF p.9 noemt samenvattende gegevens zoals statistieken bij uitzonderingen. C50:C52 is één echte merge: drie doelverwijzingen, één gedeeld tekstprobleem.",
+      "onzekerheden": [
+        "Hoog voor de tekstuele afwijking en technische identiteit; beperkt voor de bedoeling van de concordansauteur.",
+        "Geen onafhankelijk menselijk archivistisch oordeel vastgesteld."
+      ],
+      "aanbevolen_vervolghandeling": "Bestaande technische koppeling aan 2.8::001 behouden. Na inhoudelijke bevestiging een toelichting op de beperkte concordansformulering en de objectafbakening tonen; 2.8::002 is alleen aanvullende beoordelingscontext, geen voorgestelde recordwissel.",
+      "beoordelingsstatus": "te_beoordelen",
+      "beoordelaar": null,
+      "beoordelingsdatum": null,
+      "definitief_oordeel": null
+    },
+    {
+      "bronrij_id": "concordans:rij:52",
+      "probleemgroep": "statistische_scope_2.8",
+      "onderzoeksvraag": "Wat betekent de weglating en aan bij deze afzonderlijke doelverwijzing?",
+      "betrokken_selectievoorschriften": [
+        "1996-2012:2.8::001",
+        "1996-2012:2.8::002",
+        "2020:20.1.4"
+      ],
+      "onderzochte_kandidaten": [
+        {
+          "record_id": "1996-2012:2.8::001",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        },
+        {
+          "record_id": "1996-2012:2.8::002",
+          "rol": "aanvullende_context_geen_recordwissel"
+        },
+        {
+          "record_id": "2020:20.1.4",
+          "rol": "onderzochte_kandidaat_of_bestaand_eindpunt"
+        }
+      ],
+      "oorspronkelijke_bronwaarden": {
+        "originele_cellen": [
+          null,
+          null,
+          null,
+          null,
+          "Informeren",
+          "20.1.4",
+          "Uitgevoerd",
+          "Gegevens over woningstatistiek",
+          "Vernietigen na 5 jaar",
+          null,
+          null
+        ],
+        "samengevoegde_cellen_uitgevouwen": [
+          "8. Statistisch onderzoek",
+          "a.",
+          "Door de gemeente verstrekte statistische opgaven voor zover zij niet van belang zijn",
+          "3 jaar",
+          "Informeren",
+          "20.1.4",
+          "Uitgevoerd",
+          "Gegevens over woningstatistiek",
+          "Vernietigen na 5 jaar",
+          null,
+          null
+        ]
+      },
+      "bronverwijzingen": [
+        {
+          "bron_id": "concordans-aangeleverd",
+          "werkblad": "Blad1",
+          "rij": 52,
+          "functie": "Oorspronkelijke cellen en echte mergecontext"
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 8,
+          "paragraaf": "1.4",
+          "citaat": "Archiefbescheiden die in deze lijst afzonderlijk en in meer algemene zin worden genoemd kunnen in de gemeentelijke praktijk ook deel uitmaken van een meer specifieke categorie.",
+          "functie": "Specifieke categorie met langere termijn en context van bevoegdheden/samenhang; zie primaire pagina."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 9,
+          "paragraaf": "1.4",
+          "citaat": "bescheiden die een samenvatting zijn van gegevens, zoals jaarverslagen, overzichten en statistieken",
+          "functie": "Algemene uitzondering; geen automatische selectieconclusie."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 10,
+          "paragraaf": "1.2, Ordening volgens procestypen",
+          "citaat": "Een procestype wordt beschreven vanuit het oogpunt van de zorgdrager.",
+          "functie": "Perspectief, generieke/specificieke resultaten en specifieke-resultatenvoorrang."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 25,
+          "paragraaf": "Procestermijn",
+          "citaat": "A Nihil = Er is geen aparte procestermijn, de bewaartermijn start direct.",
+          "functie": "Legendas A–E; geen datumrekenmodel."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 21,
+          "record_id": "1996-2012:2.8::001",
+          "citaat": "Door en aan de gemeente verstrekte statistische opgaven voor zover zij niet van belang zijn",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 21,
+          "record_id": "1996-2012:2.8::002",
+          "citaat": "Wel van betekenis en niet of nauwelijks te reconstrueren statistische opgaven. Voorbeelden hiervan zijn gemeentelijke sociaaleconomische en geografische onderzoeken en opgaven, zoals de loop en de leeftijdsopbouw van de bevolking, de woningvoorraad en het bodemgebruik",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        },
+        {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 38,
+          "record_id": "2020:20.1.4",
+          "citaat": "Gegevens over woning-\nstatistiek",
+          "functie": "Officiële categorie, waardering en termijnen; dossierparagraaf 4."
+        }
+      ],
+      "criteria": {
+        "A_bronduidelijkheid": "PDF p.21 bevestigt letterlijk door en aan en de naburige B-categorie; PDF p.9 noemt samenvattende gegevens zoals statistieken bij uitzonderingen. C50:C52 is één echte merge: drie doelverwijzingen, één gedeeld tekstprobleem.",
+        "B_procesmatige_overeenkomst": "De technische rij-identiteit wijst op hetzelfde historische statistiekvoorschrift; doel en bron raken statistische informatie.",
+        "C_informatieobjecten": "Woningstatistiek kan deels in een uitgaande statistiekstroom passen, maar de historische lijst noemt ook belangrijke of moeilijk te reconstrueren statistiek als B. Een modern specifiek onderwerp bewijst niet dat de oude opgaven onbelangrijk waren. Redactionele verkorting en een bewuste deelverzameling zijn beide hypotheses; geen auteursverklaring of wijzigingsmotivering is aangetroffen.",
+        "D_toepassingsbereik": "De concordans noemt alleen door de gemeente verstrekte opgaven; de officiële tekst noemt door en aan. Uitgaande en inkomende informatiestromen zijn taalkundig niet dezelfde verzameling. Historisch niet van belang: 3 jaar; wel van betekenis/niet of nauwelijks te reconstrueren: B. Het moderne doel heeft Nihil en 5 jaar.",
+        "E_waardering_en_termijn": "Zie de letterlijke recordtabel: verschil in duur of aanvang is geen bewijs van gelijkwaardigheid of automatische juridische wijziging.",
+        "F_alternatieve_kandidaten": "1996-2012:2.8::001, 1996-2012:2.8::002, 2020:20.1.4",
+        "G_brononderbouwing": "Primaire PDF-pagina’s en concrete citaten staan in bronverwijzingen; ontbrekende proceduregegevens worden niet ingevuld."
+      },
+      "overeenkomsten": "De technische rij-identiteit wijst op hetzelfde historische statistiekvoorschrift; doel en bron raken statistische informatie.",
+      "verschillen": "De concordans noemt alleen door de gemeente verstrekte opgaven; de officiële tekst noemt door en aan. Uitgaande en inkomende informatiestromen zijn taalkundig niet dezelfde verzameling. Historisch niet van belang: 3 jaar; wel van betekenis/niet of nauwelijks te reconstrueren: B. Het moderne doel heeft Nihil en 5 jaar.",
+      "mogelijke_interpretaties": "Woningstatistiek kan deels in een uitgaande statistiekstroom passen, maar de historische lijst noemt ook belangrijke of moeilijk te reconstrueren statistiek als B. Een modern specifiek onderwerp bewijst niet dat de oude opgaven onbelangrijk waren. Redactionele verkorting en een bewuste deelverzameling zijn beide hypotheses; geen auteursverklaring of wijzigingsmotivering is aangetroffen.",
+      "risicos": "De verkorte tekst als volledig historisch toepassingsbereik tonen kan ontvangen opgaven onzichtbaar maken; alle statistiek vernietigbaar noemen kan de B-categorie en uitzonderingscriteria negeren.",
+      "voorgestelde_conclusie": {
+        "code": 5,
+        "label": "Bronafwijking zonder gevolgen voor de technische koppeling",
+        "status": "voorstel_voor_inhoudelijke_beoordeling"
+      },
+      "onderbouwing": "PDF p.21 bevestigt letterlijk door en aan en de naburige B-categorie; PDF p.9 noemt samenvattende gegevens zoals statistieken bij uitzonderingen. C50:C52 is één echte merge: drie doelverwijzingen, één gedeeld tekstprobleem.",
+      "onzekerheden": [
+        "Hoog voor de tekstuele afwijking en technische identiteit; beperkt voor de bedoeling van de concordansauteur.",
+        "Geen onafhankelijk menselijk archivistisch oordeel vastgesteld."
+      ],
+      "aanbevolen_vervolghandeling": "Bestaande technische koppeling aan 2.8::001 behouden. Na inhoudelijke bevestiging een toelichting op de beperkte concordansformulering en de objectafbakening tonen; 2.8::002 is alleen aanvullende beoordelingscontext, geen voorgestelde recordwissel.",
+      "beoordelingsstatus": "te_beoordelen",
+      "beoordelaar": null,
+      "beoordelingsdatum": null,
+      "definitief_oordeel": null
+    }
+  ]
+}
