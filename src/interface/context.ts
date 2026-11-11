@@ -6,7 +6,7 @@ type Fragment = { tekst: string; bron: Bron };
 type Pagina = Fragment & { id: string; tekstcodering?: string; leesbare_paginakopie?: {bron_id:string;pdf_pagina:number;tekst:string}|null };
 type Rubriek = {code:string; primaire_fragmenten: Fragment[]; leesbare_paginakopie: (Fragment & {functie?:string})[]; opmerking?:string};
 const cache = new Map<string, Promise<unknown>>();
-async function lees(dataset: Dataset, bestand: string) {
+export async function leesBroncontext(dataset: Dataset, bestand: string) {
   const url = new URL(`./datasets/${dataset.id}/${bestand}`, document.baseURI).href;
   if (!cache.has(url)) {
     const taak = (async()=>{const r=await fetch(url);if(!r.ok)throw Error('Bestand niet bereikbaar');return r.json();})();
@@ -28,7 +28,7 @@ export function bronContext(dataset: Dataset, bestand: 'bepalingen.json'|'rubrie
     details.querySelector(':scope > div')?.remove();
     const inhoud=element('div');details.append(inhoud);inhoud.textContent='Brontekst laden…';
     try {
-      const json=await lees(dataset,bestand);if(!Array.isArray(json))throw Error('Ongeldige broncontext');
+      const json=await leesBroncontext(dataset,bestand);if(!Array.isArray(json))throw Error('Ongeldige broncontext');
       inhoud.replaceChildren();
       const toon=(f:Fragment,label:string,doel:HTMLElement=inhoud)=>{if(!fragment(f)||!dataset.manifest.bronnenregister.some(b=>b.id===f.bron.bron_id))throw Error('Ongeldige bronverwijzing');doel.append(element('h4',label),element('p',f.tekst,'brontekst'),bronlocatie(f.bron));};
       if(bestand==='bepalingen.json') {

@@ -1,5 +1,12 @@
 # Statische gegevenslaag
 
+## Selectielijsten raadplegen en downloaden — opdracht 16
+
+De hoofdnavigatie bestaat nu uit **Zoeken en verkennen**, **Selectielijsten raadplegen** en **Concordans raadplegen**. De nieuwe raadpleegfunctie biedt één doorlopende tabel per officiële lijst: 494 / 305 / 346 voorschriften, eenvoudig tabelzoeken, links naar dezelfde details en terug naar de exacte rij. Alleen de gekozen dataset wordt geladen, met hergebruik van de bestaande cache.
+
+De drie downloads heten exact `Selectielijst 1996-2012.xlsx`, `Selectielijst 2017.xlsx` en `Selectielijst 2020.xlsx`, met werkbladen `Selectiegegevens` en `Bronvermelding`. Zij bevatten alle voorschriften ongeacht zoekfilters, uitgebreide officiële gegevens, afzonderlijke annotaties/statussen, volledige controle-JSON en broncontext. De bestaande tekstuele publicatiegrondslag geldt binnen dezelfde afbakening; oorspronkelijke documenten en concordansdata worden niet toegevoegd. Zie [selectielijsten-raadplegen.md](selectielijsten-raadplegen.md) voor veldherkomst, rechten, links en tests.
+
+
 De TypeScript-module in `src/gegevenslaag/` ontsluit de bestaande datasets afzonderlijk, zonder gebruikersinterface, zoekmachine, backend of externe API. Datasetwaarden worden niet aangepast of gekopieerd naar een afgeleid gegevensbestand.
 
 ## Technische structuur en bouwen

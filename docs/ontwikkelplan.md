@@ -131,3 +131,12 @@ De paginering is verwijderd. Alle 716 rijen worden als één doorlopende tabel g
 De celinhoud is op concrete persoonsgegevens gecontroleerd: geen aangetroffen; geen rijen of kolommen verwijderd. Oorspronkelijke makermetadata worden niet geëxporteerd. De juridische distributieblokkade blijft bestaan en GitHub Pages is niet geactiveerd. Zie de bijgewerkte viewer-, interface- en hergebruikdocumentatie. Publieke gegevensopname is niet als afgerond geregistreerd.
 
 Validatie opdracht 15: volledige broncontrole en publieke datasetvalidatie, productiebuild en typecheck; regressieset van 142 moduletests en 77 Chromium-browsertests met echte bron. Onafhankelijke XLSX-teruglezing controleert alle broncellen/context en de daadwerkelijke browserdownload. Desktop/mobiel zijn visueel beoordeeld; lokale responstijden zijn vastgelegd in de viewerdocumentatie. Bestaande koppeldekking 612/606/6 en alle tien besluiten blijven behouden. Geen openbare data-opname of Pages-activering.
+
+
+## Selectielijsten raadplegen en downloaden — opdracht 16
+
+Drie doorlopende tabellen op basis van de bestaande gevalideerde datasets zijn gerealiseerd, met 494 / 305 / 346 afzonderlijke voorschriften in bronvolgorde. Datasetkeuze, eenvoudige tabelmatching, exacte codefilters, detail-/teruglinks en sessiecontext zijn toegevoegd binnen de bestaande applicatie. Brongetrouwe browserexports met de voorgeschreven drie bestandsnamen en twee werkbladen gebruiken de gedeelde XLSX-schrijver en bestaande contextcache. Uitgebreide officiële gegevens, annotaties, statussen en algemene/rubriekvoorwaarden blijven beschikbaar.
+
+Er zijn geen nieuwe dependencies, backend, gegevenskopieën of wijzigingen in officiële datasets/zoeklexicons/concordansbesluiten. De bestaande publicatiebeoordeling voor officiële tekst is toegepast zonder uitgesloten bronbestanden toe te voegen. Concordansdistributie blijft afzonderlijk geblokkeerd en GitHub Pages is niet geactiveerd. Zie [documentatie](selectielijsten-raadplegen.md).
+
+Eindcontrole opdracht 16: 149 moduletests en 84 Chromium-browsertests met alle bestaande echte-bronregressies geslaagd, nul overgeslagen. Alle zeven nieuwe browsertests zijn bovendien zonder privéconcordansbron geslaagd. Productiebuild, typecheck en publieke datasetvalidatie zijn geslaagd. De drie werkelijke downloads zijn onafhankelijk teruggelezen; desktop/mobiel en het repositorysubpad zijn visueel gecontroleerd. Bronbestanden en beoordelingsbesluiten zijn ongewijzigd.

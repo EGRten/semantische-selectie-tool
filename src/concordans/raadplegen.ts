@@ -1,3 +1,4 @@
+import { filterTabel } from '../gedeeld/tekstfilter.js';
 import type { Bronrij } from './bronbestand.js';
 export const CONCORDANS_KOLOMMEN = [
  'A — Historisch onderdeel', 'B — Historische subletter (geen officiële code)',
@@ -11,12 +12,8 @@ export const CONCORDANS_IDENTITEIT = {
  jsonSha256:'b01cff07c7bfeeb6f562d467373615f5a18cfc7ab9777f11fcd5cb1ed7de73dd',
  contextUrl:'https://www.vhic.nl/faq/selectielijsten-2017-en-2020/',
 } as const;
-const normaal=(s:string)=>s.normalize('NFD').replace(/\p{M}/gu,'').toLocaleLowerCase('nl').replace(/[^\p{L}\p{N}]+/gu,' ').trim();
-/** Alle woorden moeten voorkomen in originele cellen of expliciet onderscheiden mergecontext. Geen semantische uitbreiding. */
-export function zoekConcordansrijen(rijen:readonly Bronrij[],vraag:string):readonly Bronrij[]{
- const woorden=normaal(vraag).split(/\s+/).filter(Boolean);
- return woorden.length?rijen.filter(r=>{const tekst=normaal([...r.originele_cellen,...r.samengevoegde_cellen_uitgevouwen].map(v=>v??'').join(' '));return woorden.every(w=>tekst.includes(w));}):rijen;
-}
+/** Alle woorden in originele cellen of expliciet onderscheiden mergecontext. */
+export function zoekConcordansrijen(rijen:readonly Bronrij[],vraag:string):readonly Bronrij[]{return filterTabel(rijen,vraag,r=>[...r.originele_cellen,...r.samengevoegde_cellen_uitgevouwen].map(v=>v??'').join(' '));}
 /** Een lege broncel wordt nooit vervangen door de waarde van het samengevoegde bereik. */
 export function concordanscel(r:Bronrij,i:number){
  if(!Number.isInteger(i)||i<0||i>10)throw new RangeError('Kolom A–K verwacht');

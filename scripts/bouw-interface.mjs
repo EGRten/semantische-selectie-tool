@@ -11,7 +11,10 @@ const besluitenPlugin={name:'concordans-besluiten',setup(plugin){
 await build({ entryPoints: ['src/zoeken/index.ts'], outfile: 'dist/zoeken/index.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 await build({ entryPoints: ['src/begripszoeken/index.ts'], outfile: 'dist/begripszoeken/index.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 for (const soort of ['zoeken', 'begripszoeken']) await build({ entryPoints: [`src/${soort}/oorspronkelijk.ts`], outfile: `dist/${soort}/oorspronkelijk.js`, bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
-await build({ entryPoints: ['src/concordans/excel.ts'], outfile: 'dist/concordans/excel.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022', minify:true, legalComments:'eof' });
+await build({ entryPoints: ['src/gedeeld/excel.ts'], outfile:'dist/gedeeld/excel.js', bundle:true, format:'esm', platform:'browser', target:'es2022', minify:true, legalComments:'eof' });
+await build({ entryPoints: ['src/raadplegen/index.ts'], outfile:'dist/raadplegen/index.js', bundle:true, format:'esm', platform:'browser', target:'es2022' });
+await build({ entryPoints: ['src/raadplegen/excel.ts'], outfile:'dist/raadplegen/excel.js', bundle:true, format:'esm', platform:'browser', target:'es2022', external:['../gedeeld/excel.js'] });
+await build({ entryPoints: ['src/concordans/excel.ts'], outfile: 'dist/concordans/excel.js', external:['../gedeeld/excel.js'], bundle: true, format: 'esm', platform: 'browser', target: 'es2022', minify:true, legalComments:'eof' });
 await build({ entryPoints: ['src/concordans/raadplegen.ts'], outfile: 'dist/concordans/raadplegen.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 await build({ entryPoints: ['src/interface/vergelijking.ts'], outfile: 'dist/interface/vergelijking.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 await build({ entryPoints: ['src/interface/kopieer.ts'], outfile: 'dist/interface/kopieer.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
@@ -23,13 +26,15 @@ await build({
   entryPoints: ['src/interface/main.ts'],
   outfile: 'dist/site/interface/app.js',
   bundle: true, format: 'esm', platform: 'browser', target: 'es2022',
-  external: ['../gegevenslaag/index.js','../concordans/excel.js'],
+  external: ['../gegevenslaag/index.js','../concordans/excel.js','../raadplegen/excel.js'],
   plugins:[besluitenPlugin],
 });
 for (const [bron, doel] of [
   ['src/interface/index.html', 'dist/site/index.html'],
   ['src/interface/style.css', 'dist/site/interface/style.css'],
   ['dist/gegevenslaag', 'dist/site/gegevenslaag'],
+  ['dist/gedeeld','dist/site/gedeeld'],
+  ['dist/raadplegen','dist/site/raadplegen'],
   ['dist/concordans', 'dist/site/concordans'],
   ['datasets', 'dist/site/datasets'],
   ['bronnen', 'dist/site/bronnen'],
