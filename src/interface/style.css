@@ -591,3 +591,11 @@ mark {
 .zoekuitleg p { margin-top:7px; }
 .zoekuitleg blockquote { margin:8px 0; }
 .ai-aanduiding { color:#7d4515; font-size:13px; margin-top:8px; }
+
+.broncontext { margin-top:18px; border-top:1px solid var(--lijn); padding-top:12px; }
+.broncontext summary { cursor:pointer; color:var(--accent); padding:5px 0; }
+.broncontext summary:focus-visible { outline:3px solid #176cad; outline-offset:3px; }
+.broncontext p { margin:10px 0; overflow-wrap:anywhere; }
+.broncontext details { margin:12px 0; }
+.kopieerknop { margin-top:18px; padding:7px 13px; border:1px solid var(--accent); color:var(--accent); border-radius:2px; }
+.kopieerstatus { font-size:14px; color:var(--muted); margin-top:8px; }
