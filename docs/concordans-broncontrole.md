@@ -1,5 +1,11 @@
 # Concordans: controle van de werkelijke bron
 
+## Stand na gerichte controle 10A
+
+De vijftien afwijkingsgevallen zijn afzonderlijk onderzocht in [concordans-afwijkingen-beoordeling.md](concordans-afwijkingen-beoordeling.md). De historische dekking blijft 612 interpretaties, 605 tweezijdig gekoppeld en zeven onopgelost. De zeven onopgeloste gevallen krijgen expliciete B-kandidaten; er is niet op buurcellen of een hoger structuurniveau gegokt. Vijf van de vijftien gevallen zijn technisch A en tien vragen inhoudelijke beoordeling (B).
+
+Rij 716 heeft nu een afzonderlijk geregistreerde technische doelcorrectie naar `2020:19.2.1`, met behoud van broncode `19.21.1`. Dit blijft een nieuwe-2020-rij zonder historische relatie. Over alle 625 doelverwijzingen zijn nu 623 rechtstreeks gekoppeld, één technisch gecorrigeerd en één onopgelost. Het volledige actuele rapport staat lokaal in `/tmp/concordans-10a/koppelingen.json`; de hieronder beschreven eerste meting is de uitgangsmeting van opdracht 10.
+
 ## Correctie van de voorlopige rapportage
 
 De aanvankelijke publicatie-ZIP bevatte geen concordans. Die constatering was voorlopig, geen volledige concordansintegratie. De nieuw aangeleverde bijlage `gemeentelijke-selectielijsten-eindpakket(2).zip` bevat wél de oorspronkelijke Excel en de eerder vervaardigde rij-JSON. Deze correctie is uitgevoerd vanaf `62f8269` (samengevoegde PR #9). Fictieve relaties zijn uitsluitend geïsoleerde technische tests; onderstaande bevindingen komen uit de werkelijke bron.
@@ -79,7 +85,7 @@ De zeven onopgeloste interpretaties zijn exact:
 | concordans:rij:434 | Historisch voorschrift niet uniek vastgesteld | 7.1.23 |
 | concordans:rij:442 | Historisch voorschrift niet uniek vastgesteld | 7.1.24 |
 
-Daarnaast bevat rij 716 de ongeldige doelcode `19.21.1`. Deze rij staat onder ‘Nieuw in Selectielijst 2020’: er is daarom geen historische relatie aangemaakt. De afzonderlijke rijrapportage houdt het ontbrekende doel wel vast. Het bestaande afwijkingenregister noemt een voorstel `19.2.1`; dit wordt niet automatisch toegepast. Over alle 625 uitgewerkte doelverwijzingen, inclusief de nieuwe 2020-rijen zonder historisch voorschrift, zijn 623 codes technisch gekoppeld en twee niet (rijen 21 en 716).
+Daarnaast bevat rij 716 de ongeldige doelcode `19.21.1`. Deze rij staat onder ‘Nieuw in Selectielijst 2020’: er is daarom geen historische relatie aangemaakt. De afzonderlijke rijrapportage houdt het ontbrekende doel wel vast. Het bestaande afwijkingenregister noemt een voorstel `19.2.1`; in de oorspronkelijke meting werd dit niet toegepast; controle 10A registreert nu de hierboven beschreven afgeschermde technische doelcorrectie. Over alle 625 uitgewerkte doelverwijzingen, inclusief de nieuwe 2020-rijen zonder historisch voorschrift, zijn 623 codes technisch gekoppeld en twee niet (rijen 21 en 716).
 
 ## 2017: context, geen verzonnen codemapping
 
