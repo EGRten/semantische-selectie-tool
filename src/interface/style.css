@@ -599,3 +599,44 @@ mark {
 .broncontext details { margin:12px 0; }
 .kopieerknop { margin-top:18px; padding:7px 13px; border:1px solid var(--accent); color:var(--accent); border-radius:2px; }
 .kopieerstatus { font-size:14px; color:var(--muted); margin-top:8px; }
+
+.historische-relaties { margin-top:22px; border-top:1px solid var(--lijn); padding-top:15px; }
+.historische-relaties > summary { cursor:pointer; color:var(--accent); font-weight:650; padding:5px 0; font-size:18px; }
+.historische-relaties summary:focus-visible { outline:3px solid #176cad; outline-offset:3px; }
+.concordans-inhoud { margin-top:16px; min-width:0; }
+.concordans-inhoud p { margin:10px 0; overflow-wrap:anywhere; }
+.concordans-relatie,.concordans-overzicht article,.concordans-correctie { padding:17px 0; border-top:1px solid var(--lijn); }
+.concordans-inhoud h4 { font-size:17px; margin:12px 0; overflow-wrap:anywhere; }
+.concordans-inhoud h5 { font-size:15px; margin:12px 0; }
+.concordans-link,.concordans-terug { border:1px solid var(--accent); border-radius:2px; color:var(--accent); padding:6px 10px; margin:8px 10px 8px 0; text-align:left; font-size:14px; overflow-wrap:anywhere; }
+.concordans-verklaring,.concordans-bron,.concordans-2017 { margin:12px 0; padding-left:12px; border-left:2px solid var(--lijn); }
+.concordans-inhoud summary { color:var(--accent); cursor:pointer; padding:5px 0; }
+.concordans-cellen { margin:15px 0; }
+.concordans-cellen dt { font-weight:650; margin-top:12px; }
+.concordans-cellen dd { margin:4px 0 0; overflow-wrap:anywhere; }
+.koppelstatus { font-size:14px; font-weight:650; color:var(--accent); }
+.vergelijkingstabel { border-collapse:collapse; width:100%; table-layout:fixed; margin:18px 0; font-size:14px; }
+.vergelijkingstabel caption { text-align:left; font-weight:650; margin-bottom:10px; }
+.vergelijkingstabel th,.vergelijkingstabel td { text-align:left; vertical-align:top; border:1px solid var(--lijn); padding:12px; overflow-wrap:anywhere; }
+.vergelijkingstabel th:first-child { width:22%; }
+.vergelijkingstabel thead { background:var(--zacht); }
+.letterlijk-verschil td { background:#fbf7ec; }
+.verschil-label { display:block; color:var(--muted); font-size:11px; font-weight:400; margin-top:6px; }
+.vergelijkingstabel .bronlocatie { font-size:13px; margin:6px 0 14px; }
+.vergelijkingstabel .bronlocatie strong { font-size:13px; }
+.vergelijkingstabel a { display:block; margin:8px 0; }
+@media(max-width:680px) {
+ .vergelijkingstabel,.vergelijkingstabel thead,.vergelijkingstabel tbody { display:block; }
+ .vergelijkingstabel tr { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); }
+ .vergelijkingstabel tr > th[scope=row] { grid-column:1 / -1; width:auto; background:var(--zacht); }
+ .vergelijkingstabel thead th:first-child { display:none; }
+ .vergelijkingstabel th,.vergelijkingstabel td { width:auto; padding:9px; }
+ .historische-relaties > summary { font-size:17px; }
+ .concordans-link { max-width:100%; }
+}
+@media(max-width:680px) {
+ .vergelijkingstabel td::before { content:attr(data-kolom); display:block; font-size:11px; color:var(--muted); white-space:normal; margin-bottom:8px; }
+}
+@media(max-width:680px) {
+ .vergelijkingstabel caption { display:block; width:100%; box-sizing:border-box; }
+}

@@ -3,6 +3,7 @@ import { cp, mkdir, rm } from 'node:fs/promises';
 await build({ entryPoints: ['src/zoeken/index.ts'], outfile: 'dist/zoeken/index.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 await build({ entryPoints: ['src/begripszoeken/index.ts'], outfile: 'dist/begripszoeken/index.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 for (const soort of ['zoeken', 'begripszoeken']) await build({ entryPoints: [`src/${soort}/oorspronkelijk.ts`], outfile: `dist/${soort}/oorspronkelijk.js`, bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
+await build({ entryPoints: ['src/interface/vergelijking.ts'], outfile: 'dist/interface/vergelijking.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 await build({ entryPoints: ['src/interface/kopieer.ts'], outfile: 'dist/interface/kopieer.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 await build({ entryPoints: ['src/concordans/index.ts'], outfile: 'dist/concordans/index.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 // De bronbestanden worden ongewijzigd in de statische publicatiemap gekopieerd.
