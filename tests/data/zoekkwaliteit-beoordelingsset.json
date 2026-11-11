@@ -1,0 +1,1828 @@
+[
+  {
+    "vraag_id": "beoordeling:1996-2012:01",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "3.6.2",
+    "vraagtype": "exacte_code",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:3.6.2",
+        "officiele_code": "3.6.2",
+        "officiele_benaming": "Bouw, aanleg en gebruik",
+        "onderbouwing": "De zoekvraag noemt een bestaande officiële code; beoordeel afzonderlijk of de gevonden regel inhoudelijk relevant is. Kandidaat: 3.6.2 — Bouw, aanleg en gebruik.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 42,
+          "bbox": [
+            113.19249725341797,
+            694.0314331054688,
+            224.39718627929688,
+            703.783203125
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:02",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "Gegevens over gegevens",
+    "vraagtype": "officiele_terminologie",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:2.11",
+        "officiele_code": "2.11",
+        "officiele_benaming": "Gegevens over gegevens",
+        "onderbouwing": "De vraag bevat officiële tekst of een bronfragment van de kandidaat; dit is een vindbaarheidsvoorstel. Kandidaat: 2.11 — Gegevens over gegevens.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 22,
+          "bbox": [
+            113.19249725341797,
+            650.3490600585938,
+            399.2410583496094,
+            660.100830078125
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:03",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "Waar vind ik notulen van de gemeenteraad?",
+    "vraagtype": "gewone_taal",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:2.2",
+        "officiele_code": "2.2",
+        "officiele_benaming": "Verslaglegging",
+        "onderbouwing": "Gewone taal kan naar deze broncontext wijzen; het verband is een voorstel en geen vastgesteld synoniem. Kandidaat: 2.2 — Verslaglegging.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 18,
+          "bbox": [
+            113.19249725341797,
+            393.8987121582031,
+            184.6459503173828,
+            403.65045166015625
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:04",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "WABO",
+    "vraagtype": "afkorting",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:2.7",
+        "officiele_code": "2.7",
+        "officiele_benaming": "Verlening van vergunningen, machtigingen, verklaringen van geen bezwaar e.d.",
+        "onderbouwing": "Controleer de afkorting en haar afbakening tegen het bronrecord en de bestaande lexiconingangen; een ontbrekende relatie wordt niet verondersteld. Kandidaat: 2.7 — Verlening van vergunningen, machtigingen, verklaringen van geen bezwaar e.d..",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 20,
+          "bbox": [
+            113.19249725341797,
+            447.0622863769531,
+            210.8649139404297,
+            456.81402587890625
+          ]
+        }
+      },
+      {
+        "id": "1996-2012:3.6.2",
+        "officiele_code": "3.6.2",
+        "officiele_benaming": "Bouw, aanleg en gebruik",
+        "onderbouwing": "Controleer de afkorting en haar afbakening tegen het bronrecord en de bestaande lexiconingangen; een ontbrekende relatie wordt niet verondersteld. Kandidaat: 3.6.2 — Bouw, aanleg en gebruik.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 42,
+          "bbox": [
+            113.19249725341797,
+            694.0314331054688,
+            224.39718627929688,
+            703.783203125
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:05",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "Erfgoedverordening of Monumentenverordening",
+    "vraagtype": "historische_benaming",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:3.16.1",
+        "officiele_code": "3.16.1",
+        "officiele_benaming": "Cultuur (bevordering)",
+        "onderbouwing": "Controleer het tijdvak en de historische terminologie; eventuele GBA/BRP-verwantschap is hier geen nieuw vastgestelde relatie. Kandidaat: 3.16.1 — Cultuur (bevordering).",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 72,
+          "bbox": [
+            113.19249725341797,
+            228.08596801757812,
+            210.86976623535156,
+            237.83770751953125
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:06",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "paspoortaanvraag",
+    "vraagtype": "samengesteld_woord",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:3.7.2",
+        "officiele_code": "3.7.2",
+        "officiele_benaming": "Gemeentelijke basisadministratie persoonsgegevens",
+        "onderbouwing": "De samenstelling is een testformulering; beoordeel of de broncontext van deze kandidaat werkelijk bedoeld is. Kandidaat: 3.7.2 — Gemeentelijke basisadministratie persoonsgegevens.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 47,
+          "bbox": [
+            113.19249725341797,
+            619.082763671875,
+            184.8242645263672,
+            628.8345336914062
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:07",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "Een bouwvergunning is ingetrokken; welke stukken zoek ik bij de aanvraag?",
+    "vraagtype": "complexe_casus",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:2.7",
+        "officiele_code": "2.7",
+        "officiele_benaming": "Verlening van vergunningen, machtigingen, verklaringen van geen bezwaar e.d.",
+        "onderbouwing": "De casus kan meerdere procesrollen of voorschriften raken; deze kandidaat is slechts een te toetsen zoekrichting. Kandidaat: 2.7 — Verlening van vergunningen, machtigingen, verklaringen van geen bezwaar e.d..",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 20,
+          "bbox": [
+            113.19249725341797,
+            447.0622863769531,
+            210.8649139404297,
+            456.81402587890625
+          ]
+        }
+      },
+      {
+        "id": "1996-2012:3.6.2",
+        "officiele_code": "3.6.2",
+        "officiele_benaming": "Bouw, aanleg en gebruik",
+        "onderbouwing": "De casus kan meerdere procesrollen of voorschriften raken; deze kandidaat is slechts een te toetsen zoekrichting. Kandidaat: 3.6.2 — Bouw, aanleg en gebruik.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 42,
+          "bbox": [
+            113.19249725341797,
+            694.0314331054688,
+            224.39718627929688,
+            703.783203125
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:08",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "Welke vergunningstukken moet ik bewaren?",
+    "vraagtype": "dubbelzinnig",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:2.7",
+        "officiele_code": "2.7",
+        "officiele_benaming": "Verlening van vergunningen, machtigingen, verklaringen van geen bezwaar e.d.",
+        "onderbouwing": "De vraag laat de activiteit of procesrol open; deze kandidaat is een van meerdere mogelijke contexten. Kandidaat: 2.7 — Verlening van vergunningen, machtigingen, verklaringen van geen bezwaar e.d..",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 20,
+          "bbox": [
+            113.19249725341797,
+            447.0622863769531,
+            210.8649139404297,
+            456.81402587890625
+          ]
+        }
+      },
+      {
+        "id": "1996-2012:3.6.2",
+        "officiele_code": "3.6.2",
+        "officiele_benaming": "Bouw, aanleg en gebruik",
+        "onderbouwing": "De vraag laat de activiteit of procesrol open; deze kandidaat is een van meerdere mogelijke contexten. Kandidaat: 3.6.2 — Bouw, aanleg en gebruik.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 42,
+          "bbox": [
+            113.19249725341797,
+            694.0314331054688,
+            224.39718627929688,
+            703.783203125
+          ]
+        }
+      },
+      {
+        "id": "1996-2012:3.9.1",
+        "officiele_code": "3.9.1",
+        "officiele_benaming": "Milieu",
+        "onderbouwing": "De vraag laat de activiteit of procesrol open; deze kandidaat is een van meerdere mogelijke contexten. Kandidaat: 3.9.1 — Milieu.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 56,
+          "bbox": [
+            113.19249725341797,
+            256.8688659667969,
+            154.18502807617188,
+            266.62060546875
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:09",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "De bouwrubriek of een afzonderlijk bouwvoorschrift?",
+    "vraagtype": "generiek_specifiek",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:3.6.2",
+        "officiele_code": "3.6.2",
+        "officiele_benaming": "Bouw, aanleg en gebruik",
+        "onderbouwing": "De vraag vraagt om vergelijking van structuurniveau en specifiek resultaat; bepaal welk niveau relevant is. Kandidaat: 3.6.2 — Bouw, aanleg en gebruik.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 42,
+          "bbox": [
+            113.19249725341797,
+            694.0314331054688,
+            224.39718627929688,
+            703.783203125
+          ]
+        }
+      },
+      {
+        "id": "1996-2012:3.6.2::001",
+        "officiele_code": "3.6.2",
+        "officiele_benaming": "- Uitslagen",
+        "onderbouwing": "De vraag vraagt om vergelijking van structuurniveau en specifiek resultaat; bepaal welk niveau relevant is. Kandidaat: 3.6.2 — - Uitslagen.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 42,
+          "bbox": [
+            241.53143310546875,
+            716.3812255859375,
+            286.8584289550781,
+            726.1329956054688
+          ],
+          "eindpagina": 42,
+          "eindbbox": [
+            241.53143310546875,
+            716.3812255859375,
+            286.8584289550781,
+            726.1329956054688
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:10",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "Niet-ontvankelijke aanvragen",
+    "vraagtype": "negatie",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:2.7::006",
+        "officiele_code": "2.7",
+        "officiele_benaming": "Niet-ontvankelijk verklaarde aanvragen",
+        "onderbouwing": "Toets het verschil tussen positieve en negatieve resultaatformulering; neem niet automatisch de tegengestelde toestand mee. Kandidaat: 2.7 — Niet-ontvankelijk verklaarde aanvragen.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 21,
+          "bbox": [
+            235.43539428710938,
+            178.53414916992188,
+            392.14862060546875,
+            188.285888671875
+          ],
+          "eindpagina": 21,
+          "eindbbox": [
+            235.43539428710938,
+            178.53414916992188,
+            392.14862060546875,
+            188.285888671875
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:11",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "niet",
+    "vraagtype": "potentieel_misleidend",
+    "mogelijke_relevante_resultaten": [],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst.",
+      "Onvoldoende context: er is bewust geen categorie voorgesteld."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:12",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "gemeenteraadsnotulen",
+    "vraagtype": "samengesteld_woord",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:2.2",
+        "officiele_code": "2.2",
+        "officiele_benaming": "Verslaglegging",
+        "onderbouwing": "De samenstelling is een testformulering; beoordeel of de broncontext van deze kandidaat werkelijk bedoeld is. Kandidaat: 2.2 — Verslaglegging.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 18,
+          "bbox": [
+            113.19249725341797,
+            393.8987121582031,
+            184.6459503173828,
+            403.65045166015625
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:13",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "financiële controle",
+    "vraagtype": "officiele_terminologie",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:2.3::002",
+        "officiele_code": "2.3",
+        "officiele_benaming": "- indien sprake is van een financiële controle",
+        "onderbouwing": "De vraag bevat officiële tekst of een bronfragment van de kandidaat; dit is een vindbaarheidsvoorstel. Kandidaat: 2.3 — - indien sprake is van een financiële controle.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 19,
+          "bbox": [
+            235.43545532226562,
+            195.69107055664062,
+            411.978271484375,
+            205.44281005859375
+          ],
+          "eindpagina": 19,
+          "eindbbox": [
+            235.43545532226562,
+            195.69107055664062,
+            411.978271484375,
+            205.44281005859375
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:14",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "Notulen van een bouwvergadering over een monument",
+    "vraagtype": "complexe_casus",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:3.3.2",
+        "officiele_code": "3.3.2",
+        "officiele_benaming": "Stichting, aanleg, verbetering, restauratie, wijziging, regeling van de bestemming van en bijkomende voorzieningen aan gebouwen, werken, terreinen, installaties, apparatuur en machines",
+        "onderbouwing": "De casus kan meerdere procesrollen of voorschriften raken; deze kandidaat is slechts een te toetsen zoekrichting. Kandidaat: 3.3.2 — Stichting, aanleg, verbetering, restauratie, wijziging, regeling van de bestemming van en bijkomende voorzieningen aan gebouwen, werken, terreinen, installaties, apparatuur en machines.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 34,
+          "bbox": [
+            113.19249725341797,
+            403.2669677734375,
+            195.73878479003906,
+            413.0187072753906
+          ]
+        }
+      },
+      {
+        "id": "1996-2012:3.6.2",
+        "officiele_code": "3.6.2",
+        "officiele_benaming": "Bouw, aanleg en gebruik",
+        "onderbouwing": "De casus kan meerdere procesrollen of voorschriften raken; deze kandidaat is slechts een te toetsen zoekrichting. Kandidaat: 3.6.2 — Bouw, aanleg en gebruik.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 42,
+          "bbox": [
+            113.19249725341797,
+            694.0314331054688,
+            224.39718627929688,
+            703.783203125
+          ]
+        }
+      },
+      {
+        "id": "1996-2012:3.16.1",
+        "officiele_code": "3.16.1",
+        "officiele_benaming": "Cultuur (bevordering)",
+        "onderbouwing": "De casus kan meerdere procesrollen of voorschriften raken; deze kandidaat is slechts een te toetsen zoekrichting. Kandidaat: 3.16.1 — Cultuur (bevordering).",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 72,
+          "bbox": [
+            113.19249725341797,
+            228.08596801757812,
+            210.86976623535156,
+            237.83770751953125
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:1996-2012:15",
+    "selectielijst": "1996-2012",
+    "zoekvraag": "Documentair structuurplan DSP",
+    "vraagtype": "afkorting",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "1996-2012:2.11",
+        "officiele_code": "2.11",
+        "officiele_benaming": "Gegevens over gegevens",
+        "onderbouwing": "Controleer de afkorting en haar afbakening tegen het bronrecord en de bestaande lexiconingangen; een ontbrekende relatie wordt niet verondersteld. Kandidaat: 2.11 — Gegevens over gegevens.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "1996-2012-officieel",
+          "pdf_pagina": 22,
+          "bbox": [
+            113.19249725341797,
+            650.3490600585938,
+            399.2410583496094,
+            660.100830078125
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:01",
+    "selectielijst": "2017",
+    "zoekvraag": "1.1.2",
+    "vraagtype": "exacte_code",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:1.1.2",
+        "officiele_code": "1.1.2",
+        "officiele_benaming": "Gemeentewapen",
+        "onderbouwing": "De zoekvraag noemt een bestaande officiële code; beoordeel afzonderlijk of de gevonden regel inhoudelijk relevant is. Kandidaat: 1.1.2 — Gemeentewapen.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 27,
+          "bbox": [
+            29,
+            147.094,
+            1160,
+            191.928
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:02",
+    "selectielijst": "2017",
+    "zoekvraag": "Niet toege kend",
+    "vraagtype": "officiele_terminologie",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:9.2",
+        "officiele_code": "9.2",
+        "officiele_benaming": "Niet toege kend",
+        "onderbouwing": "De vraag bevat officiële tekst of een bronfragment van de kandidaat; dit is een vindbaarheidsvoorstel. Kandidaat: 9.2 — Niet toege kend.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 33,
+          "bbox": [
+            29,
+            287.268,
+            1160,
+            320.101
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:03",
+    "selectielijst": "2017",
+    "zoekvraag": "Waar vind ik notulen van vergaderingen?",
+    "vraagtype": "gewone_taal",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:19",
+        "officiele_code": "19",
+        "officiele_benaming": "Secretariaat voeren en gegevens administreren / verwerken",
+        "onderbouwing": "Gewone taal kan naar deze broncontext wijzen; het verband is een voorstel en geen vastgesteld synoniem. Kandidaat: 19 — Secretariaat voeren en gegevens administreren / verwerken.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 37,
+          "bbox": [
+            29,
+            630.118,
+            1160,
+            656.953
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:04",
+    "selectielijst": "2017",
+    "zoekvraag": "RI&E",
+    "vraagtype": "afkorting",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:4.1.6",
+        "officiele_code": "4.1.6",
+        "officiele_benaming": "Beoordeling arbeids omstandigheden en personeel",
+        "onderbouwing": "Controleer de afkorting en haar afbakening tegen het bronrecord en de bestaande lexiconingangen; een ontbrekende relatie wordt niet verondersteld. Kandidaat: 4.1.6 — Beoordeling arbeids omstandigheden en personeel.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 28,
+          "bbox": [
+            29,
+            552.449,
+            1160,
+            573.284
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:05",
+    "selectielijst": "2017",
+    "zoekvraag": "Oude GBA-registratie en huidige BRP-gegevens",
+    "vraagtype": "historische_benaming",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:7.1.2",
+        "officiele_code": "7.1.2",
+        "officiele_benaming": "Eerste inschrijving BRP of geboorteaangifte",
+        "onderbouwing": "Controleer het tijdvak en de historische terminologie; eventuele GBA/BRP-verwantschap is hier geen nieuw vastgestelde relatie. Kandidaat: 7.1.2 — Eerste inschrijving BRP of geboorteaangifte.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 30,
+          "bbox": [
+            29,
+            499.441,
+            1160,
+            544.274
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:06",
+    "selectielijst": "2017",
+    "zoekvraag": "paspoortaanvraag",
+    "vraagtype": "samengesteld_woord",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:5.1.4",
+        "officiele_code": "5.1.4",
+        "officiele_benaming": "Reisdocument, identi teitsbewijs",
+        "onderbouwing": "De samenstelling is een testformulering; beoordeel of de broncontext van deze kandidaat werkelijk bedoeld is. Kandidaat: 5.1.4 — Reisdocument, identi teitsbewijs.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 29,
+          "bbox": [
+            29,
+            96.259,
+            1160,
+            147.093
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:07",
+    "selectielijst": "2017",
+    "zoekvraag": "De gemeente vraagt zelf subsidie aan, in plaats van subsidie te verstrekken",
+    "vraagtype": "complexe_casus",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:23.1.1",
+        "officiele_code": "23.1.1",
+        "officiele_benaming": "Europese subsidie",
+        "onderbouwing": "De casus kan meerdere procesrollen of voorschriften raken; deze kandidaat is slechts een te toetsen zoekrichting. Kandidaat: 23.1.1 — Europese subsidie.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 39,
+          "bbox": [
+            29,
+            319.771,
+            1160,
+            352.606
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [
+      {
+        "id": "2017:8.1.7",
+        "officiele_code": "8.1.7",
+        "officiele_benaming": "Subsidie",
+        "onderbouwing": "Voorlopig contrastvoorstel wegens andere resultaatpolariteit/procesrol; inhoudelijk te toetsen.",
+        "beoordelingsstatus": "te beoordelen"
+      }
+    ],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:08",
+    "selectielijst": "2017",
+    "zoekvraag": "Welke vergunningstukken moet ik bewaren?",
+    "vraagtype": "dubbelzinnig",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:11.1",
+        "officiele_code": "11.1",
+        "officiele_benaming": "Verleend",
+        "onderbouwing": "De vraag laat de activiteit of procesrol open; deze kandidaat is een van meerdere mogelijke contexten. Kandidaat: 11.1 — Verleend.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 33,
+          "bbox": [
+            29,
+            567.944,
+            1160,
+            594.779
+          ]
+        }
+      },
+      {
+        "id": "2017:24.1",
+        "officiele_code": "24.1",
+        "officiele_benaming": "Verkregen",
+        "onderbouwing": "De vraag laat de activiteit of procesrol open; deze kandidaat is een van meerdere mogelijke contexten. Kandidaat: 24.1 — Verkregen.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 39,
+          "bbox": [
+            29,
+            427.111,
+            1160,
+            447.946
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:09",
+    "selectielijst": "2017",
+    "zoekvraag": "Ingericht of inrichten met een organisatie brede impact",
+    "vraagtype": "generiek_specifiek",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:1.1",
+        "officiele_code": "1.1",
+        "officiele_benaming": "Ingericht",
+        "onderbouwing": "De vraag vraagt om vergelijking van structuurniveau en specifiek resultaat; bepaal welk niveau relevant is. Kandidaat: 1.1 — Ingericht.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 27,
+          "bbox": [
+            29,
+            57.424,
+            1160,
+            102.259
+          ]
+        }
+      },
+      {
+        "id": "2017:1.1.1",
+        "officiele_code": "1.1.1",
+        "officiele_benaming": "Inrichten of wijzigen met een organisatie brede impact",
+        "onderbouwing": "De vraag vraagt om vergelijking van structuurniveau en specifiek resultaat; bepaal welk niveau relevant is. Kandidaat: 1.1.1 — Inrichten of wijzigen met een organisatie brede impact.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 27,
+          "bbox": [
+            29,
+            102.259,
+            1160,
+            147.094
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:10",
+    "selectielijst": "2017",
+    "zoekvraag": "Toegekend",
+    "vraagtype": "negatie",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:9.1",
+        "officiele_code": "9.1",
+        "officiele_benaming": "Toegekend",
+        "onderbouwing": "Toets het verschil tussen positieve en negatieve resultaatformulering; neem niet automatisch de tegengestelde toestand mee. Kandidaat: 9.1 — Toegekend.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 32,
+          "bbox": [
+            29,
+            562.275,
+            1160,
+            595.11
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [
+      {
+        "id": "2017:9.2",
+        "officiele_code": "9.2",
+        "officiele_benaming": "Niet toege kend",
+        "onderbouwing": "Voorlopig contrastvoorstel wegens andere resultaatpolariteit/procesrol; inhoudelijk te toetsen.",
+        "beoordelingsstatus": "te beoordelen"
+      }
+    ],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:11",
+    "selectielijst": "2017",
+    "zoekvraag": "niet",
+    "vraagtype": "potentieel_misleidend",
+    "mogelijke_relevante_resultaten": [],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst.",
+      "Onvoldoende context: er is bewust geen categorie voorgesteld."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:12",
+    "selectielijst": "2017",
+    "zoekvraag": "personeelsdossier",
+    "vraagtype": "samengesteld_woord",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:17",
+        "officiele_code": "17",
+        "officiele_benaming": "Personen aanstellen",
+        "onderbouwing": "De samenstelling is een testformulering; beoordeel of de broncontext van deze kandidaat werkelijk bedoeld is. Kandidaat: 17 — Personen aanstellen.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 37,
+          "bbox": [
+            29,
+            57.424,
+            1160,
+            84.259
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:13",
+    "selectielijst": "2017",
+    "zoekvraag": "Welke gegevens horen bij een geboorteaangifte?",
+    "vraagtype": "gewone_taal",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:7.1.2",
+        "officiele_code": "7.1.2",
+        "officiele_benaming": "Eerste inschrijving BRP of geboorteaangifte",
+        "onderbouwing": "Gewone taal kan naar deze broncontext wijzen; het verband is een voorstel en geen vastgesteld synoniem. Kandidaat: 7.1.2 — Eerste inschrijving BRP of geboorteaangifte.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 30,
+          "bbox": [
+            29,
+            499.441,
+            1160,
+            544.274
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:14",
+    "selectielijst": "2017",
+    "zoekvraag": "Verkiezing: verantwoording en retourenveloppen",
+    "vraagtype": "complexe_casus",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:22.1.2",
+        "officiele_code": "22.1.2",
+        "officiele_benaming": "Verkiezing",
+        "onderbouwing": "De casus kan meerdere procesrollen of voorschriften raken; deze kandidaat is slechts een te toetsen zoekrichting. Kandidaat: 22.1.2 — Verkiezing.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 39,
+          "bbox": [
+            29,
+            113.929,
+            1160,
+            176.763
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2017:15",
+    "selectielijst": "2017",
+    "zoekvraag": "7.1.20",
+    "vraagtype": "exacte_code",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2017:7.1.20",
+        "officiele_code": "7.1.20",
+        "officiele_benaming": "Gegevens over personen bij wie een reisdocument moet worden geweigerd of ingehouden",
+        "onderbouwing": "De zoekvraag noemt een bestaande officiële code; beoordeel afzonderlijk of de gevonden regel inhoudelijk relevant is. Kandidaat: 7.1.20 — Gegevens over personen bij wie een reisdocument moet worden geweigerd of ingehouden.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2017-opgemaakt",
+          "pdf_pagina": 31,
+          "bbox": [
+            29,
+            316.937,
+            1160,
+            367.77
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:01",
+    "selectielijst": "2020",
+    "zoekvraag": "1.1.2",
+    "vraagtype": "exacte_code",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:1.1.2",
+        "officiele_code": "1.1.2",
+        "officiele_benaming": "Gemeentewapen",
+        "onderbouwing": "De zoekvraag noemt een bestaande officiële code; beoordeel afzonderlijk of de gevonden regel inhoudelijk relevant is. Kandidaat: 1.1.2 — Gemeentewapen.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 26,
+          "bbox": [
+            29,
+            140.249,
+            1160,
+            185.084
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:02",
+    "selectielijst": "2020",
+    "zoekvraag": "Niet toegekend",
+    "vraagtype": "officiele_terminologie",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:9.2",
+        "officiele_code": "9.2",
+        "officiele_benaming": "Niet toegekend",
+        "onderbouwing": "De vraag bevat officiële tekst of een bronfragment van de kandidaat; dit is een vindbaarheidsvoorstel. Kandidaat: 9.2 — Niet toegekend.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 32,
+          "bbox": [
+            29,
+            710.439,
+            1160,
+            743.274
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:03",
+    "selectielijst": "2020",
+    "zoekvraag": "Waar vind ik notulen van vergaderingen?",
+    "vraagtype": "gewone_taal",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:19",
+        "officiele_code": "19",
+        "officiele_benaming": "Secretariaat voeren en gegevens adminis- treren / verwerken",
+        "onderbouwing": "Gewone taal kan naar deze broncontext wijzen; het verband is een voorstel en geen vastgesteld synoniem. Kandidaat: 19 — Secretariaat voeren en gegevens adminis- treren / verwerken.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 37,
+          "bbox": [
+            29,
+            444.269,
+            1160,
+            471.104
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:04",
+    "selectielijst": "2020",
+    "zoekvraag": "BRP",
+    "vraagtype": "afkorting",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:1.1.3",
+        "officiele_code": "1.1.3",
+        "officiele_benaming": "Wijziging inrichting BRP systeem",
+        "onderbouwing": "Controleer de afkorting en haar afbakening tegen het bronrecord en de bestaande lexiconingangen; een ontbrekende relatie wordt niet verondersteld. Kandidaat: 1.1.3 — Wijziging inrichting BRP systeem.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 26,
+          "bbox": [
+            29,
+            185.084,
+            1160,
+            229.919
+          ]
+        }
+      },
+      {
+        "id": "2020:7.1.2",
+        "officiele_code": "7.1.2",
+        "officiele_benaming": "Eerste inschrijving BRP of geboorteaangifte",
+        "onderbouwing": "Controleer de afkorting en haar afbakening tegen het bronrecord en de bestaande lexiconingangen; een ontbrekende relatie wordt niet verondersteld. Kandidaat: 7.1.2 — Eerste inschrijving BRP of geboorteaangifte.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 30,
+          "bbox": [
+            29,
+            83.414,
+            1160,
+            128.249
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:05",
+    "selectielijst": "2020",
+    "zoekvraag": "Oude GBA-registratie en huidige BRP-gegevens",
+    "vraagtype": "historische_benaming",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:7.1.2",
+        "officiele_code": "7.1.2",
+        "officiele_benaming": "Eerste inschrijving BRP of geboorteaangifte",
+        "onderbouwing": "Controleer het tijdvak en de historische terminologie; eventuele GBA/BRP-verwantschap is hier geen nieuw vastgestelde relatie. Kandidaat: 7.1.2 — Eerste inschrijving BRP of geboorteaangifte.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 30,
+          "bbox": [
+            29,
+            83.414,
+            1160,
+            128.249
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:06",
+    "selectielijst": "2020",
+    "zoekvraag": "paspoortaanvraag",
+    "vraagtype": "samengesteld_woord",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:5.1.4",
+        "officiele_code": "5.1.4",
+        "officiele_benaming": "Reisdocument, identi- teitsbewijs",
+        "onderbouwing": "De samenstelling is een testformulering; beoordeel of de broncontext van deze kandidaat werkelijk bedoeld is. Kandidaat: 5.1.4 — Reisdocument, identi- teitsbewijs.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 28,
+          "bbox": [
+            29,
+            232.754,
+            1160,
+            283.589
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:07",
+    "selectielijst": "2020",
+    "zoekvraag": "De gemeente vraagt zelf subsidie aan, in plaats van subsidie te verstrekken",
+    "vraagtype": "complexe_casus",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:23.1.1",
+        "officiele_code": "23.1.1",
+        "officiele_benaming": "Europese subsidie",
+        "onderbouwing": "De casus kan meerdere procesrollen of voorschriften raken; deze kandidaat is slechts een te toetsen zoekrichting. Kandidaat: 23.1.1 — Europese subsidie.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 39,
+          "bbox": [
+            29,
+            345.764,
+            1160,
+            378.599
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [
+      {
+        "id": "2020:8.1.7",
+        "officiele_code": "8.1.7",
+        "officiele_benaming": "Subsidie",
+        "onderbouwing": "Voorlopig contrastvoorstel wegens andere resultaatpolariteit/procesrol; inhoudelijk te toetsen.",
+        "beoordelingsstatus": "te beoordelen"
+      }
+    ],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:08",
+    "selectielijst": "2020",
+    "zoekvraag": "Welke vergunningstukken moet ik bewaren?",
+    "vraagtype": "dubbelzinnig",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:11.1",
+        "officiele_code": "11.1",
+        "officiele_benaming": "Verleend",
+        "onderbouwing": "De vraag laat de activiteit of procesrol open; deze kandidaat is een van meerdere mogelijke contexten. Kandidaat: 11.1 — Verleend.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 33,
+          "bbox": [
+            29,
+            390.929,
+            1160,
+            417.764
+          ]
+        }
+      },
+      {
+        "id": "2020:24.1",
+        "officiele_code": "24.1",
+        "officiele_benaming": "Verkregen",
+        "onderbouwing": "De vraag laat de activiteit of procesrol open; deze kandidaat is een van meerdere mogelijke contexten. Kandidaat: 24.1 — Verkregen.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 39,
+          "bbox": [
+            29,
+            453.104,
+            1160,
+            467.933
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:09",
+    "selectielijst": "2020",
+    "zoekvraag": "Ingericht of inrichten met een organisatie brede impact",
+    "vraagtype": "generiek_specifiek",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:1.1",
+        "officiele_code": "1.1",
+        "officiele_benaming": "Ingericht",
+        "onderbouwing": "De vraag vraagt om vergelijking van structuurniveau en specifiek resultaat; bepaal welk niveau relevant is. Kandidaat: 1.1 — Ingericht.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 26,
+          "bbox": [
+            29,
+            56.579,
+            1160,
+            95.414
+          ]
+        }
+      },
+      {
+        "id": "2020:1.1.1",
+        "officiele_code": "1.1.1",
+        "officiele_benaming": "Inrichten of wijzigen met een organisatie brede impact",
+        "onderbouwing": "De vraag vraagt om vergelijking van structuurniveau en specifiek resultaat; bepaal welk niveau relevant is. Kandidaat: 1.1.1 — Inrichten of wijzigen met een organisatie brede impact.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 26,
+          "bbox": [
+            29,
+            95.414,
+            1160,
+            140.249
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:10",
+    "selectielijst": "2020",
+    "zoekvraag": "Toegekend",
+    "vraagtype": "negatie",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:9.1",
+        "officiele_code": "9.1",
+        "officiele_benaming": "Generiek resultaat",
+        "onderbouwing": "Toets het verschil tussen positieve en negatieve resultaatformulering; neem niet automatisch de tegengestelde toestand mee. Kandidaat: 9.1 — Generiek resultaat.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 32,
+          "bbox": [
+            29,
+            220.754,
+            1160,
+            253.589
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [
+      {
+        "id": "2020:9.2",
+        "officiele_code": "9.2",
+        "officiele_benaming": "Niet toegekend",
+        "onderbouwing": "Voorlopig contrastvoorstel wegens andere resultaatpolariteit/procesrol; inhoudelijk te toetsen.",
+        "beoordelingsstatus": "te beoordelen"
+      }
+    ],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:11",
+    "selectielijst": "2020",
+    "zoekvraag": "niet",
+    "vraagtype": "potentieel_misleidend",
+    "mogelijke_relevante_resultaten": [],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst.",
+      "Onvoldoende context: er is bewust geen categorie voorgesteld."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:12",
+    "selectielijst": "2020",
+    "zoekvraag": "personeelsdossier",
+    "vraagtype": "samengesteld_woord",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:17",
+        "officiele_code": "17",
+        "officiele_benaming": "Personen aanstellen",
+        "onderbouwing": "De samenstelling is een testformulering; beoordeel of de broncontext van deze kandidaat werkelijk bedoeld is. Kandidaat: 17 — Personen aanstellen.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 36,
+          "bbox": [
+            29,
+            649.448,
+            1160,
+            670.283
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:13",
+    "selectielijst": "2020",
+    "zoekvraag": "Welke gegevens horen bij een geboorteaangifte?",
+    "vraagtype": "gewone_taal",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:7.1.2",
+        "officiele_code": "7.1.2",
+        "officiele_benaming": "Eerste inschrijving BRP of geboorteaangifte",
+        "onderbouwing": "Gewone taal kan naar deze broncontext wijzen; het verband is een voorstel en geen vastgesteld synoniem. Kandidaat: 7.1.2 — Eerste inschrijving BRP of geboorteaangifte.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 30,
+          "bbox": [
+            29,
+            83.414,
+            1160,
+            128.249
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:14",
+    "selectielijst": "2020",
+    "zoekvraag": "Verkiezing: verantwoording en retourenveloppen",
+    "vraagtype": "complexe_casus",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:22.1.2",
+        "officiele_code": "22.1.2",
+        "officiele_benaming": "Verkiezing",
+        "onderbouwing": "De casus kan meerdere procesrollen of voorschriften raken; deze kandidaat is slechts een te toetsen zoekrichting. Kandidaat: 22.1.2 — Verkiezing.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 39,
+          "bbox": [
+            29,
+            139.919,
+            1160,
+            202.754
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  },
+  {
+    "vraag_id": "beoordeling:2020:15",
+    "selectielijst": "2020",
+    "zoekvraag": "7.1.20",
+    "vraagtype": "exacte_code",
+    "mogelijke_relevante_resultaten": [
+      {
+        "id": "2020:7.1.20",
+        "officiele_code": "7.1.20",
+        "officiele_benaming": "Gegevens over personen bij wie een reisdocument moet worden geweigerd of ingehouden",
+        "onderbouwing": "De zoekvraag noemt een bestaande officiële code; beoordeel afzonderlijk of de gevonden regel inhoudelijk relevant is. Kandidaat: 7.1.20 — Gegevens over personen bij wie een reisdocument moet worden geweigerd of ingehouden.",
+        "beoordelingsstatus": "te beoordelen",
+        "bronverwijzing": {
+          "bron_id": "2020-officieel",
+          "pdf_pagina": 30,
+          "bbox": [
+            29,
+            662.44,
+            1160,
+            689.275
+          ]
+        }
+      }
+    ],
+    "expliciet_niet_relevante_resultaten": [],
+    "onzekerheden": [
+      "Alle relevantievoorstellen zijn AI-voorgesteld en niet onafhankelijk gevalideerd.",
+      "Procesrol, tijdvak, status en specifieke omstandigheden moeten door een inhoudelijke beoordelaar worden getoetst."
+    ],
+    "beoordelingsstatus": "te beoordelen",
+    "herkomst": "AI-voorgesteld voor latere menselijke relevantiebeoordeling",
+    "onafhankelijk_gevalideerd": false,
+    "beoordelaar": null,
+    "beoordelingsdatum": null,
+    "opmerkingen": ""
+  }
+]

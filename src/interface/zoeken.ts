@@ -32,7 +32,7 @@ export function maakZoekpaneel(selecteer: (id: string) => void) {
   const label = element('label', 'Trefwoordzoeken'); label.htmlFor = 'zoekopdracht';
   const invoer = element('input'); invoer.type = 'search'; invoer.id = 'zoekopdracht'; invoer.autocomplete = 'off';
   invoer.setAttribute('aria-describedby', 'zoekhulp');
-  const hulp = element('p', 'Zoek op officiële code of tekst. Alle zoekwoorden moeten voorkomen.', 'zoekhulp'); hulp.id = 'zoekhulp';
+  const hulp = element('p', 'Zoek op officiële code of tekst. Vraagwoorden tellen niet mee; inhoudelijke zoekwoorden worden gecombineerd.', 'zoekhulp'); hulp.id = 'zoekhulp';
   const acties = element('div', undefined, 'zoekacties');
   const submit = element('button', 'Zoeken'); submit.type = 'submit';
   const wissen = knop('Wissen', () => { invoer.value = ''; resetResultaten(); invoer.focus(); });

@@ -1,8 +1,8 @@
 import {readFile,writeFile} from 'node:fs/promises';
 import {parseArgs} from 'node:util';
 import {maakGegevenslaag} from '../dist/gegevenslaag/index.js';
-import {maakZoekindex} from '../dist/zoeken/index.js';
-import {maakBegripsindex} from '../dist/begripszoeken/index.js';
+import {maakZoekindex} from '../dist/zoeken/oorspronkelijk.js';
+import {maakBegripsindex} from '../dist/begripszoeken/oorspronkelijk.js';
 const {values}=parseArgs({options:{output:{type:'string'}}});
 const root=new URL('../datasets/',import.meta.url);
 const laag=maakGegevenslaag({datasetsUrl:root,ophalen:async u=>new Response(await readFile(u,'utf8'))});

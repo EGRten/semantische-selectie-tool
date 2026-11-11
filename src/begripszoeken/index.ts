@@ -1,4 +1,5 @@
 import type { Dataset, Zoekterm, Betekenisrelatie, Zoekverrijking } from '../gegevenslaag/index.js';
+import { BREDE_TERMEN, NEGATIES, analyseerVraag, pastPolariteit } from '../zoeken/vraag.js';
 import { maakZoekindex, normaliseer } from '../zoeken/index.js';
 import type { Zoekresultaat } from '../zoeken/index.js';
 
@@ -69,13 +70,15 @@ export function maakBegripsindex(dataset: Dataset, verrijking: Zoekverrijking) {
   }
   return Object.freeze({
     selectielijst: dataset.id,
-    zoek(vraag: string, opties: { onbevestigdeAi?: boolean; vervallenMeenemen?: boolean } = {}): readonly Begripsresultaat[] {
-      const query = normaliseer(vraag);
+    zoek(vraag: string, opties: { onbevestigdeAi?: boolean; vervallenMeenemen?: boolean; beoordeeldeAi?: boolean } = {}): readonly Begripsresultaat[] {
+      const vraagAnalyse = analyseerVraag(vraag);
+      const query = vraagAnalyse.normaal;
+      const vraagMetGrenzen = ` ${query} `;
       if (!query) return [];
       const dekking = (tekst: string) => new Set(normaliseer(tekst).split(' ').filter(w => w && !STOPWOORDEN.has(w))).size;
       const gevonden = new Map<string, { basis: Zoekresultaat; verklaringen: Verklaring[]; specificiteit: number; dekking: number; klassiek: number }>();
       const direct = klassiek.zoek(vraag, { vervallenMeenemen: opties.vervallenMeenemen ?? false });
-      direct.forEach((r, i) => gevonden.set(r.id, { basis: r, specificiteit: 0, dekking: dekking(query), klassiek: i, verklaringen: [{
+      direct.forEach((r, i) => gevonden.set(r.id, { basis: r, specificiteit: 0, dekking: vraagAnalyse.woorden.filter(w=>!STOPWOORDEN.has(w)).length, klassiek: i, verklaringen: [{
         soort: 'officiele_tekst', reden: r.reden, prioriteit: r.rang <= 2 ? 1 : r.rang === 3 ? 3 : 5, onbevestigd: false,
       }] }));
       for (const { term, relatie, normaal } of verbindingen) {
@@ -84,9 +87,16 @@ export function maakBegripsindex(dataset: Dataset, verrijking: Zoekverrijking) {
             relatie.richting !== 'zoekterm_naar_onderdeel' || relatie.naar !== term.onderdeel_id ||
             relatie.type !== term.relatietype || relatie.herkomsttype !== term.herkomsttype ||
             relatie.juridische_gelijkwaardigheid !== false || term.juridische_gelijkwaardigheid !== false) continue;
-        if (!normaal || !` ${query} `.includes(` ${normaal} `)) continue;
+        if (!normaal || !vraagMetGrenzen.includes(` ${normaal} `)) continue;
         if (normaal.replace(/\s/g, '').length < 3 && !['afkorting', 'afkorting_voluit'].includes(relatie.type)) continue;
         if (normaal.split(' ').every(w => STOPWOORDEN.has(w))) continue;
+        if (NEGATIES.has(normaal)) continue;
+        if (BREDE_TERMEN.has(normaal) && query !== normaal) continue;
+        // Bij een ontkennende vraag mag een losse positieve term de negatie niet wegdrukken.
+        if (vraagAnalyse.negaties.some(w=>!normaal.split(' ').includes(w)))continue;
+        const doel=dataset.selectiegegeven(relatie.naar),node=dataset.structuuronderdeel(relatie.naar);
+        if(!pastPolariteit(vraag,[doel?.officiele_benaming??node?.benaming??'',doel?.resultaattype??'']))continue;
+        if(opties.beoordeeldeAi===false&&term.herkomsttype==='ai_voorgesteld'&&term.beoordelingsstatus==='voorstel_inhoudelijk_beoordeeld_zoekrichting')continue;
         const a = toelating(term.herkomsttype, term.beoordelingsstatus, term.relatietype, opties.onbevestigdeAi ?? false);
         const b = toelating(relatie.herkomsttype, relatie.status, relatie.type, opties.onbevestigdeAi ?? false);
         if (a === undefined || b === undefined) continue;
