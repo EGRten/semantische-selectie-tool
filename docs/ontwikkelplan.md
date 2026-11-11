@@ -2,7 +2,11 @@
 
 Dit plan beschrijft de stapsgewijze ontwikkeling van de Semantische Selectie Tool voor de selectielijsten 1996 (actualisatie 2012), 2017 en 2020. Iedere selectielijst behoudt haar eigen structuur, terminologie en gegevens.
 
-## Huidige voorbereidingsstap
+## Huidige publicatieroute
+
+GitHub Pages is vanaf opdracht 10 de beoogde primaire publicatieroute, ter vervanging van ChatGPT Sites. De applicatie blijft volledig statisch en geschikt voor een repositorysubpad. Pages wordt in deze opdracht niet geactiveerd. Eerdere Sites-vermeldingen in de afgeronde stappen hieronder beschrijven de toenmalige scope.
+
+## Oorspronkelijke voorbereidingsstap
 
 De bestaande repository bevat `README.md` en `AGENTS.md`. Deze stap voegt alleen dit ontwikkelplan en een `.gitignore` toe. Er worden nog geen datasets opgenomen, dependencies geïnstalleerd, webfunctionaliteiten gebouwd of databasearchitecturen ingevoerd. De onderstaande vervolgfases worden pas op afzonderlijke opdracht uitgevoerd.
 
@@ -19,7 +23,7 @@ De bestaande repository bevat `README.md` en `AGENTS.md`. Deze stap voegt alleen
 | 7. Begripsgericht zoeken | Afzonderlijk zoeken met semantische zoeklexicons toevoegen, met zichtbare herkomst en status. Onbevestigde AI-voorstellen standaard uitsluiten en alleen na expliciete inschakeling gebruiken. |
 | 8. Detailweergave en concordans | Officiële selectiegegevens, waarderingen, volledige bewaartermijnen, voorwaarden, toelichtingen en bronverwijzingen tonen. Beschikbare concordansrelaties herkenbaar weergeven zonder automatische toepasselijkheidsconclusies. |
 | 9. Integratietests | Samenhang tussen gegevenslaag, boomnavigatie, beide zoekvormen, details en concordans controleren. Beschikbare testvragen gebruiken zonder verwachte uitkomsten kunstmatig aan te passen. Ook standaardsluiting van onbevestigde AI-relaties en behoud van brongegevens controleren. |
-| 10. Voorbereiding op ChatGPT Sites | Geschiktheid voor een statische browseromgeving en ChatGPT Sites controleren; publicatie-instructies, beperkingen en resterende bevindingen documenteren. Publicatie gebeurt in een afzonderlijke opdracht. |
+| 10. Voorbereiding op GitHub Pages | Geschiktheid voor statische hosting onder een subpad op GitHub Pages controleren; publicatie-instructies, beperkingen en resterende bevindingen documenteren. Publicatie gebeurt in een afzonderlijke opdracht. |
 
 ## Gescheiden beheer van brongegevens en zoekverrijking
 
@@ -64,3 +68,12 @@ Productiebouw, 87 moduletests, 44 Chromium-browsertests en Python-publicatievali
 Het detailgedeelte van fase 8 is aangevuld op basis van een veldinventarisatie. Algemene bepalingen en de volledige rubriekcontext zijn op verzoek leesbaar, inclusief de afzonderlijk gelabelde leesbare paginakopieën. Procestoelichting, herkomst waardering, onderbouwing van procestermijnen, vaststelling en datasetversie zijn ontsloten. Volledige brontermijnen blijven behouden, met expliciet onderscheid tussen bronwaarden, bronlegenda-duiding, ontbrekende waarden en vervallen resultaten. Bronlocaties, documentbrede links, metadata en de elf bestaande bronannotaties blijven controleerbaar zonder rectificatieclaims.
 
 Een toetsenbordbedienbare kopieerfunctie levert beschikbare officiële selectiegegevens met context en bronverwijzingen, met toegankelijke bevestiging/foutmelding. Alle 1.145 kopieerteksten zijn gecontroleerd. Typecheck, productiebuild, 92 moduletests, 55 Chromium-browsertests en Python-publicatievalidatie zijn geslaagd. Desktop en mobiel zijn visueel gecontroleerd onder een subpad. Geen bestaande testverwachtingen, officiële datasets, bronregistraties of zoekalgoritmen gewijzigd. Zie [detailweergave.md](detailweergave.md) voor veldmatrix, presentatieregels, tests en beperkingen. Concordans en Sites-integratie zijn niet uitgevoerd.
+
+
+## Afgeronde technische concordansmodule — 11 november 2026
+
+De technische concordansgegevensmodule is gerealiseerd met afzonderlijke oorspronkelijke relaties, technische koppelingen en latere inhoudelijke beoordelingen. Lazy laden, bronrichting, directe record-/structuuropvragingen, meervoudige relaties en expliciete onopgeloste/onzekere verwijzingen zijn beschikbaar. Rubriekrelaties worden niet aan alle afzonderlijke voorschriften toegekend.
+
+De bijlage bevat niet de oorspronkelijke concordans-JSON of Excel. Echte dekking, richtingen en koppelcijfers zijn daarom niet vastgesteld; de tests gebruiken uitsluitend als fictief gelabelde verbindingen. Bron- en publicatievoorbehouden en de concrete vervolgactie voor echte gegevens staan in [concordans-broncontrole.md](concordans-broncontrole.md); de API staat in [concordans-gegevensmodel.md](concordans-gegevensmodel.md). Er zijn geen echte concordansgegevens, werkmap of volledige afgeleide tabel gepubliceerd.
+
+Typecheck, productiebuild, 110 moduletests (18 concordanstests), 55 bestaande Chromium-browsertests en publieke Python-validatie zijn geslaagd. Officiële datasets, zoeklexicons en bestaande interface zijn ongewijzigd. Alleen het technische deel van de concordansfase is afgerond; echte gegevensopname en vergelijkingsinterface zijn niet uitgevoerd. GitHub Pages is de beoogde primaire publicatieroute, maar is niet geactiveerd.
