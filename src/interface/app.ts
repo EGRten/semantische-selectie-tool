@@ -5,6 +5,7 @@ import { maakBoom } from './boom.js';
 import { toonDetails } from './details.js';
 import { laadBronconcordans } from '../concordans/index.js';
 import { maakConcordanspaneel } from './concordans.js';
+import { maakConcordansviewer } from './concordans-viewer.js';
 import { maakZoekmodi } from './zoekmodi.js';
 
 export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ datasetsUrl: new URL('./datasets/', document.baseURI) })) {
@@ -29,6 +30,19 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
     detail.replaceChildren(element('h2','Nog geen onderdeel geselecteerd'),element('p',tekst,'hulptekst'));
   }
   legeDetails();root.replaceChildren(aside,detail);
+  const viewer=maakConcordansviewer({laad:()=>concordans.laad(),laadDataset:(id)=>laag.laadDataset(id)});
+  const hoofdnavigatie=element('nav',undefined,'hoofdnavigatie');hoofdnavigatie.setAttribute('aria-label','Hoofdnavigatie');
+  const lijstLink=element('a','Selectielijsten'),viewerLink=element('a','Concordans raadplegen');lijstLink.href='#selectielijsten';lijstLink.setAttribute('aria-current','page');viewerLink.href='#concordans';hoofdnavigatie.append(lijstLink,viewerLink);root.before(hoofdnavigatie);root.after(viewer.element);
+  const overslaan=document.querySelector<HTMLAnchorElement>('.overslaan');overslaan?.addEventListener('click',e=>{if(!viewer.element.hidden){e.preventDefault();viewer.element.querySelector<HTMLElement>('h2')?.focus();}});
+  async function route(){
+    const hash=location.hash;
+    const concordansMatch=/^#concordans(?:=(\d+))?$/.exec(hash);
+    if(concordansMatch){root.hidden=true;lijstLink.removeAttribute('aria-current');viewerLink.setAttribute('aria-current','page');await viewer.open(concordansMatch[1]?Number(concordansMatch[1]):undefined);return;}
+    if(!hash||hash==='#selectielijsten'||hash.startsWith('#selectie=')){viewer.sluit();root.hidden=false;viewerLink.removeAttribute('aria-current');lijstLink.setAttribute('aria-current','page');}
+    if(hash.startsWith('#selectie=')){try{const id=decodeURIComponent(hash.slice(10)),lijst=id.split(':')[0];if(!SELECTIELIJSTEN.includes(lijst as SelectielijstId))throw Error('Onbekende lijst');await navigeer(lijst as SelectielijstId,id);}catch{legeDetails('De rechtstreekse verwijzing naar het selectievoorschrift is ongeldig.');}}
+  }
+  window.addEventListener('hashchange',()=>{void route();});
+
   let dataset: Dataset | undefined;
   let boom: ReturnType<typeof maakBoom> | undefined;
   let aanvraag=0,navigatieAanvraag=0;
@@ -76,6 +90,7 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
       status.textContent='Selectielijst niet geladen.';legeDetails('De gegevens zijn niet beschikbaar. Probeer de selectielijst opnieuw te laden.');
     } finally { if(huidig===aanvraag)navigatie.setAttribute('aria-busy','false'); }
   }
+  void route();
   keuze.addEventListener('change',()=> {
     ++navigatieAanvraag;geschiedenis.length=0;actiefId=undefined;
     if (keuze.value) void laad(keuze.value as SelectielijstId);

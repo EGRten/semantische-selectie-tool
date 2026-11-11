@@ -113,3 +113,12 @@ Tien expliciete besluiten van de projecteigenaar zijn vastgelegd voor acht probl
 De bestaande concordansinterface toont besluiten, onzekerheden en technische correcties afzonderlijk en biedt de officiële vergelijking voor rij 21. Er zijn geen officiële gegevens, oorspronkelijke concordanscellen, zoeklexicons of AI-onderzoeksvoorstellen gewijzigd en geen oorspronkelijke concordansbestanden gepubliceerd. GitHub Pages is niet geactiveerd. Zie de actuele aanvullingen in het beoordelingsdossier, afwijkingenrapport, broncontrole en interfacedocumentatie.
 
 Eindcontrole: 135 moduletests en 68 Chromium-browsertests met echte lokale bron geslaagd, nul overgeslagen; typecheck, productiebuild, publieke validatie, volledige Excel/JSON-celcontrole en reproduceerbaar koppelrapport geslaagd. De oorspronkelijke 605 koppelingen en oorspronkelijke onderzoeksgegevens zijn via vaste vingerafdrukken behouden. Desktop en mobiel zijn onder een subpad visueel gecontroleerd.
+
+
+## Technische bronviewer opdracht 14 — 11 november 2026
+
+De statische alleen-lezen viewer voor de oorspronkelijke concordans is gerealiseerd, met 716 rijen/A–K, zoeken, 36 bladerpagina's, rijselectie, detailweergave, subpadgeschikte permalinks en koppelingen met de bestaande concordans-/selectieinterface. Originele lege cellen, werkelijke mergecontext, technische correcties en besluiten blijven onderscheiden. Er is geen nieuwe bronkopie, dependency, backend of architectuur toegevoegd.
+
+De specifieke werkmap is op identiteit/volledigheid en hergebruikdocumentatie onderzocht. Een voldoende onderbouwde grondslag voor integrale publieke weergave en JSON-distributie is niet vastgesteld. Daarom is uitsluitend de viewer met publieke bronvermelding gebouwd; de brondata blijven buiten Git en productie-uitvoer. Integrale publieke beschikbaarheid is niet afgerond en GitHub Pages is niet geactiveerd. Zie [viewer](concordans-viewer.md) en [hergebruikafweging](concordans-hergebruik.md).
+
+Eindcontrole opdracht 14: 139 moduletests en 76 Chromium-browsertests met de echte lokale bron, nul overgeslagen, productiebuild, typecheck, publieke validatie en volledige Excel/JSON-celcontrole geslaagd. Alle 716 rijen zijn via de bladerinterface gecontroleerd. Desktop/mobiel en een gewone productiebuild zonder bronalias zijn daadwerkelijk geraadpleegd. Publieke data-opname blijft niet afgerond wegens de gedocumenteerde hergebruikblokkade.

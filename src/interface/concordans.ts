@@ -16,7 +16,7 @@ function bronrij(r:Bronrij):HTMLElement{
   if(samengevoegd.length)d.append(element('h5','Werkelijk samengevoegde broncontext'),element('p',samengevoegd.join('\n'),'brontekst'));
   return d;
 }
-function toonBesluit(b:Beoordelingsbesluit):HTMLElement{
+export function toonBesluit(b:Beoordelingsbesluit):HTMLElement{
  const blok=element('section',undefined,'beoordelingsbesluit');
  blok.append(element('p','Beoordelingsbesluit vastgelegd','koppelstatus'),element('p',b.bevestigd_besluit,'brontekst'),element('p',`${b.beoordelaarsrol} · vastgelegd ${b.datum_vastlegging}. Aangeleverd door de projecteigenaar, technisch verwerkt door Codex.`, 'hulptekst'));
  if(b.technische_verwerking.status==='geen_definitieve_historische_koppeling')blok.append(element('p','Historische relatie niet eenduidig vastgesteld. Geen definitieve historische koppeling; het vastgelegde besluit keurt geen kandidaat goed.','melding'));
@@ -35,7 +35,7 @@ export function maakConcordanspaneel(dataset:Dataset,id:string,opties:Opties):HT
   async function kandidaat(refId:string):Promise<HTMLElement>{const lijst=refId.split(':')[0] as SelectielijstId;const n=await naam({selectielijst:lijst,id:refId});return knop(`Bekijk kandidaat: ${n.tekst}`,()=>opties.navigeer(lijst,refId),'concordans-link');}
   async function verklaring(c:Controle,r:Concordansrelatie):Promise<HTMLElement>{
     const row=c.bronrijen.find(b=>r.oorspronkelijk.id.startsWith(b.id+':1996-2020:'));if(!row)throw Error('Bronrij ontbreekt');
-    const d=element('details',undefined,'concordans-verklaring');d.append(element('summary',`Bronverklaring — rij ${row.bron.rij}`));
+    const d=element('details',undefined,'concordans-verklaring');const viewer=element('a',`Raadpleeg concordansrij ${row.bron.rij}`,'concordans-link');viewer.href=`#concordans=${row.bron.rij}`;d.append(element('summary',`Bronverklaring — rij ${row.bron.rij}`),viewer);
     d.append(element('p',`Oorspronkelijke bronrichting: ${lijstnamen[r.oorspronkelijk.bron.selectielijst]} → ${lijstnamen[r.oorspronkelijk.doel.selectielijst]}.`));
     d.append(element('p',`Technische eindpunten: ${r.bron.record?'gekoppeld':'niet gekoppeld'} → ${r.doel.record?'gekoppeld':'niet gekoppeld'}.`));
     if(r.oorspronkelijk.toelichting)d.append(element('p','Oorspronkelijke concordansverwijzing'),element('blockquote',r.oorspronkelijk.toelichting,'brontekst'));
@@ -92,7 +92,7 @@ export function maakConcordanspaneel(dataset:Dataset,id:string,opties:Opties):HT
         art.append(element('p',`Bronselectielijst: ${lijstnamen[r.oorspronkelijk.bron.selectielijst]} · Doelselectielijst: ${lijstnamen[r.oorspronkelijk.doel.selectielijst]}.`));
         if(andere)art.append(knop('Vergelijk officiële gegevens',()=>{void vergelijken(vergelijking,andere,n);},'concordans-link'),knop('Open gerelateerd voorschrift',()=>opties.navigeer(andere.selectielijst,andere.id),'concordans-link'));
         if(groep.length>1)art.append(element('p',`${groep.length} afzonderlijke oorspronkelijke bronrijverklaringen bij ditzelfde recordpaar.`));for(const row of groep)art.append(await verklaring(c,row));lijst.append(art);}
-      if(geldig(n)){inhoud.append(lijst);for(const r of c.rijen.filter(r=>r.doel2020.koppelingen.some(k=>k.status.startsWith('technisch_gecorrigeerd')&&k.record_id===id)&&dataset.id==='2020'))inhoud.append(await gecorrigeerd(c,r));}
+      if(geldig(n)){const bronnen=element('nav',undefined,'concordans-bronrijlinks');bronnen.setAttribute('aria-label','Oorspronkelijke concordansrijen bij dit onderdeel');for(const row of c.rijen.filter(row=>dataset.id==='1996-2012'?row.bron1996.record_ids.includes(id):dataset.id==='2020'&&row.doel2020.koppelingen.some(k=>k.record_id===id))){const a=element('a',`Bronrij ${row.rij} raadplegen`,'concordans-link');a.href=`#concordans=${row.rij}`;bronnen.append(a);}inhoud.append(bronnen,lijst);for(const r of c.rijen.filter(r=>r.doel2020.koppelingen.some(k=>k.status.startsWith('technisch_gecorrigeerd')&&k.record_id===id)&&dataset.id==='2020'))inhoud.append(await gecorrigeerd(c,r));}
     }catch{if(geldig(n))fout(()=>{void laden(alleenOverzicht);});}finally{if(geldig(n))inhoud.setAttribute('aria-busy','false');}
   }
   paneel.addEventListener('toggle',()=>{if(!paneel.open){++aanvraag;return;}if(dataset.id==='2017'){inhoud.replaceChildren(element('p','Deze concordans bevat geen rechtstreeks vastgestelde 2017-codemapping. Beschrijvende opmerkingen zijn geen historische recordrelaties.'),knop('Open concordansoverzicht',()=>{void laden(true);},'concordans-link'));}else void laden();});

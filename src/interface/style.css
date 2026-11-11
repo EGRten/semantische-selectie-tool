@@ -640,3 +640,41 @@ mark {
 @media(max-width:680px) {
  .vergelijkingstabel caption { display:block; width:100%; box-sizing:border-box; }
 }
+
+/* Bronviewer: dezelfde statische applicatie, zonder bronwaarden te herschrijven. */
+[hidden] { display:none !important; }
+.hoofdnavigatie { display:flex; gap:24px; padding:14px 28px; border-bottom:1px solid var(--lijn); flex-wrap:wrap; }
+.hoofdnavigatie a { color:var(--accent); text-decoration:none; padding:8px 0; }
+.hoofdnavigatie [aria-current=page] { font-weight:700; border-bottom:2px solid var(--accent); }
+.concordans-viewer { margin:auto; padding:24px 28px; max-width:1440px; min-width:0; }
+.concordans-viewer h2 { margin-top:0; }
+.concordans-viewer p,.concordans-viewer dd { overflow-wrap:anywhere; }
+.viewer-bron { padding:14px 0; border-bottom:1px solid var(--lijn); }
+.viewer-bron summary { cursor:pointer; color:var(--accent); }
+.viewer-bron dt,.viewer-cellen dt { font-weight:650; margin-top:16px; }
+.viewer-bron dd,.viewer-cellen dd { margin:6px 0 12px; }
+.viewer-bediening,.viewer-bladeren { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin:20px 0; }
+.viewer-bediening input { padding:9px; max-width:100%; min-width:0; border:1px solid var(--lijn); }
+.viewer-bediening button,.viewer-bladeren button { border:1px solid var(--accent); color:var(--accent); padding:8px 12px; }
+.viewer-bediening button:disabled,.viewer-bladeren button:disabled { color:var(--muted); opacity:.6; }
+.viewer-tabelgebied { overflow:auto; max-height:530px; border:1px solid var(--lijn); }
+.viewer-tabel { border-collapse:collapse; font-size:13px; width:max-content; table-layout:fixed; }
+.viewer-tabel caption { text-align:left; padding:10px; }
+.viewer-tabel th,.viewer-tabel td { padding:10px; border:1px solid var(--lijn); vertical-align:top; width:230px; max-width:230px; overflow-wrap:anywhere; }
+.viewer-tabel thead th { background:var(--zacht); position:sticky; top:0; }
+.viewer-tabel th:first-child { width:75px; }
+.viewer-tabel [aria-current=true] { background:#e5f2ed; }
+.mergecontext { display:block; margin-top:10px; color:var(--muted); white-space:pre-wrap; }
+.viewer-rijdetail { margin-top:28px; border-top:2px solid var(--lijn); padding-top:20px; }
+.viewer-cellen { display:grid; grid-template-columns:minmax(180px,1fr) minmax(0,3fr); gap:10px 25px; }
+.viewer-cellen dt,.viewer-cellen dd { border-bottom:1px solid var(--lijn); padding:12px 0; margin:0; }
+.viewer-techniek { border-top:1px solid var(--lijn); padding:18px 0; }
+.viewer-techniek .concordans-link { display:block; width:fit-content; }
+@media(max-width:680px) {
+ .concordans-viewer { padding:18px; }
+ .hoofdnavigatie { padding:10px 18px; gap:18px; }
+ .viewer-cellen { display:block; }
+ .viewer-cellen dt { border:0; padding-bottom:0; }
+ .viewer-bediening label { flex-basis:100%; }
+ .viewer-bediening input[type=search] { width:100%; }
+}
