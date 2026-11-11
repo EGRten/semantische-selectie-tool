@@ -9,11 +9,18 @@ const { values } = parseArgs({ options: {
   base: { type: 'string', default: '/' },
   'concordans-env': {type:'boolean',default:false},
 } });
-let concordans;
+let concordans,concordansPublicatie;
 if(values['concordans-env']){
   if(!process.env.CONCORDANS_BRON_JSON)throw Error('CONCORDANS_BRON_JSON ontbreekt');
   concordans=await readFile(process.env.CONCORDANS_BRON_JSON);
   if(createHash('sha256').update(concordans).digest('hex')!=='b01cff07c7bfeeb6f562d467373615f5a18cfc7ab9777f11fcd5cb1ed7de73dd')throw Error('Onverwachte concordansbron; controleer eerst identiteit en bronversie');
+  const {maakGegevenslaag}=await import('../dist/gegevenslaag/index.js');
+  const {indexeerBronconcordans}=await import('../dist/concordans/index.js');
+  const {projecteerConcordans}=await import('../dist/publicatie/projectie.js');
+  const {pathToFileURL}=await import('node:url');
+  const laag=maakGegevenslaag({datasetsUrl:pathToFileURL(resolve('datasets')+'/'),ophalen:async u=>new Response(await readFile(u,'utf8'))});
+  concordansPublicatie=JSON.stringify(projecteerConcordans(await indexeerBronconcordans(JSON.parse(concordans),laag),await Promise.all(['1996-2012','2017','2020'].map(id=>laag.laadDataset(id)))));
+
 }
 const root = resolve('dist/site');
 const base = values.base;
@@ -24,6 +31,7 @@ createServer(async (request, response) => {
     const url = new URL(request.url, 'http://localhost');
     if (!url.pathname.startsWith(base)) { response.writeHead(404).end(); return; }
     const relative = decodeURIComponent(url.pathname.slice(base.length));
+    if(concordansPublicatie&&relative==='publicatie/concordans.json'){response.setHeader('Content-Type',mime['.json']);response.setHeader('Cache-Control','no-store');response.end(concordansPublicatie);return;}
     if(concordans&&relative==='concordans/concordans.json'){response.setHeader('Content-Type',mime['.json']);response.setHeader('Cache-Control','no-store');response.end(concordans);return;}
     let path = resolve(root, relative || 'index.html');
     if (!path.startsWith(root + sep)) { response.writeHead(403).end(); return; }

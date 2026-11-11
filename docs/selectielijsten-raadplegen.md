@@ -1,10 +1,12 @@
 # Selectielijsten raadplegen en downloaden
 
+> Opdracht 17 vervangt de eerdere uitgebreide export door de compacte publicatieprojectie met drie werkbladen. De actuele veldkeuze en controles staan in [veldmatrix](publicatie-veldmatrix.md) en [acceptatierapport](publicatie-acceptatie.md). Oudere exportbeschrijvingen verderop documenteren opdracht 16.
+
 ## Hoofdfuncties en beschikbaarheid
 
-De navigatie biedt **Zoeken en verkennen**, **Selectielijsten raadplegen** en **Concordans raadplegen**. De eerste functie behoudt de bestaande boom, twee zoekmodi, details en historische vergelijking. De oude route `#selectielijsten` blijft daarvoor geldig. De nieuwe raadpleegfunctie staat op `#lijsten` en is onafhankelijk van de niet-publieke concordansbron beschikbaar. Zij gebruikt uitsluitend reeds gepubliceerde officiële datasets; er is geen backend, API, nieuwe gegevenskopie of nieuwe dependency.
+De navigatie biedt **Zoeken en verkennen**, **Selectielijsten raadplegen** en **Concordans raadplegen**. De eerste functie behoudt de bestaande boom, twee zoekmodi, details en historische vergelijking. De oude route `#selectielijsten` blijft daarvoor geldig. De nieuwe raadpleegfunctie staat op `#lijsten` en is onafhankelijk van de niet-publieke concordansbron beschikbaar. Zij gebruikt compacte, reproduceerbaar afgeleide publicatieprojecties van de reeds gepubliceerde officiële datasets; er is geen backend, API of nieuwe dependency.
 
-Kies 1996/2012, 2017 of 2020. Alleen de gekozen dataset wordt via de bestaande `laadDataset` geladen; manifest, structuur en selectiegegevens delen de bestaande sessiecache met de boom/details. Zoeklexicons en concordans worden niet voor deze tabellen opgehaald. Uitgebreide voorwaarden worden pas bij een Excel-download geladen via de reeds bestaande broncontextcache.
+Kies 1996/2012, 2017 of 2020. Alleen de gekozen compacte publicatie-JSON wordt geladen en per lijst gecachet. Website en export gebruiken exact dezelfde projectie. De bestaande gegevenslaag blijft de bron voor generatie, zoeken en volledige details. Zoeklexicons en concordans worden niet voor deze tabellen opgehaald. Toelichtingen staan in dezelfde projectie en zijn ook via uitklapbare onderdelen raadpleegbaar.
 
 ## Tabellen en veldherkomst
 
@@ -13,7 +15,7 @@ Iedere gegevensregel is een bestaand selectievoorschrift, niet een extra structu
 | Lijst | Kolommen | Werkelijke herkomst |
 | --- | --- | --- |
 | 1996/2012 | Officiële code; hoofdstuk; taakveld; rubriek; omschrijving selectievoorschrift; waardering; bewaartermijn; toelichting; status | `code`; expliciete structuuronderdelen uit `padNaar(id)` met typen `hoofdstuk`, `taakveld`, `rubriek`; `officiele_omschrijving`; `waardering.officiele_tekst`; `bewaartermijn.officiele_tekst`; `toelichting`; `status` |
-| 2017/2020 | Resultaatcode; procestype; procesomschrijving; resultaattype; resultaatomschrijving; generiek/specifiek; waardering; bewaartermijn; procestermijn; aanvangsmoment; toelichting; status | `code`; expliciet `procestype` in het structuurpad; `procesomschrijving`; `resultaattype`; `officiele_omschrijving`; `generiek_specifiek`; de drie termijn-/aanvangsobjecten met `officiele_tekst`; `waardering.officiele_tekst`; `toelichting`; `status` |
+| 2017/2020 | Resultaatcode; procestype; procesomschrijving; resultaattype; resultaatomschrijving; generiek/specifiek; waardering; bewaartermijn; procestermijn; aanvangsmoment; status | `code`; expliciet `procestype` in het structuurpad; `procesomschrijving`; `resultaattype`; `officiele_omschrijving`; `generiek_specifiek`; de drie termijn-/aanvangsobjecten met `officiele_tekst`; `waardering.officiele_tekst`; `toelichting`; `status` |
 
 Er worden geen officiële codes uit technische suffixen afgeleid. De historische rubriek 3.6.1 bevat 22 voorschriften en 3.6.2 bevat 36 voorschriften; ieder heeft zijn eigen technische record-ID en eigen rij. De tabel maakt geen keuze tussen gelijkgenummerde voorschriften. In de 2020-tabel blijven ook beide vervallen regels opgenomen. De bronvelden bepalen wat wordt getoond: bijvoorbeeld de procesomschrijving van 2020 is niet automatisch vervangen door een langere toelichting elders in de bronrij.
 

@@ -1,0 +1,361 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "versie",
+    "id",
+    "titel",
+    "kolommen",
+    "rijen",
+    "achtergrond",
+    "bronnen",
+    "hergebruik"
+  ],
+  "properties": {
+    "versie": {
+      "const": 1
+    },
+    "id": {
+      "enum": [
+        "1996-2012",
+        "2017",
+        "2020",
+        "concordans"
+      ]
+    },
+    "titel": {
+      "type": "string"
+    },
+    "kolommen": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rijen": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/rij"
+      }
+    },
+    "achtergrond": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/notitie"
+      }
+    },
+    "bronnen": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/bron"
+      }
+    },
+    "hergebruik": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "bron": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "titel",
+        "url",
+        "id"
+      ],
+      "properties": {
+        "titel": {
+          "type": "string"
+        },
+        "url": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^https?://"
+        },
+        "pagina": {
+          "type": "integer"
+        },
+        "rij": {
+          "type": "integer"
+        },
+        "werkblad": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "kolom": {
+          "type": "string"
+        }
+      }
+    },
+    "notitie": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "titel",
+        "tekst"
+      ],
+      "properties": {
+        "titel": {
+          "type": "string"
+        },
+        "tekst": {
+          "type": "string"
+        },
+        "bron": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        }
+      }
+    },
+    "rij": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "waarden",
+        "notities",
+        "bronnen"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "waarden": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "notities": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/notitie"
+          }
+        },
+        "bronnen": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "bronrij": {
+          "type": "integer",
+          "minimum": 3,
+          "maximum": 718
+        },
+        "context": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kolom",
+              "tekst"
+            ],
+            "properties": {
+              "kolom": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 10
+              },
+              "tekst": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "ontbrekend": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "kolom",
+              "tekst"
+            ],
+            "properties": {
+              "kolom": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 10
+              },
+              "tekst": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "koppelingen": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "id",
+              "lijst",
+              "code",
+              "benaming",
+              "kandidaat"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "lijst": {
+                "enum": [
+                  "1996-2012",
+                  "2017",
+                  "2020"
+                ]
+              },
+              "code": {
+                "type": "string"
+              },
+              "benaming": {
+                "type": "string"
+              },
+              "kandidaat": {
+                "type": "boolean"
+              }
+            }
+          }
+        },
+        "verwijzingen": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "id": {
+            "const": "1996-2012"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "kolommen": {
+            "minItems": 9,
+            "maxItems": 9
+          },
+          "rijen": {
+            "minItems": 494,
+            "maxItems": 494,
+            "items": {
+              "properties": {
+                "waarden": {
+                  "minItems": 9,
+                  "maxItems": 9
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "id": {
+            "const": "2017"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "kolommen": {
+            "minItems": 11,
+            "maxItems": 11
+          },
+          "rijen": {
+            "minItems": 305,
+            "maxItems": 305,
+            "items": {
+              "properties": {
+                "waarden": {
+                  "minItems": 11,
+                  "maxItems": 11
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "id": {
+            "const": "2020"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "kolommen": {
+            "minItems": 11,
+            "maxItems": 11
+          },
+          "rijen": {
+            "minItems": 346,
+            "maxItems": 346,
+            "items": {
+              "properties": {
+                "waarden": {
+                  "minItems": 11,
+                  "maxItems": 11
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "id": {
+            "const": "concordans"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "kolommen": {
+            "minItems": 11,
+            "maxItems": 11
+          },
+          "rijen": {
+            "minItems": 716,
+            "maxItems": 716,
+            "items": {
+              "properties": {
+                "waarden": {
+                  "minItems": 11,
+                  "maxItems": 11
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # Concordansinterface en historische vergelijking
 
+> Actueel bij opdracht 17: viewer en download gebruiken dezelfde compacte publicatieprojectie. De tabel/export heeft bronrij plus A–K (12 kolommen); mergecontext staat herkenbaar in dezelfde cel, niet in elf dubbele kolommen. Integrale publieke distributie blijft geblokkeerd. Zie [acceptatierapport](publicatie-acceptatie.md), [veldmatrix](publicatie-veldmatrix.md) en [hergebruik](publicatie-privacy-hergebruik.md). Oudere uitvoeringsbeschrijvingen hieronder documenteren de vorige ontwikkelstappen.
+
 ## Doorlopende tabel en Excel-download — opdracht 15
 
 De viewer toont nu alle 716 rijen in één doorlopende tabel, zonder paginering. Kolomkoppen en bronrijnummers blijven vast bij scrollen. Bronrijlinks markeren de rij en verschuiven de tabel ernaartoe. De knop **Download Concordans 1996-2020 (.xlsx)** maakt **Concordans 1996-2020.xlsx** met werkbladen **Concordans 1996-2020** en **Bronvermelding**. A–K blijven origineel, L–V zijn expliciet aanvullende uitgevouwen context en W is het bronrijnummer. Alle rijen worden geëxporteerd, ongeacht zoekfilters.

@@ -1,5 +1,7 @@
 # Concordans raadplegen
 
+> Actueel bij opdracht 17: viewer en download gebruiken dezelfde compacte publicatieprojectie. De tabel/export heeft bronrij plus A–K (12 kolommen); mergecontext staat herkenbaar in dezelfde cel, niet in elf dubbele kolommen. Integrale publieke distributie blijft geblokkeerd. Zie [acceptatierapport](publicatie-acceptatie.md), [veldmatrix](publicatie-veldmatrix.md) en [hergebruik](publicatie-privacy-hergebruik.md). Oudere uitvoeringsbeschrijvingen hieronder documenteren de vorige ontwikkelstappen.
+
 ## Beschikbaarheid
 
 De navigatie **Concordans raadplegen** opent de nieuwe alleen-lezen bronviewer naast de bestaande selectielijsten. De viewer is volledig statisch en gebruikt de bestaande concordansloader, indexen en datasetcache. Er is geen backend, database, nieuwe dependency of Markdown-interpreter.

@@ -8,9 +8,11 @@ import { maakConcordanspaneel } from './concordans.js';
 import { maakConcordansviewer } from './concordans-viewer.js';
 import { maakSelectielijstenviewer } from './selectielijsten-viewer.js';
 import { lijstHash } from '../raadplegen/index.js';
+import {maakPublicatielaag} from '../publicatie/index.js';
 import { maakZoekmodi } from './zoekmodi.js';
 
 export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ datasetsUrl: new URL('./datasets/', document.baseURI) })) {
+  const publicaties=maakPublicatielaag();
   const concordans=laadBronconcordans({bestandUrl:new URL('./concordans/concordans.json',document.baseURI),gegevenslaag:laag});
   const aside = element('aside',undefined,'zijbalk'); aside.setAttribute('aria-label','Selectielijst en navigatie');
   const label = element('label','Selectielijst'); label.htmlFor = 'selectielijst';
@@ -32,8 +34,8 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
     detail.replaceChildren(element('h2','Nog geen onderdeel geselecteerd'),element('p',tekst,'hulptekst'));
   }
   legeDetails();root.replaceChildren(aside,detail);
-  const viewer=maakConcordansviewer({laad:()=>concordans.laad(),laadDataset:(id)=>laag.laadDataset(id)});
-  const lijsten=maakSelectielijstenviewer(id=>laag.laadDataset(id));
+  const viewer=maakConcordansviewer({laad:()=>publicaties.laad('concordans')});
+  const lijsten=maakSelectielijstenviewer(id=>publicaties.laad(id));
   const hoofdnavigatie=element('nav',undefined,'hoofdnavigatie');hoofdnavigatie.setAttribute('aria-label','Hoofdnavigatie');
   const lijstLink=element('a','Zoeken en verkennen'),tabelLink=element('a','Selectielijsten raadplegen'),viewerLink=element('a','Concordans raadplegen');lijstLink.href='#selectielijsten';lijstLink.setAttribute('aria-current','page');viewerLink.href='#concordans';tabelLink.href='#lijsten';hoofdnavigatie.append(lijstLink,tabelLink,viewerLink);root.before(hoofdnavigatie);root.after(viewer.element,lijsten.element);
   const overslaan=document.querySelector<HTMLAnchorElement>('.overslaan');overslaan?.addEventListener('click',e=>{if(!viewer.element.hidden||!lijsten.element.hidden){e.preventDefault();(!lijsten.element.hidden?lijsten.element:viewer.element).querySelector<HTMLElement>('h2')?.focus();}});
