@@ -1,5 +1,6 @@
 """Onafhankelijke XLSX-terugleescontrole; geen uitvoerbestand of extra dependency."""
 import json
+import re
 import sys
 import xml.etree.ElementTree as ET
 from zipfile import ZipFile
@@ -12,7 +13,7 @@ def lees(pad):
         if z.testzip(): raise ValueError('Beschadigde XLSX-ZIP')
         strings = []
         if 'xl/sharedStrings.xml' in z.namelist():
-            strings = [''.join(e.itertext()) for e in ET.fromstring(z.read('xl/sharedStrings.xml')).findall('s:si', NS)]
+            strings = [re.sub(r'_x([0-9a-fA-F]{4})_', lambda m: chr(int(m[1], 16)), ''.join(e.itertext())) for e in ET.fromstring(z.read('xl/sharedStrings.xml')).findall('s:si', NS)]
         boek = ET.fromstring(z.read('xl/workbook.xml'))
         rels = {e.get('Id'): e.get('Target') for e in ET.fromstring(z.read('xl/_rels/workbook.xml.rels'))}
         sheets = []
@@ -31,7 +32,7 @@ def lees(pad):
                     while len(row) < n: row.append(None)
                     v = c.find('s:v', NS)
                     if c.get('t') == 's': value = strings[int(v.text)]
-                    elif c.get('t') == 'inlineStr': value = ''.join(c.find('s:is', NS).itertext())
+                    elif c.get('t') == 'inlineStr': value = re.sub(r'_x([0-9a-fA-F]{4})_', lambda m: chr(int(m[1], 16)), ''.join(c.find('s:is', NS).itertext()))
                     else: value = None if v is None else v.text
                     row[n-1] = value
                 data.append(row)

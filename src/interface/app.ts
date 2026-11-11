@@ -6,6 +6,8 @@ import { toonDetails } from './details.js';
 import { laadBronconcordans } from '../concordans/index.js';
 import { maakConcordanspaneel } from './concordans.js';
 import { maakConcordansviewer } from './concordans-viewer.js';
+import { maakSelectielijstenviewer } from './selectielijsten-viewer.js';
+import { lijstHash } from '../raadplegen/index.js';
 import { maakZoekmodi } from './zoekmodi.js';
 
 export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ datasetsUrl: new URL('./datasets/', document.baseURI) })) {
@@ -31,11 +33,14 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
   }
   legeDetails();root.replaceChildren(aside,detail);
   const viewer=maakConcordansviewer({laad:()=>concordans.laad(),laadDataset:(id)=>laag.laadDataset(id)});
+  const lijsten=maakSelectielijstenviewer(id=>laag.laadDataset(id));
   const hoofdnavigatie=element('nav',undefined,'hoofdnavigatie');hoofdnavigatie.setAttribute('aria-label','Hoofdnavigatie');
-  const lijstLink=element('a','Selectielijsten'),viewerLink=element('a','Concordans raadplegen');lijstLink.href='#selectielijsten';lijstLink.setAttribute('aria-current','page');viewerLink.href='#concordans';hoofdnavigatie.append(lijstLink,viewerLink);root.before(hoofdnavigatie);root.after(viewer.element);
-  const overslaan=document.querySelector<HTMLAnchorElement>('.overslaan');overslaan?.addEventListener('click',e=>{if(!viewer.element.hidden){e.preventDefault();viewer.element.querySelector<HTMLElement>('h2')?.focus();}});
+  const lijstLink=element('a','Zoeken en verkennen'),tabelLink=element('a','Selectielijsten raadplegen'),viewerLink=element('a','Concordans raadplegen');lijstLink.href='#selectielijsten';lijstLink.setAttribute('aria-current','page');viewerLink.href='#concordans';tabelLink.href='#lijsten';hoofdnavigatie.append(lijstLink,tabelLink,viewerLink);root.before(hoofdnavigatie);root.after(viewer.element,lijsten.element);
+  const overslaan=document.querySelector<HTMLAnchorElement>('.overslaan');overslaan?.addEventListener('click',e=>{if(!viewer.element.hidden||!lijsten.element.hidden){e.preventDefault();(!lijsten.element.hidden?lijsten.element:viewer.element).querySelector<HTMLElement>('h2')?.focus();}});
   async function route(){
     const hash=location.hash;
+    if(hash==='#lijsten'||hash.startsWith('#lijst=')){++navigatieAanvraag;root.hidden=true;viewer.sluit();lijstLink.removeAttribute('aria-current');viewerLink.removeAttribute('aria-current');tabelLink.setAttribute('aria-current','page');let waarde:string|undefined;try{waarde=hash.startsWith('#lijst=')?decodeURIComponent(hash.slice(7)):undefined;}catch{waarde=undefined;}const lijst=waarde?.split(':')[0] as SelectielijstId|undefined;if(lijst&&!SELECTIELIJSTEN.includes(lijst)){await lijsten.open();return;}await lijsten.open(lijst,waarde?.includes(':')?waarde:undefined);return;}
+    tabelLink.removeAttribute('aria-current');lijsten.sluit();
     const concordansMatch=/^#concordans(?:=(\d+))?$/.exec(hash);
     if(concordansMatch){root.hidden=true;lijstLink.removeAttribute('aria-current');viewerLink.setAttribute('aria-current','page');await viewer.open(concordansMatch[1]?Number(concordansMatch[1]):undefined);return;}
     if(!hash||hash==='#selectielijsten'||hash.startsWith('#selectie=')){viewer.sluit();root.hidden=false;viewerLink.removeAttribute('aria-current');lijstLink.setAttribute('aria-current','page');}
@@ -54,6 +59,7 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
     try {
       if (toonDetails(detail,dataset,id,(doel)=>selecteer(doel))) {
         actiefId=id;
+        if(dataset.selectiegegeven(id)){const terug=element('a','Terug naar tabelrij','concordans-link');terug.href=lijstHash(id);detail.querySelector('#detailtitel')?.before(terug);}
         const paneel=maakConcordanspaneel(dataset,id,{laad:()=>concordans.laad(),laadDataset:(lijst)=>laag.laadDataset(lijst),navigeer:(lijst,doel)=>{void navigeer(lijst,doel);}});
         const anker=detail.querySelector(':scope > .gegevens');if(anker)anker.before(paneel);else detail.append(paneel);
         if(geschiedenis.length)detail.querySelector('#detailtitel')?.before(knop('Terug naar oorspronkelijk voorschrift',()=>{const doel=geschiedenis.pop();if(doel)void navigeer(doel.lijst,doel.id,true);},'concordans-terug'));

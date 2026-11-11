@@ -1,5 +1,12 @@
 # Browserinterface en boomstructuren
 
+## Selectielijsten raadplegen en downloaden — opdracht 16
+
+De hoofdnavigatie bestaat nu uit **Zoeken en verkennen**, **Selectielijsten raadplegen** en **Concordans raadplegen**. De nieuwe raadpleegfunctie biedt één doorlopende tabel per officiële lijst: 494 / 305 / 346 voorschriften, eenvoudig tabelzoeken, links naar dezelfde details en terug naar de exacte rij. Alleen de gekozen dataset wordt geladen, met hergebruik van de bestaande cache.
+
+De drie downloads heten exact `Selectielijst 1996-2012.xlsx`, `Selectielijst 2017.xlsx` en `Selectielijst 2020.xlsx`, met werkbladen `Selectiegegevens` en `Bronvermelding`. Zij bevatten alle voorschriften ongeacht zoekfilters, uitgebreide officiële gegevens, afzonderlijke annotaties/statussen, volledige controle-JSON en broncontext. De bestaande tekstuele publicatiegrondslag geldt binnen dezelfde afbakening; oorspronkelijke documenten en concordansdata worden niet toegevoegd. Zie [selectielijsten-raadplegen.md](selectielijsten-raadplegen.md) voor veldherkomst, rechten, links en tests.
+
+
 ## Doorlopende tabel en Excel-download — opdracht 15
 
 De viewer toont nu alle 716 rijen in één doorlopende tabel, zonder paginering. Kolomkoppen en bronrijnummers blijven vast bij scrollen. Bronrijlinks markeren de rij en verschuiven de tabel ernaartoe. De knop **Download Concordans 1996-2020 (.xlsx)** maakt **Concordans 1996-2020.xlsx** met werkbladen **Concordans 1996-2020** en **Bronvermelding**. A–K blijven origineel, L–V zijn expliciet aanvullende uitgevouwen context en W is het bronrijnummer. Alle rijen worden geëxporteerd, ongeacht zoekfilters.

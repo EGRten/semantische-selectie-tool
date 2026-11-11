@@ -646,9 +646,9 @@ mark {
 .hoofdnavigatie { display:flex; gap:24px; padding:14px 28px; border-bottom:1px solid var(--lijn); flex-wrap:wrap; }
 .hoofdnavigatie a { color:var(--accent); text-decoration:none; padding:8px 0; }
 .hoofdnavigatie [aria-current=page] { font-weight:700; border-bottom:2px solid var(--accent); }
-.concordans-viewer { margin:auto; padding:24px 28px; max-width:1440px; min-width:0; }
-.concordans-viewer h2 { margin-top:0; }
-.concordans-viewer p,.concordans-viewer dd { overflow-wrap:anywhere; }
+:is(.concordans-viewer,.lijsten-viewer) { margin:auto; padding:24px 28px; max-width:1440px; min-width:0; }
+:is(.concordans-viewer,.lijsten-viewer) h2 { margin-top:0; }
+:is(.concordans-viewer,.lijsten-viewer) p,:is(.concordans-viewer,.lijsten-viewer) dd { overflow-wrap:anywhere; }
 .viewer-bron { padding:14px 0; border-bottom:1px solid var(--lijn); }
 .viewer-bron summary { cursor:pointer; color:var(--accent); }
 .viewer-bron dt,.viewer-cellen dt { font-weight:650; margin-top:16px; }
@@ -671,7 +671,7 @@ mark {
 .viewer-techniek { border-top:1px solid var(--lijn); padding:18px 0; }
 .viewer-techniek .concordans-link { display:block; width:fit-content; }
 @media(max-width:680px) {
- .concordans-viewer { padding:18px; }
+ :is(.concordans-viewer,.lijsten-viewer) { padding:18px; }
  .hoofdnavigatie { padding:10px 18px; gap:18px; }
  .viewer-cellen { display:block; }
  .viewer-cellen dt { border:0; padding-bottom:0; }
@@ -685,3 +685,4 @@ mark {
 .viewer-tabel tbody th { position:sticky; left:0; z-index:1; background:white; }
 .viewer-tabel thead th:first-child { left:0; z-index:3; }
 .viewer-tabel tr[aria-current=true] > th { background:#e5f2ed; }
+.lijsten-viewer .viewer-tabel th:first-child { width:110px; }
