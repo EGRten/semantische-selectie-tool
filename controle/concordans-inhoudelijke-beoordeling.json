@@ -1360,5 +1360,328 @@
       "beoordelingsdatum": null,
       "definitief_oordeel": null
     }
+  ],
+  "beoordelingsbesluiten": [
+    {
+      "besluit_id": "besluit:2026-11-11:rij:6",
+      "bronrij_id": "concordans:rij:6",
+      "probleemgroep": "concordans:rij:6",
+      "onderzoeksvoorstel": {
+        "bronrij_id": "concordans:rij:6",
+        "voorgestelde_conclusie": {
+          "code": 3,
+          "label": "Onvoldoende onderbouwde relatie",
+          "status": "voorstel_voor_inhoudelijke_beoordeling"
+        }
+      },
+      "bevestigd_besluit": "Onvoldoende onderbouwd. Behoud beide historische kandidaten zonder definitieve koppeling.",
+      "uitkomst": "onvoldoende_onderbouwd",
+      "motivering": "De projecteigenaar bevestigt de conclusie over onzekerheid of meervoudigheid, niet de goedkeuring van een specifiek historisch kandidaatvoorschrift.",
+      "beoordelingsstatus": "beoordelingsbesluit_vastgelegd",
+      "beoordelaarsrol": "Projecteigenaar — inhoudelijke beoordeling",
+      "datum_vastlegging": "2026-11-11",
+      "oorspronkelijke_gespreksdatum": null,
+      "aangeleverd_door": "projecteigenaar",
+      "technisch_verwerkt_door": "Codex",
+      "relatie_inhoudelijk_goedgekeurd": false,
+      "technische_verwerking": {
+        "status": "geen_definitieve_historische_koppeling",
+        "bronwaarde": null,
+        "record_id": null,
+        "relatie_id": null
+      },
+      "resterende_onzekerheden": [
+        "Geen definitieve historische koppeling. Kandidaten en oorspronkelijke onderbouwing blijven behouden."
+      ]
+    },
+    {
+      "besluit_id": "besluit:2026-11-11:rij:21",
+      "bronrij_id": "concordans:rij:21",
+      "probleemgroep": "concordans:rij:21",
+      "onderzoeksvoorstel": {
+        "bronrij_id": "concordans:rij:21",
+        "voorgestelde_conclusie": {
+          "code": 3,
+          "label": "Onvoldoende onderbouwde relatie",
+          "status": "voorstel_voor_inhoudelijke_beoordeling"
+        }
+      },
+      "bevestigd_besluit": "Registreer een afzonderlijke technische verwijzing van bronwaarde 19.1. naar 2020:19.1.",
+      "uitkomst": "technische_interpretatie_besloten",
+      "motivering": "De projecteigenaar kiest expliciet deze technische doelinterpretatie; de bedoeling van de oorspronkelijke concordansauteur is niet onafhankelijk bewezen.",
+      "beoordelingsstatus": "beoordelingsbesluit_vastgelegd",
+      "beoordelaarsrol": "Projecteigenaar — inhoudelijke beoordeling",
+      "datum_vastlegging": "2026-11-11",
+      "oorspronkelijke_gespreksdatum": null,
+      "aangeleverd_door": "projecteigenaar",
+      "technisch_verwerkt_door": "Codex",
+      "relatie_inhoudelijk_goedgekeurd": false,
+      "technische_verwerking": {
+        "status": "technische_correctie_uitgevoerd",
+        "bronwaarde": "19.1.",
+        "record_id": "2020:19.1",
+        "relatie_id": "concordans:rij:21:1996-2020:1"
+      },
+      "resterende_onzekerheden": [
+        "De bedoeling van de oorspronkelijke concordansauteur blijft niet onafhankelijk bewezen. Geen juridische gelijkwaardigheid vastgesteld."
+      ]
+    },
+    {
+      "besluit_id": "besluit:2026-11-11:rij:89",
+      "bronrij_id": "concordans:rij:89",
+      "probleemgroep": "concordans:rij:89",
+      "onderzoeksvoorstel": {
+        "bronrij_id": "concordans:rij:89",
+        "voorgestelde_conclusie": {
+          "code": 3,
+          "label": "Onvoldoende onderbouwde relatie",
+          "status": "voorstel_voor_inhoudelijke_beoordeling"
+        }
+      },
+      "bevestigd_besluit": "Onvoldoende onderbouwd. Behoud beide historische kandidaten zonder definitieve koppeling.",
+      "uitkomst": "onvoldoende_onderbouwd",
+      "motivering": "De projecteigenaar bevestigt de conclusie over onzekerheid of meervoudigheid, niet de goedkeuring van een specifiek historisch kandidaatvoorschrift.",
+      "beoordelingsstatus": "beoordelingsbesluit_vastgelegd",
+      "beoordelaarsrol": "Projecteigenaar — inhoudelijke beoordeling",
+      "datum_vastlegging": "2026-11-11",
+      "oorspronkelijke_gespreksdatum": null,
+      "aangeleverd_door": "projecteigenaar",
+      "technisch_verwerkt_door": "Codex",
+      "relatie_inhoudelijk_goedgekeurd": false,
+      "technische_verwerking": {
+        "status": "geen_definitieve_historische_koppeling",
+        "bronwaarde": null,
+        "record_id": null,
+        "relatie_id": null
+      },
+      "resterende_onzekerheden": [
+        "Geen definitieve historische koppeling. Kandidaten en oorspronkelijke onderbouwing blijven behouden."
+      ]
+    },
+    {
+      "besluit_id": "besluit:2026-11-11:rij:90",
+      "bronrij_id": "concordans:rij:90",
+      "probleemgroep": "concordans:rij:90",
+      "onderzoeksvoorstel": {
+        "bronrij_id": "concordans:rij:90",
+        "voorgestelde_conclusie": {
+          "code": 2,
+          "label": "Meerdere inhoudelijk verdedigbare relaties",
+          "status": "voorstel_voor_inhoudelijke_beoordeling"
+        }
+      },
+      "bevestigd_besluit": "Meerdere historische relaties mogelijk. Behoud beide kandidaten en maak het verschil tussen de concordanstermijn en officiële termijn zichtbaar.",
+      "uitkomst": "meerdere_historische_relaties_mogelijk",
+      "motivering": "De projecteigenaar bevestigt de conclusie over onzekerheid of meervoudigheid, niet de goedkeuring van een specifiek historisch kandidaatvoorschrift.",
+      "beoordelingsstatus": "beoordelingsbesluit_vastgelegd",
+      "beoordelaarsrol": "Projecteigenaar — inhoudelijke beoordeling",
+      "datum_vastlegging": "2026-11-11",
+      "oorspronkelijke_gespreksdatum": null,
+      "aangeleverd_door": "projecteigenaar",
+      "technisch_verwerkt_door": "Codex",
+      "relatie_inhoudelijk_goedgekeurd": false,
+      "technische_verwerking": {
+        "status": "geen_definitieve_historische_koppeling",
+        "bronwaarde": null,
+        "record_id": null,
+        "relatie_id": null
+      },
+      "resterende_onzekerheden": [
+        "Geen definitieve historische koppeling. Kandidaten en oorspronkelijke onderbouwing blijven behouden.",
+        "Concordanstermijn: 10 jaar na einde duur; officiële generieke termijn 2020:3.1: 5 jaar. Dit verschil blijft zichtbaar; geen andere resultaatcode gekozen."
+      ]
+    },
+    {
+      "besluit_id": "besluit:2026-11-11:rij:293",
+      "bronrij_id": "concordans:rij:293",
+      "probleemgroep": "concordans:rij:293",
+      "onderzoeksvoorstel": {
+        "bronrij_id": "concordans:rij:293",
+        "voorgestelde_conclusie": {
+          "code": 2,
+          "label": "Meerdere inhoudelijk verdedigbare relaties",
+          "status": "voorstel_voor_inhoudelijke_beoordeling"
+        }
+      },
+      "bevestigd_besluit": "Meerdere historische relaties mogelijk. Behoud alle drie historische kandidaten zonder definitieve koppeling.",
+      "uitkomst": "meerdere_historische_relaties_mogelijk",
+      "motivering": "De projecteigenaar bevestigt de conclusie over onzekerheid of meervoudigheid, niet de goedkeuring van een specifiek historisch kandidaatvoorschrift.",
+      "beoordelingsstatus": "beoordelingsbesluit_vastgelegd",
+      "beoordelaarsrol": "Projecteigenaar — inhoudelijke beoordeling",
+      "datum_vastlegging": "2026-11-11",
+      "oorspronkelijke_gespreksdatum": null,
+      "aangeleverd_door": "projecteigenaar",
+      "technisch_verwerkt_door": "Codex",
+      "relatie_inhoudelijk_goedgekeurd": false,
+      "technische_verwerking": {
+        "status": "geen_definitieve_historische_koppeling",
+        "bronwaarde": null,
+        "record_id": null,
+        "relatie_id": null
+      },
+      "resterende_onzekerheden": [
+        "Geen definitieve historische koppeling. Kandidaten en oorspronkelijke onderbouwing blijven behouden."
+      ]
+    },
+    {
+      "besluit_id": "besluit:2026-11-11:rij:434",
+      "bronrij_id": "concordans:rij:434",
+      "probleemgroep": "concordans:rij:434",
+      "onderzoeksvoorstel": {
+        "bronrij_id": "concordans:rij:434",
+        "voorgestelde_conclusie": {
+          "code": 3,
+          "label": "Onvoldoende onderbouwde relatie",
+          "status": "voorstel_voor_inhoudelijke_beoordeling"
+        }
+      },
+      "bevestigd_besluit": "Onvoldoende onderbouwd. Behoud beide historische kandidaten zonder definitieve koppeling.",
+      "uitkomst": "onvoldoende_onderbouwd",
+      "motivering": "De projecteigenaar bevestigt de conclusie over onzekerheid of meervoudigheid, niet de goedkeuring van een specifiek historisch kandidaatvoorschrift.",
+      "beoordelingsstatus": "beoordelingsbesluit_vastgelegd",
+      "beoordelaarsrol": "Projecteigenaar — inhoudelijke beoordeling",
+      "datum_vastlegging": "2026-11-11",
+      "oorspronkelijke_gespreksdatum": null,
+      "aangeleverd_door": "projecteigenaar",
+      "technisch_verwerkt_door": "Codex",
+      "relatie_inhoudelijk_goedgekeurd": false,
+      "technische_verwerking": {
+        "status": "geen_definitieve_historische_koppeling",
+        "bronwaarde": null,
+        "record_id": null,
+        "relatie_id": null
+      },
+      "resterende_onzekerheden": [
+        "Geen definitieve historische koppeling. Kandidaten en oorspronkelijke onderbouwing blijven behouden."
+      ]
+    },
+    {
+      "besluit_id": "besluit:2026-11-11:rij:442",
+      "bronrij_id": "concordans:rij:442",
+      "probleemgroep": "concordans:rij:442",
+      "onderzoeksvoorstel": {
+        "bronrij_id": "concordans:rij:442",
+        "voorgestelde_conclusie": {
+          "code": 2,
+          "label": "Meerdere inhoudelijk verdedigbare relaties",
+          "status": "voorstel_voor_inhoudelijke_beoordeling"
+        }
+      },
+      "bevestigd_besluit": "Meerdere historische relaties mogelijk. Behoud beide kandidaten zonder definitieve koppeling.",
+      "uitkomst": "meerdere_historische_relaties_mogelijk",
+      "motivering": "De projecteigenaar bevestigt de conclusie over onzekerheid of meervoudigheid, niet de goedkeuring van een specifiek historisch kandidaatvoorschrift.",
+      "beoordelingsstatus": "beoordelingsbesluit_vastgelegd",
+      "beoordelaarsrol": "Projecteigenaar — inhoudelijke beoordeling",
+      "datum_vastlegging": "2026-11-11",
+      "oorspronkelijke_gespreksdatum": null,
+      "aangeleverd_door": "projecteigenaar",
+      "technisch_verwerkt_door": "Codex",
+      "relatie_inhoudelijk_goedgekeurd": false,
+      "technische_verwerking": {
+        "status": "geen_definitieve_historische_koppeling",
+        "bronwaarde": null,
+        "record_id": null,
+        "relatie_id": null
+      },
+      "resterende_onzekerheden": [
+        "Geen definitieve historische koppeling. Kandidaten en oorspronkelijke onderbouwing blijven behouden."
+      ]
+    },
+    {
+      "besluit_id": "besluit:2026-11-11:rij:50",
+      "bronrij_id": "concordans:rij:50",
+      "probleemgroep": "statistische_scope_2.8",
+      "onderzoeksvoorstel": {
+        "bronrij_id": "concordans:rij:50",
+        "voorgestelde_conclusie": {
+          "code": 5,
+          "label": "Bronafwijking zonder gevolgen voor de technische koppeling",
+          "status": "voorstel_voor_inhoudelijke_beoordeling"
+        }
+      },
+      "bevestigd_besluit": "Behoud de bestaande koppeling met 1996-2012:2.8::001. Het verschil tussen 'door de gemeente' en 'door en aan de gemeente' blijft zichtbaar.",
+      "uitkomst": "technische_identiteit_behouden",
+      "motivering": "De projecteigenaar bevestigt behoud van de technische recordidentiteit, niet het verdwijnen van het tekstverschil.",
+      "beoordelingsstatus": "beoordelingsbesluit_vastgelegd",
+      "beoordelaarsrol": "Projecteigenaar — inhoudelijke beoordeling",
+      "datum_vastlegging": "2026-11-11",
+      "oorspronkelijke_gespreksdatum": null,
+      "aangeleverd_door": "projecteigenaar",
+      "technisch_verwerkt_door": "Codex",
+      "relatie_inhoudelijk_goedgekeurd": false,
+      "technische_verwerking": {
+        "status": "bestaande_koppeling_behouden",
+        "bronwaarde": null,
+        "record_id": "1996-2012:2.8::001",
+        "relatie_id": null
+      },
+      "resterende_onzekerheden": [
+        "Officiële omschrijving is leidend. Bewuste beperking of redactionele verkorting van de concordans is niet vastgesteld. Drie afzonderlijke doelverwijzingen delen één tekstvraagstuk."
+      ]
+    },
+    {
+      "besluit_id": "besluit:2026-11-11:rij:51",
+      "bronrij_id": "concordans:rij:51",
+      "probleemgroep": "statistische_scope_2.8",
+      "onderzoeksvoorstel": {
+        "bronrij_id": "concordans:rij:51",
+        "voorgestelde_conclusie": {
+          "code": 5,
+          "label": "Bronafwijking zonder gevolgen voor de technische koppeling",
+          "status": "voorstel_voor_inhoudelijke_beoordeling"
+        }
+      },
+      "bevestigd_besluit": "Behoud de bestaande koppeling met 1996-2012:2.8::001. Het verschil tussen 'door de gemeente' en 'door en aan de gemeente' blijft zichtbaar.",
+      "uitkomst": "technische_identiteit_behouden",
+      "motivering": "De projecteigenaar bevestigt behoud van de technische recordidentiteit, niet het verdwijnen van het tekstverschil.",
+      "beoordelingsstatus": "beoordelingsbesluit_vastgelegd",
+      "beoordelaarsrol": "Projecteigenaar — inhoudelijke beoordeling",
+      "datum_vastlegging": "2026-11-11",
+      "oorspronkelijke_gespreksdatum": null,
+      "aangeleverd_door": "projecteigenaar",
+      "technisch_verwerkt_door": "Codex",
+      "relatie_inhoudelijk_goedgekeurd": false,
+      "technische_verwerking": {
+        "status": "bestaande_koppeling_behouden",
+        "bronwaarde": null,
+        "record_id": "1996-2012:2.8::001",
+        "relatie_id": null
+      },
+      "resterende_onzekerheden": [
+        "Officiële omschrijving is leidend. Bewuste beperking of redactionele verkorting van de concordans is niet vastgesteld. Drie afzonderlijke doelverwijzingen delen één tekstvraagstuk."
+      ]
+    },
+    {
+      "besluit_id": "besluit:2026-11-11:rij:52",
+      "bronrij_id": "concordans:rij:52",
+      "probleemgroep": "statistische_scope_2.8",
+      "onderzoeksvoorstel": {
+        "bronrij_id": "concordans:rij:52",
+        "voorgestelde_conclusie": {
+          "code": 5,
+          "label": "Bronafwijking zonder gevolgen voor de technische koppeling",
+          "status": "voorstel_voor_inhoudelijke_beoordeling"
+        }
+      },
+      "bevestigd_besluit": "Behoud de bestaande koppeling met 1996-2012:2.8::001. Het verschil tussen 'door de gemeente' en 'door en aan de gemeente' blijft zichtbaar.",
+      "uitkomst": "technische_identiteit_behouden",
+      "motivering": "De projecteigenaar bevestigt behoud van de technische recordidentiteit, niet het verdwijnen van het tekstverschil.",
+      "beoordelingsstatus": "beoordelingsbesluit_vastgelegd",
+      "beoordelaarsrol": "Projecteigenaar — inhoudelijke beoordeling",
+      "datum_vastlegging": "2026-11-11",
+      "oorspronkelijke_gespreksdatum": null,
+      "aangeleverd_door": "projecteigenaar",
+      "technisch_verwerkt_door": "Codex",
+      "relatie_inhoudelijk_goedgekeurd": false,
+      "technische_verwerking": {
+        "status": "bestaande_koppeling_behouden",
+        "bronwaarde": null,
+        "record_id": "1996-2012:2.8::001",
+        "relatie_id": null
+      },
+      "resterende_onzekerheden": [
+        "Officiële omschrijving is leidend. Bewuste beperking of redactionele verkorting van de concordans is niet vastgesteld. Drie afzonderlijke doelverwijzingen delen één tekstvraagstuk."
+      ]
+    }
   ]
 }

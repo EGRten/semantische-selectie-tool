@@ -1,3 +1,4 @@
+import { besluitBij } from './besluiten.js';
 import type { Dataset, SelectielijstId, Ophalen } from '../gegevenslaag/index.js';
 
 export type Verwijzing = { readonly selectielijst: SelectielijstId; readonly code: string | null; readonly omschrijving: string | null };
@@ -10,7 +11,7 @@ export type OorspronkelijkeRelatie = {
 export type TechnischeKoppeling = {
   readonly relatie_id: string; readonly zijde: 'bron' | 'doel';
   readonly soort: 'selectiegegeven' | 'structuur'; readonly record_id: string;
-  readonly status: 'technisch_gecontroleerd' | 'te_beoordelen'; readonly onderbouwing: string;
+  readonly status: 'technisch_gecontroleerd' | 'te_beoordelen' | 'technisch_gecorrigeerd_op_besluit'; readonly onderbouwing: string; readonly besluit_id?: string;
 };
 export type InhoudelijkeBeoordeling = {
   readonly relatie_id: string; readonly status: 'goedgekeurd' | 'afgewezen' | 'te_beoordelen';
@@ -26,7 +27,7 @@ export type Concordansbestand = {
 };
 export type Koppelresultaat = {
   readonly verwijzing: Verwijzing;
-  readonly status: 'exact' | 'structuurniveau' | 'meerdere_kandidaten' | 'ontbreekt' | 'onzeker';
+  readonly status: 'exact' | 'structuurniveau' | 'meerdere_kandidaten' | 'ontbreekt' | 'onzeker' | 'technisch_gecorrigeerd';
   readonly record: { readonly selectielijst: SelectielijstId; readonly id: string; readonly soort: 'selectiegegeven' | 'structuur' } | null;
   readonly kandidaten: readonly string[]; readonly toelichting: string;
   readonly expliciete_koppeling: TechnischeKoppeling | null;
@@ -66,9 +67,11 @@ export function valideerConcordans(json:unknown): Concordansbestand {
     relaties.set(r.id,r);
   }
   const koppelingen=new Set<string>(), beoordelingen=new Set<string>();
-  for(const k of json.koppelingen as unknown[]){object(k);velden(k,['relatie_id','zijde','soort','record_id','status','onderbouwing']);tekst(k.relatie_id);tekst(k.record_id);tekst(k.onderbouwing);
+  for(const k of json.koppelingen as unknown[]){object(k);velden(k,['relatie_id','zijde','soort','record_id','status','onderbouwing',...('besluit_id' in k?['besluit_id']:[])]);tekst(k.relatie_id);tekst(k.record_id);tekst(k.onderbouwing);
     if(!relaties.has(k.relatie_id))ongeldig('Onbekende relatie bij technische koppeling');
-    keuze(k.zijde,['bron','doel']);keuze(k.soort,['structuur','selectiegegeven']);keuze(k.status,['technisch_gecontroleerd','te_beoordelen']);
+    keuze(k.zijde,['bron','doel']);keuze(k.soort,['structuur','selectiegegeven']);keuze(k.status,['technisch_gecontroleerd','te_beoordelen','technisch_gecorrigeerd_op_besluit']);
+    if(k.status==='technisch_gecorrigeerd_op_besluit'){const b=besluitBij(21);const r=relaties.get(k.relatie_id)!;if(!b||k.besluit_id!==b.besluit_id||k.relatie_id!==b.technische_verwerking.relatie_id||k.record_id!==b.technische_verwerking.record_id||k.zijde!=='doel'||k.soort!=='selectiegegeven'||(r.doel as Objectwaarde).code!==b.technische_verwerking.bronwaarde)ongeldig('Correctie mist een passend expliciet besluit');}
+    else if('besluit_id' in k)ongeldig('Besluit-ID zonder besluitcorrectie');
     uniek(JSON.stringify([k.relatie_id,k.zijde]),koppelingen);
     const ref=relaties.get(k.relatie_id)![k.zijde as string] as Objectwaarde;
     if(!k.record_id.startsWith(ref.selectielijst+':'))throw new Concordansfout('ONGELDIGE_KOPPELING','Technische koppeling wijst naar een andere selectielijst');
@@ -86,7 +89,8 @@ function koppel(dataset:Dataset, v:Verwijzing, expliciet:TechnischeKoppeling|und
   if(expliciet){
     const r=expliciet.soort==='structuur'?dataset.structuuronderdeel(expliciet.record_id):dataset.selectiegegeven(expliciet.record_id);
     if(!r)return resultaat('ontbreekt',null,[],'Expliciet gekoppeld record ontbreekt.');
-    if(expliciet.status==='te_beoordelen'||(v.code!==null && r.code!==v.code))return resultaat('onzeker',null,[r.id],'Koppeling vereist beoordeling; geen automatische toekenning bij afwijkende broncode.');
+    if(expliciet.status==='te_beoordelen'||(expliciet.status!=='technisch_gecorrigeerd_op_besluit'&&v.code!==null&&r.code!==v.code))return resultaat('onzeker',null,[r.id],'Koppeling vereist beoordeling; geen automatische toekenning bij afwijkende broncode.');
+    if(expliciet.status==='technisch_gecorrigeerd_op_besluit'){if(!('resultaattype' in r)||r.id!=='2020:19.1'||r.resultaattype!=='Verwerkt'||r.officiele_benaming!=='Verwerkt'||r.bewaartermijn.officiele_tekst!=='5 jaar'||r.waardering.officiele_tekst!=='Vernietigen'||r.generiek_specifiek!=='Generiek')throw new Concordansfout('ONGELDIGE_KOPPELING','Doelrecord van besluitcorrectie gewijzigd');return resultaat('technisch_gecorrigeerd',ref(r.id,expliciet.soort),[],'Technische interpretatie op expliciet besluit van de projecteigenaar; bronbedoeling niet onafhankelijk bewezen.');}
     return resultaat(expliciet.soort==='structuur'?'structuurniveau':'exact',ref(r.id,expliciet.soort),[],'Expliciete technische koppeling; geen inhoudelijk oordeel.');
   }
   const regels=dataset.selectiegegevens.filter(r=>r.code===v.code), nodes=dataset.structuur.filter(n=>n.code===v.code);
