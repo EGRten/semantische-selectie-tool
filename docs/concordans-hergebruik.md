@@ -42,3 +42,23 @@ De publieke bronvermelding staat in [documentatie/concordans-bronvermelding.md](
 Stel de herkomstketen en bevoegde rechthebbende/producent voor de exacte werkmap vast. Leg een aantoonbaar toepasselijke licentie of toestemming vast die zowel integrale openbare webweergave als JSON-distributie dekt, inclusief eventuele voorwaarden, bronvermelding, rechten van derden en databankenrechten; of onderbouw voldoende concreet een wettelijke grondslag. Een onafhankelijke juridische beoordeling kan daarvoor nodig zijn. Dit is nog niet gebeurd en wordt niet door deze technische oplevering vervangen.
 
 Neem pas daarna de opnieuw gecontroleerde JSON als één statisch bestand op `concordans/concordans.json` op en voeg die expliciet aan de build toe. Controleer dan opnieuw identiteit, privacy, voorwaarden en een productiebuild zonder lokale bronalias. Activeer geen productiepublicatie op basis van alleen deze voorbereide viewer. Deze opdracht verstuurt geen toestemmingsverzoek aan derden en verleent zelf geen licentie.
+
+
+## Privacycontrole opdracht 15
+
+Op 11 november 2026 zijn alle **716 × 11 = 7.876 oorspronkelijke celposities** onderzocht met gerichte signalering, gevolgd door inhoudelijke beoordeling van de gevonden kandidaten. Daarvan zijn 4.296 cellen gevuld en 3.580 leeg (`null`); er komen geen lege tekststrings voor in deze bron. De uitgevouwen context bevat overgenomen bronwaarden en geen onafhankelijk toegevoegde persoonsinformatie.
+
+| Controle op daadwerkelijke celinhoud | Bevinding |
+| --- | --- |
+| E-mailadressen | Geen aangetroffen |
+| Nederlandse telefoonnummerpatronen en postcodes | Geen aangetroffen |
+| Negen aaneengesloten cijfers en IBAN-patronen | Geen aangetroffen |
+| Persoonssignalen zoals dhr., mevr., geboren, BSN, auteur of opgesteld door | Geen aangetroffen |
+| Datumvormen | Twee treffers: rij 357 (WABO, 1-10-2010) en rij 365 (bouwmeldingen, 1-1-2003); wettelijke/procedurele context, geen geboortedata |
+| Naamvormen met meerdere hoofdletterwoorden | Twintig celkandidaten inhoudelijk bekeken; instellingen, wet-/regelgeving en algemene categorieën zoals Raad van State, Burgerlijke Stand en Wet Bibob; geen geïdentificeerde natuurlijke personen |
+
+Dit is een concrete broncontrole, geen algemene garantie dat patroonherkenning iedere mogelijke persoonsverwijzing kan uitsluiten. Er zijn **geen concrete persoonsgegevens in de concordanscellen aangetroffen**. Algemene omschrijvingen van processen over bijvoorbeeld personen, uitkeringen of naturalisatie zijn geen individuele casusgegevens. Er is geen privacygrond aangevoerd om bronrijen of kolommen weg te laten: de geteste viewer en Excel behouden alle 716 rijen en alle elf bronkolommen.
+
+De oorspronkelijke werkmapmetadata bevatten twee gevulde identificatievelden (`creator` en `lastModifiedBy`). Deze worden als potentieel identificerend behandeld en zijn in de nieuwe werkmap volledig afwezig; namen zijn niet in dit verslag opgenomen. Dit staat los van de controle op inhoudelijke cellen. De export wordt nieuw gegenereerd uit JSON en gebruikt de oorspronkelijke Excel niet als template. Onafhankelijke ZIP/XML-controle bevestigt dat geen `docProps`-onderdelen, macro's of externe-linkonderdelen worden meegeschreven. De datum in Bronvermelding is de daadwerkelijke generatiedatum.
+
+De blijvende publicatieblokkade betreft **hergebruikrechten op de integrale inhoud**, niet een onbewezen privacyveronderstelling over alle celgegevens. Ook een aangepast downloadbaar Excel-bestand met bronvermelding vereist een voldoende onderbouwde grondslag. Er zijn geen nieuwe licentie of toestemming en geen nieuwe rechthebbende vastgesteld. De oorspronkelijke werkmap, JSON en afgeleide Excel worden daarom niet gecommit of in de publieke build ingebed. De technische schrijver is beschikbaar; volledige openbare gegevens- en downloadbeschikbaarheid blijft afhankelijk van de eerder beschreven concrete vaststelling van herkomst, rechten en toepasselijke voorwaarden.

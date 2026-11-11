@@ -8,7 +8,7 @@ De navigatie **Concordans raadplegen** opent de nieuwe alleen-lezen bronviewer n
 
 ## Raadplegen en navigeren
 
-De bron bevat 716 rijen (Blad1, rijen 3–718), elf kolommen A–K. Twintig rijen per pagina behouden de bronvolgorde; alle 36 pagina's zijn bereikbaar. **Vorige pagina** en **Volgende pagina** bladeren; **Ga naar bronrij** opent rechtstreeks een Excelrij. De tabel heeft een eigen horizontaal verschuifbaar, toetsenbordfocusbaar gebied. De elf velden staan bij selectie daarnaast in een leesbare verticale detailweergave, ook op mobiel.
+De bron bevat 716 rijen (Blad1, rijen 3–718), elf kolommen A–K. Alle 716 rijen staan gelijktijdig in één doorlopende tabel in oorspronkelijke bronvolgorde. Er zijn geen paginaovergangen of bladerknoppen meer. **Ga naar bronrij** opent rechtstreeks een Excelrij en verschuift de tabel naar de herkenbaar gemarkeerde rij. Kolomkoppen en bronrijnummers blijven zichtbaar bij respectievelijk verticaal en horizontaal scrollen. De tabel heeft een eigen horizontaal verschuifbaar, toetsenbordfocusbaar gebied. De elf velden staan bij selectie daarnaast in een leesbare verticale detailweergave, ook op mobiel.
 
 Zoeken is eenvoudige, deterministische tekstmatching: Unicode-/diakritische normalisatie, hoofdletterongevoelig en interpunctie als spatie. Alle zoekwoorden moeten in de oorspronkelijke cellen of expliciet onderscheiden mergecontext van dezelfde rij voorkomen. Er is geen semantische uitbreiding of statuscorrectie in de bronzoektekst. **Zoekopdracht wissen** herstelt alle rijen. Geen resultaten en ontbrekende/ongeldige data hebben verschillende meldingen.
 
@@ -42,13 +42,23 @@ python scripts/valideer_publicatie.py
 
 Open lokaal `http://127.0.0.1:4205/testpad/#concordans`. De expliciete previewalias controleert de JSON-hash en serveert de bytes alleen op localhost. Zij schrijft niets naar `dist/site`; zij is geen productiebackend. Zonder `--concordans-env` is de privébron ook met een gezette omgevingsvariabele niet beschikbaar. Dit onderscheid blijft vereist zolang de publicatiegrondslag ontbreekt.
 
+## Excel-download
+
+De knop heet exact **Download Concordans 1996-2020 (.xlsx)**. De browser maakt op aanvraag **Concordans 1996-2020.xlsx**, met eerst werkblad **Concordans 1996-2020** en daarna **Bronvermelding**. De schrijver wordt pas bij de eerste download geladen als afzonderlijke statische module. Een actieve zoekopdracht verandert de export niet: alle 716 bronrijen worden gebruikt. Zonder beschikbare gecontroleerde bron kan niets worden geëxporteerd.
+
+A–K bevatten uitsluitend oorspronkelijke waarden, in oorspronkelijke volgorde. L–V bevatten de volledige, duidelijk als aanvullend benoemde uitgevouwen context van A–K. Ook oorspronkelijke niet-lege waarden zijn daar herhaald zodat iedere contextkolom zelfstandig filterbaar is. W bevat het oorspronkelijke bronrijnummer in Blad1. De export bevat geen samengevoegde cellen; de koprij is vastgezet en het filterbereik is A1:W717. Daardoor zijn sorteren, filteren en bronherleiding mogelijk zonder originele lege cellen te vullen. Technische correcties en beoordelingsbesluiten worden niet in deze waarden verwerkt.
+
+Bronvermelding bevat bronidentiteit, documentnaam, herkomst en vindplaatscontext, UTC-generatiedatum, omzettings- en contextuitleg, rechtenbeperking en de waarschuwing dat de concordans geen zelfstandig juridisch of archivistisch oordeel is. Er worden geen oorspronkelijke Excel-auteursmetadata ingelezen of gekopieerd. Alle bronwaarden worden als tekst geschreven, ook formuleachtige tekst. Een lege string blijft onderscheiden van een lege cel.
+
+De schrijver is `write-excel-file` **4.1.1** (MIT, volgens npm laatst gewijzigd 8 juni 2026), met uitsluitend `fflate` **0.8.3** (MIT) als transitieve productieafhankelijkheid in de lockfile. Er is geen XLSX-lezer of zwaar framework toegevoegd. De meegeleverde MIT-vermeldingen staan in de publieke build in `concordans-excel-licenties.txt`. `npm audit --omit=dev` meldde geen bekende kwetsbaarheden; dat is geen absolute veiligheidsgarantie. Compressie gebruikt een lokale browser-Worker via een blob-URL, zonder netwerkdienst; een eigen strengere CSP moet zulke Workers toestaan. De bibliotheekextensie voegt alleen het standaard OOXML-filter toe en bewaart expliciete lege tekst waar de schrijver anders naar een lege cel zou normaliseren.
+
 ## Validatie en beperkingen
 
-De testset controleert iedere oorspronkelijke en uitgevouwen cel, identiteit/716 rijen, elf kolommen, alle bladerpagina's, zoek-/lege toestanden, directe rijlinks, beide navigatierichtingen, cache, late antwoorden, 21/716, zes onopgeloste gevallen, statistiektekst en besluiten, bronlinks, toetsenbord en mobiel. De buildcontrole verhindert een ongewenste bronspiegel en controleert de afwezigheid van lokale paden en interne rapporten. Alle bestaande regressies worden opnieuw uitgevoerd.
+De testset controleert iedere oorspronkelijke en uitgevouwen cel, identiteit/716 rijen, elf kolommen, de doorlopende lijst, zoek-/lege toestanden, directe rijlinks, beide navigatierichtingen, cache, late antwoorden, 21/716, zes onopgeloste gevallen, statistiektekst en besluiten, bronlinks, toetsenbord en mobiel. De buildcontrole verhindert een ongewenste bronspiegel en controleert de afwezigheid van lokale paden en interne rapporten. Alle bestaande regressies worden opnieuw uitgevoerd.
 
 Andere browserengines dan Chromium en iedere mogelijke schermgrootte zijn niet afzonderlijk getest. Er is geen beoordelings-/bewerkinterface, Excel-download, automatische juridische interpretatie of productieactivering. Integrale publieke beschikbaarheid blijft geblokkeerd door het ontbreken van een aantoonbare hergebruikgrondslag.
 
-### Uitgevoerde eindcontrole — 11 november 2026
+### Historische eindcontrole opdracht 14 — 11 november 2026
 
 **139 moduletests en 76 Chromium-browsertests geslaagd, nul overgeslagen.** Dit omvat alle bestaande regressies, vier nieuwe moduletests en acht nieuwe browsertests. Geen bestaande testverwachtingen zijn aangepast. Productiebuild, `npm run typecheck`, publieke Python-validatie en de volledige Excel/JSON-identiteits-/celcontrole zijn geslaagd: 716 rijen, elf kolommen, alle 7.876 oorspronkelijke plus 7.876 uitgevouwen waarden en 550 merges.
 
@@ -60,8 +70,20 @@ De bestaande 612/606/6-dekking, 605 oorspronkelijke parenvingerafdruk, bronwaard
 | Paginatitel en URL | Semantische Selectie Tool, lokale route `/controle/#concordans` onder een subpad |
 | Inhoud / overlay | Bronviewer met 716 rijen; geen blanco pagina of frameworkfoutoverlay |
 | Console / runtime | Geen waarschuwingen of fouten bij raadplegen met de echte lokale bron |
-| Interactie | Zoek → rij 21 → elf bronvelden → officieel 2020:19.1 → gekoppelde bronrij → terug; zoeken/wissen, alle pagina's, toetsenbordfocus en browsergeschiedenis gecontroleerd |
+| Interactie | Zoek → rij 21 → elf bronvelden → officieel 2020:19.1 → gekoppelde bronrij → terug; zoeken/wissen, alle bronrijen, toetsenbordfocus en browsergeschiedenis gecontroleerd |
 | Responsief | Tabel heeft eigen scrollgebied; details breken leesbaar af; geen horizontale documentoverloop |
 | Publieke build zonder bronalias | `/semantische-selectie-tool/#concordans=21` toont beschikbaarheidsmelding; JSON geeft verwachte 404; 2020 laadt en trefwoordzoeken geeft resultaten; geen runtimefouten |
 
 Screenshots zijn buiten de repository bewaard; zij worden niet in een publieke commit opgenomen. De verwachte 404 zonder bron is de expliciete distributiebeperking, geen geslaagde publieke gegevensraadpleging. Het ontbreken van rechtenonderbouwing blijft de blokkade voor volledige openbare functionaliteit. Gebruik dezelfde Playwright-procedure bij toekomstige wijzigingen; de optionele Browser-plugin kan interactieve inspectie ondersteunen, maar is geen runtimevereiste.
+
+### Controle van doorlopende viewer en Excel — opdracht 15
+
+De volledige eindrun is geslaagd: **142 moduletests en 77 Chromium-browsertests, nul overgeslagen**, inclusief de werkelijke lokale bron en onafhankelijke XLSX-teruglezing met Python-standaardbibliotheken. Productiebuild, typecheck, publieke datasetvalidatie en volledige Excel/JSON-identiteits-/celcontrole zijn eveneens geslaagd. De enige vervangen oude gedragsverwachting is paginering: de gevraagde doorlopende tabel bevat nu direct alle 716 rij-ID's in bronvolgorde. Inhoudelijke bron-, kandidaat- en besluitverwachtingen zijn niet aangepast. Een dubbele initiële tabelopbouw bij rechtstreekse rijlinks is verwijderd; een rijselectie hergebruikt de bestaande tabel. Testtimeouts zijn hiervoor niet verruimd.
+
+De Excel-controle leest ZIP, werkbladrelaties, gedeelde strings en alle cellen onafhankelijk terug: exact twee voorgeschreven werkbladnamen, 716 gegevensrijen, 23 kolommen waarvan elf origineel, volledige context, bronrijnummers, beide ongewijzigde foutieve broncodes, filterbereik, vaste koprij en afwezigheid van auteursmetadata, macro's, formules en externe-linkonderdelen. Een technische test met fictieve formuleachtige tekst/Unicode/lege tekst controleert alleen veilig schrijven, niet concordansdekking. De browser controleert de daadwerkelijke downloadnaam en bewijst dat een actief zoekfilter de 716 geëxporteerde rijen niet beperkt.
+
+Aanvullend visueel gecontroleerd: `http://127.0.0.1:4203/controle/`, desktop 1440×1000 en mobiel 390×844, met de echte bron. Correcte paginatitel, inhoud, rijscroll en downloadbediening, geen foutoverlay, relevante consolefouten of horizontale documentoverloop. De Browser-plugin is niet beschikbaar; bestaande Playwright/Chromium is gebruikt. Screenshots en de gegenereerde XLSX blijven buiten Git. Een gewone productiepreview zonder privébronalias blijft een begrijpelijke beschikbaarheidsmelding geven; selectielijsten en zoeken blijven bruikbaar.
+
+Een lokale meting inclusief laden en valideren gaf **3.244 ms** voor openen van alle 716 rijen, **787 ms** voor invoeren/uitvoeren van een zoekopdracht en **709 ms** voor XLSX-generatie inclusief lazy laden; de download was circa 73 kB. Dit zijn indicatieve metingen op deze omgeving, geen garantie voor ieder apparaat. Daarom is geen virtual scrolling toegevoegd: de volledige tabel blijft één native, logisch navigeerbare tabel. Rijselectie bouwt de 716 rijen niet opnieuw op. Andere browserengines en tragere fysieke apparaten zijn niet afzonderlijk gemeten.
+
+Er is geen handmatige opening in Microsoft Excel of LibreOffice uitgevoerd; die programma's waren hier niet beschikbaar. Geldigheid en brongetrouwheid zijn gecontroleerd via de onderhouden XLSX-schrijver, daadwerkelijke browserdownload en onafhankelijke ZIP/XML-teruglezing. De publicatiegrondslag blijft onvoldoende vastgesteld; deze technische controles geven geen distributietoestemming.

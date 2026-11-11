@@ -1,5 +1,5 @@
 import { build } from 'esbuild';
-import { readFile, cp, mkdir, rm } from 'node:fs/promises';
+import { readFile, writeFile, cp, mkdir, rm } from 'node:fs/promises';
 // Alleen de expliciete besluiten gaan mee; onderzoeksgegevens en broncellen niet.
 const register=JSON.parse(await readFile('controle/concordans-inhoudelijke-beoordeling.json','utf8'));
 const besluiten=register.beoordelingsbesluiten;
@@ -11,6 +11,7 @@ const besluitenPlugin={name:'concordans-besluiten',setup(plugin){
 await build({ entryPoints: ['src/zoeken/index.ts'], outfile: 'dist/zoeken/index.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 await build({ entryPoints: ['src/begripszoeken/index.ts'], outfile: 'dist/begripszoeken/index.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 for (const soort of ['zoeken', 'begripszoeken']) await build({ entryPoints: [`src/${soort}/oorspronkelijk.ts`], outfile: `dist/${soort}/oorspronkelijk.js`, bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
+await build({ entryPoints: ['src/concordans/excel.ts'], outfile: 'dist/concordans/excel.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022', minify:true, legalComments:'eof' });
 await build({ entryPoints: ['src/concordans/raadplegen.ts'], outfile: 'dist/concordans/raadplegen.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 await build({ entryPoints: ['src/interface/vergelijking.ts'], outfile: 'dist/interface/vergelijking.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 await build({ entryPoints: ['src/interface/kopieer.ts'], outfile: 'dist/interface/kopieer.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
@@ -22,7 +23,7 @@ await build({
   entryPoints: ['src/interface/main.ts'],
   outfile: 'dist/site/interface/app.js',
   bundle: true, format: 'esm', platform: 'browser', target: 'es2022',
-  external: ['../gegevenslaag/index.js'],
+  external: ['../gegevenslaag/index.js','../concordans/excel.js'],
   plugins:[besluitenPlugin],
 });
 for (const [bron, doel] of [
@@ -36,3 +37,5 @@ for (const [bron, doel] of [
   ['documentatie/concordans-bronvermelding.md', 'dist/site/concordans-bronvermelding.md'],
   ['documentatie/privacy-publicatie.md', 'dist/site/privacy-publicatie.md'],
 ]) await cp(bron, doel, { recursive: true });
+
+await writeFile('dist/site/concordans-excel-licenties.txt', 'write-excel-file 4.1.1\n'+await readFile('node_modules/write-excel-file/LICENSE','utf8')+'\n\nfflate\n'+await readFile('node_modules/fflate/LICENSE','utf8'));
