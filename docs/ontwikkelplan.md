@@ -70,10 +70,19 @@ Het detailgedeelte van fase 8 is aangevuld op basis van een veldinventarisatie. 
 Een toetsenbordbedienbare kopieerfunctie levert beschikbare officiële selectiegegevens met context en bronverwijzingen, met toegankelijke bevestiging/foutmelding. Alle 1.145 kopieerteksten zijn gecontroleerd. Typecheck, productiebuild, 92 moduletests, 55 Chromium-browsertests en Python-publicatievalidatie zijn geslaagd. Desktop en mobiel zijn visueel gecontroleerd onder een subpad. Geen bestaande testverwachtingen, officiële datasets, bronregistraties of zoekalgoritmen gewijzigd. Zie [detailweergave.md](detailweergave.md) voor veldmatrix, presentatieregels, tests en beperkingen. Concordans en Sites-integratie zijn niet uitgevoerd.
 
 
-## Afgeronde technische concordansmodule — 11 november 2026
+## Voorlopige technische concordansmodule zonder oorspronkelijke bron — 11 november 2026
 
 De technische concordansgegevensmodule is gerealiseerd met afzonderlijke oorspronkelijke relaties, technische koppelingen en latere inhoudelijke beoordelingen. Lazy laden, bronrichting, directe record-/structuuropvragingen, meervoudige relaties en expliciete onopgeloste/onzekere verwijzingen zijn beschikbaar. Rubriekrelaties worden niet aan alle afzonderlijke voorschriften toegekend.
 
 De bijlage bevat niet de oorspronkelijke concordans-JSON of Excel. Echte dekking, richtingen en koppelcijfers zijn daarom niet vastgesteld; de tests gebruiken uitsluitend als fictief gelabelde verbindingen. Bron- en publicatievoorbehouden en de concrete vervolgactie voor echte gegevens staan in [concordans-broncontrole.md](concordans-broncontrole.md); de API staat in [concordans-gegevensmodel.md](concordans-gegevensmodel.md). Er zijn geen echte concordansgegevens, werkmap of volledige afgeleide tabel gepubliceerd.
 
 Typecheck, productiebuild, 110 moduletests (18 concordanstests), 55 bestaande Chromium-browsertests en publieke Python-validatie zijn geslaagd. Officiële datasets, zoeklexicons en bestaande interface zijn ongewijzigd. Alleen het technische deel van de concordansfase is afgerond; echte gegevensopname en vergelijkingsinterface zijn niet uitgevoerd. GitHub Pages is de beoogde primaire publicatieroute, maar is niet geactiveerd.
+
+
+## Correctie opdracht 10: werkelijke concordansbron — 11 november 2026
+
+De aanvullende oorspronkelijke Excel en rij-JSON zijn ontvangen. De Excel-hash is exact gelijk aan de bronregistratie; alle 716 bronrijen met elf oorspronkelijke en elf uitgevouwen cellen zijn tegen de werkmap gecontroleerd. De eerdere fictieve tests blijven uitsluitend geïsoleerde technische tests en gelden niet als dekkingsbewijs.
+
+De zelfstandige rijadapter verwerkt de werkelijke bron, behoudt alle oorspronkelijke cellen en maakt expliciete technische interpretaties met bronrijherleidbaarheid. 612 interpretaties leveren 605 tweezijdig gekoppelde en zeven onopgeloste relaties op (604 unieke gekoppelde paren). Algemene-bepalingenverwijzingen, onvolledige codes, nieuwe 2020-rijen, tekstverschillen en 2017-aantekeningen blijven apart zichtbaar. Er zijn geen 2017-codes uit 2020 afgeleid. Het volledige rapport per rij/relatie is lokaal beschikbaar; zie [broncontrole](concordans-broncontrole.md) en [gegevensmodel](concordans-gegevensmodel.md).
+
+116 moduletests met de daadwerkelijk uitgevoerde echte-brontest, 55 bestaande Chromium-browsertests, productiebuild en publieke datasetvalidatie zijn geslaagd. Officiële datasets, zoeklexicons en interface zijn ongewijzigd. Geen overige bestanden uit het oorspronkelijke eindpakket, Excel of volledige concordansspiegel zijn in de openbare repository opgenomen. Technische verwerking op echte gegevens is uitgevoerd; publieke gegevensdistributie wacht op vastlegging van toepasselijke voorwaarden. Vergelijkingsinterface en Pages-activering zijn niet uitgevoerd.

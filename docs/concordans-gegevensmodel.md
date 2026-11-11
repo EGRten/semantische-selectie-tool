@@ -4,9 +4,39 @@
 
 `src/concordans/index.ts` is een zelfstandige TypeScript-module voor statische historische relaties. De browserinterface importeert of activeert deze module nog niet. Geen vergelijkingsinterface, zoekwijziging, automatische adviezen, backend of database. Een historische verwijzing bewijst geen opvolging, vervanging, juridische gelijkwaardigheid of toepasselijkheid.
 
-De echte bronbestanden ontbreken ook in de taakbijlage. Zie [broncontrole](concordans-broncontrole.md). Het hier beschreven contract is een eenvoudig nieuw invoercontract voor later afzonderlijk gecontroleerde data, geen aanname over het schema van de ontbrekende oorspronkelijke JSON. Geen fictieve fixture wordt als productieconcordans aangeboden.
+De aanvullende oorspronkelijke bron is nu ontvangen en op Excel-identiteit en volledige celovereenkomst gecontroleerd. Zie [broncontrole](concordans-broncontrole.md) voor de werkelijke dekking, alle resterende problemen en de publicatiegrens. De module ondersteunt zowel het genormaliseerde technische contract als de werkelijk aangetroffen rij-JSON. Fictieve fixtures blijven beperkt tot geïsoleerde tests.
 
-## Drie gescheiden lagen
+## Werkelijke rijbron laden
+
+`src/concordans/bronbestand.ts` valideert het daadwerkelijke negenveldenformaat van `concordans/concordans.json`: rij-ID, bron (bron_id/werkblad/rij), elf oorspronkelijke cellen, elf uitgevouwen cellen, expliciete 2020-code-inventaris, ongeldige codes en de twee expliciet onware betekenis-/2017-afleidingsclaims. De oorspronkelijke JSON-array wordt niet herschreven; de retourwaarde `bronrijen` bewaart alle waarden diep bevroren.
+
+```ts
+import { laadBronconcordans } from './concordans/index.js';
+const bronlaag = laadBronconcordans({
+  bestandUrl: new URL('./concordans/concordans.json', document.baseURI),
+  gegevenslaag,
+});
+const controle = await bronlaag.laad();
+const bronrijen = controle.bronrijen; // letterlijke, ongewijzigde bron
+const rijrapport = controle.rijen;  // interpretatie, kandidaten en afwijkingen
+const relaties = controle.concordans.vanuitSelectiegegeven(
+  '1996-2012', '1996-2012:2.1::002',
+);
+```
+
+Deze URL is geen claim dat de gegevens al publiek worden meegebouwd: de daadwerkelijke brondata blijven voorlopig lokaal. `valideerBronrijen` en `indexeerBronconcordans` zijn afzonderlijk testbaar. De loader is lazy, deelt een lopende aanvraag, cachet alleen succes en ondersteunt expliciet opnieuw proberen. Alleen statische JSON wordt geladen; Excelcontrole gebeurt tijdens voorbereiding, niet in de browser.
+
+De rijadapter volgt de bronindeling A:D (1996), E:I (2020), J:K (2017-aantekeningen). Hij gebruikt de unieke bestaande werkbladrijreferenties van 1996/2012 of exact identieke, werkelijk uitgevouwen A:D-cellen. Hij vult geen ongedocumenteerde lege cellen door en leidt technische suffixen niet af uit subletters. Lege/afwijkende historische omschrijvingen en termijnen zijn afzonderlijk zichtbaar, ook wanneer de rij-identiteit technisch vaststaat.
+
+2020-codes worden alleen bindend gevolgd vanuit een volledige code/slashlijst in kolom F of een expliciet begrensd ‘t/m’-bereik met dezelfde prefix (maximaal 101 eindpunten). Algemene bepalingen met ‘paragraaf’, onvolledige codes en overige tekst krijgen eigen statussen; voorbeelden zoals ‘zoals 5.1’ worden niet automatisch recordrelaties. Een ontbrekende doelcode blijft onopgelost; er is geen broncorrectie. De eerdere `expliciete_2020_codes`-inventaris blijft behouden, maar wordt niet blind gebruikt als semantische classificatie van ieder nummer.
+
+Voor de historische kant wordt geen volledige officiële code verzonnen waar die niet letterlijk is opgeslagen: `code` is daar null. Een expliciete technische binding via de bestaande rijreferentie wijst het juiste record aan. Een bestaande niet-lege broncode blijft wel verplicht gelijk aan de technische recordcode om bindend te koppelen. Rij-omschrijvingen en toelichtingen blijven in hun oorspronkelijke vorm bewaard.
+
+De adapter maakt 1996→2020-interpretaties met een stabiele ID op basis van bronrij en lokaal codevolgnummer. Expliciet nieuwe 2020-rijen blijven in de rijrapportage maar krijgen geen verzonnen historische relatie. J/K worden apart tegen 2017 onderzocht: zelfs een unieke letterlijke tekstmatch blijft een te beoordelen kandidaat, geen geactiveerde relatie of via 2020 afgeleide code. De bestaande gegevenslaag laadt 1996/2012 en 2020; 2017 alleen wanneer een beschrijvende J-aantekening onderzocht moet worden.
+
+De drie retourvelden scheiden **bron**, **technische rijinterpretatie** en **geïndexeerde koppelingen**. Binnen het bestaande genormaliseerde contract heet de basisrelatie nog `oorspronkelijk`; bij gebruik van de adapter is dat nadrukkelijk de genormaliseerde technische interpretatie, niet een vervanging van de letterlijke cellen in `bronrijen`. Rij-ID en bronlocatie verbinden beide. Er zijn geen nieuwe inhoudelijke beoordelingen ingevuld.
+
+## Genormaliseerd contract: drie gescheiden lagen
 
 Het statische object heeft exact vijf velden:
 
@@ -18,7 +48,7 @@ Het statische object heeft exact vijf velden:
 | `koppelingen` | Afzonderlijke expliciete technische bindingsvoorstellen, indien nodig |
 | `beoordelingen` | Afzonderlijke latere inhoudelijke beoordelingen; standaard leeg |
 
-Een oorspronkelijke relatie bevat `id`, `bron`, `doel`, `toelichting` (string/null), `herkomst_id`, `bronlocatie` (string/null, bijvoorbeeld een werkelijk geregistreerd werkblad/rijbereik), `relatietype` (string/null), `verificatiestatus` en een lijst `onzekerheden`. Elk eindpunt bevat `selectielijst` (`1996-2012`, `2017` of `2020`), de oorspronkelijke `code` en `omschrijving` (string/null). De drie ondersteunde datasets betekenen geen claim dat een bron alle drie vergelijkt. Een directe bronrij met meerdere verwijzingen kan later in afzonderlijke relaties met behoud van herkomst/rijreferentie worden vastgelegd; de huidige module splitst geen codecellen en interpreteert geen Excel.
+Een oorspronkelijke relatie bevat `id`, `bron`, `doel`, `toelichting` (string/null), `herkomst_id`, `bronlocatie` (string/null, bijvoorbeeld een werkelijk geregistreerd werkblad/rijbereik), `relatietype` (string/null), `verificatiestatus` en een lijst `onzekerheden`. Elk eindpunt bevat `selectielijst` (`1996-2012`, `2017` of `2020`), de oorspronkelijke `code` en `omschrijving` (beide string/null; een onbekende code wordt niet verzonnen). De drie ondersteunde datasets betekenen geen claim dat een bron alle drie vergelijkt. Een directe bronrij met meerdere verwijzingen kan later in afzonderlijke relaties met behoud van herkomst/rijreferentie worden vastgelegd; de genormaliseerde kernmodule splitst geen codecellen; de rijadapter doet uitsluitend de hierboven beschreven expliciete kolomverwerking en interpreteert geen Excel.
 
 Een herkomst-ID moet in `bronnen` bestaan. De bronbeschrijving bewaart de feitelijk vastgestelde titel, organisatie, vindplaats en hergebruiktekst. Leg bronblad/rij/kolommen waar beschikbaar vast in `bronlocatie`, gescheiden van de oorspronkelijke toelichting. Een onbekende vindplaats blijft null. Er worden geen fictieve links of algemene toestemmingsstatussen toegevoegd. `relatietype` blijft null als de bron de betekenis niet expliciet onderbouwt. De validator kan die inhoudelijke onderbouwing niet bewijzen.
 
@@ -37,7 +67,7 @@ const gegevenslaag = maakGegevenslaag({
 });
 const concordanslaag = maakConcordanslaag({
   // Dit bestand is nog NIET meegeleverd; pas gebruiken na afzonderlijke opname.
-  bestandUrl: new URL('./concordans/concordans.json', document.baseURI),
+  bestandUrl: new URL('./concordans/concordans-technisch.json', document.baseURI),
   gegevenslaag,
 });
 const concordans = await concordanslaag.laad();
@@ -48,7 +78,7 @@ const onopgelost = concordans.onopgelost();
 const onzeker = concordans.metOnzekerheden();
 ```
 
-De module heeft geen standaard-URL en haalt niets op bij initialisatie. De aanroeper bepaalt een URL relatief aan de publicatiepagina; de module kopieert die URL bij initialisatie. Werkt onder `/project/` zonder absolute domein- of rootpaden. Een optionele `ophalen`-functie vervangt fetch voor lokale tests. Er is geen runtimecompiler, externe zoekdienst of bron-download nodig.
+Gebruik voor de werkelijke rij-JSON `laadBronconcordans`; `maakConcordanslaag` in dit tweede voorbeeld verwacht het genormaliseerde vijfveldenobject. De formaten worden niet stilzwijgend verwisseld. De module heeft geen standaard-URL en haalt niets op bij initialisatie. De aanroeper bepaalt een URL relatief aan de publicatiepagina; de module kopieert die URL bij initialisatie. Werkt onder `/project/` zonder absolute domein- of rootpaden. Een optionele `ophalen`-functie vervangt fetch voor lokale tests. Er is geen runtimecompiler, externe zoekdienst of bron-download nodig.
 
 `laad()` deelt een lopende/geslaagde aanvraag binnen dezelfde instantie. Bij mislukking wordt de cache verwijderd en kan expliciet opnieuw worden geladen. De bestaande gegevenslaag laadt en valideert alleen de selectielijsten die daadwerkelijk als bron of doel in het concordansbestand voorkomen. Zoeklexicons worden niet opgehaald. De retourwaarde en bronobjecten zijn diep bevroren; indexarrays zijn readonly. `valideerConcordans(unknown)` en `indexeerConcordans(bestand, gegevenslaag)` zijn ook afzonderlijk beschikbaar.
 
@@ -61,7 +91,7 @@ Exact betekent **codegelijkheid binnen de aangegeven selectielijst**, niet inhou
 - Zonder unieke selectiegegevensregel kan precies één structuuronderdeel worden gekoppeld.
 - Meerdere kandidaten zonder uniek structuurniveau leveren `meerdere_kandidaten`, een kandidatenlijst en geen gekozen record op.
 - Geen exacte code levert `ontbreekt` op. De broncode blijft behouden.
-- Een expliciete binding kan één technisch voorschrift kiezen. Een ontbrekend ID blijft `ontbreekt`; een binding met `te_beoordelen` of een afwijkende officiële code blijft `onzeker`, zonder bindend record. Afwijkende historische subletters vragen dus een afzonderlijk beoordeelde uitbreiding, geen automatische suffixregel.
+- Een expliciete binding kan één technisch voorschrift kiezen. Een ontbrekend ID blijft `ontbreekt`; een binding met `te_beoordelen` of een afwijkende niet-lege officiële code blijft `onzeker`, zonder bindend record. Afwijkende historische subletters vragen dus een afzonderlijk beoordeelde uitbreiding, geen automatische suffixregel.
 
 Elk koppelresultaat bevat de oorspronkelijke verwijzing, status, een gekozen `{selectielijst, id, soort}` of null, kandidaten, technische toelichting en de eventuele expliciete koppeling. Het geretourneerde relatieobject bevat `oorspronkelijk`, `bron`, `doel` en `inhoudelijke_beoordeling` apart.
 
@@ -81,6 +111,6 @@ Er zijn geen nieuwe dependencies. De gesloten runtimevalidator controleert alle 
 
 `npm run build` controleert TypeScript en bouwt `dist/concordans/index.js` met typeverklaringen. De statische site bevat alleen de module onder `dist/site/concordans/`; geen echte of fictieve concordansdata. De bestaande interface blijft zonder concordans werken. GitHub Pages wordt niet geactiveerd.
 
-Tests: `CHROMIUM_PATH=/usr/bin/chromium npm test`; aanvullend `npm run typecheck` en `python scripts/valideer_publicatie.py`. `tests/concordans.test.mjs` test met expliciet fictieve relaties tussen bestaande codes en gecontroleerde foutgevallen. De oorspronkelijke zoek-, detail-, gegevenslaag- en browsertests blijven ongewijzigd. Eindcontrole: 110 moduletests (waarvan 18 concordanstests) en 55 bestaande Chromium-browsertests geslaagd. Typecheck, statische productiebuild, publieke Python-validatie en integriteitsvingerafdrukken zijn geslaagd. Bestaande testverwachtingen zijn niet gewijzigd. De module is ook vanuit de gebouwde site-uitvoer geïmporteerd/getoetst; er is geen nieuwe gebruikersinterface om visueel te beoordelen.
+Tests: `CHROMIUM_PATH=/usr/bin/chromium npm test`; aanvullend `npm run typecheck` en `python scripts/valideer_publicatie.py`. `tests/concordans.test.mjs` gebruikt alleen geïsoleerde fictieve fout-/structuurgevallen. `tests/concordans-bron.test.mjs` combineert afzonderlijk gelabelde geïsoleerde tests met een expliciet benoemde test op de werkelijke bron; de laatste vereist `CONCORDANS_BRON_JSON`. Geen van de fictieve gevallen vormt de grondslag voor de dekkingscijfers. De oorspronkelijke zoek-, detail-, gegevenslaag- en browsertests blijven ongewijzigd. Eindcontrole van de correctie: 116 moduletests, inclusief de echte broncontrole en zes nieuwe rijadaptertests, en 55 bestaande Chromium-browsertests geslaagd. De echte-brontest is met `CONCORDANS_BRON_JSON` uitgevoerd, niet overgeslagen. Typecheck, statische productiebuild, publieke Python-validatie en integriteitsvingerafdrukken zijn geslaagd. Bestaande testverwachtingen zijn niet gewijzigd. De module is ook vanuit de gebouwde site-uitvoer geïmporteerd/getoetst; er is geen nieuwe gebruikersinterface om visueel te beoordelen.
 
-De module bewijst geen bronvolledigheid, rechten of historische/juridische betekenis. Het echte koppelrapport kan pas na beschikbaarheid van de oorspronkelijke bron worden gemaakt. Een volgende afzonderlijke opdracht moet echte data en toepasselijke publicatievoorwaarden vaststellen; deze stap levert uitsluitend de technische module op.
+De werkelijke bron is nu gecontroleerd en het volledige lokale koppelrapport is gemaakt. Bronvolledigheid geldt uitsluitend voor de werkmapspiegel, niet voor alle historische relaties tussen selectielijsten. De module bewijst geen rechten, inhoudelijke gelijkwaardigheid of toepasselijkheid. Publieke distributie van de concordansdata en de vergelijkingsinterface blijven afzonderlijke vervolgstappen.
