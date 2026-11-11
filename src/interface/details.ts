@@ -5,7 +5,8 @@ import { element, knop, lijstnamen, typenaam } from './dom.js';
 
 type Bron = { readonly bron_id: string; readonly pdf_pagina?: number; readonly eindpagina?: number;
   readonly werkblad?: number | string; readonly rij?: number; readonly kolom?: string; readonly kolommen?: readonly string[]; readonly functie?: string; readonly bbox?: readonly unknown[] | null };
-function legeWaarde(status?: string): string {
+export function legeWaarde(status?: string): string {
+  if (status === 'structuurniveau') return 'Niet van toepassing: structuurniveau zonder eigen selectiegegevens.';
   if (status === 'niet_van_toepassing_vervallen') return 'Niet van toepassing: vervallen resultaat.';
   if (status === 'geen_afzonderlijke_kolom_in_bron') return 'Geen afzonderlijke kolom in deze selectielijst.';
   if (status?.startsWith('raadpleeg_') || status === 'in_termijntekst_behouden') return 'Geen afzonderlijke bronwaarde. Raadpleeg de termijntekst, toelichting en algemene bepalingen.';
@@ -20,7 +21,7 @@ function link(tekst: string, url: URL): HTMLAnchorElement {
   if (['http:', 'https:'].includes(url.protocol)) { a.href = url.href; a.target = '_blank'; a.rel = 'noopener noreferrer'; }
   return a;
 }
-function bronlocatie(dataset: Dataset, bron: Bron): HTMLElement {
+export function bronlocatie(dataset: Dataset, bron: Bron): HTMLElement {
   const blok = element('div', undefined, 'bronlocatie');
   const registratie = dataset.manifest.bronnenregister.find(b => b.id === bron.bron_id);
   blok.append(element('strong', bron.bron_id));

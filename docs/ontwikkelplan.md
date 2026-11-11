@@ -95,3 +95,12 @@ Alle vijftien aangeduide afwijkingsgevallen zijn afzonderlijk tegen echte Excelc
 De dekking blijft 612 historische interpretaties met 605 volledig gekoppelde en zeven onopgeloste relaties. De bestaande 605 recordparen zijn met een volledige vingerafdruk op behoud gecontroleerd. De technische uitzonderingsregistratie blijft bij herimport behouden en is via bronrij- of interpretatie-ID raadpleegbaar. Zie [concordans-afwijkingen-beoordeling.md](concordans-afwijkingen-beoordeling.md). Er is geen vergelijkingsinterface of Pages-activering en er zijn geen officiële gegevens of zoeklexicons gewijzigd.
 
 De eindcontrole omvat 122 geslaagde moduletests, 55 geslaagde bestaande Chromium-browsertests, typecheck, productiebuild en publieke datasetvalidatie. De echte-brontests zijn uitgevoerd zonder overslaan; het uitgebreide controlerapport is byte-identiek gereproduceerd.
+
+
+## Afgeronde concordansinterface en historische vergelijking — 11 november 2026
+
+Het bestaande detailpaneel bevat nu lazy historische relaties en een vergelijking van officiële datasetvelden. Navigatie werkt vanuit 1996/2012 naar 2020 en via de inkomende index terug, met behoud van technische recordselectie, boomlocatie en een terugkeerknop. Meervoudige relaties en dubbele bronrijverklaringen blijven afzonderlijk herleidbaar. De zeven onopgeloste interpretaties, hun B-kandidaten en de aparte correctie 716 zijn zichtbaar in een controleoverzicht zonder beoordelingsfuncties. 2017 krijgt geen afgeleide codemapping; beschrijvende opmerkingen staan los van relaties.
+
+De bestaande concordansmodule en beoordelingsstatussen zijn ongewijzigd. De werkelijke bron is in een lokale browser getest via een expliciet aangezette statische localhost-bestandsalias; de productiebuild neemt de private concordans niet op. Ontbrekende data geven een beperkte foutmelding terwijl officiële details, boom en zoekmodi bruikbaar blijven. De gegevensdistributiegrondslag blijft een afzonderlijke vervolgstap; Pages is niet geactiveerd.
+
+125 moduletests en 67 Chromium-browsertests zijn geslaagd met daadwerkelijk uitgevoerde echte-brontests. Typecheck, productiebuild, bronidentiteit/celcontrole en publieke datasetvalidatie zijn geslaagd. Desktop en mobiel zijn visueel gecontroleerd onder een subpad. De enige bewust gewijzigde oude testverwachting is dat de nu gevraagde lazy interface aanwezig is; inhoudelijke dataset- en zoekverwachtingen zijn behouden. Zie [concordans-interface.md](concordans-interface.md) voor werking, statussen, beperkingen en de reproduceerbare lokale testprocedure.

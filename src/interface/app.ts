@@ -3,9 +3,12 @@ import type { Dataset, SelectielijstId } from '../gegevenslaag/index.js';
 import { element, knop, lijstnamen } from './dom.js';
 import { maakBoom } from './boom.js';
 import { toonDetails } from './details.js';
+import { laadBronconcordans } from '../concordans/index.js';
+import { maakConcordanspaneel } from './concordans.js';
 import { maakZoekmodi } from './zoekmodi.js';
 
 export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ datasetsUrl: new URL('./datasets/', document.baseURI) })) {
+  const concordans=laadBronconcordans({bestandUrl:new URL('./concordans/concordans.json',document.baseURI),gegevenslaag:laag});
   const aside = element('aside',undefined,'zijbalk'); aside.setAttribute('aria-label','Selectielijst en navigatie');
   const label = element('label','Selectielijst'); label.htmlFor = 'selectielijst';
   const keuze = element('select'); keuze.id = 'selectielijst';
@@ -28,11 +31,18 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
   legeDetails();root.replaceChildren(aside,detail);
   let dataset: Dataset | undefined;
   let boom: ReturnType<typeof maakBoom> | undefined;
-  let aanvraag=0;
-  function selecteer(id: string, vanuitBoom = false) {
+  let aanvraag=0,navigatieAanvraag=0;
+  let actiefId:string|undefined;
+  const geschiedenis:{lijst:SelectielijstId;id:string}[]=[];
+  function selecteer(id: string, vanuitBoom = false, intern=false) {
+    if(!intern){++navigatieAanvraag;geschiedenis.length=0;}
     if (!dataset) { legeDetails('Kies eerst een selectielijst.');return; }
     try {
       if (toonDetails(detail,dataset,id,(doel)=>selecteer(doel))) {
+        actiefId=id;
+        const paneel=maakConcordanspaneel(dataset,id,{laad:()=>concordans.laad(),laadDataset:(lijst)=>laag.laadDataset(lijst),navigeer:(lijst,doel)=>{void navigeer(lijst,doel);}});
+        const anker=detail.querySelector(':scope > .gegevens');if(anker)anker.before(paneel);else detail.append(paneel);
+        if(geschiedenis.length)detail.querySelector('#detailtitel')?.before(knop('Terug naar oorspronkelijk voorschrift',()=>{const doel=geschiedenis.pop();if(doel)void navigeer(doel.lijst,doel.id,true);},'concordans-terug'));
         boom?.activeer(id,!vanuitBoom);
         detail.scrollTop=0;
       }
@@ -40,9 +50,16 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
       const melding=element('p',fouttekst(error),'melding fout');melding.setAttribute('role','alert');detail.replaceChildren(melding);
     }
   }
+  async function navigeer(lijst:SelectielijstId,id:string,terug=false){
+    const ticket=++navigatieAanvraag;const oorsprong=dataset&&actiefId?{lijst:dataset.id,id:actiefId}:undefined;
+    if(dataset?.id!==lijst){keuze.value=lijst;await laad(lijst);}
+    if(ticket!==navigatieAanvraag||dataset?.id!==lijst)return;
+    if(oorsprong&&!terug)geschiedenis.push(oorsprong);
+    selecteer(id,false,true);detail.querySelector<HTMLElement>('#detailtitel')?.focus();
+  }
   async function laad(id: SelectielijstId) {
     const huidig=++aanvraag;
-    dataset=undefined;boom=undefined;zoekpaneel.koppel(undefined);alles.disabled=true;fout.hidden=true;retry.hidden=true;
+    dataset=undefined;actiefId=undefined;boom=undefined;zoekpaneel.koppel(undefined);alles.disabled=true;fout.hidden=true;retry.hidden=true;
     navigatie.replaceChildren();navigatie.setAttribute('aria-busy','true');
     legeDetails('De gekozen selectielijst wordt geladen.');
     status.textContent=`Selectielijst ${lijstnamen[id]} laden…`;
@@ -60,6 +77,7 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
     } finally { if(huidig===aanvraag)navigatie.setAttribute('aria-busy','false'); }
   }
   keuze.addEventListener('change',()=> {
+    ++navigatieAanvraag;geschiedenis.length=0;actiefId=undefined;
     if (keuze.value) void laad(keuze.value as SelectielijstId);
     else { ++aanvraag;dataset=undefined;boom=undefined;zoekpaneel.koppel(undefined);navigatie.replaceChildren();navigatie.setAttribute('aria-busy','false');alles.disabled=true;fout.hidden=true;retry.hidden=true;status.textContent='Kies een selectielijst om te beginnen.';legeDetails(); }
   });
