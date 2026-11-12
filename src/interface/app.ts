@@ -30,7 +30,8 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
   const navigatie = element('nav',undefined,'boomgebied');navigatie.setAttribute('aria-label','Boomstructuur');
   navigatie.append(element('p','De structuur verschijnt na het kiezen van een selectielijst.','hulptekst'));
   const zoekpaneel = maakZoekmodi((id) => selecteer(id), (id) => laag.laadZoekverrijking(id));
-  aside.append(label,keuze,status,fout,retry,zoekpaneel.element,tools,navigatie);
+  const boomhulp=element('p','Blader met de pijltjestoetsen door de boom. Uitgeklapte onderdelen kunnen in het boomgebied worden gescrold.','scrollhulp');boomhulp.id='boom-scrollhulp';navigatie.setAttribute('aria-describedby',boomhulp.id);
+  aside.append(label,keuze,status,fout,retry,zoekpaneel.element,tools,boomhulp,navigatie);
   const detail = element('section',undefined,'details');detail.id='details';detail.tabIndex=-1;detail.setAttribute('aria-label','Geselecteerd onderdeel');
   function legeDetails(tekst='Kies een onderdeel in de boomstructuur om de officiële gegevens te bekijken.') {
     detail.replaceChildren(element('h2','Nog geen onderdeel geselecteerd'),element('p',tekst,'hulptekst'));
@@ -66,7 +67,7 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
         if(!intern && location.hash!==selectieHash(id))history.pushState(null,'',selectieHash(id));
         if(dataset.selectiegegeven(id)){const terug=element('a','Terug naar tabelrij','concordans-link');terug.href=lijstHash(id);detail.querySelector('#detailtitel')?.before(terug);}
         const paneel=maakConcordanspaneel(dataset,id,{laad:()=>concordans.laad(),laadDataset:(lijst)=>laag.laadDataset(lijst),navigeer:(lijst,doel)=>{void navigeer(lijst,doel);}});
-        const anker=detail.querySelector(':scope > .gegevens');if(anker)anker.before(paneel);else detail.append(paneel);
+        const anker=detail.querySelector(':scope > .annotaties,:scope > .bronlocaties-titel');if(anker)anker.before(paneel);else detail.append(paneel);
         if(geschiedenis.length)detail.querySelector('#detailtitel')?.before(knop('Terug naar oorspronkelijk voorschrift',()=>{const doel=geschiedenis.pop();if(doel)void navigeer(doel.lijst,doel.id,true);},'concordans-terug'));
         boom?.activeer(id);
         if(!vanuitBoom)detail.querySelector<HTMLElement>('#detailtitel')?.focus();

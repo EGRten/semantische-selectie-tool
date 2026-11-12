@@ -47,7 +47,7 @@ test('UI-02: alle vier tabellen bij echte 200% en 400% Chromium-paginazoom',asyn
 });
 test('UI-03: zoekkoppen en historische vergelijking hebben opeenvolgende niveaus',async({page})=>{
  await page.goto('./#selectie=2020%3A19.1.19');await expect(page.locator('#detailtitel')).toBeVisible();
- await page.locator('#zoekopdracht').fill('19.1.19');await page.locator('#zoekopdracht').press('Enter');await expect(page.locator('h2#zoekresultatenkop')).toBeVisible();await expect(page.locator('#zoekresultatenkop')).toHaveCSS('letter-spacing','normal');await expect(page.locator('#zoekresultatenkop')).toHaveCSS('font-size','17px');
+ await page.locator('#zoekopdracht').fill('19.1.19');await page.locator('#zoekopdracht').press('Enter');await expect(page.locator('h2#zoekresultatenkop')).toBeVisible();await expect(page.locator('#zoekresultatenkop')).toHaveCSS('letter-spacing','normal');await expect(page.locator('#zoekresultatenkop')).toHaveCSS('font-size','18px');
  await page.locator('.historische-relaties > summary').click();await page.getByRole('button',{name:'Vergelijk officiële gegevens',exact:true}).first().click();
  await expect(page.locator('.historische-relaties > summary > h3')).toHaveText('Vergelijk met andere selectielijsten');
  await expect(page.locator('.concordans-vergelijking > h4')).toBeVisible();
