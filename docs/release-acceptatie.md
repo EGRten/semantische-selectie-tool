@@ -2,6 +2,8 @@
 
 12 november 2026. Getoetst: actuele `main` **`dbb1270`**, merge PR #23, inclusief PR #21/#22. Validatiebranch `releasevalidatie`; uitsluitend deze twee documenten en een afzonderlijke audithelper, geen productieherstel.
 
+Actualisatie opdracht 25, 12 november 2026: uitsluitend licentie- en publicatiecontext bijgewerkt volgens de expliciete projectkeuzes. De technische resultaten hieronder blijven die van opdracht 24; geen nieuwe validatie of juridische beoordeling uitgevoerd.
+
 ## Releaseoordeel
 
 | Besluit | Uitkomst |
@@ -10,7 +12,7 @@
 | WCAG 2.2 AA voldoende aangetoond | **Nog niet vastgesteld**; geen volledige schermlezer-/browser-/systeemtoets |
 | Vier publieke downloads gevalideerd | **Ja**, gewone productiebuild zonder alias/privébron |
 | Bronintegriteit bevestigd | **Ja**, tegen gecontroleerde baseline, vaste vingerafdrukken en oorspronkelijke JSON |
-| Publieke vrijgave via GitHub Pages | **Nog niet verantwoord**: concordanshergebruikgrondslag niet vastgesteld; essentieel onafhankelijk toegankelijkheidsbewijs ontbreekt |
+| Publieke vrijgave via GitHub Pages | **Nog niet geactiveerd**: REL-01 is als expliciete publicatieaanname geaccepteerd, niet juridisch bewezen; onafhankelijk AA-releasebewijs (REL-02) ontbreekt nog |
 
 Dit onderscheidt technisch functioneren van distributierechten en conformiteitsbewijs. Openstaande punten en afsluitcriteria: [release-restpunten](release-restpunten.md). Geen Pages geactiveerd.
 
@@ -94,7 +96,11 @@ Bronintegriteit: vaste manifest-/schemavalidaties en de oorspronkelijke concorda
 
 De vier publieke projecties zijn byte-identiek reproduceerbaar en ongewijzigd tegen `dbb1270`; ook `src/`, datasets, bronnen, controle, schema's en dependencybestanden hebben geen diff. Na een gewone herbouw zonder bronvariabele zijn **alle 103 productiebuildbestanden SHA-256-byte-identiek** aan de eerste build. Geen nieuwe runtimeafhankelijkheden.
 
-De [privacy-/hergebruikbeoordeling](publicatie-privacy-hergebruik.md) en [actueel concordanspublicatiebesluit](concordans-publicatiebesluit.md) blijven uitgangspunt. Geen nieuwe gegevensverwerking, tracking, documentmetadata of persoonsgegevens toegevoegd. Gepubliceerde bronverantwoording kan namen bevatten; niet als volledig persoonsgegevenvrij aangeduid. Interne dossiers en originele Office-auteursmetadata blijven uitgesloten volgens bestaande controles. Geen nieuwe rechtsgrond/toestemming ontvangen; volledige concordansinhoud in een compacter formaat vormt zelf geen grondslag. Wdo/EN-scope en eventuele verklaring blijven afhankelijk van verantwoordelijke uitgever (REL-03), geen automatische overheidsplicht geclaimd.
+De bestaande [privacybevindingen](publicatie-privacy-hergebruik.md) blijven behouden: geen nieuwe gegevensverwerking, tracking, documentmetadata of persoonsgegevens toegevoegd. Gepubliceerde bronverantwoording kan namen bevatten; niet als volledig persoonsgegevenvrij aangeduid. Interne dossiers en originele Office-auteursmetadata blijven uitgesloten volgens bestaande controles.
+
+Voor de actuele publicatievoorwaarden is [HERGEBRUIK.md](../HERGEBRUIK.md) leidend, samen met het [publicatiebesluit opdracht 25](concordans-publicatiebesluit.md#publicatiekeuze-opdracht-25). De concordans wordt als onderdeel van de VNG-SelectTool verantwoord. VNG-hergebruikbevoegdheid is een expliciet door de projecteigenaar geaccepteerde aanname onder verwijzing naar het VNG-hergebruikbeleid; geen bewezen rechthebbendheid, toepasselijkheid op de exacte werkmap of afzonderlijk verkregen toestemming. Er wordt geen nader concordansrechtenonderzoek uitgevoerd. De eerdere onderzoeksverslagen blijven historisch herkenbaar.
+
+Het project is particulier en wordt niet namens of onder verantwoordelijkheid van een overheidsorganisatie gepubliceerd. Er wordt geen automatische Wdo-/overheidsverklaringsplicht aangenomen, noch een nieuwe juridische vrijstelling vastgesteld. De resterende norm-/verklaringsafbakening staat bij REL-03; het ontbrekende onafhankelijke toegankelijkheidsbewijs bij REL-02 blijft ongewijzigd. De README-status (REL-04) is bijgewerkt. Deze documentatieactualisatie geeft geen opdracht tot productieactivering.
 
 ## Reproduceren
 

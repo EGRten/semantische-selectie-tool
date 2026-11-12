@@ -1,6 +1,14 @@
 # Hergebruikafweging voor de specifieke concordanswerkmap
 
-> Actueel opdracht 18: na een aanvullende expliciete publicatie-instructie van de projecteigenaar bevat de gewone productiebuild vier werkende downloads en de compacte concordans. De hergebruikgrondslag blijft niet vastgesteld; er wordt geen toestemming van derden geclaimd. Zie [publicatiebesluit](concordans-publicatiebesluit.md) en [acceptatierapport](concordans-distributie-acceptatie.md). Onderstaande eerdere uitvoeringsverslagen blijven als historie behouden.
+## Actueel publicatie-uitgangspunt — opdracht 25
+
+Vastgelegd op 12 november 2026. De centrale verklaring staat in [HERGEBRUIK.md](../HERGEBRUIK.md#concordans-herkomst-projectkeuze-en-aanname). De projecteigenaar heeft de concordans verantwoord als onderdeel van de door VNG beschikbaar gestelde SelectTool, met verwijzing naar de VNG-ledenbrief *Handvatten voor de uitvoering van de Archiefwet* van 26 mei 2020 en de [VNG-proclaimer](https://vng.nl/proclaimer).
+
+Voor publicatie wordt **aangenomen** dat de VNG rechthebbende of bevoegde beschikbaarsteller is. Het hergebruik wordt op het VNG-hergebruikbeleid gebaseerd, met VNG als bron. Dat is geen onafhankelijke vaststelling van de rechthebbende, geen aangetoonde toepasselijkheid op de exacte werkmap en geen afzonderlijk verkregen toestemming. De bestaande bronidentiteit en controles zijn niet gewijzigd. De projecteigenaar accepteert deze resterende onzekerheid als publicatie-uitgangspunt en heeft uitdrukkelijk besloten geen nader onderzoek of contact met derden uit te voeren.
+
+Zie het [actuele publicatiebesluit](concordans-publicatiebesluit.md#publicatiekeuze-opdracht-25) en [REL-01](release-restpunten.md). Onderstaande stukken blijven als **historische onderzoeks- en uitvoeringsverslagen** behouden. Hun eerdere blokkades, bouwstatus en voorgestelde onderzoekshandelingen zijn geen actuele werkinstructies; opdracht 25 voegt geen rechtenbewijs toe. De gewone build bevat inmiddels de compacte concordans en vier downloads; de oorspronkelijke Excel en volledige JSON-spiegel blijven uitgesloten. GitHub Pages wordt niet geactiveerd.
+
+## Historische afwegingen
 
 ## Conclusie — 11 november 2026
 
