@@ -11,7 +11,7 @@ export default defineConfig({
     launchOptions: process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {},
   },
   webServer: {
-    command: 'node scripts/serve.mjs --base /testpad/' + (process.env.CONCORDANS_BRON_JSON?' --concordans-env':''),
+    command: 'node scripts/serve.mjs --base /testpad/',
     url: 'http://127.0.0.1:4173/testpad/',
     reuseExistingServer: false,
   },

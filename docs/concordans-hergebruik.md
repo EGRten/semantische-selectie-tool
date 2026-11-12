@@ -1,5 +1,7 @@
 # Hergebruikafweging voor de specifieke concordanswerkmap
 
+> Actueel opdracht 18: na een aanvullende expliciete publicatie-instructie van de projecteigenaar bevat de gewone productiebuild vier werkende downloads en de compacte concordans. De hergebruikgrondslag blijft niet vastgesteld; er wordt geen toestemming van derden geclaimd. Zie [publicatiebesluit](concordans-publicatiebesluit.md) en [acceptatierapport](concordans-distributie-acceptatie.md). Onderstaande eerdere uitvoeringsverslagen blijven als historie behouden.
+
 ## Conclusie — 11 november 2026
 
 **Geen voldoende onderbouwde hergebruikgrondslag vastgesteld voor integrale openbare weergave of distributie van de JSON-representatie.** Daarom bevat deze wijziging de volledige technische viewer, maar niet de oorspronkelijke werkmap, JSON-spiegel of een volledige afgeleide publicatie. De productiebuild is niet als volledig openbaar concordansnaslagwerk inzetbaar totdat die gegevens rechtmatig kunnen worden opgenomen. Er is geen productiepublicatie geactiveerd.

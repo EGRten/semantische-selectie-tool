@@ -16,8 +16,9 @@ const publicatiePlugin={name:'publicatie-validatie',setup(p){p.onResolve({filter
 await build({entryPoints:['src/publicatie/projectie.ts'],outfile:'dist/publicatie/projectie.js',bundle:true,format:'esm',platform:'browser',target:'es2022'});
 await build({entryPoints:['src/publicatie/index.ts'],outfile:'dist/publicatie/index.js',bundle:true,format:'esm',platform:'browser',target:'es2022',plugins:[publicatiePlugin]});
 await build({entryPoints:['src/publicatie/excel.ts'],outfile:'dist/publicatie/excel.js',bundle:true,format:'esm',platform:'browser',target:'es2022',plugins:[publicatiePlugin],external:['../gedeeld/excel.js']});
+await build({entryPoints:['src/publicatie/concordans.ts'],outfile:'dist/publicatie/concordans.js',bundle:true,format:'esm',platform:'browser',target:'es2022',plugins:[publicatiePlugin,besluitenPlugin]});
 await (await import('./genereer-publicaties.mjs')).genereerPublicaties();
-if((await readdir('publicatie')).some(f=>!['1996-2012.json','2017.json','2020.json'].includes(f)))throw Error('Niet-vrijgegeven publicatiebestand; concordansdistributie blijft geblokkeerd');
+if((await readdir('publicatie')).some(f=>!['1996-2012.json','2017.json','2020.json','concordans.json'].includes(f)))throw Error('Onverwacht publicatiebestand');
 await build({ entryPoints: ['src/zoeken/index.ts'], outfile: 'dist/zoeken/index.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 await build({ entryPoints: ['src/begripszoeken/index.ts'], outfile: 'dist/begripszoeken/index.js', bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
 for (const soort of ['zoeken', 'begripszoeken']) await build({ entryPoints: [`src/${soort}/oorspronkelijk.ts`], outfile: `dist/${soort}/oorspronkelijk.js`, bundle: true, format: 'esm', platform: 'browser', target: 'es2022' });
