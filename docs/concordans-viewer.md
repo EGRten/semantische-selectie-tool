@@ -1,14 +1,14 @@
 # Concordans raadplegen
 
-> Actueel opdracht 18: na een aanvullende expliciete publicatie-instructie van de projecteigenaar bevat de gewone productiebuild vier werkende downloads en de compacte concordans. De hergebruikgrondslag blijft niet vastgesteld; er wordt geen toestemming van derden geclaimd. Zie [publicatiebesluit](concordans-publicatiebesluit.md) en [acceptatierapport](concordans-distributie-acceptatie.md). Onderstaande eerdere uitvoeringsverslagen blijven als historie behouden.
+> De gewone productiebuild bevat vier naslagwerken en vier Excel-downloads, zonder lokale concordansalias. Zie de [actuele acceptatie](concordans-distributie-acceptatie.md) en [rechtenverklaring](../HERGEBRUIK.md). Eerdere technische resultaten hieronder beschrijven de genoemde ontwikkelstappen, niet de huidige distributiestatus.
 
-> Actueel bij opdracht 17: viewer en download gebruiken dezelfde compacte publicatieprojectie. De tabel/export heeft bronrij plus A–K (12 kolommen); mergecontext staat herkenbaar in dezelfde cel, niet in elf dubbele kolommen. Integrale publieke distributie blijft geblokkeerd. Zie [acceptatierapport](publicatie-acceptatie.md), [veldmatrix](publicatie-veldmatrix.md) en [hergebruik](publicatie-privacy-hergebruik.md). Oudere uitvoeringsbeschrijvingen hieronder documenteren de vorige ontwikkelstappen.
+> Gegevensrepresentatie: viewer en download gebruiken dezelfde compacte publicatieprojectie. De tabel/export heeft bronrij plus A–K (12 kolommen); mergecontext staat herkenbaar in dezelfde cel, niet in elf dubbele kolommen. Zie [acceptatierapport](concordans-distributie-acceptatie.md), [veldmatrix](publicatie-veldmatrix.md) en [hergebruik](publicatie-privacy-hergebruik.md). Oudere uitvoeringsbeschrijvingen hieronder documenteren de vorige ontwikkelstappen.
 
 ## Beschikbaarheid
 
 De navigatie **Concordans raadplegen** opent de nieuwe alleen-lezen bronviewer naast de bestaande selectielijsten. De viewer is volledig statisch en gebruikt de bestaande concordansloader, indexen en datasetcache. Er is geen backend, database, nieuwe dependency of Markdown-interpreter.
 
-**De integrale concordansdata zijn niet in de publieke build opgenomen.** De hergebruikgrondslag voor deze specifieke werkmap kon onvoldoende worden vastgesteld; zie [hergebruikafweging](concordans-hergebruik.md). Zonder bronbestand toont de viewer dit begrijpelijk, met herkomstinformatie en bronvermelding. De selectielijsten en zoekfuncties blijven werken. Dit is dus een technisch werkende en lokaal met de echte bron geteste viewer, geen claim dat alle bezoekers de data nu al publiek kunnen raadplegen.
+De gewone productiebuild gebruikt de compacte concordansprojectie voor raadplegen, vergelijken en downloaden. Bij ontbrekende of ongeldige data blijft een begrijpelijke foutmelding beschikbaar; de selectielijsten en zoekfuncties blijven werken. Voor bronvermelding en voorwaarden geldt [HERGEBRUIK.md](../HERGEBRUIK.md). GitHub Pages is niet geactiveerd.
 
 ## Raadplegen en navigeren
 
@@ -30,7 +30,7 @@ De oorspronkelijke spelling, codes, spaties en regeleinden worden tekstueel beho
 
 ## Bronidentiteit en rechten
 
-De viewer toont documentnaam, Excel- en JSON-SHA-256, aangeleverde herkomst en geregistreerde VHIC-vindplaatscontext. Maker en rechthebbende zijn niet vastgesteld; een eigendoms- of toestemmingsclaim ontbreekt daarom terecht. De build kopieert uitsluitend de compacte publieke [bronvermelding](../documentatie/concordans-bronvermelding.md). Privébestanden, interne rapporten en lokale paden worden niet meegebouwd. Markdown wordt als afzonderlijk document aangeboden, niet geïnterpreteerd in de applicatie.
+De viewer toont documentnaam, Excel- en JSON-SHA-256 en geregistreerde bronmetadata. De [publieke bronvermelding](../documentatie/concordans-bronvermelding.md) beschrijft de VNG-SelectTool en toepasselijke voorwaarden. Technische bronmetadata en publieke bronverantwoording blijven onderscheiden. Privébestanden, interne rapporten en lokale paden worden niet meegebouwd. Markdown wordt als afzonderlijk document aangeboden, niet geïnterpreteerd in de applicatie.
 
 ## Reproduceerbare lokale controle
 
@@ -44,7 +44,7 @@ npm run typecheck
 python scripts/valideer_publicatie.py
 ```
 
-Open lokaal `http://127.0.0.1:4205/testpad/#concordans`. De expliciete previewalias controleert de JSON-hash en serveert de bytes alleen op localhost. Zij schrijft niets naar `dist/site`; zij is geen productiebackend. Zonder `--concordans-env` is de privébron ook met een gezette omgevingsvariabele niet beschikbaar. Dit onderscheid blijft vereist zolang de publicatiegrondslag ontbreekt.
+Open lokaal `http://127.0.0.1:4205/testpad/#concordans`. De expliciete previewalias controleert de JSON-hash en serveert de bytes alleen op localhost. Zij schrijft niets naar `dist/site`; zij is geen productiebackend. Zonder `--concordans-env` is de privébron ook met een gezette omgevingsvariabele niet beschikbaar. Dit is een afzonderlijke lokale broncontrole, niet de gewone productieroute.
 
 ## Excel-download
 
@@ -60,7 +60,9 @@ De schrijver is `write-excel-file` **4.1.1** (MIT, volgens npm laatst gewijzigd 
 
 De testset controleert iedere oorspronkelijke en uitgevouwen cel, identiteit/716 rijen, elf kolommen, de doorlopende lijst, zoek-/lege toestanden, directe rijlinks, beide navigatierichtingen, cache, late antwoorden, 21/716, zes onopgeloste gevallen, statistiektekst en besluiten, bronlinks, toetsenbord en mobiel. De buildcontrole verhindert een ongewenste bronspiegel en controleert de afwezigheid van lokale paden en interne rapporten. Alle bestaande regressies worden opnieuw uitgevoerd.
 
-Andere browserengines dan Chromium en iedere mogelijke schermgrootte zijn niet afzonderlijk getest. Er is geen beoordelings-/bewerkinterface, Excel-download, automatische juridische interpretatie of productieactivering. Integrale publieke beschikbaarheid blijft geblokkeerd door het ontbreken van een aantoonbare hergebruikgrondslag.
+Andere browserengines dan Chromium en iedere mogelijke schermgrootte zijn niet afzonderlijk getest. Er is geen beoordelings-/bewerkinterface, automatische juridische interpretatie of productieactivering. De tijdens deze historische stap nog ontbrekende Excel-download is later gerealiseerd; zie de [actuele acceptatie](concordans-distributie-acceptatie.md).
+
+<a id="uitgevoerde-eindcontrole--11-november-2026"></a>
 
 ### Historische eindcontrole opdracht 14 — 11 november 2026
 
@@ -78,7 +80,7 @@ De bestaande 612/606/6-dekking, 605 oorspronkelijke parenvingerafdruk, bronwaard
 | Responsief | Tabel heeft eigen scrollgebied; details breken leesbaar af; geen horizontale documentoverloop |
 | Publieke build zonder bronalias | `/semantische-selectie-tool/#concordans=21` toont beschikbaarheidsmelding; JSON geeft verwachte 404; 2020 laadt en trefwoordzoeken geeft resultaten; geen runtimefouten |
 
-Screenshots zijn buiten de repository bewaard; zij worden niet in een publieke commit opgenomen. De verwachte 404 zonder bron is de expliciete distributiebeperking, geen geslaagde publieke gegevensraadpleging. Het ontbreken van rechtenonderbouwing blijft de blokkade voor volledige openbare functionaliteit. Gebruik dezelfde Playwright-procedure bij toekomstige wijzigingen; de optionele Browser-plugin kan interactieve inspectie ondersteunen, maar is geen runtimevereiste.
+Screenshots zijn buiten de repository bewaard; zij worden niet in een publieke commit opgenomen. De 404 in deze historische proef beschrijft de toenmalige build zonder concordansprojectie. De huidige vier-downloadstatus staat in het [acceptatierapport](concordans-distributie-acceptatie.md). Gebruik dezelfde Playwright-procedure bij toekomstige wijzigingen; de optionele Browser-plugin kan interactieve inspectie ondersteunen, maar is geen runtimevereiste.
 
 ### Controle van doorlopende viewer en Excel — opdracht 15
 
@@ -90,4 +92,4 @@ Aanvullend visueel gecontroleerd: `http://127.0.0.1:4203/controle/`, desktop 144
 
 Een lokale meting inclusief laden en valideren gaf **3.244 ms** voor openen van alle 716 rijen, **787 ms** voor invoeren/uitvoeren van een zoekopdracht en **709 ms** voor XLSX-generatie inclusief lazy laden; de download was circa 73 kB. Dit zijn indicatieve metingen op deze omgeving, geen garantie voor ieder apparaat. Daarom is geen virtual scrolling toegevoegd: de volledige tabel blijft één native, logisch navigeerbare tabel. Rijselectie bouwt de 716 rijen niet opnieuw op. Andere browserengines en tragere fysieke apparaten zijn niet afzonderlijk gemeten.
 
-Er is geen handmatige opening in Microsoft Excel of LibreOffice uitgevoerd; die programma's waren hier niet beschikbaar. Geldigheid en brongetrouwheid zijn gecontroleerd via de onderhouden XLSX-schrijver, daadwerkelijke browserdownload en onafhankelijke ZIP/XML-teruglezing. De publicatiegrondslag blijft onvoldoende vastgesteld; deze technische controles geven geen distributietoestemming.
+Er is geen handmatige opening in Microsoft Excel of LibreOffice uitgevoerd; die programma's waren hier niet beschikbaar. Geldigheid en brongetrouwheid zijn gecontroleerd via de onderhouden XLSX-schrijver, daadwerkelijke browserdownload en onafhankelijke ZIP/XML-teruglezing. Technische controles verlenen geen rechten op bronmateriaal; daarvoor gelden de verwijzingen in [HERGEBRUIK.md](../HERGEBRUIK.md).

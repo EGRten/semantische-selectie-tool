@@ -4,7 +4,7 @@
 
 **Functionele harde acceptatie gehaald: vier van vier echte Excel-downloads werken uit de gewone productiebuild.** Alle vier naslagwerken zijn doorlopend raadpleegbaar. Er is geen concordansalias, privébron, mock of omgevingsvariabele nodig voor raadplegen, vergelijken of downloaden.
 
-Dit resultaat volgt op de aanvullende expliciete instructie van de projecteigenaar om ondanks de niet-vastgestelde hergebruikgrondslag te publiceren. **Er is geen nieuwe licentie, toestemming van derden of voldoende onderbouwde wettelijke vrijstelling vastgesteld.** De technische beschikbaarheid is gerealiseerd; het oorspronkelijke juridische vrijgavecriterium is daarmee niet aangetoond. Zie [de concrete beoordeling en het gewijzigde uitvoeringsbesluit](concordans-publicatiebesluit.md).
+Voor bronvermelding, rechtenvoorbehouden en hergebruikvoorwaarden geldt [HERGEBRUIK.md](../HERGEBRUIK.md). Dit rapport beschrijft de technische beschikbaarheid en verleent geen rechten op bronmateriaal.
 
 ## Gewone productiecontrole
 
@@ -53,6 +53,6 @@ Bewust gewijzigd ten opzichte van PR #18: browsernetwerkcontroles en foutinjecti
 
 Officiële datasets, structuur, zoeklexicons, semantische relaties, oorspronkelijke concordanscellen, AI-onderzoeksvoorstellen en beoordelingsbesluiten zijn ongewijzigd. De drie bestaande selectieprojecties zijn bytegelijk. Geen nieuwe dependencies, backend, database of beoordelingssysteem. De bestaande privacy-/minimalisatie-inventarisatie is niet zonder aanwijzing herhaald; Office-makermetadata en interne controlebestanden blijven uitgesloten.
 
-De hergebruikgrondslag blijft onzeker zoals hierboven beschreven. Externe wettelijke pagina's konden niet opnieuw worden gelezen; concrete voorwaarden zijn niet als geverifieerde toestemming gepresenteerd. Er is geen nieuwe 2017-codemapping en er blijven zes onopgeloste historische relaties. Een technische koppeling blijft geen juridisch selectieadvies.
+Er is geen nieuwe 2017-codemapping en er blijven zes onopgeloste historische relaties. Een technische koppeling blijft geen juridisch selectieadvies.
 
 Deze oplevering maakt de publieke gegevens beschikbaar op de nieuwe Git-branch en in de gewone productiebuild. De branch wordt ter beoordeling aangeboden; `main` wordt niet zelfstandig bijgewerkt en GitHub Pages wordt niet geactiveerd. Een geslaagde productiebuild wordt niet voorgesteld als een reeds uitgevoerde Pages-deployment.

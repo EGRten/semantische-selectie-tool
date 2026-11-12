@@ -64,7 +64,7 @@ Dit is een zelfstandig onderhouden, particulier hobbyproject zonder commercieel 
 
 Oorspronkelijke softwarebroncode valt onder [MIT](LICENCE.md). Eigen oorspronkelijke documentatie, toelichtingen en geschikte verrijkingen vallen onder [CC BY 4.0](LICENCE-CC-BY-4.0.md), voor zover de maker rechten kan verlenen. Deze projectlicenties gelden niet automatisch voor officiële brongegevens, de VNG-concordans of ander materiaal van derden.
 
-[HERGEBRUIK.md](HERGEBRUIK.md) bevat de centrale publicatieverklaring, rechtenafbakening, VNG-bronverantwoording en publicatieaanname, gebruiksvoorwaarden en procedure voor meldingen en bezwaren. De aanname over VNG-hergebruikbevoegdheid is geen bewijs van rechthebbendheid of afzonderlijke toestemming.
+[HERGEBRUIK.md](HERGEBRUIK.md) beschrijft de herkomst en bronvermelding, toepasselijke voorwaarden, rechtenafbakening, gebruiksvoorwaarden en mogelijkheid om vragen of bezwaren te melden.
 
 ## Betrouwbaarheid en verantwoordelijkheid
 

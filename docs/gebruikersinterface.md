@@ -11,14 +11,14 @@ De drie downloads heten exact `Selectielijst 1996-2012.xlsx`, `Selectielijst 201
 
 De viewer toont nu alle 716 rijen in één doorlopende tabel, zonder paginering. Kolomkoppen en bronrijnummers blijven vast bij scrollen. Bronrijlinks markeren de rij en verschuiven de tabel ernaartoe. De knop **Download Concordans 1996-2020 (.xlsx)** maakt **Concordans 1996-2020.xlsx** met werkbladen **Concordans 1996-2020** en **Bronvermelding**. A–K blijven origineel, L–V zijn expliciet aanvullende uitgevouwen context en W is het bronrijnummer. Alle rijen worden geëxporteerd, ongeacht zoekfilters.
 
-De schrijver wordt pas op aanvraag in de browser geladen; er is geen aparte Excel-dataset of backend. Gegevens, besluiten en koppelingen blijven intact. De hergebruikgrondslag ontbreekt nog: JSON en afgeleide download worden niet publiek meegeleverd. De broninhoud is afzonderlijk op concrete persoonsgegevens gecontroleerd; er zijn daarbij geen concrete persoonsgegevens aangetroffen en er zijn geen rijen of kolommen om privacyredenen weggelaten. Twee gevulde maker-/wijzigingsvelden uit de oorspronkelijke werkmapmetadata worden niet overgenomen. Zie [viewer](concordans-viewer.md) en [privacy en hergebruik](concordans-hergebruik.md#privacycontrole-opdracht-15).
+De schrijver wordt pas op aanvraag in de browser geladen; er is geen aparte Excel-dataset of backend. Gegevens, besluiten en koppelingen blijven intact. De broninhoud is afzonderlijk op concrete persoonsgegevens gecontroleerd; er zijn daarbij geen concrete persoonsgegevens aangetroffen en er zijn geen rijen of kolommen om privacyredenen weggelaten. Twee gevulde maker-/wijzigingsvelden uit de oorspronkelijke werkmapmetadata worden niet overgenomen. Zie [viewer](concordans-viewer.md) en [privacy en hergebruik](concordans-hergebruik.md#privacycontrole-opdracht-15).
 
 
 ## Concordansviewer — 11 november 2026
 
 **Concordans raadplegen** ontsluit technisch alle 716 oorspronkelijke rijen en elf kolommen met zoeken, bladeren, rijpermalinks en koppelingen naar de bestaande voorschriften. Bronvelden, mergecontext, technische correcties en eigenaarbesluiten blijven gescheiden. De bestaande vergelijkingssectie linkt terug naar de bronviewer. Zie [concordans-viewer.md](concordans-viewer.md) voor bediening, testen en lokaal gebruik.
 
-De specifieke werkmap heeft nog geen voldoende aangetoonde hergebruikgrondslag voor integrale openbare JSON-distributie. Daarom blijven de oorspronkelijke data buiten de publieke build. Zonder data toont de viewer een eerlijke beschikbaarheidsmelding en werken selectielijsten/zoeken door. De [hergebruikafweging](concordans-hergebruik.md) beschrijft concrete bronnen, onzekerheden en de vereiste vervolgstap. Er is geen productiepublicatie geactiveerd.
+De gewone productiebuild bevat de compacte concordansprojectie voor raadplegen, vergelijken en downloaden. Bij ontbrekende of ongeldige data blijft een begrijpelijke foutmelding beschikbaar; de selectielijsten en zoekfuncties blijven werken. Voor bronvermelding en voorwaarden geldt [HERGEBRUIK.md](../HERGEBRUIK.md). GitHub Pages is niet geactiveerd.
 
 
 De eerste browserinterface maakt de drie gemeentelijke selectielijsten afzonderlijk raadpleegbaar. De applicatie heeft geen zoekfunctie, backend, database, accounts, selectieadvies of ChatGPT Sites-integratie.

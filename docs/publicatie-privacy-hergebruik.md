@@ -1,28 +1,10 @@
 # Privacy, herkomst en publicatiebesluit naslagwerken
 
-> Actueel opdracht 18: na een aanvullende expliciete publicatie-instructie van de projecteigenaar bevat de gewone productiebuild vier werkende downloads en de compacte concordans. De hergebruikgrondslag blijft niet vastgesteld; er wordt geen toestemming van derden geclaimd. Zie [publicatiebesluit](concordans-publicatiebesluit.md) en [acceptatierapport](concordans-distributie-acceptatie.md). Onderstaande eerdere uitvoeringsverslagen blijven als historie behouden.
+> De gewone productiebuild bevat vier naslagwerken en vier Excel-downloads, zonder lokale concordansalias. Zie de [actuele acceptatie](concordans-distributie-acceptatie.md) en [rechtenverklaring](../HERGEBRUIK.md). Eerdere technische resultaten hieronder beschrijven de genoemde ontwikkelstappen, niet de huidige distributiestatus.
 
-## Besluit en harde beperking — 11 november 2026
+## Herkomst en rechtenafbakening
 
-De drie officiële selectielijstprojecties kunnen binnen de bestaande afbakening van [HERGEBRUIK.md](../HERGEBRUIK.md) als tekstuele naslagwerken worden opgenomen: vastgestelde besluittekst op basis van de eerdere artikel 11-beoordeling en de drie vaststellingspublicaties. Er is geen nieuwe algemene licentie voor oorspronkelijke PDF-opmaak, spreadsheets, afbeeldingen, AI-rapporten of zelfstandige concordans verleend. Er zijn geen uitgesloten oorspronkelijke documenten toegevoegd.
-
-**Voor integrale openbare concordansweergave én JSON-/XLSX-distributie is nog geen voldoende onderbouwde grondslag vastgesteld. De harde acceptatievoorwaarde van vier publieke downloads is daarom NIET VERVULD.** De compacte concordansprojectie blijft lokaal. Een geslaagde privétest vervangt deze voorwaarde niet en deze opdracht is niet volledig afgerond. GitHub Pages is niet geactiveerd.
-
-## Concrete bron- en rechtencontrole concordans
-
-De oorspronkelijke werkmap `Concordans Selectielijst 1996-2020(1).xlsx` is geïdentificeerd met SHA-256 `7dfda792ce61c1a6fa28c5c116155a429560153178c6c58987eabbbe6cdf708c`; de gecontroleerde JSON met `b01cff07c7bfeeb6f562d467373615f5a18cfc7ab9777f11fcd5cb1ed7de73dd`. De bestaande Excel/JSON-controle bevestigt 716 rijen, elf kolommen, 550 merges, alle 7.876 oorspronkelijke en 7.876 uitgevouwen waarden.
-
-| Bewijsstuk / bron | Feitelijke uitkomst |
-| --- | --- |
-| [Bronregistratie](../bronnen/concordans-aangeleverd.bron.json) | Exacte werkmapdownloadlocatie onbekend; VHIC-FAQ uitsluitend vindplaatscontext, geen aangetoonde eigendom/licentie |
-| Werkmapkoppen, rijen 1 en 2 | Verwijzen naar selectielijsten 1996, 2020 en beschrijvend 2017; geen licentie of toestemming |
-| ZIP-onderdelen / documenteigenschappen | Geen rechten-/licentieonderdeel of custom-propertiesbestand. Twee gevulde makervelden. `Application=Microsoft Excel`, `Company=Microsoft`: productmetadata, geen bewijs van producent/rechthebbende van deze concordans |
-| [VHIC-FAQ](https://www.vhic.nl/faq/selectielijsten-2017-en-2020/) | Nieuwe HTTP-raadpleging geblokkeerd door omgevingsproxy met 403; reguliere Chromium-raadpleging eveneens `ERR_TUNNEL_CONNECTION_FAILED` |
-| [VNG-proclaimer](https://vng.nl/proclaimer) | Dezelfde beperkingen. Geen actuele tekst als gelezen of toestemming als verkregen gepresenteerd |
-| [Auteurswet](https://wetten.overheid.nl/BWBR0001886/) / [Databankenwet](https://wetten.overheid.nl/BWBR0010591/) | Concrete bestaande wettelijke toetsingsbronnen; nieuwe HTTP-raadpleging 403. Geen bewijs dat de zelfstandige werkmap onder een passende uitzondering of vrijgave valt |
-| [Bestaande hergebruikafweging](concordans-hergebruik.md) | Maker, bevoegde rechthebbende, eventuele databankproducent en toepasselijke voorwaarden voor de exacte werkmap nog niet vastgesteld |
-
-Een openbare vindplaats, bronvermelding, niet-commercieel gebruik, een compact formaat of het weglaten van dubbele contextkolommen maakt de integrale inhoud niet automatisch vrij van auteurs- of eventuele databankenrechten. Dat officiële besluittekst onder de eerdere artikel 11-beoordeling valt, bewijst niet dat dit zelfstandige hulpmiddel integraal onder dezelfde grondslag valt. De weigering betreft bewijs/onzekerheid, niet een bewezen verbod op ieder los functioneel hergebruik.
+Voor officiële selectiegegevens, de historische concordans uit de VNG-SelectTool en ander bronmateriaal gelden de afbakening en voorwaarden in [HERGEBRUIK.md](../HERGEBRUIK.md). De projectlicenties zijn geen herlicentiëring van bronmateriaal. De [bronverantwoording](concordans-hergebruik.md) beschrijft de gecontroleerde bestandsidentiteit: 716 rijen, elf kolommen, 550 merges en alle oorspronkelijke en uitgevouwen waarden.
 
 ## Privacy-inventarisatie en gegevensminimalisatie
 
@@ -41,8 +23,6 @@ De persoonskandidaten zijn inhoudelijk bekeken na signalering op onder meer e-ma
 
 De drie nieuwe projecties bevatten geen oorspronkelijke auteursmetadata, interne beoordelaarsvelden, lokale paden, PDF-coördinaten of volledige technische bronregistraties. Een bronregister bevat enkel unieke leesbare verwijzingen; korte verwijssleutels zijn niet zichtbaar in de exports. Werkelijke bronteksten met gepubliceerde namen zijn niet stilzwijgend geanonimiseerd of als volledig persoonsgegevenvrij omschreven.
 
-## Noodzakelijke vervolgstap
+## Documentgeschiedenis
 
-Stel de herkomstketen en bevoegde rechthebbende/producent van de exacte concordanswerkmap vast. Verkrijg of toon een toepasselijke licentie/toestemming die integrale webweergave, compacte JSON en volledige afgeleide XLSX dekt, of onderbouw een passende wettelijke grondslag. Leg bewijs, toepasselijke voorwaarden en bronvermelding vast. Een projectbesluit alleen kan geen rechten van derden verlenen.
-
-Pas na die vaststelling mag de concordansprojectie worden opgenomen en de fail-closed bouwblokkade worden aangepast. Herhaal dan de bron-/privacycontrole en de gewone productieacceptatie tot werkelijk vier downloads slagen zonder alias of privébron. Tot die tijd zijn het vierde publieke JSON-bestand en de vierde publieke download niet opgeleverd. Er zijn geen toestemmingsverzoeken aan derden verstuurd of productiepublicaties geactiveerd.
+[Eerdere versies](https://github.com/EGRten/semantische-selectie-tool/commits/911c9e2/docs/publicatie-privacy-hergebruik.md) blijven beschikbaar in de Git-geschiedenis.
