@@ -18,7 +18,7 @@ De applicatie ondersteunt het vinden van mogelijk relevante selectievoorschrifte
 
 Iedere selectielijst behoudt haar eigen hiërarchische structuur, terminologie en selectiegegevens.
 
-## Beoogde functionaliteit
+## Functionaliteit
 
 - Raadplegen van iedere selectielijst via een eigen boomstructuur.
 - Zoeken op officiële codes, trefwoorden en omschrijvingen.
@@ -50,28 +50,21 @@ Onbevestigde AI-voorstellen worden standaard niet meegenomen in zoekresultaten, 
 - De officiële selectielijsten vormen de gezaghebbende gegevensbron.
 - Officiële selectiegegevens en aanvullende zoekverrijking blijven gescheiden.
 - GitHub wordt gebruikt voor bronbeheer, versiebeheer en ontwikkeling met Codex.
-- ChatGPT Sites is de beoogde omgeving voor verdere ontwikkeling en publicatie.
-
-## Ontwikkelaanpak
-
-Het project wordt stapsgewijs ontwikkeld.
-
-1. Repository inrichten en datasetpakket opnemen.
-2. Gegevensbestanden en bronverwijzingen valideren.
-3. Statische gegevenslaag ontwikkelen.
-4. Navigatie en boomstructuren implementeren.
-5. Trefwoordzoekfunctie ontwikkelen.
-6. Begripsgerichte zoekfunctie ontwikkelen.
-7. Detailweergave en concordans toevoegen.
-8. Testen en voorbereiden op ChatGPT Sites.
+- GitHub Pages is de beoogde publicatieomgeving, onder het repositorysubpad.
 
 ## Projectstatus
 
-**In voorbereiding.**
+De applicatie is ontwikkeld en technisch gevalideerd in de beschreven Chromium-omgeving. De productiebuild bevat drie doorlopende selectielijsttabellen, een concordansviewer en vier Excel-downloads. Zie de [releaseacceptatie](docs/release-acceptatie.md) voor testresultaten en beperkingen; volledige WCAG 2.2-AA-conformiteit is nog niet vastgesteld.
 
-Het datasetpakket voor de drie gemeentelijke selectielijsten is beschikbaar. De webapplicatie is nog niet gebouwd.
+GitHub Pages is de beoogde publicatieomgeving. De applicatie is nog niet publiek geactiveerd via GitHub Pages; deze documentatieopdracht activeert geen publicatie. De [resterende releasepunten](docs/release-restpunten.md) blijven zichtbaar. De ontwikkelfasen staan in het [ontwikkelplan](docs/ontwikkelplan.md).
 
-De eerste ontwikkelfase richt zich op het onder versiebeheer brengen, controleren en technisch ontsluiten van de gegevens.
+## Onafhankelijkheid, licenties en hergebruik
+
+Dit is een zelfstandig onderhouden, particulier hobbyproject zonder commercieel oogmerk, niet namens of onder verantwoordelijkheid van een overheidsorganisatie. Het is geen officiële overheidspublicatie. VNG en andere genoemde organisaties zijn geen opdrachtgever en onderschrijven het project niet officieel.
+
+Oorspronkelijke softwarebroncode valt onder [MIT](LICENCE.md). Eigen oorspronkelijke documentatie, toelichtingen en geschikte verrijkingen vallen onder [CC BY 4.0](LICENCE-CC-BY-4.0.md), voor zover de maker rechten kan verlenen. Deze projectlicenties gelden niet automatisch voor officiële brongegevens, de VNG-concordans of ander materiaal van derden.
+
+[HERGEBRUIK.md](HERGEBRUIK.md) bevat de centrale publicatieverklaring, rechtenafbakening, VNG-bronverantwoording en publicatieaanname, gebruiksvoorwaarden en procedure voor meldingen en bezwaren. De aanname over VNG-hergebruikbevoegdheid is geen bewijs van rechthebbendheid of afzonderlijke toestemming.
 
 ## Betrouwbaarheid en verantwoordelijkheid
 

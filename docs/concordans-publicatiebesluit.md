@@ -1,4 +1,23 @@
-# Concordansdistributie na PR #18 — beoordeling opdracht 18
+# Publicatiebesluiten historische concordans
+
+## Publicatiekeuze opdracht 25
+
+Vastgelegd op 12 november 2026 op verzoek van de projecteigenaar. De [centrale publicatieverklaring](../HERGEBRUIK.md) regelt onafhankelijkheid, projectlicenties, uitzonderingen, VNG-bronvermelding, gebruiksvoorwaarden en bezwaren; die tekst wordt hier niet gedupliceerd.
+
+| Onderdeel | Status |
+| --- | --- |
+| Aangeleverde bronverantwoording | Concordans als onderdeel van de VNG-SelectTool; VNG-ledenbrief *Handvatten voor de uitvoering van de Archiefwet*, 26 mei 2020. Deze opdracht legt de verwijzing vast, zonder nieuwe externe verificatie |
+| Projectkeuze | Particulier, niet-commercieel, zelfstandig onderhouden, niet namens een overheid en niet officieel onderschreven door VNG/andere organisaties |
+| Hergebruikaanname | VNG wordt beschouwd als vermoedelijke rechthebbende of bevoegde beschikbaarsteller; hergebruik verantwoord met de [VNG-proclaimer](https://vng.nl/proclaimer) en VNG als bron |
+| Bewijsgrens | Geen juridische vaststelling van de rechthebbende of bewezen toepasselijkheid op de exacte werkmap; geen afzonderlijke toestemming verkregen of geclaimd. Projectlicenties gelden niet voor de concordans |
+| Besluit projecteigenaar | Publicatie-uitgangspunt en resterende onzekerheid expliciet geaccepteerd; geen nader makers-/contract-/rechten-/vergelijkingsonderzoek, geen contact met VNG of derden, geen nieuwe juridische conclusies |
+| Technische gevolgen van deze opdracht | Geen. Bronwaarden, relaties, besluiten, publicatie-JSON, exports, applicatie en deployment blijven intact; GitHub Pages blijft ongeactiveerd |
+
+[REL-01](release-restpunten.md) registreert de geaccepteerde aanname, niet een bewezen juridische vrijgave. De overige toegankelijkheids- en releasebeperkingen blijven gelden. Dit besluit vervangt de eerder voorgestelde vervolgstap van nader rechtenonderzoek; het vervangt geen eventueel vereiste rechten van derden.
+
+## Historisch verslag opdracht 18
+
+De volgende beoordeling en onderzoekssuggesties zijn historisch behouden, geen nieuwe conclusies of actuele onderzoeksopdracht. Er is in opdracht 25 geen aanvullend juridisch of brononderzoek uitgevoerd.
 
 ## Uitkomst
 
