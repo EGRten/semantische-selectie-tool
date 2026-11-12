@@ -43,6 +43,8 @@ Er wordt geen garantie gegeven op juistheid, volledigheid, actualiteit, beschikb
 
 ## Vragen, bezwaren en correcties
 
-Onderbouwde vragen of meldingen over bronvermelding, informatie, rechten of openbaarmaking kunnen via het bestaande [pull-requestkanaal](https://github.com/EGRten/semantische-selectie-tool/pulls) worden ingediend als reactie bij een relevante pull request. Vermeld het betrokken onderdeel of de bronrij, de onderbouwing en een eventuele gewenste correctie of verwijdering. Deel geen onnodige persoonsgegevens of vertrouwelijke informatie in een openbare reactie.
+Vragen, foutmeldingen, verbetervoorstellen en onderbouwde bezwaren over bronvermelding, informatie, rechten of openbaarmaking kunnen via [GitHub Issues](https://github.com/EGRten/semantische-selectie-tool/issues/new/choose) worden gemeld. Kies het passende meldformulier en noem het betrokken openbare onderdeel of de bronrij, met een toelichting en eventuele gewenste correctie of verwijdering.
+
+**GitHub Issues is openbaar, geen vertrouwelijk contactkanaal.** Plaats geen persoonsgegevens, vertrouwelijke bewijsstukken of andere gevoelige informatie in meldingen of bijlagen. Voor een melding die niet zonder zulke gegevens kan worden gedaan, is dit kanaal niet geschikt; een afzonderlijk privécontactkanaal is nog niet ingericht.
 
 Meldingen worden zorgvuldig beoordeeld en kunnen aanleiding geven tot correctie, beperking van beschikbaarheid of verwijdering. Correcties blijven herkenbaar; oorspronkelijke bronwaarden worden niet stilzwijgend herschreven. De meldingsprocedure vervangt geen rechten die vooraf vereist zijn.
