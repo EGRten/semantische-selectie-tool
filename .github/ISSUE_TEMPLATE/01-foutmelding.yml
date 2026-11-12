@@ -1,0 +1,33 @@
+name: "Fout of technisch probleem"
+description: "Meld een fout in de werking van de Semantische Selectie Tool."
+title: "[Fout] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Dit is een openbaar meldkanaal. Deel geen persoonsgegevens, vertrouwelijke gegevens of interne documenten."
+  - type: textarea
+    id: probleem
+    attributes:
+      label: Wat gaat er mis?
+      description: "Beschrijf het concrete probleem en het verwachte gedrag."
+      placeholder: "Bij het openen van ... gebeurt ...; verwacht: ..."
+    validations:
+      required: true
+  - type: textarea
+    id: stappen
+    attributes:
+      label: Hoe kunnen we dit reproduceren?
+      description: "Vermeld de gebruikte functie, selectielijst en eventuele selectiecode."
+    validations:
+      required: true
+  - type: input
+    id: omgeving
+    attributes:
+      label: Browser en apparaat (optioneel)
+      placeholder: "Bijvoorbeeld Firefox op Windows"
+  - type: textarea
+    id: aanvullend
+    attributes:
+      label: Aanvullende informatie (optioneel)
+      description: "Plaats alleen schermafbeeldingen als daar geen persoonlijke of vertrouwelijke informatie in staat."
