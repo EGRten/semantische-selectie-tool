@@ -2,11 +2,20 @@
 
 ## Status en doel
 
-Dit is een **ontwerpvoorstel**, geen themaschakelaar of toegepast kleurenschema. De huidige interface heeft één licht thema. De werkelijke browserproef met `prefers-color-scheme: dark` liet die lichte weergave intact. Native forced colors maakt tekst/links/randen bruikbaar, maar de visuele rijselectie verdwijnt gedeeltelijk (UI-08). Eigen donker/hoog contrast zijn optionele functies, geen vervanging voor herstel van UI-01/02 of native systeemondersteuning.
+Geïmplementeerd in opdracht 23, vanaf `main` met PR #22 (`d3946be`). Eén gelabelde instelling **Weergave** biedt Systeem, Licht, Donker en Hoog contrast. De bestaande interface, gegevens en exports blijven intact. Native geforceerde systeemkleuren gaan altijd voor; een eigen hoogcontrastpalet vervangt geen Windows Contrast Theme.
 
-Kleurkeuzes volgen de audit en zijn voor deze website ontworpen, niet als officiële NLDS- of gemeentekleuren gepresenteerd. Alle uiteindelijke componenten/staten moeten na implementatie opnieuw worden getoetst.
+Eén centraal mechanisme in `src/interface/thema.ts` bepaalt zowel het eerste als latere thema. CSS gebruikt de bestaande semantische tokens, zonder kleurinversie of componentkopieën. Het bouwscript maakt een klein klassiek `interface/thema.js`, dat in de HTML vóór de stylesheet staat. De gevalideerde voorkeur wordt daardoor vóór de eerste gestileerde paint toegepast, ook als de app-module nog laadt. Er is geen inline script, externe themadienst of extra dependency.
 
-## Voorstel semantisch kleurenpalet
+## Vier instellingen
+
+| Instelling | Werkelijke werking |
+| --- | --- |
+| Systeem (standaard) | Native forced colors eerst; anders `prefers-contrast: more` → hoog contrast; anders `prefers-color-scheme: dark` → donker; anders licht. Reageert op systeemwijzigingen |
+| Licht | Vast licht palet; systeem-dark/contrast wijzigen dit niet. Native forced colors blijft voorgaan |
+| Donker | Vast donker palet, inclusief native donkere formuliervelden; geen inversiefilter |
+| Hoog contrast | Zwart/wit, gele links, cyaan focus, herkenbare selectieranden. Dit is een eigen webpalet naast native systeemcontrast |
+
+## Geïmplementeerd semantisch kleurenpalet
 
 | Rol/token `--sst-…` | Licht | Donker | Hoog contrast |
 | --- | --- | --- | --- |
@@ -14,22 +23,24 @@ Kleurkeuzes volgen de audit en zijn voor deze website ontworpen, niet als offici
 | `surface` | `#ffffff` | `#18232e` | `#000000` |
 | `surface-subtle` | `#f1f5f7` | `#21303c` | `#000000` |
 | `text` | `#17212f` | `#eaf1f5` | `#ffffff` |
-| `text-muted` | `#4b5a69` | `#b5c4ce` | `#ffffff` |
-| `link` | `#006b5e` | `#a0ead8` | `#ffff00` |
+| `muted` | `#4b5a69` | `#b5c4ce` | `#ffffff` |
+| `accent` (links) | `#006b5e` | `#a0ead8` | `#ffff00` |
 | `action` / `action-text` | `#006b5e` / `#ffffff` | `#a0ead8` / `#101820` | `#ffffff` / `#000000` |
 | `control-border` | `#667985` | `#8fa5b2` | `#ffffff` |
 | `border-subtle` | `#ccd4d9` | `#586b78` | `#ffffff` |
 | `focus` | `#176cad` | `#ffd166` | `#00ffff` |
-| `selected-bg` / `selected-text` | `#e2f2ec` / `#17212f` | `#264945` / `#eaf1f5` | `#000000` / `#ffffff` |
+| `selected` / `selected-text` | `#e2f2ec` / `#17212f` | `#264945` / `#eaf1f5` | `#000000` / `#ffffff` |
 | `warning-bg` / `warning-text` | `#fff4d6` / `#573b00` | `#332914` / `#ffdda1` | `#000000` / `#ffffff` |
 | `error-bg` / `error-text` | `#fff0ed` / `#74251d` | `#3b1c21` / `#ffd1cc` | `#000000` / `#ffffff` |
-| `mark-bg` / `mark-text` | `#ffe9a9` / `#17212f` | `#5a4415` / `#fff3ce` | `#ffff00` / `#000000` |
+| `mark` / `mark-text` | `#ffe9a9` / `#17212f` | `#5a4415` / `#fff3ce` | `#ffff00` / `#000000` |
+
+De bestaande namen `accent`, `muted`, `selected` en `mark` zijn behouden; `action-text` en `mark-text` scheiden noodzakelijke voorgrondrollen. Hover en letterlijke verschillen hebben per palet eigen ondersteunende achtergrondtokens.
 
 Een subtiele scheidingslijn hoeft niet 3:1 te zijn als zij geen noodzakelijke betekenis/bediening afbakent; daarom niet dezelfde token gebruiken voor de herkenbare invoerveldrand. Geselecteerde rij krijgt in **alle** thema's een blijvende marker/sterke rand en toegankelijke status, niet alleen bovenstaande achtergrond.
 
-### Berekende contrasten van voorgestelde basisparen
+### Berekende contrasten van basisparen
 
-Berekend met sRGB-relatieve luminantie, afgerond op twee decimalen. Dit verifieert kleurparen, **geen volledige toekomstige component**.
+Berekend met sRGB-relatieve luminantie, afgerond op twee decimalen. Dit verifieert kleurparen, **geen volledige WCAG-conformiteitsverklaring**.
 
 | Paar | Ratio |
 | --- | ---: |
@@ -47,7 +58,7 @@ Berekend met sRGB-relatieve luminantie, afgerond op twee decimalen. Dit verifiee
 | Hoog contrast geel op zwart | 19,56:1 |
 | Hoog contrast cyaan op zwart | 16,75:1 |
 
-De huidige veldrand `#ccd4d9` op wit is slechts **1,50:1** en wordt dus niet als control-border behouden. Huidige gewone tekst/links zijn in de geteste lichte toestanden al goed leesbaar; een donker thema mag dat niet verslechteren. Toets geselecteerde/hover-/waarschuwings-/fout-/markcombinaties, doorschijnendheid, disabled uitzonderingen en aangrenzende surfaces opnieuw. Minimum: normale tekst 4,5:1, grote tekst volgens de norm 3:1, noodzakelijke niet-tekstcomponenten 3:1. Niet iedere vetgedrukte kleine kop is “grote tekst”.
+De oorspronkelijke veldrand `#ccd4d9` had slechts **1,50:1** contrast op wit. Het lichte palet gebruikt nu `#667985` als functionele rand (**4,53:1**). Huidige gewone tekst/links zijn in de geteste lichte toestanden al goed leesbaar; een donker thema mag dat niet verslechteren. Toets geselecteerde/hover-/waarschuwings-/fout-/markcombinaties, doorschijnendheid, disabled uitzonderingen en aangrenzende surfaces opnieuw. Minimum: normale tekst 4,5:1, grote tekst volgens de norm 3:1, noodzakelijke niet-tekstcomponenten 3:1. Niet iedere vetgedrukte kleine kop is “grote tekst”.
 
 ## Visueel gedrag per modus
 
@@ -59,13 +70,11 @@ De huidige veldrand `#ccd4d9` op wit is slechts **1,50:1** en wordt dus niet als
 
 **Native forced colors.** Heeft voorrang op alle eigen palettes. Laat de browser systeemkleuren kiezen: `Canvas`, `CanvasText`, `ButtonFace`, `ButtonText`, `LinkText`, `Highlight`, `HighlightText`. Behoud `forced-color-adjust: auto`; geen brede `none` om een huisstijl af te dwingen. Focus/selectie gebruiken zichtbare borders/outlines en tekst/marker, geen alleen-box-shadow. Achtergrondafbeeldingen, schaduwen en gekleurde vlakken zijn niet betrouwbaar als enige betekenisdrager. Een eigen hoogcontrastmodus is **geen** bewijs van werking met Windows Contrast Themes.
 
-De 412 axe-meldingen in de geforceerde scan zijn niet als 412 overtredingen vastgesteld: de werkelijk zichtbare systeemkleuren verschillen van de door de scanner vergeleken auteurskleuren. Bewaar dat onderscheid bij toekomstige controles. Gebruik echte Windows-systemen en ondersteunende technologie naast emulatie.
-
 ## Keuze en voorrangsregels
 
-Eén duidelijke gebruikersinstelling met vier waarden: **Systeemvoorkeur volgen**, **Licht**, **Donker**, **Hoog contrast**. Gebruik bij voorkeur een native select of een correct gelabelde radiogroep, geen drie onverklaarde icoontjes. Toon dat het gaat om de websiteweergave, niet om brongegevens of downloads.
+Eén native select met zichtbaar label **Weergave** en vier waarden: **Systeem**, **Licht**, **Donker**, **Hoog contrast**. De gekoppelde hulptekst maakt duidelijk dat dit alleen de websiteweergave betreft. De instelling blijft buiten de app-route staan en wordt niet bij navigatie vervangen.
 
-| Situatie | Advies |
+| Situatie | Werking |
 | --- | --- |
 | Geen expliciete keuze / “Systeem” | Volg systeeminstellingen: forced colors eerst; daarna `prefers-contrast: more` → eigen hoogcontrastpalet; anders `prefers-color-scheme: dark` → donker, anders licht |
 | Expliciet licht/donker/hoog contrast | Respecteer de gekozen eigen modus; systeem-dark wijzigt die niet. `forced-colors: active` blijft altijd leidend voor native kleuren |
@@ -76,13 +85,23 @@ Eén duidelijke gebruikersinstelling met vier waarden: **Systeemvoorkeur volgen*
 
 ### Lokale opslag en laadvolgorde
 
-Advies voor een volgende implementatie: lokaal één beperkte key, bijvoorbeeld `sst.theme.v1`, met uitsluitend toegestane waarden `system`, `light`, `dark`, `high-contrast`. Geen account, identificatie, telemetry, externe font-/thema-API of serveropslag. Lees-/schrijffouten afvangen: bij geblokkeerde opslag alleen sessiekeuze in geheugen, zonder fout die zoeken/downloaden verhindert. Een korte UI-uitleg vermeldt dat de voorkeur lokaal in deze browser blijft. Geen uitspraak dat iedere juridische privacy/cookievraag daardoor automatisch vervalt.
+Er wordt lokaal één beperkte key gebruikt, `sst.theme.v1`, met uitsluitend toegestane waarden `system`, `light`, `dark`, `high-contrast`. Geen account, identificatie, telemetry, externe font-/thema-API of serveropslag. Lees-/schrijffouten afvangen: bij geblokkeerde opslag alleen sessiekeuze in geheugen, zonder fout die zoeken/downloaden verhindert. Een korte UI-uitleg vermeldt dat de voorkeur lokaal in deze browser blijft. Geen uitspraak dat iedere juridische privacy/cookievraag daardoor automatisch vervalt.
 
-Voorkom onleesbare tussenstaten met een kleine vroege initialisatie vóór de eerste paint, of een gelijkwaardig statisch/CSP-compatibel mechanisme. Geen asynchrone netwerkfetch voor de voorkeur. Zet een gevalideerd attribuut op het documentelement; CSS definieert alle rollen. Houd de initlogica en runtime-resolver gedeeld om verschillende begin-/eindkleuren te voorkomen. Als inline code wordt gebruikt, de CSP-hash expliciet beheren; geen `unsafe-inline` als gemak.
+Hetzelfde centrale mechanisme leest de voorkeur bij de parserblokkerende vroege initialisatie en verwerkt daarna gebruikers-/systeemwijzigingen. Alleen `data-thema` op het documentelement verandert; geen herbouw van boom, zoekpanelen, tabellen of details. Er zijn geen thema-animaties of smooth-scrollovergangen toegevoegd, ook niet bij `prefers-reduced-motion`.
 
-Zonder JavaScript moet de basis-CSS ten minste het systeempalet/forced colors ondersteunen; bij deze app blijft functionele data-interactie zelf wel JavaScript vereisen. Falen van voorkeurinitialisatie mag geen witte tekst op witte achtergrond of onzichtbare controls geven. Bewaar de keuze bij navigatie/Back/Forward en laat een moduswissel focus en zoekfilter intact.
+Bij geblokkeerde opslag blijft de expliciete keuze in geheugen bruikbaar en vermeldt de gekoppelde hulptekst dat zij alleen voor deze pagina geldt. Ongeldige waarden vallen veilig terug op Systeem. Er wordt geen account, cookie-identificatie, externe opslag of tracking toegevoegd. Er is geen cross-tab-synchronisatie; herladen leest de laatste lokaal opgeslagen voorkeur.
 
-## Testmatrix voor toekomstige implementatie
+Ontbreekt of faalt het vroege themascript, dan blijft een leesbare lichte CSS-basis beschikbaar en de instelling uitgeschakeld; native forced colors blijft via CSS ondersteund. JavaScript is ook voor de bestaande gegevensinteractie nodig. Er wordt niet beweerd dat de opgeslagen voorkeur zonder JavaScript kan worden gelezen. Alle scripts zijn subpadrelatief en vanaf dezelfde statische publicatie te laden; geen CSP-versoepeling met `unsafe-inline` nodig.
+
+## Validatie opdracht 23
+
+Gerichte thematests controleren de vier waarden, echte mediawijzigingen, opslagfouten, ongeldige opslag, herladen en de vroege initialisatie terwijl de app-module geblokkeerd is. Alle vier tabellen behouden filter, DOM-identiteit, URL en scrollposities; beide zoekmodi behouden opdracht, filters, selectie en focus. Contrasttests meten semantische tekst-/link-/toestandparen (minimaal 4,5:1), noodzakelijke randen en focus tegen hun aangrenzende oppervlakken (minimaal 3:1), plus echte markeringen, primaire knoppen, waarschuwingen, foutmeldingen en vergelijkingscellen. Inactieve controls zijn geen 4,5:1-conformiteitsclaim.
+
+320px en echte Chromium-zoom 200/400% zijn per palet gecontroleerd, inclusief tabelfocus. Native forced colors is geëmuleerd, niet op echte Windows Contrast Themes met schermlezer getest. Safari/Firefox en onafhankelijke AT-verificatie blijven bestaande releasebeperkingen. De eenmalige volledige regressie slaagt: 163 moduletests en 122 browsertests. Typecheck, productiebuild, publieke datasetvalidatie en reproduceerbare publicatieprojecties slagen. De gewone productiebuild levert zonder alias of privébron alle vier geldige Excel-downloads met 716/494/305/346 rijen, correcte bestandsnamen, werkbladen en bronwaarden. Desktop-, mobiele en native-contrastemulatiebeelden zijn visueel gecontroleerd. De beschermde bron-, controle- en publicatiebestanden zijn ongewijzigd tegenover uitgangscommit d3946be.
+
+De bestaande browsertests kiezen de selectielijst nu op het label **Selectielijst** in plaats van een onbenoemde combobox: de nieuwe thema-instelling is immers ook een native select. De inhoudelijke verwachtingen en navigatiecontroles blijven behouden.
+
+## Overblijvende releaseverificatie
 
 Test iedere gekozen modus met systeem licht/donker, contrast meer/geen en forced colors aan/uit; de voorrangregels moeten eenduidig zijn. Minimaal:
 
@@ -94,4 +113,4 @@ Test iedere gekozen modus met systeem licht/donker, contrast meer/geen en forced
 6. Windows Contrast Themes, NVDA/Firefox of Chrome en VoiceOver/Safari; emulatie apart registreren.
 7. Geen bron-/publicatie-/Excel-inhoud verandert door themakeuze. Geen nieuwe netwerkrequests, tracking of layoutverspringing die focus onzichtbaar maakt.
 
-De optionele themaschakelaar is pas gereed als deze matrix is uitgevoerd; correcte losse kleurparen zijn niet genoeg. Zie [roadmap](ui-ux-verbeterroadmap.md).
+De gerichte geautomatiseerde toets vervangt geen onafhankelijk WCAG-onderzoek of echte Windows-/schermlezertest. Zie de bestaande [roadmap](ui-ux-verbeterroadmap.md).

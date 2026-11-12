@@ -20,7 +20,7 @@ test('initialisatie: Nederlands, lege toestand, geen datasetverzoeken en uitgesc
   await expect(page).toHaveTitle('Semantische Selectie Tool');
   await expect(page.locator('html')).toHaveAttribute('lang','nl');
   await expect(page.getByRole('heading',{name:'Nog geen onderdeel geselecteerd'})).toBeVisible();
-  await expect(page.getByRole('combobox')).toHaveValue('');
+  await expect(page.getByLabel('Selectielijst',{exact:true})).toHaveValue('');
   await expect(page.getByRole('button',{name:'Alles inklappen'})).toBeDisabled();
   expect(requests).toEqual([]);
   await expect(page.getByRole('searchbox')).toBeDisabled();
@@ -96,7 +96,7 @@ test('lijstwissel wist selectie en hergebruikt uitsluitend eigen cache',async({p
 test('snelle lijstwissel laat een trage vorige aanvraag geen nieuwe lijst overschrijven',async({page})=>{
   let release;const wachten=new Promise(r=>{release=r;});
   await page.route('**/datasets/2017/*.json',async route=>{await wachten;await route.continue();});
-  await page.getByRole('combobox').selectOption('2017');
+  await page.getByLabel('Selectielijst',{exact:true}).selectOption('2017');
   await expect(page.getByRole('status')).toHaveText('Selectielijst 2017 laden…');
   await kies(page,'2020');release();
   await expect(page.getByRole('status')).toHaveText('Selectielijst 2020 geladen.');
@@ -120,7 +120,7 @@ test('bronannotaties, afgebroken tekst en afwijkende bronlabels zichtbaar',async
 });
 test('toetsenbord: tabstop, pijlen, enter, spatie, home/end en zichtbare focus',async({page})=>{
   await kies(page,'2020');
-  await page.getByRole('combobox').focus();await page.keyboard.press('Tab');
+  await page.getByLabel('Selectielijst',{exact:true}).focus();await page.keyboard.press('Tab');
   await expect(page.getByRole('tab',{name:'Trefwoordzoeken',exact:true})).toBeFocused();
   await page.keyboard.press('Tab');await expect(page.getByRole('searchbox')).toBeFocused();
   await page.getByRole('button',{name:'Alles inklappen'}).focus();
@@ -137,7 +137,7 @@ test('toetsenbord: tabstop, pijlen, enter, spatie, home/end en zichtbare focus',
 });
 test('ontbrekend bestand: foutmelding en herstel met opnieuw proberen',async({page})=>{
   await page.route('**/datasets/2020/structuur.json',r=>r.fulfill({status:404,body:'ontbreekt'}));
-  await page.getByRole('combobox').selectOption('2020');
+  await page.getByLabel('Selectielijst',{exact:true}).selectOption('2020');
   await expect(page.getByRole('alert')).toContainText('Een bestand ontbreekt');
   await expect(page.getByRole('treeitem')).toHaveCount(0);
   await page.unroute('**/datasets/2020/structuur.json');
@@ -147,7 +147,7 @@ test('ontbrekend bestand: foutmelding en herstel met opnieuw proberen',async({pa
 test('ongeldige ouderverwijzing wordt als blokkerende fout getoond',async({page})=>{
   const nodes=await bron('2020','structuur');nodes[0].parent_id='2017:1';
   await page.route('**/datasets/2020/structuur.json',r=>r.fulfill({json:nodes}));
-  await page.getByRole('combobox').selectOption('2020');
+  await page.getByLabel('Selectielijst',{exact:true}).selectOption('2020');
   await expect(page.getByRole('alert')).toContainText('ongeldige verwijzing');
   await expect(page.getByRole('treeitem')).toHaveCount(0);
 });
@@ -162,7 +162,7 @@ test('ontbrekende selectieregel wordt niet vervangen door fictieve waarden',asyn
 });
 test('onverwachte netwerkrespons blijft een begrijpelijke fout, geen blanco pagina',async({page})=>{
   await page.route('**/datasets/2020/manifest.json',r=>r.fulfill({body:'geen json',contentType:'application/json'}));
-  await page.getByRole('combobox').selectOption('2020');
+  await page.getByLabel('Selectielijst',{exact:true}).selectOption('2020');
   await expect(page.getByRole('alert')).toContainText('ongeldig of onvolledig');
   await expect(page.getByRole('heading',{name:'Semantische Selectie Tool',exact:true})).toBeVisible();
 });
