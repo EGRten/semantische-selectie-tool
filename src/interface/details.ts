@@ -75,19 +75,18 @@ export function toonDetails(container: HTMLElement, dataset: Dataset, id: string
   container.append(code);
   const ouder = dataset.ouder(id);
   if (ouder) container.append(knop(`Naar bovenliggend onderdeel: ${ouder.code} ${ouder.benaming}`, () => selecteer(ouder.id), 'bovenliggend'));
-  const versie=element('details',undefined,'broncontext');versie.append(element('summary','Selectielijst, versie en vaststelling'),element('p',dataset.manifest.officiele_titel),element('p',`Vaststelling: ${dataset.manifest.vaststellingsgegevens.publicatie} · ${dataset.manifest.vaststellingsgegevens.datum} · ${dataset.manifest.vaststellingsgegevens.kenmerk}`),element('p',`Datasetversie: ${dataset.manifest.datasetversie}`));container.append(versie);
+  const versie=element('details',undefined,'broncontext');versie.append(element('summary','Selectielijst, versie en vaststelling'),element('p',dataset.manifest.officiele_titel),element('p',`Vaststelling: ${dataset.manifest.vaststellingsgegevens.publicatie} · ${dataset.manifest.vaststellingsgegevens.datum} · ${dataset.manifest.vaststellingsgegevens.kenmerk}`),element('p',`Datasetversie: ${dataset.manifest.datasetversie}`));
   if (regel) {
-    kopieerknop(container,dataset,regel);
     if(regel.id!==regel.structuur_id){const regels=dataset.selectiegegevensBij(regel.structuur_id);container.append(element('p',`Afzonderlijk voorschrift ${regels.findIndex(r=>r.id===regel.id)+1} van ${regels.length} binnen rubriek ${regel.code}. Gedeelde broncellen en opsommingscontext blijven bepalend.`,'hulptekst'));}
     const dl = element('dl', undefined, 'gegevens');
-    if(regel.officiele_omschrijving?.trim()) veld(dl,'Omschrijving',regel.officiele_omschrijving);
-    if (regel.resultaattype !== null) veld(dl,'Resultaattype',regel.resultaattype);
-    if (regel.generiek_specifiek !== null) veld(dl,'Generiek / specifiek',regel.generiek_specifiek);
     const duiding=regel.waardering.type==='vernietigen'?'Vernietigen':regel.waardering.type==='bewaren'?'Bewaren':undefined;
     veld(dl,'Waardering',regel.waardering.officiele_tekst ?? (duiding ? `${duiding} (volgens bronlegenda; geen afzonderlijke waarderingsletter in de bron).` : null));
     veld(dl,'Bewaartermijn',regel.bewaartermijn.officiele_tekst,regel.bewaartermijn.status);
     veld(dl,'Procestermijn',regel.procestermijn.officiele_tekst,regel.procestermijn.status);
     veld(dl,'Aanvangsmoment',regel.aanvangsmoment.officiele_tekst,regel.aanvangsmoment.status);
+    if(regel.officiele_omschrijving?.trim()) veld(dl,'Omschrijving',regel.officiele_omschrijving);
+    if (regel.resultaattype !== null) veld(dl,'Resultaattype',regel.resultaattype);
+    if (regel.generiek_specifiek !== null) veld(dl,'Generiek / specifiek',regel.generiek_specifiek);
     if (regel.procesomschrijving !== null) veld(dl,'Procesomschrijving',regel.procesomschrijving);
     if (regel.procesobject !== null) veld(dl,'Procesobject',regel.procesobject);
     if(regel.toelichting?.trim()) veld(dl,'Toelichting',regel.toelichting);
@@ -100,6 +99,8 @@ export function toonDetails(container: HTMLElement, dataset: Dataset, id: string
     container.append(dl);
     if (regel.status === 'vervallen') container.append(element('p','Dit resultaat is vervallen volgens de dataset.','melding'));
     voorwaarden(container,dataset,regel);
+    container.append(versie);
+    kopieerknop(container,dataset,regel);
     const annotaties = dataset.bronannotatiesBij(id);
     if (annotaties.length) {
       const sectie = element('section', undefined, 'annotaties'); sectie.append(element('h3','Bronannotaties'));
@@ -116,6 +117,7 @@ export function toonDetails(container: HTMLElement, dataset: Dataset, id: string
       container.append(sectie);
     }
   } else if (structuur) {
+    container.append(versie);
     container.append(bronContext(dataset,'bepalingen.json',undefined,b=>bronlocatie(dataset,b)));
     if(dataset.id==='1996-2012' && structuur.type==='rubriek')container.append(bronContext(dataset,'rubriekcontext.json',structuur.code,b=>bronlocatie(dataset,b)));
     if (structuur.toelichting) { const dl = element('dl',undefined,'gegevens'); veld(dl,'Toelichting',structuur.toelichting); container.append(dl); }
@@ -129,7 +131,7 @@ export function toonDetails(container: HTMLElement, dataset: Dataset, id: string
       const fout = element('p','Bij dit onderdeel ontbreken selectiegegevens. Raadpleeg de bron.','melding fout');fout.setAttribute('role','alert');container.append(fout);
     } else container.append(element('p','Dit is een structuurniveau. Kies een onderliggend onderdeel om selectiegegevens te raadplegen.','hulptekst'));
   }
-  container.append(element('h3','Bronlocaties'));
+  container.append(element('h3','Bronlocaties','bronlocaties-titel'));
   if (regel) {
     container.append(element('h4','Bron van de selectiegegevens'),bronlocatie(dataset,regel.bron));
     if(regel.aanvullende_bronnen.length)container.append(element('h4','Aanvullende bronnen'));

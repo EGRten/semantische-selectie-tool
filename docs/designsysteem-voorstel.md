@@ -4,7 +4,7 @@
 
 Advies: **een rustig naslagwerk met één consistente werkruimte**, gebouwd op de bestaande TypeScript-/CSS-architectuur. Behoud de drie hoofdfuncties, de boom/detailverdeling, native tabellen, bestaande routes en vier downloads. Geef officiële kerngegevens visuele voorrang; historische relaties en uitleg blijven duidelijk afzonderlijk. Geen zwaar UI-framework, geen nieuwe navigatiearchitectuur en geen vervanging van brongetrouwe gegevenscomponenten.
 
-Er is geen tweede volwaardig ontwerp nodig: een dashboard met kaarten of een chatinterface past minder bij lange officiële teksten en doorlopende tabellen. Het huidige functionele model is bruikbaar; vooral schaal, semantiek, focus en consistentie vragen verbetering. Dit document is uitsluitend een voorstel; er zijn geen tokens of stijlen in productie geïmplementeerd.
+Er is geen tweede volwaardig ontwerp nodig: een dashboard met kaarten of een chatinterface past minder bij lange officiële teksten en doorlopende tabellen. Het huidige functionele model is bruikbaar; vooral schaal, semantiek, focus en consistentie vragen verbetering. Het oorspronkelijke voorstel uit PR #20 blijft de referentie. In opdracht 22 is de lichte basis gericht gerealiseerd; zie de uitvoeringsstatus onderaan. Donkere modus en een eigen hoogcontrastmodus blijven uitsluitend voorstellen.
 
 ## Onderbouwing uit de audit
 
@@ -28,7 +28,7 @@ Gebruik NL Design System voor toegankelijk componentgedrag, tokenconventies, doc
 
 Een eigen beperkte verzameling CSS Custom Properties volstaat. Een JSON-tokenbouwstraat of componentpakket is pas zinvol bij aantoonbaar gedeeld beheer met andere producten. Namen/rolscheiding aansluiten op NLDS-principes zonder te claimen dat dit product een officieel goedgekeurd NLDS-thema is. Geen gemeentelijk logo of overheidshuisstijl nabootsen voor dit onafhankelijke initiatief.
 
-## Inventaris huidige vormgeving
+## Historische inventaris uit PR #20
 
 De [complete waardelijsten](audit-bewijs/css-inventaris.json) komen rechtstreeks uit `style.css`, zonder de broninhoud te wijzigen.
 
@@ -49,7 +49,7 @@ Positief: systeemletter, weinig decoratie, ruime line-height en reeds herkenbare
 
 ## Tokencontract — voorstel
 
-Een compacte laag van semantische tokens plus enkele componentaliassen is voldoende. Onderstaande namen/waarden zijn **ontwerpvoorstel**, geen toegepaste CSS. Themawaarden staan in [thema's en contrast](themas-en-contrast.md).
+Een compacte laag van semantische tokens plus enkele componentaliassen is voldoende. Onderstaande namen/waarden vormen het oorspronkelijke **ontwerpvoorstel**; de gerealiseerde lichte subset en actuele waarden staan in `src/interface/style.css`. Themawaarden staan in [thema's en contrast](themas-en-contrast.md).
 
 | Token | Voorstel | Verantwoordelijkheid |
 | --- | --- | --- |
@@ -122,3 +122,23 @@ Maak voor `background`, `surface`, `surface-subtle`, `text`, `text-muted`, `link
 Wijs één onderhoudsverantwoordelijke aan voor tokenrollen en componentcontracten. Documenteer per component semantiek, staten, toetsenbordgedrag, bron-/focuscontract en testscenario. Laat kleurwijzigingen via een kleine contrastevaluatie en visuele regressie gaan. Beperk overrides; verwijder oude regels pas nadat de nieuwe variant alle toestanden afdekt.
 
 Een afzonderlijke componentdemopagina kan later nuttig zijn, maar is geen voorwaarde om de P1's te herstellen. Begin met bestaande CSS in beheersbare stappen. Nieuwe tokens krijgen stabiele semantische namen; een grote Sass-/React-/UI-librarymigratie levert hier geen aangetoonde meerwaarde. Zie [roadmap](ui-ux-verbeterroadmap.md) voor volgorde en acceptatiecriteria.
+
+
+## Uitvoering opdracht 22 — 12 november 2026
+
+Vanaf `main` met PR #21 (`9526ec5`) zijn uitsluitend de zes resterende ontwerp-/gebruiksbevindingen behandeld:
+
+| Bevinding | Gerealiseerd | Status / toets |
+| --- | --- | --- |
+| UI-05 | Root `100%`; beperkte rem-schaal, drie gewichten/regelhoogtes; systeemletter en dezelfde invoer-/knopbasis, minimale controlhoogte `2.75rem` | Browservoorkeur 32px geeft root/invoer 32px en tabeltekst 30px; zoom en 320px behouden bereikbaarheid |
+| UI-06 | Zoekresultaten hebben geen eigen nested scroll meer. Desktop zijbalk gebruikt één navigatiescroll; mobiel heeft het boomgebied een benoemde begrensde scroll. Tabelregio maximaal 65vh, met zichtbare uitleg, beschrijving en focusindicator | Alle rijen blijven aanwezig; brede 2D-tabellen scrollen bewust lokaal. PR #21-focusbewaking blijft ongewijzigd en wordt opnieuw getest |
+| UI-07 | Waardering, volledige bewaartermijn, procestermijn en aanvangsmoment staan eerst; officiële voorwaarden vóór versie/kopiëren, historische vergelijking en annotaties | Alleen DOM-/presentatievolgorde; bronwaarden, duidingen, waarschuwingen en verwijzingen blijven volledig behouden |
+| UI-08 | Echte selectierand naast achtergrondkleur; native forced colors gebruikt dubbele selectieranden en dubbele linkonderstreping met systeemkleuren | Boom en alle vier tabellen getest onder browseremulatie; geen eigen hoogcontrastmodus of `forced-color-adjust:none` |
+| UI-10 | Semantische CSS Custom Properties voor lichte kleuren, functionele/decoratieve randen, typografie, ruimte, focus en controls; herhaalde regels/mediaqueries geconsolideerd | Geen framework, runtime-afhankelijkheid of thema-instelling toegevoegd |
+| UI-12 | Presentatie-colgroups onderscheiden codes, omschrijvingen, context, termijnen en compacte velden. Codekolom begrensd op smalle schermen; omschrijvingen krijgen meer ruimte | Tabelkolommen op 320px/tablet/desktop getoetst; geen bronwaarden of publicatie-JSON aangepast |
+
+Eerst gerichte browsercontroles voor deze zes punten, bestaande detail-/kopieercontroles en alle PR #21-focus-/navigatieregressies. De nieuwe typografische schaal maakt de zoekresultaatkop standaard 18px (1.125rem) in plaats van 17px; uitsluitend die bewuste presentatieverwachting in de bestaande test is aangepast. Er zijn geen inhoudelijke testverwachtingen veranderd.
+
+Na afronding eenmaal de volledige regressieset: **163 moduletests geslaagd**, nul overgeslagen; **105 van 106 browsertests direct geslaagd**. Eén bestaande concordans-focusproef bereikte de totale 30s-testlimiet zonder assertiefout; de gerichte hercontrole slaagde in 5,6s. Daarmee zijn alle 106 browsergevallen succesvol geverifieerd, zonder een tweede volledige run of aangepaste tijdslimiet. De oorspronkelijke time-out blijft als niet-gereproduceerde testbeperking geregistreerd. De gewone vier-downloadcontrole is geslaagd: 716 / 494 / 305 / 346 rijen, vier juiste bestandsnamen/werkbladen en alle primaire Excel-cellen gecontroleerd. Typecheck, publieke datasetvalidatie en reproduceerbare generatie slagen. Bestaande publieke validatie en reproduceerbare generatie bewaken bronintegriteit. Vier volledige exports blijven ongewijzigd; alleen websitepresentatie en bediening zijn veranderd.
+
+Resterende toetsgrens: forced colors is in Chromium geëmuleerd, niet op een echt Windows Contrast Theme met schermlezer getest. Safari/Firefox en onafhankelijke AT-verificatie blijven onderdeel van de bestaande releasevalidatie; geen volledige WCAG-conformiteit geclaimd. Brede tabellen houden volgens ontwerp horizontale scroll, zonder paginering of virtualisatie. Er is geen GitHub Pages-publicatie geactiveerd.
