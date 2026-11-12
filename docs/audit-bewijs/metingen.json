@@ -1,0 +1,981 @@
+{
+  "broncommit": "a76eaa6",
+  "datum": "2026-11-12",
+  "browser": "156.0.8078.79",
+  "axe": "4.11.0",
+  "axe_sha256": "e9e5863c33a874f09bc01acd9234b7e3c871479f5eef8802fa582544465e6d01",
+  "schermen": [
+    {
+      "naam": "01-start",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "naam": "02-codezoeken",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": {
+        "violations": [
+          {
+            "id": "heading-order",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ],
+            "aantal": 1
+          }
+        ],
+        "incomplete": []
+      }
+    },
+    {
+      "naam": "03-details",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": {
+        "violations": [
+          {
+            "id": "heading-order",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ],
+            "aantal": 1
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 70
+          }
+        ]
+      }
+    },
+    {
+      "naam": "04-relaties",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": {
+        "violations": [
+          {
+            "id": "heading-order",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ],
+            "aantal": 2
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 70
+          }
+        ]
+      }
+    },
+    {
+      "naam": "05-vergelijking",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": {
+        "violations": [
+          {
+            "id": "heading-order",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ],
+            "aantal": 2
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 70
+          }
+        ]
+      }
+    },
+    {
+      "naam": "06-begripszoeken",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": {
+        "violations": [
+          {
+            "id": "heading-order",
+            "impact": "moderate",
+            "tags": [
+              "cat.semantics",
+              "best-practice"
+            ],
+            "aantal": 1
+          }
+        ],
+        "incomplete": []
+      }
+    },
+    {
+      "naam": "07-tabel-1996-2012",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3926
+          },
+          {
+            "id": "skip-link",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "naam": "07-tabel-2017",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3014
+          },
+          {
+            "id": "skip-link",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "naam": "07-tabel-2020",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3424
+          },
+          {
+            "id": "skip-link",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "naam": "08-concordans",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 9321
+          },
+          {
+            "id": "skip-link",
+            "nodes": 1
+          }
+        ]
+      }
+    },
+    {
+      "naam": "09-formaat-320x640",
+      "viewport": {
+        "width": 320,
+        "height": 640,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": null
+    },
+    {
+      "naam": "09-formaat-390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": null
+    },
+    {
+      "naam": "09-formaat-768x1024",
+      "viewport": {
+        "width": 768,
+        "height": 1024,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": null
+    },
+    {
+      "naam": "09-formaat-844x390",
+      "viewport": {
+        "width": 844,
+        "height": 390,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": null
+    },
+    {
+      "naam": "09-formaat-1920x1080",
+      "viewport": {
+        "width": 1920,
+        "height": 1080,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": null
+    },
+    {
+      "naam": "10-mobiel-details",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": null
+    },
+    {
+      "naam": "11-tekstafstand",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": null
+    },
+    {
+      "naam": "12-standaardletter-32px",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": null
+    },
+    {
+      "naam": "13-systeem-donker",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": null
+    },
+    {
+      "naam": "14-forced-colors",
+      "viewport": {
+        "width": 1440,
+        "height": 1000,
+        "dpr": 1
+      },
+      "overloop": false,
+      "axe": {
+        "violations": [
+          {
+            "id": "color-contrast",
+            "impact": "serious",
+            "tags": [
+              "cat.color",
+              "wcag2aa",
+              "wcag143",
+              "TTv5",
+              "TT13.c",
+              "EN-301-549",
+              "EN-9.1.4.3",
+              "ACT",
+              "RGAAv4",
+              "RGAA-3.2.1"
+            ],
+            "aantal": 412
+          }
+        ],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3424
+          },
+          {
+            "id": "skip-link",
+            "nodes": 1
+          }
+        ]
+      }
+    }
+  ],
+  "zoom": [
+    {
+      "soort": "werkelijke-paginazoom",
+      "zoom": 1,
+      "innerWidth": 1280,
+      "dpr": 1,
+      "overloop": false,
+      "gefilterde_rijen": 1,
+      "detail": {
+        "focus": "detailtitel",
+        "overloop": false
+      }
+    },
+    {
+      "soort": "werkelijke-paginazoom",
+      "zoom": 2,
+      "innerWidth": 640,
+      "dpr": 2,
+      "overloop": false,
+      "gefilterde_rijen": 1,
+      "detail": {
+        "focus": "detailtitel",
+        "overloop": false
+      }
+    },
+    {
+      "soort": "werkelijke-paginazoom",
+      "zoom": 3.9999999999999996,
+      "innerWidth": 320,
+      "dpr": 4,
+      "overloop": false,
+      "gefilterde_rijen": 1,
+      "detail": {
+        "focus": "detailtitel",
+        "overloop": false
+      }
+    },
+    {
+      "soort": "standaardletter-browser",
+      "was": 16,
+      "nu": 32,
+      "html": "16px",
+      "body": "16px",
+      "h1": "27px"
+    }
+  ],
+  "gedrag": [
+    {
+      "proef": "Tab-startvolgorde",
+      "tabs": [
+        {
+          "tag": "A",
+          "id": "",
+          "tekst": "Naar de details",
+          "rol": null,
+          "tabindex": null,
+          "hash": ""
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "tekst": "Zoeken en verkennen",
+          "rol": null,
+          "tabindex": null,
+          "hash": ""
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "tekst": "Selectielijsten raadplegen",
+          "rol": null,
+          "tabindex": null,
+          "hash": ""
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "tekst": "Concordans raadplegen",
+          "rol": null,
+          "tabindex": null,
+          "hash": ""
+        },
+        {
+          "tag": "SELECT",
+          "id": "selectielijst",
+          "tekst": "Kies een selectielijst1996, actualisatie 201220172020",
+          "rol": null,
+          "tabindex": null,
+          "hash": ""
+        },
+        {
+          "tag": "BUTTON",
+          "id": "zoekmodus-0",
+          "tekst": "Trefwoordzoeken",
+          "rol": "tab",
+          "tabindex": "0",
+          "hash": ""
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "tekst": "Hergebruik",
+          "rol": null,
+          "tabindex": null,
+          "hash": ""
+        },
+        {
+          "tag": "A",
+          "id": "",
+          "tekst": "Privacy",
+          "rol": null,
+          "tabindex": null,
+          "hash": ""
+        },
+        {
+          "tag": "BODY",
+          "id": "",
+          "tekst": "\n  Naar de details\n  Semantische Selectie ToolGemeentelijke selectielijsten\n  Zoeken en ve",
+          "rol": null,
+          "tabindex": null,
+          "hash": ""
+        }
+      ]
+    },
+    {
+      "proef": "boom-pijl-rechts",
+      "expanded": "true",
+      "focus": {
+        "tag": "LI",
+        "id": "",
+        "tekst": "1Instellen en inrichten organisatie1.1Ingericht1.1.1Inrichten of wijzigen met een organisa",
+        "rol": "treeitem",
+        "tabindex": "0",
+        "hash": ""
+      }
+    },
+    {
+      "proef": "boom-pijl-omlaag",
+      "focus": {
+        "tag": "LI",
+        "id": "",
+        "tekst": "1.1Ingericht1.1.1Inrichten of wijzigen met een organisatie brede impact1.1.2Gemeentewapen1",
+        "rol": "treeitem",
+        "tabindex": "0",
+        "hash": ""
+      }
+    },
+    {
+      "proef": "boom-enter",
+      "titel": "Ingericht",
+      "focus": {
+        "tag": "LI",
+        "id": "",
+        "tekst": "1.1Ingericht1.1.1Inrichten of wijzigen met een organisatie brede impact1.1.2Gemeentewapen1",
+        "rol": "treeitem",
+        "tabindex": "0",
+        "hash": ""
+      }
+    },
+    {
+      "proef": "zoekresultaat-enter",
+      "focus": {
+        "tag": "LI",
+        "id": "",
+        "tekst": "19.1.19Gegevens over personen bij wie een reisdocument moet worden geweigerd of ingehouden",
+        "rol": "treeitem",
+        "tabindex": "0",
+        "hash": ""
+      },
+      "titel": "Gegevens over personen bij wie een reisdocument moet worden geweigerd of ingehouden"
+    },
+    {
+      "proef": "invoervelden-en-typografie",
+      "velden": [
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "border": "rgb(122, 136, 151)",
+          "background": "rgb(255, 255, 255)",
+          "font": "17px",
+          "lineheight": "normal",
+          "height": 0,
+          "width": 0
+        },
+        {
+          "tag": "A",
+          "type": "",
+          "border": "rgb(18, 104, 95)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "14px",
+          "lineheight": "22.4px",
+          "height": 0,
+          "width": 0
+        },
+        {
+          "tag": "SELECT",
+          "type": "select-one",
+          "border": "rgb(122, 136, 151)",
+          "background": "rgb(255, 255, 255)",
+          "font": "17px",
+          "lineheight": "normal",
+          "height": 42,
+          "width": 1384
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "border": "rgb(18, 104, 95)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "14px",
+          "lineheight": "22.4px",
+          "height": 36.390625,
+          "width": 241.828125
+        },
+        {
+          "tag": "INPUT",
+          "type": "search",
+          "border": "rgb(204, 212, 217)",
+          "background": "rgb(255, 255, 255)",
+          "font": "13.3333px",
+          "lineheight": "normal",
+          "height": 35,
+          "width": 197
+        },
+        {
+          "tag": "BUTTON",
+          "type": "submit",
+          "border": "rgb(18, 104, 95)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "16px",
+          "lineheight": "25.6px",
+          "height": 43.59375,
+          "width": 141.40625
+        },
+        {
+          "tag": "BUTTON",
+          "type": "button",
+          "border": "rgb(18, 104, 95)",
+          "background": "rgba(0, 0, 0, 0)",
+          "font": "16px",
+          "lineheight": "25.6px",
+          "height": 43.59375,
+          "width": 223.4375
+        }
+      ]
+    },
+    {
+      "proef": "tabel-naar-detail",
+      "focus": {
+        "tag": "H2",
+        "id": "detailtitel",
+        "tekst": "Gegevens over personen bij wie een reisdocument moet worden geweigerd of ingehouden",
+        "rol": null,
+        "tabindex": "-1",
+        "hash": "#selectie=2020%3A19.1.19"
+      }
+    },
+    {
+      "proef": "terug-tabel",
+      "focus": {
+        "tag": "A",
+        "id": "",
+        "tekst": "19.1.19",
+        "rol": null,
+        "tabindex": null,
+        "hash": "#lijst=2020%3A19.1.19"
+      },
+      "zoekcontext": "19.1.19"
+    },
+    {
+      "proef": "concordans-zonder-axe",
+      "dom": 30342,
+      "rijen": 716,
+      "metrics": [
+        {
+          "name": "Nodes",
+          "value": 41632
+        },
+        {
+          "name": "JSHeapUsedSize",
+          "value": 8616680
+        }
+      ]
+    },
+    {
+      "proef": "toetsenbord-tabelscroll",
+      "scrollLeft": 40
+    },
+    {
+      "proef": "smalle-details",
+      "overloop": false,
+      "breedte": 320
+    },
+    {
+      "proef": "systeemkleuren-selectie",
+      "styles": [
+        {
+          "rij": "21",
+          "achtergrond": "rgb(255, 255, 255)",
+          "kleur": "rgb(0, 0, 0)",
+          "rand": "rgb(0, 0, 0)",
+          "boxshadow": "none"
+        },
+        {
+          "rij": "22",
+          "achtergrond": "rgba(255, 255, 255, 0)",
+          "kleur": "rgb(0, 0, 0)",
+          "rand": "rgb(0, 0, 0)",
+          "boxshadow": "none"
+        }
+      ]
+    }
+  ],
+  "focus": [
+    {
+      "code": "3.2",
+      "y": 747.421875,
+      "bottom": 765.421875,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 2798
+    },
+    {
+      "code": "3.1.9",
+      "y": 601.640625,
+      "bottom": 619.640625,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 2798
+    },
+    {
+      "code": "3.1.8",
+      "y": 747.859375,
+      "bottom": 765.859375,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 2506
+    },
+    {
+      "code": "3.1.7",
+      "y": 602.078125,
+      "bottom": 620.078125,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 2506
+    },
+    {
+      "code": "3.1.6",
+      "y": 747.296875,
+      "bottom": 765.296875,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 2215
+    },
+    {
+      "code": "3.1.5",
+      "y": 601.515625,
+      "bottom": 619.515625,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 2215
+    },
+    {
+      "code": "3.1.4",
+      "y": 747.734375,
+      "bottom": 765.734375,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 1923
+    },
+    {
+      "code": "3.1.3",
+      "y": 601.953125,
+      "bottom": 619.953125,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 1923
+    },
+    {
+      "code": "3.1.2",
+      "y": 747.171875,
+      "bottom": 765.171875,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 1632
+    },
+    {
+      "code": "3.1.1",
+      "y": 601.390625,
+      "bottom": 619.390625,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 1632
+    },
+    {
+      "code": "3.1",
+      "y": 747.609375,
+      "bottom": 765.609375,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 1340
+    },
+    {
+      "code": "2.4",
+      "y": 643.421875,
+      "bottom": 661.421875,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 1340
+    },
+    {
+      "code": "2.3.1",
+      "y": 539.234375,
+      "bottom": 557.234375,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 1340
+    },
+    {
+      "code": "2.3",
+      "y": 748.046875,
+      "bottom": 766.046875,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 1027
+    },
+    {
+      "code": "2.2",
+      "y": 643.859375,
+      "bottom": 661.859375,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 1027
+    },
+    {
+      "code": "2.1.2",
+      "y": 539.671875,
+      "bottom": 557.671875,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 1027
+    },
+    {
+      "code": "2.1.1",
+      "y": 747.484375,
+      "bottom": 765.484375,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 715
+    },
+    {
+      "code": "2.1",
+      "y": 643.296875,
+      "bottom": 661.296875,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 715
+    },
+    {
+      "code": "1.5",
+      "y": 559.90625,
+      "bottom": 577.90625,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": false,
+      "scrollTop": 715
+    },
+    {
+      "code": "1.4",
+      "y": 492.515625,
+      "bottom": 510.515625,
+      "headerBottom": 555.1875,
+      "tableTop": 491.59375,
+      "tableBottom": 1021.59375,
+      "volledigOnderKop": true,
+      "scrollTop": 699
+    }
+  ],
+  "downloads": {
+    "harde_acceptatie": true,
+    "voorziening": "Gewone productiebuild, geen concordansalias, mocks of privébron",
+    "resultaten": [
+      {
+        "id": "concordans",
+        "geslaagd": true,
+        "controles": {
+          "bestandsnaam": true,
+          "werkbladen": true,
+          "aantal": true,
+          "primaire_bronwaarden": true,
+          "aanvullende_informatie": true,
+          "geen_macros_of_externe_links": true
+        },
+        "json_beschikbaar": true,
+        "rijen": 716,
+        "downloads": 1,
+        "bestandsnaam": "Concordans 1996-2020.xlsx",
+        "werkbladen": [
+          "Concordans 1996-2020",
+          "Bronvermelding"
+        ]
+      },
+      {
+        "id": "1996-2012",
+        "geslaagd": true,
+        "controles": {
+          "bestandsnaam": true,
+          "werkbladen": true,
+          "aantal": true,
+          "primaire_bronwaarden": true,
+          "aanvullende_informatie": true,
+          "geen_macros_of_externe_links": true
+        },
+        "json_beschikbaar": true,
+        "rijen": 494,
+        "downloads": 1,
+        "bestandsnaam": "Selectielijst 1996-2012.xlsx",
+        "werkbladen": [
+          "Selectiegegevens",
+          "Toelichtingen",
+          "Bronvermelding"
+        ]
+      },
+      {
+        "id": "2017",
+        "geslaagd": true,
+        "controles": {
+          "bestandsnaam": true,
+          "werkbladen": true,
+          "aantal": true,
+          "primaire_bronwaarden": true,
+          "aanvullende_informatie": true,
+          "geen_macros_of_externe_links": true
+        },
+        "json_beschikbaar": true,
+        "rijen": 305,
+        "downloads": 1,
+        "bestandsnaam": "Selectielijst 2017.xlsx",
+        "werkbladen": [
+          "Selectiegegevens",
+          "Toelichtingen",
+          "Bronvermelding"
+        ]
+      },
+      {
+        "id": "2020",
+        "geslaagd": true,
+        "controles": {
+          "bestandsnaam": true,
+          "werkbladen": true,
+          "aantal": true,
+          "primaire_bronwaarden": true,
+          "aanvullende_informatie": true,
+          "geen_macros_of_externe_links": true
+        },
+        "json_beschikbaar": true,
+        "rijen": 346,
+        "downloads": 1,
+        "bestandsnaam": "Selectielijst 2020.xlsx",
+        "werkbladen": [
+          "Selectiegegevens",
+          "Toelichtingen",
+          "Bronvermelding"
+        ]
+      }
+    ]
+  },
+  "console_pageerrors": [],
+  "beperking_forced_colors": "412 scannercontrastmeldingen zijn niet als 412 fouten geteld; geëmuleerde systeemkleuren vereisen visuele beoordeling en echte Windows-controle.",
+  "zoekresultaat_vanaf_permalink": {
+    "hash": "#selectie=2020%3A19.1",
+    "code": "Officiële code 19.1.19",
+    "focus": "treeitem"
+  }
+}
