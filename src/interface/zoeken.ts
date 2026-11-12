@@ -44,7 +44,7 @@ export function maakZoekpaneel(selecteer: (id: string) => void) {
   const status = element('p', 'Kies eerst een selectielijst om te zoeken.', 'zoekstatus'); status.setAttribute('aria-live', 'polite');
   const fout = element('p', undefined, 'melding fout'); fout.setAttribute('role', 'alert'); fout.hidden = true;
   const resultaten = element('section', undefined, 'zoekresultaten'); resultaten.hidden = true;
-  const kop = element('h3', 'Zoekresultaten'); kop.id = 'zoekresultatenkop'; resultaten.setAttribute('aria-labelledby', kop.id);
+  const kop = element('h2', 'Zoekresultaten'); kop.id = 'zoekresultatenkop'; resultaten.setAttribute('aria-labelledby', kop.id);
   const lijst = element('ol'); lijst.setAttribute('aria-label', 'Gevonden onderdelen');
   const meer = knop('Meer resultaten tonen', () => toonVolgende()); meer.hidden = true;
   resultaten.append(kop, lijst, meer); paneel.append(form, status, fout, resultaten);

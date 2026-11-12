@@ -522,8 +522,11 @@ input:focus-visible {
 .zoekresultaten {
   margin-top: 18px;
 }
-.zoekresultaten h3 {
+.zoekresultaten h2 {
+  letter-spacing: normal;
   margin-top: 0;
+  margin-bottom: 14px;
+  line-height: 1.4;
   font-size: 17px;
 }
 .zoekresultaten ol {
@@ -654,7 +657,7 @@ mark {
 .viewer-bron dt,.viewer-cellen dt { font-weight:650; margin-top:16px; }
 .viewer-bron dd,.viewer-cellen dd { margin:6px 0 12px; }
 .viewer-bediening { display:flex; gap:12px; align-items:center; flex-wrap:wrap; margin:20px 0; }
-.viewer-bediening input { padding:9px; max-width:100%; min-width:0; border:1px solid var(--lijn); }
+.viewer-bediening input { padding:9px; max-width:100%; min-width:0; border:1px solid #7a8897; }
 .viewer-bediening button { border:1px solid var(--accent); color:var(--accent); padding:8px 12px; }
 .viewer-bediening button:disabled { color:var(--muted); opacity:.6; }
 .viewer-tabelgebied { overflow:auto; max-height:530px; border:1px solid var(--lijn); }
@@ -686,3 +689,6 @@ mark {
 .viewer-tabel thead th:first-child { left:0; z-index:3; }
 .viewer-tabel tr[aria-current=true] > th { background:#e5f2ed; }
 .lijsten-viewer .viewer-tabel th:first-child { width:110px; }
+
+/* Semantische sectiekop in de disclosure; behoud het bestaande uiterlijk. */
+.historische-relaties > summary > h3 { display:inline; font:inherit; letter-spacing:inherit; margin:0; }

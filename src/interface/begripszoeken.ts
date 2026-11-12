@@ -24,7 +24,7 @@ export function maakBegripspaneel(selecteer: (id: string) => void, laden: (id: S
   const fout=element('p',undefined,'melding fout');fout.setAttribute('role','alert');fout.hidden=true;
   const opnieuw=knop('Zoeklexicon opnieuw laden',()=>void activeer());opnieuw.hidden=true;
   const resultaten=element('section',undefined,'zoekresultaten');resultaten.hidden=true;
-  const kop=element('h3','Begripsgerichte zoekresultaten');kop.id='begripsresultatenkop';resultaten.setAttribute('aria-labelledby',kop.id);
+  const kop=element('h2','Begripsgerichte zoekresultaten');kop.id='begripsresultatenkop';resultaten.setAttribute('aria-labelledby',kop.id);
   const lijst=element('ol');const meer=knop('Meer resultaten tonen',()=>volgende());meer.hidden=true;
   resultaten.append(kop,lijst,meer);
   paneel.append(form,status,fout,opnieuw,element('p','Zoekrelevantie is geen archivistische toepasselijkheid of automatisch selectieadvies.','zoekhulp'),resultaten);

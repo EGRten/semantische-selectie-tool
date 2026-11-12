@@ -27,7 +27,7 @@ export function toonBesluit(b:Beoordelingsbesluit):HTMLElement{
  return blok;
 }
 export function maakConcordanspaneel(dataset:Dataset,id:string,opties:Opties):HTMLDetailsElement{
-  const paneel=element('details',undefined,'historische-relaties');paneel.append(element('summary','Vergelijk met andere selectielijsten'));
+  const paneel=element('details',undefined,'historische-relaties');const samenvatting=element('summary');samenvatting.append(element('h3','Vergelijk met andere selectielijsten'));paneel.append(samenvatting);
   const inhoud=element('div',undefined,'concordans-inhoud');paneel.append(inhoud);let aanvraag=0,vergelijkingAanvraag=0;
   const geldig=(n:number)=>paneel.isConnected&&paneel.open&&aanvraag===n;
   function fout(actie:()=>void){inhoud.replaceChildren(element('p','De concordans kan niet worden geladen of bevat ongeldige verwijzingen. Het bestand is mogelijk niet beschikbaar in deze publicatie. De officiële selectiegegevens blijven raadpleegbaar.','melding fout'),knop('Concordans opnieuw proberen',actie));inhoud.firstElementChild?.setAttribute('role','alert');}
