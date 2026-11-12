@@ -127,7 +127,7 @@ select {display:block;width:100%;}
 .boom [aria-selected=true]>.boomrij {background:var(--sst-selected);color:var(--sst-selected-text);border-inline-start-color:var(--sst-accent);font-weight:var(--sst-weight-strong);}
 .boomnaam {min-width:0;overflow-wrap:anywhere;}
 .code {flex-shrink:0;font-variant-numeric:tabular-nums;}
-.pijl {width:1rem;min-width:1rem;height:1.5rem;display:flex;align-items:center;justify-content:center;}
+.pijl {width:1.5rem;min-width:24px;min-height:24px;height:1.5rem;display:flex;align-items:center;justify-content:center;}
 .pijl svg {width:.875rem;height:.875rem;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;}
 .boom [aria-expanded=true]>.boomrij>.pijl svg {transform:rotate(90deg);}
 .boom li:not([aria-expanded])>.boomrij>.pijl svg {visibility:hidden;}
