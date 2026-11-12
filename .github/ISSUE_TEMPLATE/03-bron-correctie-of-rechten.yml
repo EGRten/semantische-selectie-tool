@@ -1,0 +1,39 @@
+name: "Bronvermelding, correctie of rechten"
+description: "Meld een mogelijke bronfout, onjuiste bronvermelding of bezwaar tegen publicatie."
+title: "[Bron/rechten] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "LET OP: Issues en bijlagen zijn openbaar. Deel hier geen persoonsgegevens, vertrouwelijke informatie, bewijsstukken met gevoelige gegevens of andere informatie die niet publiek mag worden. Dit formulier is geen vertrouwelijk juridisch contactkanaal. Voor een gevoelige melding: publiceer de details niet; gebruik eerst een passend niet-openbaar contactkanaal wanneer dat beschikbaar is."
+  - type: dropdown
+    id: categorie
+    attributes:
+      label: Soort melding
+      options:
+        - Onjuiste bronvermelding
+        - Mogelijke inhoudelijke bronafwijking
+        - Bezwaar over auteursrecht of hergebruik
+        - Verzoek om correctie of verwijdering
+        - Overig
+    validations:
+      required: true
+  - type: textarea
+    id: locatie
+    attributes:
+      label: Welk publiek onderdeel betreft het?
+      description: "Noem de openbare pagina, URL, dataset of bronrij, zonder gevoelige gegevens."
+    validations:
+      required: true
+  - type: textarea
+    id: omschrijving
+    attributes:
+      label: Toelichting
+      description: "Omschrijf het bezwaar of de fout op hoofdlijnen. Publiceer geen vertrouwelijke bewijsstukken."
+    validations:
+      required: true
+  - type: textarea
+    id: wens
+    attributes:
+      label: Gewenste oplossing (optioneel)
+      description: "Bijvoorbeeld bronvermelding corrigeren, gegevens onderzoeken of materiaal verwijderen."

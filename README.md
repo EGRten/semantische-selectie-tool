@@ -66,6 +66,10 @@ Oorspronkelijke softwarebroncode valt onder [MIT](LICENCE.md). Eigen oorspronkel
 
 [HERGEBRUIK.md](HERGEBRUIK.md) beschrijft de herkomst en bronvermelding, toepasselijke voorwaarden, rechtenafbakening, gebruiksvoorwaarden en mogelijkheid om vragen of bezwaren te melden.
 
+## Meldingen en contact
+
+Gebruik [GitHub Issues](https://github.com/EGRten/semantische-selectie-tool/issues/new/choose) voor fouten, vragen, voorstellen en openbare meldingen over bronvermelding of rechten. Meldingen zijn openbaar: deel geen persoonsgegevens of vertrouwelijke documenten. Een afzonderlijk besloten contactkanaal is nog niet ingericht.
+
 ## Betrouwbaarheid en verantwoordelijkheid
 
 De officiële selectielijsten en hun toepasselijke bepalingen blijven leidend bij archiefselectie.
