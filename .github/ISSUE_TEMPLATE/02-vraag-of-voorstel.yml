@@ -1,0 +1,31 @@
+name: "Vraag, feedback of verbeteridee"
+description: "Stel een vraag of doe een voorstel voor de applicatie."
+title: "[Vraag/voorstel] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: "Dit kanaal is openbaar. Deel geen persoonsgegevens, vertrouwelijke dossiers of informatie uit interne systemen. De tool geeft geen bindend archivistisch of juridisch selectieadvies."
+  - type: dropdown
+    id: soort
+    attributes:
+      label: Soort melding
+      options:
+        - Vraag over de werking
+        - Verbeteridee
+        - Feedback over gebruiksgemak
+        - Overig
+    validations:
+      required: true
+  - type: textarea
+    id: toelichting
+    attributes:
+      label: Vraag of voorstel
+      description: "Beschrijf je vraag of het gewenste resultaat."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Relevante context (optioneel)
+      description: "Bijvoorbeeld het onderdeel of de selectiecode; gebruik geen persoonsgegevens."
