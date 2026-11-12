@@ -5,11 +5,13 @@ const profiel=await mkdtemp(join(tmpdir(),'ui-audit-zoom-'));
 const c=await chromium.launchPersistentContext(profiel,{executablePath:'/usr/bin/chromium',headless:true,viewport:{width:1280,height:1024}});
 try{
  const instellingen=await c.newPage();await instellingen.goto('chrome://settings/appearance');
- const page=await c.newPage();const rs=[];const basis=process.env.AUDIT_URL??'http://127.0.0.1:4229/semantische-selectie-tool/';
+ const page=await c.newPage();const opname=await c.newCDPSession(page);const rs=[];const basis=process.env.AUDIT_URL??'http://127.0.0.1:4229/semantische-selectie-tool/';
  for(const factor of [1,2,4]){
   await instellingen.evaluate(f=>chrome.settingsPrivate.setDefaultZoom(f),factor);
   await page.goto(basis+'#lijst=2020');await page.reload();await page.locator('.lijst-status').filter({hasText:'346 van 346'}).waitFor();
-  await page.screenshot({path:resolve(uit,`zoom-${factor*100}.png`)});
+  // Chromium 156: surface-capture kan bij echte 400%-zoom blanco zijn terwijl de viewport rendert.
+  const beeld=await opname.send('Page.captureScreenshot',{format:'png',fromSurface:false});
+  await writeFile(resolve(uit,`zoom-${factor*100}.png`),Buffer.from(beeld.data,'base64'));
   const meting={soort:'werkelijke-paginazoom',zoom:await instellingen.evaluate(()=>chrome.settingsPrivate.getDefaultZoom()),...await page.evaluate(()=>({innerWidth,dpr:devicePixelRatio,overloop:document.documentElement.scrollWidth>innerWidth}))};
   await page.locator('#lijst-tabelzoek').fill('19.1.19');await page.locator('#lijst-tabelzoek').press('Enter');
   meting.gefilterde_rijen=await page.locator('.lijsten-viewer [data-selectierij]').count();
