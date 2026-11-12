@@ -54,7 +54,7 @@ De publieke CSV-export is reproduceerbaar zonder netwerk, bron-PDF's, backend of
 
 ## Beperkingen en publicatievoorbehouden
 
-De zelfstandige Excel-concordans en volledige JSON-spiegel ontbreken bewust wegens niet vastgestelde onbeperkte herpublicatierechten. Geen concordans gereconstrueerd. Zeven volledige PDF's, twee externe spreadsheets, drie onderzoeksrapporten en elf bronuitsneden blijven uitgesloten. Het eigen controlewerkboek is wel behouden. Geen externe bronbestanden gedownload.
+De oorspronkelijke Excel-concordans en volledige JSON-spiegel maakten geen deel uit van dit importpakket. Geen concordans gereconstrueerd. De huidige compacte concordansprojectie is later opgenomen; voor herkomst en voorwaarden geldt [HERGEBRUIK.md](../HERGEBRUIK.md). Zeven volledige PDF's, twee externe spreadsheets, drie onderzoeksrapporten en elf bronuitsneden blijven uitgesloten. Het eigen controlewerkboek is wel behouden. Geen externe bronbestanden gedownload.
 
 `HERGEBRUIK.md` bevat een gemotiveerde afbakening op basis van artikel 11 Auteurswet voor vastgestelde besluittekst, geen alomvattende licentie of juridische vrijwaring. Zelfstandig niet-normatief begeleidend materiaal en toekomstige aanvullingen vragen blijvende beoordeling door de beheerder. De eigen code en AI-verrijking hebben geen nieuwe algemene repositorylicentie gekregen.
 

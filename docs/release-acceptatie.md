@@ -2,7 +2,7 @@
 
 12 november 2026. Getoetst: actuele `main` **`dbb1270`**, merge PR #23, inclusief PR #21/#22. Validatiebranch `releasevalidatie`; uitsluitend deze twee documenten en een afzonderlijke audithelper, geen productieherstel.
 
-Actualisatie opdracht 25, 12 november 2026: uitsluitend licentie- en publicatiecontext bijgewerkt volgens de expliciete projectkeuzes. De technische resultaten hieronder blijven die van opdracht 24; geen nieuwe validatie of juridische beoordeling uitgevoerd.
+De rechtencommunicatie is redactioneel herzien. De technische resultaten hieronder blijven die van opdracht 24; er is geen nieuwe validatie of juridische beoordeling uitgevoerd.
 
 ## Releaseoordeel
 
@@ -12,7 +12,7 @@ Actualisatie opdracht 25, 12 november 2026: uitsluitend licentie- en publicatiec
 | WCAG 2.2 AA voldoende aangetoond | **Nog niet vastgesteld**; geen volledige schermlezer-/browser-/systeemtoets |
 | Vier publieke downloads gevalideerd | **Ja**, gewone productiebuild zonder alias/privébron |
 | Bronintegriteit bevestigd | **Ja**, tegen gecontroleerde baseline, vaste vingerafdrukken en oorspronkelijke JSON |
-| Publieke vrijgave via GitHub Pages | **Nog niet geactiveerd**: REL-01 is als expliciete publicatieaanname geaccepteerd, niet juridisch bewezen; onafhankelijk AA-releasebewijs (REL-02) ontbreekt nog |
+| Publieke vrijgave via GitHub Pages | **Nog niet geactiveerd**: bronvermelding en voorwaarden staan bij REL-01; onafhankelijk AA-releasebewijs (REL-02) ontbreekt nog |
 
 Dit onderscheidt technisch functioneren van distributierechten en conformiteitsbewijs. Openstaande punten en afsluitcriteria: [release-restpunten](release-restpunten.md). Geen Pages geactiveerd.
 
@@ -98,7 +98,7 @@ De vier publieke projecties zijn byte-identiek reproduceerbaar en ongewijzigd te
 
 De bestaande [privacybevindingen](publicatie-privacy-hergebruik.md) blijven behouden: geen nieuwe gegevensverwerking, tracking, documentmetadata of persoonsgegevens toegevoegd. Gepubliceerde bronverantwoording kan namen bevatten; niet als volledig persoonsgegevenvrij aangeduid. Interne dossiers en originele Office-auteursmetadata blijven uitgesloten volgens bestaande controles.
 
-Voor de actuele publicatievoorwaarden is [HERGEBRUIK.md](../HERGEBRUIK.md) leidend, samen met het [publicatiebesluit opdracht 25](concordans-publicatiebesluit.md#publicatiekeuze-opdracht-25). De concordans wordt als onderdeel van de VNG-SelectTool verantwoord. VNG-hergebruikbevoegdheid is een expliciet door de projecteigenaar geaccepteerde aanname onder verwijzing naar het VNG-hergebruikbeleid; geen bewezen rechthebbendheid, toepasselijkheid op de exacte werkmap of afzonderlijk verkregen toestemming. Er wordt geen nader concordansrechtenonderzoek uitgevoerd. De eerdere onderzoeksverslagen blijven historisch herkenbaar.
+Voor herkomst, rechtenvoorbehouden en toepasselijke voorwaarden geldt [HERGEBRUIK.md](../HERGEBRUIK.md). De concordans is afkomstig uit de VNG-SelectTool, met VNG als bron en verwijzing naar de toepasselijke VNG-hergebruikvoorwaarden. Eigen projectlicenties gelden niet voor dit bronmateriaal. REL-01 is geen afzonderlijke rechtenvaststelling of toestemming.
 
 Het project is particulier en wordt niet namens of onder verantwoordelijkheid van een overheidsorganisatie gepubliceerd. Er wordt geen automatische Wdo-/overheidsverklaringsplicht aangenomen, noch een nieuwe juridische vrijstelling vastgesteld. De resterende norm-/verklaringsafbakening staat bij REL-03; het ontbrekende onafhankelijke toegankelijkheidsbewijs bij REL-02 blijft ongewijzigd. De README-status (REL-04) is bijgewerkt. Deze documentatieactualisatie geeft geen opdracht tot productieactivering.
 

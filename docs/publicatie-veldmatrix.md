@@ -1,6 +1,6 @@
 # Veldmatrix publieksgerichte naslagwerken
 
-De oorspronkelijke bron- en controlelaag blijft ongewijzigd. Het gesloten schema is [publicatie.schema.json](../schemas/publicatie.schema.json). Drie selectielijstprojecties staan in `publicatie/`; de concordansprojectie wordt alleen lokaal gegenereerd zolang de distributiegrondslag ontbreekt. Website en nieuwe Excel-downloads lezen dezelfde projectie, niet ieder een eigen selectie van bronvelden.
+De oorspronkelijke bron- en controlelaag blijft ongewijzigd. Het gesloten schema is [publicatie.schema.json](../schemas/publicatie.schema.json). De drie selectielijstprojecties en de compacte concordansprojectie staan in `publicatie/`. Website en nieuwe Excel-downloads lezen dezelfde projectie, niet ieder een eigen selectie van bronvelden.
 
 | Bronveld / gegevensgroep | Behandeling | Publieke bestemming / motivering |
 | --- | --- | --- |

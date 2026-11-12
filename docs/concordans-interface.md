@@ -1,21 +1,21 @@
 # Concordansinterface en historische vergelijking
 
-> Actueel opdracht 18: na een aanvullende expliciete publicatie-instructie van de projecteigenaar bevat de gewone productiebuild vier werkende downloads en de compacte concordans. De hergebruikgrondslag blijft niet vastgesteld; er wordt geen toestemming van derden geclaimd. Zie [publicatiebesluit](concordans-publicatiebesluit.md) en [acceptatierapport](concordans-distributie-acceptatie.md). Onderstaande eerdere uitvoeringsverslagen blijven als historie behouden.
+> De gewone productiebuild bevat vier naslagwerken en vier Excel-downloads, zonder lokale concordansalias. Zie de [actuele acceptatie](concordans-distributie-acceptatie.md) en [rechtenverklaring](../HERGEBRUIK.md). Eerdere technische resultaten hieronder beschrijven de genoemde ontwikkelstappen, niet de huidige distributiestatus.
 
-> Actueel bij opdracht 17: viewer en download gebruiken dezelfde compacte publicatieprojectie. De tabel/export heeft bronrij plus A–K (12 kolommen); mergecontext staat herkenbaar in dezelfde cel, niet in elf dubbele kolommen. Integrale publieke distributie blijft geblokkeerd. Zie [acceptatierapport](publicatie-acceptatie.md), [veldmatrix](publicatie-veldmatrix.md) en [hergebruik](publicatie-privacy-hergebruik.md). Oudere uitvoeringsbeschrijvingen hieronder documenteren de vorige ontwikkelstappen.
+> Gegevensrepresentatie: viewer en download gebruiken dezelfde compacte publicatieprojectie. De tabel/export heeft bronrij plus A–K (12 kolommen); mergecontext staat herkenbaar in dezelfde cel, niet in elf dubbele kolommen. Zie [acceptatierapport](concordans-distributie-acceptatie.md), [veldmatrix](publicatie-veldmatrix.md) en [hergebruik](publicatie-privacy-hergebruik.md). Oudere uitvoeringsbeschrijvingen hieronder documenteren de vorige ontwikkelstappen.
 
 ## Doorlopende tabel en Excel-download — opdracht 15
 
 De viewer toont nu alle 716 rijen in één doorlopende tabel, zonder paginering. Kolomkoppen en bronrijnummers blijven vast bij scrollen. Bronrijlinks markeren de rij en verschuiven de tabel ernaartoe. De knop **Download Concordans 1996-2020 (.xlsx)** maakt **Concordans 1996-2020.xlsx** met werkbladen **Concordans 1996-2020** en **Bronvermelding**. A–K blijven origineel, L–V zijn expliciet aanvullende uitgevouwen context en W is het bronrijnummer. Alle rijen worden geëxporteerd, ongeacht zoekfilters.
 
-De schrijver wordt pas op aanvraag in de browser geladen; er is geen aparte Excel-dataset of backend. Gegevens, besluiten en koppelingen blijven intact. De hergebruikgrondslag ontbreekt nog: JSON en afgeleide download worden niet publiek meegeleverd. De broninhoud is afzonderlijk op concrete persoonsgegevens gecontroleerd; er zijn daarbij geen concrete persoonsgegevens aangetroffen en er zijn geen rijen of kolommen om privacyredenen weggelaten. Twee gevulde maker-/wijzigingsvelden uit de oorspronkelijke werkmapmetadata worden niet overgenomen. Zie [viewer](concordans-viewer.md) en [privacy en hergebruik](concordans-hergebruik.md#privacycontrole-opdracht-15).
+De schrijver wordt pas op aanvraag in de browser geladen; er is geen aparte Excel-dataset of backend. Gegevens, besluiten en koppelingen blijven intact. De broninhoud is afzonderlijk op concrete persoonsgegevens gecontroleerd; er zijn daarbij geen concrete persoonsgegevens aangetroffen en er zijn geen rijen of kolommen om privacyredenen weggelaten. Twee gevulde maker-/wijzigingsvelden uit de oorspronkelijke werkmapmetadata worden niet overgenomen. Zie [viewer](concordans-viewer.md) en [privacy en hergebruik](concordans-hergebruik.md#privacycontrole-opdracht-15).
 
 
 ## Concordansviewer — 11 november 2026
 
 **Concordans raadplegen** ontsluit technisch alle 716 oorspronkelijke rijen en elf kolommen met zoeken, bladeren, rijpermalinks en koppelingen naar de bestaande voorschriften. Bronvelden, mergecontext, technische correcties en eigenaarbesluiten blijven gescheiden. De bestaande vergelijkingssectie linkt terug naar de bronviewer. Zie [concordans-viewer.md](concordans-viewer.md) voor bediening, testen en lokaal gebruik.
 
-De specifieke werkmap heeft nog geen voldoende aangetoonde hergebruikgrondslag voor integrale openbare JSON-distributie. Daarom blijven de oorspronkelijke data buiten de publieke build. Zonder data toont de viewer een eerlijke beschikbaarheidsmelding en werken selectielijsten/zoeken door. De [hergebruikafweging](concordans-hergebruik.md) beschrijft concrete bronnen, onzekerheden en de vereiste vervolgstap. Er is geen productiepublicatie geactiveerd.
+De gewone productiebuild gebruikt de compacte concordansprojectie voor raadplegen, vergelijken en downloaden. Bij ontbrekende of ongeldige data blijft een begrijpelijke foutmelding beschikbaar; de selectielijsten en zoekfuncties blijven werken. Voor bronvermelding en voorwaarden geldt [HERGEBRUIK.md](../HERGEBRUIK.md). GitHub Pages is niet geactiveerd.
 
 
 ## Actuele verwerking van beoordelingsbesluiten — 11 november 2026
@@ -70,7 +70,7 @@ De interface gebruikt de werkelijke oorspronkelijke concordans via de bestaande 
 
 > Deze vergelijking is gebaseerd op een historische concordans. Een relatie tussen voorschriften betekent niet automatisch dat zij juridisch of inhoudelijk gelijkwaardig zijn.
 
-De publieke build bevat nog **geen concordans-JSON**. Publieke distributie daarvan blijft afhankelijk van de vast te leggen grondslag; een lokaal functionerende vergelijking betekent geen herpublicatietoestemming. Het project is onafhankelijk, niet-commercieel, kosteloos en publiek toegankelijk. Dat is context voor de hergebruikafweging, geen zelfstandige toestemming.
+De actuele productiebuild bevat de compacte concordansprojectie. De volgende uitgangsbeschrijving betreft de eerdere ontwikkelfase met een afzonderlijke lokale bronalias. Voor bronvermelding en voorwaarden geldt [HERGEBRUIK.md](../HERGEBRUIK.md).
 
 ## Componenten en bestaande API's
 
@@ -121,7 +121,7 @@ Rij **716** is apart zichtbaar in het overzicht en bij het officiële record `20
 
 Elke bronverklaring vermeldt de oorspronkelijke richting, bronrij en werkblad. De oorspronkelijke cellen zijn afzonderlijk uitklapbaar; lege oorspronkelijke cellen blijven als leeg herkenbaar. Alleen daadwerkelijk uitgevouwen, gewijzigde mergewaarden staan onder ‘Werkelijk samengevoegde broncontext’. Concordanssubletters worden niet als officiële codes gepresenteerd.
 
-De oorspronkelijke bestandsnaam en bestaande lokale bronmetadata zijn bereikbaar. Er wordt geen directe Excel-downloadlink verzonnen. Publicerende organisatie en rechthebbenden worden niet op basis van aannames ingevuld; de beschikbare registratie stelt die voor deze exacte werkmap niet vast. De bestaande VHIC-contextverwijzing wordt niet verheven tot een bewezen publicatie- of eigendomsclaim.
+De oorspronkelijke bestandsnaam en geregistreerde bronmetadata blijven bereikbaar. De [publieke bronvermelding](../documentatie/concordans-bronvermelding.md) verwijst naar de VNG-SelectTool en de toepasselijke voorwaarden; de VHIC-verwijzing blijft aanvullende vindplaatscontext. Een bestandsverwijzing of technische koppeling verleent geen rechten op bronmateriaal.
 
 Vanuit 2017 verschijnt eerst de melding dat deze bron geen rechtstreeks vastgestelde 2017-codemapping bevat. Dat opent nog geen concordansbestand. Wie vervolgens expliciet het concordansoverzicht opent, kan de beschrijvende opmerkingen in J/K afzonderlijk bekijken. Ook een tekstovereenkomst wordt geen vastgestelde relatie of code-uitbreiding naar een andere lijst.
 
@@ -148,7 +148,7 @@ CONCORDANS_BRON_JSON='/pad/concordans.json' \
 
 Open `http://127.0.0.1:4201/testpad/`. De bestaande **lokale statische previewserver** krijgt alleen met de expliciete vlag `--concordans-env` een extra bestandsalias voor `concordans/concordans.json`. Hij controleert eerst SHA-256 `b01cff07c7bfeeb6f562d467373615f5a18cfc7ab9777f11fcd5cb1ed7de73dd` en luistert alleen op localhost. De bytes blijven buiten `dist/site/`; er ontstaat geen backenddienst in de applicatie. Zonder vlag wordt de privébron niet aangeboden, ook niet wanneer de omgevingsvariabele toevallig gezet is.
 
-De productiebuild blijft dus zonder bron-JSON en kan niets daarvan automatisch publiceren. De alias is een lokale ontwikkelvoorziening, geen publicatieroute. GitHub Pages wordt niet geactiveerd. Gewone hosting zonder de apart vast te stellen data-opname toont de begrijpelijke ontbrekend-bestandmelding.
+De oorspronkelijke bron-JSON blijft buiten de productiebuild; de compacte publicatieprojectie is wel opgenomen. De beschreven alias is een historische lokale ontwikkelvoorziening, geen vereiste voor de gewone productiebuild. GitHub Pages wordt niet geactiveerd.
 
 Volledige tests, inclusief daadwerkelijke browserinteracties met de echte bron:
 
@@ -169,4 +169,4 @@ Eén oude bouwtest is bewust bijgewerkt: de verwachting ‘geen UI-activatie’ 
 
 Visueel gecontroleerd via Playwright/Chromium op `http://127.0.0.1:4201/testpad/`, desktop 1440×1000 en mobiel 390×844. De Browser-plugin is niet beschikbaar; de bestaande Playwright-omgeving is gebruikt. Controle: correcte paginatitel/URL, betekenisvolle inhoud, geen foutoverlay, geen relevante console-/runtimefouten, werkende officiële vergelijking en geen horizontale overflow. Screenshots staan buiten de repository in `/tmp/concordans11-desktop.png` en `/tmp/concordans11-mobiel.png`.
 
-Niet getest in andere browserengines of op alle schermformaten. Zeven interpretaties blijven onopgelost; 2017 heeft geen volledige mapping; technische juistheid bewijst geen archivistische toepasselijkheid. De volledige bron en afgeleide tabel zijn niet publiek toegevoegd. Voor openbare functionaliteit blijft een afzonderlijke, onderbouwde data-distributiestap nodig.
+Niet getest in andere browserengines of op alle schermformaten. Zeven interpretaties blijven onopgelost; 2017 heeft geen volledige mapping; technische juistheid bewijst geen archivistische toepasselijkheid. De oorspronkelijke volledige bron wordt niet meegeleverd; de compacte tabel is inmiddels beschikbaar in de gewone productiebuild. Zie de [actuele acceptatie](concordans-distributie-acceptatie.md).

@@ -4,7 +4,7 @@
 
 **Concordans raadplegen** ontsluit technisch alle 716 oorspronkelijke rijen en elf kolommen met zoeken, bladeren, rijpermalinks en koppelingen naar de bestaande voorschriften. Bronvelden, mergecontext, technische correcties en eigenaarbesluiten blijven gescheiden. De bestaande vergelijkingssectie linkt terug naar de bronviewer. Zie [concordans-viewer.md](concordans-viewer.md) voor bediening, testen en lokaal gebruik.
 
-De specifieke werkmap heeft nog geen voldoende aangetoonde hergebruikgrondslag voor integrale openbare JSON-distributie. Daarom blijven de oorspronkelijke data buiten de publieke build. Zonder data toont de viewer een eerlijke beschikbaarheidsmelding en werken selectielijsten/zoeken door. De [hergebruikafweging](concordans-hergebruik.md) beschrijft concrete bronnen, onzekerheden en de vereiste vervolgstap. Er is geen productiepublicatie geactiveerd.
+De gewone productiebuild gebruikt de compacte concordansprojectie voor raadplegen, vergelijken en downloaden. Bij ontbrekende of ongeldige data blijft een begrijpelijke foutmelding beschikbaar; de selectielijsten en zoekfuncties blijven werken. Voor bronvermelding en voorwaarden geldt [HERGEBRUIK.md](../HERGEBRUIK.md). GitHub Pages is niet geactiveerd.
 
 
 ## Actuele verwerking van beoordelingsbesluiten — 11 november 2026
@@ -158,14 +158,10 @@ De scripts weigeren rapportuitvoer naar publieke projectpaden; `.private-inputs/
 
 ## Herkomst en publieke distributie
 
-Het initiatief is onafhankelijk, publiek toegankelijk, niet-commercieel en zonder winstoogmerk. Functioneel hergebruik blijft het ontwerpuitgangspunt. De nieuwe bronaanlevering en hashmatch bewijzen bestandsidentiteit, **geen nieuwe herpublicatietoestemming**. De aangeleverde werkmap bevat geen aangetoonde bestandsbrede licentie; de eerder gepubliceerde rechtenafbakening blijft gelden.
+De bronidentiteit en technische koppelingen zijn gecontroleerd op de werkelijke werkmap en JSON. De publieke bronverantwoording vermeldt de VNG-SelectTool en de toepasselijke [VNG-hergebruikvoorwaarden](https://vng.nl/proclaimer). De bestaande [VHIC-verwijzing](https://www.vhic.nl/faq/selectielijsten-2017-en-2020/) blijft vindplaatscontext. Zie [HERGEBRUIK.md](../HERGEBRUIK.md) voor de rechtenafbakening.
 
-De bestaande broncontext verwijst naar [VHIC](https://www.vhic.nl/faq/selectielijsten-2017-en-2020/). Dit is geen bewezen directe downloadlocatie of bewijs dat VHIC alle rechten op deze exacte werkmap bezit. De precieze oorspronkelijke publicerende organisatie/rechthebbenden blijven in de bronmetadata onzeker; zij worden niet ingevuld op basis van software-eigenschappen of aannames.
-
-Excel, oorspronkelijke concordans-JSON, volledige technische koppeltabel en overige bestanden uit het eindpakket zijn niet in Git opgenomen. De browsermodule kan de **werkelijke** oorspronkelijke rij-JSON zelfstandig laden zodra deze onder een vastgestelde distributiegrondslag als statisch bestand beschikbaar wordt gesteld. Nog nodig voor publieke data-opname: leg de toepasselijke voorwaarden/grondslag en naamsvermelding voor dit bestand en de afgeleide tabel concreet vast en voeg die data daarna afzonderlijk ter beoordeling toe. Geen bronpublicatie of GitHub Pages geactiveerd.
-
-De technische verwerking op de echte bron is nu uitgevoerd. Publieke data-distributie, een concordansinterface en inhoudelijke oplossing van de resterende verwijzingen zijn niet afgerond.
+Oorspronkelijke Excel, volledige bron-JSON, volledige technische koppeltabel en overige eindpakketbestanden worden niet meegeleverd. De reguliere productiebuild gebruikt de compacte concordansprojectie; de historische lokale broncontroles hieronder zijn daarvan te onderscheiden. De bronwaarden en beoordelingsbesluiten zijn niet gewijzigd.
 
 ## Eindcontrole bronviewer opdracht 14
 
-Op 11 november 2026 is dezelfde bronidentiteit opnieuw bevestigd. De bestaande controle vergelijkt alle 7.876 oorspronkelijke en 7.876 uitgevouwen cellen met Excel, inclusief de 550 werkelijke samengevoegde bereiken: geslaagd. 139 moduletests en 76 Chromium-browsertests met de echte lokale bron, nul overgeslagen, productiebuild, typecheck en publieke datasetvalidatie zijn geslaagd. Alle 716 rijen zijn in de bladerinterface bereikt. Het register, oorspronkelijke cellen en bestaande koppelingen blijven intact. Zie [viewercontrole](concordans-viewer.md#uitgevoerde-eindcontrole--11-november-2026). De publieke build bevat uitsluitend de viewer en bronvermelding, geen brondata; de hergebruikgrondslag is onvoldoende vastgesteld.
+Op 11 november 2026 is dezelfde bronidentiteit opnieuw bevestigd. De bestaande controle vergelijkt alle 7.876 oorspronkelijke en 7.876 uitgevouwen cellen met Excel, inclusief de 550 werkelijke samengevoegde bereiken: geslaagd. 139 moduletests en 76 Chromium-browsertests met de echte lokale bron, nul overgeslagen, productiebuild, typecheck en publieke datasetvalidatie zijn geslaagd. Alle 716 rijen zijn in de bladerinterface bereikt. Het register, oorspronkelijke cellen en bestaande koppelingen blijven intact. Zie [viewercontrole](concordans-viewer.md#uitgevoerde-eindcontrole--11-november-2026). Deze historische run gebruikte nog een lokale bronalias. De huidige productiebuild bevat de compacte concordansprojectie; zie de [actuele acceptatie](concordans-distributie-acceptatie.md).
