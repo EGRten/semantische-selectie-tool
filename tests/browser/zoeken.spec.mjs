@@ -80,7 +80,8 @@ test('toetsenbordbediening en zichtbare focus op resultaat, generiek/specifiek h
   const eerste=resultaten(page).getByRole('button').first();await expect(eerste).toBeFocused();
   expect(await eerste.evaluate(n=>getComputedStyle(n).outlineStyle)).toBe('solid');
   await page.keyboard.press('Enter');await expect(page.locator('#detailtitel')).toHaveText('Ingericht');
-  await expect(page.locator('[data-onderdeel="2020:1.1"]')).toBeFocused();
+  await expect(page.locator('#detailtitel')).toBeFocused();
+  await expect(page).toHaveURL(/#selectie=2020%3A1\.1$/);
 });
 test('technische zoekfout geeft foutmelding en wordt geen nul resultaten',async({page})=>{
   await kies(page);
