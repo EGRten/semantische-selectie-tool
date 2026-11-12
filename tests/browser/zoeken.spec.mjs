@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 async function kies(page,id='2020') {
-  await page.getByRole('combobox').selectOption(id);
+  await page.getByLabel('Selectielijst',{exact:true}).selectOption(id);
   await expect(page.getByRole('status')).toContainText('geladen.');
 }
 async function zoek(page,vraag) { await page.getByRole('searchbox').fill(vraag);await page.getByRole('searchbox').press('Enter'); }
@@ -54,7 +54,7 @@ test('wisselen wist opdracht, resultaten en filters voordat de nieuwe lijst arri
   await kies(page);await zoek(page,'1.1');await page.getByRole('checkbox').check();
   let vrij;const wacht=new Promise(r=>{vrij=r;});
   await page.route('**/datasets/2017/*.json',async route=>{await wacht;await route.continue();});
-  await page.getByRole('combobox').selectOption('2017');
+  await page.getByLabel('Selectielijst',{exact:true}).selectOption('2017');
   await expect(page.getByRole('searchbox')).toBeDisabled();await expect(page.getByRole('searchbox')).toHaveValue('');
   await expect(page.getByRole('checkbox')).not.toBeChecked();await expect(resultaten(page)).toBeHidden();
   vrij();await expect(page.getByRole('status')).toContainText('geladen.');await zoek(page,'1.1');

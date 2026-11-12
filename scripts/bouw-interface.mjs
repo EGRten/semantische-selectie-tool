@@ -33,6 +33,8 @@ await build({ entryPoints: ['src/concordans/index.ts'], outfile: 'dist/concordan
 // De bronbestanden worden ongewijzigd in de statische publicatiemap gekopieerd.
 await rm('dist/site', { recursive: true, force: true });
 await mkdir('dist/site/interface', { recursive: true });
+// Klassiek, parserblokkerend script vóór CSS: voorkeur toepassen vóór de eerste paint.
+await build({entryPoints:['src/interface/thema.ts'],outfile:'dist/site/interface/thema.js',bundle:true,format:'iife',platform:'browser',target:'es2022',minify:true});
 await build({
   entryPoints: ['src/interface/main.ts'],
   outfile: 'dist/site/interface/app.js',

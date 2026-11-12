@@ -1,6 +1,6 @@
 import {writeFile} from 'node:fs/promises';
 import {test,expect} from '@playwright/test';
-async function kies(page){await page.getByRole('combobox').selectOption('2020');await expect(page.getByRole('status')).toContainText('geladen.');}
+async function kies(page){await page.getByLabel('Selectielijst',{exact:true}).selectOption('2020');await expect(page.getByRole('status')).toContainText('geladen.');}
 async function zoek(page,q){await page.getByRole('searchbox').fill(q);await page.getByRole('searchbox').press('Enter');}
 test.beforeEach(async({page})=>{await page.goto('./');});
 test('volledige natuurlijke zoekvraag werkt zonder lexicon en navigeert naar de bronregel',async({page})=>{

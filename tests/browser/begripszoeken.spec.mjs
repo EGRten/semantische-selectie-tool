@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test';
-async function kies(page,id='2020'){await page.getByRole('combobox').selectOption(id);await expect(page.getByRole('status')).toContainText('geladen.');}
+async function kies(page,id='2020'){await page.getByLabel('Selectielijst',{exact:true}).selectOption(id);await expect(page.getByRole('status')).toContainText('geladen.');}
 async function begrippen(page){await page.getByRole('tab',{name:'Begripsgericht zoeken',exact:true}).click();await expect(page.getByRole('searchbox')).toBeEnabled();}
 async function zoek(page,q){await page.getByRole('searchbox').fill(q);await page.getByRole('searchbox').press('Enter');}
 const resultaten=page=>page.getByRole('region',{name:'Begripsgerichte zoekresultaten',exact:true});
