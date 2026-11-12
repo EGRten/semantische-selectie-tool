@@ -1,5 +1,7 @@
 # Publicatienaslagwerken — acceptatie opdracht 17
 
+> Actueel opdracht 18: na een aanvullende expliciete publicatie-instructie van de projecteigenaar bevat de gewone productiebuild vier werkende downloads en de compacte concordans. De hergebruikgrondslag blijft niet vastgesteld; er wordt geen toestemming van derden geclaimd. Zie [publicatiebesluit](concordans-publicatiebesluit.md) en [acceptatierapport](concordans-distributie-acceptatie.md). Onderstaande eerdere uitvoeringsverslagen blijven als historie behouden.
+
 **Niet volledig afgerond: de harde acceptatievoorwaarde is niet gehaald.** De gewone productiebuild bevat drie werkende publieke Excel-downloads. De oorspronkelijke concordans heeft nog geen voldoende onderbouwde distributiegrondslag. De vierde projectie en download zijn uitsluitend lokaal met de echte bron gecontroleerd en tellen niet als publieke oplevering. Geen Pages-activering of samenvoeging.
 
 ## Resultaat per acceptatievoorwaarde

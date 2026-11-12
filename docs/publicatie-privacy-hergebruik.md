@@ -1,5 +1,7 @@
 # Privacy, herkomst en publicatiebesluit naslagwerken
 
+> Actueel opdracht 18: na een aanvullende expliciete publicatie-instructie van de projecteigenaar bevat de gewone productiebuild vier werkende downloads en de compacte concordans. De hergebruikgrondslag blijft niet vastgesteld; er wordt geen toestemming van derden geclaimd. Zie [publicatiebesluit](concordans-publicatiebesluit.md) en [acceptatierapport](concordans-distributie-acceptatie.md). Onderstaande eerdere uitvoeringsverslagen blijven als historie behouden.
+
 ## Besluit en harde beperking — 11 november 2026
 
 De drie officiële selectielijstprojecties kunnen binnen de bestaande afbakening van [HERGEBRUIK.md](../HERGEBRUIK.md) als tekstuele naslagwerken worden opgenomen: vastgestelde besluittekst op basis van de eerdere artikel 11-beoordeling en de drie vaststellingspublicaties. Er is geen nieuwe algemene licentie voor oorspronkelijke PDF-opmaak, spreadsheets, afbeeldingen, AI-rapporten of zelfstandige concordans verleend. Er zijn geen uitgesloten oorspronkelijke documenten toegevoegd.

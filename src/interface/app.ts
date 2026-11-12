@@ -3,7 +3,7 @@ import type { Dataset, SelectielijstId } from '../gegevenslaag/index.js';
 import { element, knop, lijstnamen } from './dom.js';
 import { maakBoom } from './boom.js';
 import { toonDetails } from './details.js';
-import { laadBronconcordans } from '../concordans/index.js';
+import { indexeerPubliekeConcordans } from '../publicatie/concordans.js';
 import { maakConcordanspaneel } from './concordans.js';
 import { maakConcordansviewer } from './concordans-viewer.js';
 import { maakSelectielijstenviewer } from './selectielijsten-viewer.js';
@@ -13,7 +13,8 @@ import { maakZoekmodi } from './zoekmodi.js';
 
 export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ datasetsUrl: new URL('./datasets/', document.baseURI) })) {
   const publicaties=maakPublicatielaag();
-  const concordans=laadBronconcordans({bestandUrl:new URL('./concordans/concordans.json',document.baseURI),gegevenslaag:laag});
+  let concordanstaak:ReturnType<typeof indexeerPubliekeConcordans>|undefined;
+  const concordans={laad(){if(!concordanstaak){const t=publicaties.laad('concordans').then(p=>indexeerPubliekeConcordans(p,laag));concordanstaak=t;void t.catch(()=>{if(concordanstaak===t)concordanstaak=undefined;});}return concordanstaak;}};
   const aside = element('aside',undefined,'zijbalk'); aside.setAttribute('aria-label','Selectielijst en navigatie');
   const label = element('label','Selectielijst'); label.htmlFor = 'selectielijst';
   const keuze = element('select'); keuze.id = 'selectielijst';

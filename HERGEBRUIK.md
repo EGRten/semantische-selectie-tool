@@ -21,3 +21,8 @@ Er is namens de rechthebbende geen nieuwe MIT-, CC0- of andere alomvattende repo
 Dit pakket bevat een gemotiveerde rechtenbeoordeling, geen onvoorwaardelijke juridische vrijwaring. De beheerder moet bij publicatie de toepasselijkheid van artikel 11 op eventueel zelfstandig, niet-normatief begeleidend materiaal bewaken en toekomstige aanvullingen opnieuw beoordelen. De uitgesloten werken niet opnieuw toevoegen zonder passende grondslag. Publiceer ook het wijzigingenregister en de privacytoelichting.
 
 Bronnen: https://wetten.overheid.nl/BWBR0001886/ ; https://wetten.overheid.nl/BWBR0010591/ ; https://zoek.officielebekendmakingen.nl/stcrt-2012-11906.html ; https://zoek.officielebekendmakingen.nl/stcrt-2017-38013.html ; https://zoek.officielebekendmakingen.nl/stcrt-2020-11143.html ; https://vng.nl/proclaimer ; https://openai.com/policies/eu-terms-of-use/ . Beoordeeld op 10 november 2026.
+
+
+## Aanvullend publicatiebesluit opdracht 18
+
+De compacte concordansprojectie en aangepaste Excel-download zijn op uitdrukkelijke aanvullende instructie van de projecteigenaar opgenomen in de gewone productiebuild. De oorspronkelijke werkmap en oorspronkelijke volledige JSON-spiegel blijven uitgesloten. Dit uitvoeringsbesluit stelt geen toestemming van derden, licentie of voldoende onderbouwde wettelijke grondslag voor de zelfstandige concordans vast. De eerdere rechtenonzekerheid blijft bestaan; officiële besluittekst en zelfstandige concordans blijven juridisch onderscheiden. Zie de bronvermelding in `documentatie/concordans-bronvermelding.md` en de beoordeling in `docs/concordans-publicatiebesluit.md`.
