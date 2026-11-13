@@ -2,6 +2,24 @@
 
 12 november 2026. Baseline: **`586b474`**, actuele main inclusief PR #27. Gerichte aanvulling op de [releasevalidatie](release-acceptatie.md), geen nieuwe algemene audit. Publicatierechten, licenties en publicatiekeuze zijn niet gewijzigd.
 
+## Gerichte herstelanalyse — opdracht 31 (gedeeltelijk)
+
+Bron: [run 43380415462](https://github.com/EGRten/semantische-selectie-tool/actions/runs/43380415462). De openbare samenvatting is gelezen en toont Failure, één artifact en vier foutannotaties. Detailpagina: [job 131736624164](https://github.com/EGRten/semantische-selectie-tool/actions/runs/43380415462/job/131736624164). GitHub vraagt aanmelding voor logs; API-opvragen van logs/artifacts wordt geweigerd met `Forbidden`. De gemelde 22 regressies zijn daardoor **nog niet afzonderlijk op logbewijs geclassificeerd**. Er is geen nieuwe gecontroleerde Actions-run.
+
+| Onderdeel | Classificatie / concrete bevinding | Verwerking |
+| --- | --- | --- |
+| A — subpad | Onjuiste testaanname: `/testpad/` was hardgecodeerd terwijl de matrix een ander subpad configureert | Verwachting gebruikt nu de werkelijke `baseURL`; applicatie ongewijzigd. Lokaal geslaagd met beide configuraties |
+| B — klembord | Chromium-specifieke testaanname: `clipboard-read`/`clipboard-write`-permissies werden voor iedere engine aangevraagd | Alleen die Chromium-uitleestest wordt in andere matrixprojecten uitgesloten. Bestaande content-/fouttests blijven actief; nieuwe native schrijfactivering zonder speciale permissies is voor alle engines opgenomen. Lokaal in Chromium geslaagd; Firefox/WebKit nog niet uitgevoerd |
+| C — WebKit-bestandsnamen | Nog niet vastgestelde oorzaak op primair logbewijs; gemelde underscoreconversie nog niet onafhankelijk onderzocht | Geen normalisatie of versoepeling toegepast; bedoelde naam, browsernaam en XLSX-inhoud moeten afzonderlijk worden vergeleken |
+| D — WebKit-scroll | Nog niet vastgesteld of interactie werkelijk faalt of de testaanname onjuist is | Alle drie scrolltests behouden |
+| E — WebKit-systeemcontrast | Ondersteunings-/presentatieverschil nog niet vastgesteld | Geen CSS-waarde-expectatie verwijderd; emulatie blijft geen echte Windows-proef |
+| F — Firefox-crashes | Nog niet vastgesteld; crash-/geheugen-/render-/isolatiedetails ontbreken | Geen time-outs of retries verhoogd, geen applicatiecode aangepast |
+| G — Chromium-zoom | Werkelijk focusdefect versus geometrische aanname nog niet vastgesteld | Bestaande zichtbaarheidseis behouden |
+
+Lokaal: drie gerichte tests slagen onder de gewone configuratie en dezelfde drie onder de compatibiliteitsconfiguratie (Chromium). Dit bewijst geen herstel van alle 22 CI-fouten. De nieuwe native kopieertest controleert succesvolle terugmelding na de echte schrijfactie; alleen de Chromium-test leest ook het systeemklembord terug. De overige engines moeten dit nog werkelijk uitvoeren. De matrix heeft nu 132 Chromium- en 127 gevallen per andere engine; vier CDP/Chrome-instellingenproeven plus één Chromium-permissietest zijn in de andere engines uitgesloten.
+
+Voor vervolg zijn de volledige logs van de drie browserstappen en artifact `browserresultaten-43380415462-1` nodig. De compacte artifacts bevatten tellingen, geen foutdetails; alleen die bestanden volstaan dus niet voor crash-/zoom-/scrollanalyse. De bestaande brongegevens, exportinhoud, workflowinstallatie/build en praktijkstatus blijven ongewijzigd. REL-02 blijft open.
+
 ## GitHub Actions en praktijkdekking — opdracht 29, 13 november 2026
 
 Baseline van deze aanvulling: `ec992f7` (main inclusief PR #28). De [workflow](../.github/workflows/browsercompatibiliteit.yml) gebruikt Ubuntu 24.04, Node 24, Python 3.12, één npm-installatie/build en de officiële `playwright install --with-deps` voor alle drie engines. Elke engine heeft een herkenbare teststap; de bestaande matrix blijft 131 Chromium-/127 Firefox-/127 WebKit-gevallen omvatten. De vier CDP-/Chrome-instellingenproeven blijven uitsluitend Chromium. Drie tests kiezen nu het expliciete `CHROMIUM_PATH` of de door Playwright geïnstalleerde binary, zodat geen Ubuntu-systeempad wordt verondersteld.

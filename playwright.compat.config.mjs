@@ -4,7 +4,7 @@ import basis from './playwright.config.mjs';
 import {join} from 'node:path';
 const ci=process.env.CI==='true';
 if(ci&&(!process.env.AXE_SOURCE||!process.env.COMPAT_RAW_REPORT_DIR||!['chromium','firefox','webkit'].includes(process.env.COMPAT_BROWSER)))throw Error('CI vereist axe-bron, rapportmap en expliciete browser.');
-const alleenChromium=/Systeem is standaard; kleur, contrast|echte 200% en 400% Chromium|echte browserlettervoorkeur|alle paletten blijven bruikbaar/;
+const alleenChromium=/echt Chromium-klembord ontvangt geselecteerde bronwaarden|Systeem is standaard; kleur, contrast|echte 200% en 400% Chromium|echte browserlettervoorkeur|alle paletten blijven bruikbaar/;
 export default defineConfig({
  ...basis,
  outputDir:ci?join(process.env.RUNNER_TEMP??'/tmp','compat-uitvoer',process.env.COMPAT_BROWSER):'/tmp/semantische-compatibiliteit',
@@ -17,7 +17,7 @@ export default defineConfig({
  projects:['chromium','firefox','webkit'].map(naam=>({
   name:naam,
   use:{browserName:naam,launchOptions:naam==='chromium'&&process.env.CHROMIUM_PATH?{executablePath:process.env.CHROMIUM_PATH}:{}},
-  // Deze bestaande proeven gebruiken Chrome-instellingen/CDP, geen Firefox/WebKit.
+  // Deze proeven gebruiken Chrome-instellingen/CDP of Chromium-klembordpermissies; overige kopieertests blijven voor alle engines actief.
   ...(naam==='chromium'?{}:{grepInvert:alleenChromium}),
  })),
 });

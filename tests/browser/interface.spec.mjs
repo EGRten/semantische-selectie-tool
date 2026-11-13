@@ -174,10 +174,10 @@ test('mobiele weergave zonder horizontale overflow, boom en details bereikbaar',
   await expect(page.locator('#detailtitel')).toBeVisible();
   await expect(page.getByRole('button',{name:'Alles inklappen'})).toBeEnabled();
 });
-test('productie onder subpad: juiste pagina, echte interactie en geen console-/runtimefouten',async({page})=>{
+test('productie onder subpad: juiste pagina, echte interactie en geen console-/runtimefouten',async({page,baseURL})=>{
   const fouten=[];page.on('pageerror',e=>fouten.push(e.message));page.on('console',m=>{if(['error','warning'].includes(m.type()))fouten.push(m.text());});
   await page.reload();await resultaat(page,'2017','1','1.1','1.1.1');
-  expect(new URL(page.url()).pathname).toBe('/testpad/');expect(new URL(page.url()).hash).toBe('#selectie=2017%3A1.1.1');await expect(page.locator('#detailtitel')).not.toBeEmpty();
+  expect(new URL(page.url()).pathname).toBe(new URL(baseURL).pathname);expect(new URL(page.url()).hash).toBe('#selectie=2017%3A1.1.1');await expect(page.locator('#detailtitel')).not.toBeEmpty();
   expect(fouten).toEqual([]);
 });
 
