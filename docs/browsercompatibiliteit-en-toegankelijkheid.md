@@ -2,6 +2,26 @@
 
 12 november 2026. Baseline: **`586b474`**, actuele main inclusief PR #27. Gerichte aanvulling op de [releasevalidatie](release-acceptatie.md), geen nieuwe algemene audit. Publicatierechten, licenties en publicatiekeuze zijn niet gewijzigd.
 
+## PR #33 — aanvullende isolatie van Firefox-evaluatiecrashes
+
+De opdrachtgever rapporteert voor [run 43425701164](https://github.com/EGRten/semantische-selectie-tool/actions/runs/43425701164): Chromium **133/0**, WebKit **128/0**, Firefox **126/2** (geslaagd/mislukt). Beide Firefox-lijstwissels crashen ook bij herhaling bij `locator.evaluateAll`. Deze cijfers zijn aangeleverd, niet opnieuw via API uitgelezen.
+
+Gerichte wijziging op dezelfde PR-branch: de twee scenario's gebruiken nu een onafhankelijke Playwright-locatorcontrole. Voor `S = [data-zoekresultaat]` wordt vereist: `count(S) > 0` én `count(S:not([data-zoekresultaat^="2017:"])) == 0`. Dit controleert dezelfde inhoudelijke voorwaarde als `every(n.dataset.zoekresultaat.startsWith('2017:'))`, met behoud van de bestaande niet-leegcontrole. Het betreft alle resultaten in het betreffende paneel, niet alleen de eerste of zichtbare resultaten. Een afwijkende prefix, lege identificatie en een vreemd resultaat na een geldig resultaat worden afgewezen. Geen Firefox-uitzondering, timeout- of retrywijziging.
+
+De herhaald crashende evaluatie is geen betrouwbaar uitvoerbare functionele assertion in de aangeleverde Firefox-run: zij geeft een procesfout in plaats van een waar/onwaar-uitkomst. Dat rechtvaardigt een afzonderlijke, gelijkwaardige observatiemethode; het bewijst **niet** dat Playwright de crash veroorzaakt of dat de applicatie vrij van een Firefox-defect is. Applicatieverwerking, renderer en evaluatiepad zijn nog niet als oorzaak van elkaar onderscheiden. Productiecode is daarom ongewijzigd.
+
+`tests/browser/lijstisolatie.spec.mjs` houdt `evaluateAll` expliciet actief in een zelfstandige pagina/context zonder app, lijstwissels, datasetverwerking of netwerkverzoeken. Vijf kleine gevallen worden met zowel de oorspronkelijke predicate (plus niet-leegvoorwaarde) als de onafhankelijke locatorcontrole getoetst. Het evaluatiepad logt vóór/na iedere aanroep en de engineversie. Een crash blijft een mislukte test en wordt niet opgevangen als succes. De twee applicatiescenario's loggen nu ook **na** de attribuutcontrole; de bestaande crash-/geheugendiagnostiek en controles op daadwerkelijk openen, 2017-permalink en detailfocus blijven behouden.
+
+**Lokaal uitgevoerd:** Chromium 156.0.8078.79 / Playwright 1.65.0, reguliere compatibiliteitsconfiguratie onder repositorysubpad: **4 geslaagd, 0 mislukt, 0 overgeslagen, 0 flaky**, zonder retries. Dit omvat de twee oorspronkelijke scenario's en twee onafhankelijke probegevallen; hun negatieve fixtures worden eveneens gecontroleerd. Firefox-binary ontbreekt lokaal (de eerder vastgelegde installatieblokkade geldt nog); geen lokale Firefox-uitvoering of nieuw CI-succes geclaimd. Geen volledige matrix herhaald.
+
+Reproduceer met de bestaande configuratie:
+
+```sh
+CHROMIUM_PATH=/usr/bin/chromium npx playwright test --config=playwright.compat.config.mjs --project=chromium --grep 'geïsoleerde evaluateAll|onafhankelijke DOM|wisselen wist opdracht|lijstwissel verwijdert resultaten'
+```
+
+Externe CI-beoordeling: vergelijk de afzonderlijke evaluatieprobe, locatorprobe en beide applicatiescenario's in Firefox. Crasht de minimale probe ook, dan is applicatieverwerking niet noodzakelijk voor die crash; dat onderscheidt nog niet Playwright van de Firefox-renderer. Slaagt de minimale probe maar crasht een applicatiescenario, dan blijft voorafgaande verwerking/timing/resourcebelasting te onderzoeken. Slagen alle gevallen, dan is de functionele route via het alternatieve meetpad aangetoond, maar is de oorspronkelijke crashoorzaak nog niet bewezen. De nieuwe run moet dit vaststellen; PR #33 blijft open en REL-02 blijft open.
+
 ## Webstandaarden en gerichte hertest — opdracht 33
 
 13 november 2026; baseline **`387de88`** (main inclusief PR #32), branch `browserstandaarden-gericht-herstel`. De opdrachtgever rapporteert voor [run 43411239820](https://github.com/EGRten/semantische-selectie-tool/actions/runs/43411239820): Chromium 131/1, Firefox 125/2, WebKit 124/3 (geslaagd/mislukt). Dit zijn aangeleverde resultaten, geen in deze sessie uitgelezen logs. De eerdere analyses hieronder zijn historisch; deze sectie beschrijft de actuele zes restgevallen.
