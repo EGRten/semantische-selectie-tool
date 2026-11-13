@@ -87,6 +87,8 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
   }
   async function laad(id: SelectielijstId) {
     const huidig=++aanvraag;
+    // De herstelknop verdwijnt tijdens laden; behoud een zichtbare tabstop.
+    if(document.activeElement===retry)keuze.focus();
     dataset=undefined;actiefId=undefined;boom=undefined;zoekpaneel.koppel(undefined);alles.disabled=true;fout.hidden=true;retry.hidden=true;
     navigatie.replaceChildren();navigatie.setAttribute('aria-busy','true');
     legeDetails('De gekozen selectielijst wordt geladen.');
