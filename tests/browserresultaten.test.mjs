@@ -10,6 +10,7 @@ test('compact resultaat bevat alleen uitkomstmetadata, geen broninhoud, fouten o
 });
 test('mislukt, flaky, skipped, leeg, verkeerde engine en globale fout blijven rood',()=>{
  for(const status of ['unexpected','flaky','skipped'])assert.equal(compact(voorbeeld(status),'chromium').status,'niet_geslaagd');
+ const skip=voorbeeld();skip.suites[0].specs[0].tests[0].expectedStatus='skipped';assert.equal(compact(skip,'chromium').aantallen.overgeslagen,1);
  assert.equal(compact({suites:[]},'chromium').status,'niet_geslaagd');assert.equal(compact(voorbeeld(),'firefox').status,'niet_geslaagd');
  const raw=voorbeeld();raw.errors=[{message:'NIET_PUBLICEREN'}];assert.equal(compact(raw,'chromium').status,'niet_geslaagd');
  const flaky=voorbeeld('flaky');flaky.suites[0].specs[0].tests[0].results.push({status:'passed',duration:10,retry:1});assert.equal(compact(flaky,'chromium').status,'niet_geslaagd');

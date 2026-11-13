@@ -15,7 +15,7 @@ export function compact(raw,engine){
  }
  for(const s of raw.suites??[])bezoek(s);
  const aantallen={geslaagd:0,mislukt:0,flaky:0,overgeslagen:0};
- for(const t of testen){if(t.status==='expected'&&t.verwacht==='passed')aantallen.geslaagd++;else if(t.status==='flaky')aantallen.flaky++;else if(t.status==='skipped')aantallen.overgeslagen++;else aantallen.mislukt++;}
+ for(const t of testen){if(t.status==='expected'&&t.verwacht==='passed')aantallen.geslaagd++;else if(t.status==='flaky')aantallen.flaky++;else if((t.status==='skipped'||t.verwacht==='skipped'))aantallen.overgeslagen++;else aantallen.mislukt++;}
  return {browser:engine,status:testen.length>0&&testen.every(t=>t.browser===engine)&&aantallen.geslaagd===testen.length&&!(raw.errors??[]).length?'geslaagd':'niet_geslaagd',aantallen,globaleFouten:(raw.errors??[]).length,testen};
 }
 export async function rapporteer(env=process.env){

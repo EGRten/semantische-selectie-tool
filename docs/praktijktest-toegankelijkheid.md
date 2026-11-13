@@ -18,7 +18,7 @@ Maak per combinatie een kopie van de scenariotabellen. Vul Werkelijk gedrag conc
 | Microsoft Excel + NVDA | XLS-01 t/m XLS-04 | Niet uitgevoerd |
 | Geschikte spreadsheetapp + VoiceOver, indien beschikbaar | XLS-01 t/m XLS-04, app/versie apart noteren | Niet uitgevoerd |
 
-Toetsen kunnen afhangen van versie en instellingen. NVDA-toets is meestal Insert of Caps Lock; `NVDA+Spatie` wisselt lees-/focusmodus. Gebruik Tab/Shift+Tab, Enter/Spatie, pijlen, Home/End; in NVDA-leesmodus H voor koppen, D voor landmarks, T voor tabellen en Ctrl+Alt+pijlen voor tabelcellen. VoiceOver: VO is Ctrl+Option; VO+U opent de rotor, VO+Spatie activeert, VO+Shift+pijl-omlaag/-omhoog start/stopt interactie met een onderdeel. Schakel zo nodig Quick Nav uit om pijlen aan de boom door te geven. Op iOS: veeg links/rechts, dubbel tik om te activeren en gebruik de rotor. Noteer afwijkende instellingen; beoordeel eerst normaal gebruik zonder per-record reparaties.
+Toetsen kunnen afhangen van versie en instellingen. NVDA-toets is meestal Insert of Caps Lock; `NVDA+Spatie` wisselt lees-/focusmodus. Gebruik Tab/Shift+Tab, Enter/Spatie, pijlen, Home/End; in NVDA-leesmodus H voor koppen, D voor landmarks, T voor tabellen en Ctrl+Alt+pijlen voor tabelcellen. VoiceOver: VO is Ctrl+Option; VO+U opent de rotor, VO+Spatie activeert, VO+Shift+pijl-omlaag/-omhoog start/stopt interactie met een onderdeel. Schakel zo nodig Quick Nav uit om pijlen aan de boom door te geven. Op iOS: veeg links/rechts, dubbel tik om te activeren en gebruik de rotor. Controleer bij macOS/Safari ook de instelling voor toetsenbordnavigatie naar alle bedieningselementen. Noteer afwijkende instellingen; beoordeel eerst normaal gebruik zonder per-record reparaties.
 
 ## Scenario 1 — Eerste oriëntatie
 

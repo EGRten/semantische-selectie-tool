@@ -10,6 +10,10 @@ Op baseline `586b474` zijn 9 aanvullende Chromium-tests en 23 geselecteerde best
 
 Firefox en WebKit konden niet worden geïnstalleerd: officiële downloadhosts geven `403 Domain forbidden`, launchproeven bevestigen ontbrekende binaries. Compatibiliteit met die engines is nog niet aangetoond. Schermlezer-, Windows- en Office-AT-proeven blijven open. Zie het [compacte rapport en de reproduceerbare browsermatrix](browsercompatibiliteit-en-toegankelijkheid.md). De rechtenverantwoording en publicatiekeuze blijven buiten deze opdracht.
 
+## CI en praktijkprotocol — opdracht 29
+
+De browserworkflow en het [praktijktestprotocol](praktijktest-toegankelijkheid.md) zijn ingericht vanaf `ec992f7`. Lokaal slagen 13 geselecteerde Chromium-tests met de CI-configuratie en drie rapportagetests. De volledige browsermatrix is nog niet als GitHub Actions-uitvoering bevestigd; geen nieuwe Firefox-/WebKit-resultaten geclaimd. [Uitvoeringsstatus en exacte beheerdershandeling](browsercompatibiliteit-en-toegankelijkheid.md#github-actions-en-praktijkdekking--opdracht-29-13-november-2026) staan in het browserrapport. Alle schermlezer-, Windows- en documentpraktijkproeven blijven Niet uitgevoerd. REL-02 blijft open; advies: geschikt onder beschreven beperkingen. Publicatiekeuze en rechtenverantwoording zijn ongewijzigd.
+
 ## Releaseoordeel
 
 | Besluit | Uitkomst |
