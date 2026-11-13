@@ -1,3 +1,4 @@
+import {wisseldiagnostiek} from '../helpers/wisseldiagnostiek.mjs';
 import {test,expect} from '@playwright/test';
 async function kies(page,id='2020'){await page.getByLabel('Selectielijst',{exact:true}).selectOption(id);await expect(page.getByRole('status')).toContainText('geladen.');}
 async function begrippen(page){await page.getByRole('tab',{name:'Begripsgericht zoeken',exact:true}).click();await expect(page.getByRole('searchbox')).toBeEnabled();}
@@ -42,11 +43,12 @@ test('zoekmodi onafhankelijk; wisselen wist oude resultaten en onbevestigd filte
  await begrippen(page);await expect(page.getByRole('searchbox')).toHaveValue('');await expect(resultaten(page)).toBeHidden();
  await expect(page.getByRole('checkbox',{name:'Ook onbevestigde AI-zoektermen gebruiken'})).not.toBeChecked();
 });
-test('lijstwissel verwijdert resultaten en gebruikt uitsluitend nieuw lexicon',async({page})=>{
+test('lijstwissel verwijdert resultaten en gebruikt uitsluitend nieuw lexicon',async({page},testInfo)=>{
+ const meet=await wisseldiagnostiek(page,testInfo);await meet('start');
  const requests=[];page.on('request',r=>{if(/zoeklexicon|relaties/.test(r.url()))requests.push(r.url());});
  await kies(page);await begrippen(page);await zoek(page,'notulen');
  await kies(page,'2017');await expect(page.getByRole('searchbox')).toBeEnabled();await expect(resultaten(page)).toBeHidden();
- await zoek(page,'notulen');expect(await resultaten(page).locator('[data-zoekresultaat]').evaluateAll(ns=>ns.every(n=>n.dataset.zoekresultaat.startsWith('2017:')))).toBeTruthy();
+ await zoek(page,'notulen');await meet('voor isolatiecontrole');expect(await resultaten(page).locator('[data-zoekresultaat]').evaluateAll(ns=>ns.every(n=>n.dataset.zoekresultaat.startsWith('2017:')))).toBeTruthy();
  expect(requests).toHaveLength(4);expect(requests.some(u=>u.includes('/1996-2012/'))).toBeFalsy();
 });
 test('traag oud lexicon kan na modus- en lijstwissel geen resultaten of status terugzetten',async({page})=>{

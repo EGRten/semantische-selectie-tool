@@ -1,17 +1,18 @@
+import {observeerDownloadnaam,controleerDownloadnaam} from '../helpers/downloadnaam.mjs';
 import {test,expect} from '@playwright/test';
 import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
 import {NASLAGWERKEN,controleerDownload} from '../../scripts/publieke-downloadcontrole.mjs';
 
-for(const werk of NASLAGWERKEN)test(`browsermatrix: volledige ${werk.id} Excel inhoudelijk teruglezen`,async({page},testInfo)=>{
+for(const werk of NASLAGWERKEN)test(`browsermatrix: volledige ${werk.id} Excel inhoudelijk teruglezen`,async({page,browserName},testInfo)=>{
  const fouten=[],extern=[];page.on('pageerror',e=>fouten.push(e.message));page.on('console',m=>{if(m.type()==='error')fouten.push(m.text());});page.on('request',r=>{if(/^https?:/.test(r.url())&&new URL(r.url()).origin!==new URL(testInfo.project.use.baseURL).origin)extern.push(r.url());});
  await page.goto(werk.id==='concordans'?'./#concordans':`./#lijst=${werk.id}`);
  const root=page.locator(werk.id==='concordans'?'.concordans-viewer':'.lijsten-viewer');await expect(root.locator('tbody tr')).toHaveCount(werk.aantal);
  const data=await (await page.request.get(`./publicatie/${werk.id}.json`)).json();
- const [download]=await Promise.all([page.waitForEvent('download'),root.getByRole('button',{name:`Download ${werk.naam.replace('.xlsx','')} (.xlsx)`,exact:true}).click()]);
+ await observeerDownloadnaam(page);const [download]=await Promise.all([page.waitForEvent('download'),root.getByRole('button',{name:`Download ${werk.naam.replace('.xlsx','')} (.xlsx)`,exact:true}).click()]);
  const pad=testInfo.outputPath(werk.id+'.xlsx');await download.saveAs(pad);
  const {stdout}=await promisify(execFile)('python',['tests/helpers/lees-concordans-xlsx.py',pad],{maxBuffer:24*1024*1024});
- const controle=controleerDownload(werk,data,download.suggestedFilename(),JSON.parse(stdout));expect(controle).toMatchObject({geslaagd:true});expect(fouten).toEqual([]);expect(extern).toEqual([]);
+ const excel=JSON.parse(stdout);const rauw=controleerDownload(werk,data,download.suggestedFilename(),excel);console.log('Downloadcontrole '+JSON.stringify({browserName,bedoeld:werk.naam,voorgesteld:download.suggestedFilename(),...rauw}));const aangeboden=await controleerDownloadnaam(page,download,werk.naam,browserName);const controle=controleerDownload(werk,data,aangeboden,excel);expect(controle,JSON.stringify({voorgesteld:download.suggestedFilename(),...controle})).toMatchObject({geslaagd:true});expect(fouten).toEqual([]);expect(extern).toEqual([]);
 });
 
 for(const thema of ['light','dark','high-contrast'])test(`browsermatrix: axe en beoordelingstaken in ${thema}`,async({page},testInfo)=>{

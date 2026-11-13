@@ -42,6 +42,12 @@ await page.route('**/datasets/2017/bepalingen.json',r=>r.fulfill({json:[{id:'202
 });
 
 // Vertrouwde knopactivering zonder Chromium-specifieke permissies of clipboard-read.
-test('native kopieerfunctie bevestigt schrijven zonder vooraf verleende klembordpermissies',async({page})=>{
- await vind(page,'22.1.2');await page.getByRole('button',{name:'Kopieer selectiegegevens',exact:true}).click();await expect(page.locator('.kopieerstatus')).toHaveText('Selectiegegevens gekopieerd.');
+test('native kopieerfunctie onderscheidt echt schrijven van expliciete browserweigering',async({page},testInfo)=>{
+ await vind(page,'22.1.2');await page.bringToFront();
+ const permissie=await page.evaluate(async()=>{try{return (await navigator.permissions.query({name:'clipboard-write'})).state;}catch{return 'niet_opvraagbaar';}});
+ await page.evaluate(()=>{const origineel=navigator.clipboard.writeText;navigator.clipboard.writeText=async function(tekst){const r=window.__nativeKopie={actief:navigator.userActivation.isActive,focus:document.hasFocus(),tekstAanwezig:typeof tekst==='string'&&tekst.length>0};try{await origineel.call(this,tekst);r.status='geschreven';}catch(e){r.status='geweigerd';r.fout=e.name;throw e;}};});
+ await page.getByRole('button',{name:'Kopieer selectiegegevens',exact:true}).click();await expect.poll(()=>page.evaluate(()=>window.__nativeKopie?.status)).toMatch(/geschreven|geweigerd/);
+ const r=await page.evaluate(()=>window.__nativeKopie);console.log('Native klembord '+JSON.stringify({engine:testInfo.project.name,permissie,...r}));expect(r.actief).toBe(true);expect(r.focus).toBe(true);expect(r.tekstAanwezig).toBe(true);
+ if(r.status==='geschreven')await expect(page.locator('.kopieerstatus')).toHaveText('Selectiegegevens gekopieerd.');
+ else {expect(permissie,'Verleende toestemming mag niet stilzwijgend als weigering worden behandeld').not.toBe('granted');expect(r.fout).toBe('NotAllowedError');await expect(page.locator('.kopieerstatus')).toContainText('Controleer de klembordtoestemming');await expect(page.locator('.kopieerstatus')).toContainText('selecteer en kopieer de tekst handmatig');await expect(page.getByRole('button',{name:'Kopieer selectiegegevens',exact:true})).toBeEnabled();await expect(page.locator('#details')).not.toBeEmpty();}
 });

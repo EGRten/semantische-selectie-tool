@@ -1,3 +1,5 @@
+import {metGeometrie} from '../helpers/geometriediagnostiek.mjs';
+import {controleerSysteemkleurAanpassing} from '../helpers/systeemkleur.mjs';
 import {test,expect,chromium} from '@playwright/test';
 import {mkdtemp,rm} from 'node:fs/promises';import {tmpdir} from 'node:os';import {join} from 'node:path';
 const aantallen={'1996-2012':494,'2017':305,'2020':346,concordans:716};
@@ -7,7 +9,7 @@ test('UI-05/10: beperkte tokenschaal en dezelfde systeemletter voor formulieren'
  expect(meting.basis).toBe('16px');expect(new Set(meting.fonts.map(f=>f.font)).size).toBe(1);expect(meting.fonts.every(f=>f.maat==='16px'&&f.hoogte>=44)).toBeTruthy();expect(meting.decoratief).not.toBe(meting.functioneel);
 });
 for(const [w,h]of [[320,640],[768,1024],[1440,1000]])test(`UI-06/12: vier volledige tabellen, scrolluitleg en passende kolommen op ${w}px`,async({page})=>{
- await page.setViewportSize({width:w,height:h});for(const id of Object.keys(aantallen)){const root=await open(page,id),gebied=root.locator('.viewer-tabelgebied');const beschrijving=await gebied.getAttribute('aria-describedby');await expect(page.locator('#'+beschrijving)).toContainText('pijltjestoetsen');await gebied.focus();await expect(gebied).toBeFocused();await page.keyboard.press('ArrowRight');await expect.poll(()=>gebied.evaluate(e=>e.scrollLeft)).toBeGreaterThan(0);
+ await page.setViewportSize({width:w,height:h});for(const id of Object.keys(aantallen)){const root=await open(page,id),gebied=root.locator('.viewer-tabelgebied');const beschrijving=await gebied.getAttribute('aria-describedby');await expect(page.locator('#'+beschrijving)).toContainText('pijltjestoetsen');await gebied.focus();await expect(gebied).toBeFocused();await page.keyboard.press('ArrowRight');await metGeometrie(page,()=>expect.poll(()=>gebied.evaluate(e=>e.scrollLeft)).toBeGreaterThan(0));
  const maten=await root.locator('table').evaluate(t=>({code:t.querySelector('thead th').getBoundingClientRect().width,omschrijving:t.querySelector('col.kolom-omschrijving').getBoundingClientRect().width,maxhoogte:t.parentElement.getBoundingClientRect().height,viewport:innerHeight,overloop:document.documentElement.scrollWidth>innerWidth}));expect(maten.omschrijving).toBeGreaterThan(maten.code);expect(maten.maxhoogte).toBeLessThanOrEqual(h*.65+3);expect(maten.overloop).toBe(false);expect(await root.getByRole('button',{name:/Volgende pagina|Vorige pagina/}).count()).toBe(0);
  }
 });
@@ -20,7 +22,7 @@ test('UI-07: waardering, volledige termijn en voorwaarden gaan vóór aanvullend
 });
 test('UI-08: systeemkleuren behouden geselecteerde boom- en tabelranden zonder schaduw',async({page})=>{
  await page.emulateMedia({forcedColors:'active'});await page.goto('./#selectie=2020%3A19.1.19');await expect(page.locator('#detailtitel')).toBeVisible();
- const boom=page.locator('.boom [aria-selected=true]>.boomrij');await expect(boom).toHaveCSS('border-inline-start-style','double');await expect(boom).toHaveCSS('border-inline-start-width','6px');await expect(boom).toHaveCSS('forced-color-adjust','auto');
+ const boom=page.locator('.boom [aria-selected=true]>.boomrij');await expect(boom).toHaveCSS('border-inline-start-style','double');await expect(boom).toHaveCSS('border-inline-start-width','6px');await controleerSysteemkleurAanpassing(boom);
  for(const id of ['1996-2012','2017','2020']){await open(page,id);await page.locator('.lijsten-viewer tbody th a').first().click();await expect(page.locator('#detailtitel')).toBeVisible();await page.getByRole('link',{name:'Terug naar tabelrij',exact:true}).click();await expect(page.locator('.lijsten-viewer tr[aria-current=true]>th')).toHaveCSS('border-inline-start-style','double');await expect(page.locator('.lijsten-viewer tr[aria-current=true]>th a')).toHaveCSS('text-decoration-style','double');}
  await page.goto('./#concordans=21');await expect(page.locator('.viewer-rijdetail h3')).toBeVisible();await expect(page.locator('[data-viewerrij="21"]>th')).toHaveCSS('border-inline-start-style','double');
 });
