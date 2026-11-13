@@ -161,8 +161,9 @@ select {display:block;width:100%;}
 .voorschriften button {white-space:pre-wrap;}
 .melding {margin:var(--sst-space-4) 0;padding:var(--sst-space-3) var(--sst-space-4);background:var(--sst-warning-bg);color:var(--sst-warning-text);border-left:3px solid var(--sst-warning-border);font-size:var(--sst-text-md);}
 .fout {background:var(--sst-error-bg);border-color:var(--sst-error-border);color:var(--sst-error-text);}
-footer {border-top:var(--sst-border-width) solid var(--sst-border-subtle);padding:var(--sst-space-4) var(--sst-space-5);font-size:var(--sst-text-sm);}
-footer a {margin-left:var(--sst-space-3);}
+footer {display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--sst-space-3) var(--sst-space-5);border-top:var(--sst-border-width) solid var(--sst-border-subtle);padding:var(--sst-space-4) var(--sst-space-6);font-size:var(--sst-text-sm);}
+footer>p {flex:1 1 36rem;min-width:0;overflow-wrap:anywhere;}
+.footerlinks {display:flex;flex-wrap:wrap;gap:var(--sst-space-3);max-width:100%;}
 .overslaan {position:absolute;top:-10rem;left:var(--sst-space-4);background:var(--sst-surface);padding:var(--sst-space-3);z-index:4;}
 .overslaan:focus {top:var(--sst-space-3);}
 .zoekpaneel,.zoekmodi {margin-top:var(--sst-space-5);border-top:var(--sst-border-width) solid var(--sst-border-subtle);padding-top:var(--sst-space-4);}
@@ -264,7 +265,7 @@ mark {background:var(--sst-mark);color:var(--sst-mark-text);padding:0;}
 @media(max-width:45rem) {
  .kop {grid-template-columns:minmax(0,1fr);}
  .themakeuze {grid-column:1;grid-row:auto;margin-top:var(--sst-space-3);}
- .kop,.details,.zijbalk,:is(.concordans-viewer,.lijsten-viewer) {padding:var(--sst-space-4);}
+ .kop,.details,.zijbalk,footer,:is(.concordans-viewer,.lijsten-viewer) {padding:var(--sst-space-4);}
  .kop h1,.detailtitel {font-size:var(--sst-heading-md);}
  .werkruimte {display:block;}
  .zijbalk {border-right:0;border-bottom:var(--sst-border-width) solid var(--sst-border-subtle);}
