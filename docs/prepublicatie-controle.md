@@ -70,3 +70,9 @@ Omgeving: Debian 13, Node 24.22.1, Python 3.12.14, Playwright 1.65.0, systeem-Ch
 - Oorspronkelijke concordans-JSON is niet gekoppeld voor lokale bronafhankelijke moduletests; dit beperkt de nieuwe hercontrole, niet het functioneren van de reguliere build.
 - Praktijkproeven en resterend AA-bewijs zijn niet uitgevoerd; rechtenvoorbehoud en particuliere positionering zijn ongewijzigd.
 
+
+## PR- en Actions-uitvoeringsstatus
+
+De branch `prepublicatie-consistentie` is gepusht. `gh pr create` is geweigerd met `Post "https://api.github.com/graphql": Forbidden`; ook `gh workflow run browsercompatibiliteit.yml --ref prepublicatie-consistentie` wordt bij de workflowlookup geweigerd met `Forbidden`. Er is daardoor geen nieuwe gecontroleerde PR-/Actions-runlink. De GitHub-tag levert in deze sessie geen aanroepbare repository-/Actions-tools op.
+
+Beheerder: [open de voorbereide PR naar main](https://github.com/EGRten/semantische-selectie-tool/pull/new/prepublicatie-consistentie), controleer dat de bestaande PR-trigger start en beoordeel alle drie engine-uitkomsten. Laat de PR open. De volledige nieuwe matrix is **nog niet uitgevoerd/bevestigd vanuit deze sessie**; dit is een open opleveringspunt. Het eerdere 395/395-bewijs wordt daarvoor niet hergebruikt.
