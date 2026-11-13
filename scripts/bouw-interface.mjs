@@ -52,9 +52,17 @@ for (const [bron, doel] of [
   ['dist/gedeeld','dist/site/gedeeld'],
   ['dist/raadplegen','dist/site/raadplegen'],
   ['dist/concordans', 'dist/site/concordans'],
-  ['datasets', 'dist/site/datasets'],
   ['bronnen', 'dist/site/bronnen'],
 ]) await cp(bron, doel, { recursive: true });
+
+// Alleen runtimegegevens; nieuwe controle-/onderzoeksbestanden blijven standaard buiten de site.
+for (const lijst of ['1996-2012', '2017', '2020']) {
+  const bestanden = ['manifest.json', 'structuur.json', 'selectiegegevens.json',
+    'zoeklexicon.json', 'relaties.json', 'bepalingen.json'];
+  if (lijst === '1996-2012') bestanden.push('rubriekcontext.json');
+  await mkdir(`dist/site/datasets/${lijst}`, { recursive: true });
+  for (const bestand of bestanden) await cp(`datasets/${lijst}/${bestand}`, `dist/site/datasets/${lijst}/${bestand}`);
+}
 
 await kopieerPubliekeDocumenten();
 
