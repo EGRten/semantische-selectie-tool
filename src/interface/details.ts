@@ -62,7 +62,7 @@ export function toonDetails(container: HTMLElement, dataset: Dataset, id: string
   pad.forEach((stap,i) => {
     const n = stap.gegevens; const naam = 'benaming' in n ? n.benaming : n.officiele_benaming;
     const li = element('li');
-    if (i === pad.length - 1) { li.textContent = n.code; li.setAttribute('aria-current','page'); }
+    if (i === pad.length - 1) { li.textContent = `${n.code} ${naam}`; li.setAttribute('aria-current','page'); }
     else li.append(knop(`${n.code} ${naam}`, () => selecteer(n.id)));
     ol.append(li);
   });
@@ -80,8 +80,9 @@ export function toonDetails(container: HTMLElement, dataset: Dataset, id: string
     if(regel.id!==regel.structuur_id){const regels=dataset.selectiegegevensBij(regel.structuur_id);container.append(element('p',`Afzonderlijk voorschrift ${regels.findIndex(r=>r.id===regel.id)+1} van ${regels.length} binnen rubriek ${regel.code}. Gedeelde broncellen en opsommingscontext blijven bepalend.`,'hulptekst'));}
     const dl = element('dl', undefined, 'gegevens');
     const duiding=regel.waardering.type==='vernietigen'?'Vernietigen':regel.waardering.type==='bewaren'?'Bewaren':undefined;
-    veld(dl,'Waardering',regel.waardering.officiele_tekst ?? (duiding ? `${duiding} (volgens bronlegenda; geen afzonderlijke waarderingsletter in de bron).` : null));
-    veld(dl,'Bewaartermijn',regel.bewaartermijn.officiele_tekst,regel.bewaartermijn.status);
+    const kern=element('dl',undefined,'kerngegevens');
+    veld(kern,'Waardering',regel.waardering.officiele_tekst ?? (duiding ? `${duiding} (volgens bronlegenda; geen afzonderlijke waarderingsletter in de bron).` : null));
+    veld(kern,'Bewaartermijn',regel.bewaartermijn.officiele_tekst,regel.bewaartermijn.status);
     veld(dl,'Procestermijn',regel.procestermijn.officiele_tekst,regel.procestermijn.status);
     veld(dl,'Aanvangsmoment',regel.aanvangsmoment.officiele_tekst,regel.aanvangsmoment.status);
     if(regel.officiele_omschrijving?.trim()) veld(dl,'Omschrijving',regel.officiele_omschrijving);
@@ -96,7 +97,8 @@ export function toonDetails(container: HTMLElement, dataset: Dataset, id: string
     if(regel.procestermijn.onderbouwing) veld(dl,'Onderbouwing procestermijn',regel.procestermijn.onderbouwing);
     if(regel.waardering.afleiding) veld(dl,'Duiding waardering volgens bronlegenda',regel.waardering.afleiding);
     veld(dl,'Uitzonderingen en verwijzingen',regel.uitzonderingen_en_verwijzingen.officiele_tekst,regel.uitzonderingen_en_verwijzingen.status);
-    container.append(dl);
+    code.after(kern);
+    container.append(element('h3','Toelichting en aanvullende gegevens'),dl);
     if (regel.status === 'vervallen') container.append(element('p','Dit resultaat is vervallen volgens de dataset.','melding'));
     voorwaarden(container,dataset,regel);
     container.append(versie);

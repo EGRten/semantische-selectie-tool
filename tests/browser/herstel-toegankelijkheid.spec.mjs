@@ -15,7 +15,7 @@ test('herstel na laadfout behoudt toetsenbordfocus op de selectielijst',async({p
  await expect(page.locator('.laadstatus')).toContainText('geladen.');
  await expect(keuze).toBeFocused();
  await page.keyboard.press('Tab');
- await expect(page.getByRole('tab',{name:'Trefwoordzoeken',exact:true})).toBeFocused();
+ await expect(page.getByRole('button',{name:'Alles inklappen'})).toBeFocused();
 });
 async function openTabel(page,id,basis='./'){
  await page.goto(basis+(id==='concordans'?'#concordans':`#lijst=${id}`));

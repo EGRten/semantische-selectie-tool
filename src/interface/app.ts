@@ -26,17 +26,32 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
   const retry = knop('Opnieuw proberen',()=> { if (keuze.value) void laad(keuze.value as SelectielijstId); },'opnieuw'); retry.hidden=true;
   const tools = element('div',undefined,'boomtools');
   const alles = knop('Alles inklappen',()=>boom?.inklappen(),'inklapknop');alles.disabled=true;
-  tools.append(element('h2','Structuur'),alles);
+  const boomtitel=element('h2','Bladeren in de selectielijst');boomtitel.id='boom-titel';tools.append(boomtitel,alles);
   const navigatie = element('nav',undefined,'boomgebied');navigatie.setAttribute('aria-label','Boomstructuur');
   navigatie.append(element('p','De structuur verschijnt na het kiezen van een selectielijst.','hulptekst'));
   const zoekpaneel = maakZoekmodi((id) => selecteer(id), (id) => laag.laadZoekverrijking(id));
   const boomhulp=element('p','Blader met de pijltjestoetsen door de boom. Uitgeklapte onderdelen kunnen in het boomgebied worden gescrold.','scrollhulp');boomhulp.id='boom-scrollhulp';navigatie.setAttribute('aria-describedby',boomhulp.id);
-  aside.append(label,keuze,status,fout,retry,zoekpaneel.element,tools,boomhulp,navigatie);
+  aside.setAttribute('aria-labelledby','boom-titel');
+  aside.append(label,keuze,status,fout,retry,tools,boomhulp,navigatie);
+  const inhoud=element('div',undefined,'werkruimte-inhoud');
+  const zoekgebied=element('section',undefined,'zoekgebied');zoekgebied.setAttribute('aria-labelledby','zoekgebied-titel');
+  const zoektitel=element('h2','Zoeken in deze selectielijst');zoektitel.id='zoekgebied-titel';
+  const naarBoom=element('a','Blader door de boomstructuur','naar-boom');naarBoom.href='#boom-titel';
+  boomtitel.tabIndex=-1;naarBoom.addEventListener('click',e=>{e.preventDefault();const doel=navigatie.querySelector<HTMLElement>('[role=treeitem][aria-selected="true"]')??navigatie.querySelector<HTMLElement>('[role=treeitem][tabindex="0"]')??boomtitel;doel.scrollIntoView({block:'nearest'});doel.focus({preventScroll:true});});
+  const lijstcontext=element('p','Kies links een selectielijst om te zoeken.','actieve-lijst');
+  zoekgebied.append(zoektitel,naarBoom,lijstcontext,zoekpaneel.element);
   const detail = element('section',undefined,'details');detail.id='details';detail.tabIndex=-1;detail.setAttribute('aria-label','Geselecteerd onderdeel');
   function legeDetails(tekst='Kies een onderdeel in de boomstructuur om de officiële gegevens te bekijken.') {
-    detail.replaceChildren(element('h2','Nog geen onderdeel geselecteerd'),element('p',tekst,'hulptekst'));
+    detail.replaceChildren();
+    const welkom=element('div',undefined,'welkom');
+    welkom.append(element('span','UW ONDERZOEK BEGINT HIER','eyebrow'),element('h2','Van vraag naar voorschrift'),element('p',tekst,'hulptekst'));
+    const stappen=element('div',undefined,'startstappen');
+    for(const [nummer,titel,uitleg] of [['01','Kies uw selectielijst','Werk vanuit de lijst die bij uw informatie hoort.'],['02','Zoek of verken','Gebruik een code, trefwoord of verwant begrip.'],['03','Bekijk de bron','Lees de waardering, bewaartermijn en voorwaarden.']]){
+      const stap=element('div',undefined,'startstap');stap.append(element('span',nummer,'stapnummer'),element('h3',titel),element('p',uitleg));stappen.append(stap);
+    }
+    welkom.append(stappen);detail.append(welkom);
   }
-  legeDetails();root.replaceChildren(aside,detail);
+  legeDetails();inhoud.append(zoekgebied,detail);root.replaceChildren(aside,inhoud);
   const viewer=maakConcordansviewer({laad:()=>publicaties.laad('concordans')});
   const lijsten=maakSelectielijstenviewer(id=>publicaties.laad(id));
   const hoofdnavigatie=element('nav',undefined,'hoofdnavigatie');hoofdnavigatie.setAttribute('aria-label','Hoofdnavigatie');
@@ -87,6 +102,7 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
   }
   async function laad(id: SelectielijstId) {
     const huidig=++aanvraag;
+    lijstcontext.textContent=`Zoeken binnen selectielijst ${lijstnamen[id]}`;
     // De herstelknop verdwijnt tijdens laden; behoud een zichtbare tabstop.
     if(document.activeElement===retry)keuze.focus();
     dataset=undefined;actiefId=undefined;boom=undefined;zoekpaneel.koppel(undefined);alles.disabled=true;fout.hidden=true;retry.hidden=true;
@@ -111,7 +127,7 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
     ++navigatieAanvraag;geschiedenis.length=0;actiefId=undefined;
     if(location.hash.startsWith('#selectie='))history.pushState(null,'','#selectielijsten');
     if (keuze.value) void laad(keuze.value as SelectielijstId);
-    else { ++aanvraag;dataset=undefined;boom=undefined;zoekpaneel.koppel(undefined);navigatie.replaceChildren();navigatie.setAttribute('aria-busy','false');alles.disabled=true;fout.hidden=true;retry.hidden=true;status.textContent='Kies een selectielijst om te beginnen.';legeDetails(); }
+    else { lijstcontext.textContent='Kies links een selectielijst om te zoeken.';++aanvraag;dataset=undefined;boom=undefined;zoekpaneel.koppel(undefined);navigatie.replaceChildren();navigatie.setAttribute('aria-busy','false');alles.disabled=true;fout.hidden=true;retry.hidden=true;status.textContent='Kies een selectielijst om te beginnen.';legeDetails(); }
   });
 }
 function fouttekst(error: unknown): string {

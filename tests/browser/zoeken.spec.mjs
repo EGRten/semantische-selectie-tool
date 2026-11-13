@@ -9,7 +9,7 @@ async function zoek(page,vraag) { await page.getByRole('searchbox').fill(vraag);
 const resultaten=page=>page.getByRole('region',{name:'Zoekresultaten',exact:true});
 test.beforeEach(async({page})=>{await page.goto('./');});
 
-test('zoekveld boven boom, alleen gekozen lijst, Enter en resultaat naar boom en details',async({page})=>{
+test('zoekveld naast boom, alleen gekozen lijst, Enter en resultaat naar boom en details',async({page})=>{
   const requests=[];page.on('request',r=>{if(r.url().includes('/datasets/'))requests.push(r.url());});
   await expect(page.getByRole('searchbox')).toBeDisabled();
   await kies(page);await zoek(page,'Gemeentewapen');
@@ -101,6 +101,6 @@ test('mobiele resultaten leesbaar zonder overflow; geen consolefouten',async({pa
   await page.setViewportSize({width:390,height:844});await kies(page);await zoek(page,'jeugdhulp client');
   await expect(resultaten(page)).toBeVisible();
   await page.locator('[data-zoekresultaat="2020:3.1.4"]').getByRole('button').click();
-  await expect(page.locator('#detailtitel')).toHaveText('Plan van aanpak jeugd- hulp cliënt');
+  await expect(page.locator('#detailtitel')).toHaveText('Plan van aanpak jeugdhulp cliënt');
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();expect(fouten).toEqual([]);
 });

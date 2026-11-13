@@ -19,7 +19,7 @@ test('initialisatie: Nederlands, lege toestand, geen datasetverzoeken en uitgesc
   await page.reload();
   await expect(page).toHaveTitle('Semantische Selectie Tool');
   await expect(page.locator('html')).toHaveAttribute('lang','nl');
-  await expect(page.getByRole('heading',{name:'Nog geen onderdeel geselecteerd'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Van vraag naar voorschrift'})).toBeVisible();
   await expect(page.getByLabel('Selectielijst',{exact:true})).toHaveValue('');
   await expect(page.getByRole('button',{name:'Alles inklappen'})).toBeDisabled();
   expect(requests).toEqual([]);
@@ -87,7 +87,7 @@ test('lijstwissel wist selectie en hergebruikt uitsluitend eigen cache',async({p
   const requests=[];page.on('request',r=>{if(r.url().includes('/datasets/'))requests.push(r.url());});
   await resultaat(page,'2020','1','1.1','1.1.1');
   await kies(page,'2017');
-  await expect(page.getByRole('heading',{name:'Nog geen onderdeel geselecteerd'})).toBeVisible();
+  await expect(page.getByRole('heading',{name:'Van vraag naar voorschrift'})).toBeVisible();
   await expect(page.locator('[role=treeitem][aria-selected=true]')).toHaveCount(0);
   expect(await page.getByRole('treeitem').evaluateAll(ns=>ns.every(n=>n.dataset.onderdeel.startsWith('2017:')))).toBeTruthy();
   await kies(page,'2020');await expect(item(page,'2020:1')).toHaveAttribute('aria-expanded','false');
@@ -121,7 +121,10 @@ test('bronannotaties, afgebroken tekst en afwijkende bronlabels zichtbaar',async
 test('toetsenbord: tabstop, pijlen, enter, spatie, home/end en zichtbare focus',async({page})=>{
   await kies(page,'2020');
   await page.getByLabel('Selectielijst',{exact:true}).focus();await page.keyboard.press('Tab');
-  await expect(page.getByRole('tab',{name:'Trefwoordzoeken',exact:true})).toBeFocused();
+  await expect(page.getByRole('button',{name:'Alles inklappen'})).toBeFocused();
+  await page.keyboard.press('Tab');await expect(item(page,'2020:1')).toBeFocused();
+  await page.keyboard.press('Tab');await expect(page.getByRole('link',{name:'Blader door de boomstructuur'})).toBeFocused();
+  await page.keyboard.press('Tab');await expect(page.getByRole('tab',{name:'Trefwoordzoeken',exact:true})).toBeFocused();
   await page.keyboard.press('Tab');await expect(page.getByRole('searchbox')).toBeFocused();
   await page.getByRole('button',{name:'Alles inklappen'}).focus();
   await page.keyboard.press('Tab');await expect(item(page,'2020:1')).toBeFocused();
@@ -164,7 +167,7 @@ test('onverwachte netwerkrespons blijft een begrijpelijke fout, geen blanco pagi
   await page.route('**/datasets/2020/manifest.json',r=>r.fulfill({body:'geen json',contentType:'application/json'}));
   await page.getByLabel('Selectielijst',{exact:true}).selectOption('2020');
   await expect(page.getByRole('alert')).toContainText('ongeldig of onvolledig');
-  await expect(page.getByRole('heading',{name:'Semantische Selectie Tool',exact:true})).toBeVisible();
+  await expect(page.getByRole('heading',{name:/Semantische Selectietool/})).toBeVisible();
 });
 test('mobiele weergave zonder horizontale overflow, boom en details bereikbaar',async({page})=>{
   await page.setViewportSize({width:390,height:844});

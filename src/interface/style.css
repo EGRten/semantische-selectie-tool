@@ -284,8 +284,116 @@ mark {background:var(--sst-mark);color:var(--sst-mark-text);padding:0;}
  .vergelijkingstabel td::before {content:attr(data-kolom);display:block;font-size:var(--sst-text-sm);color:var(--sst-muted);white-space:normal;margin-bottom:var(--sst-space-2);}
  .vergelijkingstabel caption {display:block;width:100%;}
 }
+
+/* Een rustige werkplek: brongetrouwe inhoud, vernieuwde visuele hiërarchie. */
+@media(forced-colors:none) {
+:root:not([data-thema=dark]):not([data-thema=high-contrast]) {--sst-background:#f6f7f9;--sst-surface:#fff;--sst-surface-subtle:#f6f8fb;--sst-text:#182737;--sst-muted:#59697a;--sst-accent:#22624f;--sst-action:#22624f;--sst-border-subtle:#e0e6e9;--sst-control-border:#667985;--sst-selected:#e7f1ec;--sst-hover:#edf2f3;}
+}
+:root {--sst-radius:.6rem;--sst-heading-lg:1.75rem;--sst-weight-heading:650;}
+.kop {padding:22px max(32px,calc((100vw - 1440px)/2));background:var(--sst-surface);align-items:center;}
+.merk {display:flex;gap:13px;align-items:center;}
+.merkbeeld {display:flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:13px;background:var(--sst-action);color:var(--sst-action-text);font-size:2.125rem;font-weight:650;letter-spacing:-5px;padding-right:6px;}
+.merkbeeld>span {font-size:1.438rem;margin-top:-12px;}
+.merk h1 {font-size:1.125rem;letter-spacing:-.5px;}
+.merksub {display:block;font-size:0.75rem;font-weight:400;letter-spacing:.2px;color:var(--sst-muted);margin-top:4px;}
+.themakeuze {grid-row:1;gap:10px;font-size:0.75rem;}
+.themakeuze select {min-height:36px;border-color:var(--sst-control-border);font-size:0.8125rem;}
+.themakeuze .themahulp {display:none;}
+.intro {max-width:1440px;margin:auto;display:flex;align-items:flex-end;justify-content:space-between;gap:32px;padding:48px 32px 40px;}
+.eyebrow {font-size:0.625rem;font-weight:700;letter-spacing:1.8px;color:var(--sst-accent);}
+.intro h2 {font-size:clamp(32px,3.3vw,48px);letter-spacing:-1.8px;line-height:1.12;margin-top:12px;}
+.intro h2>span {color:var(--sst-accent);}
+.intro-tekst {max-width:500px;color:var(--sst-muted);font-size:0.875rem;margin-top:18px;line-height:1.7;}
+.intro-meta {font-size:0.75rem;color:var(--sst-muted);padding-bottom:4px;}
+.statusstip {display:inline-block;width:7px;height:7px;background:var(--sst-accent);border-radius:50%;margin-right:6px;}
+.jaartallen {display:flex;gap:8px;margin-top:16px;}
+.jaartallen span {padding:7px 14px;border:1px solid var(--sst-border-subtle);border-radius:6px;background:var(--sst-surface);font-size:0.75rem;}
+.hoofdnavigatie {max-width:1376px;margin:auto;background:var(--sst-surface);padding:0 24px;gap:32px;border:1px solid var(--sst-border-subtle);border-radius:12px 12px 0 0;}
+.hoofdnavigatie a {padding:18px 0;font-size:0.8125rem;color:var(--sst-muted);border-bottom:3px solid transparent;}
+.hoofdnavigatie [aria-current=page] {color:var(--sst-accent);border-bottom-width:3px;}
+.werkruimte {max-width:1376px;margin:0 auto 32px;grid-template-columns:minmax(300px,350px) minmax(0,1fr);background:var(--sst-surface);border:1px solid var(--sst-border-subtle);border-top:0;border-radius:0 0 12px 12px;overflow:hidden;min-height:640px;}
+.zijbalk {padding:26px 22px;}
+.zijbalk>label {font-size:0.75rem;letter-spacing:.2px;margin-bottom:10px;}
+#selectielijst {font-size:0.875rem;font-weight:550;}
+.laadstatus {font-size:0.6875rem;}
+.details {padding:32px 38px;}
+.welkom {padding:34px 0 0;}
+.welkom>h2 {font-size:1.75rem;letter-spacing:-.9px;margin:12px 0;}
+.welkom>.hulptekst {max-width:490px;font-size:0.875rem;color:var(--sst-muted);}
+.startstappen {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:38px;gap:14px;}
+.startstap {padding:22px 17px;border:1px solid var(--sst-border-subtle);border-radius:10px;}
+.stapnummer {font-size:0.75rem;color:var(--sst-accent);font-weight:600;font-variant-numeric:tabular-nums;}
+.startstap h3 {font-size:0.875rem;margin:22px 0 8px;}
+.startstap p {font-size:0.75rem;line-height:1.8;color:var(--sst-muted);}
+.zoektabs {background:var(--sst-surface);border:1px solid var(--sst-border-subtle);padding:4px;border-radius:8px;gap:4px;}
+.zoektabs button {border:0;border-radius:5px;font-size:0.75rem;min-height:38px;}
+.zoektabs button[aria-selected=true] {background:var(--sst-selected);}
+.zoekacties button {font-size:0.8125rem;justify-content:center;}
+.zoekacties button[type=submit] {flex:1;}
+.boomtools h2 {font-size:0.875rem;}
+.inklapknop {font-size:0.6875rem;min-height:32px;border-color:var(--sst-border-subtle);}
+.boomrij {font-size:0.8125rem;padding:9px 6px;}
+.scrollhulp {font-size:0.6875rem;line-height:1.7;}
+.zoekresultaten li {padding:15px 8px;}
+.zoekresultaten li:hover {background:var(--sst-hover);border-radius:6px;}
+.detailtitel {letter-spacing:-.6px;line-height:1.35;}
+.gegevens {line-height:1.85;}
+.lijsten-viewer,.concordans-viewer {background:var(--sst-surface);border:1px solid var(--sst-border-subtle);border-top:0;border-radius:0 0 12px 12px;margin-bottom:32px;max-width:1376px;padding:32px;}
+.viewer-tabel thead th {background:var(--sst-surface-subtle);}
+footer {max-width:1440px;margin:auto;padding:16px 32px 26px;color:var(--sst-muted);}
+@media(min-width:1440px) {.hoofdnavigatie,.werkruimte,.lijsten-viewer,.concordans-viewer {width:calc(100% - 64px);}}
+@media(max-width:900px) {.intro{padding:32px 24px;}.intro-meta{display:none;}.startstappen{grid-template-columns:1fr;gap:12px;}.startstap{display:grid;grid-template-columns:28px 1fr;gap:4px 10px;}.startstap h3{margin:0;}.startstap p{grid-column:2;}.welkom{padding:12px 0;}.werkruimte{grid-template-columns:300px minmax(0,1fr);}.details{padding:24px;}}
+@media(max-width:640px) {.kop{padding:18px 16px;gap:12px;}.merk h1{font-size:0.875rem;}.merkbeeld{width:35px;height:35px;}.themakeuze label{display:none;}.themakeuze{max-width:90px;}.intro{padding:30px 18px;}.intro h2{letter-spacing:-1px;}.intro-tekst{font-size:0.8125rem;}.hoofdnavigatie{border-radius:0;gap:18px;padding:0 16px;}.hoofdnavigatie a{font-size:0.6875rem;padding:16px 0;}.werkruimte{display:block;border-radius:0;}.details{padding:24px 18px;}.zijbalk{padding:24px 18px;}.welkom>h2{font-size:1.5rem;}.startstappen{margin-top:24px;}footer{padding:16px;}.lijsten-viewer,.concordans-viewer{padding:20px 16px;}}
+@media(prefers-reduced-motion:no-preference) {button,a {transition:background-color .15s,color .15s;}}
+
+/* De boom heeft een vaste eigen kolom, onafhankelijk van zoekresultaten. */
+.werkruimte-inhoud {min-width:0;}
+.zoekgebied {padding:26px 38px;border-bottom:1px solid var(--sst-border-subtle);background:var(--sst-surface);}
+.zoekgebied>h2 {font-size:1rem;display:inline;}
+.naar-boom {display:inline-block;float:right;font-size:0.75rem;margin:3px 0 12px 16px;}
+.zoekgebied .zoekmodi {clear:both;border-top:0;margin-top:16px;padding-top:0;}
+.zoekgebied .zoektabs {max-width:440px;}
+.zoekgebied .zoekacties {justify-content:flex-start;}
+.zoekgebied .zoekacties button[type=submit] {flex:0 1 auto;min-width:120px;}
+.zijbalk .boomtools {border-top:0;margin-top:24px;padding-top:0;align-items:flex-start;gap:10px;}
+.zijbalk .boomtools h2 {font-size:1rem;line-height:1.4;flex:1 1 160px;}
+.zijbalk .boomgebied {max-height:70vh;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;}
+.zijbalk .scrollhulp {margin-top:12px;}
+@media(max-width:900px) {.zoekgebied{padding:24px;}.naar-boom{float:none;margin:8px 0 0;display:block;}}
+@media(max-width:720px) {.werkruimte{display:block;}.zijbalk{border-right:0;border-bottom:1px solid var(--sst-border-subtle);}.zijbalk .boomgebied{max-height:45vh;}.zoekgebied{padding:24px 18px;}}
+
+/* Meer werkruimte en duidelijkere inhoudelijke hiërarchie. */
+.intro {padding-top:24px;padding-bottom:24px;align-items:center;}
+.intro h2 {font-size:clamp(26px,2.5vw,34px);letter-spacing:-1px;margin-top:6px;}
+.intro h2 br {display:none;}
+.intro-tekst {max-width:650px;margin-top:10px;font-size:0.8125rem;}
+.intro .eyebrow {font-size:0.5625rem;}
+.actieve-lijst {display:block;clear:both;width:fit-content;margin-top:12px;padding:5px 10px;border-radius:6px;background:var(--sst-selected);color:var(--sst-accent);font-size:0.75rem;font-weight:600;}
+.methodehulp {font-size:0.75rem;color:var(--sst-muted);margin:-4px 0 16px;line-height:1.7;}
+.context {display:inline-block;padding:5px 10px;border-radius:6px;background:var(--sst-selected);color:var(--sst-accent);font-weight:600;}
+.officiele-code {padding:12px 16px;background:var(--sst-surface-subtle);border:1px solid var(--sst-border-subtle);border-radius:8px;font-size:0.875rem;}
+.kerngegevens {display:grid;grid-template-columns:minmax(110px,150px) minmax(0,1fr);gap:12px 24px;margin:12px 0 20px;padding:20px;border:1px solid var(--sst-border-subtle);border-left:4px solid var(--sst-accent);border-radius:8px;background:var(--sst-surface-subtle);}
+.kerngegevens dt {font-size:0.8125rem;font-weight:600;}
+.kerngegevens dd {margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font-size:1rem;line-height:1.7;}
+.boom [aria-selected=true]>.boomrij {border-inline-start-width:4px;box-shadow:inset 0 0 0 1px var(--sst-accent);}
+.broodkruimels {padding:12px 0;border-bottom:1px solid var(--sst-border-subtle);margin-bottom:20px;}
+.broodkruimels ol {margin-bottom:0;line-height:1.8;}
+.broodkruimels [aria-current=page] {font-weight:600;color:var(--sst-text);}
+@media(max-width:640px) {.intro{padding:20px 18px;}.kerngegevens{grid-template-columns:1fr;gap:4px;padding:16px;}.kerngegevens dd+dt{margin-top:12px;}.kerngegevens dd{font-size:0.9375rem;}}
+
+/* Integratie: zichtbare focus, systeemcontrast en recente footeruitlijning behouden. */
+#boom-titel:focus-visible {outline:var(--sst-focus-width) solid var(--sst-focus);outline-offset:var(--sst-focus-offset);}
+@media(max-width:720px) {
+ .kop {grid-template-columns:minmax(0,1fr);padding:18px 16px;}
+ .kop .merk {grid-column:1;grid-row:1;}
+ .kop .themakeuze {grid-column:1;grid-row:2;max-width:100%;margin-top:0;}
+ .themakeuze label {display:block;}
+ .themakeuze select {width:auto;border-color:var(--sst-control-border);}
+ footer {padding-inline:16px;}
+}
+
 @media(forced-colors:active) {
  :root,:root[data-thema] {--sst-background:Canvas;--sst-surface:Canvas;--sst-surface-subtle:Canvas;--sst-text:CanvasText;--sst-muted:CanvasText;--sst-accent:LinkText;--sst-control-border:ButtonText;--sst-border-subtle:CanvasText;--sst-focus:Highlight;--sst-selected:Canvas;--sst-selected-text:CanvasText;--sst-hover:Canvas;--sst-action:ButtonFace;--sst-action-text:ButtonText;--sst-warning-bg:Canvas;--sst-warning-text:CanvasText;--sst-warning-border:CanvasText;--sst-error-bg:Canvas;--sst-error-text:CanvasText;--sst-error-border:CanvasText;--sst-mark:Highlight;--sst-mark-text:HighlightText;--sst-difference:Canvas;}
- .boom [aria-selected=true]>.boomrij,.viewer-tabel tr[aria-current=true]>th {border-inline-start:6px double Highlight;font-weight:var(--sst-weight-heading);}
+ .boom [aria-selected=true]>.boomrij,.viewer-tabel tr[aria-current=true]>th {box-shadow:none;border-inline-start:6px double Highlight;font-weight:var(--sst-weight-heading);}
  .viewer-tabel tr[aria-current=true]>th a {text-decoration:underline double;}
 }

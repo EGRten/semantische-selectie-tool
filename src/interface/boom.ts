@@ -105,6 +105,21 @@ export function maakBoom(dataset: Dataset, selecteer: (id: string) => void) {
       let parent = ouders.get(id);
       while (parent) { open(parent, true); parent = ouders.get(parent); }
       if (verplaatsFocus) focus(id);
+      else requestAnimationFrame(() => {
+        // Wacht op detailfocus/layout; verplaats uitsluitend de scrollpositie van de boom.
+        if(!root.isConnected)return;
+        const rij=items.get(id)?.firstElementChild;
+        const gebied=root.closest<HTMLElement>('.boomgebied');
+        const zijbalk=gebied?.closest<HTMLElement>('.zijbalk');
+        if(rij && gebied && zijbalk){
+          const r=rij.getBoundingClientRect(),g=gebied.getBoundingClientRect(),z=zijbalk.getBoundingClientRect();
+          const boven=Math.max(g.top,z.top,0),onder=Math.min(g.bottom,z.bottom,innerHeight);
+          // Op mobiel mag het focussen van details de boom boven het venster laten staan.
+          if(onder<=boven)return;
+          if(r.top<boven)gebied.scrollTop+=r.top-boven;
+          else if(r.bottom>onder)gebied.scrollTop+=r.bottom-onder;
+        }
+      });
     },
     inklappen() {
       // Houd de roving tabstop zichtbaar, ook als het gefocuste blad verdwijnt.
