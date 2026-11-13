@@ -146,7 +146,7 @@ test('alle gerichte bronbijzonderheden en annotaties blijven behouden', async ()
   const d = await laag.laadDataset('2020');
   const annotaties = await bron('2020','bronannotaties');
   for (const annotatie of annotaties) assert.deepEqual(d.bronannotatiesBij(annotatie.onderdeel_id), [annotatie]);
-  for (let i = 19; i <= 24; i++) assert.equal(d.selectiegegeven(`2020:19.1.${i}`).resultaattype, 'Archiefvernie- tiging');
+  for (let i = 19; i <= 24; i++) assert.equal(d.selectiegegeven(`2020:19.1.${i}`).resultaattype, 'Archiefvernietiging');
   assert.ok(d.selectiegegeven('2020:22.1.3').toelichting.endsWith('geldige of onbruikbaar'));
   assert.deepEqual(d.selectiegegevens.filter(r => r.status === 'vervallen').map(r => r.code), ['7.1.20','19.1.13']);
 });

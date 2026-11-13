@@ -1,5 +1,5 @@
 {
-  "methode": "Canonieke inhoudelijke JSON-vergelijking; bij selectiegegevens alleen verificatie uitgesloten en afzonderlijk gecontroleerd op privacywijzigingen. Alle overige officiële velden ongewijzigd.",
+  "methode": "Canonieke inhoudelijke JSON-vergelijking; bij selectiegegevens alleen verificatie uitgesloten en afzonderlijk gecontroleerd op privacywijzigingen. Alle overige officiële velden ongewijzigd. Tekstcorrecties voor extractieafbrekingen: zie documentatie/woordafbrekingen-correcties.json; oorspronkelijke bronrijen behouden.",
   "inhoudelijke_hashes": {
     "1996-2012": {
       "bepalingen": "1fc12d2c8618b75087cd0689e95cde1855b74401a2578a97daf7527c46326249",
@@ -17,7 +17,7 @@
       "codeinventaris": "59816ebfb84c04391b0ffbba625650c9153a5196cdd8a59377d5b8e8f3f4e237",
       "kandidaten-ongekoppeld": "26404e0cc2efe409af16b94b6d7600125d61f0a6ada11c3030fa84b3f45791c5",
       "relaties": "d7b9f765ff5fe5e32c918ada2a4c7b215ac1cefe8f5938d14af546636ff1bcef",
-      "selectiegegevens": "21e915f4c50ceb4b351efb1e7430ae964051082afa782cb3d6b364f6109db8b4",
+      "selectiegegevens": "ce57421d84be9257d041d48ac39611e84758a0d16b0df7e2377e54d17384cbee",
       "structuur": "6f06a5fbe9e291ffe64807565522202b96dec75442449b5a7e7ae4d86ccab1e8",
       "testvragen": "a97b202e5d9fa879b1749672ea399533ab83333eaafdb9fd55b739d54e0cc1d9",
       "wijzigingen": "d958bb4ed74d67d68a9268d9cea978f76b272dac54e569c7335f8ac7b19786a0",
@@ -28,11 +28,11 @@
       "codeinventaris": "fc70cd624a438e1a49a514cbdc607763bb96a1985e203981727a188c9a2bf117",
       "kandidaten-ongekoppeld": "ae60c461e538996f61f7763d0b8d9a3135fa17fb1b012182249240880bc1ca44",
       "relaties": "16be4170fecca8b1b690a6d1de1943d1531701467e6080a6c297a884e49ef354",
-      "selectiegegevens": "c12112d1a312ae349058fd01d03320b5fe7237bbd15beb3616d1f1405cd827cd",
-      "structuur": "fcac14ea16d62da9c32e5610d3bcc41ccd2795364785216b8c1316624cb8b153",
+      "selectiegegevens": "e3d11621a6ce186ef7a2722bfa860f15d2758371067caac0d3a2911d69920331",
+      "structuur": "65e8fb2407d3f8085bdece23f440f4be0d21113359079be53033e238d82dcb48",
       "testvragen": "120435b0fa0f7cb2355163103917092fb56999b9a1df525cbad71e616aab3d2b",
       "wijzigingen": "f5be44e1cea5055dc3b270c048c5b2ce332112350fcfc678ffcae13527bc69a0",
-      "zoeklexicon": "532758d7b8761efeb4afb843c64faf5a950422e843f8ac07272966890705ba7d"
+      "zoeklexicon": "c572136ccf0e99c22a9052ef9de8b4d224df74794358357a02bb4d60ce9dd2b1"
     }
   },
   "vergelijkingen": [

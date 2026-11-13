@@ -94,16 +94,16 @@
     "kandidaten-ongekoppeld.json": "09a4dd39d3a27c1abaa2f63ca86fa3d6676e4d19b18e6ced561b19a96201e363",
     "relaties.csv": "36eca0a268e42f93081f914e2c2449d703b9647d180c636e5a4dcc0b1a0cc61e",
     "relaties.json": "a010443ab7788a91b21ffaaa3b927947a53d380dd4bb1cb5c9f80190f61bc58b",
-    "selectiegegevens.csv": "d57bc8e3048a04618b73e2a5ba147074cc7b47bc9cef19913259aec794621fd9",
-    "selectiegegevens.json": "8c11e125108faf1094cd068e5c91736864d5edce6726428eed470da53d4fd723",
-    "structuur.csv": "6115c34cd7bc1ec6375fcbb672330a79a506aad2385f2cb9f785593ade5f8d1d",
-    "structuur.json": "3707ae9dfea5d821bdd9cc48cfabfac03602dd95fd66f9952acccf8d552bdf43",
+    "selectiegegevens.csv": "76e0a5696417dc9cddfbb2655dd1d5a590c142f52ef8e18c39c546278a6df79b",
+    "selectiegegevens.json": "1a1795febf27dc210b18498a2db4ac4c36edd31226d8fab52b6a19979a6f5664",
+    "structuur.csv": "ee3fdcaf23b12fe72a9bed3a3996e868fb97b462c3864781ee37ddaa49752f8a",
+    "structuur.json": "26a24adc1cbcf318a305a94184e9f64a36e701995a991f97d4f8f54735a5d0a2",
     "testvragen.csv": "d78bbeb458581b7183a05a55123ed68bc7bea7b22c645906392fbcc02c2208cf",
     "testvragen.json": "dab8e7da5edeb498b9788518f300fc2302ddb6a97730bc3f7f0e6a694ea3b053",
     "validatie.json": "33c18a956738703e1298cdbcccc85b4b3c6976ae90f22c99ca81135c50f3747e",
     "wijzigingen.json": "a817f97558f05354d5c11ee2eddea089164ab4ca7f8c2c4d622b71aeacad81c1",
-    "zoeklexicon.csv": "d23d9c70a08060bf8552ebc3b0afacadb710d37d738b06b4617609e5f1d136b6",
-    "zoeklexicon.json": "2cfd642214e8748ac28106caee5f858a3d55061242a18709e1379abf830d406a"
+    "zoeklexicon.csv": "ec4555504b2b94d807a54d0d2ac91de2740ffb5029520f0d6382844d33452862",
+    "zoeklexicon.json": "86bc171939b600ae506f8c23028f6bdf0a2b0016db6ac4d3865b8be09ff2933e"
   },
   "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
   "controleoverdracht": {
