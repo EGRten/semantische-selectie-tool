@@ -50,7 +50,7 @@ for(const value of ['light','dark','high-contrast'])test(`${value}: semantische 
 
 });
 test('alle paletten blijven bruikbaar op 320px en bij echte 200/400%-zoom',async({baseURL})=>{
- test.setTimeout(90000);const dir=await mkdtemp(join(tmpdir(),'sst-themazoom-'));const c=await chromium.launchPersistentContext(dir,{executablePath:'/usr/bin/chromium',headless:true,viewport:{width:1280,height:1024}});
+ test.setTimeout(90000);const dir=await mkdtemp(join(tmpdir(),'sst-themazoom-'));const c=await chromium.launchPersistentContext(dir,{executablePath:process.env.CHROMIUM_PATH??chromium.executablePath(),headless:true,viewport:{width:1280,height:1024}});
  try{const instellingen=await c.newPage();await instellingen.goto('chrome://settings/appearance');const page=await c.newPage();for(const f of [1,2,4]){await instellingen.evaluate(f=>chrome.settingsPrivate.setDefaultZoom(f),f);await page.goto(baseURL+'#lijst=2020');await expect(page.locator('.lijsten-viewer tbody tr')).toHaveCount(346);for(const value of ['light','dark','high-contrast']){await thema(page,value);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.locator('.lijsten-viewer tbody th a').nth(12).focus();await page.keyboard.press('Shift+Tab');await expect.poll(()=>page.evaluate(()=>{const e=document.activeElement,r=e.getBoundingClientRect(),g=e.closest('.viewer-tabelgebied'),b=g.getBoundingClientRect(),h=Math.max(...[...g.querySelectorAll('thead th')].map(e=>e.getBoundingClientRect().height));return r.top>=Math.max(0,b.top+h)-.5&&r.bottom<=innerHeight;})).toBe(true);}}
  }finally{await c.close();await rm(dir,{recursive:true,force:true});}
 });

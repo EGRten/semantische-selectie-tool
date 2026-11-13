@@ -25,7 +25,7 @@ test('UI-08: systeemkleuren behouden geselecteerde boom- en tabelranden zonder s
  await page.goto('./#concordans=21');await expect(page.locator('.viewer-rijdetail h3')).toBeVisible();await expect(page.locator('[data-viewerrij="21"]>th')).toHaveCSS('border-inline-start-style','double');
 });
 test('UI-05: echte browserlettervoorkeur 32px vergroot tekst én invoervelden',async({baseURL})=>{
- const dir=await mkdtemp(join(tmpdir(),'sst-lettervoorkeur-'));const c=await chromium.launchPersistentContext(dir,{executablePath:'/usr/bin/chromium',headless:true,viewport:{width:1280,height:1024}});
+ const dir=await mkdtemp(join(tmpdir(),'sst-lettervoorkeur-'));const c=await chromium.launchPersistentContext(dir,{executablePath:process.env.CHROMIUM_PATH??chromium.executablePath(),headless:true,viewport:{width:1280,height:1024}});
  try{const settings=await c.newPage();await settings.goto('chrome://settings/appearance');await settings.evaluate(()=>chrome.settingsPrivate.setPref('webkit.webprefs.default_font_size',32));const page=await c.newPage();await page.goto(baseURL+'#lijst=2020');await expect(page.locator('.lijsten-viewer tbody tr')).toHaveCount(346);await expect(page.locator('html')).toHaveCSS('font-size','32px');await expect(page.locator('#lijst-tabelzoek')).toHaveCSS('font-size','32px');await expect(page.locator('.viewer-tabel')).toHaveCSS('font-size','30px');await page.setViewportSize({width:320,height:640});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
  }finally{await c.close();await rm(dir,{recursive:true,force:true});}
 });

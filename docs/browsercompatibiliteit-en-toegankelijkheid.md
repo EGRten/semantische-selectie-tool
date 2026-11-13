@@ -2,6 +2,27 @@
 
 12 november 2026. Baseline: **`586b474`**, actuele main inclusief PR #27. Gerichte aanvulling op de [releasevalidatie](release-acceptatie.md), geen nieuwe algemene audit. Publicatierechten, licenties en publicatiekeuze zijn niet gewijzigd.
 
+## GitHub Actions en praktijkdekking — opdracht 29, 13 november 2026
+
+Baseline van deze aanvulling: `ec992f7` (main inclusief PR #28). De [workflow](../.github/workflows/browsercompatibiliteit.yml) gebruikt Ubuntu 24.04, Node 24, Python 3.12, één npm-installatie/build en de officiële `playwright install --with-deps` voor alle drie engines. Elke engine heeft een herkenbare teststap; de bestaande matrix blijft 131 Chromium-/127 Firefox-/127 WebKit-gevallen omvatten. De vier CDP-/Chrome-instellingenproeven blijven uitsluitend Chromium. Drie tests kiezen nu het expliciete `CHROMIUM_PATH` of de door Playwright geïnstalleerde binary, zodat geen Ubuntu-systeempad wordt verondersteld.
+
+Alleen PR's naar main en `workflow_dispatch` starten de workflow; geen gewone push-trigger of deployment. Per test één CI-retry, lokaal nul. Flaky resultaten, skips, ontbrekende rapporten en installatiefouten geven geen groene eindstatus. `continue-on-error` op de drie browserstappen laat andere engines doorlopen; de verplichte eindcontrole maakt iedere onvolledige/mislukte run rood. `test.only` en ontbrekende axe-voorbereiding worden in CI geweigerd.
+
+Artifacts (7 dagen) bevatten uitsluitend versies en compacte uitkomsten per test/engine, commit en runlink (bij een PR de daadwerkelijk geteste GitHub-mergecommit). Geen ruwe JSON-testbijlagen, DOM, foutwaarden, traces, video's, screenshots, XLSX-bestanden of netwerklichamen worden geüpload. Foutdetails staan in de relevante teststap; het compacte rapport wijst naar testbestand/regel en retry-uitkomsten. Tokens/omgeving worden niet gedumpt. De job heeft alleen `contents: read`; checkout bewaart geen Git-credentials.
+
+**Daadwerkelijke uitvoeringsstatus:** `gh workflow run browsercompatibiliteit.yml --ref browservalidatie-actions` is op 13 november 2026 geprobeerd nadat de branch was gepusht. De GitHub-API weigerde de workflowlookup met `Forbidden`; ook `gh run list --workflow browsercompatibiliteit.yml --branch browservalidatie-actions --limit 5` werd geweigerd. Start en uitvoer kunnen daardoor niet worden bevestigd. Een gewone branchpush start volgens het gekozen triggerbeleid geen workflow. Er is geen gecontroleerd Actions-run-ID of directe runlink beschikbaar. Firefox/WebKit staan daarom nog steeds op **Niet uitgevoerd**; de bestaande matrix hieronder is geen bewijs van een CI-run.
+
+Lokaal zijn 13 geselecteerde Chromium-tests onder de CI-configuratie geslaagd (inclusief vier Excel-downloads, negen axe-scans en de vier Chrome-specifieke proeven). De drie tests van de compacte rapportage slagen, waaronder synthetische mislukte/flaky/overgeslagen/ontbrekende resultaten en omgevingsfouten. Dit valideert de testinrichting, niet Firefox/WebKit. YAML, triggers en eindstatusbewaking zijn lokaal gecontroleerd; dit is geen GitHub-run.
+
+### Nog uit te voeren door de repositorybeheerder
+
+1. Maak de [pull request van `browservalidatie-actions` naar main](https://github.com/EGRten/semantische-selectie-tool/pull/new/browservalidatie-actions) aan. De `pull_request`-trigger is de eerste route, zonder samenvoeging. Controleer **Checks → Browsercompatibiliteit / Chromium, Firefox en WebKit**. Geef alleen indien GitHub daarom vraagt de vereiste beheerdersgoedkeuring voor Actions.
+2. Controleer installatie en de drie browserstappen afzonderlijk. Lees de samenvatting en download de compacte artifactrapporten. Noteer de werkelijke engineversies, geteste SHA, aantallen/mislukkingen/flaky/skips en de directe URL `https://github.com/EGRten/semantische-selectie-tool/actions/runs/<run-id>` in dit verslag; vul geen verzonnen run-ID in.
+3. Is handmatige uitvoering nodig: zodra deze workflow op de defaultbranch is geregistreerd na reguliere review door de beheerder, open **Actions → Browsercompatibiliteit → Run workflow**, kies de te toetsen branch en start. Een nieuw workflowbestand dat nog niet op de defaultbranch staat, is niet vanzelf via `workflow_dispatch` beschikbaar. Er is geen push-trigger als omweg toegevoegd.
+4. Laat de resterende praktijkproeven uitvoeren met het [praktijktestprotocol](praktijktest-toegankelijkheid.md). Alle resultaatvelden staan op **Niet uitgevoerd**. Verwerk eventuele defecten en hertesten; sluit REL-02 pas als de afgesproken bewijsdekking is bereikt.
+
+Technisch advies blijft **geschikt onder beperkingen**: geen nieuwe productdefecten vastgesteld in deze opdracht; CI-bewijs voor alle engines en praktijkbewijs ontbreken nog. Het vrijwillige AA-doel is geen automatische verklaring van wettelijke overheidsplichten voor dit particuliere project.
+
 ## A. Omgeving en bewijs
 
 | Onderdeel | Werkelijk beschikbaar / gebruikt |

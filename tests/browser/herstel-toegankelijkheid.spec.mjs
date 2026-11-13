@@ -39,7 +39,7 @@ for(const id of werken)for(const [w,h]of [[1440,1000],[320,640]])test(`UI-02: ${
 });
 test('UI-02: alle vier tabellen bij echte 200% en 400% Chromium-paginazoom',async({baseURL})=>{
  test.setTimeout(120000);const profiel=await mkdtemp(join(tmpdir(),'sst-focuszoom-'));
- const context=await chromium.launchPersistentContext(profiel,{executablePath:'/usr/bin/chromium',headless:true,viewport:{width:1280,height:1024}});
+ const context=await chromium.launchPersistentContext(profiel,{executablePath:process.env.CHROMIUM_PATH??chromium.executablePath(),headless:true,viewport:{width:1280,height:1024}});
  try{const instellingen=await context.newPage();await instellingen.goto('chrome://settings/appearance');const page=await context.newPage();
  for(const factor of [2,4]){await instellingen.evaluate(f=>chrome.settingsPrivate.setDefaultZoom(f),factor);
  for(const id of werken){const gebied=await openTabel(page,id,baseURL);expect(await page.evaluate(()=>innerWidth)).toBe(1280/factor);await tabRonde(page,gebied);}}
