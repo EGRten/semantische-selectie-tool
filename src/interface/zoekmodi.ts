@@ -18,10 +18,13 @@ export function maakZoekmodi(selecteer:(id:string)=>void,laden:(id:Selectielijst
   });
   function activeer(nummer:number) {
     modus=nummer;
+    methodehulp.textContent=modus===0?'Trefwoord — zoek op een officiële code of tekst.':'Begripsgericht — zoek met verwante termen. Zoekverrijking is geen officieel selectievoorschrift.';
     knoppen.forEach((b,i)=>{b.setAttribute('aria-selected',String(i===modus));b.tabIndex=i===modus?0:-1;panelen[i]!.hidden=i!==modus;});
     klassiek.koppel(dataset);begrip.koppel(dataset,modus===1);
   }
   panelen.forEach((p,i)=>{p.id=`zoekpaneel-${i}`;p.setAttribute('role','tabpanel');p.setAttribute('aria-labelledby',`zoekmodus-${i}`);});
-  tabs.append(...knoppen);root.append(tabs,...panelen);activeer(0);
+  const methodehulp=element('p',undefined,'methodehulp');methodehulp.id='zoekmethode-hulp';
+  tabs.setAttribute('aria-describedby',methodehulp.id);
+  tabs.append(...knoppen);root.append(tabs,methodehulp,...panelen);activeer(0);
   return {element:root,koppel(nieuw:Dataset|undefined){dataset=nieuw;klassiek.koppel(nieuw);begrip.koppel(nieuw,modus===1);}};
 }

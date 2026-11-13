@@ -16,10 +16,10 @@ for(const [w,h]of [[320,640],[768,1024],[1440,1000]])test(`UI-06/12: vier volled
 });
 test('UI-07: waardering, volledige termijn en voorwaarden gaan vóór aanvullende context',async({page})=>{
  await page.goto('./#selectie=2020%3A19.1.19');await expect(page.locator('#detailtitel')).toBeVisible();
- await expect(page.locator('.gegevens dt').nth(0)).toHaveText('Waardering');await expect(page.locator('.gegevens dt').nth(1)).toHaveText('Bewaartermijn');
+ await expect(page.locator('.kerngegevens dt').nth(0)).toHaveText('Waardering');await expect(page.locator('.kerngegevens dt').nth(1)).toHaveText('Bewaartermijn');
  const volgorde=await page.locator('#details').evaluate(e=>{const a=[...e.children];const voorwaarden=a.findIndex(n=>n.tagName==='SECTION'&&n.querySelector('h3')?.textContent==='Voorwaarden en context');return {data:a.indexOf(e.querySelector('.gegevens')),voorwaarden,vergelijking:a.indexOf(e.querySelector('.historische-relaties')),annotaties:a.indexOf(e.querySelector('.annotaties')),versie:a.indexOf(e.querySelector(':scope > details.broncontext'))};});
  expect(volgorde.voorwaarden).toBeGreaterThan(volgorde.data);expect(volgorde.vergelijking).toBeGreaterThan(volgorde.voorwaarden);expect(volgorde.versie).toBeGreaterThan(volgorde.voorwaarden);expect(volgorde.annotaties).toBeGreaterThan(volgorde.voorwaarden);
- await expect(page.locator('.annotaties')).toContainText('officiële rectificatie');await expect(page.locator('.gegevens')).toContainText('Na kennisgeving');
+ await expect(page.locator('.annotaties')).toContainText('officiële rectificatie');await expect(page.locator('.kerngegevens')).toContainText('Na kennisgeving');
 });
 test('UI-08: systeemkleuren behouden geselecteerde boom- en tabelranden zonder schaduw',async({page})=>{
  await page.emulateMedia({forcedColors:'active'});await page.goto('./#selectie=2020%3A19.1.19');await expect(page.locator('#detailtitel')).toBeVisible();
