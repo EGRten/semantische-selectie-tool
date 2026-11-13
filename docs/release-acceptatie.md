@@ -2,7 +2,13 @@
 
 12 november 2026. Getoetst: actuele `main` **`dbb1270`**, merge PR #23, inclusief PR #21/#22. Validatiebranch `releasevalidatie`; uitsluitend deze twee documenten en een afzonderlijke audithelper, geen productieherstel.
 
-De rechtencommunicatie is redactioneel herzien. De technische resultaten hieronder blijven die van opdracht 24; er is geen nieuwe validatie of juridische beoordeling uitgevoerd.
+De oorspronkelijke technische resultaten hieronder behoren bij opdracht 24; de aanvullende browservalidatie uit opdracht 28 is afzonderlijk vermeld. Er is geen aanvullende juridische beoordeling uitgevoerd.
+
+## Aanvullende browservalidatie — opdracht 28
+
+Op baseline `586b474` zijn 9 aanvullende Chromium-tests en 23 geselecteerde bestaande regressies geslaagd, met vier teruggelezen Excel-downloads en negen nieuwe axe-scans. Alleen het te smalle raakvlak van de boomuitklappijl is hersteld (24×24px minimum). Typecheck en gewone productiebuild slagen; brongegevens en exportinhoud zijn ongewijzigd. Dit vervangt de eerdere volledige regressie niet.
+
+Firefox en WebKit konden niet worden geïnstalleerd: officiële downloadhosts geven `403 Domain forbidden`, launchproeven bevestigen ontbrekende binaries. Compatibiliteit met die engines is nog niet aangetoond. Schermlezer-, Windows- en Office-AT-proeven blijven open. Zie het [compacte rapport en de reproduceerbare browsermatrix](browsercompatibiliteit-en-toegankelijkheid.md). De rechtenverantwoording en publicatiekeuze blijven buiten deze opdracht.
 
 ## Releaseoordeel
 
