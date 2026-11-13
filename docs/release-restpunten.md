@@ -11,3 +11,5 @@ Validatie 12 november 2026, baseline `dbb1270` (main inclusief PR #23). Geen pro
 De resterende lacunes worden niet als geslaagde tests geregistreerd. Geen nieuw aangetoond productdefect wordt hieruit afgeleid. Geen GitHub Pages-activering of samenvoeging uitgevoerd.
 
 REL-04 is geen resterend punt meer: opdracht 25 actualiseert de README-projectstatus en GitHub Pages-route. Dit wijzigt geen testuitkomsten of applicatiefuncties.
+
+Opdracht 31: run [43380415462](https://github.com/EGRten/semantische-selectie-tool/actions/runs/43380415462) heeft een mislukte openbare samenvatting. Subpad- en Chromium-klembordtestaannamen zijn gericht gecorrigeerd en lokaal getoetst; de 22 gemelde CI-regressies zijn nog niet afzonderlijk op logs geclassificeerd door ontbrekende log-/artifacttoegang. Geen nieuwe geslaagde browsermatrix of afsluiting van REL-02 geclaimd; zie de [gedeeltelijke analyse](browsercompatibiliteit-en-toegankelijkheid.md#gerichte-herstelanalyse--opdracht-31-gedeeltelijk).

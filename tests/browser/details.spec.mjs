@@ -40,3 +40,8 @@ test('late broncontext schrijft niet in nieuwe lijst; ongeldige context krijgt f
 let vrij;const wacht=new Promise(r=>vrij=r);await page.route('**/datasets/2020/bepalingen.json',async route=>{await wacht;await route.continue();});await vind(page,'1.1.2');await page.getByText('Algemene bepalingen raadplegen',{exact:true}).click();await expect(page.locator('#details')).toContainText('Brontekst laden');await kies(page,'2017');vrij();await expect(page.locator('#details')).not.toContainText('Brontekst laden');await expect(page.getByText('Pagina 1',{exact:true})).toHaveCount(0);
 await page.route('**/datasets/2017/bepalingen.json',r=>r.fulfill({json:[{id:'2020:bronpagina:1',tekst:'verkeerde lijst',bron:{bron_id:'2020-officieel',pdf_pagina:1}}]}));await selecteer(page,'2017:1.1','2017');await page.getByText('Algemene bepalingen raadplegen',{exact:true}).click();await expect(page.getByRole('alert')).toContainText('ongeldige verwijzing');await expect(page.locator('#details')).not.toContainText('verkeerde lijst');
 });
+
+// Vertrouwde knopactivering zonder Chromium-specifieke permissies of clipboard-read.
+test('native kopieerfunctie bevestigt schrijven zonder vooraf verleende klembordpermissies',async({page})=>{
+ await vind(page,'22.1.2');await page.getByRole('button',{name:'Kopieer selectiegegevens',exact:true}).click();await expect(page.locator('.kopieerstatus')).toHaveText('Selectiegegevens gekopieerd.');
+});
