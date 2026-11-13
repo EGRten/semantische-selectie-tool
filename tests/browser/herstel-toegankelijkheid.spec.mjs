@@ -3,6 +3,20 @@ import {mkdtemp,rm} from 'node:fs/promises';
 import {tmpdir} from 'node:os';
 import {join} from 'node:path';
 const werken=['1996-2012','2017','2020','concordans'];
+test('herstel na laadfout behoudt toetsenbordfocus op de selectielijst',async({page})=>{
+ await page.route('**/datasets/2020/structuur.json',r=>r.fulfill({status:404}));
+ await page.goto('./');
+ const keuze=page.getByLabel('Selectielijst',{exact:true});
+ await keuze.selectOption('2020');
+ await expect(page.getByRole('alert')).toContainText('Een bestand ontbreekt');
+ await page.unroute('**/datasets/2020/structuur.json');
+ const herstel=page.getByRole('button',{name:'Opnieuw proberen',exact:true});
+ await herstel.focus();await page.keyboard.press('Enter');
+ await expect(page.locator('.laadstatus')).toContainText('geladen.');
+ await expect(keuze).toBeFocused();
+ await page.keyboard.press('Tab');
+ await expect(page.getByRole('tab',{name:'Trefwoordzoeken',exact:true})).toBeFocused();
+});
 async function openTabel(page,id,basis='./'){
  await page.goto(basis+(id==='concordans'?'#concordans':`#lijst=${id}`));
  const root=id==='concordans'?'.concordans-viewer':'.lijsten-viewer';

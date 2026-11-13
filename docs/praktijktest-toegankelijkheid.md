@@ -111,3 +111,32 @@ Alle aanvullende beoordelingen zijn **Niet uitgevoerd** totdat een tester het be
 Bij een defect: noteer ID, build, combinatie, stappen, verwacht/werkelijk, ernst en minimaal bewijs. Kleine afgebakende correctie: gerichte regressie en hertest in betrokken combinaties. Grotere problemen: herstelvoorstel vastleggen, geen herontwikkeling starten. Na herstel blijft de oude uitkomst traceerbaar en krijgt de hertest een eigen datum/build. Pas REL-02 aan op basis van bewijs; sluit het niet na alleen inrichting van workflow of protocol.
 
 Het WCAG 2.2-AA-doel is een projectkwaliteitsdoel. Dit particuliere project wordt niet automatisch als overheidswebsite met alle bijbehorende wettelijke verplichtingen aangemerkt. Een technische praktijkproef stelt de wettelijke scope niet vast.
+
+## Gerichte technische controle — Issue #35, 13 november 2026
+
+Eenmalige, proportionele controle op basis van `b6001b7`, volgens de beperkte opdracht voor dit particuliere hobbyproject. Issue #35 is via de openbare issuepagina gelezen. Bestaande audit-, herstel- en browsermatrixdocumentatie is hergebruikt; de eerdere drie-engine-CI-run is niet opnieuw als eigen testresultaat opgevoerd.
+
+**Omgeving:** Linux, Node 24.22.1, Playwright 1.65.0, headless Chromium 156.0.8078.79 en afzonderlijke axe-core 4.11.0 in `/tmp` (geen dependencywijziging). Browser-plugin niet beschikbaar; reguliere Playwright gebruikt. Gewone statische productiebuild onder `/semantische-selectie-tool/`; gerichte hertest tevens onder `/testpad/`.
+
+**Uitgevoerd:** 72 geselecteerde bestaande browsergevallen uit `interface`, `zoeken`, `begripszoeken`, `details`, `herstel-toegankelijkheid` en `compatibiliteit`, zonder de vier Excel-exportgevallen. Alle 72 geslaagd, geen skips/flaky/mislukkingen. Deze dekken labels/namen, toetsenbord en zichtbare focus, skiplink, drie bomen, beide zoekmodi, filters, lege resultaten, detailactivering/permalink, foutmelding/herstel, status-ARIA, mobiele overloop en vier scrolltabellen op 320/1440px en bij echte Chromium-zoom 200/400%. Geen schermlezeruitspraak of aankondigingstiming hiermee bewezen.
+
+**Gevonden en hersteld:** bij toetsenbordactivering van **Opnieuw proberen** na een laadfout verdween de gefocuste knop. `src/interface/app.ts` zet de focus nu vóór het verbergen terug op de selectielijst, uitsluitend wanneer die herstelknop focus heeft. De nieuwe browserregressie simuleert een ontbrekend structuurbestand, herstelt het verzoek en controleert Enter → geladen lijst → focus op selectielijst → Tab naar Trefwoordzoeken. Deze test faalde vóór herstel en slaagt erna. Vier bestaande relevante regressies (laadherstel, snelle lijstwissel, boomtoetsen en skiplink) slagen eveneens. Geen brongegevens, selectie-inhoud, architectuur of bestaande verwachtingen gewijzigd.
+
+**Axe en visuele controle:** negen bestaande scans (zoeken, vergelijking, eerste 30 tabelrijen in licht/donker/hoog contrast) zonder gerapporteerde overtredingen. De 2020-tabel houdt per thema 281 onvolledige contrastchecks en één onvolledige skiplinkcheck; dit zijn geen individuele geslaagde beoordelingen. Twee aanvullende scans van begripsresultaten met detail op 1440×1000 en 320×640: geen overtredingen; op 320px 100 onvolledige contrastchecks bij scrollinhoud, op desktop geen incomplete. Paginatitel, Nederlandse taal, gevulde hoofdinhoud, echte zoekinteractie, geen horizontale pagina-overloop en geen console-/runtimefouten zijn gecontroleerd. Screenshots van beide formaten zijn visueel bekeken: tekst en bediening passen binnen de viewport, focusrand zichtbaar, geen foutoverlay. Tijdelijke screenshots/JSON staan buiten Git.
+
+**Verificatie:** typecheck en productiebuild na herstel geslaagd; vijf gerichte herstel-/regressietests geslaagd. De volledige unitset, Excel-exportcontrole en drie-engine-matrix zijn niet onnodig herhaald voor deze focuswijziging. Ook de vier bestaande axe-/skiplinkgevallen slagen na herstel (negen scans zonder overtredingen, dezelfde incomplete); de aanvullende desktop-/mobielprobe slaagt opnieuw.
+
+Reproduceer de selectie na `npm ci`, `npm run typecheck` en `npm run build`:
+
+```sh
+AXE_SOURCE=/pad/naar/axe.min.js CHROMIUM_PATH=/usr/bin/chromium \
+  npx playwright test -c playwright.compat.config.mjs --project=chromium \
+  tests/browser/interface.spec.mjs tests/browser/zoeken.spec.mjs \
+  tests/browser/begripszoeken.spec.mjs tests/browser/details.spec.mjs \
+  tests/browser/herstel-toegankelijkheid.spec.mjs tests/browser/compatibiliteit.spec.mjs \
+  --grep-invert 'Excel inhoudelijk'
+```
+
+De selectie bevat na toevoeging van de regressie 73 gevallen. De afzonderlijke hertest gebruikt `-g 'herstel na laadfout|ontbrekend bestand|snelle lijstwissel|toetsenbord:'` op de bestanden `herstel-toegankelijkheid.spec.mjs` en `interface.spec.mjs` met de gewone Playwright-configuratie.
+
+**Beperkingen:** NVDA, VoiceOver en andere ondersteunende technologie, echte Windows Contrast Themes, Safari/iOS en Excel met AT zijn niet uitgevoerd en vallen buiten deze opdracht. Firefox/WebKit zijn in deze run niet getest. Niet alle bronpassages, inline doelen en axe-incomplete zijn afzonderlijk menselijk beoordeeld. Geen volledige WCAG 2.2 AA-conformiteit vastgesteld. De praktijkmatrices hierboven blijven ongewijzigd op Niet uitgevoerd; REL-02/UI-09 en Issue #35 blijven open. Geen Pages-publicatie, release of nieuwe rechtenbeoordeling uitgevoerd.
