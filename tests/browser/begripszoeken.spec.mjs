@@ -48,7 +48,8 @@ test('lijstwissel verwijdert resultaten en gebruikt uitsluitend nieuw lexicon',a
  const requests=[];page.on('request',r=>{if(/zoeklexicon|relaties/.test(r.url()))requests.push(r.url());});
  await kies(page);await begrippen(page);await zoek(page,'notulen');
  await kies(page,'2017');await expect(page.getByRole('searchbox')).toBeEnabled();await expect(resultaten(page)).toBeHidden();
- await zoek(page,'notulen');await meet('voor isolatiecontrole');expect(await resultaten(page).locator('[data-zoekresultaat]').evaluateAll(ns=>ns.every(n=>n.dataset.zoekresultaat.startsWith('2017:')))).toBeTruthy();
+ await zoek(page,'notulen');await expect(resultaten(page).locator('[data-zoekresultaat]').first()).toBeVisible();await meet('voor isolatiecontrole');expect(await resultaten(page).locator('[data-zoekresultaat]').evaluateAll(ns=>ns.every(n=>n.dataset.zoekresultaat.startsWith('2017:')))).toBeTruthy();
+ await resultaten(page).locator('.zoekresultaatknop').first().click();await expect(page.locator('#detailtitel')).toBeFocused();expect(decodeURIComponent(new URL(page.url()).hash)).toMatch(/^#selectie=2017:/);
  expect(requests).toHaveLength(4);expect(requests.some(u=>u.includes('/1996-2012/'))).toBeFalsy();
 });
 test('traag oud lexicon kan na modus- en lijstwissel geen resultaten of status terugzetten',async({page})=>{

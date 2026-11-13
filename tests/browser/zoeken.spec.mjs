@@ -60,7 +60,8 @@ test('wisselen wist opdracht, resultaten en filters voordat de nieuwe lijst arri
   await expect(page.getByRole('searchbox')).toBeDisabled();await expect(page.getByRole('searchbox')).toHaveValue('');
   await expect(page.getByRole('checkbox')).not.toBeChecked();await expect(resultaten(page)).toBeHidden();
   vrij();await expect(page.getByRole('status')).toContainText('geladen.');await zoek(page,'1.1');
-  await meet('voor isolatiecontrole');expect(await resultaten(page).locator('[data-zoekresultaat]').evaluateAll(ns=>ns.every(n=>n.dataset.zoekresultaat.startsWith('2017:')))).toBeTruthy();
+  await expect(resultaten(page).locator('[data-zoekresultaat]').first()).toBeVisible();await meet('voor isolatiecontrole');expect(await resultaten(page).locator('[data-zoekresultaat]').evaluateAll(ns=>ns.every(n=>n.dataset.zoekresultaat.startsWith('2017:')))).toBeTruthy();
+ await resultaten(page).locator('.zoekresultaatknop').first().click();await expect(page.locator('#detailtitel')).toBeFocused();expect(decodeURIComponent(new URL(page.url()).hash)).toMatch(/^#selectie=2017:/);
 });
 test('wissen en lege opdrachten verschillen van geen resultaten; boom blijft beschikbaar',async({page})=>{
   await kies(page);await zoek(page,'Gemeentewapen');await page.getByRole('button',{name:'Wissen',exact:true}).click();

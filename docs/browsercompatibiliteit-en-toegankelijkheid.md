@@ -2,6 +2,48 @@
 
 12 november 2026. Baseline: **`586b474`**, actuele main inclusief PR #27. Gerichte aanvulling op de [releasevalidatie](release-acceptatie.md), geen nieuwe algemene audit. Publicatierechten, licenties en publicatiekeuze zijn niet gewijzigd.
 
+## Webstandaarden en gerichte hertest — opdracht 33
+
+13 november 2026; baseline **`387de88`** (main inclusief PR #32), branch `browserstandaarden-gericht-herstel`. De opdrachtgever rapporteert voor [run 43411239820](https://github.com/EGRten/semantische-selectie-tool/actions/runs/43411239820): Chromium 131/1, Firefox 125/2, WebKit 124/3 (geslaagd/mislukt). Dit zijn aangeleverde resultaten, geen in deze sessie uitgelezen logs. De eerdere analyses hieronder zijn historisch; deze sectie beschrijft de actuele zes restgevallen.
+
+**Bronbeschikbaarheid:** vijf concrete aanvragen naar W3C WCAG 2.2, CSSOM View, CSS2 Tables, Playwright Browsers en Mozilla Memory-documentatie zijn geweigerd met `Tunnel connection failed: 403 Forbidden`. Geen geslaagd extern bronnenonderzoek of bevestigde browserbug geclaimd. Onderstaande normduiding berust op specificatiekennis en bestaande auditdocumentatie; de links dienen voor onafhankelijke verificatie. WPT/Bugzilla zijn niet als geraadpleegd bewijs gebruikt. Er is geen bewijs voor een specifieke Firefox-159-regressie.
+
+| Probleem | Functionele eis | Standaard/bron | Vastgestelde oorzaak | Correctie | Hertest |
+| --- | --- | --- | --- | --- | --- |
+| Firefox, twee lijstwissels | Geen crash; uitsluitend actieve-lijstresultaten; details blijven bereikbaar | [Mozilla geheugenonderzoek](https://firefox-source-docs.mozilla.org/performance/memory/index.html), [Playwright browserbuilds](https://playwright.dev/docs/browsers) (opvragen geblokkeerd; geen normatieve geheugenlimiet of bewezen bug) | **Nog niet vastgesteld.** `Page crashed` wijst op paginaprocesverlies, niet automatisch op een applicatielek. Aangeleverde RSS/DOM-cijfers bewijzen geen OOM | Geen speculatieve productieaanpassing. Oorspronkelijke isolatieassertion/crashdiagnostiek behouden; aanvullend niet-lege resultaten en werkelijk openen met juiste 2017-permalink/focus vereist | Chromium lokaal; Firefox niet beschikbaar. Geen Firefox-herstelclaim |
+| Chromium, focus bij 400% | Focus herkenbaar, niet volledig door auteursinhoud bedekt; toetsenbord bereikbaar | [WCAG 2.2 2.4.11 AA](https://www.w3.org/TR/WCAG22/#focus-not-obscured-minimum), 2.4.7 AA, 2.1.1 A, [1.4.10 AA](https://www.w3.org/TR/WCAG22/#reflow); 2.4.12/2.4.13 zijn AAA | **Te strikte testaanname:** volledige rechthoek binnen viewport werd als AA-eis gebruikt. Opgegeven CI-meting heeft onbedekt middelpunt. Dit bewijst nog niet zelfstandig zichtbare focus | Test meet een onbedekt deel binnen viewport én scrollgebied met hit-tests en eist een zichtbare outline-stijl. Tab én Shift+Tab. Negatieve proef faalt bij volledige overlay en ontbrekende outline. Bestaande focuscontrasttests en productiescrollcorrectie blijven intact | Lokale echte 100/200/400%-Chromium-instelling; CI-hertest open. Automatische hit-test/outlinecontrole is geen volledige visuele of AT-beoordeling |
+| WebKit, drie kolombreedtemetingen | Leesbare code/omschrijving, alle kolommen bereikbaar, bruikbare horizontale scroll | [HTML table/col](https://html.spec.whatwg.org/multipage/tables.html#the-col-element), [CSS2 columns](https://www.w3.org/TR/CSS2/tables.html#columns), [CSSOM View rects](https://www.w3.org/TR/cssom-view-1/#dom-element-getclientrects), WCAG 1.4.10 (2D-uitzondering) | **Ongeschikte meetproxy:** een gemelde nulrechthoek voor `col` bewijst geen nulbreedte van zichtbare cellen. Dit stelt geen WebKit-conformiteitsbug vast. De precieze engineverklaring is onbevestigd | Vergelijk gerenderde `th` en eerste/laatste `td` op kolomindex uit `colgroup`. Log ook `col`, tabel- en regiobreedte. Vereis omschrijving breder dan code, consistente cellen, pijltjesscroll en bereikbare laatste kolom bij 320/768/1440px | Vier tabellen lokaal in Chromium; WebKit-hertest blijft nodig |
+
+### Afbakening van de eisen
+
+Een datatabel mag een tweedimensionale indeling vereisen; dit ontslaat omliggende bediening niet van reflow. De exacte verhouding tussen code- en omschrijvingsbreedte is een **projectkeuze**, geen door HTML voorgeschreven pixelmaat. De gebruikersvraag betreft zichtbare cellen, niet de geometrie van een kolomdescriptor. Een nulmeting van `col` is daarom alleen diagnostiek.
+
+WCAG 2.4.11 AA vereist dat focus niet **volledig** door auteursinhoud wordt verborgen; 2.4.12 AAA stelt een strengere eis. 2.4.7 blijft afzonderlijk gelden. De eerdere audit UI-02 benoemde volledige bedekking; een algemene vrijwillige AAA-toezegging is niet aangetroffen. De productiescrollcorrectie streeft nog steeds naar ruimere zichtbaarheid. De aangepaste zoomtest verlaagt geen contrast-, bron- of navigatie-eis. Een hit-test met computed outline is begrensd automatisch bewijs; rasterweergave en daadwerkelijk gebruik moeten aanvullend worden beoordeeld.
+
+### Firefox-codecontrole
+
+`app.ts` gebruikt een oplopend aanvraagticket vóór toepassing van geladen lijsten; oude resultaten worden meteen ontkoppeld. `begripszoeken.ts` controleert datasetidentiteit, actieve modus en aanvraagticket na lexiconladen. Beide resultaatpanelen renderen maximaal 25 resultaten per uitbreiding en verwijderen oude DOM-kinderen. Er is geen onbeperkte gelijktijdige resultaatrendering aangetoond. De oude dataverzoeken worden niet geannuleerd, maar mogen door de tickets geen nieuwe lijst overschrijven; dit ontbreken van annulering is zonder bewijs geen crashoorzaak. De bestaande vertraagd-oud-lexiconproef blijft behouden. De twee oorspronkelijke `evaluateAll`-assertions zijn niet vervangen of overgeslagen.
+
+### Lokale verificatie en vervolg
+
+Omgeving: Debian 13, Node 24, Playwright 1.65.0, systeem-Chromium 156.0.8078.79, productiebuild onder `/semantische-selectie-tool/`; Browser-plugin niet beschikbaar, bestaande Playwright gebruikt. Build en typecheck slagen. Eerste gerichte run: **8 geslaagd**, zonder retry. Bij alle vier tabellen is de omschrijvingskolom 448px; codekolom circa 134px op 320px en 160px op 768/1440px. Eerste/laatste gegevenscel en kop hebben gelijke breedte; laatste kolom bereikbaar, geen horizontale paginaoverloop.
+
+Regressierun van de vier betrokken suites: **44 geslaagd, 0 mislukt, 0 flaky, 0 overgeslagen**, retries 0 (1,2 minuut). Na aanvulling van voorwaartse Tab naast Shift+Tab: beide focusgevallen opnieuw geslaagd (2/2). Geen volledige browsermatrix of nieuwe downloadinhoudscontrole uitgevoerd: exportcode en gegevens zijn niet aangepast. De laatste focusaanpassing is in deze afzonderlijke naloop getoetst.
+
+Een aanvullende DOM-/interactieprobe op het repositorysubpad bevestigt paginatitel, 346 rijen, focus op code 2.2, viewport 320×256 bij echte 400%-instelling en geen `pageerror`. De headless-screenshot van die probe bevatte alleen de achtergrond en biedt **geen bruikbaar visueel bewijs**; oorzaak van de opname is niet vastgesteld. Geen geslaagde handmatige beoordeling van de focusindicator geclaimd. Visuele verificatie op de CI-browser/een normale browser blijft nodig; de geautomatiseerde geometrie-/hit-test is daarvoor geen volledige vervanging.
+
+Firefox 159.0 en afzonderlijk WebKit installeren is geprobeerd met de bestaande Playwright-installatiemethode; beide downloads worden geblokkeerd met HTTP 403 `Domain forbidden`. Geen Firefox-/WebKit-uitvoering, nieuwe groene matrix of bekende browserbug geclaimd. Geen time-outs, retries, limieten of engine-uitzonderingen toegevoegd. De aangeleverde zes CI-fouten zijn hiermee niet alle opgelost verklaard.
+
+Reproduceer lokaal (met beschikbare systeembinary of geïnstalleerde Playwright-browsers):
+
+```sh
+npm run build
+npm run typecheck
+CHROMIUM_PATH=/usr/bin/chromium npx playwright test --config=playwright.compat.config.mjs --project=chromium tests/browser/designsysteem.spec.mjs tests/browser/themas.spec.mjs tests/browser/zoeken.spec.mjs tests/browser/begripszoeken.spec.mjs
+```
+
+Laat de bestaande PR-workflow de drie engines draaien. Beheerder/beoordelaar: lees de twee Firefox-crashlogs, OOM-/procesdiagnostiek en uitkomsten van de nieuwe cel-/focusmetingen; leg runlink, geteste SHA, browserversies, passed/failed/flaky/skipped vast. Voor Firefox is een schone afzonderlijke herhaling van de twee oorspronkelijke scenario's nodig als zij in de matrix opnieuw crashen. Alleen een lokaal Chromium-resultaat sluit dat probleem niet. **REL-02 blijft open**, inclusief de afzonderlijke praktijkproeven. Geen nieuwe API-autorisatiediagnose, bron-/export-/productiecodewijziging of Pages-activering.
+
 ## Resterende browserfouten — opdracht 32 (gedeeltelijke hertest)
 
 Baseline `ac79085` (main inclusief PR #31). Primaire verwijzing: [run 43400824248](https://github.com/EGRten/semantische-selectie-tool/actions/runs/43400824248), [job 131802935133](https://github.com/EGRten/semantische-selectie-tool/actions/runs/43400824248/job/131802935133). De openbare pagina is gelezen: de browserstappen en eindcontrole hebben foutannotaties. Detail-logs vereisen aanmelding; API-logtoegang en browserinstallaties blijven geblokkeerd met HTTP 403. Er is geen beschikbare GitHub-toolkoppeling met aanvullende logtoegang. De door de gebruiker aangeleverde fouten/tellingen worden hieronder als zodanig gebruikt; niet als onafhankelijk uitgelezen detailrapport.
