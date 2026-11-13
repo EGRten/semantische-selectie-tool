@@ -26,6 +26,8 @@ Lokale omgeving: Chromium **156.0.8078.79**, Playwright **1.65.0**, Debian 13. E
 
 Aantallen flaky/overgeslagen en werkelijke CI-browserversies kunnen zonder runrapport niet worden vastgesteld. Lokale resultaten bewijzen geen groene Actions-matrix. Volledige nieuwe CI-uitvoering en controle van de genoemde open groepen blijven nodig. De downloadtests publiceren nu naam plus alle checkerbooleans in de testlog, geen XLSX-broninhoud. Crash- en geometriediagnostiek zijn metingen, geen vermeend defectherstel.
 
+Na push van `herstel-resterende-browserfouten` zijn PR-aanmaak, `gh workflow run browsercompatibiliteit.yml --ref herstel-resterende-browserfouten` en het opvragen van nieuwe runs geprobeerd: de API weigert alle drie met `Forbidden`. Er is geen nieuwe gecontroleerde runlink. Beheerder: open de [voorbereide PR](https://github.com/EGRten/semantische-selectie-tool/pull/new/herstel-resterende-browserfouten) en controleer de PR-trigger, of start de bestaande workflow handmatig op deze branch. Deel de volledige browserstaplogs en compacte artifacts voor de nog open crash-/scroll-/zoomdiagnose.
+
 Productiecode, data, publicatie-JSON, exportmodules/werkbladen/kolommen, bronwaarden, licenties, workflowinstallatie/build, time-outs en retries zijn ongewijzigd. De eerdere subpad-/Chromium-permissiecorrecties blijven behouden. Praktijkproeven blijven open en REL-02 is niet afgesloten.
 
 ## Gerichte herstelanalyse — opdracht 31 (gedeeltelijk)
