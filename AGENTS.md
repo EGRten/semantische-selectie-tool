@@ -29,7 +29,7 @@ De applicatie ondersteunt het vinden van relevante selectievoorschriften, maar n
 - Geen eigen backend of serverdatabase.
 - Geen verplichte externe API, AI-dienst of API-sleutel.
 - Python mag worden gebruikt voor voorbereiding, validatie en generatie van datasets, maar niet tijdens het gebruik van de applicatie.
-- ChatGPT Sites is de beoogde omgeving voor verdere ontwikkeling en publicatie.
+- GitHub Pages is de gekozen publicatieomgeving, onder het repositorysubpad. ChatGPT Sites is uitsluitend historische context.
 - De implementatie moet geschikt blijven voor een statische browseromgeving.
 
 ## Brongetrouwheid

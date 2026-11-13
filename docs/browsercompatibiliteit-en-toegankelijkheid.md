@@ -1,5 +1,16 @@
 # Browsercompatibiliteit en aanvullende toegankelijkheid
 
+## Actueel browserbewijs — 13 november 2026
+
+[Run 43427464946](https://github.com/EGRten/semantische-selectie-tool/actions/runs/43427464946) is geslaagd: **135 Chromium / 130 Firefox / 130 WebKit**, totaal **395**, geen mislukkingen, flaky gevallen of skips. De openbare pagina toont Success; de exacte tellingen zijn door de opdrachtgever vastgesteld. De getoonde headcommit is `6c96dfb`; de volledige head-SHA, het onderscheid met de nog niet geverifieerde workflow-merge-SHA en de ontbrekende CI-versies staan centraal in de [releaseacceptatie](release-acceptatie.md#actuele-acceptatiestatus--13-november-2026). Geen onbevestigde versies overgenomen.
+
+Dit vervangt eerdere open browserhertesten als actuele status. Het groene resultaat bewijst niet de oorspronkelijke Firefox-crashoorzaak en is geen schermlezer-, echte Windows-contrast- of Office-praktijktoets. REL-02 blijft voor deze praktijktoetsen en resterende menselijke beoordeling open. De [gerichte pre-publicatiecorrecties](prepublicatie-controle.md) krijgen een eigen PR-hertest; daarvoor wordt geen eerder runresultaat als nieuw bewijs gebruikt.
+
+## Historische browserverslagen
+
+De volgende verslagen blijven behouden met hun oorspronkelijke baselines en beperkingen. Daarin genoemde ontbrekende runs of openstaande PR #33 beschrijven de toenmalige situatie.
+
+
 12 november 2026. Baseline: **`586b474`**, actuele main inclusief PR #27. Gerichte aanvulling op de [releasevalidatie](release-acceptatie.md), geen nieuwe algemene audit. Publicatierechten, licenties en publicatiekeuze zijn niet gewijzigd.
 
 ## PR #33 — aanvullende isolatie van Firefox-evaluatiecrashes

@@ -1,3 +1,4 @@
+import {CONCORDANS_HERKOMST} from '../publicatie/herkomst.js';
 import type { Dataset, SelectielijstId } from '../gegevenslaag/index.js';
 import type { Beoordelingsbesluit } from '../concordans/besluiten.js';
 import type { indexeerBronconcordans, Concordansrelatie, Bronrij } from '../concordans/index.js';
@@ -76,7 +77,7 @@ export function maakConcordanspaneel(dataset:Dataset,id:string,opties:Opties):HT
     try{const c=await opties.laad();if(!geldig(n))return;inhoud.replaceChildren(element('p',toelichting,'melding'));
       if(dataset.id==='2020')inhoud.append(element('p','Inkomende verwijzingen volgen de oorspronkelijke richting 1996 → 2020; dit is geen omgekeerd vastgestelde opvolgingsrelatie.','hulptekst'));
       if(dataset.id==='2017')inhoud.append(element('p','Deze bron bevat geen rechtstreeks vastgestelde 2017-codemapping. Beschrijvende opmerkingen vormen geen vastgestelde relaties.'));
-      const bron=element('p','Bron: Concordans Selectielijst 1996-2020(1).xlsx. Oorspronkelijke publicerende organisatie en rechthebbenden zijn niet vastgesteld in de beschikbare registratie.','hulptekst');const link=element('a','Bronmetadata');link.href=new URL('./bronnen/concordans-aangeleverd.bron.json',document.baseURI).href;link.target='_blank';link.rel='noopener noreferrer';bron.append(document.createTextNode(' '),link);inhoud.append(bron);
+      const bron=element('p','Bron: Concordans Selectielijst 1996-2020(1).xlsx. '+CONCORDANS_HERKOMST,'hulptekst');const link=element('a','Bronmetadata');link.href=new URL('./bronnen/concordans-aangeleverd.bron.json',document.baseURI).href;link.target='_blank';link.rel='noopener noreferrer';bron.append(document.createTextNode(' '),link);inhoud.append(bron);
       const controle=element('div'),vergelijking=element('div');inhoud.append(knop('Openstaande en gecorrigeerde verwijzingen',()=>{void overzicht(c,controle,n).catch(()=>{if(geldig(n)){const p=element('p','Het controleoverzicht bevat een ongeldige verwijzing.','melding fout');p.setAttribute('role','alert');controle.replaceChildren(p);}});},'concordans-link'),controle,vergelijking);
       if(alleenOverzicht){await overzicht(c,controle,n);return;}
       const methode=dataset.selectiegegeven(id)?c.concordans.vanuitSelectiegegeven:c.concordans.vanuitStructuur;

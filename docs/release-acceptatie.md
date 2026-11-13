@@ -1,6 +1,28 @@
 # Integrale releaseacceptatie
 
-12 november 2026. Getoetst: actuele `main` **`dbb1270`**, merge PR #23, inclusief PR #21/#22. Validatiebranch `releasevalidatie`; uitsluitend deze twee documenten en een afzonderlijke audithelper, geen productieherstel.
+## Actuele acceptatiestatus — 13 november 2026
+
+Geautomatiseerde browservalidatie, praktijktoetsing, bronintegriteit en rechtenvoorbehouden worden afzonderlijk beoordeeld. Dit overzicht vervangt de actuele conclusies uit de hieronder bewaarde historische verslagen, niet hun oorspronkelijke testresultaten.
+
+| Bewijs | Vastlegging |
+| --- | --- |
+| Geslaagde browserrun | [43427464946](https://github.com/EGRten/semantische-selectie-tool/actions/runs/43427464946), openbare pagina toont **Success**, PR #33, duur 7m55s |
+| Uitkomsten | **Chromium 135, Firefox 130, WebKit 130; totaal 395 geslaagd, 0 mislukt, 0 flaky, 0 overgeslagen**. Tellingen zijn door de opdrachtgever vastgesteld; detailrapport niet zelfstandig via API uitgelezen |
+| Commitinformatie | Openbare runtitel noemt headcommit `6c96dfb`; deze correspondeert met `6c96dfbf38c590b6a5ffef9c0c0ea8e212102174` in Git. De daadwerkelijk uitgevoerde PR-merge-SHA (`GITHUB_SHA`) is niet afzonderlijk geverifieerd en mag hiermee niet worden gelijkgesteld |
+| Werkelijke engineversies | **Niet geverifieerd** voor deze run. API geeft `Forbidden`; openbare samenvatting bevat geen engineversies. Neem vóór definitieve bewijsaftekening `versies.json` en de geteste SHA uit de bestaande compacte artifact over; geen lokale versies als CI-versies presenteren |
+| Afzonderlijke lokale modulevalidatie, opdracht 34 | **149 geslaagd, 18 overgeslagen, 0 mislukt**. De oorspronkelijke concordansbron was niet gekoppeld. Dit zijn moduletests, geen browserresultaten |
+| Technische gegevensintegriteit, opdracht 34 | Schema-/verwijzings-/hashvalidatie geslaagd; vijftien CSV's byte-identiek; 494/305/346 selectieregels en 716 concordansrijen; vier echte downloads gecontroleerd |
+| Praktijkgerichte toegankelijkheid | NVDA, VoiceOver, Windows Contrast Themes, Office-AT en resterende menselijke beoordelingen blijven open volgens het [protocol](praktijktest-toegankelijkheid.md). **Geen volledige WCAG 2.2 AA-conformiteit vastgesteld** |
+| Publicatie-/rechtenvoorwaarden | REL-01, REL-02 en REL-03 blijven geregistreerd. Browser-CI bevestigt geen hergebruikrechten of wettelijke conformiteit. GitHub Pages is niet geactiveerd |
+
+Technisch advies: **geschikt onder de beschreven beperkingen**, na gerichte publicatieconsistentiecorrecties en afzonderlijke acceptatie van resterende punten. Het browsercompatibiliteitsdeel heeft positief uitvoeringsbewijs; REL-02 is daarmee niet volledig gesloten. De [pre-publicatiecontrole](prepublicatie-controle.md) registreert de gerichte wijzigingen en lokale hertesten van opdracht 35; de nieuwe PR-matrix moet afzonderlijk worden beoordeeld.
+
+## Historische bewijsvoering — opdrachten 24–29
+
+Alle resultaten en releaseoordelen hieronder horen bij de genoemde oudere baselines. Uitspraken over toen ontbrekend Firefox-/WebKit-bewijs zijn geen actuele status.
+
+
+12 november 2026. Historisch getoetst: `main` **`dbb1270`**, merge PR #23, inclusief PR #21/#22. Validatiebranch `releasevalidatie`; uitsluitend deze twee documenten en een afzonderlijke audithelper, geen productieherstel.
 
 De oorspronkelijke technische resultaten hieronder behoren bij opdracht 24; de aanvullende browservalidatie uit opdracht 28 is afzonderlijk vermeld. Er is geen aanvullende juridische beoordeling uitgevoerd.
 
