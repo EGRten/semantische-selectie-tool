@@ -6,7 +6,7 @@
     "type": "procestype",
     "parent_id": null,
     "volgorde": 1,
-    "toelichting": "Dit procestype betreft het instellen van een nieuw organisatie-\nonderdeel of een nieuw orgaan waar het orgaan in deelneemt.\nDit procestype betreft eveneens het inrichten van het eigen\norgaan. Dit kan kleinschalig plaatsvinden bijvoorbeeld het wij-\nzigen van de uitvoering van een wettelijke taak of grootschalig\nwanneer er een organisatiewijziging wordt doorgevoerd.",
+    "toelichting": "Dit procestype betreft het instellen van een nieuw organisatieonderdeel of een nieuw orgaan waar het orgaan in deelneemt.\nDit procestype betreft eveneens het inrichten van het eigen\norgaan. Dit kan kleinschalig plaatsvinden bijvoorbeeld het wijzigen van de uitvoering van een wettelijke taak of grootschalig\nwanneer er een organisatiewijziging wordt doorgevoerd.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 26,
@@ -120,7 +120,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:1",
     "volgorde": 7,
-    "toelichting": "Onafhankelijke adviescommissie, nieuw gemeentelijk orgaan,\ngemeenschappelijke regeling, commissie, platform of beëindi-\nging deelname hieraan",
+    "toelichting": "Onafhankelijke adviescommissie, nieuw gemeentelijk orgaan,\ngemeenschappelijke regeling, commissie, platform of beëindiging deelname hieraan",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 26,
@@ -234,7 +234,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:2.1",
     "volgorde": 13,
-    "toelichting": "Ten minste ontwerpdocumentatie en indien relevant bron- en\noutputdata. Het betreft hier algoritmes die een gecompliceerd\nkarakter hebben (waaronder experimentele of zelflerende\nalgoritmes) en/of een potentieel ingrijpend effect voor betrok-\nkenen in zich dragen.",
+    "toelichting": "Ten minste ontwerpdocumentatie en indien relevant bron- en\noutputdata. Het betreft hier algoritmes die een gecompliceerd\nkarakter hebben (waaronder experimentele of zelflerende\nalgoritmes) en/of een potentieel ingrijpend effect voor betrokkenen in zich dragen.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 26,
@@ -420,7 +420,7 @@
   {
     "id": "2020:3.1.4",
     "code": "3.1.4",
-    "benaming": "Plan van aanpak jeugd- hulp cliënt",
+    "benaming": "Plan van aanpak jeugdhulp cliënt",
     "type": "specifiek_resultaat",
     "parent_id": "2020:3.1",
     "volgorde": 23,
@@ -534,7 +534,7 @@
   {
     "id": "2020:3.2",
     "code": "3.2",
-    "benaming": "Niet vastge- steld",
+    "benaming": "Niet vastgesteld",
     "type": "generiek_resultaat",
     "parent_id": "2020:3",
     "volgorde": 29,
@@ -572,7 +572,7 @@
   {
     "id": "2020:3.3.1",
     "code": "3.3.1",
-    "benaming": "Plan van aanpak Jeugd- hulp of WMO cliënt",
+    "benaming": "Plan van aanpak Jeugdhulp of WMO cliënt",
     "type": "generiek_resultaat",
     "parent_id": "2020:3.3",
     "volgorde": 31,
@@ -648,7 +648,7 @@
   {
     "id": "2020:4.1.2",
     "code": "4.1.2",
-    "benaming": "Enquête door gemeen- teraad",
+    "benaming": "Enquête door gemeenteraad",
     "type": "specifiek_resultaat",
     "parent_id": "2020:4.1",
     "volgorde": 35,
@@ -724,7 +724,7 @@
   {
     "id": "2020:4.1.6",
     "code": "4.1.6",
-    "benaming": "Beoordeling arbeidsom- standigheden personeel",
+    "benaming": "Beoordeling arbeidsomstandigheden personeel",
     "type": "specifiek_resultaat",
     "parent_id": "2020:4.1",
     "volgorde": 39,
@@ -762,7 +762,7 @@
   {
     "id": "2020:4.1.8",
     "code": "4.1.8",
-    "benaming": "Jaarrekening en financi- eel jaarverslag",
+    "benaming": "Jaarrekening en financieel jaarverslag",
     "type": "specifiek_resultaat",
     "parent_id": "2020:4.1",
     "volgorde": 41,
@@ -785,7 +785,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:4.1",
     "volgorde": 42,
-    "toelichting": "Denk hierbij aan de jaarverslagen van verschillende onafhan-\nkelijke adviescommissies en de jaarverslagen die op grond\nvan wet- en regelgeving dienen te worden opgesteld, zoals het\nburgerjaarverslag en het jaarverslag leerplicht.",
+    "toelichting": "Denk hierbij aan de jaarverslagen van verschillende onafhankelijke adviescommissies en de jaarverslagen die op grond\nvan wet- en regelgeving dienen te worden opgesteld, zoals het\nburgerjaarverslag en het jaarverslag leerplicht.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 27,
@@ -876,7 +876,7 @@
   {
     "id": "2020:4.1.14",
     "code": "4.1.14",
-    "benaming": "Beoordeling arbeidsom- standigheden personeel met gevaarlijke stoffen",
+    "benaming": "Beoordeling arbeidsomstandigheden personeel met gevaarlijke stoffen",
     "type": "specifiek_resultaat",
     "parent_id": "2020:4.1",
     "volgorde": 47,
@@ -933,7 +933,7 @@
   {
     "id": "2020:5",
     "code": "5",
-    "benaming": "Producten en dien- sten leveren",
+    "benaming": "Producten en diensten leveren",
     "type": "procestype",
     "parent_id": null,
     "volgorde": 50,
@@ -1028,7 +1028,7 @@
   {
     "id": "2020:5.1.4",
     "code": "5.1.4",
-    "benaming": "Reisdocument, identi- teitsbewijs",
+    "benaming": "Reisdocument, identiteitsbewijs",
     "type": "specifiek_resultaat",
     "parent_id": "2020:5.1",
     "volgorde": 55,
@@ -1047,7 +1047,7 @@
   {
     "id": "2020:5.1.5",
     "code": "5.1.5",
-    "benaming": "Reisdocument of identi- teitsbewijs geldig voor 5 jaar of korter",
+    "benaming": "Reisdocument of identiteitsbewijs geldig voor 5 jaar of korter",
     "type": "specifiek_resultaat",
     "parent_id": "2020:5.1",
     "volgorde": 56,
@@ -1218,11 +1218,11 @@
   {
     "id": "2020:6",
     "code": "6",
-    "benaming": "Verzoeken behan- delen",
+    "benaming": "Verzoeken behandelen",
     "type": "procestype",
     "parent_id": null,
     "volgorde": 65,
-    "toelichting": "Wanneer een aanvrager een aanvraag voor een bepaalde\nvoorziening indient, is het procestype ‘Voorzieningen ver-\nstrekken’ van toepassing. Wanneer het om een product of\ndienst gaat dat niet een doen of juist laten van het orgaan\ninhoudt, is het procestype ‘Producten en diensten leveren’\nvan toepassing.",
+    "toelichting": "Wanneer een aanvrager een aanvraag voor een bepaalde\nvoorziening indient, is het procestype ‘Voorzieningen verstrekken’ van toepassing. Wanneer het om een product of\ndienst gaat dat niet een doen of juist laten van het orgaan\ninhoudt, is het procestype ‘Producten en diensten leveren’\nvan toepassing.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 28,
@@ -1298,7 +1298,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:6.1",
     "volgorde": 69,
-    "toelichting": "algemeen informatieverzoek, verzoek tot invullen enquete, ver-\nzoek op grond van de Wet hergebruik overheidsinformatie",
+    "toelichting": "algemeen informatieverzoek, verzoek tot invullen enquete, verzoek op grond van de Wet hergebruik overheidsinformatie",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 28,
@@ -1351,7 +1351,7 @@
   {
     "id": "2020:6.1.6",
     "code": "6.1.6",
-    "benaming": "Predicaat Koninklijk / pre- dicaat Hofleverancier",
+    "benaming": "Predicaat Koninklijk / predicaat Hofleverancier",
     "type": "specifiek_resultaat",
     "parent_id": "2020:6.1",
     "volgorde": 72,
@@ -1370,7 +1370,7 @@
   {
     "id": "2020:6.1.7",
     "code": "6.1.7",
-    "benaming": "Geheimhouding per- soonsgegevens BRP",
+    "benaming": "Geheimhouding persoonsgegevens BRP",
     "type": "specifiek_resultaat",
     "parent_id": "2020:6.1",
     "volgorde": 73,
@@ -1427,7 +1427,7 @@
   {
     "id": "2020:6.1.10",
     "code": "6.1.10",
-    "benaming": "Initiatief van de onderne- mingsraad",
+    "benaming": "Initiatief van de ondernemingsraad",
     "type": "specifiek_resultaat",
     "parent_id": "2020:6.1",
     "volgorde": 76,
@@ -1446,7 +1446,7 @@
   {
     "id": "2020:6.1.11",
     "code": "6.1.11",
-    "benaming": "Principeverzoek bestem- mingsplan",
+    "benaming": "Principeverzoek bestemmingsplan",
     "type": "specifiek_resultaat",
     "parent_id": "2020:6.1",
     "volgorde": 77,
@@ -1488,7 +1488,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:6.1",
     "volgorde": 79,
-    "toelichting": "Het betreft de (persoons)gegevens die de burgemeester heeft\nontvangen om de woonverklaring op te stellen. De woonver-\nklaring zelf wordt opgenomen in de huisvestingsvergunning\n(resultaat 11.1)",
+    "toelichting": "Het betreft de (persoons)gegevens die de burgemeester heeft\nontvangen om de woonverklaring op te stellen. De woonverklaring zelf wordt opgenomen in de huisvestingsvergunning\n(resultaat 11.1)",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 29,
@@ -1541,7 +1541,7 @@
   {
     "id": "2020:6.2.1",
     "code": "6.2.1",
-    "benaming": "Principeverzoek bestem- mingsplan",
+    "benaming": "Principeverzoek bestemmingsplan",
     "type": "specifiek_resultaat",
     "parent_id": "2020:6.2",
     "volgorde": 82,
@@ -1560,7 +1560,7 @@
   {
     "id": "2020:6.2.2",
     "code": "6.2.2",
-    "benaming": "Initiatief van de onderne- mingsraad",
+    "benaming": "Initiatief van de ondernemingsraad",
     "type": "specifiek_resultaat",
     "parent_id": "2020:6.2",
     "volgorde": 83,
@@ -1697,7 +1697,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 90,
-    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van gege-\nvens, voor zover het bescheiden betreft die niet uit een Neder-\nlands register kunnen worden gereproduceerd.",
+    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van gegevens, voor zover het bescheiden betreft die niet uit een Nederlands register kunnen worden gereproduceerd.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 30,
@@ -1712,11 +1712,11 @@
   {
     "id": "2020:7.1.3",
     "code": "7.1.3",
-    "benaming": "Gegevens met betrekking tot naam, geboorte, ge- slacht en afstamming",
+    "benaming": "Gegevens met betrekking tot naam, geboorte, geslacht en afstamming",
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 91,
-    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van gege-\nvens, voor zover het bescheiden betreft die niet uit een Neder-\nlands register kunnen worden gereproduceerd.",
+    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van gegevens, voor zover het bescheiden betreft die niet uit een Nederlands register kunnen worden gereproduceerd.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 30,
@@ -1750,11 +1750,11 @@
   {
     "id": "2020:7.1.5",
     "code": "7.1.5",
-    "benaming": "Huwelijk of geregistreerd partnerschap, echtschei- ding of ontbinding",
+    "benaming": "Huwelijk of geregistreerd partnerschap, echtscheiding of ontbinding",
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 93,
-    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van gege-\nvens, voor zover het bescheiden betreft die niet uit een Neder-\nlands register kunnen worden gereproduceerd.",
+    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van gegevens, voor zover het bescheiden betreft die niet uit een Nederlands register kunnen worden gereproduceerd.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 30,
@@ -1773,7 +1773,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 94,
-    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van overlij-\ndensgegevens, voor zover het bescheiden betreft die niet uit\neen Nederlands register kunnen worden gereproduceerd.",
+    "toelichting": "Bescheiden betreffende het opnemen en wijzigen van overlijdensgegevens, voor zover het bescheiden betreft die niet uit\neen Nederlands register kunnen worden gereproduceerd.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 30,
@@ -1788,7 +1788,7 @@
   {
     "id": "2020:7.1.7",
     "code": "7.1.7",
-    "benaming": "(her)Vestiging, adres- wijziging (niet zijnde emigratie)",
+    "benaming": "(her)Vestiging, adreswijziging (niet zijnde emigratie)",
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 95,
@@ -1826,7 +1826,7 @@
   {
     "id": "2020:7.1.9",
     "code": "7.1.9",
-    "benaming": "Opschorting persoons- lijst BRP",
+    "benaming": "Opschorting persoonslijst BRP",
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 97,
@@ -1864,7 +1864,7 @@
   {
     "id": "2020:7.1.11",
     "code": "7.1.11",
-    "benaming": "Bezit buitenlands reis- document",
+    "benaming": "Bezit buitenlands reisdocument",
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 99,
@@ -1883,7 +1883,7 @@
   {
     "id": "2020:7.1.12",
     "code": "7.1.12",
-    "benaming": "Vermissing reisdocument, wijziging gegevens reisdocument voor zover niet in reisdocumen- tenadministratie opge- nomen, fraude melding reisdocument",
+    "benaming": "Vermissing reisdocument, wijziging gegevens reisdocument voor zover niet in reisdocumentenadministratie opgenomen, fraude melding reisdocument",
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 100,
@@ -1940,7 +1940,7 @@
   {
     "id": "2020:7.1.15",
     "code": "7.1.15",
-    "benaming": "Beoordeling brondocu- menten BRP",
+    "benaming": "Beoordeling brondocumenten BRP",
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 103,
@@ -2016,7 +2016,7 @@
   {
     "id": "2020:7.1.19",
     "code": "7.1.19",
-    "benaming": "Bezit, verkrijging, verlening en verlies van (bijzonder) Nederlander- schap of een niet-Neder- landse nationaliteit",
+    "benaming": "Bezit, verkrijging, verlening en verlies van (bijzonder) Nederlanderschap of een niet-Nederlandse nationaliteit",
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 107,
@@ -2073,7 +2073,7 @@
   {
     "id": "2020:7.1.22",
     "code": "7.1.22",
-    "benaming": "Verklaring huwelijk of partnerschap niet- Nederlander",
+    "benaming": "Verklaring huwelijk of partnerschap niet-Nederlander",
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 110,
@@ -2092,7 +2092,7 @@
   {
     "id": "2020:7.1.23",
     "code": "7.1.23",
-    "benaming": "Optieverklaring Nederlan- derschap",
+    "benaming": "Optieverklaring Nederlanderschap",
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 111,
@@ -2168,11 +2168,11 @@
   {
     "id": "2020:8",
     "code": "8",
-    "benaming": "Voorzieningen ver- strekken",
+    "benaming": "Voorzieningen verstrekken",
     "type": "procestype",
     "parent_id": null,
     "volgorde": 115,
-    "toelichting": "Indien de aanvrager zich niet in een bepaalde situatie hoeft\nte bevinden en wanneer het orgaan wordt verzocht om iets te\ndoen of te laten, is het procestype ‘Verzoek behandelen’ van\ntoepassing. Indien beiden niet van toepassing zijn, is het pro-\ncestype ‘Producten en diensten leveren’ van toepassing.",
+    "toelichting": "Indien de aanvrager zich niet in een bepaalde situatie hoeft\nte bevinden en wanneer het orgaan wordt verzocht om iets te\ndoen of te laten, is het procestype ‘Verzoek behandelen’ van\ntoepassing. Indien beiden niet van toepassing zijn, is het procestype ‘Producten en diensten leveren’ van toepassing.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 31,
@@ -2210,7 +2210,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:8.1",
     "volgorde": 117,
-    "toelichting": "of zoveel langer als redelijkerwijs in verband met een zorgvul-\ndige uitvoering van hun taken op grond van deze wet noodza-\nkelijk is. Vernietigen binnen drie maanden na ontvangst van\neen strekkend verzoek van de betrokkene, mits geen aanmer-\nkelijk belang van een derde of wetgeving zich daartegen verzet.",
+    "toelichting": "of zoveel langer als redelijkerwijs in verband met een zorgvuldige uitvoering van hun taken op grond van deze wet noodzakelijk is. Vernietigen binnen drie maanden na ontvangst van\neen strekkend verzoek van de betrokkene, mits geen aanmerkelijk belang van een derde of wetgeving zich daartegen verzet.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 31,
@@ -2282,7 +2282,7 @@
   {
     "id": "2020:8.1.5",
     "code": "8.1.5",
-    "benaming": "Overige financiële voor- ziening school",
+    "benaming": "Overige financiële voorziening school",
     "type": "specifiek_resultaat",
     "parent_id": "2020:8.1",
     "volgorde": 121,
@@ -2396,7 +2396,7 @@
   {
     "id": "2020:8.1.11",
     "code": "8.1.11",
-    "benaming": "Geneeskundige be- handeling",
+    "benaming": "Geneeskundige behandeling",
     "type": "specifiek_resultaat",
     "parent_id": "2020:8.1",
     "volgorde": 127,
@@ -2643,7 +2643,7 @@
   {
     "id": "2020:8.4.1",
     "code": "8.4.1",
-    "benaming": "Voorziening in het Soci- ale domein",
+    "benaming": "Voorziening in het Sociale domein",
     "type": "generiek_resultaat",
     "parent_id": "2020:8.4",
     "volgorde": 140,
@@ -2666,7 +2666,7 @@
     "type": "procestype",
     "parent_id": null,
     "volgorde": 141,
-    "toelichting": "Het orgaan kan een gebied een status toekennen, om de be-\nstemming of het gebruik van dit gebied te wijzigen. Door een\npersoon (een externe of een personeelslid) in een speciale\nfunctie te benoemen of door hem te mandateren, wordt hem\neen speciale bevoegdheden toegekend.",
+    "toelichting": "Het orgaan kan een gebied een status toekennen, om de bestemming of het gebruik van dit gebied te wijzigen. Door een\npersoon (een externe of een personeelslid) in een speciale\nfunctie te benoemen of door hem te mandateren, wordt hem\neen speciale bevoegdheden toegekend.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 32,
@@ -2780,7 +2780,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:9.1",
     "volgorde": 147,
-    "toelichting": "Een WOZ-gegeven moet 12 jaar bewaard blijven in de Basisre-\ngistratie WOZ t.b.v. de Waarderingskamer",
+    "toelichting": "Een WOZ-gegeven moet 12 jaar bewaard blijven in de Basisregistratie WOZ t.b.v. de Waarderingskamer",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 32,
@@ -2814,7 +2814,7 @@
   {
     "id": "2020:9.1.7",
     "code": "9.1.7",
-    "benaming": "Indeling stemdistricten/ kieskringen en stem- bureaus",
+    "benaming": "Indeling stemdistricten/ kieskringen en stembureaus",
     "type": "specifiek_resultaat",
     "parent_id": "2020:9.1",
     "volgorde": 149,
@@ -2928,7 +2928,7 @@
   {
     "id": "2020:9.1.13",
     "code": "9.1.13",
-    "benaming": "Ingestelde Bedrijfs- brandweer",
+    "benaming": "Ingestelde Bedrijfsbrandweer",
     "type": "specifiek_resultaat",
     "parent_id": "2020:9.1",
     "volgorde": 155,
@@ -2966,7 +2966,7 @@
   {
     "id": "2020:9.2.1",
     "code": "9.2.1",
-    "benaming": "Ingestelde Bedrijfs- brandweer",
+    "benaming": "Ingestelde Bedrijfsbrandweer",
     "type": "generiek_resultaat",
     "parent_id": "2020:9.2",
     "volgorde": 157,
@@ -3080,7 +3080,7 @@
   {
     "id": "2020:9.3.5",
     "code": "9.3.5",
-    "benaming": "Ingestelde Bedrijfs- brandweer",
+    "benaming": "Ingestelde Bedrijfsbrandweer",
     "type": "specifiek_resultaat",
     "parent_id": "2020:9.3",
     "volgorde": 163,
@@ -3236,7 +3236,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:11",
     "volgorde": 171,
-    "toelichting": "Lozing afvalwater, drank en horeca, grafbedekking, grafuitgifte,\ndoorlopende collectevergunning, rioolaansluiting, gedoogbe-\nschikking, omgevingsvergunning alarminstallatie, uitrit, aanleg\nkabels en leidingen",
+    "toelichting": "Lozing afvalwater, drank en horeca, grafbedekking, grafuitgifte,\ndoorlopende collectevergunning, rioolaansluiting, gedoogbeschikking, omgevingsvergunning alarminstallatie, uitrit, aanleg\nkabels en leidingen",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 33,
@@ -3327,7 +3327,7 @@
   {
     "id": "2020:11.1.5",
     "code": "11.1.5",
-    "benaming": "Toestemming met bron- documenten BAG",
+    "benaming": "Toestemming met brondocumenten BAG",
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.1",
     "volgorde": 176,
@@ -3388,7 +3388,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.1",
     "volgorde": 179,
-    "toelichting": "De leerplicht geldt tot en met 16 jaar. Daar is de termijn op ba-\nsis van het Vrijstellingsbesluit (2 jaar) bij opgeteld. De bewaar-\ntermijn loopt vanaf de geboortedatum van de leerling.",
+    "toelichting": "De leerplicht geldt tot en met 16 jaar. Daar is de termijn op basis van het Vrijstellingsbesluit (2 jaar) bij opgeteld. De bewaartermijn loopt vanaf de geboortedatum van de leerling.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 33,
@@ -3403,7 +3403,7 @@
   {
     "id": "2020:11.1.9",
     "code": "11.1.9",
-    "benaming": "Ontheffing kwalifica- tieplicht",
+    "benaming": "Ontheffing kwalificatieplicht",
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.1",
     "volgorde": 180,
@@ -3445,7 +3445,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.1",
     "volgorde": 182,
-    "toelichting": "Het gaat om een bodemonderzoek, archeologisch onderzoek,\nof milieueffectrapportage die wordt ontvangen ter beoordeling\n(dus niet als onderdeel van een andere werkproces). Een\nbodemonderzoek, archeologisch onderzoek, of milieueffectrap-\nportage die hoort bij bijvoorbeeld het opstellen van een bestem-\nmingsplan, valt onder dat werkproces.",
+    "toelichting": "Het gaat om een bodemonderzoek, archeologisch onderzoek,\nof milieueffectrapportage die wordt ontvangen ter beoordeling\n(dus niet als onderdeel van een andere werkproces). Een\nbodemonderzoek, archeologisch onderzoek, of milieueffectrapportage die hoort bij bijvoorbeeld het opstellen van een bestemmingsplan, valt onder dat werkproces.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 33,
@@ -3593,7 +3593,7 @@
   {
     "id": "2020:11.2.1",
     "code": "11.2.1",
-    "benaming": "Toestemming met bron- documenten BAG",
+    "benaming": "Toestemming met brondocumenten BAG",
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.2",
     "volgorde": 190,
@@ -3631,7 +3631,7 @@
   {
     "id": "2020:11.3.1",
     "code": "11.3.1",
-    "benaming": "Toestemming met bron- documenten BAG",
+    "benaming": "Toestemming met brondocumenten BAG",
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.3",
     "volgorde": 192,
@@ -3688,7 +3688,7 @@
   {
     "id": "2020:12",
     "code": "12",
-    "benaming": "Toezien en hand- haven",
+    "benaming": "Toezien en handhaven",
     "type": "procestype",
     "parent_id": null,
     "volgorde": 195,
@@ -3707,7 +3707,7 @@
   {
     "id": "2020:12.1",
     "code": "12.1",
-    "benaming": "Toezicht uitge- voerd",
+    "benaming": "Toezicht uitgevoerd",
     "type": "generiek_resultaat",
     "parent_id": "2020:12",
     "volgorde": 196,
@@ -3859,7 +3859,7 @@
   {
     "id": "2020:12.1.8",
     "code": "12.1.8",
-    "benaming": "Gegevens over toegangscontrole, bezoe- kersregistratie",
+    "benaming": "Gegevens over toegangscontrole, bezoekersregistratie",
     "type": "specifiek_resultaat",
     "parent_id": "2020:12.1",
     "volgorde": 204,
@@ -3897,7 +3897,7 @@
   {
     "id": "2020:12.1.10",
     "code": "12.1.10",
-    "benaming": "Controle realisatie om- gevingsvergunning met brondocumenten BAG",
+    "benaming": "Controle realisatie omgevingsvergunning met brondocumenten BAG",
     "type": "specifiek_resultaat",
     "parent_id": "2020:12.1",
     "volgorde": 206,
@@ -3916,7 +3916,7 @@
   {
     "id": "2020:12.1.11",
     "code": "12.1.11",
-    "benaming": "Controle omgevingsver- gunning milieu",
+    "benaming": "Controle omgevingsvergunning milieu",
     "type": "specifiek_resultaat",
     "parent_id": "2020:12.1",
     "volgorde": 207,
@@ -4053,7 +4053,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:12.2",
     "volgorde": 214,
-    "toelichting": "na beëindiging onvrijwillige zorg of zoveel langer als redelijker-\nwijs uit de zorg van een goed hulpverlener",
+    "toelichting": "na beëindiging onvrijwillige zorg of zoveel langer als redelijkerwijs uit de zorg van een goed hulpverlener",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 35,
@@ -4182,11 +4182,11 @@
   {
     "id": "2020:13",
     "code": "13",
-    "benaming": "Geschillen behan- delen",
+    "benaming": "Geschillen behandelen",
     "type": "procestype",
     "parent_id": null,
     "volgorde": 221,
-    "toelichting": "Indien een derde of een personeelslid het niet eens is met\nhet al of niet handelen van het orgaan, kan hij om compen-\nsatie verzoeken of een bezwaar aantekenen of een beroep\nindienen.",
+    "toelichting": "Indien een derde of een personeelslid het niet eens is met\nhet al of niet handelen van het orgaan, kan hij om compensatie verzoeken of een bezwaar aantekenen of een beroep\nindienen.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 35,
@@ -4300,7 +4300,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:13.1",
     "volgorde": 227,
-    "toelichting": "Een WOZ-gegeven moet 12 jaar bewaard blijven in de Basisre-\ngistratie WOZ t.b.v. de Waarderingskamer",
+    "toelichting": "Een WOZ-gegeven moet 12 jaar bewaard blijven in de Basisregistratie WOZ t.b.v. de Waarderingskamer",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 35,
@@ -4467,7 +4467,7 @@
   {
     "id": "2020:14.1.6",
     "code": "14.1.6",
-    "benaming": "Kunstobject in de open- bare ruimte",
+    "benaming": "Kunstobject in de openbare ruimte",
     "type": "specifiek_resultaat",
     "parent_id": "2020:14.1",
     "volgorde": 236,
@@ -4790,7 +4790,7 @@
   {
     "id": "2020:16.1.4",
     "code": "16.1.4",
-    "benaming": "Overdracht van onroe- rend goed, schenkings- overeenkomst",
+    "benaming": "Overdracht van onroerend goed, schenkings- overeenkomst",
     "type": "specifiek_resultaat",
     "parent_id": "2020:16.1",
     "volgorde": 253,
@@ -4965,7 +4965,7 @@
     "type": "procestype",
     "parent_id": null,
     "volgorde": 262,
-    "toelichting": "Het kan hierbij zowel om het aanstellen van een eigen perso-\nneelslid gaan, als om het benoemen van een persoon in een\nonafhankelijke commissie of het bestuur van het orgaan.",
+    "toelichting": "Het kan hierbij zowel om het aanstellen van een eigen personeelslid gaan, als om het benoemen van een persoon in een\nonafhankelijke commissie of het bestuur van het orgaan.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 36,
@@ -5037,7 +5037,7 @@
   {
     "id": "2020:17.2",
     "code": "17.2",
-    "benaming": "Niet aange- steld",
+    "benaming": "Niet aangesteld",
     "type": "generiek_resultaat",
     "parent_id": "2020:17",
     "volgorde": 266,
@@ -5075,7 +5075,7 @@
   {
     "id": "2020:17.2.2",
     "code": "17.2.2",
-    "benaming": "Afgewezen (open) sol- licitatie met toestemming tot bewaren",
+    "benaming": "Afgewezen (open) sollicitatie met toestemming tot bewaren",
     "type": "specifiek_resultaat",
     "parent_id": "2020:17.2",
     "volgorde": 268,
@@ -5189,7 +5189,7 @@
   {
     "id": "2020:17.5.2",
     "code": "17.5.2",
-    "benaming": "Lid van een onafhanke- lijke commissie",
+    "benaming": "Lid van een onafhankelijke commissie",
     "type": "specifiek_resultaat",
     "parent_id": "2020:17.5",
     "volgorde": 274,
@@ -5265,7 +5265,7 @@
   {
     "id": "2020:18.1.1",
     "code": "18.1.1",
-    "benaming": "Factuur omtrent onroe- rend goed",
+    "benaming": "Factuur omtrent onroerend goed",
     "type": "specifiek_resultaat",
     "parent_id": "2020:18.1",
     "volgorde": 278,
@@ -5322,7 +5322,7 @@
   {
     "id": "2020:18.3.1",
     "code": "18.3.1",
-    "benaming": "Factuur omtrent onroe- rend goed",
+    "benaming": "Factuur omtrent onroerend goed",
     "type": "specifiek_resultaat",
     "parent_id": "2020:18.3",
     "volgorde": 281,
@@ -5379,11 +5379,11 @@
   {
     "id": "2020:19",
     "code": "19",
-    "benaming": "Secretariaat voeren en gegevens adminis- treren / verwerken",
+    "benaming": "Secretariaat voeren en gegevens administreren / verwerken",
     "type": "procestype",
     "parent_id": null,
     "volgorde": 284,
-    "toelichting": "Dit procestype geldt eveneens voor de verslaglegging van\noverleg op verschillende niveaus. Zie voor een overzicht van\nblijvend te bewaren registers waarvoor het orgaan verantwoor-\ndelijk is bijlage 4.",
+    "toelichting": "Dit procestype geldt eveneens voor de verslaglegging van\noverleg op verschillende niveaus. Zie voor een overzicht van\nblijvend te bewaren registers waarvoor het orgaan verantwoordelijk is bijlage 4.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 37,
@@ -5512,11 +5512,11 @@
   {
     "id": "2020:19.1.6",
     "code": "19.1.6",
-    "benaming": "Agenda, verslag, op- names en besluitenlijst van bestuurlijke besluit- vorming",
+    "benaming": "Agenda, verslag, opnames en besluitenlijst van bestuurlijke besluitvorming",
     "type": "specifiek_resultaat",
     "parent_id": "2020:19.1",
     "volgorde": 291,
-    "toelichting": "Raad, B&W, besluitvormend bestuurlijk overleg waarvan het\norgaan het secretariaat voert. Indien geluids- en/of beeld-\nopnames zijn gemaakt dienen die, naast de verslagen, ook\npermanent bewaard te worden",
+    "toelichting": "Raad, B&W, besluitvormend bestuurlijk overleg waarvan het\norgaan het secretariaat voert. Indien geluids- en/of beeldopnames zijn gemaakt dienen die, naast de verslagen, ook\npermanent bewaard te worden",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 37,
@@ -5531,7 +5531,7 @@
   {
     "id": "2020:19.1.7",
     "code": "19.1.7",
-    "benaming": "Agenda, verslag en besluiten van onafhanke- lijke adviescommissie of Georganiseerd overleg",
+    "benaming": "Agenda, verslag en besluiten van onafhankelijke adviescommissie of Georganiseerd overleg",
     "type": "specifiek_resultaat",
     "parent_id": "2020:19.1",
     "volgorde": 292,
@@ -5550,7 +5550,7 @@
   {
     "id": "2020:19.1.8",
     "code": "19.1.8",
-    "benaming": "Agenda, verslag en be- sluitenlijst van ambtelijke besluitvorming",
+    "benaming": "Agenda, verslag en besluitenlijst van ambtelijke besluitvorming",
     "type": "specifiek_resultaat",
     "parent_id": "2020:19.1",
     "volgorde": 293,
@@ -5626,7 +5626,7 @@
   {
     "id": "2020:19.1.12",
     "code": "19.1.12",
-    "benaming": "Agenda, verslag van overleg met derden geor- ganiseerd door derde",
+    "benaming": "Agenda, verslag van overleg met derden georganiseerd door derde",
     "type": "specifiek_resultaat",
     "parent_id": "2020:19.1",
     "volgorde": 297,
@@ -5664,7 +5664,7 @@
   {
     "id": "2020:19.1.14",
     "code": "19.1.14",
-    "benaming": "Vervanging, migratie, conversie, vervreemding, overbrenging of metada- tering van archieven",
+    "benaming": "Vervanging, migratie, conversie, vervreemding, overbrenging of metadatering van archieven",
     "type": "specifiek_resultaat",
     "parent_id": "2020:19.1",
     "volgorde": 299,
@@ -5778,7 +5778,7 @@
   {
     "id": "2020:19.1.20",
     "code": "19.1.20",
-    "benaming": "Persoonsgegevens ex- gedetineerde verwerkt zonder maatregelen",
+    "benaming": "Persoonsgegevens ex-gedetineerde verwerkt zonder maatregelen",
     "type": "specifiek_resultaat",
     "parent_id": "2020:19.1",
     "volgorde": 305,
@@ -5797,7 +5797,7 @@
   {
     "id": "2020:19.1.21",
     "code": "19.1.21",
-    "benaming": "Persoonsgegevens ex- gedetineerde verwerkt met maatregelen",
+    "benaming": "Persoonsgegevens ex-gedetineerde verwerkt met maatregelen",
     "type": "specifiek_resultaat",
     "parent_id": "2020:19.1",
     "volgorde": 306,
@@ -6063,7 +6063,7 @@
   {
     "id": "2020:20.1.6",
     "code": "20.1.6",
-    "benaming": "Sociaal maatschap- pelijk of economisch onderzoek",
+    "benaming": "Sociaal maatschappelijk of economisch onderzoek",
     "type": "specifiek_resultaat",
     "parent_id": "2020:20.1",
     "volgorde": 320,
@@ -6177,7 +6177,7 @@
   {
     "id": "2020:21.1.2",
     "code": "21.1.2",
-    "benaming": "Vooroverleg omgevings- vergunning",
+    "benaming": "Vooroverleg omgevingsvergunning",
     "type": "specifiek_resultaat",
     "parent_id": "2020:21.1",
     "volgorde": 326,
@@ -6253,7 +6253,7 @@
   {
     "id": "2020:22",
     "code": "22",
-    "benaming": "Gebeurtenis orga- niseren",
+    "benaming": "Gebeurtenis organiseren",
     "type": "procestype",
     "parent_id": null,
     "volgorde": 330,
@@ -6314,7 +6314,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:22.1",
     "volgorde": 333,
-    "toelichting": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende ge-\nfrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar\ngemaakte stempassen, kiezerspassen en volmachtbewijzen,\ngeldige, ongeldig verklaarde, onbruikbaar gemaakte en niet\ngebruikte stembiljetten en de stembiljetten met een blanco\nstem, de processen-verbaal van de stembureaus en de be-\nsluiten tot nieuwe opneming van stembiljetten van het centraal\nstembureau",
+    "toelichting": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende ge-\nfrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar\ngemaakte stempassen, kiezerspassen en volmachtbewijzen,\ngeldige, ongeldig verklaarde, onbruikbaar gemaakte en niet\ngebruikte stembiljetten en de stembiljetten met een blanco\nstem, de processen-verbaal van de stembureaus en de besluiten tot nieuwe opneming van stembiljetten van het centraal\nstembureau",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 39,
@@ -6424,7 +6424,7 @@
   {
     "id": "2020:23",
     "code": "23",
-    "benaming": "Voorziening aan- vragen",
+    "benaming": "Voorziening aanvragen",
     "type": "procestype",
     "parent_id": null,
     "volgorde": 339,
@@ -6709,7 +6709,7 @@
   {
     "id": "2020:25",
     "code": "25",
-    "benaming": "Toezicht en handha- ving ondergaan",
+    "benaming": "Toezicht en handhaving ondergaan",
     "type": "procestype",
     "parent_id": null,
     "volgorde": 354,
@@ -6732,7 +6732,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:25",
     "volgorde": 355,
-    "toelichting": "Sisa-verantwoording, toezicht en handhaving uitgevoerd\ndoor derden, toezicht gemeentearchivaris archief- en infor-\nmatiebeheer",
+    "toelichting": "Sisa-verantwoording, toezicht en handhaving uitgevoerd\ndoor derden, toezicht gemeentearchivaris archief- en informatiebeheer",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 39,
@@ -7093,7 +7093,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:29",
     "volgorde": 374,
-    "toelichting": "Terugmelding fout in basisregistratie beheerd door ander over-\nheidsorgaan, aangifte bij politie en instanties, datalekken",
+    "toelichting": "Terugmelding fout in basisregistratie beheerd door ander overheidsorgaan, aangifte bij politie en instanties, datalekken",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 40,

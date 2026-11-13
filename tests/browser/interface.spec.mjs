@@ -116,7 +116,7 @@ test('bronannotaties, afgebroken tekst en afwijkende bronlabels zichtbaar',async
   await expect(page.getByRole('heading',{name:'Bronannotaties',exact:true})).toBeVisible();
   await expect(page.locator('.annotaties')).toContainText('geldige of onbruikbaar');
   await open(page,'2020:19');await open(page,'2020:19.1');await selecteer(page,'2020:19.1.19');
-  await expect(page.locator('dt').filter({hasText:/^Resultaattype$/}).locator('+dd')).toHaveText('Archiefvernie- tiging');
+  await expect(page.locator('dt').filter({hasText:/^Resultaattype$/}).locator('+dd')).toHaveText('Archiefvernietiging');
 });
 test('toetsenbord: tabstop, pijlen, enter, spatie, home/end en zichtbare focus',async({page})=>{
   await kies(page,'2020');
