@@ -1,3 +1,4 @@
+import {kopieerPubliekeDocumenten} from './publieke-documenten.mjs';
 import {Ajv2020} from 'ajv/dist/2020.js';
 import standaloneCode from 'ajv/dist/standalone/index.js';
 import { build } from 'esbuild';
@@ -53,10 +54,9 @@ for (const [bron, doel] of [
   ['dist/concordans', 'dist/site/concordans'],
   ['datasets', 'dist/site/datasets'],
   ['bronnen', 'dist/site/bronnen'],
-  ['HERGEBRUIK.md', 'dist/site/HERGEBRUIK.md'],
-  ['documentatie/concordans-bronvermelding.md', 'dist/site/concordans-bronvermelding.md'],
-  ['documentatie/privacy-publicatie.md', 'dist/site/privacy-publicatie.md'],
 ]) await cp(bron, doel, { recursive: true });
+
+await kopieerPubliekeDocumenten();
 
 await writeFile('dist/site/concordans-excel-licenties.txt', 'write-excel-file 4.1.1\n'+await readFile('node_modules/write-excel-file/LICENSE','utf8')+'\n\nfflate\n'+await readFile('node_modules/fflate/LICENSE','utf8'));
 

@@ -54,7 +54,7 @@ Onbevestigde AI-voorstellen worden standaard niet meegenomen in zoekresultaten, 
 
 ## Projectstatus
 
-De applicatie is ontwikkeld en technisch gevalideerd in de beschreven Chromium-omgeving. De productiebuild bevat drie doorlopende selectielijsttabellen, een concordansviewer en vier Excel-downloads. Zie de [releaseacceptatie](docs/release-acceptatie.md) voor testresultaten en beperkingen; volledige WCAG 2.2-AA-conformiteit is nog niet vastgesteld.
+De applicatie is ontwikkeld en geautomatiseerd gevalideerd in Chromium, Firefox en WebKit: [395 geslaagde browsergevallen](https://github.com/EGRten/semantische-selectie-tool/actions/runs/43427464946), zonder mislukkingen, flaky tests of skips. Praktijkgerichte toegankelijkheidstoetsen zijn nog niet afgerond. De productiebuild bevat drie doorlopende selectielijsttabellen, een concordansviewer en vier Excel-downloads. Zie de [releaseacceptatie](docs/release-acceptatie.md) voor testresultaten en beperkingen; volledige WCAG 2.2-AA-conformiteit is nog niet vastgesteld.
 
 GitHub Pages is de beoogde publicatieomgeving. De applicatie is nog niet publiek geactiveerd via GitHub Pages; deze documentatieopdracht activeert geen publicatie. De [resterende releasepunten](docs/release-restpunten.md) blijven zichtbaar. De ontwikkelfasen staan in het [ontwikkelplan](docs/ontwikkelplan.md).
 
