@@ -1,0 +1,108 @@
+name: Browsercompatibiliteit
+
+'on':
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: browsercompatibiliteit-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  browsers:
+    name: Chromium, Firefox en WebKit
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    env:
+      CI: 'true'
+    steps:
+      - uses: actions/checkout@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          persist-credentials: false
+      - name: Tijdelijke rapportmappen voorbereiden
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/compat-raw" "$RUNNER_TEMP/compat-summary"
+          printf 'COMPAT_RAW_REPORT_DIR=%s\n' "$RUNNER_TEMP/compat-raw" >> "$GITHUB_ENV"
+          printf 'COMPAT_PUBLIC_REPORT_DIR=%s\n' "$RUNNER_TEMP/compat-summary" >> "$GITHUB_ENV"
+      - uses: actions/setup-node@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          node-version: '24'
+          cache: npm
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Dependencies installeren
+        run: npm ci
+      - name: Reguliere productiebuild
+        run: npm run build
+      - name: Playwright-browsers en systeemafhankelijkheden installeren
+        id: installatie
+        run: npx playwright install --with-deps chromium firefox webkit
+      - name: Werkelijke browserversies en omgeving vastleggen
+        shell: bash
+        run: |
+          node --input-type=module <<'JS'
+          import {chromium,firefox,webkit} from 'playwright';
+          import {mkdir,readFile,writeFile} from 'node:fs/promises';
+          import {join} from 'node:path';
+          import {release} from 'node:os';
+          const r={node:process.version,platform:process.platform,kernel:release(),architectuur:process.arch,playwright:JSON.parse(await readFile('node_modules/@playwright/test/package.json','utf8')).version,browsers:{}};
+          for(const [naam,engine] of Object.entries({chromium,firefox,webkit})){
+            let browser;try{browser=await engine.launch();r.browsers[naam]={status:'gestart',versie:browser.version()};}
+            catch{r.browsers[naam]={status:'start_mislukt'};process.exitCode=1;}
+            finally{await browser?.close();}
+          }
+          await mkdir(process.env.COMPAT_PUBLIC_REPORT_DIR,{recursive:true});
+          await writeFile(join(process.env.COMPAT_PUBLIC_REPORT_DIR,'versies.json'),JSON.stringify(r,null,2)+'\n');
+          console.log(JSON.stringify(r));
+          JS
+      - name: Afzonderlijke axe-testbron voorbereiden
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/axe"
+          npm pack axe-core@4.11.0 --pack-destination "$RUNNER_TEMP/axe"
+          tar -xzf "$RUNNER_TEMP/axe/axe-core-4.11.0.tgz" -C "$RUNNER_TEMP/axe"
+          test "$(sha256sum "$RUNNER_TEMP/axe/package/axe.min.js" | cut -d ' ' -f 1)" = e9e5863c33a874f09bc01acd9234b7e3c871479f5eef8802fa582544465e6d01
+          printf 'AXE_SOURCE=%s\n' "$RUNNER_TEMP/axe/package/axe.min.js" >> "$GITHUB_ENV"
+      - name: Chromium-tests
+        id: chromium
+        continue-on-error: true
+        env:
+          COMPAT_BROWSER: chromium
+        run: npx playwright test -c playwright.compat.config.mjs --project=chromium
+      - name: Firefox-tests
+        id: firefox
+        continue-on-error: true
+        env:
+          COMPAT_BROWSER: firefox
+        run: npx playwright test -c playwright.compat.config.mjs --project=firefox
+      - name: WebKit-tests
+        id: webkit
+        continue-on-error: true
+        env:
+          COMPAT_BROWSER: webkit
+        run: npx playwright test -c playwright.compat.config.mjs --project=webkit
+      # De drie continue-on-error-stappen houden andere engines bereikbaar.
+      # Deze eindcontrole faalt expliciet bij ieder mislukt, flaky of ontbrekend resultaat.
+      - name: Browserresultaten samenvatten en eindstatus bewaken
+        if: always()
+        env:
+          COMPAT_INSTALL_OUTCOME: ${{ steps.installatie.outcome }}
+          COMPAT_CHROMIUM_OUTCOME: ${{ steps.chromium.outcome }}
+          COMPAT_FIREFOX_OUTCOME: ${{ steps.firefox.outcome }}
+          COMPAT_WEBKIT_OUTCOME: ${{ steps.webkit.outcome }}
+        run: node scripts/ci/browserresultaten.mjs
+      - name: Compacte resultaten bewaren
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: browserresultaten-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/compat-summary/*.json
+          if-no-files-found: warn
+          retention-days: 7
