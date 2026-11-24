@@ -3,6 +3,20 @@ name: Browsercompatibiliteit
 'on':
   pull_request:
     branches: [main]
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      # Conservatief: onbekende/nieuwe applicatiebestanden blijven controles starten.
+      - '**'
+      - '!README.md'
+      - '!AGENTS.md'
+      - '!docs/**'
+      - '!documentatie/**'
+      - '!sites-overdracht/**'
+      # Deze documentatie is onderdeel van de publieke build en blijft relevant.
+      # Houd gelijk met scripts/publieke-documenten.mjs.
+      - 'docs/concordans-hergebruik.md'
+      - 'documentatie/concordans-bronvermelding.md'
+      - 'documentatie/privacy-publicatie.md'
   workflow_dispatch:
 
 permissions:
@@ -14,6 +28,8 @@ concurrency:
 
 jobs:
   browsers:
+    # Handmatig blijft ook op een branch met een concept-PR mogelijk.
+    if: github.event_name == 'workflow_dispatch' || github.event.pull_request.draft == false
     name: Chromium, Firefox en WebKit
     runs-on: ubuntu-24.04
     timeout-minutes: 35
