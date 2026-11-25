@@ -304,6 +304,62 @@
     "besluit": "corrigeren"
   },
   {
+    "bestand": "datasets/1996-2012/structuur.json",
+    "record_id": "1996-2012:3.4.1",
+    "json_pointer": "/50/benaming",
+    "oud": "Aanschaf, leasen,huur, verhuur en ingebruikgeving",
+    "nieuw": "Aanschaf, leasen, huur, verhuur en ingebruikgeving",
+    "type": "bron_eigen_spatie_in_leesweergave",
+    "classificatie": "B",
+    "bronbestand": "Geactualisteerde Selectielijst 2012.pdf",
+    "bronhash": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
+    "pdf_pagina": 36,
+    "bbox": "",
+    "besluit": "corrigeren_leesweergave_bron_letterlijk_behouden"
+  },
+  {
+    "bestand": "datasets/1996-2012/structuur.json",
+    "record_id": "1996-2012:3.4.1",
+    "json_pointer": "/50/toelichting",
+    "oud": null,
+    "nieuw": "Leesweergave met spatie na de komma. In de officiële PDF (pagina 36) staat letterlijk: “Aanschaf, leasen,huur, verhuur en ingebruikgeving”.",
+    "type": "bron_eigen_spatie_in_leesweergave",
+    "classificatie": "B",
+    "bronbestand": "Geactualisteerde Selectielijst 2012.pdf",
+    "bronhash": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
+    "pdf_pagina": 36,
+    "bbox": "",
+    "besluit": "corrigeren_leesweergave_bron_letterlijk_behouden"
+  },
+  {
+    "bestand": "datasets/1996-2012/zoeklexicon.json",
+    "record_id": "1996-2012:term:00051",
+    "json_pointer": "/50/zoekterm",
+    "oud": "Aanschaf, leasen,huur, verhuur en ingebruikgeving",
+    "nieuw": "Aanschaf, leasen, huur, verhuur en ingebruikgeving",
+    "type": "bron_eigen_spatie_in_leesweergave",
+    "classificatie": "B",
+    "bronbestand": "Geactualisteerde Selectielijst 2012.pdf",
+    "bronhash": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
+    "pdf_pagina": 36,
+    "bbox": "",
+    "besluit": "corrigeren_leesweergave_bron_letterlijk_behouden"
+  },
+  {
+    "bestand": "datasets/1996-2012/zoeklexicon.json",
+    "record_id": "1996-2012:term:00051",
+    "json_pointer": "/50/genormaliseerde_zoekterm",
+    "oud": "aanschaf, leasen,huur, verhuur en ingebruikgeving",
+    "nieuw": "aanschaf, leasen, huur, verhuur en ingebruikgeving",
+    "type": "bron_eigen_spatie_in_leesweergave",
+    "classificatie": "B",
+    "bronbestand": "Geactualisteerde Selectielijst 2012.pdf",
+    "bronhash": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
+    "pdf_pagina": 36,
+    "bbox": "",
+    "besluit": "corrigeren_leesweergave_bron_letterlijk_behouden"
+  },
+  {
     "bestand": "publicatie/2020.json",
     "record_id": "2020:3.1",
     "json_pointer": "/rijen/15/notities/4/tekst",
@@ -606,5 +662,47 @@
       744.788
     ],
     "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/1996-2012.json",
+    "record_id": "1996-2012:3.4.1::001",
+    "json_pointer": "/rijen/145/waarden/3",
+    "oud": "3.4.1 Aanschaf, leasen,huur, verhuur en ingebruikgeving",
+    "nieuw": "3.4.1 Aanschaf, leasen, huur, verhuur en ingebruikgeving",
+    "type": "bron_eigen_spatie_in_leesweergave",
+    "classificatie": "B",
+    "bronbestand": "Geactualisteerde Selectielijst 2012.pdf",
+    "bronhash": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
+    "pdf_pagina": 36,
+    "bbox": "",
+    "besluit": "corrigeren_leesweergave_bron_letterlijk_behouden"
+  },
+  {
+    "bestand": "publicatie/1996-2012.json",
+    "record_id": "1996-2012:3.4.1::002",
+    "json_pointer": "/rijen/146/waarden/3",
+    "oud": "3.4.1 Aanschaf, leasen,huur, verhuur en ingebruikgeving",
+    "nieuw": "3.4.1 Aanschaf, leasen, huur, verhuur en ingebruikgeving",
+    "type": "bron_eigen_spatie_in_leesweergave",
+    "classificatie": "B",
+    "bronbestand": "Geactualisteerde Selectielijst 2012.pdf",
+    "bronhash": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
+    "pdf_pagina": 36,
+    "bbox": "",
+    "besluit": "corrigeren_leesweergave_bron_letterlijk_behouden"
+  },
+  {
+    "bestand": "publicatie/1996-2012.json",
+    "record_id": "1996-2012:3.4.1::003",
+    "json_pointer": "/rijen/147/waarden/3",
+    "oud": "3.4.1 Aanschaf, leasen,huur, verhuur en ingebruikgeving",
+    "nieuw": "3.4.1 Aanschaf, leasen, huur, verhuur en ingebruikgeving",
+    "type": "bron_eigen_spatie_in_leesweergave",
+    "classificatie": "B",
+    "bronbestand": "Geactualisteerde Selectielijst 2012.pdf",
+    "bronhash": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
+    "pdf_pagina": 36,
+    "bbox": "",
+    "besluit": "corrigeren_leesweergave_bron_letterlijk_behouden"
   }
 ]

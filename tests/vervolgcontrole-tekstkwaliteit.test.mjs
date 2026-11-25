@@ -11,3 +11,11 @@ test('vervolgcontrole: geneste leesbare uitzonderingen zijn hersteld en ruwe bro
  const pub=await read('publicatie/2020.json');
  assert.match(JSON.stringify(pub.rijen.find(x=>x.id==='2020:3.1')),/gladheidsbestrijdingsplan/);
 });
+test('vervolgcontrole: bron-eigen spatiefout heeft leesbare rubrieknaam en letterlijke bronnote',async()=>{
+ const structure=await read('datasets/1996-2012/structuur.json');
+ const item=structure.find(x=>x.id==='1996-2012:3.4.1');
+ assert.equal(item.benaming,'Aanschaf, leasen, huur, verhuur en ingebruikgeving');
+ assert.match(item.toelichting,/PDF.*leasen,huur/);
+ const source=await read('datasets/1996-2012/bepalingen.json');
+ assert.match(source[35].tekst,/leasen,huur/);
+});

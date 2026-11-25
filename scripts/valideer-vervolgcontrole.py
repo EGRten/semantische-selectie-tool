@@ -7,11 +7,11 @@ def get(v,path):
  for k in path:v=v[k]
  return v
 rows=list(csv.DictReader((D/'uitgevoerde-correcties.csv').open(encoding='utf-8-sig'),delimiter=';'))
-assert len(rows)==16
+assert len(rows)==20
 p='datasets/2020/selectiegegevens.json';before=old(p);current=load(p)
 assert len(before)==len(current)==346
 assert [x['id'] for x in before]==[x['id'] for x in current]
-for m in rows:
+for m in rows[:16]:
  assert m['bestand']==p and m['classificatie']=='A'
  path=[int(k) if k.isdecimal() else k for k in m['json_pointer'].split('/')[1:]]
  assert path[-2:]==['uitzonderingen_en_verwijzingen','officiele_tekst']
@@ -20,8 +20,20 @@ for m in rows:
  assert m['bronhash']=='0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c'
  get(before,path[:-1])[path[-1]]=m['nieuw']
 assert before==current,'Niet-geregistreerde wijziging in primaire gegevens'
+for name,fields in [('structuur',['benaming','toelichting']),('zoeklexicon',['zoekterm','genormaliseerde_zoekterm'])]:
+ q=f'datasets/1996-2012/{name}.json';previous=old(q);updated=load(q)
+ for m in rows[16:]:
+  if m['bestand']!=q:continue
+  pointer=[int(k) if k.isdecimal() else k for k in m['json_pointer'].split('/')[1:]]
+  assert pointer==[50,m['json_pointer'].split('/')[-1]] and pointer[-1] in fields
+  assert previous[50]['id']==m['record_id'] and previous[50][pointer[-1]]==(m['oud'] or None)
+  assert updated[50][pointer[-1]]==m['nieuw']
+  previous[50][pointer[-1]]=m['nieuw']
+ assert previous==updated,(q,'niet-geregistreerde wijziging')
 concordance='publicatie/concordans.json';assert (R/concordance).read_bytes()==subprocess.check_output(['git','show',BASE+':'+concordance],cwd=R)
 for name in ['1996-2012','2017','2020']:
  for part in ['relaties','zoeklexicon','bronannotaties']:
-  q=f'datasets/{name}/{part}.json';assert (R/q).read_bytes()==subprocess.check_output(['git','show',BASE+':'+q],cwd=R)
-print(json.dumps({'status':'geslaagd','geregistreerde_primaire_correcties':16,'codes_ids_termijnen_waarderingen_voorwaarden':'ongewijzigd','concordans_en_zoekrelaties':'ongewijzigd'},ensure_ascii=False))
+  q=f'datasets/{name}/{part}.json'
+  if name=='1996-2012' and part=='zoeklexicon':continue
+  assert (R/q).read_bytes()==subprocess.check_output(['git','show',BASE+':'+q],cwd=R)
+print(json.dumps({'status':'geslaagd','geregistreerde_primaire_correcties':20,'codes_ids_termijnen_waarderingen_voorwaarden':'ongewijzigd','concordans_en_zoekrelaties':'ongewijzigd','officiele_zoekterm_2012':'uitsluitend_gedocumenteerde_leesweergave'},ensure_ascii=False))

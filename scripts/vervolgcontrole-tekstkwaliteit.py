@@ -29,22 +29,43 @@ for (kind,literal,sourceid,page),members in sorted(groups.items()):
  item={'type':kind,'aangetroffen':literal,'voorstel':matched[0]['nieuw'] if matched else '', 'bron_id':sourceid,'pdf_pagina':page,'aantal_registerregels':len(members),'classificatie':classification,'besluit':decision,'woordenboekcontrole':'geen zelfstandig bewijs','context':members[0]['context'],'onderbouwing':'Eerdere PDF-visuele controle PR #48 en huidig bronvenster' if matched else 'Niet eenduidig bronbewezen; behouden','bronverwijzingen':json.dumps(sorted({m['bestand']+'#'+m['json_pointer'] for m in members}),ensure_ascii=False)}
  (word if kind in ('woordafbreking','koppelteken_in_woord','soft_hyphen') else spaces).append(item)
  if classification=='E':remaining.append(item)
+# Bron-eigen kommaspatie: uitsluitend de leesweergave, met expliciete bronnoot.
+source2012=next(x for x in source['bronnen'] if x['lijst']=='1996-2012')
+oldname='Aanschaf, leasen,huur, verhuur en ingebruikgeving'
+newname='Aanschaf, leasen, huur, verhuur en ingebruikgeving'
+note='Leesweergave met spatie na de komma. In de officiële PDF (pagina 36) staat letterlijk: “Aanschaf, leasen,huur, verhuur en ingebruikgeving”.'
+readable=[('datasets/1996-2012/structuur.json',50,'1996-2012:3.4.1','benaming',oldname,newname),('datasets/1996-2012/structuur.json',50,'1996-2012:3.4.1','toelichting',None,note),('datasets/1996-2012/zoeklexicon.json',50,'1996-2012:term:00051','zoekterm',oldname,newname),('datasets/1996-2012/zoeklexicon.json',50,'1996-2012:term:00051','genormaliseerde_zoekterm',oldname.lower(),newname.lower())]
+for file,index,record,field,oldvalue,newvalue in readable:
+ changes.append({'bestand':file,'record_id':record,'json_pointer':f'/{index}/{field}','oud':oldvalue,'nieuw':newvalue,'type':'bron_eigen_spatie_in_leesweergave','classificatie':'B','bronbestand':source2012['bestandsnaam'],'bronhash':source2012['sha256'],'pdf_pagina':36,'bbox':'','besluit':'corrigeren_leesweergave_bron_letterlijk_behouden'})
 fields=list(word[0]);csvout('woordafbrekingen-beoordeling.csv',word,fields);csvout('spatieproblemen-beoordeling.csv',spaces,fields);csvout('resterende-onzekerheden.csv',remaining,fields)
 csvout('uitgevoerde-correcties.csv',changes,list(changes[0]) if changes else ['bestand','record_id','json_pointer','oud','nieuw','type','classificatie','bronbestand','bronhash','pdf_pagina','bbox','besluit'])
 if args.apply:
  path.write_text(json.dumps(records,ensure_ascii=False,indent=2)+'\n')
+ for file,index,record,field,oldvalue,newvalue in readable:
+  target=R/file;contents=json.loads(target.read_text());assert contents[index]['id']==record
+  assert contents[index][field] in (oldvalue,newvalue)
+  contents[index][field]=newvalue;target.write_text(json.dumps(contents,ensure_ascii=False,indent=2)+'\n')
+ for name in ['structuur','zoeklexicon']:
+  rows=json.loads((R/f'datasets/1996-2012/{name}.json').read_text())
+  with (R/f'datasets/1996-2012/{name}.csv').open('w',encoding='utf-8-sig',newline='') as f:
+   writer=csv.DictWriter(f,fieldnames=sorted(set().union(*(r.keys() for r in rows))));writer.writeheader()
+   writer.writerows({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(dict,list)) else v for k,v in r.items()} for r in rows)
  csvpath=R/'datasets/2020/selectiegegevens.csv'
  with csvpath.open('w',encoding='utf-8-sig',newline='') as f:
   writer=csv.DictWriter(f,fieldnames=sorted(set().union(*(r.keys() for r in records))));writer.writeheader()
   writer.writerows({k:json.dumps(v,ensure_ascii=False) if isinstance(v,(dict,list)) else v for k,v in r.items()} for r in records)
- manifestpath=R/'datasets/2020/manifest.json';manifest=json.loads(manifestpath.read_text())
- for name in ['selectiegegevens.json','selectiegegevens.csv']:
-  manifest['sha256'][name]=hashlib.sha256((R/'datasets/2020'/name).read_bytes()).hexdigest()
- manifestpath.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+ for year,names in [('2020',['selectiegegevens.json','selectiegegevens.csv']),('1996-2012',['structuur.json','structuur.csv','zoeklexicon.json','zoeklexicon.csv'])]:
+  manifestpath=R/f'datasets/{year}/manifest.json';manifest=json.loads(manifestpath.read_text())
+  for name in names:manifest['sha256'][name]=hashlib.sha256((R/f'datasets/{year}'/name).read_bytes()).hexdigest()
+  manifestpath.write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
  referencepath=R/'documentatie/inhoudelijke-integriteit.json';reference=json.loads(referencepath.read_text())
  canonical=[{k:v for k,v in r.items() if k!='verificatie'} for r in records]
  payload=json.dumps(canonical,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
  reference['inhoudelijke_hashes']['2020']['selectiegegevens']=hashlib.sha256(payload).hexdigest()
+ for name in ['structuur','zoeklexicon']:
+  data=json.loads((R/f'datasets/1996-2012/{name}.json').read_text())
+  payload=json.dumps(data,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()
+  reference['inhoudelijke_hashes']['1996-2012'][name]=hashlib.sha256(payload).hexdigest()
  referencepath.write_text(json.dumps(reference,ensure_ascii=False,indent=2)+'\n')
  print('Toegepaste correcties',len(changes))
 # Registreer ook de direct gegenereerde publieke waarden na de productiebuild.
@@ -59,9 +80,18 @@ for i,(oldrow,newrow) in enumerate(zip(original['rijen'],current['rijen'])):
   if oldnote['tekst']!=newnote['tekst']:
    assert newrow['id'] in byid
    m=dict(byid[newrow['id']]);m.update(bestand=public,json_pointer=f'/rijen/{i}/notities/{j}/tekst',oud=oldnote['tekst'],nieuw=newnote['tekst']);allmut.append(m)
+public2012='publicatie/1996-2012.json'
+old2012=json.loads(subprocess.check_output(['git','show',baseline+':'+public2012],cwd=R))
+new2012=json.loads((R/public2012).read_text())
+for i,(oldrow,newrow) in enumerate(zip(old2012['rijen'],new2012['rijen'])):
+ for j,(beforevalue,aftervalue) in enumerate(zip(oldrow['waarden'],newrow['waarden'])):
+  if beforevalue!=aftervalue:
+   assert j==3 and 'leasen,huur' in beforevalue and 'leasen, huur' in aftervalue
+   m=dict(changes[-1]);m.update(bestand=public2012,record_id=newrow['id'],json_pointer=f'/rijen/{i}/waarden/{j}',oud=beforevalue,nieuw=aftervalue)
+   allmut.append(m)
 (P/'mutaties.json').write_text(json.dumps(allmut,ensure_ascii=False,indent=2)+'\n')
 filelog={}
-for name in ['datasets/2020/selectiegegevens.json',public]:
+for name in ['datasets/2020/selectiegegevens.json','datasets/2020/selectiegegevens.csv','datasets/1996-2012/structuur.json','datasets/1996-2012/structuur.csv','datasets/1996-2012/zoeklexicon.json','datasets/1996-2012/zoeklexicon.csv',public,public2012]:
  old=subprocess.check_output(['git','show',baseline+':'+name],cwd=R)
  new=(R/name).read_bytes()
  if old!=new:filelog[name]={'voor_sha256':hashlib.sha256(old).hexdigest(),'na_sha256':hashlib.sha256(new).hexdigest()}

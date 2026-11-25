@@ -3,8 +3,32 @@
     "voor_sha256": "a3ef0b1221ac1c302744431065b236982e0d3a5f18cc1a09f30eb95321164586",
     "na_sha256": "0504698d29fb09754061afdb64ed6f980e38917f5c6e1944b70637c235a6ce9a"
   },
+  "datasets/2020/selectiegegevens.csv": {
+    "voor_sha256": "6e91483500599b03634ce7865c039a7acc2359bfab0be088927bad4f46c53d5d",
+    "na_sha256": "83ffa870a562d978698071ffb1244e96866b211df1fed6888585ed580a1037b3"
+  },
+  "datasets/1996-2012/structuur.json": {
+    "voor_sha256": "526e34ee8b42bb963b232aa2299d6e7942397f1bff3c57a6d4efd1ca4aeb76d8",
+    "na_sha256": "8195073615d7f9c6d5561fa6d282eb942568d43d6439e5e7c42e15283f9a5069"
+  },
+  "datasets/1996-2012/structuur.csv": {
+    "voor_sha256": "2b798ca25703ad3cc3e9c5c3f49d15c71f04bc37a69f7c853da85141df83134f",
+    "na_sha256": "9e5170edd462d098f51be6e1e6ce6bd869316abede5411dccf66b7bfa4de7974"
+  },
+  "datasets/1996-2012/zoeklexicon.json": {
+    "voor_sha256": "3382dbe287800df811269d36c047007c2613a794d1bb3f32ec2e472912c4c7ca",
+    "na_sha256": "e6eeae6f610247030ae89a8a04af662cde60c8f1388a2287542f3ae4f582b3b4"
+  },
+  "datasets/1996-2012/zoeklexicon.csv": {
+    "voor_sha256": "f903aee32e4120e67d912a8c4fcaa07d1007d15b326191696061a9c42029252f",
+    "na_sha256": "375433eecf728579e701767a32787328454051194691e18430926eff872ec333"
+  },
   "publicatie/2020.json": {
     "voor_sha256": "401910aebc4e8ecf5624582a0eb7c00eab12d5cdebc7b0cc724e42e1324eb665",
     "na_sha256": "585aa6954faebfa7b971ddbfc9be628a496ede475aae2a9efdf45aaa308f2285"
+  },
+  "publicatie/1996-2012.json": {
+    "voor_sha256": "204ee20f16d02ed91e4fc760d2b91b8933d9a4dc037d752eaa81814a3fba5ecd",
+    "na_sha256": "29df693739f3d3908544476d1153cd4702a782dd8945e79f1104422934399927"
   }
 }
