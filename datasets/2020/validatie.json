@@ -1,18 +1,18 @@
 {
   "technische_validatie": "geslaagd",
-  "bronverificatie": "alle_selectieregels_geautomatiseerd_en_gerichte_afwijkingenbeoordeling",
+  "bronverificatie": "bronherijking_2026_11_25_volledige_pagina_en_tabelinventaris_met_open_beoordelingsregister",
   "integrale_menselijke_tweede_lezing": false,
-  "volledigheidscontrole": "onafhankelijke_proceskolom_inventaris_346_tabelregels",
+  "volledigheidscontrole": "onafhankelijke_resultaatcode_en_proceskolominventaris",
   "open_bronvragen": 0,
   "toepasselijkheidsbeslissingen_gevalideerd": false,
   "semantische_volledigheid": "geen_onbegrensde_volledigheidsclaim; beschikbare_rapporttekst_verwerkt",
-  "status": "oplevering_afgerond_met_bronannotaties",
+  "status": "technische_bronherijking_met_behouden_brononzekerheden",
   "aanvullende_controle": {
     "records": 346,
     "nieuwe_extractieafwijkingen": 0,
     "methode": "zie_documentatie_aanvullende_broncontrole"
   },
-  "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+  "opleverstatus": "bronherijking_ter_beoordeling",
   "verplichte_tweede_beoordelaar": false,
   "broncontroles_bevestigd_door_gebruiker": 7,
   "bronbeperkingen_behouden": 7

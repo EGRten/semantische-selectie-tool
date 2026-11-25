@@ -1,0 +1,91 @@
+{
+  "basiscommit": "1557833777cba086ddd88a69190bd9e6f0a0713b",
+  "bronidentiteiten": [
+    {
+      "lijst": "1996-2012",
+      "bestandsnaam": "Geactualisteerde Selectielijst 2012.pdf",
+      "sha256": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
+      "bytes": 793641,
+      "pdf_paginas": 120,
+      "bronrol": "leidend voor brongetrouwe selectiegegevens",
+      "controle_status": "bestand geopend, leesbaar en gehasht",
+      "sha256_berekend": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
+      "identiteit_bevestigd": true,
+      "extractie": "visueel geverifieerde glyphmapping; ruwe tekst bewaard",
+      "nieuwe_online_download": false
+    },
+    {
+      "lijst": "2017",
+      "bestandsnaam": "Gemeentelijke Selectielijst 2017.pdf",
+      "sha256": "7398d4e499079ea6b988572fc6a80af33ff9e47cb6ae2f69ecc5a264741b7689",
+      "bytes": 1087005,
+      "pdf_paginas": 101,
+      "bronrol": "leidend voor brongetrouwe selectiegegevens",
+      "controle_status": "bestand geopend, leesbaar en gehasht",
+      "sha256_berekend": "7398d4e499079ea6b988572fc6a80af33ff9e47cb6ae2f69ecc5a264741b7689",
+      "identiteit_bevestigd": true,
+      "extractie": "PDF-karakterposities en tekstblokken",
+      "nieuwe_online_download": false
+    },
+    {
+      "lijst": "2020",
+      "bestandsnaam": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+      "sha256": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+      "bytes": 869047,
+      "pdf_paginas": 113,
+      "bronrol": "leidend voor brongetrouwe selectiegegevens",
+      "controle_status": "bestand geopend, leesbaar en gehasht",
+      "sha256_berekend": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+      "identiteit_bevestigd": true,
+      "extractie": "PDF-karakterposities en tekstblokken",
+      "nieuwe_online_download": false
+    }
+  ],
+  "volledige_pdf_paginas": 334,
+  "visueel_getranscribeerde_rasterfiguren": 2,
+  "resultaatcodes": {
+    "1996-2012": 494,
+    "2017": 305,
+    "2020": 346
+  },
+  "onafhankelijke_resultaatcodes": {
+    "2017": 305,
+    "2020": 346
+  },
+  "onafhankelijke_waarderingsankers_1996_2012": 489,
+  "2012_bestaande_voorschriften_aan_ankers_verantwoord": 494,
+  "onafhankelijke_tabelgroepen_1996_2012": 130,
+  "gecontroleerde_selectieveldparen": 10160,
+  "vergelijkingscategorieen": {
+    "exact overeenkomstig": 8314,
+    "alleen technisch presentatieverschil": 1735,
+    "exact overeenkomstig; lege bronwaarde": 28,
+    "datasetwaarde niet rechtstreeks bevestigd in leidende bron": 4,
+    "inhoudelijk afwijkende waarde; geen automatisch inhoudelijk oordeel": 77,
+    "aantoonbare extractiefout; rechtstreeks gecorrigeerd": 2
+  },
+  "vastgelegde_afwijkingen": 1818,
+  "bron_en_metadatacorrecties": 4954,
+  "gewijzigde_normatieve_selectieveldwaarden": 4,
+  "open_beoordelingsgevallen": 83,
+  "beoordeling_per_type": {
+    "datasetwaarde niet rechtstreeks bevestigd in leidende bron": 4,
+    "inhoudelijk afwijkende waarde; geen automatisch inhoudelijk oordeel": 77,
+    "structuurnaam niet als exacte tekst bevestigd in bestaand venster": 2
+  },
+  "bestaande_bronannotaties_ongewijzigd": true,
+  "bestaande_codes_en_ids_ongewijzigd": true,
+  "concordans_716_rijen_7876_cellen_ongewijzigd": true,
+  "zoekrelatie_identiteiten_en_niet_officiele_gegevens_ongewijzigd": true,
+  "letterlijk_bijgewerkte_officiele_zoektermen": 2,
+  "517_kandidaatrelaties_niet_toegevoegd": true,
+  "inhoudelijke_of_juridische_besluiten_genomen": 0,
+  "integrale_menselijke_tweede_lezing": false,
+  "beperkingen": [
+    "Geometrische en letterlijke inventarisatie; geen archivistische interpretatie.",
+    "Niet-exact bevestigde structuurnamen en vier eerdere XLS-bronkeuzes blijven ter beoordeling.",
+    "2012-voorschriftidentiteiten niet opnieuw afgebakend: 489 bronankers verantwoorden 494 bestaande technische regels, met gedeelde broncellen.",
+    "Bijlagen en voetnoten volledig als letterlijke pagina-/tekstlocaties behouden; toepasselijkheid niet op afzonderlijke resultaten geïnterpreteerd.",
+    "Praktijktoetsen en bronacceptatie niet uitgevoerd."
+  ]
+}

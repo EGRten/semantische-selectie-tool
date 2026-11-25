@@ -1,0 +1,51 @@
+{
+  "typecheck": "geslaagd",
+  "productiebuild": "geslaagd",
+  "schema_en_integriteitscontrole": "geslaagd",
+  "CSV_reproductie": "15/15 byte-identiek",
+  "publicatieprojecties": "4/4 reproduceerbaar",
+  "unittests": {
+    "geslaagd": 159,
+    "mislukt": 0,
+    "overgeslagen": 18,
+    "beperking": "Optionele controles vereisen oorspronkelijke externe concordans-bronrij-JSON; broncellen en mergecontext wel aanvullend onafhankelijk tegen de originele werkmap gecontroleerd."
+  },
+  "chromium": {
+    "volledige_run": {
+      "gevallen": 153,
+      "geslaagd": 152,
+      "mislukt": 1,
+      "oorzaak": "Verouderde annotatietelling: 11 oorspronkelijk + 4 expliciete herijkingsannotaties = 15."
+    },
+    "gerichte_hertest_na_testactualisatie": {
+      "gevallen": 15,
+      "geslaagd": 15,
+      "mislukt": 0
+    },
+    "nieuwe_bronherijkingstests": 3,
+    "volledige_Excel_downloads_inhoudelijk_teruggelezen": 4,
+    "repositorysubpad": "/semantische-selectie-tool/"
+  },
+  "firefox": {
+    "geprobeerd": 147,
+    "geslaagd": 1,
+    "mislukt": 146,
+    "betekenis": "146 browserstartfouten; geen 146 aangetoonde applicatiefouten. Eén browseronafhankelijke documentcontrole geslaagd.",
+    "startfout": "Could not find profile folder.",
+    "alternatieve_tempmap_getest": true,
+    "functionele_browserverificatie_geslaagd": false
+  },
+  "webkit": {
+    "binaries_gedownload": true,
+    "functionele_tests_uitgevoerd": false,
+    "startbeperking": "Ontbrekende systeemlibraries: libgtk-4.so.1, libgraphene-1.0.so.0, libharfbuzz-icu.so.0, libmanette-0.2.so.0, libhyphen.so.0, libGLESv2.so.2."
+  },
+  "downloads_aanvankelijk_geblokkeerd_later_beschikbaar": true,
+  "diffcheck_code_JSON_Markdown": "geslaagd; bronwitruimte/CRLF in CSV behouden",
+  "Python": "3.12.14",
+  "Node": "v24.22.1",
+  "gepubliceerd": false,
+  "gemerged": false,
+  "uitvoerstatus": "Bronherijking technisch uitgevoerd; 83 beoordelingspunten en browseromgevingsbeperkingen expliciet gerapporteerd; zie oplevering voor PR-status.",
+  "bronherijking_reproductie_bestanden": 65
+}

@@ -54,8 +54,8 @@
   {
     "id": "2017-opgemaakt",
     "bestand": "../../bronnen/2017-opgemaakt.bron.json",
-    "sha256": "cb0c5a4ff25af5e6d1817c3193b3774be519018dc5c5b2c719dbe4b1f0bc1188",
-    "status": "aangeleverd_opgemaakt_document; selectievelden_vergeleken_met_officiele_bron",
+    "sha256": "d471d78a3c61b63e40513741fdb56cc6efd41a14340b17d7b8e3e34e1423336c",
+    "status": "leidend_voor_herijking_opdracht_2026-11-25",
     "oorspronkelijk_bestand": "../../bronnen/Selectielijst 2017.pdf",
     "oorspronkelijke_sha256": "7398d4e499079ea6b988572fc6a80af33ff9e47cb6ae2f69ecc5a264741b7689",
     "bestand_type": "bronbeschrijving_geen_brondocument",
@@ -86,8 +86,8 @@
     "id": "2020-officieel",
     "bestand": "../../bronnen/2020-officieel.bron.json",
     "url": "https://www.nationaalarchief.nl/sites/default/files/field-file/Selectielijst_20200214.pdf",
-    "sha256": "179366d022754f51fa34496ca88d7258776ece19e64fc05bdd8da26fe30e7a51",
-    "status": "Nationaal_Archief_download_2026-11-10",
+    "sha256": "0bc774774a2d65835c6e3d4f78261cd4921a7e5f169d28ddde0ca365f757ac65",
+    "status": "leidend_voor_herijking_opdracht_2026-11-25",
     "oorspronkelijk_bestand": "../../bronnen/2020.pdf",
     "oorspronkelijke_sha256": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
     "bestand_type": "bronbeschrijving_geen_brondocument",
@@ -110,6 +110,16 @@
     "status": "Deep_Research_alleen_kandidaatbron",
     "oorspronkelijk_bestand": "../../bronnen/rapport-2020.md",
     "oorspronkelijke_sha256": "a17506685146a152525d260bc39183ec77a76bd52747ea81ec698258f76658c6",
+    "bestand_type": "bronbeschrijving_geen_brondocument",
+    "inhoud_extern": true
+  },
+  {
+    "id": "1996-2012-leidend-2026-11-25",
+    "bestand": "../../bronnen/1996-2012-leidend-2026-11-25.bron.json",
+    "sha256": "2b3ebbf7aa8e3ea0070d87167b26cd8ea4ee8f068d1dac715059e449b4d832fe",
+    "status": "leidend_voor_herijking_opdracht_2026-11-25",
+    "oorspronkelijk_bestand": "extern/Geactualisteerde Selectielijst 2012.pdf",
+    "oorspronkelijke_sha256": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
     "bestand_type": "bronbeschrijving_geen_brondocument",
     "inhoud_extern": true
   }

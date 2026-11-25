@@ -1,0 +1,65 @@
+[
+  {
+    "bestand": "bronherijking-afwijkingen.csv",
+    "rijen": 1818,
+    "kolommen": 11,
+    "maximale_cellengte": 2540,
+    "UTF8_BOM": true,
+    "puntkomma": true,
+    "CSV_verliesvrij_parsbaar": true
+  },
+  {
+    "bestand": "bronherijking-beoordeling.csv",
+    "rijen": 83,
+    "kolommen": 11,
+    "maximale_cellengte": 2540,
+    "UTF8_BOM": true,
+    "puntkomma": true,
+    "CSV_verliesvrij_parsbaar": true
+  },
+  {
+    "bestand": "bronherijking-correcties.csv",
+    "rijen": 4954,
+    "kolommen": 8,
+    "maximale_cellengte": 26137,
+    "UTF8_BOM": true,
+    "puntkomma": true,
+    "CSV_verliesvrij_parsbaar": true
+  },
+  {
+    "bestand": "bronherijking-inventarisatie.csv",
+    "rijen": 24112,
+    "kolommen": 14,
+    "maximale_cellengte": 26937,
+    "UTF8_BOM": true,
+    "puntkomma": true,
+    "CSV_verliesvrij_parsbaar": true
+  },
+  {
+    "bestand": "bronsegmentcontrole-1996-2012.csv",
+    "rijen": 1624,
+    "kolommen": 7,
+    "maximale_cellengte": 80,
+    "UTF8_BOM": true,
+    "puntkomma": true,
+    "CSV_verliesvrij_parsbaar": true
+  },
+  {
+    "bestand": "structuurcontrole.csv",
+    "rijen": 817,
+    "kolommen": 7,
+    "maximale_cellengte": 2509,
+    "UTF8_BOM": true,
+    "puntkomma": true,
+    "CSV_verliesvrij_parsbaar": true
+  },
+  {
+    "bestand": "zoekrelatiecontrole.csv",
+    "rijen": 4093,
+    "kolommen": 8,
+    "maximale_cellengte": 618,
+    "UTF8_BOM": true,
+    "puntkomma": true,
+    "CSV_verliesvrij_parsbaar": true
+  }
+]

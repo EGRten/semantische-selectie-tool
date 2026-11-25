@@ -3825,8 +3825,8 @@
   },
   {
     "id": "1996-2012:term:00154",
-    "zoekterm": "Gegevens, noodzakelijk voor het bepalen van de authenticiteit, de volledigheid, de context alsmede voor het beheer van op termijn te vernietigen archiefbescheiden metadata)",
-    "genormaliseerde_zoekterm": "gegevens, noodzakelijk voor het bepalen van de authenticiteit, de volledigheid, de context alsmede voor het beheer van op termijn te vernietigen archiefbescheiden metadata)",
+    "zoekterm": "Gegevens, noodzakelijk voor het bepalen van de authenticiteit, de volledigheid, de context alsmede voor het beheer van op termijn te vernietigen archiefbescheiden (metadata)",
+    "genormaliseerde_zoekterm": "gegevens, noodzakelijk voor het bepalen van de authenticiteit, de volledigheid, de context alsmede voor het beheer van op termijn te vernietigen archiefbescheiden (metadata)",
     "onderdeel_id": "1996-2012:2.11::003",
     "relatietype": "letterlijk_fragment",
     "herkomsttype": "officieel",
@@ -3835,7 +3835,7 @@
     "beoordelingsstatus": "brongetoetst",
     "risico_op_verwarring": "contextafhankelijk",
     "bron": {
-      "bron_id": "1996-2012-officieel",
+      "bron_id": "1996-2012-leidend-2026-11-25",
       "pdf_pagina": 23,
       "bbox": [
         235.43539428710938,
@@ -5235,8 +5235,8 @@
   },
   {
     "id": "1996-2012:term:00201",
-    "zoekterm": "Boekhoudkundige bescheiden, waaronder bijvoorbeeld grootboeken van inkomsten en uitgaven en andere bescheiden",
-    "genormaliseerde_zoekterm": "boekhoudkundige bescheiden, waaronder bijvoorbeeld grootboeken van inkomsten en uitgaven en andere bescheiden",
+    "zoekterm": "Boekhoudkundige bescheiden, waaronder bijvoorbeeld grootboeken van inkomsten en uitgaven en andere bescheiden (zie ook 2.10)",
+    "genormaliseerde_zoekterm": "boekhoudkundige bescheiden, waaronder bijvoorbeeld grootboeken van inkomsten en uitgaven en andere bescheiden (zie ook 2.10)",
     "onderdeel_id": "1996-2012:3.1.2::001",
     "relatietype": "letterlijk_fragment",
     "herkomsttype": "officieel",
@@ -5245,7 +5245,7 @@
     "beoordelingsstatus": "brongetoetst",
     "risico_op_verwarring": "contextafhankelijk",
     "bron": {
-      "bron_id": "1996-2012-officieel",
+      "bron_id": "1996-2012-leidend-2026-11-25",
       "pdf_pagina": 29,
       "bbox": [
         235.2095184326172,

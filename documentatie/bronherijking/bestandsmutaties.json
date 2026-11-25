@@ -1,0 +1,118 @@
+{
+  "datasets/1996-2012/bepalingen.json": {
+    "voor_sha256": "722dd40bade3b94fe8f02b2712bff2b9129214f618457c619ba70d272f0650c1",
+    "na_sha256": "6447354dc0b4e8497e11eb4b4d63b399a3f8865d5c012fd9b3383dd2b519baaf"
+  },
+  "datasets/2017/bepalingen.json": {
+    "voor_sha256": "b845acb1c6f4905d1b7f45f9e7034ff2cf294cfe0ff4286a1be36946cfe45df5",
+    "na_sha256": "ef0ecc5ea86f4a2e49c4df4dc5a0ee035965c95e165fac2a014ea0bac12d7a5b"
+  },
+  "datasets/2017/wijzigingen.json": {
+    "voor_sha256": "c768d79ff21ec18052cacb01c4883af92f3fc1217e4e27e40feebc10433e286e",
+    "na_sha256": "aa8a505fc76ac798b478fc6403be03f91b786bb44531d5a68d030e643e12e632"
+  },
+  "datasets/2020/bepalingen.json": {
+    "voor_sha256": "81ba7e7e6e9d50910390a2744e13fbda721c4573587669bae212c7088c0d688a",
+    "na_sha256": "2aa41b7c29e123c4127bc6f1cb0945a31409e6ab020e47ef50aaef1ae0b7d0fd"
+  },
+  "datasets/2020/wijzigingen.json": {
+    "voor_sha256": "a817f97558f05354d5c11ee2eddea089164ab4ca7f8c2c4d622b71aeacad81c1",
+    "na_sha256": "cff6d3d27d575107543ad637655f992c80294254bd6947e531feaa6099dd1fcd"
+  },
+  "datasets/1996-2012/rubriekcontext.json": {
+    "voor_sha256": "e3ab01120a95bce5762ade039a7793a4e0d59b5717e1f058c312624a07f66d27",
+    "na_sha256": "0078ca6f448f3a11fff6a2f2a11289ad8834f3ccc1098fb963c582f3284f836e"
+  },
+  "publicatie/concordans.json": {
+    "voor_sha256": "e1c21800b67662a6075100dc0d910c3cf8e7fa9767b0febb6ee4e7045f2560d1",
+    "na_sha256": "6a07ec737e654f7e718ce4ca5bb752f2b8494a1d5764197af4f0a0d4d22f2b46"
+  },
+  "bronnen/2017-opgemaakt.bron.json": {
+    "voor_sha256": "cb0c5a4ff25af5e6d1817c3193b3774be519018dc5c5b2c719dbe4b1f0bc1188",
+    "na_sha256": "d471d78a3c61b63e40513741fdb56cc6efd41a14340b17d7b8e3e34e1423336c"
+  },
+  "bronnen/2020-officieel.bron.json": {
+    "voor_sha256": "179366d022754f51fa34496ca88d7258776ece19e64fc05bdd8da26fe30e7a51",
+    "na_sha256": "0bc774774a2d65835c6e3d4f78261cd4921a7e5f169d28ddde0ca365f757ac65"
+  },
+  "datasets/1996-2012/structuur.json": {
+    "voor_sha256": "eee83556bcc5e567f020833c6f498b29bbf19be64be4a6489b3c1aaf95c8b1f6",
+    "na_sha256": "526e34ee8b42bb963b232aa2299d6e7942397f1bff3c57a6d4efd1ca4aeb76d8"
+  },
+  "datasets/1996-2012/structuur.csv": {
+    "voor_sha256": "f7aaf05b2c6ce94e110fc7c7587ce3fe5076caf451d926de308b51eae45eb3da",
+    "na_sha256": "2b798ca25703ad3cc3e9c5c3f49d15c71f04bc37a69f7c853da85141df83134f"
+  },
+  "datasets/1996-2012/selectiegegevens.json": {
+    "voor_sha256": "18bae451fcacdab7c28099c547c41c730022670346877a541dd30cb4f7c3ff61",
+    "na_sha256": "d9858e04b3ff9f4f70bc48c256e196f88cc3fb2ebd3fad5cb61c8f8726adf958"
+  },
+  "datasets/1996-2012/selectiegegevens.csv": {
+    "voor_sha256": "2a7e9eedcd8ccda7a1c35c03e7187d92b3fa1280855fec4ed29757dc8cba7d7b",
+    "na_sha256": "3100675a1bc1c1a6c64066b8b47dc96bfc96a78df9e914f6bf2e0029f165ffe0"
+  },
+  "datasets/1996-2012/zoeklexicon.json": {
+    "voor_sha256": "89b54258a45a67d0d82b2bea1738d75b9f90c7f97d4dcdc5837b4ba490a3eaed",
+    "na_sha256": "3382dbe287800df811269d36c047007c2613a794d1bb3f32ec2e472912c4c7ca"
+  },
+  "datasets/1996-2012/zoeklexicon.csv": {
+    "voor_sha256": "2a27683ea7daf389923a4c0c8a5780f936d44263a10c363de3c7f3758e5119c0",
+    "na_sha256": "f903aee32e4120e67d912a8c4fcaa07d1007d15b326191696061a9c42029252f"
+  },
+  "datasets/1996-2012/relaties.json": {
+    "voor_sha256": "416f7e03281a4bd993a805a55aa852f6d9d70fa881435f824df94a8461abf328",
+    "na_sha256": "87f11d3cbd45bdbbde5cecd55fb04135088a6f5aac95a3c2c1e037a58d6a6816"
+  },
+  "datasets/1996-2012/relaties.csv": {
+    "voor_sha256": "3fcf189a7c7b56555aa184dd7d2338584b91a5c7d18a1739a14c51680b9e9306",
+    "na_sha256": "00d4501d8928e89a965b1db9436f49c90a62d6e856d9da5f487966d969158f06"
+  },
+  "datasets/1996-2012/validatie.json": {
+    "voor_sha256": "bbbbc83530db592637cee93fb243e0ff7ceb45879cc6be2d1f8a7a57d1aa07ca",
+    "na_sha256": "59596ca33678aba5e321df326fd36fe9bf9dc0fba8af4145ce5601a5a722083b"
+  },
+  "datasets/1996-2012/manifest.json": {
+    "voor_sha256": "b817be162ac346a15682f84816378b7738ff09cd556c475fa797235b7c02f83c",
+    "na_sha256": "f9d26ff88da8f28fcdddbb9cf70e0eef31469e856deaf16cd0d759ff2429da6c"
+  },
+  "datasets/2017/selectiegegevens.json": {
+    "voor_sha256": "7d68a58f32b6b4a370e95fe43692f74855ab4c52689a1cd8f07cf8158d6fa57c",
+    "na_sha256": "c11ad8d50c278b6c4983dcf6eeffcdbfa201c8ce1dfaf6b3d268651dde1da919"
+  },
+  "datasets/2017/selectiegegevens.csv": {
+    "voor_sha256": "6d2bb0e5c69904b5f5a11a1fe53ba59fbb6d97b74486a8738f4eaf963d832795",
+    "na_sha256": "369e999a349cd9b36786e13de8bbd31e83ce17c00b507ea12931d85b5a531eca"
+  },
+  "datasets/2017/bronannotaties.json": {
+    "voor_sha256": "14e8fcbbd3a440e0f54d1865fb9ad3ee582cfcbe8e5509864c15885a6f21f967",
+    "na_sha256": "5e5fa374f242561e21e9c17428be5e4f796fad15b126a7ead6617d7e74a78ced"
+  },
+  "datasets/2017/validatie.json": {
+    "voor_sha256": "8e71bbf7c691f26ff7d44a573c2c4a6c771fe5bce847044f756ad714e0042779",
+    "na_sha256": "f1219548bf52af3bcefea176b8bf6a50340ae19a2b1685151912b0a11a2f8431"
+  },
+  "datasets/2017/manifest.json": {
+    "voor_sha256": "315d6a26c19d2640438ae233d532c70046e344e911935eac4b920afb159a8fa8",
+    "na_sha256": "13ad78b61ffac51197949ad56f6fbadc731afe997baea3e3eb99e04ab870f6b5"
+  },
+  "datasets/2020/validatie.json": {
+    "voor_sha256": "33c18a956738703e1298cdbcccc85b4b3c6976ae90f22c99ca81135c50f3747e",
+    "na_sha256": "f8729bbd9a70906818f9e880096da98c9e68edfabd881cd23d4c09f13cb3daf6"
+  },
+  "datasets/2020/manifest.json": {
+    "voor_sha256": "5fb3af61df4c9dfd799d64b1e0f3547c0fb4db64fe0046bb89e98d364a2ceaf0",
+    "na_sha256": "6449794afb9c92c6ebcd665767dc3e9ed18088ead34f1e75fdf429d1cfbb2829"
+  },
+  "documentatie/inhoudelijke-integriteit.json": {
+    "voor_sha256": "3088728a0095649fcbfe975f4628f8b492832d33ac616e5e1b69417c6560b6c7",
+    "na_sha256": "0005a73f592cf8af7c2078336a158059a835f0fafd1023104c9a777c32ef9c53"
+  },
+  "documentatie/bronannotaties.json": {
+    "voor_sha256": "ffc9e03d42b05be45cb89d006bc6a9f8e0e0f47bf04d36051d047aff0a8828b9",
+    "na_sha256": "33f40a2119647578f0dc7ec89049e7ee99a37ed6a9bd8c32531636511bcd55bc"
+  },
+  "documentatie/bronnenregister.json": {
+    "voor_sha256": "cf78daa80a8f5d46d4efb07e6b35e93f8f30a4e7b4f157e5141bc6cca8d8acae",
+    "na_sha256": "53b9ee1705fc9ba641d263b66b44d216992666b0b604524f0b7bab6e7910b68b"
+  }
+}

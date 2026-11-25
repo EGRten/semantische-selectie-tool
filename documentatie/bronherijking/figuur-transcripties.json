@@ -1,0 +1,7 @@
+{
+  "methode": "Visuele, letterlijke transcriptie van de twee rasterfiguren uit uitsluitend de aangewezen PDF's. Geen procesregels of selectierelaties uit het diagram afgeleid. Omslagafbeeldingen zijn decoratief; de omslagtekst zit in de PDF-tekstlaag.",
+  "figuren": [
+    {"selectielijst":"2017","pdf_pagina":18,"image_xref":42,"image_sha256":"87d16dc7b5bf05d67c17fdd2f6e41860da581d7c9795e41d64aac0a5ddbc09b8","tekst":"Hoofdlijnen (periodieke) proces hotspot-monitor\nEXPERTS\nSignaleren hotspots\nAdviseren selectie\nBesluiten\nPubliceren\nperiodiek herhalen"},
+    {"selectielijst":"2020","pdf_pagina":17,"image_xref":43,"image_sha256":"566cbe9d0dcb15443688d94db7c1bd5e1d69c2496280d79274778e0402c43d9a","tekst":"Hoofdlijnen (periodieke) proces hotspot-monitor\nEXPERTS\nSignaleren hotspots\nAdviseren selectie\nBesluiten\nPubliceren\nperiodiek herhalen"}
+  ]
+}
