@@ -12,7 +12,7 @@ gemeenschappelijke regeling, commissie, platform of eerste
 deelname hieraan",generiek_resultaat,6
 Opgeheven,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 26, ""bbox"": [29, 274.754, 1160, 319.589]}",1.3,2020:1.3,2020:1,"Onafhankelijke adviescommissie, nieuw gemeentelijk orgaan,
 gemeenschappelijke regeling, commissie, platform of beëindiging deelname hieraan",generiek_resultaat,7
-Niet doorge- gaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 26, ""bbox"": [29, 319.589, 1160, 364.424]}",1.4,2020:1.4,2020:1,,generiek_resultaat,8
+Niet doorgegaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 26, ""bbox"": [29, 319.589, 1160, 364.424]}",1.4,2020:1.4,2020:1,,generiek_resultaat,8
 Afgebroken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 26, ""bbox"": [29, 364.424, 1160, 409.259]}",1.5,2020:1.5,2020:1,,generiek_resultaat,9
 Beleid en regelgeving opstellen,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 26, ""bbox"": [29, 409.259, 1160, 466.094]}",2,2020:2,,"Wanneer een beleidsstuk betrekking heeft op een bepaalde
 afgebakende periode vormt het een beleidsplan en valt het
@@ -30,7 +30,7 @@ Algoritme met ingrijpend maatschappelijk effect en/of complexe structuur,"{""bro
 outputdata. Het betreft hier algoritmes die een gecompliceerd
 karakter hebben (waaronder experimentele of zelflerende
 algoritmes) en/of een potentieel ingrijpend effect voor betrokkenen in zich dragen.",specifiek_resultaat,13
-Niet doorge- gaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 26, ""bbox"": [29, 579.764, 1160, 636.594]}",2.2,2020:2.2,2020:2,,generiek_resultaat,14
+Niet doorgegaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 26, ""bbox"": [29, 579.764, 1160, 636.594]}",2.2,2020:2.2,2020:2,,generiek_resultaat,14
 Ingetrokken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 26, ""bbox"": [29, 636.594, 1160, 693.429]}",2.3,2020:2.3,2020:2,Dit gaat om processen op het gebied van bedrijfsvoering,generiek_resultaat,15
 Beleid met een externe werking,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 26, ""bbox"": [29, 693.429, 1160, 750.264]}",2.3.1,2020:2.3.1,2020:2.3,Dit gaat om beleid m.b.t. taakuitvoering,specifiek_resultaat,16
 Afgebroken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 26, ""bbox"": [29, 750.264, 1160, 805]}",2.4,2020:2.4,2020:2,,generiek_resultaat,17
@@ -39,13 +39,10 @@ algemene kaders die in beleidsstukken worden geschetst
 voor een afgebakende periode. Het orgaan stelt hiervoor
 een plan op",procestype,18
 Vastgesteld,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 27, ""bbox"": [29, 56.579, 1160, 83.414]}",3.1,2020:3.1,2020:3,"Dit gaat om processen op het gebied van bedrijfsvoering: b.v.
-persoonlijk ontwikkelingsplan, plan Wet Poortwachter, glad-
-heidsbestrijdingsplan, plan van aanpak re-integratie",generiek_resultaat,19
-Beleidsplan met externe werking,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 27, ""bbox"": [29, 83.414, 1160, 110.249]}",3.1.1,2020:3.1.1,2020:3.1,"Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouw-
-programma, (strategie)visies, exploitatieplan, gemeentelijke
+persoonlijk ontwikkelingsplan, plan Wet Poortwachter, gladheidsbestrijdingsplan, plan van aanpak re-integratie",generiek_resultaat,19
+Beleidsplan met externe werking,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 27, ""bbox"": [29, 83.414, 1160, 110.249]}",3.1.1,2020:3.1.1,2020:3.1,"Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouwprogramma, (strategie)visies, exploitatieplan, gemeentelijke
 rioleringsplan",specifiek_resultaat,20
-Beheerplan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 27, ""bbox"": [29, 110.249, 1160, 137.084]}",3.1.2,2020:3.1.2,2020:3.1,"Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegen-
-beheerplan",specifiek_resultaat,21
+Beheerplan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 27, ""bbox"": [29, 110.249, 1160, 137.084]}",3.1.2,2020:3.1.2,2020:3.1,"Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegenbeheerplan",specifiek_resultaat,21
 Rampen(bestrijdings)plan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 27, ""bbox"": [29, 137.084, 1160, 163.919]}",3.1.3,2020:3.1.3,2020:3.1,,specifiek_resultaat,22
 Plan van aanpak jeugdhulp cliënt,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 27, ""bbox"": [29, 163.919, 1160, 202.754]}",3.1.4,2020:3.1.4,2020:3.1,"of zoveel langer als redelijkerwijs uit de zorg van een goed
 jeugdhulpverlener voortvloeit.
@@ -96,10 +93,8 @@ dat geval is het procestype ‘Voorzieningen verstrekken’ van
 toepassing. Het product of de dienst houdt niet het doen of
 laten van het orgaan in, want in dat geval valt het onder het
 procestype ‘Verzoeken behandelen’.",procestype,50
-Geleverd,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 77.414, 1160, 116.249]}",5.1,2020:5.1,2020:5,"Stadspas, reclamesticker, bewegwijzering, kiezerspas, certifi-
-caat van (vrijstelling tot) sanitaire controle van een schip",generiek_resultaat,51
-Product of dienst met financiële consequenties,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 116.249, 1160, 155.084]}",5.1.1,2020:5.1.1,2020:5.1,"Afvalinzameling, afvalcontainer, rioolaansluiting, ambulan-
-cevervoer",specifiek_resultaat,52
+Geleverd,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 77.414, 1160, 116.249]}",5.1,2020:5.1,2020:5,"Stadspas, reclamesticker, bewegwijzering, kiezerspas, certificaat van (vrijstelling tot) sanitaire controle van een schip",generiek_resultaat,51
+Product of dienst met financiële consequenties,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 116.249, 1160, 155.084]}",5.1.1,2020:5.1.1,2020:5.1,"Afvalinzameling, afvalcontainer, rioolaansluiting, ambulancevervoer",specifiek_resultaat,52
 Gegevens uit de BRP,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 155.084, 1160, 193.919]}",5.1.2,2020:5.1.2,2020:5.1,"Het behandelen een verzoek op grond van het inzagerecht
 valt hier ook onder.",specifiek_resultaat,53
 Bescheiden afkomstig van de Nederlandse burgerlijke stand,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 193.919, 1160, 232.754]}",5.1.3,2020:5.1.3,2020:5.1,"Verzoeken van bewoners om eigen gegevens, uittreksels",specifiek_resultaat,54
@@ -108,8 +103,7 @@ Reisdocument of identiteitsbewijs geldig voor 5 jaar of korter,"{""bron_id"": ""
 Rijbewijs,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 322.424, 1160, 361.259]}",5.1.6,2020:5.1.6,2020:5.1,,specifiek_resultaat,57
 Vaccinatie,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 361.259, 1160, 400.094]}",5.1.7,2020:5.1.7,2020:5.1,"of zoveel langer als redelijkerwijs uit de zorg van een goed
 hulpverlener voortvloeit",specifiek_resultaat,58
-BCG-vaccinatie tegen tbc,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 400.094, 1160, 438.929]}",5.1.8,2020:5.1.8,2020:5.1,"Bewaartermijn loopt vanaf de geboortedatum van de gevac-
-cineerde",specifiek_resultaat,59
+BCG-vaccinatie tegen tbc,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 400.094, 1160, 438.929]}",5.1.8,2020:5.1.8,2020:5.1,Bewaartermijn loopt vanaf de geboortedatum van de gevaccineerde,specifiek_resultaat,59
 Ingetrokken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 438.929, 1160, 477.76]}",5.2,2020:5.2,2020:5,vermist of gestolen rijbewijs,generiek_resultaat,60
 Reisdocument,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 477.76, 1160, 528.595]}",5.2.1,2020:5.2.1,2020:5.2,,specifiek_resultaat,61
 Afstandsverklaring rijbewijs,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 28, ""bbox"": [29, 528.595, 1160, 567.43]}",5.2.2,2020:5.2.2,2020:5.2,,specifiek_resultaat,62
@@ -165,7 +159,7 @@ Bezit buitenlands reisdocument,"{""bron_id"": ""2020-officieel"", ""pdf_pagina""
 Gegevens over het gezag over een minderjarige,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 30, ""bbox"": [29, 468.595, 1160, 495.43]}",7.1.13,2020:7.1.13,2020:7.1,o.a. kennisgevingen uit het curateleregister of gezagsregister,specifiek_resultaat,101
 Probas-melding,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 30, ""bbox"": [29, 495.43, 1160, 522.265]}",7.1.14,2020:7.1.14,2020:7.1,Melding betreffende de ‘protocollaire basisadministratie’,specifiek_resultaat,102
 Beoordeling brondocumenten BRP,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 30, ""bbox"": [29, 522.265, 1160, 549.1]}",7.1.15,2020:7.1.15,2020:7.1,,specifiek_resultaat,103
-Briefadres omzet- ting BRP,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 30, ""bbox"": [29, 549.1, 1160, 575.935]}",7.1.16,2020:7.1.16,2020:7.1,,specifiek_resultaat,104
+Briefadres omzetting BRP,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 30, ""bbox"": [29, 549.1, 1160, 575.935]}",7.1.16,2020:7.1.16,2020:7.1,,specifiek_resultaat,104
 Wijzing van Nederlands kiesrecht,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 30, ""bbox"": [29, 575.935, 1160, 602.77]}",7.1.17,2020:7.1.17,2020:7.1,,specifiek_resultaat,105
 Wijzing van Europees kiesrecht,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 30, ""bbox"": [29, 602.77, 1160, 629.605]}",7.1.18,2020:7.1.18,2020:7.1,,specifiek_resultaat,106
 "Bezit, verkrijging, verlening en verlies van (bijzonder) Nederlanderschap of een niet-Nederlandse nationaliteit","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 30, ""bbox"": [29, 629.605, 1160, 662.44]}",7.1.19,2020:7.1.19,2020:7.1,,specifiek_resultaat,107
@@ -181,8 +175,7 @@ Voorzieningen verstrekken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31,
 te bevinden en wanneer het orgaan wordt verzocht om iets te
 doen of te laten, is het procestype ‘Verzoek behandelen’ van
 toepassing. Indien beiden niet van toepassing zijn, is het procestype ‘Producten en diensten leveren’ van toepassing.",procestype,115
-Verstrekt,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 110.249, 1160, 143.084]}",8.1,2020:8.1,2020:8,"Uitkering of inkomensvoorziening, inburgeringstraject, duur-
-zaamheidslening, krediethypotheek.",generiek_resultaat,116
+Verstrekt,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 110.249, 1160, 143.084]}",8.1,2020:8.1,2020:8,"Uitkering of inkomensvoorziening, inburgeringstraject, duurzaamheidslening, krediethypotheek.",generiek_resultaat,116
 WMO voorziening,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 143.084, 1160, 187.919]}",8.1.1,2020:8.1.1,2020:8.1,"of zoveel langer als redelijkerwijs in verband met een zorgvuldige uitvoering van hun taken op grond van deze wet noodzakelijk is. Vernietigen binnen drie maanden na ontvangst van
 een strekkend verzoek van de betrokkene, mits geen aanmerkelijk belang van een derde of wetgeving zich daartegen verzet.",specifiek_resultaat,117
 Individuele jeugdhulp voorziening,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 187.919, 1160, 220.754]}",8.1.2,2020:8.1.2,2020:8.1,"of zoveel langer als redelijkerwijs uit de zorg van een goed
@@ -195,16 +188,16 @@ Vergoeding huisvesting school,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"":
 Overige financiële voorziening school,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 286.424, 1160, 319.259]}",8.1.5,2020:8.1.5,2020:8.1,,specifiek_resultaat,121
 Starterslening,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 319.259, 1160, 352.094]}",8.1.6,2020:8.1.6,2020:8.1,,specifiek_resultaat,122
 Subsidie,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 352.094, 1160, 384.929]}",8.1.7,2020:8.1.7,2020:8.1,,specifiek_resultaat,123
-Subsidie zonder verant- woordingsplicht,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 384.929, 1160, 417.764]}",8.1.8,2020:8.1.8,2020:8.1,,specifiek_resultaat,124
+Subsidie zonder verantwoordingsplicht,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 384.929, 1160, 417.764]}",8.1.8,2020:8.1.8,2020:8.1,,specifiek_resultaat,124
 Schuldhulpverlening,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 417.764, 1160, 450.595]}",8.1.9,2020:8.1.9,2020:8.1,,specifiek_resultaat,125
-Huisvesting van sta- tushouder,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 450.595, 1160, 483.43]}",8.1.10,2020:8.1.10,2020:8.1,,specifiek_resultaat,126
+Huisvesting van statushouder,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 450.595, 1160, 483.43]}",8.1.10,2020:8.1.10,2020:8.1,,specifiek_resultaat,126
 Geneeskundige behandeling,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 483.43, 1160, 516.265]}",8.1.11,2020:8.1.11,2020:8.1,"of zoveel langer als redelijkerwijs uit de zorg van een goed
 hulpverlener voortvloeit",specifiek_resultaat,127
 Jeugdgezondheidszorg,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 516.265, 1160, 549.1]}",8.1.12,2020:8.1.12,2020:8.1,"of zoveel langer als redelijkerwijs uit de zorg van een goed
 hulpverlener voortvloeit.",specifiek_resultaat,128
 Gezondheidszorg bij calamiteiten,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 549.1, 1160, 581.935]}",8.1.13,2020:8.1.13,2020:8.1,"of zoveel langer als redelijkerwijs uit de zorg van een goed
 hulpverlener voortvloeit.",specifiek_resultaat,129
-Gehandicaptenpar- keerkaart,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 581.935, 1160, 614.77]}",8.1.14,2020:8.1.14,2020:8.1,,specifiek_resultaat,130
+Gehandicaptenparkeerkaart,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 581.935, 1160, 614.77]}",8.1.14,2020:8.1.14,2020:8.1,,specifiek_resultaat,130
 Primair of voortgezet onderwijs,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 31, ""bbox"": [29, 614.77, 1160, 647.605]}",8.1.15,2020:8.1.15,2020:8.1,"Het gaat hierbij om een voorziening voor het volgen van primair
 of voortgezet onderwijs door een jongere en de in het kader
 hiervan door een school gevoerde administratie.",specifiek_resultaat,131
@@ -226,8 +219,7 @@ Status toekennen,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox""
 persoon (een externe of een personeelslid) in een speciale
 functie te benoemen of door hem te mandateren, wordt hem
 een speciale bevoegdheden toegekend.",procestype,141
-Generiek resultaat,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 220.754, 1160, 253.589]}",9.1,2020:9.1,2020:9,"Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulp-
-verlening, vertrouwenspersoon, Buitengewoon ambtenaar
+Generiek resultaat,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 220.754, 1160, 253.589]}",9.1,2020:9.1,2020:9,"Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulpverlening, vertrouwenspersoon, Buitengewoon ambtenaar
 van de burgerlijke stand, gemeentelijke vertegenwoordiger,
 WKPB-registratie",generiek_resultaat,142
 Tijdelijke status,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 253.589, 1160, 286.424]}",9.1.1,2020:9.1.1,2020:9.1,"Tijdelijke verkeersmaatregel, eenmalige Babs",specifiek_resultaat,143
@@ -236,11 +228,11 @@ standplaats, ligplaats, monument",specifiek_resultaat,144
 Bestemmingsplan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 349.259, 1160, 382.094]}",9.1.3,2020:9.1.3,2020:9.1,,specifiek_resultaat,145
 Delegatie en mandatering,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 382.094, 1160, 414.929]}",9.1.4,2020:9.1.4,2020:9.1,,specifiek_resultaat,146
 Herwaardering WOZ,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 414.929, 1160, 447.764]}",9.1.5,2020:9.1.5,2020:9.1,Een WOZ-gegeven moet 12 jaar bewaard blijven in de Basisregistratie WOZ t.b.v. de Waarderingskamer,specifiek_resultaat,147
-Afspraken omtrent binnengemeentelijke verstrekking van BRP- gegevens,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 447.764, 1160, 480.594]}",9.1.6,2020:9.1.6,2020:9.1,,specifiek_resultaat,148
+Afspraken omtrent binnengemeentelijke verstrekking van BRP-gegevens,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 447.764, 1160, 480.594]}",9.1.6,2020:9.1.6,2020:9.1,,specifiek_resultaat,148
 Indeling stemdistricten/ kieskringen en stembureaus,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 480.594, 1160, 513.429]}",9.1.7,2020:9.1.7,2020:9.1,,specifiek_resultaat,149
 Permanente trouwlocatie,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 513.429, 1160, 546.264]}",9.1.8,2020:9.1.8,2020:9.1,,specifiek_resultaat,150
 "Gemeentegrens, wijken en woongebieden","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 546.264, 1160, 579.099]}",9.1.9,2020:9.1.9,2020:9.1,,specifiek_resultaat,151
-Beheersverordening Wro en buitentoepassingsver- klaring daarvan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 579.099, 1160, 611.934]}",9.1.10,2020:9.1.10,2020:9.1,,specifiek_resultaat,152
+Beheersverordening Wro en buitentoepassingsverklaring daarvan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 579.099, 1160, 611.934]}",9.1.10,2020:9.1.10,2020:9.1,,specifiek_resultaat,152
 Aanwijzing ambtenaar voor afnemen verklaring onder eed of belofte i.h.k.v. de BRP,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 611.934, 1160, 644.769]}",9.1.11,2020:9.1.11,2020:9.1,,specifiek_resultaat,153
 Instelling markt,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 644.769, 1160, 677.604]}",9.1.12,2020:9.1.12,2020:9.1,,specifiek_resultaat,154
 Ingestelde Bedrijfsbrandweer,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 32, ""bbox"": [29, 677.604, 1160, 710.439]}",9.1.13,2020:9.1.13,2020:9.1,,specifiek_resultaat,155
@@ -263,21 +255,20 @@ Toestemming verlenen,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bb
 Verleend,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 390.929, 1160, 417.764]}",11.1,2020:11.1,2020:11,"Lozing afvalwater, drank en horeca, grafbedekking, grafuitgifte,
 doorlopende collectevergunning, rioolaansluiting, gedoogbeschikking, omgevingsvergunning alarminstallatie, uitrit, aanleg
 kabels en leidingen",generiek_resultaat,171
-Toestemming voor een kortdurende activiteit of gebeurtenis,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 417.764, 1160, 438.599]}",11.1.1,2020:11.1.1,2020:11.1,"Evenementenmelding, verlof tot begraven of opgraven, vakan-
-tietoestemming uitkeringsgerechtigde",specifiek_resultaat,172
+Toestemming voor een kortdurende activiteit of gebeurtenis,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 417.764, 1160, 438.599]}",11.1.1,2020:11.1.1,2020:11.1,"Evenementenmelding, verlof tot begraven of opgraven, vakantietoestemming uitkeringsgerechtigde",specifiek_resultaat,172
 Toestemming voor een afgebakende periode,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 438.599, 1160, 465.434]}",11.1.2,2020:11.1.2,2020:11.1,"Eenmalige collectevergunning, ontheffing verbod storten afval,
 ontheffing verkeersbesluit/- maatregel, stookontheffing, extra
 verlof leerplicht",specifiek_resultaat,173
-"Melding activiteitenbesluit Milieubeheer of 8.40 Wet Milieubeheer, sloop- melding","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 465.434, 1160, 492.269]}",11.1.3,2020:11.1.3,2020:11.1,,specifiek_resultaat,174
+"Melding activiteitenbesluit Milieubeheer of 8.40 Wet Milieubeheer, sloopmelding","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 465.434, 1160, 492.269]}",11.1.3,2020:11.1.3,2020:11.1,,specifiek_resultaat,174
 Melding toepassen bouwstoffen,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 492.269, 1160, 513.099]}",11.1.4,2020:11.1.4,2020:11.1,,specifiek_resultaat,175
 Toestemming met brondocumenten BAG,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 513.099, 1160, 581.934]}",11.1.5,2020:11.1.5,2020:11.1,"Woningsplitsing, woonruimteontttrekking",specifiek_resultaat,176
-"Omgevingsvergunning voor activiteit milieu, bouw, sloop, monument, handelsreclame en strij- dig gebruik en/of aanleg","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 581.934, 1160, 614.769]}",11.1.6,2020:11.1.6,2020:11.1,,specifiek_resultaat,177
-"Toestemming voor peuterspeelzaal, kinder- opvang en gastouders","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 614.769, 1160, 635.604]}",11.1.7,2020:11.1.7,2020:11.1,,specifiek_resultaat,178
+"Omgevingsvergunning voor activiteit milieu, bouw, sloop, monument, handelsreclame en strijdig gebruik en/of aanleg","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 581.934, 1160, 614.769]}",11.1.6,2020:11.1.6,2020:11.1,,specifiek_resultaat,177
+"Toestemming voor peuterspeelzaal, kinderopvang en gastouders","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 614.769, 1160, 635.604]}",11.1.7,2020:11.1.7,2020:11.1,,specifiek_resultaat,178
 Ontheffing leerplicht,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 635.604, 1160, 668.439]}",11.1.8,2020:11.1.8,2020:11.1,De leerplicht geldt tot en met 16 jaar. Daar is de termijn op basis van het Vrijstellingsbesluit (2 jaar) bij opgeteld. De bewaartermijn loopt vanaf de geboortedatum van de leerling.,specifiek_resultaat,179
 Ontheffing kwalificatieplicht,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 668.439, 1160, 701.274]}",11.1.9,2020:11.1.9,2020:11.1,"Kwalificatieplicht geldt tussen de leeftijden van 16 en 18
 jaar. De bewaartermijn loopt vanaf de geboortedatum van
 de leerling.",specifiek_resultaat,180
-Ontheffing verhoging grenswaarde geluids- hinder,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 701.274, 1160, 722.109]}",11.1.10,2020:11.1.10,2020:11.1,,specifiek_resultaat,181
+Ontheffing verhoging grenswaarde geluidshinder,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 701.274, 1160, 722.109]}",11.1.10,2020:11.1.10,2020:11.1,,specifiek_resultaat,181
 "Bodemonderzoek, archeologisch onderzoek of milieueffectrapportage van de gemeente of van een derde","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 722.109, 1160, 760.944]}",11.1.11,2020:11.1.11,2020:11.1,"Het gaat om een bodemonderzoek, archeologisch onderzoek,
 of milieueffectrapportage die wordt ontvangen ter beoordeling
 (dus niet als onderdeel van een andere werkproces). Een
@@ -287,7 +278,7 @@ van de herplantplicht. De herplantplicht kan worden opgelegd
 voor een termijn variërend tussen 1 en 6 jaar.",specifiek_resultaat,183
 Financiële stukken van externe organen,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 33, ""bbox"": [29, 781.779, 1160, 805]}",11.1.13,2020:11.1.13,2020:11.1,,specifiek_resultaat,184
 Toelating leerling tot school,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 56.579, 1160, 83.414]}",11.1.14,2020:11.1.14,2020:11.1,,specifiek_resultaat,185
-Vergunning leeg- standswet,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 83.414, 1160, 104.249]}",11.1.15,2020:11.1.15,2020:11.1,,specifiek_resultaat,186
+Vergunning leegstandswet,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 83.414, 1160, 104.249]}",11.1.15,2020:11.1.15,2020:11.1,,specifiek_resultaat,186
 Sanering tanks,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 104.249, 1160, 125.084]}",11.1.16,2020:11.1.16,2020:11.1,,specifiek_resultaat,187
 Gesloten bodemsysteem,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 125.084, 1160, 145.919]}",11.1.17,2020:11.1.17,2020:11.1,,specifiek_resultaat,188
 Geweigerd,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 145.919, 1160, 172.754]}",11.2,2020:11.2,2020:11,,generiek_resultaat,189
@@ -309,7 +300,7 @@ noodzakelijk is",specifiek_resultaat,198
 Leerplicht,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 477.429, 1160, 510.264]}",12.1.3,2020:12.1.3,2020:12.1,"De bewaartermijn loopt vanaf de geboortedatum van de
 leerling.",specifiek_resultaat,199
 Kwalificatieplicht,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 510.264, 1160, 543.099]}",12.1.4,2020:12.1.4,2020:12.1,Dit termijn geldt na einde van het toezicht,specifiek_resultaat,200
-Financieel en contractu- eel toezicht,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 543.099, 1160, 575.934]}",12.1.5,2020:12.1.5,2020:12.1,,specifiek_resultaat,201
+Financieel en contractueel toezicht,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 543.099, 1160, 575.934]}",12.1.5,2020:12.1.5,2020:12.1,,specifiek_resultaat,201
 Onderzoek i.h.k.v. de BRP,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 575.934, 1160, 608.769]}",12.1.6,2020:12.1.6,2020:12.1,"Adresonderzoek, reconstructie gezag minderjarige",specifiek_resultaat,202
 Integriteitsonderzoek,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 608.769, 1160, 641.604]}",12.1.7,2020:12.1.7,2020:12.1,,specifiek_resultaat,203
 "Gegevens over toegangscontrole, bezoekersregistratie","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 34, ""bbox"": [29, 641.604, 1160, 674.439]}",12.1.8,2020:12.1.8,2020:12.1,,specifiek_resultaat,204
@@ -353,14 +344,13 @@ Civieltechnisch werk,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 35, ""bb
 (vaar)Weg,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 35, ""bbox"": [29, 736.945, 1160, 757.78]}",14.1.2,2020:14.1.2,2020:14.1,,specifiek_resultaat,232
 Gedenkteken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 35, ""bbox"": [29, 757.78, 1160, 778.615]}",14.1.3,2020:14.1.3,2020:14.1,,specifiek_resultaat,233
 Bouw- en woonrijpmaken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 35, ""bbox"": [29, 778.615, 1160, 805]}",14.1.4,2020:14.1.4,2020:14.1,,specifiek_resultaat,234
-Gebouw en/of accom- modatie,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 56.579, 1160, 77.414]}",14.1.5,2020:14.1.5,2020:14.1,,specifiek_resultaat,235
+Gebouw en/of accommodatie,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 56.579, 1160, 77.414]}",14.1.5,2020:14.1.5,2020:14.1,,specifiek_resultaat,235
 Kunstobject in de openbare ruimte,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 77.414, 1160, 98.249]}",14.1.6,2020:14.1.6,2020:14.1,,specifiek_resultaat,236
-Aanwijzing- en/of waar- schuwingsteken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 98.249, 1160, 119.084]}",14.1.7,2020:14.1.7,2020:14.1,,specifiek_resultaat,237
+Aanwijzing- en/of waarschuwingsteken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 98.249, 1160, 119.084]}",14.1.7,2020:14.1.7,2020:14.1,,specifiek_resultaat,237
 Niet uitgevoerd,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 119.084, 1160, 139.919]}",14.2,2020:14.2,2020:14,,generiek_resultaat,238
 Afgebroken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 139.919, 1160, 160.754]}",14.3,2020:14.3,2020:14,,generiek_resultaat,239
 Onderhouden en repareren,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 160.754, 1160, 181.589]}",15,2020:15,,,procestype,240
-Uitgevoerd,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 160.754, 1160, 181.589]}",15.1,2020:15.1,2020:15,"Jaarlijks onderhoud, reparatie, grafruiming, automatiseringspro-
-gramma, BRP foutmelding, melding openbare ruimte",generiek_resultaat,241
+Uitgevoerd,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 160.754, 1160, 181.589]}",15.1,2020:15.1,2020:15,"Jaarlijks onderhoud, reparatie, grafruiming, automatiseringsprogramma, BRP foutmelding, melding openbare ruimte",generiek_resultaat,241
 Onderhoud met gevolgen voor het verdere beheer van het procesobject,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 181.589, 1160, 202.424]}",15.1.1,2020:15.1.1,2020:15.1,"Het uitgevoerde onderhoud en bijvoorbeeld de hierbij gebruikte
 materialen kan relevant zijn voor het verdere beheer van
 het object.",specifiek_resultaat,242
@@ -372,18 +362,17 @@ Afgebroken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29,
 Overeenkomsten aangaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 312.599, 1160, 333.434]}",16,2020:16,,"Door overeenkomsten te sluiten kan het orgaan zorgen voor
 de uitvoering van haar taken, het voorzien in haar behoeften
 en voor het zekerstellen van haar positie.",procestype,248
-Aangegaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 312.599, 1160, 333.434]}",16.1,2020:16.1,2020:16,"Garantstelling, inkoopovereenkomst, huur, pacht, ingebruikge-
-ving, verkoop roerend goed, lening",generiek_resultaat,249
-Inkoopovereenkomst zonder contract of garan- tiebepalingen,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 333.434, 1160, 366.269]}",16.1.1,2020:16.1.1,2020:16.1,Inkoop van materialen,specifiek_resultaat,250
-Samenwerkingsovereen- komst ten behoeve van de taakuitoefening van het orgaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 366.269, 1160, 393.104]}",16.1.2,2020:16.1.2,2020:16.1,,specifiek_resultaat,251
+Aangegaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 312.599, 1160, 333.434]}",16.1,2020:16.1,2020:16,"Garantstelling, inkoopovereenkomst, huur, pacht, ingebruikgeving, verkoop roerend goed, lening",generiek_resultaat,249
+Inkoopovereenkomst zonder contract of garantiebepalingen,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 333.434, 1160, 366.269]}",16.1.1,2020:16.1.1,2020:16.1,Inkoop van materialen,specifiek_resultaat,250
+Samenwerkingsovereenkomst ten behoeve van de taakuitoefening van het orgaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 366.269, 1160, 393.104]}",16.1.2,2020:16.1.2,2020:16.1,,specifiek_resultaat,251
 Stedenband of jumelage,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 393.104, 1160, 419.933]}",16.1.3,2020:16.1.3,2020:16.1,,specifiek_resultaat,252
-"Overdracht van onroerend goed, schenkings- overeenkomst","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 419.933, 1160, 440.768]}",16.1.4,2020:16.1.4,2020:16.1,"Koop, verkoop, ruiling, onteigening, verjaring",specifiek_resultaat,253
+"Overdracht van onroerend goed, schenkingsovereenkomst","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 419.933, 1160, 440.768]}",16.1.4,2020:16.1.4,2020:16.1,"Koop, verkoop, ruiling, onteigening, verjaring",specifiek_resultaat,253
 Verzekering,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 440.768, 1160, 467.603]}",16.1.5,2020:16.1.5,2020:16.1,,specifiek_resultaat,254
-Niet doorge- gaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 467.603, 1160, 494.438]}",16.2,2020:16.2,2020:16,,generiek_resultaat,255
+Niet doorgegaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 467.603, 1160, 494.438]}",16.2,2020:16.2,2020:16,,generiek_resultaat,255
 Inkoopovereenkomst,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 494.438, 1160, 515.273]}",16.2.1,2020:16.2.1,2020:16.2,,specifiek_resultaat,256
 Aanbesteding vallend onder Europees recht,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 515.273, 1160, 548.108]}",16.2.2,2020:16.2.2,2020:16.2,,specifiek_resultaat,257
 Beëindigd,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 548.108, 1160, 568.943]}",16.3,2020:16.3,2020:16,,generiek_resultaat,258
-Samenwerkingsovereen- komst ten behoeve van de taakuitoefening van het orgaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 568.943, 1160, 595.778]}",16.3.1,2020:16.3.1,2020:16.3,,specifiek_resultaat,259
+Samenwerkingsovereenkomst ten behoeve van de taakuitoefening van het orgaan,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 568.943, 1160, 595.778]}",16.3.1,2020:16.3.1,2020:16.3,,specifiek_resultaat,259
 Stedenband of jumelage,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 595.778, 1160, 622.613]}",16.3.2,2020:16.3.2,2020:16.3,,specifiek_resultaat,260
 Afgebroken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 622.613, 1160, 649.448]}",16.4,2020:16.4,2020:16,,generiek_resultaat,261
 Personen aanstellen,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 649.448, 1160, 670.283]}",17,2020:17,,"Het kan hierbij zowel om het aanstellen van een eigen personeelslid gaan, als om het benoemen van een persoon in een
@@ -394,8 +383,7 @@ Lid onafhankelijke commissie,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 
 Niet aangesteld,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 723.953, 1160, 750.788]}",17.2,2020:17.2,2020:17,,generiek_resultaat,266
 Afgewezen (open) sollicitatie,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 750.788, 1160, 771.623]}",17.2.1,2020:17.2.1,2020:17.2,,specifiek_resultaat,267
 Afgewezen (open) sollicitatie met toestemming tot bewaren,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 36, ""bbox"": [29, 771.623, 1160, 805]}",17.2.2,2020:17.2.2,2020:17.2,,specifiek_resultaat,268
-Gewijzigd,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 56.579, 1160, 83.414]}",17.3,2020:17.3,2020:17,"Functiewijziging, wijziging betrekking, functieschaal, loontoe-
-slag, detachering",generiek_resultaat,269
+Gewijzigd,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 56.579, 1160, 83.414]}",17.3,2020:17.3,2020:17,"Functiewijziging, wijziging betrekking, functieschaal, loontoeslag, detachering",generiek_resultaat,269
 "Bestuurder, raadslid of burgerraadslid","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 83.414, 1160, 110.249]}",17.3.1,2020:17.3.1,2020:17.3,,specifiek_resultaat,270
 Niet gewijzigd,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 110.249, 1160, 137.084]}",17.4,2020:17.4,2020:17,,generiek_resultaat,271
 Beëindigd,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 137.084, 1160, 157.919]}",17.5,2020:17.5,2020:17,Dienstverband personeelslid,generiek_resultaat,272
@@ -414,8 +402,7 @@ Afgebroken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29,
 Secretariaat voeren en gegevens administreren / verwerken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 444.269, 1160, 471.104]}",19,2020:19,,"Dit procestype geldt eveneens voor de verslaglegging van
 overleg op verschillende niveaus. Zie voor een overzicht van
 blijvend te bewaren registers waarvoor het orgaan verantwoordelijk is bijlage 4.",procestype,284
-Verwerkt,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 444.269, 1160, 471.104]}",19.1,2020:19.1,2020:19,"Gegevens verwerken, watervergunning/-melding, beslag-
-legging, (overige) hulpadministraties zonder financiele
+Verwerkt,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 444.269, 1160, 471.104]}",19.1,2020:19.1,2020:19,"Gegevens verwerken, watervergunning/-melding, beslaglegging, (overige) hulpadministraties zonder financiele
 consequenties",generiek_resultaat,285
 Gegevens met financiële consequenties,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 471.104, 1160, 503.933]}",19.1.1,2020:19.1.1,2020:19.1,"Financiële administratie incl. uitkeringsgerechtigden, (overige)
 hulpadministraties met  financiele consequenties",specifiek_resultaat,286
@@ -423,7 +410,7 @@ Agenda bestuurder,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"
 tot langere bewaring (9 jaar) o.b.v. Wet op de omzetbelasting
 1968 art. 34a",specifiek_resultaat,287
 Uitkeringen van de Rijksoverheid,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 536.768, 1160, 563.603]}",19.1.3,2020:19.1.3,2020:19.1,Gemeentefonds,specifiek_resultaat,288
-Gegevens verwerkt in registers en basisadmi- nistraties zoals benoemd in bijlage 4,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 563.603, 1160, 590.438]}",19.1.4,2020:19.1.4,2020:19.1,,specifiek_resultaat,289
+Gegevens verwerkt in registers en basisadministraties zoals benoemd in bijlage 4,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 563.603, 1160, 590.438]}",19.1.4,2020:19.1.4,2020:19.1,,specifiek_resultaat,289
 Registratie van politieke partij,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 590.438, 1160, 617.273]}",19.1.5,2020:19.1.5,2020:19.1,,specifiek_resultaat,290
 "Agenda, verslag, opnames en besluitenlijst van bestuurlijke besluitvorming","{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 37, ""bbox"": [29, 617.273, 1160, 644.108]}",19.1.6,2020:19.1.6,2020:19.1,"Raad, B&W, besluitvormend bestuurlijk overleg waarvan het
 orgaan het secretariaat voert. Indien geluids- en/of beeldopnames zijn gemaakt dienen die, naast de verslagen, ook
@@ -456,10 +443,10 @@ verzekering",generiek_resultaat,314
 Publicatie met historisch belang,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 533.935, 1160, 554.77]}",20.1.1,2020:20.1.1,2020:20.1,Gemeentegids,specifiek_resultaat,315
 onlinecontent ten behoeve van externe communicatie,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 554.77, 1160, 575.605]}",20.1.2,2020:20.1.2,2020:20.1,Website,specifiek_resultaat,316
 Dienstverleningsaanbod,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 575.605, 1160, 596.44]}",20.1.3,2020:20.1.3,2020:20.1,,specifiek_resultaat,317
-Gegevens over woning- statistiek,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 596.44, 1160, 617.275]}",20.1.4,2020:20.1.4,2020:20.1,,specifiek_resultaat,318
+Gegevens over woningstatistiek,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 596.44, 1160, 617.275]}",20.1.4,2020:20.1.4,2020:20.1,,specifiek_resultaat,318
 Intern rapport,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 617.275, 1160, 638.11]}",20.1.5,2020:20.1.5,2020:20.1,Periodieke interne rapportage,specifiek_resultaat,319
 Sociaal maatschappelijk of economisch onderzoek,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 638.11, 1160, 658.945]}",20.1.6,2020:20.1.6,2020:20.1,,specifiek_resultaat,320
-Proactief beschikbaarge- stelde (open) datasets,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 658.945, 1160, 679.78]}",20.1.7,2020:20.1.7,2020:20.1,,specifiek_resultaat,321
+Proactief beschikbaargestelde (open) datasets,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 658.945, 1160, 679.78]}",20.1.7,2020:20.1.7,2020:20.1,,specifiek_resultaat,321
 Afgebroken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 679.78, 1160, 700.615]}",20.2,2020:20.2,2020:20,,generiek_resultaat,322
 Adviseren,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 700.615, 1160, 715.45]}",21,2020:21,,,procestype,323
 Verstrekt,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 38, ""bbox"": [29, 700.615, 1160, 715.45]}",21.1,2020:21.1,2020:21,,generiek_resultaat,324
@@ -476,8 +463,7 @@ Afgehandeld,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29
 interne opleiding, activiteit jumelage/stedenverband",generiek_resultaat,331
 Plaatselijke plechtigheid en/of herdenking,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 113.084, 1160, 139.919]}",22.1.1,2020:22.1.1,2020:22.1,,specifiek_resultaat,332
 Verkiezing,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 139.919, 1160, 202.754]}",22.1.2,2020:22.1.2,2020:22.1,"vernietigen na 3 maanden: de verzegelde pakketten van de
-stembureaus met de te laat ontvangen en onvoldoende ge-
-frankeerde retourenveloppen, niet op correcte wijze verzonden
+stembureaus met de te laat ontvangen en onvoldoende gefrankeerde retourenveloppen, niet op correcte wijze verzonden
 stembiljetten en briefstembewijzen, geldige of onbruikbaar
 gemaakte stempassen, kiezerspassen en volmachtbewijzen,
 geldige, ongeldig verklaarde, onbruikbaar gemaakte en niet
@@ -485,10 +471,9 @@ gebruikte stembiljetten en de stembiljetten met een blanco
 stem, de processen-verbaal van de stembureaus en de besluiten tot nieuwe opneming van stembiljetten van het centraal
 stembureau",specifiek_resultaat,333
 Referendum,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 202.754, 1160, 235.589]}",22.1.3,2020:22.1.3,2020:22.1,"vernietigen na 3 maanden: de verzegelde pakketten van de
-stembureaus met de te laat ontvangen en onvoldoende ge-
-frankeerde retourenveloppen, niet op correcte wijze verzonden
+stembureaus met de te laat ontvangen en onvoldoende gefrankeerde retourenveloppen, niet op correcte wijze verzonden
 stembiljetten en briefstembewijzen, geldige of onbruikbaar",specifiek_resultaat,334
-Bezoek van hoogwaar- digheidsbekleder,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 235.589, 1160, 262.424]}",22.1.5,2020:22.1.5,2020:22.1,"Commissaris van de Koning(in), staatshoofd, minister",specifiek_resultaat,335
+Bezoek van hoogwaardigheidsbekleder,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 235.589, 1160, 262.424]}",22.1.5,2020:22.1.5,2020:22.1,"Commissaris van de Koning(in), staatshoofd, minister",specifiek_resultaat,335
 Bevolkingsonderzoek,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 262.424, 1160, 289.259]}",22.1.6,2020:22.1.6,2020:22.1,,specifiek_resultaat,336
 Opleiding omtrent rampenbestrijding of veiligheid,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 289.259, 1160, 310.094]}",22.1.7,2020:22.1.7,2020:22.1,,specifiek_resultaat,337
 Afgebroken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 310.094, 1160, 324.929]}",22.2,2020:22.2,2020:22,,generiek_resultaat,338
@@ -522,8 +507,7 @@ Betwisten,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 
 van een derde, kan het orgaan om compensatie vragen of
 bezwaar en/of beroep indienen bij de daartoe aangewezen
 organisaties.",procestype,360
-Afgehandeld,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 717.953, 1160, 744.788]}",26.1,2020:26.1,2020:26,"Bezwaar en beroep ingediend door het orgaan, aansprakelijk-
-stelling richting een derde",generiek_resultaat,361
+Afgehandeld,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 717.953, 1160, 744.788]}",26.1,2020:26.1,2020:26,"Bezwaar en beroep ingediend door het orgaan, aansprakelijkstelling richting een derde",generiek_resultaat,361
 Geschil met financiële consequenties,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 744.788, 1160, 777.623]}",26.1.1,2020:26.1.1,2020:26.1,Schade en aansprakelijkheid,specifiek_resultaat,362
 Afgebroken,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 39, ""bbox"": [29, 777.623, 1160, 805]}",26.2,2020:26.2,2020:26,,generiek_resultaat,363
 Status aanvragen,"{""bron_id"": ""2020-officieel"", ""pdf_pagina"": 40, ""bbox"": [29, 56.579, 1160, 77.414]}",27,2020:27,,"Het orgaan kan een andere organisatie verzoeken om aan

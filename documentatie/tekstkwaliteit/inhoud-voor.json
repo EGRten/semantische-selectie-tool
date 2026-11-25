@@ -1,0 +1,13 @@
+{
+  "datasets/2017/bepalingen.json": "76684ded22f6ea62c2f2b24477b34e318fac33ed51e69c913c9829f1fc773c7d",
+  "datasets/2017/selectiegegevens.json": "f932e5f41836ddfab2b028c88500b377b6f6cb488fa56bc89b0774a57f112c1e",
+  "datasets/2017/structuur.json": "6f06a5fbe9e291ffe64807565522202b96dec75442449b5a7e7ae4d86ccab1e8",
+  "datasets/2017/zoeklexicon.json": "1d6412b8a9101fedb3c028af5ab0346322f3ef1a0c5cc5eb5188d7dfbccebd65",
+  "datasets/2020/bepalingen.json": "c56d7c9dbf7edd9278f44e063724f0aa291b25f36b26a075420af2d6dc91af25",
+  "datasets/2020/selectiegegevens.json": "6ac5a673ad50b0d67f8324ccb58a1a77cd9232feec96b0247c85913bb72118c5",
+  "datasets/2020/structuur.json": "65e8fb2407d3f8085bdece23f440f4be0d21113359079be53033e238d82dcb48",
+  "datasets/2020/zoeklexicon.json": "c572136ccf0e99c22a9052ef9de8b4d224df74794358357a02bb4d60ce9dd2b1",
+  "publicatie/2017.json": "e76134615f8c7294ae2de3bcbe5c33d13e51f21f3f40156135f6017f854044bb",
+  "publicatie/2020.json": "82f372f39ea178830adfabf6416c71811c98f52c8b8263fa20b98cac40e58df4",
+  "publicatie/concordans.json": "d6a767fc7a039a9d6dc1699b937612d9ad8f9f6bcce0e6f40bd66b86deea98b5"
+}

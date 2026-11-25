@@ -1,5 +1,5 @@
 {
-  "methode": "Canonieke inhoudelijke JSON-vergelijking; bij selectiegegevens alleen verificatie uitgesloten en afzonderlijk gecontroleerd op privacywijzigingen. Alle overige officiële velden ongewijzigd. Tekstcorrecties voor extractieafbrekingen: zie documentatie/woordafbrekingen-correcties.json; oorspronkelijke bronrijen behouden.",
+  "methode": "Canonieke inhoudelijke JSON-vergelijking; bij selectiegegevens alleen verificatie uitgesloten en afzonderlijk gecontroleerd op privacywijzigingen. Alle overige officiële velden ongewijzigd. Tekstcorrecties voor extractieafbrekingen: zie documentatie/woordafbrekingen-correcties.json; oorspronkelijke bronrijen behouden. Nieuwe afzonderlijk geregistreerde technische tekstcorrecties: documentatie/tekstkwaliteit/mutaties.json; eerdere bewijsregistraties behouden.",
   "inhoudelijke_hashes": {
     "1996-2012": {
       "bepalingen": "95b6913ac04131533eeead808fce5b60bec96e2e1f1774d31e2f165111c61ec5",
@@ -13,26 +13,26 @@
       "zoeklexicon": "e9b8b9cb462196c5d43e6f33a0e38d2d82598ca21363c8a4056ddd0c9a6db249"
     },
     "2017": {
-      "bepalingen": "76684ded22f6ea62c2f2b24477b34e318fac33ed51e69c913c9829f1fc773c7d",
+      "bepalingen": "2dc70eb50f36dba20dcb71ec44a41d26b1c21a89c022d1552855b598daa72ad9",
       "codeinventaris": "59816ebfb84c04391b0ffbba625650c9153a5196cdd8a59377d5b8e8f3f4e237",
       "kandidaten-ongekoppeld": "26404e0cc2efe409af16b94b6d7600125d61f0a6ada11c3030fa84b3f45791c5",
       "relaties": "d7b9f765ff5fe5e32c918ada2a4c7b215ac1cefe8f5938d14af546636ff1bcef",
-      "selectiegegevens": "101f510556a40ad116790a1b61cd5ec9f18d7f49e9cd89f4388ccb77e7e30cec",
-      "structuur": "6f06a5fbe9e291ffe64807565522202b96dec75442449b5a7e7ae4d86ccab1e8",
+      "selectiegegevens": "3806d2fae2dd3dbc581936b1c3b4be2ed2bb4708a8e8e0fb9ebb9c046125ea11",
+      "structuur": "2db4cfdc00d52ef6a1d7319d04d18d60ba291d62b0548fc7de67b2a255deda72",
       "testvragen": "a97b202e5d9fa879b1749672ea399533ab83333eaafdb9fd55b739d54e0cc1d9",
       "wijzigingen": "687db97acf0044c7fdcf2c73a25d09bb69b6cd510ca4d87109155dd565a5b8d3",
-      "zoeklexicon": "1d6412b8a9101fedb3c028af5ab0346322f3ef1a0c5cc5eb5188d7dfbccebd65"
+      "zoeklexicon": "6f0c4df6e79c5ae20f41cd6f21da28ef571d9ab072176a8b94e359100e1fb15c"
     },
     "2020": {
-      "bepalingen": "c56d7c9dbf7edd9278f44e063724f0aa291b25f36b26a075420af2d6dc91af25",
+      "bepalingen": "9359b24e67121c60792020e735f8b2fe5e98c479fe7ccffff73226abc9d36d5e",
       "codeinventaris": "fc70cd624a438e1a49a514cbdc607763bb96a1985e203981727a188c9a2bf117",
       "kandidaten-ongekoppeld": "ae60c461e538996f61f7763d0b8d9a3135fa17fb1b012182249240880bc1ca44",
       "relaties": "16be4170fecca8b1b690a6d1de1943d1531701467e6080a6c297a884e49ef354",
-      "selectiegegevens": "e3d11621a6ce186ef7a2722bfa860f15d2758371067caac0d3a2911d69920331",
-      "structuur": "65e8fb2407d3f8085bdece23f440f4be0d21113359079be53033e238d82dcb48",
+      "selectiegegevens": "af34dca14be711f0ab8e1644bf99340d7ed02f64ca11d85d45682ee1ee92d298",
+      "structuur": "8120312e708c9ace5b050d4b312ac35560aa23b460a7b2f112ae7089abd7d4c6",
       "testvragen": "120435b0fa0f7cb2355163103917092fb56999b9a1df525cbad71e616aab3d2b",
       "wijzigingen": "53cdbe9af97faa01e4589116d292247966bdef31c42679afd61571f8e011cfd7",
-      "zoeklexicon": "c572136ccf0e99c22a9052ef9de8b4d224df74794358357a02bb4d60ce9dd2b1"
+      "zoeklexicon": "ed4fafab56a807741232f0cfb7cb891a5ef5801f7c02a23983e7174815ffb9f3"
     }
   },
   "vergelijkingen": [

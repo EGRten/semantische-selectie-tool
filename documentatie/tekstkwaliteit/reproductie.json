@@ -1,0 +1,18 @@
+{
+  "status": "geslaagd",
+  "runs": 2,
+  "byte_identieke_bestanden": {
+    "bestandsmutaties.json": "4aca99824bde199aa0d0e8cae5a18d55d3e5a8d3f0709e86068fbf71fa4e35b7",
+    "bronverificatie.json": "0af12c984f5e188b7b699cbe78c885aa3cf3d74b4d0656bc57366100f9c599ad",
+    "inhoud-voor.json": "e4aef2eb357750feb11af8ab5dd596a1facb095eec8fa84b791a4e4908ff88ab",
+    "integriteitsreferentie-voor.json": "0005a73f592cf8af7c2078336a158059a835f0fafd1023104c9a777c32ef9c53",
+    "mutaties.json": "8bdfbcc442cea4cb333c411fcdf8ef8c1cc81783f720baaddd92370aa756bcea",
+    "nulmeting.json": "eff2119242cfa0907c1ffc482f2be389e575078f83a5423ac0b00b4e1931b1e9",
+    "tekstkwaliteit-bevindingen.csv": "2d0066c93f40bdb47fed9759c4b7820ca0d411d2e1ddefef6e2df0388bcebd4d",
+    "tekstkwaliteit-correcties.csv": "c03f2ee24627dc21a755b9bde7a3cc580458bd5f35bba1614a1ad25d6b5bb9bf",
+    "tekstkwaliteit-inventarisatie.csv": "d0b65da3c102695c17a4528b7b31bee9329d1bf139e97d94df93f5fd4e51d66c",
+    "tekstkwaliteit-onzekerheden.csv": "64f6d5ff699a769429db51da6a7711ae3e706927c7390285c59eb67f5ac320b8",
+    "tekstkwaliteit-taalvoorstellen.csv": "d67c2404c5fab10c7fbcd2e1a868824c40183abf8776af0ea8cbfbc0810794a6",
+    "tellingen.json": "76af1146c8e4243f3db7923801a19b3bdc0f756d61d566a8d97bb7990f6e719f"
+  }
+}

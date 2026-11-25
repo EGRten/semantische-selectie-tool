@@ -1,8 +1,10 @@
 // De historische woordafbrekingscontrole blijft geldig ná expliciete bronmetadatawijzigingen.
 import assert from 'node:assert/strict';
+import {voorTekstkwaliteit,bestandNaTekstkwaliteit} from './tekstkwaliteit.mjs';
 import {readFile} from 'node:fs/promises';
 const read=async name=>JSON.parse(await readFile(`documentatie/bronherijking/${name}.json`,'utf8'));
 export async function voorBronherijking(bestand,data){
+ data=await voorTekstkwaliteit(bestand,data);
  const mutaties=await read('veldmutaties');
  for(const m of (mutaties[bestand]??[]).toReversed()){
   let ouder=(Array.isArray(data)?data:data.rijen).find(r=>r.id===m.record_id);assert.ok(ouder,m.record_id);
@@ -17,6 +19,6 @@ export async function manifestVoorBronherijking(id,data){
  return structuredClone(m.voor);
 }
 export async function bestandNaBronherijking(pad,oud){
- const m=(await read('bestandsmutaties'))[pad];if(!m)return oud;
- assert.equal(m.voor_sha256,oud,`${pad}: oorspronkelijke historische hash behouden`);return m.na_sha256;
+ const m=(await read('bestandsmutaties'))[pad];if(!m)return bestandNaTekstkwaliteit(pad,oud);
+ assert.equal(m.voor_sha256,oud,`${pad}: oorspronkelijke historische hash behouden`);return bestandNaTekstkwaliteit(pad,m.na_sha256);
 }

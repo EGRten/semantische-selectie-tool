@@ -1,0 +1,32 @@
+{
+  "basiscommit": "59add247289e3328a2f433ac6c26262d3db0f468",
+  "json_bestanden": 119,
+  "onderzochte_tekstwaarden": 82376,
+  "inventarisatie_veldgroepen": 3128,
+  "signalen_per_type": {
+    "koppelteken_in_woord": 6554,
+    "randspatie": 2154,
+    "regeleinde": 153126,
+    "woordafbreking": 11915,
+    "meervoudige_spatie": 21416,
+    "herhaald_woord": 444,
+    "ontbrekende_spatie": 30,
+    "spatie_voor_leesteken": 151,
+    "soft_hyphen": 4348,
+    "unicode_spatie": 11
+  },
+  "signalen": 200149,
+  "bevindingregels": 31844,
+  "onzekerheidssignalen": 4991,
+  "taalvoorstellen": 4,
+  "geregistreerde_mutaties": 371,
+  "gewijzigde_tekstwaarden": 359,
+  "gegenereerde_deduplicaties": 12,
+  "primaire_en_officiele_zoekterm_mutaties": 242,
+  "publieke_afgeleide_mutaties": 129,
+  "correcties_per_lijst": {
+    "2017": 12,
+    "2020": 359
+  },
+  "vervangingen": 304
+}

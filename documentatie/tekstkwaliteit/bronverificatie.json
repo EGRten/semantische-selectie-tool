@@ -1,0 +1,23 @@
+[
+  {
+    "lijst": "1996-2012",
+    "bestand": "Geactualisteerde Selectielijst 2012.pdf",
+    "sha256": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
+    "pagina_aantal": 120,
+    "identiteit_bevestigd": true
+  },
+  {
+    "lijst": "2017",
+    "bestand": "Gemeentelijke Selectielijst 2017.pdf",
+    "sha256": "7398d4e499079ea6b988572fc6a80af33ff9e47cb6ae2f69ecc5a264741b7689",
+    "pagina_aantal": 101,
+    "identiteit_bevestigd": true
+  },
+  {
+    "lijst": "2020",
+    "bestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "sha256": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pagina_aantal": 113,
+    "identiteit_bevestigd": true
+  }
+]
