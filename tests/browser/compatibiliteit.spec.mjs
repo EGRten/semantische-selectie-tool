@@ -25,6 +25,12 @@ for(const thema of ['light','dark','high-contrast'])test(`browsermatrix: axe en 
   await page.getByLabel('Weergave',{exact:true}).selectOption(thema);
   if(soort==='zoeken'){await page.locator('#zoekopdracht').fill('19.1.19');await page.locator('#zoekopdracht').press('Enter');await expect(page.locator('.zoekstatus')).toContainText('1 resultaat');}
   if(soort==='vergelijking'){await page.locator('.historische-relaties>summary').click();await page.getByRole('button',{name:'Vergelijk officiële gegevens',exact:true}).first().click();await expect(page.locator('.vergelijkingstabel')).toBeVisible();}
+  // Meet het gekozen palet nadat bestaande kleurovergangen zijn afgerond.
+  // Een layoutread start ook nog niet verwerkte CSS-transities; geen vaste slaaptijd.
+  await page.evaluate(async()=>{
+   document.documentElement.getBoundingClientRect();
+   await Promise.all(document.getAnimations().map(animatie=>animatie.finished.catch(()=>{})));
+  });
   await page.addScriptTag({path:process.env.AXE_SOURCE});
   const scan=await page.evaluate(async()=>{const r=await axe.run({exclude:[['tbody tr:nth-child(n+31)']]},{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa','best-practice']}});return {versie:axe.version,violations:r.violations.map(v=>({id:v.id,nodes:v.nodes.map(n=>({target:n.target,samenvatting:n.failureSummary}))})),incomplete:r.incomplete.map(v=>({id:v.id,nodes:v.nodes.map(n=>n.target)}))};});
   scans.push({soort,...scan});
