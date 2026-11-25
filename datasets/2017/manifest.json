@@ -100,22 +100,22 @@
     "Vier Nihil-waarden uit eerdere XLS-bronkeuze zijn niet opnieuw bevestigd in de lege leidende PDF-cellen; waarden en besluiten behouden voor menselijke beoordeling."
   ],
   "sha256": {
-    "bepalingen.json": "ef0ecc5ea86f4a2e49c4df4dc5a0ee035965c95e165fac2a014ea0bac12d7a5b",
+    "bepalingen.json": "25f8ad5b7bb5556790c13e359ed49d01d33f765de6a8962aeb744cd9cb394761",
     "bronannotaties.json": "5e5fa374f242561e21e9c17428be5e4f796fad15b126a7ead6617d7e74a78ced",
     "codeinventaris.json": "ee9741467b72c3e9f8cb6e79b55c1be10d1c31be44cffdd73e927ed78176b45f",
     "kandidaten-ongekoppeld.json": "59dc6d4ae8417becc5dc940b68e9ddf8a6028dba964977c31712f89c7dc3ca38",
     "relaties.csv": "6fa31fed1b5d1d82c2d906c49ab74ca146d0b4572bc44660b80c56cc3fa73835",
     "relaties.json": "6ce0a200c064cd7c976d31a8a26a47fec21cbc85c159e59d00319685fb2faac8",
-    "selectiegegevens.csv": "369e999a349cd9b36786e13de8bbd31e83ce17c00b507ea12931d85b5a531eca",
-    "selectiegegevens.json": "c11ad8d50c278b6c4983dcf6eeffcdbfa201c8ce1dfaf6b3d268651dde1da919",
-    "structuur.csv": "ad17e054bf912153e4bed3b3126d8a2f7d5b10e8004b5073177f7df3b6920ef9",
-    "structuur.json": "9cb6038704d169ac6a9e554ec8334308747cffe2d0c2b3bc7d318e6e46147647",
+    "selectiegegevens.csv": "5a003d3329aa475ce1742453a5a5cc4507f4fe9bfa219240e1aa9c8cd95dd3e4",
+    "selectiegegevens.json": "6a8c225a8b85553140d9d5596e6efa1dba8338fb5ae6672af9f12cc8fdb6efae",
+    "structuur.csv": "7a5f97f671c1dbde953f74baa089551d302f566310892bc5309ab726739286c1",
+    "structuur.json": "b0167ccf2cc97e57fa9f61548cf17fcc77aa0ced5fb5c1287fa0ebe2b87f2d1a",
     "testvragen.csv": "051d2a7bfd6cc740c0ceac226e52010196a76112ca93a6ea1fcce76cc2b00ad0",
     "testvragen.json": "b5301f05ddc2807ab915283b78a60102c5cdd47881a71890c247e7079888c1af",
     "validatie.json": "f1219548bf52af3bcefea176b8bf6a50340ae19a2b1685151912b0a11a2f8431",
     "wijzigingen.json": "aa8a505fc76ac798b478fc6403be03f91b786bb44531d5a68d030e643e12e632",
-    "zoeklexicon.csv": "69491c306ab27ab606eb6014636f8dc6f73f85b2d3c3db0ac5868eba8d46e71c",
-    "zoeklexicon.json": "c2bfb0fe2b3c686971e76836b48792e2cfc3d2259eb4a27a55f24a3508968699"
+    "zoeklexicon.csv": "83232bc2379b10bb8b85a44489236f920b53009bd793eb19c0f53de664450743",
+    "zoeklexicon.json": "4e93598e4aadd341b37d780d3ed5499f522a4bd030dc03895c9398b9b2d61945"
   },
   "opleverstatus": "bronherijking_ter_beoordeling",
   "controleoverdracht": {

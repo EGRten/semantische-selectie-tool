@@ -135,7 +135,7 @@
   {
     "id": "2020:1.4",
     "code": "1.4",
-    "benaming": "Niet doorge- gaan",
+    "benaming": "Niet doorgegaan",
     "type": "generiek_resultaat",
     "parent_id": "2020:1",
     "volgorde": 8,
@@ -249,7 +249,7 @@
   {
     "id": "2020:2.2",
     "code": "2.2",
-    "benaming": "Niet doorge- gaan",
+    "benaming": "Niet doorgegaan",
     "type": "generiek_resultaat",
     "parent_id": "2020:2",
     "volgorde": 14,
@@ -348,7 +348,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:3",
     "volgorde": 19,
-    "toelichting": "Dit gaat om processen op het gebied van bedrijfsvoering: b.v.\npersoonlijk ontwikkelingsplan, plan Wet Poortwachter, glad-\nheidsbestrijdingsplan, plan van aanpak re-integratie",
+    "toelichting": "Dit gaat om processen op het gebied van bedrijfsvoering: b.v.\npersoonlijk ontwikkelingsplan, plan Wet Poortwachter, gladheidsbestrijdingsplan, plan van aanpak re-integratie",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 27,
@@ -367,7 +367,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:3.1",
     "volgorde": 20,
-    "toelichting": "Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouw-\nprogramma, (strategie)visies, exploitatieplan, gemeentelijke\nrioleringsplan",
+    "toelichting": "Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouwprogramma, (strategie)visies, exploitatieplan, gemeentelijke\nrioleringsplan",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 27,
@@ -386,7 +386,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:3.1",
     "volgorde": 21,
-    "toelichting": "Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegen-\nbeheerplan",
+    "toelichting": "Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegenbeheerplan",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 27,
@@ -956,7 +956,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:5",
     "volgorde": 51,
-    "toelichting": "Stadspas, reclamesticker, bewegwijzering, kiezerspas, certifi-\ncaat van (vrijstelling tot) sanitaire controle van een schip",
+    "toelichting": "Stadspas, reclamesticker, bewegwijzering, kiezerspas, certificaat van (vrijstelling tot) sanitaire controle van een schip",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 28,
@@ -975,7 +975,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:5.1",
     "volgorde": 52,
-    "toelichting": "Afvalinzameling, afvalcontainer, rioolaansluiting, ambulan-\ncevervoer",
+    "toelichting": "Afvalinzameling, afvalcontainer, rioolaansluiting, ambulancevervoer",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 28,
@@ -1108,7 +1108,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:5.1",
     "volgorde": 59,
-    "toelichting": "Bewaartermijn loopt vanaf de geboortedatum van de gevac-\ncineerde",
+    "toelichting": "Bewaartermijn loopt vanaf de geboortedatum van de gevaccineerde",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 28,
@@ -1959,7 +1959,7 @@
   {
     "id": "2020:7.1.16",
     "code": "7.1.16",
-    "benaming": "Briefadres omzet- ting BRP",
+    "benaming": "Briefadres omzetting BRP",
     "type": "specifiek_resultaat",
     "parent_id": "2020:7.1",
     "volgorde": 104,
@@ -2191,7 +2191,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:8",
     "volgorde": 116,
-    "toelichting": "Uitkering of inkomensvoorziening, inburgeringstraject, duur-\nzaamheidslening, krediethypotheek.",
+    "toelichting": "Uitkering of inkomensvoorziening, inburgeringstraject, duurzaamheidslening, krediethypotheek.",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 31,
@@ -2339,7 +2339,7 @@
   {
     "id": "2020:8.1.8",
     "code": "8.1.8",
-    "benaming": "Subsidie zonder verant- woordingsplicht",
+    "benaming": "Subsidie zonder verantwoordingsplicht",
     "type": "specifiek_resultaat",
     "parent_id": "2020:8.1",
     "volgorde": 124,
@@ -2377,7 +2377,7 @@
   {
     "id": "2020:8.1.10",
     "code": "8.1.10",
-    "benaming": "Huisvesting van sta- tushouder",
+    "benaming": "Huisvesting van statushouder",
     "type": "specifiek_resultaat",
     "parent_id": "2020:8.1",
     "volgorde": 126,
@@ -2453,7 +2453,7 @@
   {
     "id": "2020:8.1.14",
     "code": "8.1.14",
-    "benaming": "Gehandicaptenpar- keerkaart",
+    "benaming": "Gehandicaptenparkeerkaart",
     "type": "specifiek_resultaat",
     "parent_id": "2020:8.1",
     "volgorde": 130,
@@ -2685,7 +2685,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:9",
     "volgorde": 142,
-    "toelichting": "Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulp-\nverlening, vertrouwenspersoon, Buitengewoon ambtenaar\nvan de burgerlijke stand, gemeentelijke vertegenwoordiger,\nWKPB-registratie",
+    "toelichting": "Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulpverlening, vertrouwenspersoon, Buitengewoon ambtenaar\nvan de burgerlijke stand, gemeentelijke vertegenwoordiger,\nWKPB-registratie",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 32,
@@ -2795,7 +2795,7 @@
   {
     "id": "2020:9.1.6",
     "code": "9.1.6",
-    "benaming": "Afspraken omtrent binnengemeentelijke verstrekking van BRP- gegevens",
+    "benaming": "Afspraken omtrent binnengemeentelijke verstrekking van BRP-gegevens",
     "type": "specifiek_resultaat",
     "parent_id": "2020:9.1",
     "volgorde": 148,
@@ -2871,7 +2871,7 @@
   {
     "id": "2020:9.1.10",
     "code": "9.1.10",
-    "benaming": "Beheersverordening Wro en buitentoepassingsver- klaring daarvan",
+    "benaming": "Beheersverordening Wro en buitentoepassingsverklaring daarvan",
     "type": "specifiek_resultaat",
     "parent_id": "2020:9.1",
     "volgorde": 152,
@@ -3255,7 +3255,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.1",
     "volgorde": 172,
-    "toelichting": "Evenementenmelding, verlof tot begraven of opgraven, vakan-\ntietoestemming uitkeringsgerechtigde",
+    "toelichting": "Evenementenmelding, verlof tot begraven of opgraven, vakantietoestemming uitkeringsgerechtigde",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 33,
@@ -3289,7 +3289,7 @@
   {
     "id": "2020:11.1.3",
     "code": "11.1.3",
-    "benaming": "Melding activiteitenbesluit Milieubeheer of 8.40 Wet Milieubeheer, sloop- melding",
+    "benaming": "Melding activiteitenbesluit Milieubeheer of 8.40 Wet Milieubeheer, sloopmelding",
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.1",
     "volgorde": 174,
@@ -3346,7 +3346,7 @@
   {
     "id": "2020:11.1.6",
     "code": "11.1.6",
-    "benaming": "Omgevingsvergunning voor activiteit milieu, bouw, sloop, monument, handelsreclame en strij- dig gebruik en/of aanleg",
+    "benaming": "Omgevingsvergunning voor activiteit milieu, bouw, sloop, monument, handelsreclame en strijdig gebruik en/of aanleg",
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.1",
     "volgorde": 177,
@@ -3365,7 +3365,7 @@
   {
     "id": "2020:11.1.7",
     "code": "11.1.7",
-    "benaming": "Toestemming voor peuterspeelzaal, kinder- opvang en gastouders",
+    "benaming": "Toestemming voor peuterspeelzaal, kinderopvang en gastouders",
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.1",
     "volgorde": 178,
@@ -3422,7 +3422,7 @@
   {
     "id": "2020:11.1.10",
     "code": "11.1.10",
-    "benaming": "Ontheffing verhoging grenswaarde geluids- hinder",
+    "benaming": "Ontheffing verhoging grenswaarde geluidshinder",
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.1",
     "volgorde": 181,
@@ -3517,7 +3517,7 @@
   {
     "id": "2020:11.1.15",
     "code": "11.1.15",
-    "benaming": "Vergunning leeg- standswet",
+    "benaming": "Vergunning leegstandswet",
     "type": "specifiek_resultaat",
     "parent_id": "2020:11.1",
     "volgorde": 186,
@@ -3802,7 +3802,7 @@
   {
     "id": "2020:12.1.5",
     "code": "12.1.5",
-    "benaming": "Financieel en contractu- eel toezicht",
+    "benaming": "Financieel en contractueel toezicht",
     "type": "specifiek_resultaat",
     "parent_id": "2020:12.1",
     "volgorde": 201,
@@ -4448,7 +4448,7 @@
   {
     "id": "2020:14.1.5",
     "code": "14.1.5",
-    "benaming": "Gebouw en/of accom- modatie",
+    "benaming": "Gebouw en/of accommodatie",
     "type": "specifiek_resultaat",
     "parent_id": "2020:14.1",
     "volgorde": 235,
@@ -4486,7 +4486,7 @@
   {
     "id": "2020:14.1.7",
     "code": "14.1.7",
-    "benaming": "Aanwijzing- en/of waar- schuwingsteken",
+    "benaming": "Aanwijzing- en/of waarschuwingsteken",
     "type": "specifiek_resultaat",
     "parent_id": "2020:14.1",
     "volgorde": 237,
@@ -4566,7 +4566,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:15",
     "volgorde": 241,
-    "toelichting": "Jaarlijks onderhoud, reparatie, grafruiming, automatiseringspro-\ngramma, BRP foutmelding, melding openbare ruimte",
+    "toelichting": "Jaarlijks onderhoud, reparatie, grafruiming, automatiseringsprogramma, BRP foutmelding, melding openbare ruimte",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 36,
@@ -4718,7 +4718,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:16",
     "volgorde": 249,
-    "toelichting": "Garantstelling, inkoopovereenkomst, huur, pacht, ingebruikge-\nving, verkoop roerend goed, lening",
+    "toelichting": "Garantstelling, inkoopovereenkomst, huur, pacht, ingebruikgeving, verkoop roerend goed, lening",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 36,
@@ -4733,7 +4733,7 @@
   {
     "id": "2020:16.1.1",
     "code": "16.1.1",
-    "benaming": "Inkoopovereenkomst zonder contract of garan- tiebepalingen",
+    "benaming": "Inkoopovereenkomst zonder contract of garantiebepalingen",
     "type": "specifiek_resultaat",
     "parent_id": "2020:16.1",
     "volgorde": 250,
@@ -4752,7 +4752,7 @@
   {
     "id": "2020:16.1.2",
     "code": "16.1.2",
-    "benaming": "Samenwerkingsovereen- komst ten behoeve van de taakuitoefening van het orgaan",
+    "benaming": "Samenwerkingsovereenkomst ten behoeve van de taakuitoefening van het orgaan",
     "type": "specifiek_resultaat",
     "parent_id": "2020:16.1",
     "volgorde": 251,
@@ -4790,7 +4790,7 @@
   {
     "id": "2020:16.1.4",
     "code": "16.1.4",
-    "benaming": "Overdracht van onroerend goed, schenkings- overeenkomst",
+    "benaming": "Overdracht van onroerend goed, schenkingsovereenkomst",
     "type": "specifiek_resultaat",
     "parent_id": "2020:16.1",
     "volgorde": 253,
@@ -4828,7 +4828,7 @@
   {
     "id": "2020:16.2",
     "code": "16.2",
-    "benaming": "Niet doorge- gaan",
+    "benaming": "Niet doorgegaan",
     "type": "generiek_resultaat",
     "parent_id": "2020:16",
     "volgorde": 255,
@@ -4904,7 +4904,7 @@
   {
     "id": "2020:16.3.1",
     "code": "16.3.1",
-    "benaming": "Samenwerkingsovereen- komst ten behoeve van de taakuitoefening van het orgaan",
+    "benaming": "Samenwerkingsovereenkomst ten behoeve van de taakuitoefening van het orgaan",
     "type": "specifiek_resultaat",
     "parent_id": "2020:16.3",
     "volgorde": 259,
@@ -5098,7 +5098,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:17",
     "volgorde": 269,
-    "toelichting": "Functiewijziging, wijziging betrekking, functieschaal, loontoe-\nslag, detachering",
+    "toelichting": "Functiewijziging, wijziging betrekking, functieschaal, loontoeslag, detachering",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 37,
@@ -5402,7 +5402,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:19",
     "volgorde": 285,
-    "toelichting": "Gegevens verwerken, watervergunning/-melding, beslag-\nlegging, (overige) hulpadministraties zonder financiele\nconsequenties",
+    "toelichting": "Gegevens verwerken, watervergunning/-melding, beslaglegging, (overige) hulpadministraties zonder financiele\nconsequenties",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 37,
@@ -5474,7 +5474,7 @@
   {
     "id": "2020:19.1.4",
     "code": "19.1.4",
-    "benaming": "Gegevens verwerkt in registers en basisadmi- nistraties zoals benoemd in bijlage 4",
+    "benaming": "Gegevens verwerkt in registers en basisadministraties zoals benoemd in bijlage 4",
     "type": "specifiek_resultaat",
     "parent_id": "2020:19.1",
     "volgorde": 289,
@@ -6025,7 +6025,7 @@
   {
     "id": "2020:20.1.4",
     "code": "20.1.4",
-    "benaming": "Gegevens over woning- statistiek",
+    "benaming": "Gegevens over woningstatistiek",
     "type": "specifiek_resultaat",
     "parent_id": "2020:20.1",
     "volgorde": 318,
@@ -6082,7 +6082,7 @@
   {
     "id": "2020:20.1.7",
     "code": "20.1.7",
-    "benaming": "Proactief beschikbaarge- stelde (open) datasets",
+    "benaming": "Proactief beschikbaargestelde (open) datasets",
     "type": "specifiek_resultaat",
     "parent_id": "2020:20.1",
     "volgorde": 321,
@@ -6314,7 +6314,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:22.1",
     "volgorde": 333,
-    "toelichting": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende ge-\nfrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar\ngemaakte stempassen, kiezerspassen en volmachtbewijzen,\ngeldige, ongeldig verklaarde, onbruikbaar gemaakte en niet\ngebruikte stembiljetten en de stembiljetten met een blanco\nstem, de processen-verbaal van de stembureaus en de besluiten tot nieuwe opneming van stembiljetten van het centraal\nstembureau",
+    "toelichting": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende gefrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar\ngemaakte stempassen, kiezerspassen en volmachtbewijzen,\ngeldige, ongeldig verklaarde, onbruikbaar gemaakte en niet\ngebruikte stembiljetten en de stembiljetten met een blanco\nstem, de processen-verbaal van de stembureaus en de besluiten tot nieuwe opneming van stembiljetten van het centraal\nstembureau",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 39,
@@ -6333,7 +6333,7 @@
     "type": "specifiek_resultaat",
     "parent_id": "2020:22.1",
     "volgorde": 334,
-    "toelichting": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende ge-\nfrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar",
+    "toelichting": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende gefrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 39,
@@ -6348,7 +6348,7 @@
   {
     "id": "2020:22.1.5",
     "code": "22.1.5",
-    "benaming": "Bezoek van hoogwaar- digheidsbekleder",
+    "benaming": "Bezoek van hoogwaardigheidsbekleder",
     "type": "specifiek_resultaat",
     "parent_id": "2020:22.1",
     "volgorde": 335,
@@ -6846,7 +6846,7 @@
     "type": "generiek_resultaat",
     "parent_id": "2020:26",
     "volgorde": 361,
-    "toelichting": "Bezwaar en beroep ingediend door het orgaan, aansprakelijk-\nstelling richting een derde",
+    "toelichting": "Bezwaar en beroep ingediend door het orgaan, aansprakelijkstelling richting een derde",
     "bron": {
       "bron_id": "2020-officieel",
       "pdf_pagina": 39,
