@@ -8,4 +8,6 @@ De registers bevatten 2.064 woord-/koppelteken-/soft-hyphengroepen en 116 spatie
 
 Deze vervolgrun heeft nog **geen volledige handmatige beoordeling van alle 2.180 groepen** op Nederlandse spelling, zinscontext en visuele PDF-weergave opgeleverd. De registers mogen daarom niet worden gelezen als inhoudelijke acceptatie van alle resterende woordvormen. Er is geen generieke verwijdering van koppeltekens of normalisatie van broncitaten uitgevoerd. De eerdere classificaties en bevroren bewijzen zijn niet overschreven.
 
+Daarnaast is één broneigen spatiefout (`leasen,huur`) in de 1996/2012-rubriek als leesweergave gecorrigeerd naar `leasen, huur`. Dit raakt vier primaire/afgeleide leesvelden: rubrieknaam, bronnoot en twee officiële zoektermwaarden. De PDF-paginakopie en ruwe bronregistratie blijven letterlijk. De twee D-brongroepen blijven geregistreerd als bron-eigen fout; de correctie betreft uitsluitend de weergave. De publieke 1996/2012-projectie bevat bovendien drie daarvan afgeleide tabelcellen.
+
 De gecontroleerde tekst is via de bestaande build in de publieke JSON-projectie, zoekbare detailgegevens en Excel-bronvelden opgenomen. Een daadwerkelijke Pages-publicatie is niet gestart.

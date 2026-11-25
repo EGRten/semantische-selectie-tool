@@ -918,11 +918,11 @@
   {
     "id": "1996-2012:3.4.1",
     "code": "3.4.1",
-    "benaming": "Aanschaf, leasen,huur, verhuur en ingebruikgeving",
+    "benaming": "Aanschaf, leasen, huur, verhuur en ingebruikgeving",
     "type": "rubriek",
     "parent_id": "1996-2012:3.4",
     "volgorde": 51,
-    "toelichting": null,
+    "toelichting": "Leesweergave met spatie na de komma. In de officiële PDF (pagina 36) staat letterlijk: “Aanschaf, leasen,huur, verhuur en ingebruikgeving”.",
     "bron": {
       "bron_id": "1996-2012-leidend-2026-11-25",
       "pdf_pagina": 36,
