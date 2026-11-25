@@ -1,0 +1,82 @@
+{
+  "datasets/2017/bepalingen.json": {
+    "voor_sha256": "ef0ecc5ea86f4a2e49c4df4dc5a0ee035965c95e165fac2a014ea0bac12d7a5b",
+    "na_sha256": "25f8ad5b7bb5556790c13e359ed49d01d33f765de6a8962aeb744cd9cb394761"
+  },
+  "datasets/2017/manifest.json": {
+    "voor_sha256": "13ad78b61ffac51197949ad56f6fbadc731afe997baea3e3eb99e04ab870f6b5",
+    "na_sha256": "0ee3bb10701ceefb600c144736b7981291dd601b2ee0711fdeb21c9655e0e2cb"
+  },
+  "datasets/2017/selectiegegevens.csv": {
+    "voor_sha256": "369e999a349cd9b36786e13de8bbd31e83ce17c00b507ea12931d85b5a531eca",
+    "na_sha256": "5a003d3329aa475ce1742453a5a5cc4507f4fe9bfa219240e1aa9c8cd95dd3e4"
+  },
+  "datasets/2017/selectiegegevens.json": {
+    "voor_sha256": "c11ad8d50c278b6c4983dcf6eeffcdbfa201c8ce1dfaf6b3d268651dde1da919",
+    "na_sha256": "6a8c225a8b85553140d9d5596e6efa1dba8338fb5ae6672af9f12cc8fdb6efae"
+  },
+  "datasets/2017/structuur.csv": {
+    "voor_sha256": "ad17e054bf912153e4bed3b3126d8a2f7d5b10e8004b5073177f7df3b6920ef9",
+    "na_sha256": "7a5f97f671c1dbde953f74baa089551d302f566310892bc5309ab726739286c1"
+  },
+  "datasets/2017/structuur.json": {
+    "voor_sha256": "9cb6038704d169ac6a9e554ec8334308747cffe2d0c2b3bc7d318e6e46147647",
+    "na_sha256": "b0167ccf2cc97e57fa9f61548cf17fcc77aa0ced5fb5c1287fa0ebe2b87f2d1a"
+  },
+  "datasets/2017/zoeklexicon.csv": {
+    "voor_sha256": "69491c306ab27ab606eb6014636f8dc6f73f85b2d3c3db0ac5868eba8d46e71c",
+    "na_sha256": "83232bc2379b10bb8b85a44489236f920b53009bd793eb19c0f53de664450743"
+  },
+  "datasets/2017/zoeklexicon.json": {
+    "voor_sha256": "c2bfb0fe2b3c686971e76836b48792e2cfc3d2259eb4a27a55f24a3508968699",
+    "na_sha256": "4e93598e4aadd341b37d780d3ed5499f522a4bd030dc03895c9398b9b2d61945"
+  },
+  "datasets/2020/bepalingen.json": {
+    "voor_sha256": "2aa41b7c29e123c4127bc6f1cb0945a31409e6ab020e47ef50aaef1ae0b7d0fd",
+    "na_sha256": "12b01fe15baa73cdd615bcdc669d8ee3921dd3e611d862105d948ec600786182"
+  },
+  "datasets/2020/manifest.json": {
+    "voor_sha256": "6449794afb9c92c6ebcd665767dc3e9ed18088ead34f1e75fdf429d1cfbb2829",
+    "na_sha256": "34da2347e542f0c234bf3ea568b54eb3e9cb3f7113801be7f1b809b555b3eef4"
+  },
+  "datasets/2020/selectiegegevens.csv": {
+    "voor_sha256": "76e0a5696417dc9cddfbb2655dd1d5a590c142f52ef8e18c39c546278a6df79b",
+    "na_sha256": "6e91483500599b03634ce7865c039a7acc2359bfab0be088927bad4f46c53d5d"
+  },
+  "datasets/2020/selectiegegevens.json": {
+    "voor_sha256": "1a1795febf27dc210b18498a2db4ac4c36edd31226d8fab52b6a19979a6f5664",
+    "na_sha256": "a3ef0b1221ac1c302744431065b236982e0d3a5f18cc1a09f30eb95321164586"
+  },
+  "datasets/2020/structuur.csv": {
+    "voor_sha256": "ee3fdcaf23b12fe72a9bed3a3996e868fb97b462c3864781ee37ddaa49752f8a",
+    "na_sha256": "518bf3d9bcb907ff25b873435418d48dcbd859a6c3e0b6307c9243f140245117"
+  },
+  "datasets/2020/structuur.json": {
+    "voor_sha256": "26a24adc1cbcf318a305a94184e9f64a36e701995a991f97d4f8f54735a5d0a2",
+    "na_sha256": "f352e2d02ffc09d36f18818c2417f9f2a6d50c12ed34d938635aa9f964597aec"
+  },
+  "datasets/2020/zoeklexicon.csv": {
+    "voor_sha256": "ec4555504b2b94d807a54d0d2ac91de2740ffb5029520f0d6382844d33452862",
+    "na_sha256": "b686a5dc2b936599ea37b7876521dfe5e8fd4036e11b1edeb81ed952268969af"
+  },
+  "datasets/2020/zoeklexicon.json": {
+    "voor_sha256": "86bc171939b600ae506f8c23028f6bdf0a2b0016db6ac4d3865b8be09ff2933e",
+    "na_sha256": "3da2127869cc134d321f93b072f61e29b1a5aee837bcb6d8993acd6973b20a48"
+  },
+  "documentatie/inhoudelijke-integriteit.json": {
+    "voor_sha256": "0005a73f592cf8af7c2078336a158059a835f0fafd1023104c9a777c32ef9c53",
+    "na_sha256": "1fefd2c4772620500369e8b5cc9721fa7e3f936a8d91087cd5aece7a0d01d292"
+  },
+  "publicatie/2017.json": {
+    "voor_sha256": "46c79ebbbfd8809b014aceabb113cc958f7d19b47692cd2f2d83cf3e393a3974",
+    "na_sha256": "bcc2c9cb21ba7dfd52df344f91d214da49620f319f1706c4702aca31184644fa"
+  },
+  "publicatie/2020.json": {
+    "voor_sha256": "38ec7d3d0e47b331058a5462e1b0852dbbbc6d82d8200e2cecf87261ee7b31e1",
+    "na_sha256": "401910aebc4e8ecf5624582a0eb7c00eab12d5cdebc7b0cc724e42e1324eb665"
+  },
+  "publicatie/concordans.json": {
+    "voor_sha256": "6a07ec737e654f7e718ce4ca5bb752f2b8494a1d5764197af4f0a0d4d22f2b46",
+    "na_sha256": "ea09bf1efbfed182e4b62bf243c09c84e91f17b259c72db5024b2ca49e7d5145"
+  }
+}

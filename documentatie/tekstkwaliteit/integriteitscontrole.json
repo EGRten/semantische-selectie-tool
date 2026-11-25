@@ -1,0 +1,12 @@
+{
+  "status": "geslaagd",
+  "basiscommit": "59add247289e3328a2f433ac6c26262d3db0f468",
+  "tekstmutaties": 371,
+  "bestanden_met_tekstmutaties": 11,
+  "concordansrijen": 716,
+  "ongewijzigde_concordanscellen": 7876,
+  "codes_ids_termijnen_waarderingen_relatieidentiteiten": "ongewijzigd",
+  "ruwe_extracties_en_historisch_bewijs": "ongewijzigd",
+  "csv_correctieregister": "identiek_aan_json_register",
+  "excel_csv_cellengrens": "geslaagd"
+}

@@ -1,4 +1,5 @@
 import test from 'node:test';
+import {bestandNaTekstkwaliteit} from './helpers/tekstkwaliteit.mjs';
 import {bestandNaBronherijking} from './helpers/bronherijking.mjs';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
@@ -39,7 +40,7 @@ test('bronherijking: volledige leidende pagina’s, leesbare voetnoten en afzond
  const b=await read('datasets/2020/wijzigingen.json');assert.equal(b[0].bron.pdf_pagina,88);assert.ok(b.every(p=>p.type==='bijlage_8_officieel_wijzigingsoverzicht'));
 });
 test('bronherijking: alle 7876 concordanscellen en bestaande zoekrelaties onveranderd',async()=>{
- const ref=await read(dir+'concordans-integriteit.json');const bytes=await readFile('publicatie/concordans.json');assert.equal(hash(bytes),ref.sha256_bestand_na);const c=JSON.parse(bytes);assert.equal(c.rijen.length,716);assert.ok(c.rijen.every(r=>r.waarden.length===11));assert.equal(ref['517_kandidaten_niet_toegevoegd'],true);
+ const ref=await read(dir+'concordans-integriteit.json');const bytes=await readFile('publicatie/concordans.json');assert.equal(hash(bytes),await bestandNaTekstkwaliteit('publicatie/concordans.json',ref.sha256_bestand_na));const c=JSON.parse(bytes);assert.equal(c.rijen.length,716);assert.ok(c.rijen.every(r=>r.waarden.length===11));assert.equal(ref['517_kandidaten_niet_toegevoegd'],true);
  const nul=await read(dir+'nulmeting.json');
  for(const id of ['1996-2012','2017','2020']){const before=nul.bestaande_bronannotaties[id];const now=await read(`datasets/${id}/bronannotaties.json`);assert.deepEqual(now.slice(0,before.length),before);}
  for(const id of ['1996-2012','2017','2020'])for(const n of ['zoeklexicon','relaties','testvragen']){const path=`datasets/${id}/${n}.json`;assert.equal(hash(await readFile(path)),await bestandNaBronherijking(path,nul.bestandshashes[path]),path);}

@@ -1,0 +1,49 @@
+{
+  "omgeving": {
+    "node": "24.22.1",
+    "python": "3.12.14",
+    "pymupdf": "1.26.6",
+    "pillow_alleen_bronbeelden": "13.0.0"
+  },
+  "typecheck": "geslaagd",
+  "productiebuild": "geslaagd",
+  "json_schema_en_manifesten": "geslaagd",
+  "csv_reproductie": {
+    "bestanden": 15,
+    "status": "byte_identiek"
+  },
+  "publieke_projecties": {
+    "bestanden": 4,
+    "status": "byte_identiek"
+  },
+  "unit_integratie": {
+    "totaal": 182,
+    "geslaagd": 164,
+    "mislukt": 0,
+    "overgeslagen": 18,
+    "reden_skips": "oorspronkelijke technische CONCORDANS_BRON_JSON niet meegeleverd"
+  },
+  "browser": {
+    "subpad": "/semantische-selectie-tool/",
+    "chromium": {
+      "geslaagd": 156,
+      "mislukt": 0,
+      "overgeslagen": 0
+    },
+    "firefox": {
+      "status": "start_mislukt",
+      "melding": "Could not find profile folder",
+      "regressies_uitgevoerd": false
+    },
+    "webkit": {
+      "status": "start_mislukt",
+      "melding": "Ontbrekende systeemlibraries",
+      "regressies_uitgevoerd": false
+    }
+  },
+  "deployment_uitgevoerd": false,
+  "ruwe_loghashes": {
+    "unit.log": "b341533c62a8b7a2da8bfd462cb3bf570b1e7b2866695a48aaac2acf8011107a",
+    "browser-chromium.log": "189a7783f3c1f05591cae75e7fbb087659c186c7ff38c0bfc204418662bd75bc"
+  }
+}
