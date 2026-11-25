@@ -6,15 +6,15 @@
     "publicatie": "Staatscourant 2020, 11143",
     "kenmerk": "NA/2020/21446242"
   },
-  "datasetversie": "1.0.0-eindpakket",
-  "generatiedatum": "2026-11-10",
+  "datasetversie": "1.0.0-bronherijking-2026-11-25",
+  "generatiedatum": "2026-11-25",
   "bronnenregister": [
     {
       "id": "2020-officieel",
       "bestand": "../../bronnen/2020-officieel.bron.json",
       "url": "https://www.nationaalarchief.nl/sites/default/files/field-file/Selectielijst_20200214.pdf",
-      "sha256": "179366d022754f51fa34496ca88d7258776ece19e64fc05bdd8da26fe30e7a51",
-      "status": "Nationaal_Archief_download_2026-11-10",
+      "sha256": "0bc774774a2d65835c6e3d4f78261cd4921a7e5f169d28ddde0ca365f757ac65",
+      "status": "leidend_voor_herijking_opdracht_2026-11-25",
       "oorspronkelijk_bestand": "../../bronnen/2020.pdf",
       "oorspronkelijke_sha256": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
       "bestand_type": "bronbeschrijving_geen_brondocument",
@@ -63,19 +63,19 @@
   },
   "validatiestatus": {
     "technische_validatie": "geslaagd",
-    "bronverificatie": "alle_selectieregels_geautomatiseerd_en_gerichte_afwijkingenbeoordeling",
+    "bronverificatie": "bronherijking_2026_11_25_volledige_pagina_en_tabelinventaris_met_open_beoordelingsregister",
     "integrale_menselijke_tweede_lezing": false,
-    "volledigheidscontrole": "onafhankelijke_proceskolom_inventaris_346_tabelregels",
+    "volledigheidscontrole": "onafhankelijke_resultaatcode_en_proceskolominventaris",
     "open_bronvragen": 0,
     "toepasselijkheidsbeslissingen_gevalideerd": false,
     "semantische_volledigheid": "geen_onbegrensde_volledigheidsclaim; beschikbare_rapporttekst_verwerkt",
-    "status": "oplevering_afgerond_met_bronannotaties",
+    "status": "technische_bronherijking_met_behouden_brononzekerheden",
     "aanvullende_controle": {
       "records": 346,
       "nieuwe_extractieafwijkingen": 0,
       "methode": "zie_documentatie_aanvullende_broncontrole"
     },
-    "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+    "opleverstatus": "bronherijking_ter_beoordeling",
     "verplichte_tweede_beoordelaar": false,
     "broncontroles_bevestigd_door_gebruiker": 7,
     "bronbeperkingen_behouden": 7
@@ -85,10 +85,11 @@
     "Geen automatische juridische of archivistische toepasselijkheidsbeslissing.",
     "Aanvangsmomenten en voorwaarden blijven waar nodig in officiële tekst en algemene bepalingen staan; niet alle velden zijn afzonderlijk geïnterpreteerd.",
     "AI-voorstellen blijven als voorstel herkenbaar; niet-gevalideerde voorstellen standaard uitsluiten.",
-    "Integrale tweede inhoudelijke beoordeling door een andere beoordelaar niet uitgevoerd."
+    "Integrale tweede inhoudelijke beoordeling door een andere beoordelaar niet uitgevoerd.",
+    "Bronherijking 2026-11-25: uitsluitend aangewezen PDF inhoudelijk leidend; eerdere bronvarianten/besluiten blijven historisch behouden. Zie documentatie/bronherijking/bronherijking-beoordeling.csv; geen juridische of archivistische acceptatie afgeleid."
   ],
   "sha256": {
-    "bepalingen.json": "81ba7e7e6e9d50910390a2744e13fbda721c4573587669bae212c7088c0d688a",
+    "bepalingen.json": "2aa41b7c29e123c4127bc6f1cb0945a31409e6ab020e47ef50aaef1ae0b7d0fd",
     "bronannotaties.json": "65219144b6996f9ff95ed3879d330b1ea97a8a805b3525e8714c540532fe38fe",
     "codeinventaris.json": "1bbe02e316c83ad5f20a2730aee60e66e0b35b0f7555798cb9ff753c8d88b751",
     "kandidaten-ongekoppeld.json": "09a4dd39d3a27c1abaa2f63ca86fa3d6676e4d19b18e6ced561b19a96201e363",
@@ -100,12 +101,12 @@
     "structuur.json": "26a24adc1cbcf318a305a94184e9f64a36e701995a991f97d4f8f54735a5d0a2",
     "testvragen.csv": "d78bbeb458581b7183a05a55123ed68bc7bea7b22c645906392fbcc02c2208cf",
     "testvragen.json": "dab8e7da5edeb498b9788518f300fc2302ddb6a97730bc3f7f0e6a694ea3b053",
-    "validatie.json": "33c18a956738703e1298cdbcccc85b4b3c6976ae90f22c99ca81135c50f3747e",
-    "wijzigingen.json": "a817f97558f05354d5c11ee2eddea089164ab4ca7f8c2c4d622b71aeacad81c1",
+    "validatie.json": "f8729bbd9a70906818f9e880096da98c9e68edfabd881cd23d4c09f13cb3daf6",
+    "wijzigingen.json": "cff6d3d27d575107543ad637655f992c80294254bd6947e531feaa6099dd1fcd",
     "zoeklexicon.csv": "ec4555504b2b94d807a54d0d2ac91de2740ffb5029520f0d6382844d33452862",
     "zoeklexicon.json": "86bc171939b600ae506f8c23028f6bdf0a2b0016db6ac4d3865b8be09ff2933e"
   },
-  "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+  "opleverstatus": "bronherijking_ter_beoordeling",
   "controleoverdracht": {
     "werkboek": "../../controle/Controlewerkboek.xlsx",
     "instructie": "../../controle/Controle-instructie.md",

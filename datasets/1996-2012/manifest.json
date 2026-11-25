@@ -6,8 +6,8 @@
     "publicatie": "Staatscourant 2012, 11906",
     "kenmerk": "NA/12/3900"
   },
-  "datasetversie": "1.0.0-eindpakket",
-  "generatiedatum": "2026-11-10",
+  "datasetversie": "1.0.0-bronherijking-2026-11-25",
+  "generatiedatum": "2026-11-25",
   "bronnenregister": [
     {
       "id": "1996-2012-officieel",
@@ -49,6 +49,16 @@
       "oorspronkelijke_sha256": "7dfda792ce61c1a6fa28c5c116155a429560153178c6c58987eabbbe6cdf708c",
       "bestand_type": "bronbeschrijving_geen_brondocument",
       "inhoud_extern": true
+    },
+    {
+      "id": "1996-2012-leidend-2026-11-25",
+      "bestand": "../../bronnen/1996-2012-leidend-2026-11-25.bron.json",
+      "sha256": "2b3ebbf7aa8e3ea0070d87167b26cd8ea4ee8f068d1dac715059e449b4d832fe",
+      "status": "leidend_voor_herijking_opdracht_2026-11-25",
+      "oorspronkelijk_bestand": "extern/Geactualisteerde Selectielijst 2012.pdf",
+      "oorspronkelijke_sha256": "cad76fc4edc14aef32df2b2d2ee2825d1d96bd73e6e8e0ccd8f5ca5bbfb9e242",
+      "bestand_type": "bronbeschrijving_geen_brondocument",
+      "inhoud_extern": true
     }
   ],
   "aantallen": {
@@ -65,26 +75,26 @@
     "ai_voorgestelde_termrelaties": 157,
     "relaties": 1111,
     "testvragen": 55,
-    "records_met_open_bronvraag": 0,
+    "records_met_open_bronvraag": 77,
     "nog_niet_gevalideerde_zoekvoorstellen": 148,
     "lege_aanvangsmomentvelden": 380,
     "bronannotaties": 0
   },
   "validatiestatus": {
     "technische_validatie": "geslaagd",
-    "bronverificatie": "alle_selectieregels_geautomatiseerd_en_gerichte_afwijkingenbeoordeling",
+    "bronverificatie": "bronherijking_2026_11_25_volledige_pagina_en_tabelinventaris_met_open_beoordelingsregister",
     "integrale_menselijke_tweede_lezing": false,
-    "volledigheidscontrole": "volledige_termijnkolom_en_koppeninventaris",
-    "open_bronvragen": 0,
+    "volledigheidscontrole": "onafhankelijke_waarderingsankers_en_bestaande_segmentlocaties",
+    "open_bronvragen": 79,
     "toepasselijkheidsbeslissingen_gevalideerd": false,
     "semantische_volledigheid": "geen_onbegrensde_volledigheidsclaim; beschikbare_rapporttekst_verwerkt",
-    "status": "oplevering_afgerond_met_bronannotaties",
+    "status": "technische_bronherijking_met_behouden_brononzekerheden",
     "aanvullende_controle": {
       "records": 494,
       "nieuwe_extractieafwijkingen": 0,
       "methode": "zie_documentatie_aanvullende_broncontrole"
     },
-    "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+    "opleverstatus": "bronherijking_ter_beoordeling",
     "verplichte_tweede_beoordelaar": false
   },
   "officiele_gegevens_volledigheid": "hoofdstukken_2_en_3_technisch_gedekt_met_gedeelde_cellen_en_context",
@@ -92,27 +102,28 @@
     "Geen automatische juridische of archivistische toepasselijkheidsbeslissing.",
     "Aanvangsmomenten en voorwaarden blijven waar nodig in officiële tekst en algemene bepalingen staan; niet alle velden zijn afzonderlijk geïnterpreteerd.",
     "AI-voorstellen blijven als voorstel herkenbaar; niet-gevalideerde voorstellen standaard uitsluiten.",
-    "Integrale tweede inhoudelijke beoordeling door een andere beoordelaar niet uitgevoerd."
+    "Integrale tweede inhoudelijke beoordeling door een andere beoordelaar niet uitgevoerd.",
+    "Bronherijking 2026-11-25: uitsluitend aangewezen PDF inhoudelijk leidend; eerdere bronvarianten/besluiten blijven historisch behouden. Zie documentatie/bronherijking/bronherijking-beoordeling.csv; geen juridische of archivistische acceptatie afgeleid."
   ],
   "sha256": {
-    "bepalingen.json": "722dd40bade3b94fe8f02b2712bff2b9129214f618457c619ba70d272f0650c1",
+    "bepalingen.json": "6447354dc0b4e8497e11eb4b4d63b399a3f8865d5c012fd9b3383dd2b519baaf",
     "bronannotaties.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
     "codeinventaris.json": "bee4e3c8726e0efacb4ee503964694697a3cb5335b21b824187895361a3f846d",
     "kandidaten-ongekoppeld.json": "5916a4985576c9446e56a039c08865787653957d7bc0861873c558d710d30838",
-    "relaties.csv": "3fcf189a7c7b56555aa184dd7d2338584b91a5c7d18a1739a14c51680b9e9306",
-    "relaties.json": "416f7e03281a4bd993a805a55aa852f6d9d70fa881435f824df94a8461abf328",
-    "rubriekcontext.json": "e3ab01120a95bce5762ade039a7793a4e0d59b5717e1f058c312624a07f66d27",
-    "selectiegegevens.csv": "2a7e9eedcd8ccda7a1c35c03e7187d92b3fa1280855fec4ed29757dc8cba7d7b",
-    "selectiegegevens.json": "18bae451fcacdab7c28099c547c41c730022670346877a541dd30cb4f7c3ff61",
-    "structuur.csv": "f7aaf05b2c6ce94e110fc7c7587ce3fe5076caf451d926de308b51eae45eb3da",
-    "structuur.json": "eee83556bcc5e567f020833c6f498b29bbf19be64be4a6489b3c1aaf95c8b1f6",
+    "relaties.csv": "00d4501d8928e89a965b1db9436f49c90a62d6e856d9da5f487966d969158f06",
+    "relaties.json": "87f11d3cbd45bdbbde5cecd55fb04135088a6f5aac95a3c2c1e037a58d6a6816",
+    "rubriekcontext.json": "0078ca6f448f3a11fff6a2f2a11289ad8834f3ccc1098fb963c582f3284f836e",
+    "selectiegegevens.csv": "3100675a1bc1c1a6c64066b8b47dc96bfc96a78df9e914f6bf2e0029f165ffe0",
+    "selectiegegevens.json": "d9858e04b3ff9f4f70bc48c256e196f88cc3fb2ebd3fad5cb61c8f8726adf958",
+    "structuur.csv": "2b798ca25703ad3cc3e9c5c3f49d15c71f04bc37a69f7c853da85141df83134f",
+    "structuur.json": "526e34ee8b42bb963b232aa2299d6e7942397f1bff3c57a6d4efd1ca4aeb76d8",
     "testvragen.csv": "587d7dc46ff17ad2a5ea23cbd0c39ea12ae6ad38755b992880e3d45969d8d4db",
     "testvragen.json": "96aaf44a9bec1d1602cf139767d6750307cab88a557533eeab604eb40b8b4537",
-    "validatie.json": "bbbbc83530db592637cee93fb243e0ff7ceb45879cc6be2d1f8a7a57d1aa07ca",
-    "zoeklexicon.csv": "2a27683ea7daf389923a4c0c8a5780f936d44263a10c363de3c7f3758e5119c0",
-    "zoeklexicon.json": "89b54258a45a67d0d82b2bea1738d75b9f90c7f97d4dcdc5837b4ba490a3eaed"
+    "validatie.json": "59596ca33678aba5e321df326fd36fe9bf9dc0fba8af4145ce5601a5a722083b",
+    "zoeklexicon.csv": "f903aee32e4120e67d912a8c4fcaa07d1007d15b326191696061a9c42029252f",
+    "zoeklexicon.json": "3382dbe287800df811269d36c047007c2613a794d1bb3f32ec2e472912c4c7ca"
   },
-  "opleverstatus": "definitief_opgeleverd_met_bronannotaties",
+  "opleverstatus": "bronherijking_ter_beoordeling",
   "controleoverdracht": {
     "werkboek": "../../controle/Controlewerkboek.xlsx",
     "instructie": "../../controle/Controle-instructie.md",
