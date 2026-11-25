@@ -1,11 +1,13 @@
 import {test,expect} from '@playwright/test';
+// DOMRect-randen kunnen door floating-pointafronding minimaal uiteenlopen.
+const afronding=0.01; // CSS-pixel; geen tolerantie voor zichtbare overlap.
 for(const breedte of [1440,390])test(`Sites-indeling en boomlink met toetsenbord op ${breedte}px`,async({page})=>{
  await page.setViewportSize({width:breedte,height:1000});await page.goto('./');
  await expect(page.getByRole('heading',{name:'Van vraag naar voorschrift'})).toBeVisible();
  await page.getByLabel('Selectielijst',{exact:true}).selectOption('2020');await expect(page.locator('.laadstatus')).toContainText('geladen.');
  const maten=await page.evaluate(()=>{const boom=document.querySelector('.zijbalk').getBoundingClientRect(),zoek=document.querySelector('.zoekgebied').getBoundingClientRect(),details=document.querySelector('#details').getBoundingClientRect();return {boom:{left:boom.left,right:boom.right,top:boom.top,bottom:boom.bottom},zoek:{left:zoek.left,top:zoek.top,bottom:zoek.bottom},detailTop:details.top,overloop:document.documentElement.scrollWidth>innerWidth};});
- expect(maten.overloop).toBe(false);expect(maten.detailTop).toBeGreaterThanOrEqual(maten.zoek.bottom);
- if(breedte>720)expect(maten.zoek.left).toBeGreaterThanOrEqual(maten.boom.right);else expect(maten.zoek.top).toBeGreaterThanOrEqual(maten.boom.bottom);
+ expect(maten.overloop).toBe(false);expect(maten.detailTop).toBeGreaterThanOrEqual(maten.zoek.bottom-afronding);
+ if(breedte>720)expect(maten.zoek.left).toBeGreaterThanOrEqual(maten.boom.right-afronding);else expect(maten.zoek.top).toBeGreaterThanOrEqual(maten.boom.bottom-afronding);
  const link=page.getByRole('link',{name:'Blader door de boomstructuur'});await link.focus();await page.keyboard.press('Enter');await expect(page.getByRole('treeitem').first()).toBeFocused();
  await page.keyboard.press('ArrowRight');await expect(page.getByRole('treeitem').first()).toHaveAttribute('aria-expanded','true');
 });

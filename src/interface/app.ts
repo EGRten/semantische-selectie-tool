@@ -28,6 +28,9 @@ export function startApplicatie(root: HTMLElement, laag = maakGegevenslaag({ dat
   const alles = knop('Alles inklappen',()=>boom?.inklappen(),'inklapknop');alles.disabled=true;
   const boomtitel=element('h2','Bladeren in de selectielijst');boomtitel.id='boom-titel';tools.append(boomtitel,alles);
   const navigatie = element('nav',undefined,'boomgebied');navigatie.setAttribute('aria-label','Boomstructuur');
+  // Voorkom een extra automatische scrollcontainer-tabstop (onder meer in Firefox).
+  // De ARIA-boom beheert zelf de zichtbare tabstop via zijn treeitems.
+  navigatie.tabIndex=-1;
   navigatie.append(element('p','De structuur verschijnt na het kiezen van een selectielijst.','hulptekst'));
   const zoekpaneel = maakZoekmodi((id) => selecteer(id), (id) => laag.laadZoekverrijking(id));
   const boomhulp=element('p','Blader met de pijltjestoetsen door de boom. Uitgeklapte onderdelen kunnen in het boomgebied worden gescrold.','scrollhulp');boomhulp.id='boom-scrollhulp';navigatie.setAttribute('aria-describedby',boomhulp.id);
