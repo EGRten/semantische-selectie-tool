@@ -1,0 +1,33 @@
+{
+  "woordafbrekingen-beoordeling.csv": {
+    "rijen": 2064,
+    "categorieen": {
+      "E": 2042,
+      "C": 3,
+      "A": 19
+    },
+    "sha256": "9b4e89772a120b9c7ad532d125d1494e4138991ef796a5ed6b76151e9a018c84"
+  },
+  "spatieproblemen-beoordeling.csv": {
+    "rijen": 116,
+    "categorieen": {
+      "E": 114,
+      "D": 2
+    },
+    "sha256": "7e471910262b8bf067f89e4e1917af9c2d9f4473b74719e184aba03b20ad6de7"
+  },
+  "uitgevoerde-correcties.csv": {
+    "rijen": 16,
+    "categorieen": {
+      "A": 16
+    },
+    "sha256": "a6923191b3d150e29e4212ba1c77e02b9723ea2419eae3768ab9de1a2ee1723a"
+  },
+  "resterende-onzekerheden.csv": {
+    "rijen": 2156,
+    "categorieen": {
+      "E": 2156
+    },
+    "sha256": "95a3bbc39e5bb3e9d4860b0f3be154bbd430d64e2e039f956f8cafae9de43e72"
+  }
+}

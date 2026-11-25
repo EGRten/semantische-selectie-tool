@@ -1,0 +1,61 @@
+﻿bestand;record_id;json_pointer;oud;nieuw;type;classificatie;bronbestand;bronhash;pdf_pagina;bbox;besluit
+datasets/2020/selectiegegevens.json;2020:3.1;/15/uitzonderingen_en_verwijzingen/officiele_tekst;"Dit gaat om processen op het gebied van bedrijfsvoering: b.v.
+persoonlijk ontwikkelingsplan, plan Wet Poortwachter, glad-
+heidsbestrijdingsplan, plan van aanpak re-integratie";"Dit gaat om processen op het gebied van bedrijfsvoering: b.v.
+persoonlijk ontwikkelingsplan, plan Wet Poortwachter, gladheidsbestrijdingsplan, plan van aanpak re-integratie";PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;27;[29, 56.579, 1160, 83.414];corrigeren
+datasets/2020/selectiegegevens.json;2020:3.1.1;/16/uitzonderingen_en_verwijzingen/officiele_tekst;"Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouw-
+programma, (strategie)visies, exploitatieplan, gemeentelijke
+rioleringsplan";"Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouwprogramma, (strategie)visies, exploitatieplan, gemeentelijke
+rioleringsplan";PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;27;[29, 83.414, 1160, 110.249];corrigeren
+datasets/2020/selectiegegevens.json;2020:3.1.2;/17/uitzonderingen_en_verwijzingen/officiele_tekst;"Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegen-
+beheerplan";Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegenbeheerplan;PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;27;[29, 110.249, 1160, 137.084];corrigeren
+datasets/2020/selectiegegevens.json;2020:5.1;/45/uitzonderingen_en_verwijzingen/officiele_tekst;"Stadspas, reclamesticker, bewegwijzering, kiezerspas, certifi-
+caat van (vrijstelling tot) sanitaire controle van een schip";Stadspas, reclamesticker, bewegwijzering, kiezerspas, certificaat van (vrijstelling tot) sanitaire controle van een schip;PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;28;[29, 77.414, 1160, 116.249];corrigeren
+datasets/2020/selectiegegevens.json;2020:5.1.1;/46/uitzonderingen_en_verwijzingen/officiele_tekst;"Afvalinzameling, afvalcontainer, rioolaansluiting, ambulan-
+cevervoer";Afvalinzameling, afvalcontainer, rioolaansluiting, ambulancevervoer;PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;28;[29, 116.249, 1160, 155.084];corrigeren
+datasets/2020/selectiegegevens.json;2020:5.1.8;/53/uitzonderingen_en_verwijzingen/officiele_tekst;"Bewaartermijn loopt vanaf de geboortedatum van de gevac-
+cineerde";Bewaartermijn loopt vanaf de geboortedatum van de gevaccineerde;PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;28;[29, 400.094, 1160, 438.929];corrigeren
+datasets/2020/selectiegegevens.json;2020:8.1;/107/uitzonderingen_en_verwijzingen/officiele_tekst;"Uitkering of inkomensvoorziening, inburgeringstraject, duur-
+zaamheidslening, krediethypotheek.";Uitkering of inkomensvoorziening, inburgeringstraject, duurzaamheidslening, krediethypotheek.;PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;31;[29, 110.249, 1160, 143.084];corrigeren
+datasets/2020/selectiegegevens.json;2020:9.1;/132/uitzonderingen_en_verwijzingen/officiele_tekst;"Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulp-
+verlening, vertrouwenspersoon, Buitengewoon ambtenaar
+van de burgerlijke stand, gemeentelijke vertegenwoordiger,
+WKPB-registratie";"Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulpverlening, vertrouwenspersoon, Buitengewoon ambtenaar
+van de burgerlijke stand, gemeentelijke vertegenwoordiger,
+WKPB-registratie";PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;32;[29, 220.754, 1160, 253.589];corrigeren
+datasets/2020/selectiegegevens.json;2020:11.1.1;/160/uitzonderingen_en_verwijzingen/officiele_tekst;"Evenementenmelding, verlof tot begraven of opgraven, vakan-
+tietoestemming uitkeringsgerechtigde";Evenementenmelding, verlof tot begraven of opgraven, vakantietoestemming uitkeringsgerechtigde;PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;33;[29, 417.764, 1160, 438.599];corrigeren
+datasets/2020/selectiegegevens.json;2020:15.1;/225/uitzonderingen_en_verwijzingen/officiele_tekst;"Jaarlijks onderhoud, reparatie, grafruiming, automatiseringspro-
+gramma, BRP foutmelding, melding openbare ruimte";Jaarlijks onderhoud, reparatie, grafruiming, automatiseringsprogramma, BRP foutmelding, melding openbare ruimte;PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;36;[29, 160.754, 1160, 181.589];corrigeren
+datasets/2020/selectiegegevens.json;2020:16.1;/232/uitzonderingen_en_verwijzingen/officiele_tekst;"Garantstelling, inkoopovereenkomst, huur, pacht, ingebruikge-
+ving, verkoop roerend goed, lening";Garantstelling, inkoopovereenkomst, huur, pacht, ingebruikgeving, verkoop roerend goed, lening;PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;36;[29, 312.599, 1160, 333.434];corrigeren
+datasets/2020/selectiegegevens.json;2020:17.3;/251/uitzonderingen_en_verwijzingen/officiele_tekst;"Functiewijziging, wijziging betrekking, functieschaal, loontoe-
+slag, detachering";Functiewijziging, wijziging betrekking, functieschaal, loontoeslag, detachering;PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;37;[29, 56.579, 1160, 83.414];corrigeren
+datasets/2020/selectiegegevens.json;2020:19.1;/265/uitzonderingen_en_verwijzingen/officiele_tekst;"Gegevens verwerken, watervergunning/-melding, beslag-
+legging, (overige) hulpadministraties zonder financiele
+consequenties";"Gegevens verwerken, watervergunning/-melding, beslaglegging, (overige) hulpadministraties zonder financiele
+consequenties";PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;37;[29, 444.269, 1160, 471.104];corrigeren
+datasets/2020/selectiegegevens.json;2020:22.1.2;/310/uitzonderingen_en_verwijzingen/officiele_tekst;"vernietigen na 3 maanden: de verzegelde pakketten van de
+stembureaus met de te laat ontvangen en onvoldoende ge-
+frankeerde retourenveloppen, niet op correcte wijze verzonden
+stembiljetten en briefstembewijzen, geldige of onbruikbaar
+gemaakte stempassen, kiezerspassen en volmachtbewijzen,
+geldige, ongeldig verklaarde, onbruikbaar gemaakte en niet
+gebruikte stembiljetten en de stembiljetten met een blanco
+stem, de processen-verbaal van de stembureaus en de besluiten tot nieuwe opneming van stembiljetten van het centraal
+stembureau";"vernietigen na 3 maanden: de verzegelde pakketten van de
+stembureaus met de te laat ontvangen en onvoldoende gefrankeerde retourenveloppen, niet op correcte wijze verzonden
+stembiljetten en briefstembewijzen, geldige of onbruikbaar
+gemaakte stempassen, kiezerspassen en volmachtbewijzen,
+geldige, ongeldig verklaarde, onbruikbaar gemaakte en niet
+gebruikte stembiljetten en de stembiljetten met een blanco
+stem, de processen-verbaal van de stembureaus en de besluiten tot nieuwe opneming van stembiljetten van het centraal
+stembureau";PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;39;[29, 139.919, 1160, 202.754];corrigeren
+datasets/2020/selectiegegevens.json;2020:22.1.3;/311/uitzonderingen_en_verwijzingen/officiele_tekst;"vernietigen na 3 maanden: de verzegelde pakketten van de
+stembureaus met de te laat ontvangen en onvoldoende ge-
+frankeerde retourenveloppen, niet op correcte wijze verzonden
+stembiljetten en briefstembewijzen, geldige of onbruikbaar";"vernietigen na 3 maanden: de verzegelde pakketten van de
+stembureaus met de te laat ontvangen en onvoldoende gefrankeerde retourenveloppen, niet op correcte wijze verzonden
+stembiljetten en briefstembewijzen, geldige of onbruikbaar";PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;39;[29, 202.754, 1160, 235.589];corrigeren
+datasets/2020/selectiegegevens.json;2020:26.1;/334/uitzonderingen_en_verwijzingen/officiele_tekst;"Bezwaar en beroep ingediend door het orgaan, aansprakelijk-
+stelling richting een derde";Bezwaar en beroep ingediend door het orgaan, aansprakelijkstelling richting een derde;PDF-regelafbreking;A;Geactualiseerde Gemeentelijke Selectielijst 2020.pdf;0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c;39;[29, 717.953, 1160, 744.788];corrigeren

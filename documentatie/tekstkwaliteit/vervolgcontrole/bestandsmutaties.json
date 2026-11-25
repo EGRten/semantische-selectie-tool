@@ -1,0 +1,10 @@
+{
+  "datasets/2020/selectiegegevens.json": {
+    "voor_sha256": "a3ef0b1221ac1c302744431065b236982e0d3a5f18cc1a09f30eb95321164586",
+    "na_sha256": "0504698d29fb09754061afdb64ed6f980e38917f5c6e1944b70637c235a6ce9a"
+  },
+  "publicatie/2020.json": {
+    "voor_sha256": "401910aebc4e8ecf5624582a0eb7c00eab12d5cdebc7b0cc724e42e1324eb665",
+    "na_sha256": "585aa6954faebfa7b971ddbfc9be628a496ede475aae2a9efdf45aaa308f2285"
+  }
+}
