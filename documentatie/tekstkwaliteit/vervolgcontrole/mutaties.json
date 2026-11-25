@@ -1,0 +1,610 @@
+[
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:3.1",
+    "json_pointer": "/15/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Dit gaat om processen op het gebied van bedrijfsvoering: b.v.\npersoonlijk ontwikkelingsplan, plan Wet Poortwachter, glad-\nheidsbestrijdingsplan, plan van aanpak re-integratie",
+    "nieuw": "Dit gaat om processen op het gebied van bedrijfsvoering: b.v.\npersoonlijk ontwikkelingsplan, plan Wet Poortwachter, gladheidsbestrijdingsplan, plan van aanpak re-integratie",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 27,
+    "bbox": [
+      29,
+      56.579,
+      1160,
+      83.414
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:3.1.1",
+    "json_pointer": "/16/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouw-\nprogramma, (strategie)visies, exploitatieplan, gemeentelijke\nrioleringsplan",
+    "nieuw": "Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouwprogramma, (strategie)visies, exploitatieplan, gemeentelijke\nrioleringsplan",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 27,
+    "bbox": [
+      29,
+      83.414,
+      1160,
+      110.249
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:3.1.2",
+    "json_pointer": "/17/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegen-\nbeheerplan",
+    "nieuw": "Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegenbeheerplan",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 27,
+    "bbox": [
+      29,
+      110.249,
+      1160,
+      137.084
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:5.1",
+    "json_pointer": "/45/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Stadspas, reclamesticker, bewegwijzering, kiezerspas, certifi-\ncaat van (vrijstelling tot) sanitaire controle van een schip",
+    "nieuw": "Stadspas, reclamesticker, bewegwijzering, kiezerspas, certificaat van (vrijstelling tot) sanitaire controle van een schip",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 28,
+    "bbox": [
+      29,
+      77.414,
+      1160,
+      116.249
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:5.1.1",
+    "json_pointer": "/46/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Afvalinzameling, afvalcontainer, rioolaansluiting, ambulan-\ncevervoer",
+    "nieuw": "Afvalinzameling, afvalcontainer, rioolaansluiting, ambulancevervoer",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 28,
+    "bbox": [
+      29,
+      116.249,
+      1160,
+      155.084
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:5.1.8",
+    "json_pointer": "/53/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Bewaartermijn loopt vanaf de geboortedatum van de gevac-\ncineerde",
+    "nieuw": "Bewaartermijn loopt vanaf de geboortedatum van de gevaccineerde",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 28,
+    "bbox": [
+      29,
+      400.094,
+      1160,
+      438.929
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:8.1",
+    "json_pointer": "/107/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Uitkering of inkomensvoorziening, inburgeringstraject, duur-\nzaamheidslening, krediethypotheek.",
+    "nieuw": "Uitkering of inkomensvoorziening, inburgeringstraject, duurzaamheidslening, krediethypotheek.",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 31,
+    "bbox": [
+      29,
+      110.249,
+      1160,
+      143.084
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:9.1",
+    "json_pointer": "/132/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulp-\nverlening, vertrouwenspersoon, Buitengewoon ambtenaar\nvan de burgerlijke stand, gemeentelijke vertegenwoordiger,\nWKPB-registratie",
+    "nieuw": "Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulpverlening, vertrouwenspersoon, Buitengewoon ambtenaar\nvan de burgerlijke stand, gemeentelijke vertegenwoordiger,\nWKPB-registratie",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 32,
+    "bbox": [
+      29,
+      220.754,
+      1160,
+      253.589
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:11.1.1",
+    "json_pointer": "/160/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Evenementenmelding, verlof tot begraven of opgraven, vakan-\ntietoestemming uitkeringsgerechtigde",
+    "nieuw": "Evenementenmelding, verlof tot begraven of opgraven, vakantietoestemming uitkeringsgerechtigde",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 33,
+    "bbox": [
+      29,
+      417.764,
+      1160,
+      438.599
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:15.1",
+    "json_pointer": "/225/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Jaarlijks onderhoud, reparatie, grafruiming, automatiseringspro-\ngramma, BRP foutmelding, melding openbare ruimte",
+    "nieuw": "Jaarlijks onderhoud, reparatie, grafruiming, automatiseringsprogramma, BRP foutmelding, melding openbare ruimte",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 36,
+    "bbox": [
+      29,
+      160.754,
+      1160,
+      181.589
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:16.1",
+    "json_pointer": "/232/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Garantstelling, inkoopovereenkomst, huur, pacht, ingebruikge-\nving, verkoop roerend goed, lening",
+    "nieuw": "Garantstelling, inkoopovereenkomst, huur, pacht, ingebruikgeving, verkoop roerend goed, lening",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 36,
+    "bbox": [
+      29,
+      312.599,
+      1160,
+      333.434
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:17.3",
+    "json_pointer": "/251/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Functiewijziging, wijziging betrekking, functieschaal, loontoe-\nslag, detachering",
+    "nieuw": "Functiewijziging, wijziging betrekking, functieschaal, loontoeslag, detachering",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 37,
+    "bbox": [
+      29,
+      56.579,
+      1160,
+      83.414
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:19.1",
+    "json_pointer": "/265/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Gegevens verwerken, watervergunning/-melding, beslag-\nlegging, (overige) hulpadministraties zonder financiele\nconsequenties",
+    "nieuw": "Gegevens verwerken, watervergunning/-melding, beslaglegging, (overige) hulpadministraties zonder financiele\nconsequenties",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 37,
+    "bbox": [
+      29,
+      444.269,
+      1160,
+      471.104
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:22.1.2",
+    "json_pointer": "/310/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende ge-\nfrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar\ngemaakte stempassen, kiezerspassen en volmachtbewijzen,\ngeldige, ongeldig verklaarde, onbruikbaar gemaakte en niet\ngebruikte stembiljetten en de stembiljetten met een blanco\nstem, de processen-verbaal van de stembureaus en de besluiten tot nieuwe opneming van stembiljetten van het centraal\nstembureau",
+    "nieuw": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende gefrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar\ngemaakte stempassen, kiezerspassen en volmachtbewijzen,\ngeldige, ongeldig verklaarde, onbruikbaar gemaakte en niet\ngebruikte stembiljetten en de stembiljetten met een blanco\nstem, de processen-verbaal van de stembureaus en de besluiten tot nieuwe opneming van stembiljetten van het centraal\nstembureau",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 39,
+    "bbox": [
+      29,
+      139.919,
+      1160,
+      202.754
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:22.1.3",
+    "json_pointer": "/311/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende ge-\nfrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar",
+    "nieuw": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende gefrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 39,
+    "bbox": [
+      29,
+      202.754,
+      1160,
+      235.589
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "datasets/2020/selectiegegevens.json",
+    "record_id": "2020:26.1",
+    "json_pointer": "/334/uitzonderingen_en_verwijzingen/officiele_tekst",
+    "oud": "Bezwaar en beroep ingediend door het orgaan, aansprakelijk-\nstelling richting een derde",
+    "nieuw": "Bezwaar en beroep ingediend door het orgaan, aansprakelijkstelling richting een derde",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 39,
+    "bbox": [
+      29,
+      717.953,
+      1160,
+      744.788
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:3.1",
+    "json_pointer": "/rijen/15/notities/4/tekst",
+    "oud": "Dit gaat om processen op het gebied van bedrijfsvoering: b.v.\npersoonlijk ontwikkelingsplan, plan Wet Poortwachter, glad-\nheidsbestrijdingsplan, plan van aanpak re-integratie",
+    "nieuw": "Dit gaat om processen op het gebied van bedrijfsvoering: b.v.\npersoonlijk ontwikkelingsplan, plan Wet Poortwachter, gladheidsbestrijdingsplan, plan van aanpak re-integratie",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 27,
+    "bbox": [
+      29,
+      56.579,
+      1160,
+      83.414
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:3.1.1",
+    "json_pointer": "/rijen/16/notities/5/tekst",
+    "oud": "Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouw-\nprogramma, (strategie)visies, exploitatieplan, gemeentelijke\nrioleringsplan",
+    "nieuw": "Beleidsplan Jeugdzorg, WMO beleidsplan, woningbouwprogramma, (strategie)visies, exploitatieplan, gemeentelijke\nrioleringsplan",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 27,
+    "bbox": [
+      29,
+      83.414,
+      1160,
+      110.249
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:3.1.2",
+    "json_pointer": "/rijen/17/notities/4/tekst",
+    "oud": "Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegen-\nbeheerplan",
+    "nieuw": "Onderhoudsplan, rioleringsplan t.b.v. onderhoud, wegenbeheerplan",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 27,
+    "bbox": [
+      29,
+      110.249,
+      1160,
+      137.084
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:5.1",
+    "json_pointer": "/rijen/45/notities/4/tekst",
+    "oud": "Stadspas, reclamesticker, bewegwijzering, kiezerspas, certifi-\ncaat van (vrijstelling tot) sanitaire controle van een schip",
+    "nieuw": "Stadspas, reclamesticker, bewegwijzering, kiezerspas, certificaat van (vrijstelling tot) sanitaire controle van een schip",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 28,
+    "bbox": [
+      29,
+      77.414,
+      1160,
+      116.249
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:5.1.1",
+    "json_pointer": "/rijen/46/notities/5/tekst",
+    "oud": "Afvalinzameling, afvalcontainer, rioolaansluiting, ambulan-\ncevervoer",
+    "nieuw": "Afvalinzameling, afvalcontainer, rioolaansluiting, ambulancevervoer",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 28,
+    "bbox": [
+      29,
+      116.249,
+      1160,
+      155.084
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:5.1.8",
+    "json_pointer": "/rijen/53/notities/4/tekst",
+    "oud": "Bewaartermijn loopt vanaf de geboortedatum van de gevac-\ncineerde",
+    "nieuw": "Bewaartermijn loopt vanaf de geboortedatum van de gevaccineerde",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 28,
+    "bbox": [
+      29,
+      400.094,
+      1160,
+      438.929
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:8.1",
+    "json_pointer": "/rijen/107/notities/4/tekst",
+    "oud": "Uitkering of inkomensvoorziening, inburgeringstraject, duur-\nzaamheidslening, krediethypotheek.",
+    "nieuw": "Uitkering of inkomensvoorziening, inburgeringstraject, duurzaamheidslening, krediethypotheek.",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 31,
+    "bbox": [
+      29,
+      110.249,
+      1160,
+      143.084
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:9.1",
+    "json_pointer": "/rijen/132/notities/4/tekst",
+    "oud": "Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulp-\nverlening, vertrouwenspersoon, Buitengewoon ambtenaar\nvan de burgerlijke stand, gemeentelijke vertegenwoordiger,\nWKPB-registratie",
+    "nieuw": "Verkeersbesluit, benoeming niet-personeelslid, bedrijfshulpverlening, vertrouwenspersoon, Buitengewoon ambtenaar\nvan de burgerlijke stand, gemeentelijke vertegenwoordiger,\nWKPB-registratie",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 32,
+    "bbox": [
+      29,
+      220.754,
+      1160,
+      253.589
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:11.1.1",
+    "json_pointer": "/rijen/160/notities/5/tekst",
+    "oud": "Evenementenmelding, verlof tot begraven of opgraven, vakan-\ntietoestemming uitkeringsgerechtigde",
+    "nieuw": "Evenementenmelding, verlof tot begraven of opgraven, vakantietoestemming uitkeringsgerechtigde",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 33,
+    "bbox": [
+      29,
+      417.764,
+      1160,
+      438.599
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:15.1",
+    "json_pointer": "/rijen/225/notities/4/tekst",
+    "oud": "Jaarlijks onderhoud, reparatie, grafruiming, automatiseringspro-\ngramma, BRP foutmelding, melding openbare ruimte",
+    "nieuw": "Jaarlijks onderhoud, reparatie, grafruiming, automatiseringsprogramma, BRP foutmelding, melding openbare ruimte",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 36,
+    "bbox": [
+      29,
+      160.754,
+      1160,
+      181.589
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:16.1",
+    "json_pointer": "/rijen/232/notities/4/tekst",
+    "oud": "Garantstelling, inkoopovereenkomst, huur, pacht, ingebruikge-\nving, verkoop roerend goed, lening",
+    "nieuw": "Garantstelling, inkoopovereenkomst, huur, pacht, ingebruikgeving, verkoop roerend goed, lening",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 36,
+    "bbox": [
+      29,
+      312.599,
+      1160,
+      333.434
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:17.3",
+    "json_pointer": "/rijen/251/notities/4/tekst",
+    "oud": "Functiewijziging, wijziging betrekking, functieschaal, loontoe-\nslag, detachering",
+    "nieuw": "Functiewijziging, wijziging betrekking, functieschaal, loontoeslag, detachering",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 37,
+    "bbox": [
+      29,
+      56.579,
+      1160,
+      83.414
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:19.1",
+    "json_pointer": "/rijen/265/notities/4/tekst",
+    "oud": "Gegevens verwerken, watervergunning/-melding, beslag-\nlegging, (overige) hulpadministraties zonder financiele\nconsequenties",
+    "nieuw": "Gegevens verwerken, watervergunning/-melding, beslaglegging, (overige) hulpadministraties zonder financiele\nconsequenties",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 37,
+    "bbox": [
+      29,
+      444.269,
+      1160,
+      471.104
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:22.1.2",
+    "json_pointer": "/rijen/310/notities/4/tekst",
+    "oud": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende ge-\nfrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar\ngemaakte stempassen, kiezerspassen en volmachtbewijzen,\ngeldige, ongeldig verklaarde, onbruikbaar gemaakte en niet\ngebruikte stembiljetten en de stembiljetten met een blanco\nstem, de processen-verbaal van de stembureaus en de besluiten tot nieuwe opneming van stembiljetten van het centraal\nstembureau",
+    "nieuw": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende gefrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar\ngemaakte stempassen, kiezerspassen en volmachtbewijzen,\ngeldige, ongeldig verklaarde, onbruikbaar gemaakte en niet\ngebruikte stembiljetten en de stembiljetten met een blanco\nstem, de processen-verbaal van de stembureaus en de besluiten tot nieuwe opneming van stembiljetten van het centraal\nstembureau",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 39,
+    "bbox": [
+      29,
+      139.919,
+      1160,
+      202.754
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:22.1.3",
+    "json_pointer": "/rijen/311/notities/4/tekst",
+    "oud": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende ge-\nfrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar",
+    "nieuw": "vernietigen na 3 maanden: de verzegelde pakketten van de\nstembureaus met de te laat ontvangen en onvoldoende gefrankeerde retourenveloppen, niet op correcte wijze verzonden\nstembiljetten en briefstembewijzen, geldige of onbruikbaar",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 39,
+    "bbox": [
+      29,
+      202.754,
+      1160,
+      235.589
+    ],
+    "besluit": "corrigeren"
+  },
+  {
+    "bestand": "publicatie/2020.json",
+    "record_id": "2020:26.1",
+    "json_pointer": "/rijen/334/notities/4/tekst",
+    "oud": "Bezwaar en beroep ingediend door het orgaan, aansprakelijk-\nstelling richting een derde",
+    "nieuw": "Bezwaar en beroep ingediend door het orgaan, aansprakelijkstelling richting een derde",
+    "type": "PDF-regelafbreking",
+    "classificatie": "A",
+    "bronbestand": "Geactualiseerde Gemeentelijke Selectielijst 2020.pdf",
+    "bronhash": "0174fda6020ebee109d2f5da5731078196fd46970c2d8aa5e9e452f1d21e073c",
+    "pdf_pagina": 39,
+    "bbox": [
+      29,
+      717.953,
+      1160,
+      744.788
+    ],
+    "besluit": "corrigeren"
+  }
+]

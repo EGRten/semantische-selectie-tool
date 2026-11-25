@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+const read=async p=>JSON.parse(await readFile(p,'utf8'));
+test('vervolgcontrole: geneste leesbare uitzonderingen zijn hersteld en ruwe bronrijen blijven letterlijk',async()=>{
+ const records=await read('datasets/2020/selectiegegevens.json');
+ const r=records.find(x=>x.id==='2020:3.1');
+ assert.match(r.uitzonderingen_en_verwijzingen.officiele_tekst,/gladheidsbestrijdingsplan/);
+ assert.doesNotMatch(r.uitzonderingen_en_verwijzingen.officiele_tekst,/glad-\s+heidsbestrijdingsplan/);
+ assert.match(JSON.stringify(r.officiele_bronrij),/glad-\\nheidsbestrijdingsplan/);
+ const pub=await read('publicatie/2020.json');
+ assert.match(JSON.stringify(pub.rijen.find(x=>x.id==='2020:3.1')),/gladheidsbestrijdingsplan/);
+});
