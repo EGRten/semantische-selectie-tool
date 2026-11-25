@@ -40,7 +40,9 @@ De actuele bestandshashes en actuele integriteitsreferentie zijn opnieuw bereken
 | Bronbeelden opnieuw gerenderd | Alle vijf PNG-bestanden byte-identiek aan de beoordeelde bewijsbladen. |
 | `npm run test:unit` | 182 tests: 164 geslaagd, 0 mislukt, 18 overgeslagen. Inclusief integratie, schemacontrole, Excel-teruglezing, artifactgrenzen en vijf tekstkwaliteitsregressies. |
 | Playwright Chromium, compat-config onder `/semantische-selectie-tool/` | Alle 156 tests geslaagd, geen skips. Inclusief drie nieuwe tekstkwaliteitsgevallen, alle lijsten, beide zoekmodi, boom/details, concordans, tabellen, vier downloads, responsiviteit en bestaande toetsenbordproeven. |
-| Diffcontrole met `core.whitespace=cr-at-eol` | Geslaagd; bestaande CSV-CRLF blijft behouden. |
+| Diffcontrole op code, Markdown en JSON (`core.whitespace=cr-at-eol`) | Geslaagd. CSV-bewijsvelden uitgezonderd: daarin staan bewust letterlijke bronspaties en regeleinden. |
+
+Een volledige `git diff --check` meldt ook de letterlijke randspaties in CSV-broncitaten. Die bewijswaarden zijn bewust niet opgeschoond; de afzonderlijke code-/Markdown-/JSON-controle sluit CSV uit. Dit is geen geclaimde volledige schone whitespacecontrole van broncitaten.
 
 De bestaande Excel-tests lezen voor alle drie selectielijsten de echte XLSX als ZIP/XML terug en vergelijken iedere primaire cel met de huidige publieke projectie, inclusief de gecorrigeerde tekst en aanvullende pagina-inhoud. De browsercontrole laat tevens de vier echte downloads plaatsvinden. Er is geen desktop-Excel-/schermlezertest geclaimd.
 
